@@ -531,6 +531,22 @@ export function SessionReader({
   }, [phase]);
 
   useEffect(() => {
+    if (mode !== "paced" || phase !== "reading") {
+      return;
+    }
+
+    // Paced pages are one-way: trap the browser back button so a reader
+    // can't navigate away to revisit a page already shown.
+    window.history.pushState(null, "", window.location.href);
+    function handlePopState() {
+      window.history.pushState(null, "", window.location.href);
+    }
+
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
+  }, [mode, phase, pageIndex]);
+
+  useEffect(() => {
     if (store === null || hasCheckedResumeRef.current) {
       return;
     }
