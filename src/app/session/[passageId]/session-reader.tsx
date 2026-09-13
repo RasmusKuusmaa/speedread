@@ -247,13 +247,39 @@ function FinishedScreen({
   );
 }
 
+function EvidenceParagraph({
+  text,
+  range,
+}: {
+  text: string;
+  range: { start: number; end: number } | null;
+}) {
+  if (range === null) {
+    return <p>{text}</p>;
+  }
+  return (
+    <p>
+      {text.slice(0, range.start)}
+      <mark className="bg-signal/20 text-ink">
+        {text.slice(range.start, range.end)}
+      </mark>
+      {text.slice(range.end)}
+    </p>
+  );
+}
+
 function ReviewScreen({
+  paragraphs,
   questions,
   answers,
 }: {
+  paragraphs: string[];
   questions: Question[];
   answers: number[];
 }) {
+  const [selectedQuestionIndex, setSelectedQuestionIndex] = useState(0);
+  const selectedQuestion = questions[selectedQuestionIndex];
+
   return (
     <main className="flex flex-1 flex-col gap-8 py-16">
       <h1 className="font-serif text-2xl text-ink">Review</h1>
@@ -262,26 +288,52 @@ function ReviewScreen({
           const chosenIndex = answers[index];
           const isCorrect = chosenIndex === question.answerIndex;
           return (
-            <li
-              key={question.id}
-              className="flex flex-col gap-2 border-b border-rule pb-6"
-            >
-              <p className="font-serif text-base text-ink">{question.prompt}</p>
-              <p className="font-sans text-sm text-muted">
-                Your answer:{" "}
-                {chosenIndex !== undefined
-                  ? question.options[chosenIndex]
-                  : "—"}
-              </p>
-              {!isCorrect && (
-                <p className="font-sans text-sm text-muted">
-                  Correct answer: {question.options[question.answerIndex]}
+            <li key={question.id} className="border-b border-rule pb-6">
+              <button
+                type="button"
+                onClick={() => setSelectedQuestionIndex(index)}
+                aria-pressed={index === selectedQuestionIndex}
+                className={`flex w-full flex-col gap-2 text-left ${
+                  index === selectedQuestionIndex ? "text-ink" : ""
+                }`}
+              >
+                <p className="font-serif text-base text-ink">
+                  {question.prompt}
                 </p>
-              )}
+                <p className="font-sans text-sm text-muted">
+                  Your answer:{" "}
+                  {chosenIndex !== undefined
+                    ? question.options[chosenIndex]
+                    : "—"}
+                </p>
+                {!isCorrect && (
+                  <p className="font-sans text-sm text-muted">
+                    Correct answer: {question.options[question.answerIndex]}
+                  </p>
+                )}
+              </button>
             </li>
           );
         })}
       </ol>
+      {selectedQuestion && (
+        <article className="mx-auto flex max-w-[66ch] flex-col gap-6 border-t border-rule pt-8 font-serif text-[19px] leading-[1.65] text-ink">
+          {paragraphs.map((paragraph, index) => (
+            <EvidenceParagraph
+              key={index}
+              text={paragraph}
+              range={
+                index === selectedQuestion.evidence.paragraphIndex
+                  ? {
+                      start: selectedQuestion.evidence.start,
+                      end: selectedQuestion.evidence.end,
+                    }
+                  : null
+              }
+            />
+          ))}
+        </article>
+      )}
     </main>
   );
 }
@@ -437,6 +489,12 @@ export function SessionReader({
         />
       );
     case "review":
-      return <ReviewScreen questions={questions} answers={answers} />;
+      return (
+        <ReviewScreen
+          paragraphs={passage.body}
+          questions={questions}
+          answers={answers}
+        />
+      );
   }
 }
