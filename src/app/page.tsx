@@ -5,18 +5,41 @@ import { useState } from "react";
 import { pickCalibrationPassageId } from "@/lib/calibration/pick-passage";
 import { loadPassages } from "@/lib/content/loader";
 import { useStore } from "@/lib/storage/store-provider";
+import type { SessionRecord } from "@/lib/storage/types";
+
+const RECALIBRATION_INTERVAL_MS = 14 * 24 * 60 * 60 * 1000;
+
+function mostRecentCalibration(
+  sessions: SessionRecord[],
+): SessionRecord | null {
+  let mostRecent: SessionRecord | null = null;
+  for (const session of sessions) {
+    if (session.sessionContext !== "calibration") {
+      continue;
+    }
+    if (
+      mostRecent === null ||
+      session.timings.startedAtEpochMs > mostRecent.timings.startedAtEpochMs
+    ) {
+      mostRecent = session;
+    }
+  }
+  return mostRecent;
+}
 
 function CalibrationPrompt() {
   const { store } = useStore();
+  const [now] = useState(() => Date.now());
 
   if (store === null) {
     return null;
   }
 
-  const hasCalibrated = store.sessions.some(
-    (session) => session.sessionContext === "calibration",
-  );
-  if (hasCalibrated) {
+  const lastCalibration = mostRecentCalibration(store.sessions);
+  const isDue =
+    lastCalibration === null ||
+    now - lastCalibration.timings.startedAtEpochMs >= RECALIBRATION_INTERVAL_MS;
+  if (!isDue) {
     return null;
   }
 
@@ -29,14 +52,17 @@ function CalibrationPrompt() {
     <div className="flex flex-col gap-3">
       <h2 className="font-sans text-sm text-muted">Baseline</h2>
       <p className="font-sans text-base text-ink">
-        Before you start practicing, read one short passage so your training
-        has a fixed point to measure from. It&apos;s a baseline, not a test.
+        {lastCalibration === null
+          ? "Before you start practicing, read one short passage so your training has a fixed point to measure from. It's a baseline, not a test."
+          : "It's been a couple of weeks since your last baseline. Read one short passage to keep it current."}
       </p>
       <Link
         href={`/session/${passageId}?context=calibration`}
         className="text-ink underline"
       >
-        Start your baseline
+        {lastCalibration === null
+          ? "Start your baseline"
+          : "Recheck your baseline"}
       </Link>
     </div>
   );
