@@ -1,0 +1,325 @@
+{
+  "id": "poe-black-cat-walled-up",
+  "title": "Walled Up Within the Tomb",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/2148",
+  "attribution": "Excerpted verbatim from \"The Black Cat\" by Edgar Allan Poe (1843), collected in The Works of Edgar Allan Poe.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Upon the fourth day of the assassination, a party of the police came, very unexpectedly, into the house, and proceeded again to make rigorous investigation of the premises. Secure, however, in the inscrutability of my place of concealment, I felt no embarrassment whatever. The officers bade me accompany them in their search. They left no nook or corner unexplored. At length, for the third or fourth time, they descended into the cellar. I quivered not in a muscle. My heart beat calmly as that of one who slumbers in innocence. I walked the cellar from end to end. I folded my arms upon my bosom, and roamed easily to and fro. The police were thoroughly satisfied and prepared to depart. The glee at my heart was too strong to be restrained. I burned to say if but one word, by way of triumph, and to render doubly sure their assurance of my guiltlessness.",
+    "“Gentlemen,” I said at last, as the party ascended the steps, “I delight to have allayed your suspicions. I wish you all health, and a little more courtesy. By the bye, gentlemen, this—this is a very well-constructed house.” (In the rabid desire to say something easily, I scarcely knew what I uttered at all.)—“I may say an _excellently_ well-constructed house. These walls—are you going, gentlemen?—these walls are solidly put together;” and here, through the mere phrenzy of bravado, I rapped heavily, with a cane which I held in my hand, upon that very portion of the brick-work behind which stood the corpse of the wife of my bosom.",
+    "But may God shield and deliver me from the fangs of the Arch-Fiend! No sooner had the reverberation of my blows sunk into silence, than I was answered by a voice from within the tomb!—by a cry, at first muffled and broken, like the sobbing of a child, and then quickly swelling into one long, loud, and continuous scream, utterly anomalous and inhuman—a howl—a wailing shriek, half of horror and half of triumph, such as might have arisen only out of hell, conjointly from the throats of the damned in their agony and of the demons that exult in the damnation.",
+    "Of my own thoughts it is folly to speak. Swooning, I staggered to the opposite wall. For one instant the party upon the stairs remained motionless, through extremity of terror and of awe. In the next, a dozen stout arms were toiling at the wall. It fell bodily. The corpse, already greatly decayed and clotted with gore, stood erect before the eyes of the spectators. Upon its head, with red extended mouth and solitary eye of fire, sat the hideous beast whose craft had seduced me into murder, and whose informing voice had consigned me to the hangman. I had walled the monster up within the tomb!"
+  ],
+  "questions": [
+    {
+      "id": "poe-black-cat-walled-up-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, on what day after the assassination did the police return?",
+      "options": [
+        "The fourth day",
+        "The very next day",
+        "The seventh day",
+        "A month later"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 68
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-black-cat-walled-up-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how many times had the police already descended into the cellar before this visit?",
+      "options": [
+        "For the third or fourth time",
+        "This was their first time",
+        "Twice before",
+        "They had never gone before"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 378,
+        "end": 438
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-black-cat-walled-up-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the narrator do with his arms while the police searched the cellar?",
+      "options": [
+        "Folded them upon his bosom",
+        "Raised them above his head",
+        "Hid them behind his back",
+        "Crossed them tightly and trembled"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 568,
+        "end": 628
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-black-cat-walled-up-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the narrator strike with his cane?",
+      "options": [
+        "The brick-work hiding his wife's corpse",
+        "A wooden banister",
+        "An empty barrel",
+        "The cellar door"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 542,
+        "end": 636
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-black-cat-walled-up-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened right after the narrator's blows on the wall went silent?",
+      "options": [
+        "A voice answered from within the tomb",
+        "The police immediately left",
+        "The wall collapsed on its own",
+        "Another officer knocked back"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 136,
+        "end": 182
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-black-cat-walled-up-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the narrator feel no embarrassment during the search?",
+      "options": [
+        "He felt secure in the concealment of his hiding place",
+        "He believed the police were his friends",
+        "He had already confessed earlier that day",
+        "He did not understand what the police were doing"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 173,
+        "end": 272
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-black-cat-walled-up-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the narrator rap on the wall and praise the house's construction?",
+      "options": [
+        "A reckless bravado made him boast, even though it was dangerous",
+        "He wanted to test whether the wall was hollow",
+        "The police asked him to demonstrate the wall's strength",
+        "He was trying to warn the creature inside"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 450,
+        "end": 503
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-black-cat-walled-up-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what caused the scream that came from within the wall?",
+      "options": [
+        "A living creature had been sealed inside the tomb with the corpse",
+        "The wind was passing through a crack in the brick-work",
+        "One of the officers cried out in fear",
+        "The corpse itself had somehow revived"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 433,
+        "end": 493
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-black-cat-walled-up-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "The narrator's boastful tapping on the wall exposed the hidden corpse and the creature sealed with it",
+        "The police found nothing and left satisfied",
+        "The narrator confessed voluntarily before any wall was touched",
+        "The corpse was never discovered by the police"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 554,
+        "end": 598
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-black-cat-walled-up-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the narrator felt \"glee\" too strong to restrain?",
+      "options": [
+        "A triumphant, gleeful satisfaction",
+        "A wave of nausea",
+        "A deep sadness",
+        "A sudden confusion"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 691,
+        "end": 743
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-black-cat-walled-up-r1",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the officers do before descending to the cellar again?",
+      "options": [
+        "They left no nook or corner unexplored",
+        "They questioned the neighbors first",
+        "They searched only the upper floors",
+        "They waited outside for reinforcements"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 327,
+        "end": 365
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-black-cat-walled-up-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the narrator say about the house to the departing officers?",
+      "options": [
+        "That it was a very well-constructed house",
+        "That it was too old to be safe",
+        "That he wished to sell it soon",
+        "That the cellar needed repairs"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 180,
+        "end": 222
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-black-cat-walled-up-r3",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how did the narrator describe the scream from within the wall?",
+      "options": [
+        "A wailing shriek, half of horror and half of triumph",
+        "A faint, barely audible whisper",
+        "A cheerful greeting",
+        "A single sharp cough"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 352,
+        "end": 411
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-black-cat-walled-up-r4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what condition was the corpse in when the wall fell?",
+      "options": [
+        "Greatly decayed and clotted with gore",
+        "Perfectly preserved",
+        "Reduced entirely to bone",
+        "Wrapped neatly in cloth"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 262,
+        "end": 332
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-black-cat-walled-up-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the party on the stairs remain motionless at first?",
+      "options": [
+        "They were frozen by terror and awe",
+        "They were waiting for orders",
+        "They had not heard the scream",
+        "They thought it was a trick"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 101,
+        "end": 186
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-black-cat-walled-up-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happened when the wall was torn down?",
+      "options": [
+        "The corpse was revealed with a hideous creature perched on its head",
+        "The wall was found to be completely empty",
+        "The police discovered a second hidden room",
+        "The corpse had already been removed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 368,
+        "end": 454
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-black-cat-walled-up-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the narrator spoke through sheer \"bravado\"?",
+      "options": [
+        "A reckless display of boldness",
+        "A quiet, careful whisper",
+        "An honest admission of guilt",
+        "A polite formality"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 450,
+        "end": 485
+      },
+      "pool": "retest"
+    }
+  ]
+}
