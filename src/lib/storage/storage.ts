@@ -39,3 +39,31 @@ export function writeStore(store: Store): StorageResult<void> {
     };
   }
 }
+
+export function defaultStore(): Store {
+  return {
+    schemaVersion: 1,
+    createdAt: new Date().toISOString(),
+    settings: {},
+    sessions: [],
+    retests: [],
+    calibration: [],
+  };
+}
+
+export function loadStore(): StorageResult<Store> {
+  const result = readStore();
+  if (!result.ok) {
+    return result;
+  }
+  if (result.value !== null) {
+    return { ok: true, value: result.value };
+  }
+
+  const seeded = defaultStore();
+  const writeResult = writeStore(seeded);
+  if (!writeResult.ok) {
+    return writeResult;
+  }
+  return { ok: true, value: seeded };
+}
