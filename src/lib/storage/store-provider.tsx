@@ -8,6 +8,7 @@ import {
   useState,
   type ReactNode,
 } from "react";
+import { pruneStaleRetests } from "@/lib/spaced/expire-retests";
 import { loadStore, writeStore } from "./storage";
 import type { Store } from "./types";
 
@@ -27,10 +28,19 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   // pass than what the server sent, and React would flag the mismatch.
   useEffect(() => {
     const result = loadStore();
-    if (result.ok) {
-      // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time hydration from localStorage after mount, not a derivable value
-      setStore(result.value);
+    if (!result.ok) {
+      return;
     }
+    const prunedRetests = pruneStaleRetests(result.value.retests, Date.now());
+    const value =
+      prunedRetests.length === result.value.retests.length
+        ? result.value
+        : { ...result.value, retests: prunedRetests };
+    if (value !== result.value) {
+      writeStore(value);
+    }
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time hydration from localStorage after mount, not a derivable value
+    setStore(value);
   }, []);
 
   const update = useCallback((updater: (store: Store) => Store) => {
