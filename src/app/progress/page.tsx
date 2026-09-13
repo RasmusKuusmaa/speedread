@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import {
   DOMAINS,
   TEXT_TYPES,
@@ -186,6 +187,21 @@ export default function ProgressPage() {
 
   if (store === null) {
     return null;
+  }
+
+  if (store.sessions.length === 0) {
+    return (
+      <main className="flex flex-1 flex-col gap-8 py-16">
+        <h1 className="font-serif text-2xl text-ink">Progress</h1>
+        <p className="font-sans text-base text-muted">
+          You haven&apos;t completed a session yet.{" "}
+          <Link href="/practice" className="text-ink underline">
+            Read your first passage
+          </Link>{" "}
+          to start building your progress.
+        </p>
+      </main>
+    );
   }
 
   const passageById = new Map(
