@@ -274,12 +274,14 @@ function ReviewScreen({
   paragraphs,
   questions,
   answers,
+  recallText,
   missClassifications,
   onClassifyMiss,
 }: {
   paragraphs: string[];
   questions: Question[];
   answers: number[];
+  recallText: string | null;
   missClassifications: Record<string, MissClassification>;
   onClassifyMiss: (
     questionId: string,
@@ -372,6 +374,14 @@ function ReviewScreen({
           ))}
         </article>
       )}
+      {recallText !== null && (
+        <div className="mx-auto flex w-full max-w-[66ch] flex-col gap-2 border-t border-rule pt-8">
+          <h2 className="font-sans text-sm text-muted">
+            What you wrote before answering
+          </h2>
+          <p className="font-serif text-base text-ink">{recallText}</p>
+        </div>
+      )}
     </main>
   );
 }
@@ -386,7 +396,10 @@ export function SessionReader({
   const { store, update } = useStore();
   const [phase, setPhase] = useState<Phase>("start");
   const [focusLost, setFocusLost] = useState(false);
-  const recallRef = useRef<{ text: string; depth: RecallDepth } | null>(null);
+  const [recall, setRecall] = useState<{
+    text: string;
+    depth: RecallDepth;
+  } | null>(null);
   const hasCheckedResumeRef = useRef(false);
   const timer = useReadingTimer();
   const recallDepth =
@@ -484,7 +497,7 @@ export function SessionReader({
         <RecallScreen
           depth={depth}
           onContinue={(text) => {
-            recallRef.current = { text, depth };
+            setRecall({ text, depth });
             setPhase(questions.length > 0 ? "questions" : "finished");
           }}
         />
@@ -535,6 +548,7 @@ export function SessionReader({
           paragraphs={passage.body}
           questions={questions}
           answers={answers}
+          recallText={recall?.text ?? null}
           missClassifications={missClassifications}
           onClassifyMiss={(questionId, classification) => {
             setMissClassifications((current) => ({
