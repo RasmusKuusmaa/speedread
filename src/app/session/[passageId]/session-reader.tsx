@@ -7,9 +7,11 @@ import type {
   Question,
   QuestionTaxonomy,
 } from "@/lib/content/types";
+import { computeMedianSelfPacedRate } from "@/lib/metrics/median-self-paced-rate";
 import { paginatePassage, type Page } from "@/lib/paced/paginate";
 import { computeWpm } from "@/lib/session/metrics";
 import { PageCountdown } from "./page-countdown";
+import { speedOptionsFor, SpeedPicker } from "./speed-picker";
 import {
   scoreAnswers,
   scoreByTaxonomy,
@@ -43,12 +45,24 @@ function capitalize(value: string): string {
 
 function StartScreen({
   passage,
+  mode,
+  medianWpm,
   onStart,
 }: {
   passage: PassageWithWordCounts;
-  onStart: () => void;
+  mode: SessionMode;
+  medianWpm: number | null;
+  onStart: (targetWpm: number | null) => void;
 }) {
   const difficulty = scoreDifficulty(passage.body, passage.language);
+  const speedOptions = useMemo(() => speedOptionsFor(medianWpm), [medianWpm]);
+  const [selectedWpm, setSelectedWpm] = useState(speedOptions[0]!.wpm);
+  const [customValue, setCustomValue] = useState("");
+  const [isCustom, setIsCustom] = useState(false);
+
+  const targetWpm = isCustom ? Number(customValue) : selectedWpm;
+  const hasValidTarget =
+    mode !== "paced" || (Number.isFinite(targetWpm) && targetWpm > 0);
 
   return (
     <main className="flex flex-1 flex-col items-start justify-center gap-6 py-16">
@@ -57,10 +71,27 @@ function StartScreen({
         <span>{passage.wordCounts.total} words</span>
         <span>{capitalize(difficulty.band)}</span>
       </p>
+      {mode === "paced" && (
+        <SpeedPicker
+          options={speedOptions}
+          selectedWpm={selectedWpm}
+          isCustom={isCustom}
+          customValue={customValue}
+          onSelectOption={(wpm) => {
+            setIsCustom(false);
+            setSelectedWpm(wpm);
+          }}
+          onCustomChange={(value) => {
+            setIsCustom(true);
+            setCustomValue(value);
+          }}
+        />
+      )}
       <button
         type="button"
-        onClick={onStart}
-        className="rounded border border-rule px-4 py-2 font-sans text-sm text-ink"
+        disabled={!hasValidTarget}
+        onClick={() => onStart(mode === "paced" ? targetWpm : null)}
+        className="rounded border border-rule px-4 py-2 font-sans text-sm text-ink disabled:opacity-40"
       >
         Start reading
       </button>
@@ -456,6 +487,8 @@ export function SessionReader({
     [passage],
   );
   const [pageIndex, setPageIndex] = useState(0);
+  const [targetWpm, setTargetWpm] = useState<number | null>(null);
+  const medianSelfPacedWpm = computeMedianSelfPacedRate(store?.sessions ?? []);
   const recallDepth =
     sessionContext === "practice"
       ? (store?.settings.recallDepth ?? "brief")
@@ -586,9 +619,12 @@ export function SessionReader({
       return (
         <StartScreen
           passage={passage}
-          onStart={() => {
+          mode={mode}
+          medianWpm={medianSelfPacedWpm}
+          onStart={(selectedTargetWpm) => {
             setFocusLost(false);
             setPageIndex(0);
+            setTargetWpm(selectedTargetWpm);
             timer.start();
             update((current) => ({
               ...current,
