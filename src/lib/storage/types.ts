@@ -23,6 +23,11 @@ export interface CalibrationRecord {
   id: string;
 }
 
+export interface InProgressSession {
+  passageId: string;
+  startedAtEpochMs: number;
+}
+
 export interface Store {
   schemaVersion: SchemaVersion;
   createdAt: string;
@@ -30,4 +35,5 @@ export interface Store {
   sessions: SessionRecord[];
   retests: RetestRecord[];
   calibration: CalibrationRecord[];
+  inProgressSession: InProgressSession | null;
 }

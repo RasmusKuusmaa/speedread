@@ -50,6 +50,7 @@ export function defaultStore(): Store {
     sessions: [],
     retests: [],
     calibration: [],
+    inProgressSession: null,
   };
 }
 

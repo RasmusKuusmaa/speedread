@@ -3,16 +3,18 @@
 import { useCallback, useRef, useState } from "react";
 
 export interface ReadingTimer {
-  start: () => void;
+  start: (resumeElapsedMs?: number) => void;
   stop: () => number;
   elapsedMs: number | null;
 }
 
 export function useReadingTimer(): ReadingTimer {
   const startedAtRef = useRef<number | null>(null);
+  const baselineMsRef = useRef(0);
   const [elapsedMs, setElapsedMs] = useState<number | null>(null);
 
-  const start = useCallback(() => {
+  const start = useCallback((resumeElapsedMs = 0) => {
+    baselineMsRef.current = resumeElapsedMs;
     startedAtRef.current = performance.now();
     setElapsedMs(null);
   }, []);
@@ -21,7 +23,8 @@ export function useReadingTimer(): ReadingTimer {
     if (startedAtRef.current === null) {
       return 0;
     }
-    const elapsed = performance.now() - startedAtRef.current;
+    const elapsed =
+      baselineMsRef.current + (performance.now() - startedAtRef.current);
     setElapsedMs(elapsed);
     return elapsed;
   }, []);

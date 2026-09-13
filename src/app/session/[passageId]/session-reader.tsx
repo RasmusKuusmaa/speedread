@@ -1,10 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { scoreDifficulty } from "@/lib/content/difficulty";
 import type { PassageWithWordCounts } from "@/lib/content/types";
 import { computeWpm } from "@/lib/session/metrics";
 import { useReadingTimer } from "@/lib/session/use-reading-timer";
+import { useStore } from "@/lib/storage/store-provider";
 
 type Phase = "start" | "reading" | "finished";
 
@@ -89,8 +90,10 @@ function FinishedScreen({
 }
 
 export function SessionReader({ passage }: { passage: PassageWithWordCounts }) {
+  const { store, update } = useStore();
   const [phase, setPhase] = useState<Phase>("start");
   const [focusLost, setFocusLost] = useState(false);
+  const hasCheckedResumeRef = useRef(false);
   const timer = useReadingTimer();
 
   useEffect(() => {
@@ -110,6 +113,21 @@ export function SessionReader({ passage }: { passage: PassageWithWordCounts }) {
     };
   }, [phase]);
 
+  useEffect(() => {
+    if (store === null || hasCheckedResumeRef.current) {
+      return;
+    }
+    hasCheckedResumeRef.current = true;
+
+    const inProgress = store.inProgressSession;
+    if (inProgress !== null && inProgress.passageId === passage.id) {
+      timer.start(Date.now() - inProgress.startedAtEpochMs);
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time resume from a persisted, client-only session after mount, not a derivable value
+      setFocusLost(true);
+      setPhase("reading");
+    }
+  }, [store, passage.id, timer]);
+
   switch (phase) {
     case "start":
       return (
@@ -118,6 +136,13 @@ export function SessionReader({ passage }: { passage: PassageWithWordCounts }) {
           onStart={() => {
             setFocusLost(false);
             timer.start();
+            update((current) => ({
+              ...current,
+              inProgressSession: {
+                passageId: passage.id,
+                startedAtEpochMs: Date.now(),
+              },
+            }));
             setPhase("reading");
           }}
         />
@@ -128,6 +153,7 @@ export function SessionReader({ passage }: { passage: PassageWithWordCounts }) {
           paragraphs={passage.body}
           onFinish={() => {
             timer.stop();
+            update((current) => ({ ...current, inProgressSession: null }));
             setPhase("finished");
           }}
         />
