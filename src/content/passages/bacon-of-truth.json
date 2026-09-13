@@ -1,0 +1,323 @@
+{
+  "id": "bacon-of-truth",
+  "title": "A Natural, Though Corrupt, Love of the Lie",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/575",
+  "attribution": "Excerpted verbatim from \"Of Truth,\" in The Essays or Counsels, Civil and Moral by Francis Bacon (1625).",
+  "licence": "Public domain",
+  "textType": "expository",
+  "domain": "philosophy",
+  "calibrationOnly": false,
+  "body": [
+    "WHAT is truth? said jesting Pilate, and would not stay for an answer. Certainly there be, that delight in giddiness, and count it a bondage to fix a belief; affecting free-will in thinking, as well as in acting. And though the sects of philosophers of that kind be gone, yet there remain certain discoursing wits, which are of the same veins, though there be not so much blood in them, as was in those of the ancients. But it is not only the difficulty and labor, which men take in finding out of truth, nor again, that when it is found, it imposeth upon men’s thoughts, that doth bring lies in favor; but a natural, though corrupt love, of the lie itself.",
+    "One of the later school of the Grecians, examineth the matter, and is at a stand, to think what should be in it, that men should love lies; where neither they make for pleasure, as with poets, nor for advantage, as with the merchant; but for the lie’s sake. But I cannot tell; this same truth, is a naked, and open day-light, that doth not show the masks, and mummeries, and triumphs, of the world, half so stately and daintily as candle-lights. Truth may perhaps come to the price of a pearl, that showeth best by day; but it will not rise to the price of a diamond, or carbuncle, that showeth best in varied lights. A mixture of a lie doth ever add pleasure. Doth any man doubt, that if there were taken out of men’s minds, vain opinions, flattering hopes, false valuations, imaginations as one would, and the like, but it would leave the minds, of a number of men, poor shrunken things, full of melancholy and indisposition, and unpleasing to themselves?"
+  ],
+  "questions": [
+    {
+      "id": "bacon-of-truth-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who asked \"What is truth?\" and did not wait for an answer?",
+      "options": [
+        "Jesting Pilate",
+        "One of the Grecian philosophers",
+        "A discoursing wit",
+        "The author's father"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 15,
+        "end": 68
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bacon-of-truth-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the author compare truth to, since it shows best by day?",
+      "options": [
+        "A pearl",
+        "A candle",
+        "A diamond",
+        "A mask"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 446,
+        "end": 518
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bacon-of-truth-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the author compare to something that \"showeth best in varied lights\"?",
+      "options": [
+        "A diamond, or carbuncle",
+        "A pearl",
+        "The sun",
+        "A candle-light"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 524,
+        "end": 616
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bacon-of-truth-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what puzzled one of the later Grecian philosophers?",
+      "options": [
+        "Why men should love lies even without gain from them",
+        "Why truth is so hard to find",
+        "Why poets tell so many lies",
+        "Why merchants are dishonest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 67,
+        "end": 138
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bacon-of-truth-f5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author say truth is like daylight rather than candle-light?",
+      "options": [
+        "Truth shows things plainly, without the flattering glow that makes them look better than they are",
+        "Truth is only visible at certain times of day",
+        "Truth is duller and less interesting than a lie",
+        "Truth requires artificial light to be seen clearly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 277,
+        "end": 444
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bacon-of-truth-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author say removing vain opinions and false hopes would leave minds \"poor shrunken things\"?",
+      "options": [
+        "People rely on comforting illusions to feel content with themselves",
+        "People need truth to be physically healthy",
+        "People cannot think at all without false beliefs",
+        "People would become wealthier without such illusions"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 822,
+        "end": 956
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bacon-of-truth-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author distinguish the ancient philosophical sects from the \"discoursing wits\" who remain?",
+      "options": [
+        "To suggest the modern skeptics are a weaker version of the ancient philosophers",
+        "To argue that modern philosophers are more honest than ancient ones",
+        "To claim the ancient sects were entirely forgotten",
+        "To show that both groups agreed completely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 271,
+        "end": 417
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bacon-of-truth-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "People are drawn to comforting lies even though truth alone is the highest good",
+        "Truth is easy to find once a person looks for it",
+        "Lies are always told for pleasure or profit",
+        "Ancient philosophers were wiser than anyone since"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 606,
+        "end": 655
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bacon-of-truth-f9",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the author suggest by noting that lies are loved neither for pleasure, as with poets, nor for advantage, as with merchants?",
+      "options": [
+        "Ordinary people's love of lies is different from lying for art or profit — it is loved for its own sake",
+        "Poets and merchants never actually lie",
+        "Only poets and merchants are capable of loving a lie",
+        "Lies told for pleasure are more harmful than lies told for profit"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 140,
+        "end": 256
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bacon-of-truth-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that some people \"delight in giddiness\" rather than fixing a belief?",
+      "options": [
+        "They enjoy uncertainty and constantly shifting opinions",
+        "They enjoy dancing and celebration",
+        "They become dizzy when they think too hard",
+        "They prefer silence to conversation"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 70,
+        "end": 155
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bacon-of-truth-r1",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the philosophers described believe about fixing a belief?",
+      "options": [
+        "They thought it was a kind of bondage",
+        "They thought it was the highest form of freedom",
+        "They thought it was impossible to avoid",
+        "They thought only the young should attempt it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 121,
+        "end": 155
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "bacon-of-truth-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does a mixture of a lie always do, according to the author?",
+      "options": [
+        "It adds pleasure",
+        "It removes all pleasure",
+        "It always causes harm",
+        "It has no effect at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 618,
+        "end": 660
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "bacon-of-truth-r3",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what kind of love does the author say people have for lies?",
+      "options": [
+        "A natural, though corrupt, love",
+        "A love learned only from poets",
+        "A love shared by no one at all",
+        "A love reserved only for merchants"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 606,
+        "end": 655
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "bacon-of-truth-r4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the author list as commonly filling men's minds?",
+      "options": [
+        "Vain opinions, flattering hopes, and false valuations",
+        "Ancient philosophical texts",
+        "Fear of the Grecian school",
+        "Memories of candle-light"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 726,
+        "end": 802
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "bacon-of-truth-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author mention that certain philosophers \"affect free-will in thinking, as well as in acting\"?",
+      "options": [
+        "To compare their resistance to fixed belief with a broader resistance to any constraint",
+        "To argue that free will does not exist",
+        "To praise them for their consistency",
+        "To explain why they became merchants"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 157,
+        "end": 210
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "bacon-of-truth-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes the Grecian philosopher's puzzlement described in the passage?",
+      "options": [
+        "He could not explain why people would love lies with nothing to gain from them",
+        "He believed all lies were told for profit",
+        "He argued that truth was worthless",
+        "He concluded that poets never lied"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 61
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "bacon-of-truth-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the modern \"discoursing wits\" have not so much \"blood\" in them as the ancients?",
+      "options": [
+        "They have less conviction and vigor in their views",
+        "They are physically weaker and often ill",
+        "They are younger than the ancient philosophers were",
+        "They write in a paler shade of ink"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 343,
+        "end": 417
+      },
+      "pool": "retest"
+    }
+  ]
+}
