@@ -24,7 +24,8 @@ import type { RecallDepth } from "@/lib/storage/types";
 import { QuestionCard } from "./question-card";
 import type { SessionContext } from "./types";
 
-type Phase = "start" | "reading" | "recall" | "questions" | "finished";
+type Phase =
+  "start" | "reading" | "recall" | "questions" | "finished" | "review";
 
 function capitalize(value: string): string {
   return value.charAt(0).toUpperCase() + value.slice(1);
@@ -193,11 +194,15 @@ function FinishedScreen({
   comprehension,
   taxonomyBreakdown,
   focusLost,
+  hasQuestions,
+  onReview,
 }: {
   wpm: number;
   comprehension: number | null;
   taxonomyBreakdown: TaxonomyBreakdown;
   focusLost: boolean;
+  hasQuestions: boolean;
+  onReview: () => void;
 }) {
   return (
     <main className="flex flex-1 flex-col items-start justify-center gap-6 py-16">
@@ -229,6 +234,54 @@ function FinishedScreen({
           tab while reading.
         </p>
       )}
+      {hasQuestions && (
+        <button
+          type="button"
+          onClick={onReview}
+          className="rounded border border-rule px-4 py-2 font-sans text-sm text-ink"
+        >
+          Show me what I missed
+        </button>
+      )}
+    </main>
+  );
+}
+
+function ReviewScreen({
+  questions,
+  answers,
+}: {
+  questions: Question[];
+  answers: number[];
+}) {
+  return (
+    <main className="flex flex-1 flex-col gap-8 py-16">
+      <h1 className="font-serif text-2xl text-ink">Review</h1>
+      <ol className="flex flex-col gap-6">
+        {questions.map((question, index) => {
+          const chosenIndex = answers[index];
+          const isCorrect = chosenIndex === question.answerIndex;
+          return (
+            <li
+              key={question.id}
+              className="flex flex-col gap-2 border-b border-rule pb-6"
+            >
+              <p className="font-serif text-base text-ink">{question.prompt}</p>
+              <p className="font-sans text-sm text-muted">
+                Your answer:{" "}
+                {chosenIndex !== undefined
+                  ? question.options[chosenIndex]
+                  : "—"}
+              </p>
+              {!isCorrect && (
+                <p className="font-sans text-sm text-muted">
+                  Correct answer: {question.options[question.answerIndex]}
+                </p>
+              )}
+            </li>
+          );
+        })}
+      </ol>
     </main>
   );
 }
@@ -261,6 +314,7 @@ export function SessionReader({
   const [taxonomyBreakdown, setTaxonomyBreakdown] = useState<TaxonomyBreakdown>(
     {},
   );
+  const [answers, setAnswers] = useState<number[]>([]);
   const answersRef = useRef<number[]>([]);
 
   useEffect(() => {
@@ -358,6 +412,7 @@ export function SessionReader({
             if (questionIndex + 1 < questions.length) {
               setQuestionIndex((index) => index + 1);
             } else {
+              setAnswers(answersRef.current);
               setComprehension(scoreAnswers(questions, answersRef.current));
               setTaxonomyBreakdown(
                 scoreByTaxonomy(questions, answersRef.current),
@@ -377,7 +432,11 @@ export function SessionReader({
           comprehension={comprehension}
           taxonomyBreakdown={taxonomyBreakdown}
           focusLost={focusLost}
+          hasQuestions={questions.length > 0}
+          onReview={() => setPhase("review")}
         />
       );
+    case "review":
+      return <ReviewScreen questions={questions} answers={answers} />;
   }
 }
