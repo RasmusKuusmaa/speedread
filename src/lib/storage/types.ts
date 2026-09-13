@@ -45,6 +45,9 @@ export interface SessionRecord {
 
 export interface RetestRecord {
   id: string;
+  passageId: string;
+  sourceSessionId: string;
+  dueAtEpochMs: number;
 }
 
 export interface CalibrationRecord {

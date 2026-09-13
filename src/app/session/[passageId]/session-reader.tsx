@@ -11,6 +11,7 @@ import { lastComprehensionForSpeed } from "@/lib/metrics/comprehension-for-speed
 import { computeMedianSelfPacedRate } from "@/lib/metrics/median-self-paced-rate";
 import { paginatePassage, type Page } from "@/lib/paced/paginate";
 import { computeWpm } from "@/lib/session/metrics";
+import { scheduleRetests } from "@/lib/spaced/schedule-retests";
 import { PageCountdown } from "./page-countdown";
 import { speedOptionsFor, SpeedPicker } from "./speed-picker";
 import {
@@ -564,9 +565,14 @@ export function SessionReader({
       recallDepth: recallValue?.depth ?? recallDepth,
       unfinishedPageCount,
     };
+    const newRetests =
+      sessionContext === "practice"
+        ? scheduleRetests(record.id, passage.id, Date.now())
+        : [];
     update((current) => ({
       ...current,
       sessions: [...current.sessions, record],
+      retests: [...current.retests, ...newRetests],
     }));
   }
 
