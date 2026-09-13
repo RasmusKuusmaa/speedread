@@ -1,14 +1,29 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
-export function PageCountdown({ durationMs }: { durationMs: number }) {
+export function PageCountdown({
+  durationMs,
+  onExpire,
+}: {
+  durationMs: number;
+  onExpire: () => void;
+}) {
   const [depleted, setDepleted] = useState(false);
+  const onExpireRef = useRef(onExpire);
+
+  useEffect(() => {
+    onExpireRef.current = onExpire;
+  }, [onExpire]);
 
   useEffect(() => {
     const frame = requestAnimationFrame(() => setDepleted(true));
-    return () => cancelAnimationFrame(frame);
-  }, []);
+    const timeout = setTimeout(() => onExpireRef.current(), durationMs);
+    return () => {
+      cancelAnimationFrame(frame);
+      clearTimeout(timeout);
+    };
+  }, [durationMs]);
 
   return (
     <div className="h-px w-full bg-rule">

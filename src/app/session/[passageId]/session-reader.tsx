@@ -111,7 +111,10 @@ function PacedReadingScreen({
   return (
     <main className="flex flex-1 flex-col py-16">
       <div className="mx-auto w-full max-w-[66ch]">
-        <PageCountdown durationMs={pageDurationMs} />
+        <PageCountdown
+          durationMs={pageDurationMs}
+          onExpire={isLastPage ? onFinish : onNextPage}
+        />
       </div>
       <article className="mx-auto mt-10 flex max-w-[66ch] flex-col gap-6 font-serif text-[19px] leading-[1.65] text-ink">
         {page.paragraphs.map((paragraph, index) => (
