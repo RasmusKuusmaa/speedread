@@ -6,6 +6,7 @@ import type { PassageWithWordCounts } from "@/lib/content/types";
 import { computeWpm } from "@/lib/session/metrics";
 import { useReadingTimer } from "@/lib/session/use-reading-timer";
 import { useStore } from "@/lib/storage/store-provider";
+import type { RecallDepth } from "@/lib/storage/types";
 import type { SessionContext } from "./types";
 
 type Phase = "start" | "reading" | "recall" | "finished";
@@ -144,6 +145,7 @@ export function SessionReader({
   const { store, update } = useStore();
   const [phase, setPhase] = useState<Phase>("start");
   const [focusLost, setFocusLost] = useState(false);
+  const recallRef = useRef<{ text: string; depth: RecallDepth } | null>(null);
   const hasCheckedResumeRef = useRef(false);
   const timer = useReadingTimer();
   const recallDepth =
@@ -213,13 +215,18 @@ export function SessionReader({
           }}
         />
       );
-    case "recall":
+    case "recall": {
+      const depth = recallDepth === "off" ? "brief" : recallDepth;
       return (
         <RecallScreen
-          depth={recallDepth === "off" ? "brief" : recallDepth}
-          onContinue={() => setPhase("finished")}
+          depth={depth}
+          onContinue={(text) => {
+            recallRef.current = { text, depth };
+            setPhase("finished");
+          }}
         />
       );
+    }
     case "finished":
       return (
         <FinishedScreen
