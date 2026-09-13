@@ -182,6 +182,96 @@ function RecentSessions({
   );
 }
 
+const CALIBRATION_CHART_WIDTH = 300;
+const CALIBRATION_CHART_HEIGHT = 80;
+const CALIBRATION_CHART_PADDING = 8;
+
+function CalibrationChart({ sessions }: { sessions: SessionRecord[] }) {
+  const calibrationSessions = sessions
+    .filter((session) => session.sessionContext === "calibration")
+    .sort((a, b) => a.timings.startedAtEpochMs - b.timings.startedAtEpochMs);
+
+  if (calibrationSessions.length === 0) {
+    return (
+      <div className="flex flex-col gap-3">
+        <h2 className="font-sans text-sm text-muted">
+          Calibration baseline over time
+        </h2>
+        <p className="font-sans text-sm text-muted">
+          No calibration sessions yet.
+        </p>
+      </div>
+    );
+  }
+
+  const wpmValues = calibrationSessions.map((session) => session.wpm);
+  const minWpm = Math.min(...wpmValues);
+  const maxWpm = Math.max(...wpmValues);
+  const wpmRange = maxWpm - minWpm || 1;
+  const innerWidth = CALIBRATION_CHART_WIDTH - CALIBRATION_CHART_PADDING * 2;
+  const innerHeight = CALIBRATION_CHART_HEIGHT - CALIBRATION_CHART_PADDING * 2;
+
+  const points = calibrationSessions.map((session, index) => {
+    const x =
+      calibrationSessions.length === 1
+        ? CALIBRATION_CHART_WIDTH / 2
+        : CALIBRATION_CHART_PADDING +
+          (index / (calibrationSessions.length - 1)) * innerWidth;
+    const y =
+      CALIBRATION_CHART_HEIGHT -
+      CALIBRATION_CHART_PADDING -
+      ((session.wpm - minWpm) / wpmRange) * innerHeight;
+    return { x, y };
+  });
+
+  return (
+    <div className="flex flex-col gap-3">
+      <h2 className="font-sans text-sm text-muted">
+        Calibration baseline over time
+      </h2>
+      <svg
+        viewBox={`0 0 ${CALIBRATION_CHART_WIDTH} ${CALIBRATION_CHART_HEIGHT}`}
+        className="h-20 w-full max-w-sm"
+        aria-hidden="true"
+      >
+        <polyline
+          points={points.map((point) => `${point.x},${point.y}`).join(" ")}
+          fill="none"
+          stroke="var(--color-signal)"
+          strokeWidth={1.5}
+        />
+        {points.map((point, index) => (
+          <circle
+            key={index}
+            cx={point.x}
+            cy={point.y}
+            r={2.5}
+            fill="var(--color-signal)"
+          />
+        ))}
+      </svg>
+      <ul className="flex flex-col gap-2">
+        {calibrationSessions.map((session) => (
+          <li
+            key={session.id}
+            className="flex items-center justify-between gap-3 font-sans text-sm"
+          >
+            <span className="text-ink">
+              {new Date(
+                session.timings.startedAtEpochMs,
+              ).toLocaleDateString()}
+            </span>
+            <span className="text-muted">
+              {Math.round(session.wpm)} wpm,{" "}
+              {Math.round(session.comprehension)}% comprehension
+            </span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
 export default function ProgressPage() {
   const { store } = useStore();
 
@@ -239,6 +329,7 @@ export default function ProgressPage() {
         stats={textTypeStats}
       />
       <RecentSessions sessions={store.sessions} passageById={passageById} />
+      <CalibrationChart sessions={store.sessions} />
     </main>
   );
 }
