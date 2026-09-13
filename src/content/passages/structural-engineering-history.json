@@ -1,0 +1,325 @@
+{
+  "id": "structural-engineering-history",
+  "title": "Why Pyramids Stood",
+  "language": "en",
+  "source": "https://en.wikipedia.org/wiki/Structural_engineering",
+  "attribution": "Adapted (trimmed) from the Wikipedia article \"Structural engineering,\" available under CC BY-SA 4.0.",
+  "licence": "CC BY-SA 4.0",
+  "textType": "expository",
+  "domain": "engineering",
+  "calibrationOnly": false,
+  "body": [
+    "Structural engineering dates back to 2700 B.C., when the step pyramid for Pharaoh Djoser was built by Imhotep, the first engineer in history known by name. Pyramids were the most common major structures built by ancient civilizations because the structural form of a pyramid is inherently stable and can be almost infinitely scaled, as opposed to most other structural forms, which cannot be linearly increased in size in proportion to increased loads.",
+    "The structural stability of the pyramid, whilst primarily gained from its shape, relies also on the strength of the stone from which it is constructed, and its ability to support the weight of the stone above it. The limestone blocks were often taken from a quarry near the building site and have a compressive strength from 30 to 250 MPa. Therefore, the structural strength of the pyramid stems from the material properties of the stones from which it was built rather than the pyramid's geometry.",
+    "Throughout ancient and medieval history most architectural design and construction were carried out by artisans, such as stonemasons and carpenters, rising to the role of master builder. No theory of structures existed, and understanding of how structures stood up was extremely limited, and based almost entirely on empirical evidence of 'what had worked before' and intuition. Knowledge was retained by guilds and seldom supplanted by advances.",
+    "No record exists of the first calculations of the strength of structural members or the behavior of structural material, but the profession of a structural engineer only really took shape with the Industrial Revolution and the re-invention of concrete. The physical sciences underlying structural engineering began to be understood in the Renaissance and have since developed into computer-based applications pioneered in the 1970s."
+  ],
+  "questions": [
+    {
+      "id": "structural-engineering-history-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who was the first engineer in history known by name?",
+      "options": [
+        "Imhotep",
+        "Djoser",
+        "Hooke",
+        "Galileo"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 89,
+        "end": 154
+      },
+      "pool": "first"
+    },
+    {
+      "id": "structural-engineering-history-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what year does structural engineering date back to?",
+      "options": [
+        "2700 B.C.",
+        "1700 B.C.",
+        "700 A.D.",
+        "1450 A.D."
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 46
+      },
+      "pool": "first"
+    },
+    {
+      "id": "structural-engineering-history-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the compressive strength range of the limestone blocks used in the pyramid?",
+      "options": [
+        "30 to 250 MPa",
+        "1 to 10 MPa",
+        "500 to 1000 MPa",
+        "It was never measured"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 292,
+        "end": 338
+      },
+      "pool": "first"
+    },
+    {
+      "id": "structural-engineering-history-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, where did the pyramid's limestone blocks typically come from?",
+      "options": [
+        "A quarry near the building site",
+        "Ships arriving from other regions",
+        "The banks of the Nile River",
+        "Underground mines far to the south"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 245,
+        "end": 287
+      },
+      "pool": "first"
+    },
+    {
+      "id": "structural-engineering-history-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who typically carried out architectural design and construction throughout ancient and medieval history?",
+      "options": [
+        "Artisans, such as stonemasons and carpenters",
+        "Formally trained structural engineers",
+        "Government-appointed scientists",
+        "University-educated architects"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 88,
+        "end": 147
+      },
+      "pool": "first"
+    },
+    {
+      "id": "structural-engineering-history-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what two developments does the author link to the structural engineering profession taking shape?",
+      "options": [
+        "The Industrial Revolution and the re-invention of concrete",
+        "The invention of the pyramid and the wheel",
+        "The rise of guilds and the fall of Rome",
+        "The printing press and the compass"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 125,
+        "end": 251
+      },
+      "pool": "first"
+    },
+    {
+      "id": "structural-engineering-history-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author say the pyramid's strength comes from its material rather than its geometry?",
+      "options": [
+        "The stone itself had to be strong enough to bear the weight above it, not just the pyramid's shape",
+        "The pyramid's shape was actually unstable on its own",
+        "Ancient builders did not understand geometry at all",
+        "The stone was decorative rather than load-bearing"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 351,
+        "end": 497
+      },
+      "pool": "first"
+    },
+    {
+      "id": "structural-engineering-history-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why were medieval building practices slow to improve?",
+      "options": [
+        "Knowledge was passed down by guilds and rarely replaced by new advances",
+        "Guilds actively destroyed old building records",
+        "Builders were forbidden from experimenting by law",
+        "Materials were too scarce to allow for testing"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 379,
+        "end": 445
+      },
+      "pool": "first"
+    },
+    {
+      "id": "structural-engineering-history-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "Structural engineering grew from shape-based ancient construction into a calculated profession only after the Industrial Revolution",
+        "Ancient Egyptians had no understanding of structural stability at all",
+        "Modern structural engineering owes nothing to ancient building methods",
+        "Pyramids remain the strongest structures ever built"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 125,
+        "end": 218
+      },
+      "pool": "first"
+    },
+    {
+      "id": "structural-engineering-history-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that pyramids could be almost infinitely \"scaled\"?",
+      "options": [
+        "Increased in size",
+        "Covered in scale-like patterns",
+        "Weighed precisely",
+        "Measured for height"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 300,
+        "end": 331
+      },
+      "pool": "first"
+    },
+    {
+      "id": "structural-engineering-history-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why were pyramids the most common major structure built by ancient civilizations?",
+      "options": [
+        "Their shape is inherently stable and can be scaled up easily",
+        "They required the least amount of stone",
+        "They could be built faster than any other shape",
+        "They were the cheapest structures to maintain"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 242,
+        "end": 331
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "structural-engineering-history-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what role did stonemasons and carpenters sometimes rise to?",
+      "options": [
+        "Master builder",
+        "Royal architect",
+        "Structural engineer",
+        "Guild president"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 113,
+        "end": 185
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "structural-engineering-history-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was medieval understanding of how structures stood up based on?",
+      "options": [
+        "Empirical evidence of what had worked before and intuition",
+        "Formal mathematical calculations",
+        "Detailed government building codes",
+        "Scientific testing of materials"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 292,
+        "end": 377
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "structural-engineering-history-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what happened to the physical sciences underlying structural engineering after the Renaissance?",
+      "options": [
+        "They developed into computer-based applications pioneered in the 1970s",
+        "They were abandoned until the twentieth century",
+        "They were replaced entirely by ancient methods",
+        "They remained unchanged until today"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 355,
+        "end": 431
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "structural-engineering-history-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author note that no record exists of the first calculations of structural member strength?",
+      "options": [
+        "To show that calculated structural engineering emerged gradually, without a clear starting point in the record",
+        "To argue that such calculations were never actually necessary",
+        "To prove that ancient Egyptians invented the first calculations",
+        "To suggest that the records were deliberately destroyed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 80
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "structural-engineering-history-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes how pyramids achieved their structural stability, according to the passage?",
+      "options": [
+        "Both their shape and the strength of their stone contributed to their stability",
+        "Their stability came entirely from their shape alone",
+        "Their stability came entirely from the quality of their stone alone",
+        "Their stability was mostly due to their location near the Nile"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 150
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "structural-engineering-history-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that structures were built based on \"empirical\" evidence?",
+      "options": [
+        "Evidence based on observation and practical experience rather than theory",
+        "Evidence recorded only in royal decrees",
+        "Evidence proven through mathematical formulas",
+        "Evidence passed down only through religious texts"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 292,
+        "end": 335
+      },
+      "pool": "retest"
+    }
+  ]
+}
