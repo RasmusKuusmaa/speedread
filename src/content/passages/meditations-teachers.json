@@ -1,0 +1,324 @@
+{
+  "id": "meditations-teachers",
+  "title": "What I Learned From Each of Them",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/2680",
+  "attribution": "Excerpted verbatim from Meditations by Marcus Aurelius, in the Jeremy Collier translation.",
+  "licence": "Public domain",
+  "textType": "expository",
+  "domain": "philosophy",
+  "calibrationOnly": false,
+  "body": [
+    "Of my grandfather Verus I have learned to be gentle and meek, and to refrain from all anger and passion. From the fame and memory of him that begot me I have learned both shamefastness and manlike behaviour. Of my mother I have learned to be religious, and bountiful; and to forbear, not only to do, but to intend any evil; to content myself with a spare diet, and to fly all such excess as is incidental to great wealth. Of my great-grandfather, both to frequent public schools and auditories, and to get me good and able teachers at home; and that I ought not to think much, if upon such occasions, I were at excessive charges.",
+    "Of him that brought me up, not to be fondly addicted to either of the two great factions of the coursers in the circus, called Prasini, and Veneti: nor in the amphitheatre partially to favour any of the gladiators, or fencers, as either the Parmularii, or the Secutores. Moreover, to endure labour; nor to need many things; when I have anything to do, to do it myself rather than by others; not to meddle with many businesses; and not easily to admit of any slander.",
+    "Of Diognetus, not to busy myself about vain things, and not easily to believe those things, which are commonly spoken, by such as take upon them to work wonders, and by sorcerers, or prestidigitators, and impostors; concerning the power of charms, and their driving out of demons, or evil spirits; and the like. Not to keep quails for the game; nor to be mad after such things. Not to be offended with other men’s liberty of speech, and to apply myself unto philosophy."
+  ],
+  "questions": [
+    {
+      "id": "meditations-teachers-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the author learn from his grandfather Verus?",
+      "options": [
+        "To be gentle and meek, and to refrain from anger",
+        "To be ambitious and competitive",
+        "To distrust strangers",
+        "To value wealth above all else"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 24,
+        "end": 103
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-teachers-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what kind of diet did the author's mother teach him to be content with?",
+      "options": [
+        "A spare diet",
+        "A rich and varied diet",
+        "A diet of only fruit",
+        "Whatever diet was most expensive"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 324,
+        "end": 359
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-teachers-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what two chariot-racing factions does the author mention?",
+      "options": [
+        "The Prasini and the Veneti",
+        "The Parmularii and the Secutores",
+        "The Stoics and the Epicureans",
+        "The Romans and the Greeks"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 120,
+        "end": 146
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-teachers-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did his tutor teach him about doing tasks?",
+      "options": [
+        "To do things himself rather than by others",
+        "To always delegate to servants",
+        "To finish tasks as quickly as possible",
+        "To ask his mother for help"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 324,
+        "end": 389
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-teachers-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Diognetus teach him not to believe in?",
+      "options": [
+        "Sorcerers and charm-workers who claim to drive out demons",
+        "The teachings of the Stoic philosophers",
+        "The value of public schools",
+        "The honesty of his own family"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 166,
+        "end": 279
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-teachers-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author credit his great-grandfather for his education?",
+      "options": [
+        "His great-grandfather arranged good schools and private teachers for him, regardless of cost",
+        "His great-grandfather personally tutored him every day",
+        "His great-grandfather forbade him from attending public schools",
+        "His great-grandfather paid for his gladiator training"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 499,
+        "end": 628
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-teachers-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the author's account of his mother suggest about her character?",
+      "options": [
+        "She valued restraint, generosity, and avoiding wrongdoing even in intention",
+        "She was ambitious for wealth and status",
+        "She cared little for religion",
+        "She encouraged excess and luxury"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 236,
+        "end": 322
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-teachers-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did his tutor discourage him from favoring gladiators or racing factions?",
+      "options": [
+        "To keep him from being consumed by partisan enthusiasm for spectacles",
+        "Because such spectacles were against the law",
+        "Because he had no interest in sports of any kind",
+        "Because the emperor had banned him from attending"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 27,
+        "end": 118
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-teachers-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "The author lists specific virtues and habits he owes to different people in his upbringing",
+        "The author complains about the failings of his family",
+        "The author argues that philosophy is a waste of time",
+        "The author describes the layout of the imperial palace"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 60
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-teachers-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the author learned \"shamefastness\" from his father's memory?",
+      "options": [
+        "Modesty",
+        "Boldness",
+        "Wealth",
+        "Ambition"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 151,
+        "end": 206
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-teachers-r1",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the author's mother teach him about intending evil?",
+      "options": [
+        "To forbear not only doing but even intending evil",
+        "To confess any evil thought at once",
+        "That intentions do not matter, only actions",
+        "To punish evil intentions in others severely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 272,
+        "end": 322
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "meditations-teachers-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what two types of gladiators does the author mention?",
+      "options": [
+        "The Parmularii and the Secutores",
+        "The Prasini and the Veneti",
+        "The Stoics and the Cynics",
+        "The Praetorians and the Legionaries"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 227,
+        "end": 269
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "meditations-teachers-r3",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did his tutor teach him about admitting slander?",
+      "options": [
+        "Not to easily admit of any slander",
+        "To repeat slander only if it were true",
+        "To report slander to the authorities",
+        "To ignore slander entirely without judgment"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 431,
+        "end": 465
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "meditations-teachers-r4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what game involving quails did Diognetus discourage?",
+      "options": [
+        "Keeping quails for fighting",
+        "Hunting quails for food",
+        "Racing quails against each other",
+        "Trading quails for money"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 312,
+        "end": 376
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "meditations-teachers-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the author mention being taught to endure labor and need little?",
+      "options": [
+        "To show the self-reliant, undemanding character his upbringing instilled in him",
+        "To explain why he became a soldier",
+        "To justify his later poverty",
+        "To criticize his tutor's harshness"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 281,
+        "end": 322
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "meditations-teachers-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes the structure of the passage?",
+      "options": [
+        "It attributes a specific virtue or lesson to each person who shaped the author's upbringing",
+        "It argues that all his teachers failed him equally",
+        "It focuses entirely on his mother's influence",
+        "It describes a single event from his childhood in detail"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 50
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "meditations-teachers-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean to be \"bountiful,\" as the author says he learned from his mother?",
+      "options": [
+        "Generous",
+        "Cautious",
+        "Quiet",
+        "Strict"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 236,
+        "end": 266
+      },
+      "pool": "retest"
+    }
+  ]
+}
