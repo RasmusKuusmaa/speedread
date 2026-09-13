@@ -3,12 +3,16 @@
 import { useRef, useState, type ChangeEvent } from "react";
 import { exportStore } from "@/lib/storage/export";
 import { importStore } from "@/lib/storage/import";
+import { defaultStore } from "@/lib/storage/storage";
 import { useStore } from "@/lib/storage/store-provider";
+
+const RESET_PHRASE = "RESET";
 
 export default function SettingsPage() {
   const { store, update } = useStore();
   const fileInputRef = useRef<HTMLInputElement>(null);
   const [importError, setImportError] = useState<string | null>(null);
+  const [resetConfirmation, setResetConfirmation] = useState("");
 
   if (store === null) {
     return null;
@@ -18,6 +22,14 @@ export default function SettingsPage() {
     if (store !== null) {
       exportStore(store);
     }
+  }
+
+  function handleReset() {
+    if (resetConfirmation !== RESET_PHRASE) {
+      return;
+    }
+    update(() => defaultStore());
+    setResetConfirmation("");
   }
 
   async function handleImportChange(event: ChangeEvent<HTMLInputElement>) {
@@ -69,6 +81,31 @@ export default function SettingsPage() {
         {importError !== null && (
           <p className="font-sans text-sm text-signal">{importError}</p>
         )}
+      </section>
+
+      <section className="flex flex-col gap-3">
+        <h2 className="font-sans text-sm text-muted">Reset</h2>
+        <p className="font-sans text-sm text-muted">
+          This deletes every session, retest, and calibration result. Type{" "}
+          {RESET_PHRASE} to confirm.
+        </p>
+        <div className="flex gap-3">
+          <input
+            type="text"
+            value={resetConfirmation}
+            onChange={(event) => setResetConfirmation(event.target.value)}
+            placeholder={RESET_PHRASE}
+            className="rounded border border-rule px-3 py-2 font-sans text-sm text-ink"
+          />
+          <button
+            type="button"
+            onClick={handleReset}
+            disabled={resetConfirmation !== RESET_PHRASE}
+            className="rounded border border-rule px-4 py-2 font-sans text-sm text-ink disabled:opacity-40"
+          >
+            Reset all progress
+          </button>
+        </div>
       </section>
     </main>
   );
