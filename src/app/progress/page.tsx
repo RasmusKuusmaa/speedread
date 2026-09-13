@@ -8,7 +8,9 @@ import {
   type QuestionTaxonomy,
   type TextType,
 } from "@/lib/content/types";
+import { loadBooks } from "@/lib/content/book-loader";
 import { loadPassages } from "@/lib/content/loader";
+import type { BookWithChunks } from "@/lib/content/types";
 import { computeCumulativeWordsRead } from "@/lib/metrics/cumulative-words";
 import { isEligibleSession } from "@/lib/metrics/eligibility";
 import { computeGroupStats, type GroupStats } from "@/lib/metrics/group-stats";
@@ -18,7 +20,7 @@ import {
   type TaxonomyAverages,
 } from "@/lib/metrics/taxonomy-breakdown";
 import { useStore } from "@/lib/storage/store-provider";
-import type { SessionRecord } from "@/lib/storage/types";
+import type { BookProgress, SessionRecord } from "@/lib/storage/types";
 
 function capitalize(value: string): string {
   return value.charAt(0).toUpperCase() + value.slice(1);
@@ -272,6 +274,66 @@ function CalibrationChart({ sessions }: { sessions: SessionRecord[] }) {
   );
 }
 
+function BookProgressSection({
+  books,
+  bookProgress,
+  sessions,
+}: {
+  books: BookWithChunks[];
+  bookProgress: BookProgress[];
+  sessions: SessionRecord[];
+}) {
+  if (books.length === 0) {
+    return null;
+  }
+
+  return (
+    <div className="flex flex-col gap-3">
+      <h2 className="font-sans text-sm text-muted">Books</h2>
+      <ul className="flex flex-col gap-2">
+        {books.map((book) => {
+          const progress = bookProgress.find(
+            (entry) => entry.bookId === book.id,
+          );
+          const totalChunks = book.chunks.length;
+          const chunkIds = new Set(book.chunkPassageIds);
+          const bookSessions = sessions.filter((session) =>
+            chunkIds.has(session.passageId),
+          );
+          const averageComprehension =
+            bookSessions.length > 0
+              ? bookSessions.reduce(
+                  (sum, session) => sum + session.comprehension,
+                  0,
+                ) / bookSessions.length
+              : null;
+
+          const status =
+            progress === undefined
+              ? "Not started"
+              : progress.completedAtEpochMs !== null
+                ? "Finished"
+                : `${progress.currentChunkIndex} of ${totalChunks} sections read`;
+
+          return (
+            <li
+              key={book.id}
+              className="flex items-center justify-between gap-3 font-sans text-sm"
+            >
+              <span className="text-ink">{book.title}</span>
+              <span className="text-muted">
+                {status}
+                {averageComprehension !== null &&
+                  `, ${Math.round(averageComprehension)}% comprehension`}
+              </span>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  );
+}
+
 export default function ProgressPage() {
   const { store } = useStore();
 
@@ -330,6 +392,11 @@ export default function ProgressPage() {
       />
       <RecentSessions sessions={store.sessions} passageById={passageById} />
       <CalibrationChart sessions={store.sessions} />
+      <BookProgressSection
+        books={loadBooks()}
+        bookProgress={store.bookProgress}
+        sessions={store.sessions}
+      />
     </main>
   );
 }
