@@ -37,8 +37,8 @@ import { QuestionCard } from "./question-card";
 type Phase =
   "start" | "reading" | "recall" | "questions" | "finished" | "review";
 
-// Placeholder until the speed picker lands and page duration is derived from the reader's chosen wpm.
-const PLACEHOLDER_PACED_WPM = 300;
+// Defensive fallback; paced mode always sets a target wpm before reading starts.
+const FALLBACK_PACED_WPM = 300;
 
 function capitalize(value: string): string {
   return value.charAt(0).toUpperCase() + value.slice(1);
@@ -661,7 +661,9 @@ export function SessionReader({
           <PacedReadingScreen
             key={pageIndex}
             page={page}
-            pageDurationMs={(page.wordCount / PLACEHOLDER_PACED_WPM) * 60_000}
+            pageDurationMs={
+              (page.wordCount / (targetWpm ?? FALLBACK_PACED_WPM)) * 60_000
+            }
             isLastPage={pageIndex === pages.length - 1}
             onNextPage={() => setPageIndex((index) => index + 1)}
             onFinish={handleFinishReading}
