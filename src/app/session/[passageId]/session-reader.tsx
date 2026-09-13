@@ -11,6 +11,7 @@ import { lastComprehensionForSpeed } from "@/lib/metrics/comprehension-for-speed
 import { computeMedianSelfPacedRate } from "@/lib/metrics/median-self-paced-rate";
 import { paginatePassage, type Page } from "@/lib/paced/paginate";
 import { computeWpm } from "@/lib/session/metrics";
+import { useEnterKey } from "@/lib/session/use-enter-key";
 import { scheduleRetests } from "@/lib/spaced/schedule-retests";
 import { PageCountdown } from "./page-countdown";
 import { speedOptionsFor, SpeedPicker } from "./speed-picker";
@@ -74,6 +75,11 @@ function StartScreen({
       ? lastComprehensionForSpeed(sessions, targetWpm)
       : null;
 
+  useEnterKey(
+    () => onStart(mode === "paced" ? targetWpm : null),
+    hasValidTarget,
+  );
+
   return (
     <main className="flex flex-1 flex-col items-start justify-center gap-6 py-16">
       <h1 className="font-serif text-2xl text-ink">{passage.title}</h1>
@@ -122,6 +128,8 @@ function ReadingScreen({
   paragraphs: string[];
   onFinish: () => void;
 }) {
+  useEnterKey(onFinish);
+
   return (
     <main className="flex flex-1 flex-col py-16">
       <article className="mx-auto flex max-w-[66ch] flex-col gap-6 font-serif text-[19px] leading-[1.65] text-ink">
@@ -157,6 +165,8 @@ function PacedReadingScreen({
   onFinish: () => void;
   onFlagUnfinished: () => void;
 }) {
+  useEnterKey(isLastPage ? onFinish : onNextPage);
+
   return (
     <main className="flex flex-1 flex-col py-16">
       <div className="mx-auto w-full max-w-[66ch]">
@@ -198,6 +208,8 @@ function RecallScreen({
   onContinue: (recallText: string) => void;
 }) {
   const [recallText, setRecallText] = useState("");
+
+  useEnterKey(() => onContinue(recallText), depth === "brief");
 
   return (
     <main className="flex flex-1 flex-col gap-6 py-16">
@@ -252,6 +264,35 @@ function QuestionScreen({
     seedForQuestion(sessionSeed, question.id),
   );
 
+  function handleContinue() {
+    if (selectedOptionIndex !== null && !locked) {
+      setLocked(true);
+      onAnswer(selectedOptionIndex);
+    }
+  }
+
+  useEnterKey(handleContinue, selectedOptionIndex !== null && !locked);
+
+  useEffect(() => {
+    if (locked) {
+      return;
+    }
+
+    function handleKeyDown(event: KeyboardEvent) {
+      const position = Number(event.key) - 1;
+      if (
+        Number.isInteger(position) &&
+        position >= 0 &&
+        position < optionOrder.length
+      ) {
+        setSelectedOptionIndex(optionOrder[position]!);
+      }
+    }
+
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [locked, optionOrder]);
+
   return (
     <main className="flex flex-1 flex-col items-start justify-center gap-6 py-16">
       <QuestionCard
@@ -265,12 +306,7 @@ function QuestionScreen({
         <button
           type="button"
           disabled={selectedOptionIndex === null || locked}
-          onClick={() => {
-            if (selectedOptionIndex !== null && !locked) {
-              setLocked(true);
-              onAnswer(selectedOptionIndex);
-            }
-          }}
+          onClick={handleContinue}
           className="rounded border border-rule px-4 py-2 font-sans text-sm text-ink disabled:opacity-40"
         >
           Continue
@@ -313,6 +349,8 @@ function FinishedScreen({
   originalComprehension: number | null;
   onReview: () => void;
 }) {
+  useEnterKey(onReview, hasQuestions);
+
   return (
     <main className="flex flex-1 flex-col items-start justify-center gap-6 py-16">
       {comprehension !== null && (
