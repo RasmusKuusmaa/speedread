@@ -139,6 +139,7 @@ export function SessionReader({ passage }: { passage: PassageWithWordCounts }) {
   const [focusLost, setFocusLost] = useState(false);
   const hasCheckedResumeRef = useRef(false);
   const timer = useReadingTimer();
+  const recallDepth = store?.settings.recallDepth ?? "brief";
 
   useEffect(() => {
     if (phase !== "reading") {
@@ -198,13 +199,16 @@ export function SessionReader({ passage }: { passage: PassageWithWordCounts }) {
           onFinish={() => {
             timer.stop();
             update((current) => ({ ...current, inProgressSession: null }));
-            setPhase("recall");
+            setPhase(recallDepth === "off" ? "finished" : "recall");
           }}
         />
       );
     case "recall":
       return (
-        <RecallScreen depth="brief" onContinue={() => setPhase("finished")} />
+        <RecallScreen
+          depth={recallDepth === "off" ? "brief" : recallDepth}
+          onContinue={() => setPhase("finished")}
+        />
       );
     case "finished":
       return (

@@ -46,6 +46,7 @@ export function defaultStore(): Store {
     createdAt: new Date().toISOString(),
     settings: {
       pickerFilters: { textType: "all", domain: "all" },
+      recallDepth: "brief",
     },
     sessions: [],
     retests: [],

@@ -7,8 +7,11 @@ export interface PickerFilters {
   domain: Domain | "all";
 }
 
+export type RecallDepth = "full" | "brief" | "off";
+
 export interface Settings {
   pickerFilters: PickerFilters;
+  recallDepth: RecallDepth;
 }
 
 export interface SessionRecord {
