@@ -268,14 +268,23 @@ function EvidenceParagraph({
   );
 }
 
+type MissClassification = "forgot" | "misunderstood";
+
 function ReviewScreen({
   paragraphs,
   questions,
   answers,
+  missClassifications,
+  onClassifyMiss,
 }: {
   paragraphs: string[];
   questions: Question[];
   answers: number[];
+  missClassifications: Record<string, MissClassification>;
+  onClassifyMiss: (
+    questionId: string,
+    classification: MissClassification,
+  ) => void;
 }) {
   const [selectedQuestionIndex, setSelectedQuestionIndex] = useState(0);
   const selectedQuestion = questions[selectedQuestionIndex];
@@ -287,6 +296,7 @@ function ReviewScreen({
         {questions.map((question, index) => {
           const chosenIndex = answers[index];
           const isCorrect = chosenIndex === question.answerIndex;
+          const classification = missClassifications[question.id];
           return (
             <li key={question.id} className="border-b border-rule pb-6">
               <button
@@ -312,6 +322,34 @@ function ReviewScreen({
                   </p>
                 )}
               </button>
+              {!isCorrect && (
+                <div className="mt-3 flex gap-3">
+                  <button
+                    type="button"
+                    onClick={() => onClassifyMiss(question.id, "forgot")}
+                    aria-pressed={classification === "forgot"}
+                    className={`rounded border px-3 py-1.5 font-sans text-sm text-ink ${
+                      classification === "forgot"
+                        ? "border-signal"
+                        : "border-rule"
+                    }`}
+                  >
+                    I knew it, I forgot it
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => onClassifyMiss(question.id, "misunderstood")}
+                    aria-pressed={classification === "misunderstood"}
+                    className={`rounded border px-3 py-1.5 font-sans text-sm text-ink ${
+                      classification === "misunderstood"
+                        ? "border-signal"
+                        : "border-rule"
+                    }`}
+                  >
+                    I didn&apos;t understand it
+                  </button>
+                </div>
+              )}
             </li>
           );
         })}
@@ -367,6 +405,9 @@ export function SessionReader({
     {},
   );
   const [answers, setAnswers] = useState<number[]>([]);
+  const [missClassifications, setMissClassifications] = useState<
+    Record<string, MissClassification>
+  >({});
   const answersRef = useRef<number[]>([]);
 
   useEffect(() => {
@@ -494,6 +535,13 @@ export function SessionReader({
           paragraphs={passage.body}
           questions={questions}
           answers={answers}
+          missClassifications={missClassifications}
+          onClassifyMiss={(questionId, classification) => {
+            setMissClassifications((current) => ({
+              ...current,
+              [questionId]: classification,
+            }));
+          }}
         />
       );
   }
