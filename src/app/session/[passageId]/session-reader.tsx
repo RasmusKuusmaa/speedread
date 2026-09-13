@@ -686,7 +686,7 @@ export function SessionReader({
       unfinishedPageCount,
     };
     const newRetests =
-      sessionContext === "practice"
+      sessionContext === "practice" || sessionContext === "book"
         ? scheduleRetests(record.id, passage.id, Date.now())
         : [];
     update((current) => ({
