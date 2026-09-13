@@ -1,0 +1,325 @@
+{
+  "id": "oz-silver-shoes",
+  "title": "The Wicked Witch's Trick",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "Excerpted verbatim from The Wonderful Wizard of Oz by L. Frank Baum (1900).",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Dorothy’s life became very sad as she grew to understand that it would be harder than ever to get back to Kansas and Aunt Em again. Sometimes she would cry bitterly for hours, with Toto sitting at her feet and looking into her face, whining dismally to show how sorry he was for his little mistress. Toto did not really care whether he was in Kansas or the Land of Oz so long as Dorothy was with him; but he knew the little girl was unhappy, and that made him unhappy too.",
+    "Now the Wicked Witch had a great longing to have for her own the Silver Shoes which the girl always wore. Her bees and her crows and her wolves were lying in heaps and drying up, and she had used up all the power of the Golden Cap; but if she could only get hold of the Silver Shoes, they would give her more power than all the other things she had lost. She watched Dorothy carefully, to see if she ever took off her shoes, thinking she might steal them. But the child was so proud of her pretty shoes that she never took them off except at night and when she took her bath. The Witch was too much afraid of the dark to dare go in Dorothy’s room at night to take the shoes, and her dread of water was greater than her fear of the dark, so she never came near when Dorothy was bathing. Indeed, the old Witch never touched water, nor ever let water touch her in any way.",
+    "But the wicked creature was very cunning, and she finally thought of a trick that would give her what she wanted. She placed a bar of iron in the middle of the kitchen floor, and then by her magic arts made the iron invisible to human eyes. So that when Dorothy walked across the floor she stumbled over the bar, not being able to see it, and fell at full length. She was not much hurt, but in her fall one of the Silver Shoes came off; and before she could reach it, the Witch had snatched it away and put it on her own skinny foot.",
+    "The wicked woman was greatly pleased with the success of her trick, for as long as she had one of the shoes she owned half the power of their charm, and Dorothy could not use it against her, even had she known how to do so."
+  ],
+  "questions": [
+    {
+      "id": "oz-silver-shoes-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Wicked Witch want from Dorothy?",
+      "options": [
+        "The Silver Shoes",
+        "The Golden Cap",
+        "Toto",
+        "The basket of food"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 4,
+        "end": 77
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-silver-shoes-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, when did Dorothy take off her shoes?",
+      "options": [
+        "Only at night and when she bathed",
+        "Only when she slept outdoors",
+        "She never took them off at all",
+        "Whenever she crossed water"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 508,
+        "end": 574
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-silver-shoes-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why didn't the Witch enter Dorothy's room at night to steal the shoes?",
+      "options": [
+        "She was too afraid of the dark",
+        "The door was locked",
+        "Toto guarded the room",
+        "She had no reason to go there"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 576,
+        "end": 655
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-silver-shoes-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, where did the Witch place the bar of iron?",
+      "options": [
+        "In the middle of the kitchen floor",
+        "Just outside Dorothy's bedroom door",
+        "Beside the water bucket",
+        "Under Dorothy's bed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 114,
+        "end": 173
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-silver-shoes-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Witch make the iron bar dangerous to Dorothy?",
+      "options": [
+        "She made it invisible with magic",
+        "She heated it red hot",
+        "She balanced it on a shelf above the door",
+        "She hid it under a rug"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 202,
+        "end": 239
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-silver-shoes-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Witch never come near Dorothy while she was bathing?",
+      "options": [
+        "Her dread of water was greater than her fear of the dark",
+        "She was busy tending her bees and wolves",
+        "Dorothy always bathed with Toto nearby",
+        "She had already given up on the shoes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 679,
+        "end": 784
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-silver-shoes-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did losing just one Silver Shoe still benefit the Witch?",
+      "options": [
+        "Owning one shoe gave her half the power of their charm",
+        "She could sell the shoe for gold",
+        "It matched her own missing shoe",
+        "It let her fly instead of the other creatures"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 68,
+        "end": 147
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-silver-shoes-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why couldn't the Witch's bees, crows, and wolves help her get the shoes?",
+      "options": [
+        "They were lying in heaps and drying up",
+        "They had flown away to the Emerald City",
+        "Dorothy had already defeated them",
+        "They refused to obey her anymore"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 106,
+        "end": 177
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-silver-shoes-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "The Witch tricked Dorothy with an invisible obstacle and gained power from the shoe she stole",
+        "Dorothy escaped the Witch's castle without incident",
+        "The Witch lost all her remaining power trying to steal the shoes",
+        "Toto distracted the Witch long enough for Dorothy to hide the shoes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 46,
+        "end": 112
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-silver-shoes-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the Witch was \"cunning\"?",
+      "options": [
+        "Clever in a deceitful way",
+        "Physically powerful",
+        "Honest and straightforward",
+        "Easily frightened"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 4,
+        "end": 40
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-silver-shoes-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Toto do to show he was sorry for Dorothy?",
+      "options": [
+        "He whined dismally",
+        "He barked at the Witch",
+        "He hid under the bed",
+        "He ran away to find help"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 233,
+        "end": 298
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-silver-shoes-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what had happened to the power of the Golden Cap?",
+      "options": [
+        "The Witch had used up all of it",
+        "Dorothy had taken it from her",
+        "It had never had any power",
+        "It only worked underwater"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 183,
+        "end": 230
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-silver-shoes-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to Dorothy when she stumbled over the invisible bar?",
+      "options": [
+        "She fell at full length",
+        "She twisted her ankle badly",
+        "She dropped her basket of food",
+        "She caught herself before falling"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 286,
+        "end": 362
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-silver-shoes-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Witch do with the shoe once she snatched it?",
+      "options": [
+        "Put it on her own foot",
+        "Locked it in a chest",
+        "Threw it into the fire",
+        "Buried it in the garden"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 468,
+        "end": 532
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-silver-shoes-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Witch watch Dorothy carefully day to day?",
+      "options": [
+        "To see if she ever took off her shoes, so she could steal them",
+        "To make sure Dorothy did her chores",
+        "To learn how Dorothy had killed her sister",
+        "To find out if Toto could talk"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 355,
+        "end": 454
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-silver-shoes-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes how the Witch's trick worked?",
+      "options": [
+        "An invisible obstacle made Dorothy trip so a shoe would come off",
+        "The Witch simply asked Dorothy to hand over a shoe",
+        "The Witch waited until Dorothy fell asleep to take the shoe",
+        "The Witch traded the Golden Cap for one of the shoes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 241,
+        "end": 311
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-silver-shoes-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that Dorothy was \"proud\" of her pretty shoes?",
+      "options": [
+        "She took great satisfaction and delight in them",
+        "She was embarrassed to wear them",
+        "She wanted to trade them away",
+        "She had forgotten she owned them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 460,
+        "end": 502
+      },
+      "pool": "retest"
+    }
+  ]
+}
