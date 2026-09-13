@@ -1,6 +1,7 @@
 import bostonTeaParty from "./boston-tea-party.json";
 import covalentBonding from "./covalent-bonding.json";
 import ozGoldenCap from "./oz-golden-cap.json";
+import ozGreenRoom from "./oz-green-room.json";
 import ozSilverShoes from "./oz-silver-shoes.json";
 import sonsAndDaughtersOfLiberty from "./sons-and-daughters-of-liberty.json";
 import stampAct1765 from "./stamp-act-1765.json";
@@ -14,4 +15,5 @@ export const rawPassages: unknown[] = [
   sonsAndDaughtersOfLiberty,
   ozSilverShoes,
   ozGoldenCap,
+  ozGreenRoom,
 ];
