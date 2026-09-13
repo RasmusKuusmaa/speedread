@@ -45,3 +45,23 @@ export function computeHoldingRate(
 
   return highestQualifyingUpperBound;
 }
+
+export const MIN_ELIGIBLE_SESSIONS_FOR_HOLDING_RATE = 10;
+
+export type HoldingRateStatus =
+  | { state: "insufficient-data"; eligibleCount: number }
+  | { state: "ready"; upperBoundWpm: number | null };
+
+export function getHoldingRateStatus(
+  sessions: SessionRecord[],
+  thresholdPercent: number,
+): HoldingRateStatus {
+  const eligibleCount = sessions.filter(isEligibleSession).length;
+  if (eligibleCount < MIN_ELIGIBLE_SESSIONS_FOR_HOLDING_RATE) {
+    return { state: "insufficient-data", eligibleCount };
+  }
+  return {
+    state: "ready",
+    upperBoundWpm: computeHoldingRate(sessions, thresholdPercent),
+  };
+}
