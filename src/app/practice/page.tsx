@@ -22,6 +22,7 @@ export default function PracticePage() {
 
   const filtered = passages.filter(
     (passage) =>
+      !passage.calibrationOnly &&
       (textType === "all" || passage.textType === textType) &&
       (domain === "all" || passage.domain === domain),
   );
