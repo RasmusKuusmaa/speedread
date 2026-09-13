@@ -68,3 +68,20 @@ export interface PassageWordCounts {
 export interface PassageWithWordCounts extends Passage {
   wordCounts: PassageWordCounts;
 }
+
+export interface Book {
+  id: string;
+  title: string;
+  author: string;
+  source: string;
+  attribution: string;
+  licence: string;
+  textType: TextType;
+  domain: Domain;
+  language: string;
+  chunkPassageIds: string[];
+}
+
+export interface BookWithChunks extends Book {
+  chunks: PassageWithWordCounts[];
+}

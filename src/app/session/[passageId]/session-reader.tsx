@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { scoreDifficulty } from "@/lib/content/difficulty";
 import type {
@@ -410,15 +411,26 @@ function FinishedScreen({
           tab while reading.
         </p>
       )}
-      {hasQuestions && (
-        <button
-          type="button"
-          onClick={onReview}
+      <div className="flex gap-3">
+        {hasQuestions && (
+          <button
+            type="button"
+            onClick={onReview}
+            className="rounded border border-rule px-4 py-2 font-sans text-sm text-ink"
+          >
+            Show me what I missed
+          </button>
+        )}
+        <Link
+          href="/practice"
           className="rounded border border-rule px-4 py-2 font-sans text-sm text-ink"
         >
-          Show me what I missed
-        </button>
-      )}
+          Back to practice
+        </Link>
+        <Link href="/" className="rounded border border-rule px-4 py-2 font-sans text-sm text-ink">
+          Home
+        </Link>
+      </div>
     </main>
   );
 }
@@ -564,6 +576,17 @@ function ReviewScreen({
           <p className="font-serif text-base text-ink">{recallText}</p>
         </div>
       )}
+      <div className="flex gap-3 border-t border-rule pt-8">
+        <Link
+          href="/practice"
+          className="rounded border border-rule px-4 py-2 font-sans text-sm text-ink"
+        >
+          Back to practice
+        </Link>
+        <Link href="/" className="rounded border border-rule px-4 py-2 font-sans text-sm text-ink">
+          Home
+        </Link>
+      </div>
     </main>
   );
 }
