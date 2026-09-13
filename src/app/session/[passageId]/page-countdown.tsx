@@ -2,6 +2,23 @@
 
 import { useEffect, useRef, useState } from "react";
 
+function usePrefersReducedMotion(): boolean {
+  const [prefersReducedMotion, setPrefersReducedMotion] = useState(
+    () => window.matchMedia("(prefers-reduced-motion: reduce)").matches,
+  );
+
+  useEffect(() => {
+    const query = window.matchMedia("(prefers-reduced-motion: reduce)");
+    function handleChange() {
+      setPrefersReducedMotion(query.matches);
+    }
+    query.addEventListener("change", handleChange);
+    return () => query.removeEventListener("change", handleChange);
+  }, []);
+
+  return prefersReducedMotion;
+}
+
 export function PageCountdown({
   durationMs,
   onExpire,
@@ -11,14 +28,15 @@ export function PageCountdown({
 }) {
   const [depleted, setDepleted] = useState(false);
   const onExpireRef = useRef(onExpire);
+  const prefersReducedMotion = usePrefersReducedMotion();
 
   useEffect(() => {
     onExpireRef.current = onExpire;
   }, [onExpire]);
 
   useEffect(() => {
-    const frame = requestAnimationFrame(() => setDepleted(true));
     const timeout = setTimeout(() => onExpireRef.current(), durationMs);
+    const frame = requestAnimationFrame(() => setDepleted(true));
     return () => {
       cancelAnimationFrame(frame);
       clearTimeout(timeout);
@@ -29,12 +47,16 @@ export function PageCountdown({
     <div className="h-px w-full bg-rule">
       <div
         className="h-px bg-signal"
-        style={{
-          width: depleted ? "0%" : "100%",
-          transitionProperty: "width",
-          transitionDuration: `${durationMs}ms`,
-          transitionTimingFunction: "linear",
-        }}
+        style={
+          prefersReducedMotion
+            ? { width: "100%" }
+            : {
+                width: depleted ? "0%" : "100%",
+                transitionProperty: "width",
+                transitionDuration: `${durationMs}ms`,
+                transitionTimingFunction: "linear",
+              }
+        }
       />
     </div>
   );
