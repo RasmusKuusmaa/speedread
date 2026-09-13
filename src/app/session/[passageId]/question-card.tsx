@@ -4,11 +4,13 @@ export function QuestionCard({
   question,
   optionOrder,
   selectedOptionIndex,
+  locked = false,
   onSelect,
 }: {
   question: Question;
   optionOrder: number[];
   selectedOptionIndex: number | null;
+  locked?: boolean;
   onSelect: (optionIndex: number) => void;
 }) {
   return (
@@ -19,9 +21,10 @@ export function QuestionCard({
           <button
             key={optionIndex}
             type="button"
+            disabled={locked}
             onClick={() => onSelect(optionIndex)}
             aria-pressed={selectedOptionIndex === optionIndex}
-            className={`rounded border px-4 py-3 text-left font-sans text-sm text-ink ${
+            className={`rounded border px-4 py-3 text-left font-sans text-sm text-ink disabled:opacity-60 ${
               selectedOptionIndex === optionIndex
                 ? "border-signal"
                 : "border-rule"

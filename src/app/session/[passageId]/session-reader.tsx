@@ -124,6 +124,7 @@ function QuestionScreen({
   const [selectedOptionIndex, setSelectedOptionIndex] = useState<number | null>(
     null,
   );
+  const [locked, setLocked] = useState(false);
   const optionOrder = question.options.map((_, index) => index);
 
   return (
@@ -132,14 +133,16 @@ function QuestionScreen({
         question={question}
         optionOrder={optionOrder}
         selectedOptionIndex={selectedOptionIndex}
+        locked={locked}
         onSelect={setSelectedOptionIndex}
       />
       <div className="mx-auto w-full max-w-[66ch]">
         <button
           type="button"
-          disabled={selectedOptionIndex === null}
+          disabled={selectedOptionIndex === null || locked}
           onClick={() => {
-            if (selectedOptionIndex !== null) {
+            if (selectedOptionIndex !== null && !locked) {
+              setLocked(true);
               onAnswer(selectedOptionIndex);
             }
           }}
