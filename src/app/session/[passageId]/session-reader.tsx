@@ -622,9 +622,11 @@ export function SessionReader({
   const fontSize = store?.settings.fontSize ?? "medium";
   const lineWidth = store?.settings.lineWidth ?? "medium";
   const recallDepth =
-    sessionContext === "practice"
-      ? (store?.settings.recallDepth ?? "brief")
-      : "full";
+    sessionContext === "book"
+      ? "off"
+      : sessionContext === "practice"
+        ? (store?.settings.recallDepth ?? "brief")
+        : "full";
 
   const questionPool = sessionContext === "retest" ? "retest" : "first";
   const questions = passage.questions.filter(
