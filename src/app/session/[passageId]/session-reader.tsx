@@ -11,6 +11,10 @@ import { lastComprehensionForSpeed } from "@/lib/metrics/comprehension-for-speed
 import { computeMedianSelfPacedRate } from "@/lib/metrics/median-self-paced-rate";
 import { paginatePassage, type Page } from "@/lib/paced/paginate";
 import { computeWpm } from "@/lib/session/metrics";
+import {
+  FONT_SIZE_CLASSES,
+  LINE_WIDTH_CLASSES,
+} from "@/lib/session/reading-surface";
 import { useEnterKey } from "@/lib/session/use-enter-key";
 import { scheduleRetests } from "@/lib/spaced/schedule-retests";
 import { PageCountdown } from "./page-countdown";
@@ -28,6 +32,8 @@ import {
 import { useReadingTimer } from "@/lib/session/use-reading-timer";
 import { useStore } from "@/lib/storage/store-provider";
 import type {
+  FontSize,
+  LineWidth,
   MissClassification,
   RecallDepth,
   SessionContext,
@@ -123,21 +129,28 @@ function StartScreen({
 
 function ReadingScreen({
   paragraphs,
+  fontSize,
+  lineWidth,
   onFinish,
 }: {
   paragraphs: string[];
+  fontSize: FontSize;
+  lineWidth: LineWidth;
   onFinish: () => void;
 }) {
   useEnterKey(onFinish);
+  const measureClass = LINE_WIDTH_CLASSES[lineWidth];
 
   return (
     <main className="flex flex-1 flex-col py-16">
-      <article className="mx-auto flex max-w-[66ch] flex-col gap-6 font-serif text-[19px] leading-[1.65] text-ink">
+      <article
+        className={`mx-auto flex ${measureClass} flex-col gap-6 font-serif ${FONT_SIZE_CLASSES[fontSize]} leading-[1.65] text-ink`}
+      >
         {paragraphs.map((paragraph, index) => (
           <p key={index}>{paragraph}</p>
         ))}
       </article>
-      <div className="mx-auto mt-10 w-full max-w-[66ch]">
+      <div className={`mx-auto mt-10 w-full ${measureClass}`}>
         <button
           type="button"
           onClick={onFinish}
@@ -154,6 +167,8 @@ function PacedReadingScreen({
   page,
   pageDurationMs,
   isLastPage,
+  fontSize,
+  lineWidth,
   onNextPage,
   onFinish,
   onFlagUnfinished,
@@ -161,26 +176,31 @@ function PacedReadingScreen({
   page: Page;
   pageDurationMs: number;
   isLastPage: boolean;
+  fontSize: FontSize;
+  lineWidth: LineWidth;
   onNextPage: () => void;
   onFinish: () => void;
   onFlagUnfinished: () => void;
 }) {
   useEnterKey(isLastPage ? onFinish : onNextPage);
+  const measureClass = LINE_WIDTH_CLASSES[lineWidth];
 
   return (
     <main className="flex flex-1 flex-col py-16">
-      <div className="mx-auto w-full max-w-[66ch]">
+      <div className={`mx-auto w-full ${measureClass}`}>
         <PageCountdown
           durationMs={pageDurationMs}
           onExpire={isLastPage ? onFinish : onNextPage}
         />
       </div>
-      <article className="mx-auto mt-10 flex max-w-[66ch] flex-col gap-6 font-serif text-[19px] leading-[1.65] text-ink">
+      <article
+        className={`mx-auto mt-10 flex ${measureClass} flex-col gap-6 font-serif ${FONT_SIZE_CLASSES[fontSize]} leading-[1.65] text-ink`}
+      >
         {page.paragraphs.map((paragraph, index) => (
           <p key={index}>{paragraph}</p>
         ))}
       </article>
-      <div className="mx-auto mt-10 flex w-full max-w-[66ch] gap-3">
+      <div className={`mx-auto mt-10 flex w-full ${measureClass} gap-3`}>
         <button
           type="button"
           onClick={isLastPage ? onFinish : onNextPage}
@@ -430,6 +450,8 @@ function ReviewScreen({
   answers,
   recallText,
   missClassifications,
+  fontSize,
+  lineWidth,
   onClassifyMiss,
 }: {
   paragraphs: string[];
@@ -437,6 +459,8 @@ function ReviewScreen({
   answers: number[];
   recallText: string | null;
   missClassifications: Record<string, MissClassification>;
+  fontSize: FontSize;
+  lineWidth: LineWidth;
   onClassifyMiss: (
     questionId: string,
     classification: MissClassification,
@@ -511,7 +535,9 @@ function ReviewScreen({
         })}
       </ol>
       {selectedQuestion && (
-        <article className="mx-auto flex max-w-[66ch] flex-col gap-6 border-t border-rule pt-8 font-serif text-[19px] leading-[1.65] text-ink">
+        <article
+          className={`mx-auto flex ${LINE_WIDTH_CLASSES[lineWidth]} flex-col gap-6 border-t border-rule pt-8 font-serif ${FONT_SIZE_CLASSES[fontSize]} leading-[1.65] text-ink`}
+        >
           {paragraphs.map((paragraph, index) => (
             <EvidenceParagraph
               key={index}
@@ -529,7 +555,9 @@ function ReviewScreen({
         </article>
       )}
       {recallText !== null && (
-        <div className="mx-auto flex w-full max-w-[66ch] flex-col gap-2 border-t border-rule pt-8">
+        <div
+          className={`mx-auto flex w-full ${LINE_WIDTH_CLASSES[lineWidth]} flex-col gap-2 border-t border-rule pt-8`}
+        >
           <h2 className="font-sans text-sm text-muted">
             What you wrote before answering
           </h2>
@@ -568,6 +596,8 @@ export function SessionReader({
   const [targetWpm, setTargetWpm] = useState<number | null>(null);
   const [unfinishedPageCount, setUnfinishedPageCount] = useState(0);
   const medianSelfPacedWpm = computeMedianSelfPacedRate(store?.sessions ?? []);
+  const fontSize = store?.settings.fontSize ?? "medium";
+  const lineWidth = store?.settings.lineWidth ?? "medium";
   const recallDepth =
     sessionContext === "practice"
       ? (store?.settings.recallDepth ?? "brief")
@@ -756,6 +786,8 @@ export function SessionReader({
               (page.wordCount / (targetWpm ?? FALLBACK_PACED_WPM)) * 60_000
             }
             isLastPage={pageIndex === pages.length - 1}
+            fontSize={fontSize}
+            lineWidth={lineWidth}
             onNextPage={() => setPageIndex((index) => index + 1)}
             onFinish={handleFinishReading}
             onFlagUnfinished={() =>
@@ -765,7 +797,12 @@ export function SessionReader({
         );
       }
       return (
-        <ReadingScreen paragraphs={passage.body} onFinish={handleFinishReading} />
+        <ReadingScreen
+          paragraphs={passage.body}
+          fontSize={fontSize}
+          lineWidth={lineWidth}
+          onFinish={handleFinishReading}
+        />
       );
     case "recall": {
       const depth = recallDepth === "off" ? "brief" : recallDepth;
@@ -846,6 +883,8 @@ export function SessionReader({
           answers={answers}
           recallText={recall?.text ?? null}
           missClassifications={missClassifications}
+          fontSize={fontSize}
+          lineWidth={lineWidth}
           onClassifyMiss={(questionId, classification) => {
             setMissClassifications((current) => ({
               ...current,

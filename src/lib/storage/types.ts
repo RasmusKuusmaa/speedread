@@ -9,10 +9,16 @@ export interface PickerFilters {
 
 export type RecallDepth = "full" | "brief" | "off";
 
+export type FontSize = "small" | "medium" | "large";
+
+export type LineWidth = "narrow" | "medium" | "wide";
+
 export interface Settings {
   pickerFilters: PickerFilters;
   recallDepth: RecallDepth;
   comprehensionThreshold: number;
+  fontSize: FontSize;
+  lineWidth: LineWidth;
 }
 
 export type SessionMode = "self-paced" | "paced";

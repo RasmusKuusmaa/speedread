@@ -48,6 +48,8 @@ export function defaultStore(): Store {
       pickerFilters: { textType: "all", domain: "all" },
       recallDepth: "brief",
       comprehensionThreshold: 80,
+      fontSize: "medium",
+      lineWidth: "medium",
     },
     sessions: [],
     retests: [],

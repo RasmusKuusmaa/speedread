@@ -5,7 +5,7 @@ import { exportStore } from "@/lib/storage/export";
 import { importStore } from "@/lib/storage/import";
 import { defaultStore } from "@/lib/storage/storage";
 import { useStore } from "@/lib/storage/store-provider";
-import type { RecallDepth } from "@/lib/storage/types";
+import type { FontSize, LineWidth, RecallDepth } from "@/lib/storage/types";
 
 const RESET_PHRASE = "RESET";
 
@@ -97,6 +97,45 @@ export default function SettingsPage() {
           }}
           className="w-24 rounded border border-rule px-3 py-2 font-sans text-sm text-ink"
         />
+      </section>
+
+      <section className="flex flex-col gap-3">
+        <h2 className="font-sans text-sm text-muted">Reading surface</h2>
+        <p className="font-sans text-sm text-muted">
+          Font size and line width for the passage while you read.
+        </p>
+        <div className="flex gap-4">
+          <select
+            value={store.settings.fontSize}
+            onChange={(event) => {
+              const value = event.target.value as FontSize;
+              update((current) => ({
+                ...current,
+                settings: { ...current.settings, fontSize: value },
+              }));
+            }}
+            className="rounded border border-rule px-3 py-2 font-sans text-sm text-ink"
+          >
+            <option value="small">Small text</option>
+            <option value="medium">Medium text</option>
+            <option value="large">Large text</option>
+          </select>
+          <select
+            value={store.settings.lineWidth}
+            onChange={(event) => {
+              const value = event.target.value as LineWidth;
+              update((current) => ({
+                ...current,
+                settings: { ...current.settings, lineWidth: value },
+              }));
+            }}
+            className="rounded border border-rule px-3 py-2 font-sans text-sm text-ink"
+          >
+            <option value="narrow">Narrow line</option>
+            <option value="medium">Medium line</option>
+            <option value="wide">Wide line</option>
+          </select>
+        </div>
       </section>
 
       <section className="flex flex-col gap-3">
