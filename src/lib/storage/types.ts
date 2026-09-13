@@ -1,4 +1,4 @@
-import type { Domain, TextType } from "@/lib/content/types";
+import type { Domain, QuestionTaxonomy, TextType } from "@/lib/content/types";
 
 export type SchemaVersion = 1;
 
@@ -14,8 +14,31 @@ export interface Settings {
   recallDepth: RecallDepth;
 }
 
+export type SessionMode = "self-paced" | "paced";
+
+export type SessionContext = "practice" | "retest" | "calibration";
+
+export type MissClassification = "forgot" | "misunderstood";
+
+export interface SessionTimings {
+  startedAtEpochMs: number;
+  elapsedMs: number;
+}
+
 export interface SessionRecord {
   id: string;
+  passageId: string;
+  sessionContext: SessionContext;
+  mode: SessionMode;
+  timings: SessionTimings;
+  wordCount: number;
+  wpm: number;
+  comprehension: number;
+  taxonomyBreakdown: Partial<Record<QuestionTaxonomy, number>>;
+  focusLost: boolean;
+  missClassifications: Record<string, MissClassification>;
+  recallText: string | null;
+  recallDepth: RecallDepth;
 }
 
 export interface RetestRecord {

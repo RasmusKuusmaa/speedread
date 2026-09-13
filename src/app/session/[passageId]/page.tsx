@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { loadPassages } from "@/lib/content/loader";
 import { SessionReader } from "./session-reader";
-import type { SessionContext } from "./types";
+import type { SessionContext } from "@/lib/storage/types";
 
 const SESSION_CONTEXTS: SessionContext[] = [
   "practice",

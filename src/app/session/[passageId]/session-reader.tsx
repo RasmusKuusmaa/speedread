@@ -20,9 +20,13 @@ import {
 } from "@/lib/session/shuffle";
 import { useReadingTimer } from "@/lib/session/use-reading-timer";
 import { useStore } from "@/lib/storage/store-provider";
-import type { RecallDepth } from "@/lib/storage/types";
+import type {
+  MissClassification,
+  RecallDepth,
+  SessionContext,
+  SessionRecord,
+} from "@/lib/storage/types";
 import { QuestionCard } from "./question-card";
-import type { SessionContext } from "./types";
 
 type Phase =
   "start" | "reading" | "recall" | "questions" | "finished" | "review";
@@ -268,8 +272,6 @@ function EvidenceParagraph({
   );
 }
 
-type MissClassification = "forgot" | "misunderstood";
-
 function ReviewScreen({
   paragraphs,
   questions,
@@ -422,6 +424,42 @@ export function SessionReader({
     Record<string, MissClassification>
   >({});
   const answersRef = useRef<number[]>([]);
+  const [sessionRecordId] = useState(() => crypto.randomUUID());
+
+  function finishSession({
+    elapsedMs,
+    comprehensionValue,
+    taxonomyBreakdownValue,
+    recallValue,
+  }: {
+    elapsedMs: number;
+    comprehensionValue: number;
+    taxonomyBreakdownValue: TaxonomyBreakdown;
+    recallValue: { text: string; depth: RecallDepth } | null;
+  }) {
+    const record: SessionRecord = {
+      id: sessionRecordId,
+      passageId: passage.id,
+      sessionContext,
+      mode: "self-paced",
+      timings: {
+        startedAtEpochMs: Date.now() - elapsedMs,
+        elapsedMs,
+      },
+      wordCount: passage.wordCounts.total,
+      wpm: computeWpm(passage.wordCounts.total, elapsedMs),
+      comprehension: comprehensionValue,
+      taxonomyBreakdown: taxonomyBreakdownValue,
+      focusLost,
+      missClassifications: {},
+      recallText: recallValue?.text ?? null,
+      recallDepth: recallValue?.depth ?? recallDepth,
+    };
+    update((current) => ({
+      ...current,
+      sessions: [...current.sessions, record],
+    }));
+  }
 
   useEffect(() => {
     if (phase !== "reading") {
@@ -479,8 +517,16 @@ export function SessionReader({
         <ReadingScreen
           paragraphs={passage.body}
           onFinish={() => {
-            timer.stop();
+            const elapsedMs = timer.stop();
             update((current) => ({ ...current, inProgressSession: null }));
+            if (recallDepth === "off" && questions.length === 0) {
+              finishSession({
+                elapsedMs,
+                comprehensionValue: 0,
+                taxonomyBreakdownValue: {},
+                recallValue: null,
+              });
+            }
             setPhase(
               recallDepth === "off"
                 ? questions.length > 0
@@ -498,6 +544,14 @@ export function SessionReader({
           depth={depth}
           onContinue={(text) => {
             setRecall({ text, depth });
+            if (questions.length === 0) {
+              finishSession({
+                elapsedMs: timer.elapsedMs ?? 0,
+                comprehensionValue: 0,
+                taxonomyBreakdownValue: {},
+                recallValue: { text, depth },
+              });
+            }
             setPhase(questions.length > 0 ? "questions" : "finished");
           }}
         />
@@ -518,11 +572,21 @@ export function SessionReader({
             if (questionIndex + 1 < questions.length) {
               setQuestionIndex((index) => index + 1);
             } else {
-              setAnswers(answersRef.current);
-              setComprehension(scoreAnswers(questions, answersRef.current));
-              setTaxonomyBreakdown(
-                scoreByTaxonomy(questions, answersRef.current),
+              const finalAnswers = answersRef.current;
+              const comprehensionValue = scoreAnswers(questions, finalAnswers);
+              const taxonomyBreakdownValue = scoreByTaxonomy(
+                questions,
+                finalAnswers,
               );
+              setAnswers(finalAnswers);
+              setComprehension(comprehensionValue);
+              setTaxonomyBreakdown(taxonomyBreakdownValue);
+              finishSession({
+                elapsedMs: timer.elapsedMs ?? 0,
+                comprehensionValue,
+                taxonomyBreakdownValue,
+                recallValue: recall,
+              });
               setPhase("finished");
             }
           }}
@@ -554,6 +618,20 @@ export function SessionReader({
             setMissClassifications((current) => ({
               ...current,
               [questionId]: classification,
+            }));
+            update((current) => ({
+              ...current,
+              sessions: current.sessions.map((session) =>
+                session.id === sessionRecordId
+                  ? {
+                      ...session,
+                      missClassifications: {
+                        ...session.missClassifications,
+                        [questionId]: classification,
+                      },
+                    }
+                  : session,
+              ),
             }));
           }}
         />
