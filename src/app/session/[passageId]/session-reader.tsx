@@ -7,7 +7,7 @@ import { computeWpm } from "@/lib/session/metrics";
 import { useReadingTimer } from "@/lib/session/use-reading-timer";
 import { useStore } from "@/lib/storage/store-provider";
 
-type Phase = "start" | "reading" | "finished";
+type Phase = "start" | "reading" | "recall" | "finished";
 
 function capitalize(value: string): string {
   return value.charAt(0).toUpperCase() + value.slice(1);
@@ -61,6 +61,37 @@ function ReadingScreen({
           className="rounded border border-rule px-4 py-2 font-sans text-sm text-ink"
         >
           I&apos;ve finished reading
+        </button>
+      </div>
+    </main>
+  );
+}
+
+function RecallScreen({
+  onContinue,
+}: {
+  onContinue: (recallText: string) => void;
+}) {
+  const [recallText, setRecallText] = useState("");
+
+  return (
+    <main className="flex flex-1 flex-col gap-6 py-16">
+      <p className="font-sans text-base text-ink">
+        What do you remember from what you just read?
+      </p>
+      <textarea
+        value={recallText}
+        onChange={(event) => setRecallText(event.target.value)}
+        rows={8}
+        className="mx-auto w-full max-w-[66ch] rounded border border-rule p-3 font-serif text-base text-ink"
+      />
+      <div className="mx-auto w-full max-w-[66ch]">
+        <button
+          type="button"
+          onClick={() => onContinue(recallText)}
+          className="rounded border border-rule px-4 py-2 font-sans text-sm text-ink"
+        >
+          Continue
         </button>
       </div>
     </main>
@@ -154,10 +185,12 @@ export function SessionReader({ passage }: { passage: PassageWithWordCounts }) {
           onFinish={() => {
             timer.stop();
             update((current) => ({ ...current, inProgressSession: null }));
-            setPhase("finished");
+            setPhase("recall");
           }}
         />
       );
+    case "recall":
+      return <RecallScreen onContinue={() => setPhase("finished")} />;
     case "finished":
       return (
         <FinishedScreen
