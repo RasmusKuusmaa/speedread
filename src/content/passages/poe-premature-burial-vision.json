@@ -1,0 +1,325 @@
+{
+  "id": "poe-premature-burial-vision",
+  "title": "The Icy Hand",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/2148",
+  "attribution": "Excerpted verbatim from \"The Premature Burial\" by Edgar Allan Poe (1844), collected in The Works of Edgar Allan Poe.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "In all that I endured there was no physical suffering but of moral distress an infinitude. My fancy grew charnel, I talked “of worms, of tombs, and epitaphs.” I was lost in reveries of death, and the idea of premature burial held continual possession of my brain. The ghastly Danger to which I was subjected haunted me day and night. In the former, the torture of meditation was excessive—in the latter, supreme. When the grim Darkness overspread the Earth, then, with every horror of thought, I shook—shook as the quivering plumes upon the hearse. When Nature could endure wakefulness no longer, it was with a struggle that I consented to sleep—for I shuddered to reflect that, upon awaking, I might find myself the tenant of a grave. And when, finally, I sank into slumber, it was only to rush at once into a world of phantasms, above which, with vast, sable, overshadowing wing, hovered, predominant, the one sepulchral Idea.",
+    "From the innumerable images of gloom which thus oppressed me in dreams, I select for record but a solitary vision. Methought I was immersed in a cataleptic trance of more than usual duration and profundity. Suddenly there came an icy hand upon my forehead, and an impatient, gibbering voice whispered the word “Arise!” within my ear.",
+    "I sat erect. The darkness was total. I could not see the figure of him who had aroused me. I could call to mind neither the period at which I had fallen into the trance, nor the locality in which I then lay. While I remained motionless, and busied in endeavors to collect my thought, the cold hand grasped me fiercely by the wrist, shaking it petulantly, while the gibbering voice said again:",
+    "“I have no name in the regions which I inhabit,” replied the voice, mournfully; “I was mortal, but am fiend. I was merciless, but am pitiful. Thou dost feel that I shudder. My teeth chatter as I speak, yet it is not with the chilliness of the night—of the night without end. But this hideousness is insufferable. How canst thou tranquilly sleep? I cannot rest for the cry of these great agonies. These sights are more than I can bear. Get thee up! Come with me into the outer Night, and let me unfold to thee the graves. Is not this a spectacle of woe?—Behold!”"
+  ],
+  "questions": [
+    {
+      "id": "poe-premature-burial-vision-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what idea held continual possession of the narrator's brain?",
+      "options": [
+        "The idea of premature burial",
+        "The idea of eternal youth",
+        "The idea of a lost fortune",
+        "The idea of a distant voyage"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 196,
+        "end": 262
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-premature-burial-vision-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what came upon the narrator's forehead in his vision?",
+      "options": [
+        "An icy hand",
+        "A warm breath",
+        "A beam of light",
+        "A drop of rain"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 216,
+        "end": 255
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-premature-burial-vision-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what single word did the gibbering voice whisper?",
+      "options": [
+        "Arise!",
+        "Beware!",
+        "Silence!",
+        "Forgive!"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 261,
+        "end": 318
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-premature-burial-vision-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how did the cold hand grasp the narrator's wrist?",
+      "options": [
+        "Fiercely, shaking it petulantly",
+        "Gently, barely touching it",
+        "With a light, friendly pat",
+        "It never touched his wrist at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 284,
+        "end": 353
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-premature-burial-vision-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the voice say it had once been, before becoming a fiend?",
+      "options": [
+        "Mortal",
+        "A king",
+        "A physician",
+        "An angel"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 81,
+        "end": 107
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-premature-burial-vision-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the narrator struggle each night before consenting to sleep?",
+      "options": [
+        "He feared waking to find himself buried alive",
+        "He was troubled by ordinary insomnia",
+        "He disliked the darkness of his room",
+        "He was kept awake by noises outside"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 650,
+        "end": 734
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-premature-burial-vision-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why could the narrator not identify who had aroused him?",
+      "options": [
+        "The darkness was total and he could not see the figure",
+        "He had fallen back asleep immediately",
+        "The figure spoke in an unfamiliar language",
+        "He recognized the voice but not the face"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 13,
+        "end": 90
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-premature-burial-vision-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the voice's statement \"I was merciless, but am pitiful\" suggest?",
+      "options": [
+        "Its nature had changed since becoming a fiend, gaining a pity it once lacked",
+        "It was lying to manipulate the narrator",
+        "It had always been equally merciless and pitiful",
+        "It no longer remembered its former self at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 109,
+        "end": 140
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-premature-burial-vision-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "Obsessive dread of premature burial haunted the narrator's waking and sleeping hours alike",
+        "The narrator was cured of his fears after a pleasant dream",
+        "The narrator discovered the vision was only a harmless joke",
+        "The narrator's fears had nothing to do with death or burial"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 264,
+        "end": 332
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-premature-burial-vision-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the narrator was immersed in a \"cataleptic trance\"?",
+      "options": [
+        "A trance-like state of suspended consciousness and rigidity",
+        "A light, easily broken nap",
+        "A state of extreme physical activity",
+        "A moment of clear, sharp thinking"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 131,
+        "end": 205
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-premature-burial-vision-r1",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the narrator's fancy \"grow\", according to the passage?",
+      "options": [
+        "Charnel",
+        "Playful",
+        "Forgetful",
+        "Musical"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 91,
+        "end": 112
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-premature-burial-vision-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when was the torture of the narrator's meditation described as \"supreme\"?",
+      "options": [
+        "At night, in the darkness",
+        "At noon, in bright sunlight",
+        "Only while he was eating",
+        "Only while traveling"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 389,
+        "end": 411
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-premature-burial-vision-r3",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the narrator compare his shaking to when darkness overspread the earth?",
+      "options": [
+        "The quivering plumes upon a hearse",
+        "The rattling of a chain",
+        "The swaying of tall grass",
+        "The flutter of a bird's wings"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 494,
+        "end": 547
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-premature-burial-vision-r4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what could the narrator not recall upon being aroused?",
+      "options": [
+        "The period he fell into the trance, nor the locality where he lay",
+        "His own name",
+        "The identity of the voice",
+        "The color of the room"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 91,
+        "end": 206
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-premature-burial-vision-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the voice say it has \"no name in the regions\" it inhabits?",
+      "options": [
+        "It belongs to a realm beyond mortal identity, having become a fiend rather than a person",
+        "It had simply forgotten its own name",
+        "Names were forbidden in its homeland",
+        "It refused to share its name out of spite"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 1,
+        "end": 46
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-premature-burial-vision-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes the vision the narrator recounts?",
+      "options": [
+        "A ghostly, gibbering voice urged him to rise and follow it into the night to see the graves",
+        "A kindly spirit reassured him that his fears were unfounded",
+        "He dreamed of his own funeral being celebrated joyfully",
+        "He woke to find the vision had physically harmed him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 435,
+        "end": 481
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-premature-burial-vision-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the voice spoke \"mournfully\"?",
+      "options": [
+        "In a sorrowful, grieving manner",
+        "In a cheerful, upbeat manner",
+        "In a loud, commanding manner",
+        "In a bored, indifferent manner"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 49,
+        "end": 78
+      },
+      "pool": "retest"
+    }
+  ]
+}
