@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { scoreDifficulty } from "@/lib/content/difficulty";
 import type { PassageWithWordCounts } from "@/lib/content/types";
+import { computeWpm } from "@/lib/session/metrics";
 import { useReadingTimer } from "@/lib/session/use-reading-timer";
 
 type Phase = "start" | "reading" | "finished";
@@ -63,9 +64,18 @@ export function SessionReader({ passage }: { passage: PassageWithWordCounts }) {
     );
   }
 
+  const wpm =
+    timer.elapsedMs === null
+      ? null
+      : Math.round(computeWpm(passage.wordCounts.total, timer.elapsedMs));
+
   return (
     <main className="flex flex-1 flex-col items-start justify-center gap-6 py-16">
-      <p className="font-sans text-sm text-muted">Reading finished.</p>
+      <p className="font-sans text-sm text-muted">
+        {wpm === null
+          ? "Reading finished."
+          : `You read at ${wpm} words per minute.`}
+      </p>
     </main>
   );
 }
