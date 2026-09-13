@@ -23,7 +23,7 @@ export interface Settings {
 
 export type SessionMode = "self-paced" | "paced";
 
-export type SessionContext = "practice" | "retest" | "calibration";
+export type SessionContext = "practice" | "retest" | "calibration" | "book";
 
 export type MissClassification = "forgot" | "misunderstood";
 
@@ -65,6 +65,13 @@ export interface InProgressSession {
   startedAtEpochMs: number;
 }
 
+export interface BookProgress {
+  bookId: string;
+  currentChunkIndex: number;
+  startedAtEpochMs: number;
+  completedAtEpochMs: number | null;
+}
+
 export interface Store {
   schemaVersion: SchemaVersion;
   createdAt: string;
@@ -73,4 +80,5 @@ export interface Store {
   retests: RetestRecord[];
   calibration: CalibrationRecord[];
   inProgressSession: InProgressSession | null;
+  bookProgress: BookProgress[];
 }

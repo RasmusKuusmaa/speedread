@@ -62,6 +62,7 @@ export function defaultStore(): Store {
     retests: [],
     calibration: [],
     inProgressSession: null,
+    bookProgress: [],
   };
 }
 
