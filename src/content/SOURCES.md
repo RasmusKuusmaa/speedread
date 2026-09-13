@@ -8,7 +8,7 @@ Public domain. Used for literary prose. No attribution is legally required, but 
 
 ## OpenStax
 
-CC BY. Used for technical expository prose. Requires attribution to OpenStax and the specific textbook. Record both in `attribution`, and the textbook URL in `source`.
+Licence varies per title — check the specific book before adding it. Some OpenStax textbooks are CC BY 4.0; others (including Chemistry 2e, as of this writing) are CC BY-NC-SA 4.0. Record the actual licence in the `licence` field rather than assuming CC BY. Requires attribution to OpenStax and the specific textbook (authors, title, publisher); record that in `attribution`, and the textbook URL in `source`. Under the NC-SA titles, note any adaptation in `attribution` — ShareAlike carries the same licence onto the adapted excerpt.
 
 ## Wikipedia
 

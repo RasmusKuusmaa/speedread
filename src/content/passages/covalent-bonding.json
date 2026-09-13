@@ -1,0 +1,246 @@
+{
+  "id": "covalent-bonding",
+  "title": "Covalent Bonding",
+  "language": "en",
+  "source": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+  "attribution": "Adapted from Chemistry 2e by Paul Flowers, Klaus Theopold, Richard Langley, and William R. Robinson (OpenStax, Rice University). The first two paragraphs are quoted directly; the third paragraph is substantially rewritten to remove references to a figure not reproduced here.",
+  "licence": "CC BY-NC-SA 4.0",
+  "textType": "expository",
+  "domain": "chemistry",
+  "calibrationOnly": false,
+  "body": [
+    "Ionic bonding results from the electrostatic attraction of oppositely charged ions that are typically produced by the transfer of electrons between metallic and nonmetallic atoms. A different type of bonding results from the mutual attraction of atoms for a “shared” pair of electrons. Such bonds are called covalent bonds. Covalent bonds are formed between two atoms when both have similar tendencies to attract electrons to themselves (i.e., when both atoms have identical or fairly similar ionization energies and electron affinities). For example, two hydrogen atoms bond covalently to form an H2 molecule; each hydrogen atom in the H2 molecule has two electrons stabilizing it, giving each atom the same number of valence electrons as the noble gas He.",
+    "Compounds that contain covalent bonds exhibit different physical properties than ionic compounds. Because the attraction between molecules, which are electrically neutral, is weaker than that between electrically charged ions, covalent compounds generally have much lower melting and boiling points than ionic compounds. In fact, many covalent compounds are liquids or gases at room temperature, and, in their solid states, they are typically much softer than ionic solids. Furthermore, whereas ionic compounds are good conductors of electricity when dissolved in water, most covalent compounds are insoluble in water; since they are electrically neutral, they are poor conductors of electricity in any state.",
+    "Nonmetal atoms frequently form covalent bonds with other nonmetal atoms, and the simplest case is the hydrogen molecule, H2, which contains a covalent bond between its two hydrogen atoms. When two hydrogen atoms are still far apart, each has its own potential energy and neither is affected by the other. As the atoms move closer together, their valence orbitals begin to overlap, and the single electron on each atom starts to interact with both nuclei at once. That shared attraction lowers the system's potential energy, so the energy keeps falling as the atoms draw closer. If the atoms are pushed closer still, the two positively charged nuclei begin to repel one another, and the potential energy rises again. The bond length is the particular distance between the nuclei at which this potential energy reaches its lowest point."
+  ],
+  "questions": [
+    {
+      "id": "covalent-bonding-q1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what produces the electrostatic attraction responsible for ionic bonding?",
+      "options": [
+        "The sharing of a pair of electrons between two atoms",
+        "The transfer of electrons between metallic and nonmetallic atoms",
+        "The overlap of valence orbitals as atoms approach each other",
+        "The repulsion between two positively charged nuclei"
+      ],
+      "answerIndex": 1,
+      "evidence": { "paragraphIndex": 0, "start": 114, "end": 178 },
+      "pool": "first"
+    },
+    {
+      "id": "covalent-bonding-q2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, two atoms are likely to form a covalent bond, rather than an ionic one, when they have:",
+      "options": [
+        "Identical or fairly similar ionization energies and electron affinities",
+        "Very different ionization energies and electron affinities",
+        "Opposite electrical charges",
+        "The same number of protons"
+      ],
+      "answerIndex": 0,
+      "evidence": { "paragraphIndex": 0, "start": 368, "end": 537 },
+      "pool": "first"
+    },
+    {
+      "id": "covalent-bonding-q3",
+      "taxonomy": "vocabulary",
+      "prompt": "In the passage, \"electron affinities\" and \"ionization energies\" are both used to describe:",
+      "options": [
+        "How many electrons an atom has in its outer shell",
+        "How strongly an atom attracts electrons to itself",
+        "How much energy is released when a bond breaks",
+        "How large an atom's nucleus is"
+      ],
+      "answerIndex": 1,
+      "evidence": { "paragraphIndex": 0, "start": 383, "end": 436 },
+      "pool": "first"
+    },
+    {
+      "id": "covalent-bonding-q4",
+      "taxonomy": "literal",
+      "prompt": "How many electrons stabilize each hydrogen atom within an H2 molecule, according to the passage?",
+      "options": ["One", "Four", "Two", "Eight"],
+      "answerIndex": 2,
+      "evidence": { "paragraphIndex": 0, "start": 611, "end": 681 },
+      "pool": "first"
+    },
+    {
+      "id": "covalent-bonding-q5",
+      "taxonomy": "literal",
+      "prompt": "The passage states that each hydrogen atom in H2 ends up with the same number of valence electrons as which noble gas?",
+      "options": ["Neon", "Helium", "Argon", "Krypton"],
+      "answerIndex": 1,
+      "evidence": { "paragraphIndex": 0, "start": 683, "end": 756 },
+      "pool": "first"
+    },
+    {
+      "id": "covalent-bonding-q6",
+      "taxonomy": "literal",
+      "prompt": "Compared with ionic compounds, the passage says covalent compounds generally have:",
+      "options": [
+        "Much higher melting and boiling points",
+        "About the same melting and boiling points",
+        "Much lower melting and boiling points",
+        "No consistent difference in melting and boiling points"
+      ],
+      "answerIndex": 2,
+      "evidence": { "paragraphIndex": 1, "start": 227, "end": 319 },
+      "pool": "first"
+    },
+    {
+      "id": "covalent-bonding-q7",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in their solid state, covalent compounds tend to be:",
+      "options": [
+        "Much harder than ionic solids",
+        "Much softer than ionic solids",
+        "About as hard as ionic solids",
+        "Brittle in the same way as ionic solids"
+      ],
+      "answerIndex": 1,
+      "evidence": { "paragraphIndex": 1, "start": 401, "end": 472 },
+      "pool": "first"
+    },
+    {
+      "id": "covalent-bonding-q8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why are most covalent compounds poor conductors of electricity, even when dissolved in water?",
+      "options": [
+        "Because they dissolve too slowly in water",
+        "Because they have higher melting points than ionic compounds",
+        "Because their bonds are stronger than ionic bonds",
+        "Because their molecules are electrically neutral rather than charged"
+      ],
+      "answerIndex": 3,
+      "evidence": { "paragraphIndex": 1, "start": 619, "end": 708 },
+      "pool": "first"
+    },
+    {
+      "id": "covalent-bonding-q9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "Ionic and covalent compounds always share the same physical properties.",
+        "Covalent bonds form when two atoms share a pair of electrons, unlike ionic bonds.",
+        "Covalent bonds only occur between metallic atoms.",
+        "Bond length has no relationship to potential energy."
+      ],
+      "answerIndex": 1,
+      "evidence": { "paragraphIndex": 0, "start": 180, "end": 323 },
+      "pool": "first"
+    },
+    {
+      "id": "covalent-bonding-q10",
+      "taxonomy": "vocabulary",
+      "prompt": "In the passage, what does \"bond length\" refer to?",
+      "options": [
+        "The total time it takes a bond to form",
+        "The number of electrons shared between two atoms",
+        "The nucleus-to-nucleus distance at minimum potential energy",
+        "The strength of the attraction between two ions"
+      ],
+      "answerIndex": 2,
+      "evidence": { "paragraphIndex": 2, "start": 716, "end": 834 },
+      "pool": "first"
+    },
+    {
+      "id": "covalent-bonding-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the potential energy of two hydrogen atoms as they move closer together, before repulsion sets in?",
+      "options": [
+        "It keeps rising",
+        "It stays constant",
+        "It keeps falling",
+        "It oscillates unpredictably"
+      ],
+      "answerIndex": 2,
+      "evidence": { "paragraphIndex": 2, "start": 463, "end": 577 },
+      "pool": "retest"
+    },
+    {
+      "id": "covalent-bonding-r2",
+      "taxonomy": "literal",
+      "prompt": "What happens if the two hydrogen nuclei are pushed even closer together, past the point of lowest potential energy?",
+      "options": [
+        "The atoms fuse into a single nucleus",
+        "The positively charged nuclei repel each other and the potential energy rises",
+        "The potential energy keeps falling indefinitely",
+        "The valence orbitals stop overlapping entirely"
+      ],
+      "answerIndex": 1,
+      "evidence": { "paragraphIndex": 2, "start": 578, "end": 715 },
+      "pool": "retest"
+    },
+    {
+      "id": "covalent-bonding-r3",
+      "taxonomy": "literal",
+      "prompt": "The passage says covalent compounds are, in general, how soluble in water?",
+      "options": [
+        "Highly soluble",
+        "Insoluble",
+        "Soluble only when heated",
+        "Equally soluble as ionic compounds"
+      ],
+      "answerIndex": 1,
+      "evidence": { "paragraphIndex": 1, "start": 571, "end": 617 },
+      "pool": "retest"
+    },
+    {
+      "id": "covalent-bonding-r4",
+      "taxonomy": "literal",
+      "prompt": "What state of matter does the passage say many covalent compounds are in at room temperature?",
+      "options": [
+        "Solids only",
+        "Plasmas",
+        "Liquids or gases",
+        "Always solids at low temperature and gases at high temperature"
+      ],
+      "answerIndex": 2,
+      "evidence": { "paragraphIndex": 1, "start": 330, "end": 394 },
+      "pool": "retest"
+    },
+    {
+      "id": "covalent-bonding-r5",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what are \"valence orbitals\"?",
+      "options": [
+        "The dense core holding an atom's protons and neutrons",
+        "Where an atom's electron sits before atoms begin interacting",
+        "The empty space between two separate molecules",
+        "The exact distance of lowest potential energy"
+      ],
+      "answerIndex": 1,
+      "evidence": { "paragraphIndex": 2, "start": 340, "end": 461 },
+      "pool": "retest"
+    },
+    {
+      "id": "covalent-bonding-r6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what most likely explains why ionic compounds conduct electricity when dissolved in water, while covalent compounds generally do not?",
+      "options": [
+        "Covalent compounds are always liquids, which blocks conductivity",
+        "Ionic compounds have longer bond lengths than covalent compounds",
+        "Ionic compounds dissolve into charged particles; covalent compounds stay neutral",
+        "Covalent compounds dissolve faster than ionic compounds"
+      ],
+      "answerIndex": 2,
+      "evidence": { "paragraphIndex": 1, "start": 487, "end": 708 },
+      "pool": "retest"
+    },
+    {
+      "id": "covalent-bonding-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes the second half of the passage, comparing covalent and ionic compounds?",
+      "options": [
+        "Covalent and ionic compounds have identical physical properties.",
+        "Ionic compounds are always gases at room temperature.",
+        "Covalent bonds are always stronger than ionic bonds.",
+        "Covalent compounds differ from ionic compounds in melting point, hardness, and conductivity."
+      ],
+      "answerIndex": 3,
+      "evidence": { "paragraphIndex": 1, "start": 0, "end": 97 },
+      "pool": "retest"
+    }
+  ]
+}
