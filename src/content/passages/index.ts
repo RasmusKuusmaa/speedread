@@ -7,6 +7,7 @@ import ozGrayPrairie from "./oz-gray-prairie.json";
 import ozGreenRoom from "./oz-green-room.json";
 import ozSilverShoes from "./oz-silver-shoes.json";
 import poeBlackCatWalledUp from "./poe-black-cat-walled-up.json";
+import poePitAndPendulumDescent from "./poe-pit-and-pendulum-descent.json";
 import poeWilliamWilsonSchool from "./poe-william-wilson-school.json";
 import secretGardenGreenPoints from "./secret-garden-green-points.json";
 import secretGardenHundredRooms from "./secret-garden-hundred-rooms.json";
@@ -36,4 +37,5 @@ export const rawPassages: unknown[] = [
   secretGardenHundredRooms,
   poeBlackCatWalledUp,
   poeWilliamWilsonSchool,
+  poePitAndPendulumDescent,
 ];

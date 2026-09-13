@@ -1,0 +1,325 @@
+{
+  "id": "poe-pit-and-pendulum-descent",
+  "title": "The Descending Blade",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/2148",
+  "attribution": "Excerpted verbatim from \"The Pit and the Pendulum\" by Edgar Allan Poe (1842), collected in The Works of Edgar Allan Poe.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "The vibration of the pendulum was at right angles to my length. I saw that the crescent was designed to cross the region of the heart. It would fray the serge of my robe—it would return and repeat its operations—again—and again. Notwithstanding its terrifically wide sweep (some thirty feet or more) and the hissing vigor of its descent, sufficient to sunder these very walls of iron, still the fraying of my robe would be all that, for several minutes, it would accomplish. And at this thought I paused. I dared not go farther than this reflection. I dwelt upon it with a pertinacity of attention—as if, in so dwelling, I could arrest here the descent of the steel. I forced myself to ponder upon the sound of the crescent as it should pass across the garment—upon the peculiar thrilling sensation which the friction of cloth produces on the nerves. I pondered upon all this frivolity until my teeth were on edge.",
+    "Down—steadily down it crept. I took a frenzied pleasure in contrasting its downward with its lateral velocity. To the right—to the left—far and wide—with the shriek of a damned spirit! to my heart with the stealthy pace of the tiger! I alternately laughed and howled as the one or the other idea grew predominant.",
+    "Down—certainly, relentlessly down! It vibrated within three inches of my bosom! I struggled violently, furiously, to free my left arm. This was free only from the elbow to the hand. I could reach the latter, from the platter beside me, to my mouth, with great effort, but no farther. Could I have broken the fastenings above the elbow, I would have seized and attempted to arrest the pendulum. I might as well have attempted to arrest an avalanche!",
+    "Down—still unceasingly—still inevitably down! I gasped and struggled at each vibration. I shrunk convulsively at its every sweep. My eyes followed its outward or upward whirls with the eagerness of the most unmeaning despair; they closed themselves spasmodically at the descent, although death would have been a relief, oh, how unspeakable! Still I quivered in every nerve to think how slight a sinking of the machinery would precipitate that keen, glistening axe upon my bosom. It was hope that prompted the nerve to quiver—the frame to shrink. It was hope—the hope that triumphs on the rack—that whispers to the death-condemned even in the dungeons of the Inquisition."
+  ],
+  "questions": [
+    {
+      "id": "poe-pit-and-pendulum-descent-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what part of the narrator's body was the crescent designed to cross?",
+      "options": [
+        "The region of the heart",
+        "His throat",
+        "His forehead",
+        "His right hand"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 75,
+        "end": 133
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-pit-and-pendulum-descent-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, about how wide was the pendulum's sweep?",
+      "options": [
+        "Some thirty feet or more",
+        "About three feet",
+        "Nearly one hundred feet",
+        "Less than a foot"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 245,
+        "end": 299
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-pit-and-pendulum-descent-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how far could the narrator move his left arm?",
+      "options": [
+        "Only from the elbow to the hand",
+        "Not at all",
+        "Fully, above his head",
+        "Only his fingers could move"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 135,
+        "end": 180
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-pit-and-pendulum-descent-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how close did the pendulum come to the narrator's chest at one point?",
+      "options": [
+        "Within three inches",
+        "Within three feet",
+        "It never came close",
+        "Within a few yards"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 35,
+        "end": 79
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-pit-and-pendulum-descent-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the narrator alternately do as the pendulum swung from side to side?",
+      "options": [
+        "Laughed and howled",
+        "Prayed and wept",
+        "Sang and whistled",
+        "Counted and calculated"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 234,
+        "end": 312
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-pit-and-pendulum-descent-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the narrator force himself to focus on the sound and feel of the cloth?",
+      "options": [
+        "To distract himself, as if dwelling on it could stop the blade's descent",
+        "Because the sound was pleasant to him",
+        "To signal for help using the sound",
+        "Because he had grown numb to the danger"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 598,
+        "end": 665
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-pit-and-pendulum-descent-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the narrator compare stopping the pendulum to stopping an avalanche?",
+      "options": [
+        "Because it would be just as futile and impossible",
+        "Because both make the same sound",
+        "Because he had once survived an avalanche",
+        "Because the pendulum was made of snow-white metal"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 394,
+        "end": 448
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-pit-and-pendulum-descent-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the narrator's hope make him quiver rather than calm him?",
+      "options": [
+        "The presence of hope amid such despair intensified the strain of the moment",
+        "Hope made him fall asleep despite the danger",
+        "Hope convinced him the pendulum would stop on its own",
+        "Hope made him forget the danger entirely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 479,
+        "end": 544
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-pit-and-pendulum-descent-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "The narrator endured mounting terror as a bladed pendulum descended slowly toward him",
+        "The narrator escaped the pendulum easily using a hidden tool",
+        "The pendulum stopped just before reaching the narrator",
+        "The narrator fell asleep despite the danger"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 45
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-pit-and-pendulum-descent-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the narrator studied the sound with \"pertinacity of attention\"?",
+      "options": [
+        "Stubborn, persistent focus",
+        "Casual disinterest",
+        "Brief, scattered glances",
+        "Complete confusion"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 550,
+        "end": 597
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-pit-and-pendulum-descent-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what would the pendulum do to the narrator's robe at first?",
+      "options": [
+        "Fray the serge of it",
+        "Burn a hole through it",
+        "Tear it completely off",
+        "Leave it entirely untouched"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 135,
+        "end": 169
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-pit-and-pendulum-descent-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what could the narrator reach with his free hand?",
+      "options": [
+        "The platter beside him, up to his mouth",
+        "The wall of the chamber",
+        "The pendulum itself",
+        "A lever on the floor"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 182,
+        "end": 266
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-pit-and-pendulum-descent-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the narrator's eyes do at the pendulum's descent?",
+      "options": [
+        "Closed themselves spasmodically",
+        "Stayed wide open the entire time",
+        "Filled with tears",
+        "Rolled back in his head"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 226,
+        "end": 277
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-pit-and-pendulum-descent-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the narrator compare the pendulum's stealthy approach to?",
+      "options": [
+        "The pace of a tiger",
+        "The crawl of a snake",
+        "The drip of water",
+        "The flight of a bird"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 185,
+        "end": 232
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-pit-and-pendulum-descent-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the narrator say that even death would have been a relief?",
+      "options": [
+        "The suspense and terror of watching the blade approach was worse than dying",
+        "He no longer feared pain of any kind",
+        "He had already accepted his fate calmly",
+        "He believed death would free the pendulum itself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 288,
+        "end": 339
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-pit-and-pendulum-descent-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes the narrator's physical state as the pendulum descended?",
+      "options": [
+        "He was bound and could only watch, gasp, and shrink as the blade came closer",
+        "He was free to move about the chamber at will",
+        "He had already lost consciousness",
+        "He had managed to loosen most of his restraints"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 46,
+        "end": 86
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-pit-and-pendulum-descent-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the narrator took a \"frenzied pleasure\" in the contrast of the motions?",
+      "options": [
+        "A wild, almost manic satisfaction",
+        "A calm, quiet contentment",
+        "A brief moment of boredom",
+        "A feeling of complete indifference"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 29,
+        "end": 109
+      },
+      "pool": "retest"
+    }
+  ]
+}
