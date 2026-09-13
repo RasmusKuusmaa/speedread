@@ -1,0 +1,325 @@
+{
+  "id": "sons-and-daughters-of-liberty",
+  "title": "The Sons and Daughters of Liberty",
+  "language": "en",
+  "source": "https://openstax.org/books/us-history/pages/5-2-the-stamp-act-and-the-sons-and-daughters-of-liberty",
+  "attribution": "Quoted verbatim from U.S. History by P. Scott Corbett et al. (OpenStax, Rice University), section 5.2, \"The Stamp Act and the Sons and Daughters of Liberty,\" a later excerpt.",
+  "licence": "CC BY-NC-SA 4.0",
+  "textType": "expository",
+  "domain": "history",
+  "calibrationOnly": true,
+  "body": [
+    "The colonists had never before formed a unified political front, so Grenville and Parliament did not fear true revolt. However, this was to change in 1765. In response to the Stamp Act, the Massachusetts Assembly sent letters to the other colonies, asking them to attend a meeting, or congress, to discuss how to respond to the act. Many American colonists from very different colonies found common cause in their opposition to the Stamp Act. Representatives from nine colonial legislatures met in New York in the fall of 1765 to reach a consensus. Could Parliament impose taxation without representation? The members of this first congress, known as the Stamp Act Congress, said no. These nine representatives had a vested interest in repealing the tax. Not only did it weaken their businesses and the colonial economy, but it also threatened their liberty under the British Constitution. They drafted a rebuttal to the Stamp Act, making clear that they desired only to protect their liberty as loyal subjects of the Crown. The document, called the Declaration of Rights and Grievances, outlined the unconstitutionality of taxation without representation and trials without juries. Meanwhile, popular protest was also gaining force.",
+    "The Stamp Act Congress was a gathering of landowning, educated White men who represented the political elite of the colonies and was the colonial equivalent of the British landed aristocracy. While these gentry were drafting their grievances during the Stamp Act Congress, other colonists showed their distaste for the new act by boycotting British goods and protesting in the streets. Two groups, the Sons of Liberty and the Daughters of Liberty, led the popular resistance to the Stamp Act. Both groups considered themselves British patriots defending their liberty, just as their forebears had done in the time of James II.",
+    "Forming in Boston in the summer of 1765, the Sons of Liberty were artisans, shopkeepers, and small-time merchants willing to adopt extralegal means of protest. Before the act had even gone into effect, the Sons of Liberty began protesting. On August 14, they took aim at Andrew Oliver, who had been named the Massachusetts Distributor of Stamps. After hanging Oliver in effigy—that is, using a crudely made figure as a representation of Oliver—the unruly crowd stoned and ransacked his house, finally beheading the effigy and burning the remains. Such a brutal response shocked the royal governmental officials, who hid until the violence had spent itself. Andrew Oliver resigned the next day. By that time, the mob had moved on to the home of Lieutenant Governor Thomas Hutchinson who, because of his support of Parliament's actions, was considered an enemy of English liberty. The Sons of Liberty barricaded Hutchinson in his home and demanded that he renounce the Stamp Act; he refused, and the protesters looted and burned his house. Furthermore, the Sons (also called \"True Sons\" or \"True-born Sons\" to make clear their commitment to liberty and distinguish them from the likes of Hutchinson) continued to lead violent protests with the goal of securing the resignation of all appointed stamp collectors.",
+    "Starting in early 1766, the Daughters of Liberty protested the Stamp Act by refusing to buy British goods and encouraging others to do the same. They avoided British tea, opting to make their own teas with local herbs and berries. They built a community—and a movement—around creating homespun cloth instead of buying British linen. Well-born women held \"spinning bees,\" at which they competed to see who could spin the most and the finest linen. An entry in The Boston Chronicle of April 7, 1766, states that on March 12, in Providence, Rhode Island, \"18 Daughters of Liberty, young ladies of good reputation, assembled at the house of Doctor Ephraim Bowen, in this town. . . . There they exhibited a fine example of industry, by spinning from sunrise until dark, and displayed a spirit for saving their sinking country rarely to be found among persons of more age and experience.\" At dinner, they \"cheerfully agreed to omit tea, to render their conduct consistent. Besides this instance of their patriotism, before they separated, they unanimously resolved that the Stamp Act was unconstitutional, that they would purchase no more British manufactures unless it be repealed, and that they would not even admit the addresses of any gentlemen should they have the opportunity, without they determined to oppose its execution to the last extremity, if the occasion required.\""
+  ],
+  "questions": [
+    {
+      "id": "sons-daughters-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many colonial legislatures sent representatives to the meeting in New York in 1765?",
+      "options": [
+        "Seven",
+        "Nine",
+        "Eleven",
+        "Thirteen"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 443,
+        "end": 526
+      },
+      "pool": "first"
+    },
+    {
+      "id": "sons-daughters-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was the document that outlined the unconstitutionality of taxation without representation and trials without juries called?",
+      "options": [
+        "The Declaration of Rights and Grievances",
+        "The Declaration of Independence",
+        "The Olive Branch Petition",
+        "The Virginia Resolves"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 1025,
+        "end": 1086
+      },
+      "pool": "first"
+    },
+    {
+      "id": "sons-daughters-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, on what date did the Sons of Liberty target Andrew Oliver?",
+      "options": [
+        "July 4",
+        "August 14",
+        "October 31",
+        "December 16"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 240,
+        "end": 284
+      },
+      "pool": "first"
+    },
+    {
+      "id": "sons-daughters-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what position had Andrew Oliver been named to?",
+      "options": [
+        "The Massachusetts Distributor of Stamps",
+        "The Royal Governor of Massachusetts",
+        "The Commander of British forces",
+        "The Collector of the Tea Duty"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 286,
+        "end": 344
+      },
+      "pool": "first"
+    },
+    {
+      "id": "sons-daughters-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the crowd do to Andrew Oliver's effigy?",
+      "options": [
+        "Beheaded it and burned the remains",
+        "Buried it in his garden",
+        "Hung it in the town square permanently",
+        "Returned it to him unharmed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 493,
+        "end": 545
+      },
+      "pool": "first"
+    },
+    {
+      "id": "sons-daughters-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did well-born women do at \"spinning bees\"?",
+      "options": [
+        "Competed to spin the most and finest linen",
+        "Auctioned imported British cloth",
+        "Collected donations for British troops",
+        "Wrote pamphlets against the Sons of Liberty"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 371,
+        "end": 445
+      },
+      "pool": "first"
+    },
+    {
+      "id": "sons-daughters-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Massachusetts Assembly send letters to other colonies in 1765?",
+      "options": [
+        "To coordinate a joint colonial response to the Stamp Act",
+        "To request military assistance from Britain",
+        "To announce a boycott of Massachusetts goods",
+        "To ask Parliament to lower taxes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 249,
+        "end": 331
+      },
+      "pool": "first"
+    },
+    {
+      "id": "sons-daughters-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does it note that the Sons of Liberty were also called \"True Sons\" or \"True-born Sons\"?",
+      "options": [
+        "To emphasize their commitment to liberty, unlike people like Hutchinson",
+        "To distinguish them from the Daughters of Liberty",
+        "Because they were the founding members only",
+        "Because Parliament granted them that title"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 1105,
+        "end": 1196
+      },
+      "pool": "first"
+    },
+    {
+      "id": "sons-daughters-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "Colonial resistance to the Stamp Act took organized political and popular forms, from the Stamp Act Congress to the Sons and Daughters of Liberty",
+        "The Stamp Act Congress achieved little and was quickly forgotten",
+        "The Sons and Daughters of Liberty acted entirely independently of each other",
+        "Only elite colonists opposed the Stamp Act"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 386,
+        "end": 492
+      },
+      "pool": "first"
+    },
+    {
+      "id": "sons-daughters-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the Stamp Act Congress represented \"the political elite of the colonies\"?",
+      "options": [
+        "The most privileged and powerful class in colonial society",
+        "The poorest members of colonial society",
+        "Elected representatives chosen by all colonists equally",
+        "British-appointed officials only"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 73,
+        "end": 124
+      },
+      "pool": "first"
+    },
+    {
+      "id": "sons-daughters-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Stamp Act Congress members have a vested interest in doing?",
+      "options": [
+        "Repealing the tax",
+        "Expanding the tax to new goods",
+        "Relocating the colonial capital",
+        "Disbanding the colonial assemblies"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 684,
+        "end": 754
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "sons-daughters-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, where were the Sons of Liberty formed, and when?",
+      "options": [
+        "Boston, in the summer of 1765",
+        "New York, in the fall of 1765",
+        "Philadelphia, in the winter of 1766",
+        "Providence, in the spring of 1766"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 39
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "sons-daughters-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, whose home did the mob move on to after Andrew Oliver's house?",
+      "options": [
+        "Lieutenant Governor Thomas Hutchinson",
+        "Prime Minister Grenville",
+        "James Otis",
+        "Patrick Henry"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 708,
+        "end": 781
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "sons-daughters-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Daughters of Liberty do instead of buying British tea?",
+      "options": [
+        "Made their own teas with local herbs and berries",
+        "Imported tea from Dutch traders",
+        "Stopped drinking tea altogether",
+        "Bought tea secretly through smugglers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 171,
+        "end": 229
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "sons-daughters-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was Lieutenant Governor Thomas Hutchinson targeted by the Sons of Liberty?",
+      "options": [
+        "He was seen as an enemy of liberty because he supported Parliament's actions",
+        "He was the richest merchant in Boston",
+        "He had proposed the Stamp Act himself",
+        "He was a foreign-born official"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 835,
+        "end": 877
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "sons-daughters-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes the resolution the Daughters of Liberty made, as quoted in the passage?",
+      "options": [
+        "They resolved the Stamp Act was unconstitutional and pledged not to buy British goods until it was repealed",
+        "They resolved to petition the king directly",
+        "They resolved to leave politics to men",
+        "They resolved to continue buying British tea despite the tax"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 1033,
+        "end": 1175
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "sons-daughters-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the Sons of Liberty were willing to adopt \"extralegal means of protest\"?",
+      "options": [
+        "Actions that went outside the formal boundaries of the law",
+        "Actions fully approved by colonial governors",
+        "Actions limited to peaceful petitioning",
+        "Actions coordinated by the British Parliament"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 114,
+        "end": 158
+      },
+      "pool": "retest"
+    }
+  ]
+}

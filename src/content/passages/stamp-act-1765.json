@@ -1,0 +1,325 @@
+{
+  "id": "stamp-act-1765",
+  "title": "The Stamp Act",
+  "language": "en",
+  "source": "https://openstax.org/books/us-history/pages/5-2-the-stamp-act-and-the-sons-and-daughters-of-liberty",
+  "attribution": "Quoted verbatim from U.S. History by P. Scott Corbett et al. (OpenStax, Rice University), section 5.2, \"The Stamp Act and the Sons and Daughters of Liberty,\" first four paragraphs.",
+  "licence": "CC BY-NC-SA 4.0",
+  "textType": "expository",
+  "domain": "history",
+  "calibrationOnly": true,
+  "body": [
+    "In 1765, the British Parliament moved beyond the efforts during the previous two years to better regulate westward expansion and trade by putting in place the Stamp Act. As a direct tax on the colonists, the Stamp Act imposed an internal tax on almost every type of printed paper colonists used, including newspapers, legal documents, and playing cards. While the architects of the Stamp Act saw the measure as a way to defray the costs of the British Empire, it nonetheless gave rise to the first major colonial protest against British imperial control as expressed in the famous slogan \"no taxation without representation.\" The Stamp Act reinforced the sense among some colonists that Parliament was not treating them as equals of their peers across the Atlantic.",
+    "Prime Minister Grenville, author of the Sugar Act of 1764, introduced the Stamp Act in the early spring of 1765. Under this act, anyone who used or purchased anything printed on paper had to buy a revenue stamp for it. In the same year, 1765, Parliament also passed the Quartering Act, a law that attempted to solve the problems of stationing troops in North America. The Parliament understood the Stamp Act and the Quartering Act as an assertion of their power to control colonial policy.",
+    "The Stamp Act signaled a shift in British policy after the French and Indian War. Before the Stamp Act, the colonists had paid taxes to their colonial governments or indirectly through higher prices, not directly to the Crown's appointed governors. This was a time-honored liberty of representative legislatures of the colonial governments. The passage of the Stamp Act meant that starting on November 1, 1765, the colonists would contribute £60,000 per year—17 percent of the total cost—to the upkeep of the ten thousand British soldiers in North America. Because the Stamp Act raised constitutional issues, it triggered the first serious protest against British imperial policy.",
+    "Parliament also asserted its prerogative in 1765 with the Quartering Act. The Quartering Act of 1765 addressed the problem of housing British soldiers stationed in the American colonies. It required that they be provided with barracks or places to stay in public houses, and that if extra housing were necessary, then troops could be stationed in barns and other uninhabited private buildings. In addition, the costs of the troops' food and lodging fell to the colonists. Since the time of James II, who ruled from 1685 to 1688, many British subjects had mistrusted the presence of a standing army during peacetime, and having to pay for the soldiers' lodging and food was especially burdensome. Widespread evasion and disregard for the law occurred in almost all the colonies, but the issue was especially contentious in New York, the headquarters of British forces. When fifteen hundred troops arrived in New York in 1766, the New York Assembly refused to follow the Quartering Act."
+  ],
+  "questions": [
+    {
+      "id": "stamp-act-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what specific things did the Stamp Act tax?",
+      "options": [
+        "Newspapers, legal documents, and playing cards",
+        "Tea, sugar, and molasses",
+        "Land, livestock, and tools",
+        "Ships, weapons, and gunpowder"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 296,
+        "end": 352
+      },
+      "pool": "first"
+    },
+    {
+      "id": "stamp-act-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who introduced the Stamp Act in Parliament?",
+      "options": [
+        "Prime Minister Grenville",
+        "Lord Rockingham",
+        "King George III",
+        "Thomas Hutchinson"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 83
+      },
+      "pool": "first"
+    },
+    {
+      "id": "stamp-act-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in what year did Parliament also pass the Quartering Act?",
+      "options": [
+        "1763",
+        "1764",
+        "1765",
+        "1766"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 219,
+        "end": 284
+      },
+      "pool": "first"
+    },
+    {
+      "id": "stamp-act-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, starting on what date would colonists begin contributing to the upkeep of British soldiers under the Stamp Act?",
+      "options": [
+        "July 4, 1765",
+        "November 1, 1765",
+        "January 1, 1766",
+        "March 12, 1766"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 381,
+        "end": 458
+      },
+      "pool": "first"
+    },
+    {
+      "id": "stamp-act-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, about what percentage of the total cost of stationing British soldiers would the colonists' contribution represent?",
+      "options": [
+        "5 percent",
+        "17 percent",
+        "33 percent",
+        "50 percent"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 459,
+        "end": 487
+      },
+      "pool": "first"
+    },
+    {
+      "id": "stamp-act-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the New York Assembly do when fifteen hundred troops arrived in 1766?",
+      "options": [
+        "It refused to follow the Quartering Act",
+        "It voted to fund the troops in full",
+        "It petitioned Parliament for more troops",
+        "It relocated the colonial capital"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 925,
+        "end": 983
+      },
+      "pool": "first"
+    },
+    {
+      "id": "stamp-act-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does it describe the Stamp Act as a departure from how colonists had previously been taxed?",
+      "options": [
+        "Because it taxed colonists directly rather than through their own colonial governments",
+        "Because it only affected merchants",
+        "Because it replaced all previous taxes",
+        "Because it was collected by the colonial assemblies"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 200,
+        "end": 247
+      },
+      "pool": "first"
+    },
+    {
+      "id": "stamp-act-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was resistance to the Quartering Act especially contentious in New York?",
+      "options": [
+        "Because New York was the headquarters of British forces",
+        "Because New York had no colonial assembly",
+        "Because New York had already repealed its own tax laws",
+        "Because New York was exempt from the Stamp Act"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 832,
+        "end": 866
+      },
+      "pool": "first"
+    },
+    {
+      "id": "stamp-act-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "The Stamp Act imposed a new direct tax that triggered the first major colonial protest against British control",
+        "The Stamp Act was quickly repealed with no opposition",
+        "The Quartering Act was more controversial than the Stamp Act",
+        "Colonists welcomed the Stamp Act as fair taxation"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 475,
+        "end": 553
+      },
+      "pool": "first"
+    },
+    {
+      "id": "stamp-act-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that Parliament \"asserted its prerogative\" with the Quartering Act?",
+      "options": [
+        "Exercised its special right or power",
+        "Apologized for its mistake",
+        "Delegated its authority to the colonies",
+        "Abandoned its previous policy"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 16,
+        "end": 72
+      },
+      "pool": "first"
+    },
+    {
+      "id": "stamp-act-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did people have to buy in order to use printed paper under the Stamp Act?",
+      "options": [
+        "A revenue stamp",
+        "A colonial trading licence",
+        "A printing permit",
+        "A customs receipt"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 184,
+        "end": 217
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "stamp-act-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was the famous slogan colonists used to protest the Stamp Act?",
+      "options": [
+        "\"No taxation without representation\"",
+        "\"Liberty or death\"",
+        "\"Give me liberty\"",
+        "\"No lodging without consent\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 589,
+        "end": 623
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "stamp-act-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, since whose reign had British subjects mistrusted a standing army in peacetime?",
+      "options": [
+        "James II",
+        "George III",
+        "William III",
+        "Charles II"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 472,
+        "end": 527
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "stamp-act-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Quartering Act require regarding troop housing before extra housing was needed?",
+      "options": [
+        "Barracks or places to stay in public houses",
+        "Private homes of wealthy colonists only",
+        "Newly built forts",
+        "Ships anchored in the harbor"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 187,
+        "end": 269
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "stamp-act-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does it note that Parliament passed the Stamp Act and the Quartering Act in the same year?",
+      "options": [
+        "Because Parliament saw both acts as ways to assert control over colonial policy",
+        "Because both acts were repealed on the same day",
+        "Because both acts applied only to New York",
+        "Because both acts were proposed by the same colonial assembly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 368,
+        "end": 489
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "stamp-act-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes the passage's account of the Stamp Act and Quartering Act?",
+      "options": [
+        "Parliament used new direct taxes and housing requirements to assert control, provoking colonial protest over constitutional rights",
+        "The colonies eagerly funded British troops without objection",
+        "The Quartering Act was repealed before it took effect",
+        "Colonists preferred the Stamp Act to previous taxes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 557,
+        "end": 680
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "stamp-act-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that there was \"widespread evasion and disregard for the law\"?",
+      "options": [
+        "Colonists broadly avoided complying with and ignored the law",
+        "Colonists openly praised the law",
+        "Colonists petitioned Parliament through legal channels only",
+        "Colonists paid the required costs promptly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 696,
+        "end": 776
+      },
+      "pool": "retest"
+    }
+  ]
+}
