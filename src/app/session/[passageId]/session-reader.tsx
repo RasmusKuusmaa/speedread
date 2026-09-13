@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { scoreDifficulty } from "@/lib/content/difficulty";
 import type { PassageWithWordCounts } from "@/lib/content/types";
 import { computeWpm } from "@/lib/session/metrics";
@@ -14,7 +14,25 @@ function capitalize(value: string): string {
 
 export function SessionReader({ passage }: { passage: PassageWithWordCounts }) {
   const [phase, setPhase] = useState<Phase>("start");
+  const [focusLost, setFocusLost] = useState(false);
   const timer = useReadingTimer();
+
+  useEffect(() => {
+    if (phase !== "reading") {
+      return;
+    }
+
+    function handleVisibilityChange() {
+      if (document.hidden) {
+        setFocusLost(true);
+      }
+    }
+
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+    return () => {
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+    };
+  }, [phase]);
 
   if (phase === "start") {
     const difficulty = scoreDifficulty(passage.body, passage.language);
@@ -29,6 +47,7 @@ export function SessionReader({ passage }: { passage: PassageWithWordCounts }) {
         <button
           type="button"
           onClick={() => {
+            setFocusLost(false);
             timer.start();
             setPhase("reading");
           }}
@@ -76,6 +95,12 @@ export function SessionReader({ passage }: { passage: PassageWithWordCounts }) {
           ? "Reading finished."
           : `You read at ${wpm} words per minute.`}
       </p>
+      {focusLost && (
+        <p className="font-sans text-sm text-muted">
+          This session may be excluded from your metrics because you left the
+          tab while reading.
+        </p>
+      )}
     </main>
   );
 }
