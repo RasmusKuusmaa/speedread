@@ -5,7 +5,7 @@ import { scoreDifficulty } from "@/lib/content/difficulty";
 import type { PassageWithWordCounts } from "@/lib/content/types";
 import { useReadingTimer } from "@/lib/session/use-reading-timer";
 
-type Phase = "start" | "reading";
+type Phase = "start" | "reading" | "finished";
 
 function capitalize(value: string): string {
   return value.charAt(0).toUpperCase() + value.slice(1);
@@ -39,13 +39,33 @@ export function SessionReader({ passage }: { passage: PassageWithWordCounts }) {
     );
   }
 
+  if (phase === "reading") {
+    return (
+      <main className="flex flex-1 flex-col py-16">
+        <article className="mx-auto flex max-w-[66ch] flex-col gap-6 font-serif text-[19px] leading-[1.65] text-ink">
+          {passage.body.map((paragraph, index) => (
+            <p key={index}>{paragraph}</p>
+          ))}
+        </article>
+        <div className="mx-auto mt-10 w-full max-w-[66ch]">
+          <button
+            type="button"
+            onClick={() => {
+              timer.stop();
+              setPhase("finished");
+            }}
+            className="rounded border border-rule px-4 py-2 font-sans text-sm text-ink"
+          >
+            I&apos;ve finished reading
+          </button>
+        </div>
+      </main>
+    );
+  }
+
   return (
-    <main className="flex flex-1 flex-col py-16">
-      <article className="mx-auto flex max-w-[66ch] flex-col gap-6 font-serif text-[19px] leading-[1.65] text-ink">
-        {passage.body.map((paragraph, index) => (
-          <p key={index}>{paragraph}</p>
-        ))}
-      </article>
+    <main className="flex flex-1 flex-col items-start justify-center gap-6 py-16">
+      <p className="font-sans text-sm text-muted">Reading finished.</p>
     </main>
   );
 }
