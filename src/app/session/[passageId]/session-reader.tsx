@@ -68,8 +68,10 @@ function ReadingScreen({
 }
 
 function RecallScreen({
+  depth,
   onContinue,
 }: {
+  depth: "full" | "brief";
   onContinue: (recallText: string) => void;
 }) {
   const [recallText, setRecallText] = useState("");
@@ -77,14 +79,25 @@ function RecallScreen({
   return (
     <main className="flex flex-1 flex-col gap-6 py-16">
       <p className="font-sans text-base text-ink">
-        What do you remember from what you just read?
+        {depth === "full"
+          ? "What do you remember from what you just read?"
+          : "In one sentence, what was the main point?"}
       </p>
-      <textarea
-        value={recallText}
-        onChange={(event) => setRecallText(event.target.value)}
-        rows={8}
-        className="mx-auto w-full max-w-[66ch] rounded border border-rule p-3 font-serif text-base text-ink"
-      />
+      {depth === "full" ? (
+        <textarea
+          value={recallText}
+          onChange={(event) => setRecallText(event.target.value)}
+          rows={8}
+          className="mx-auto w-full max-w-[66ch] rounded border border-rule p-3 font-serif text-base text-ink"
+        />
+      ) : (
+        <input
+          type="text"
+          value={recallText}
+          onChange={(event) => setRecallText(event.target.value)}
+          className="mx-auto w-full max-w-[66ch] rounded border border-rule p-3 font-serif text-base text-ink"
+        />
+      )}
       <div className="mx-auto w-full max-w-[66ch]">
         <button
           type="button"
@@ -190,7 +203,9 @@ export function SessionReader({ passage }: { passage: PassageWithWordCounts }) {
         />
       );
     case "recall":
-      return <RecallScreen onContinue={() => setPhase("finished")} />;
+      return (
+        <RecallScreen depth="brief" onContinue={() => setPhase("finished")} />
+      );
     case "finished":
       return (
         <FinishedScreen
