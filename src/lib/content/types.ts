@@ -1,5 +1,7 @@
 export type TextType = "expository" | "narrative";
 
+export const TEXT_TYPES: TextType[] = ["expository", "narrative"];
+
 export type Domain =
   | "physics"
   | "chemistry"
@@ -9,6 +11,17 @@ export type Domain =
   | "economics"
   | "philosophy"
   | "literature";
+
+export const DOMAINS: Domain[] = [
+  "physics",
+  "chemistry",
+  "materials",
+  "biology",
+  "history",
+  "economics",
+  "philosophy",
+  "literature",
+];
 
 export type QuestionTaxonomy =
   "literal" | "inference" | "main_idea" | "vocabulary";

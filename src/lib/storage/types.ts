@@ -1,6 +1,15 @@
+import type { Domain, TextType } from "@/lib/content/types";
+
 export type SchemaVersion = 1;
 
-export type Settings = Record<string, never>;
+export interface PickerFilters {
+  textType: TextType | "all";
+  domain: Domain | "all";
+}
+
+export interface Settings {
+  pickerFilters: PickerFilters;
+}
 
 export interface SessionRecord {
   id: string;

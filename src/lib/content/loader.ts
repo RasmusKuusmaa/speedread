@@ -1,25 +1,16 @@
 import { rawPassages } from "@/content/passages";
-import type {
-  Domain,
-  Passage,
-  PassageWithWordCounts,
-  QuestionPool,
-  QuestionTaxonomy,
-  TextType,
+import {
+  DOMAINS,
+  TEXT_TYPES,
+  type Domain,
+  type Passage,
+  type PassageWithWordCounts,
+  type QuestionPool,
+  type QuestionTaxonomy,
+  type TextType,
 } from "./types";
 import { computeWordCounts } from "./words";
 
-const TEXT_TYPES: TextType[] = ["expository", "narrative"];
-const DOMAINS: Domain[] = [
-  "physics",
-  "chemistry",
-  "materials",
-  "biology",
-  "history",
-  "economics",
-  "philosophy",
-  "literature",
-];
 const TAXONOMIES: QuestionTaxonomy[] = [
   "literal",
   "inference",

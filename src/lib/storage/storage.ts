@@ -44,7 +44,9 @@ export function defaultStore(): Store {
   return {
     schemaVersion: 1,
     createdAt: new Date().toISOString(),
-    settings: {},
+    settings: {
+      pickerFilters: { textType: "all", domain: "all" },
+    },
     sessions: [],
     retests: [],
     calibration: [],
