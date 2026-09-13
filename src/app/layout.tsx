@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Source_Serif_4, Inter } from "next/font/google";
+import { SiteHeader } from "@/components/site-header";
 import "./globals.css";
 
 const passageSerif = Source_Serif_4({
@@ -23,7 +24,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${passageSerif.variable} ${chromeSans.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="flex min-h-full flex-col bg-paper text-ink">
+        <SiteHeader />
+        <div className="mx-auto flex w-full max-w-2xl flex-1 flex-col px-6">
+          {children}
+        </div>
+      </body>
     </html>
   );
 }
