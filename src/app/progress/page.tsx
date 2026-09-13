@@ -1,6 +1,14 @@
 "use client";
 
-import type { QuestionTaxonomy } from "@/lib/content/types";
+import {
+  DOMAINS,
+  TEXT_TYPES,
+  type Domain,
+  type QuestionTaxonomy,
+  type TextType,
+} from "@/lib/content/types";
+import { loadPassages } from "@/lib/content/loader";
+import { computeGroupStats, type GroupStats } from "@/lib/metrics/group-stats";
 import { getHoldingRateStatus } from "@/lib/metrics/holding-rate";
 import {
   computeTaxonomyAverages,
@@ -8,6 +16,10 @@ import {
 } from "@/lib/metrics/taxonomy-breakdown";
 import { useStore } from "@/lib/storage/store-provider";
 import type { SessionRecord } from "@/lib/storage/types";
+
+function capitalize(value: string): string {
+  return value.charAt(0).toUpperCase() + value.slice(1);
+}
 
 const TAXONOMY_ORDER: QuestionTaxonomy[] = [
   "literal",
@@ -90,12 +102,58 @@ function HoldingRateHeadline({
   );
 }
 
+function GroupBreakdown<Key extends string>({
+  title,
+  keys,
+  stats,
+}: {
+  title: string;
+  keys: Key[];
+  stats: Partial<Record<Key, GroupStats>>;
+}) {
+  return (
+    <div className="flex flex-col gap-3">
+      <h2 className="font-sans text-sm text-muted">{title}</h2>
+      <ul className="flex flex-col gap-2">
+        {keys.map((key) => {
+          const group = stats[key];
+          return (
+            <li
+              key={key}
+              className="flex items-center justify-between gap-3 font-sans text-sm"
+            >
+              <span className="text-ink">{capitalize(key)}</span>
+              <span className="text-muted">
+                {group === undefined
+                  ? "No data"
+                  : `${Math.round(group.medianWpm)} wpm, ${Math.round(group.averageComprehension)}% comprehension`}
+              </span>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  );
+}
+
 export default function ProgressPage() {
   const { store } = useStore();
 
   if (store === null) {
     return null;
   }
+
+  const passageById = new Map(
+    loadPassages().map((passage) => [passage.id, passage]),
+  );
+  const domainStats = computeGroupStats<Domain>(
+    store.sessions,
+    (session) => passageById.get(session.passageId)?.domain ?? null,
+  );
+  const textTypeStats = computeGroupStats<TextType>(
+    store.sessions,
+    (session) => passageById.get(session.passageId)?.textType ?? null,
+  );
 
   return (
     <main className="flex flex-1 flex-col gap-8 py-16">
@@ -105,6 +163,16 @@ export default function ProgressPage() {
         sessions={store.sessions}
       />
       <TaxonomyBars averages={computeTaxonomyAverages(store.sessions)} />
+      <GroupBreakdown title="By domain" keys={DOMAINS} stats={domainStats} />
+      <p className="font-sans text-sm text-muted">
+        Reading rate varies by domain more than most readability measures
+        predict, so comparing across domains is not meaningful.
+      </p>
+      <GroupBreakdown
+        title="By text type"
+        keys={TEXT_TYPES}
+        stats={textTypeStats}
+      />
     </main>
   );
 }
