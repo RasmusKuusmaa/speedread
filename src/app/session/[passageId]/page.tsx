@@ -13,7 +13,7 @@ export default async function SessionPage({
 
   return (
     <main className="flex flex-1 flex-col py-16">
-      <article className="flex flex-col gap-6">
+      <article className="mx-auto flex max-w-[66ch] flex-col gap-6 font-serif text-[19px] leading-[1.65] text-ink">
         {passage.body.map((paragraph, index) => (
           <p key={index}>{paragraph}</p>
         ))}
