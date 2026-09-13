@@ -8,6 +8,7 @@ import {
   type TextType,
 } from "@/lib/content/types";
 import { loadPassages } from "@/lib/content/loader";
+import { isEligibleSession } from "@/lib/metrics/eligibility";
 import { computeGroupStats, type GroupStats } from "@/lib/metrics/group-stats";
 import { getHoldingRateStatus } from "@/lib/metrics/holding-rate";
 import {
@@ -136,6 +137,49 @@ function GroupBreakdown<Key extends string>({
   );
 }
 
+const RECENT_SESSION_COUNT = 20;
+
+function RecentSessions({
+  sessions,
+  passageById,
+}: {
+  sessions: SessionRecord[];
+  passageById: Map<string, { title: string }>;
+}) {
+  const recent = [...sessions].reverse().slice(0, RECENT_SESSION_COUNT);
+
+  return (
+    <div className="flex flex-col gap-3">
+      <h2 className="font-sans text-sm text-muted">Recent sessions</h2>
+      <ul className="flex flex-col gap-2">
+        {recent.map((session) => (
+          <li
+            key={session.id}
+            className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1 border-b border-rule pb-2 font-sans text-sm"
+          >
+            <span className="text-ink">
+              {passageById.get(session.passageId)?.title ?? session.passageId}
+            </span>
+            <span className="flex gap-3 text-muted">
+              <span>
+                {new Date(
+                  session.timings.startedAtEpochMs,
+                ).toLocaleDateString()}
+              </span>
+              <span>{capitalize(session.mode)}</span>
+              <span>{Math.round(session.wpm)} wpm</span>
+              <span>{Math.round(session.comprehension)}% comprehension</span>
+              {!isEligibleSession(session) && (
+                <span className="text-signal">Excluded</span>
+              )}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
 export default function ProgressPage() {
   const { store } = useStore();
 
@@ -173,6 +217,7 @@ export default function ProgressPage() {
         keys={TEXT_TYPES}
         stats={textTypeStats}
       />
+      <RecentSessions sessions={store.sessions} passageById={passageById} />
     </main>
   );
 }
