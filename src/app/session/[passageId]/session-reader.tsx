@@ -300,6 +300,8 @@ function FinishedScreen({
   taxonomyBreakdown,
   focusLost,
   hasQuestions,
+  isRetest,
+  originalComprehension,
   onReview,
 }: {
   wpm: number;
@@ -307,6 +309,8 @@ function FinishedScreen({
   taxonomyBreakdown: TaxonomyBreakdown;
   focusLost: boolean;
   hasQuestions: boolean;
+  isRetest: boolean;
+  originalComprehension: number | null;
   onReview: () => void;
 }) {
   return (
@@ -314,6 +318,13 @@ function FinishedScreen({
       {comprehension !== null && (
         <p className="font-sans text-base text-ink">
           You held {Math.round(comprehension)}% comprehension.
+        </p>
+      )}
+      {isRetest && comprehension !== null && originalComprehension !== null && (
+        <p className="font-sans text-sm text-muted">
+          {Math.round(comprehension) >= Math.round(originalComprehension)
+            ? `You held that steady since your original ${Math.round(originalComprehension)}% score.`
+            : `That's down from your original ${Math.round(originalComprehension)}% score, a retention of ${Math.round((comprehension / originalComprehension) * 100)}%.`}
         </p>
       )}
       {TAXONOMY_ORDER.some(
@@ -330,9 +341,11 @@ function FinishedScreen({
           ))}
         </ul>
       )}
-      <p className="font-sans text-sm text-muted">
-        You read at {wpm} words per minute.
-      </p>
+      {!isRetest && (
+        <p className="font-sans text-sm text-muted">
+          You read at {wpm} words per minute.
+        </p>
+      )}
       {focusLost && (
         <p className="font-sans text-sm text-muted">
           This session may be excluded from your metrics because you left the
@@ -493,10 +506,12 @@ export function SessionReader({
   passage,
   sessionContext,
   mode,
+  retestId,
 }: {
   passage: PassageWithWordCounts;
   sessionContext: SessionContext;
   mode: SessionMode;
+  retestId: string | null;
 }) {
   const { store, update } = useStore();
   const [phase, setPhase] = useState<Phase>("start");
@@ -524,6 +539,16 @@ export function SessionReader({
   const questions = passage.questions.filter(
     (question) => question.pool === questionPool,
   );
+  const retestRecord =
+    retestId !== null
+      ? (store?.retests.find((retest) => retest.id === retestId) ?? null)
+      : null;
+  const originalComprehension =
+    retestRecord !== null
+      ? (store?.sessions.find(
+          (session) => session.id === retestRecord.sourceSessionId,
+        )?.comprehension ?? null)
+      : null;
   const [questionIndex, setQuestionIndex] = useState(0);
   const [sessionSeed] = useState(() => createSeed());
   const [comprehension, setComprehension] = useState<number | null>(null);
@@ -574,7 +599,10 @@ export function SessionReader({
     update((current) => ({
       ...current,
       sessions: [...current.sessions, record],
-      retests: [...current.retests, ...newRetests],
+      retests:
+        sessionContext === "retest" && retestId !== null
+          ? current.retests.filter((retest) => retest.id !== retestId)
+          : [...current.retests, ...newRetests],
     }));
   }
 
@@ -767,6 +795,8 @@ export function SessionReader({
           taxonomyBreakdown={taxonomyBreakdown}
           focusLost={focusLost}
           hasQuestions={questions.length > 0}
+          isRetest={sessionContext === "retest"}
+          originalComprehension={originalComprehension}
           onReview={() => setPhase("review")}
         />
       );

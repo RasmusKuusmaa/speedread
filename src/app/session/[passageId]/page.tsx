@@ -16,7 +16,7 @@ export default async function SessionPage({
   searchParams,
 }: PageProps<"/session/[passageId]">) {
   const { passageId } = await params;
-  const { context, mode } = await searchParams;
+  const { context, mode, retestId } = await searchParams;
   const passage = loadPassages().find((item) => item.id === passageId);
 
   if (!passage) {
@@ -35,11 +35,14 @@ export default async function SessionPage({
     ? (requestedMode as SessionMode)
     : "self-paced";
 
+  const requestedRetestId = Array.isArray(retestId) ? retestId[0] : retestId;
+
   return (
     <SessionReader
       passage={passage}
       sessionContext={sessionContext}
       mode={sessionMode}
+      retestId={requestedRetestId ?? null}
     />
   );
 }
