@@ -4,6 +4,7 @@ import {
   createContext,
   useCallback,
   useContext,
+  useEffect,
   useState,
   type ReactNode,
 } from "react";
@@ -18,10 +19,19 @@ interface StoreContextValue {
 const StoreContext = createContext<StoreContextValue | null>(null);
 
 export function StoreProvider({ children }: { children: ReactNode }) {
-  const [store, setStore] = useState<Store | null>(() => {
+  const [store, setStore] = useState<Store | null>(null);
+
+  // Server-rendered markup always sees a null store (no localStorage), so the
+  // real value is loaded after mount rather than in the initial render — doing
+  // it synchronously would render different content on the client's hydration
+  // pass than what the server sent, and React would flag the mismatch.
+  useEffect(() => {
     const result = loadStore();
-    return result.ok ? result.value : null;
-  });
+    if (result.ok) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time hydration from localStorage after mount, not a derivable value
+      setStore(result.value);
+    }
+  }, []);
 
   const update = useCallback((updater: (store: Store) => Store) => {
     setStore((current) => {
