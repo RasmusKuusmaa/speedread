@@ -44,3 +44,12 @@ export interface Passage {
   questions: Question[];
   calibrationOnly: boolean;
 }
+
+export interface PassageWordCounts {
+  paragraphs: number[];
+  total: number;
+}
+
+export interface PassageWithWordCounts extends Passage {
+  wordCounts: PassageWordCounts;
+}

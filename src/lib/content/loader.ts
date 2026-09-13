@@ -2,10 +2,12 @@ import { rawPassages } from "@/content/passages";
 import type {
   Domain,
   Passage,
+  PassageWithWordCounts,
   QuestionPool,
   QuestionTaxonomy,
   TextType,
 } from "./types";
+import { computeWordCounts } from "./words";
 
 const TEXT_TYPES: TextType[] = ["expository", "narrative"];
 const DOMAINS: Domain[] = [
@@ -134,7 +136,7 @@ function validatePassage(raw: unknown, index: number): string[] {
   return errors;
 }
 
-export function loadPassages(): Passage[] {
+export function loadPassages(): PassageWithWordCounts[] {
   const errors = rawPassages.flatMap((raw, index) =>
     validatePassage(raw, index),
   );
@@ -147,7 +149,12 @@ export function loadPassages(): Passage[] {
     console.error(message);
   }
 
-  return rawPassages.filter(
+  const validPassages = rawPassages.filter(
     (raw, index) => validatePassage(raw, index).length === 0,
   ) as Passage[];
+
+  return validPassages.map((passage) => ({
+    ...passage,
+    wordCounts: computeWordCounts(passage.body),
+  }));
 }
