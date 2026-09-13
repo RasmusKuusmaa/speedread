@@ -2,9 +2,17 @@
 
 import { useEffect, useRef, useState } from "react";
 import { scoreDifficulty } from "@/lib/content/difficulty";
-import type { Question, PassageWithWordCounts } from "@/lib/content/types";
+import type {
+  PassageWithWordCounts,
+  Question,
+  QuestionTaxonomy,
+} from "@/lib/content/types";
 import { computeWpm } from "@/lib/session/metrics";
-import { scoreAnswers } from "@/lib/session/scoring";
+import {
+  scoreAnswers,
+  scoreByTaxonomy,
+  type TaxonomyBreakdown,
+} from "@/lib/session/scoring";
 import {
   createSeed,
   seedForQuestion,
@@ -166,13 +174,29 @@ function QuestionScreen({
   );
 }
 
+const TAXONOMY_ORDER: QuestionTaxonomy[] = [
+  "literal",
+  "inference",
+  "main_idea",
+  "vocabulary",
+];
+
+const TAXONOMY_LABELS: Record<QuestionTaxonomy, string> = {
+  literal: "Literal detail",
+  inference: "Inference",
+  main_idea: "Main idea",
+  vocabulary: "Vocabulary",
+};
+
 function FinishedScreen({
   wpm,
   comprehension,
+  taxonomyBreakdown,
   focusLost,
 }: {
   wpm: number;
   comprehension: number | null;
+  taxonomyBreakdown: TaxonomyBreakdown;
   focusLost: boolean;
 }) {
   return (
@@ -181,6 +205,20 @@ function FinishedScreen({
         <p className="font-sans text-base text-ink">
           You held {Math.round(comprehension)}% comprehension.
         </p>
+      )}
+      {TAXONOMY_ORDER.some(
+        (taxonomy) => taxonomyBreakdown[taxonomy] !== undefined,
+      ) && (
+        <ul className="flex flex-col gap-1 font-sans text-sm text-muted">
+          {TAXONOMY_ORDER.filter(
+            (taxonomy) => taxonomyBreakdown[taxonomy] !== undefined,
+          ).map((taxonomy) => (
+            <li key={taxonomy}>
+              {TAXONOMY_LABELS[taxonomy]}:{" "}
+              {Math.round(taxonomyBreakdown[taxonomy]!)}%
+            </li>
+          ))}
+        </ul>
       )}
       <p className="font-sans text-sm text-muted">
         You read at {wpm} words per minute.
@@ -220,6 +258,9 @@ export function SessionReader({
   const [questionIndex, setQuestionIndex] = useState(0);
   const [sessionSeed] = useState(() => createSeed());
   const [comprehension, setComprehension] = useState<number | null>(null);
+  const [taxonomyBreakdown, setTaxonomyBreakdown] = useState<TaxonomyBreakdown>(
+    {},
+  );
   const answersRef = useRef<number[]>([]);
 
   useEffect(() => {
@@ -318,6 +359,9 @@ export function SessionReader({
               setQuestionIndex((index) => index + 1);
             } else {
               setComprehension(scoreAnswers(questions, answersRef.current));
+              setTaxonomyBreakdown(
+                scoreByTaxonomy(questions, answersRef.current),
+              );
               setPhase("finished");
             }
           }}
@@ -331,6 +375,7 @@ export function SessionReader({
             computeWpm(passage.wordCounts.total, timer.elapsedMs ?? 0),
           )}
           comprehension={comprehension}
+          taxonomyBreakdown={taxonomyBreakdown}
           focusLost={focusLost}
         />
       );
