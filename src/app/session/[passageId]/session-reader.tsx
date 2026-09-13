@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { scoreDifficulty } from "@/lib/content/difficulty";
 import type { Question, PassageWithWordCounts } from "@/lib/content/types";
 import { computeWpm } from "@/lib/session/metrics";
+import { scoreAnswers } from "@/lib/session/scoring";
 import {
   createSeed,
   seedForQuestion,
@@ -167,13 +168,20 @@ function QuestionScreen({
 
 function FinishedScreen({
   wpm,
+  comprehension,
   focusLost,
 }: {
   wpm: number;
+  comprehension: number | null;
   focusLost: boolean;
 }) {
   return (
     <main className="flex flex-1 flex-col items-start justify-center gap-6 py-16">
+      {comprehension !== null && (
+        <p className="font-sans text-base text-ink">
+          You held {Math.round(comprehension)}% comprehension.
+        </p>
+      )}
       <p className="font-sans text-sm text-muted">
         You read at {wpm} words per minute.
       </p>
@@ -211,6 +219,7 @@ export function SessionReader({
   );
   const [questionIndex, setQuestionIndex] = useState(0);
   const [sessionSeed] = useState(() => createSeed());
+  const [comprehension, setComprehension] = useState<number | null>(null);
   const answersRef = useRef<number[]>([]);
 
   useEffect(() => {
@@ -308,6 +317,7 @@ export function SessionReader({
             if (questionIndex + 1 < questions.length) {
               setQuestionIndex((index) => index + 1);
             } else {
+              setComprehension(scoreAnswers(questions, answersRef.current));
               setPhase("finished");
             }
           }}
@@ -320,6 +330,7 @@ export function SessionReader({
           wpm={Math.round(
             computeWpm(passage.wordCounts.total, timer.elapsedMs ?? 0),
           )}
+          comprehension={comprehension}
           focusLost={focusLost}
         />
       );
