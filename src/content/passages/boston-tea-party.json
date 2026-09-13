@@ -1,0 +1,252 @@
+{
+  "id": "boston-tea-party",
+  "title": "The Destruction of the Tea",
+  "language": "en",
+  "source": "https://openstax.org/books/us-history/pages/5-4-the-destruction-of-the-tea-and-the-coercive-acts",
+  "attribution": "Quoted verbatim from U.S. History by P. Scott Corbett et al. (OpenStax, Rice University), section 5.4, subsection \"Colonial Protest: The Destruction of the Tea.\"",
+  "licence": "CC BY-NC-SA 4.0",
+  "textType": "expository",
+  "domain": "history",
+  "calibrationOnly": false,
+  "body": [
+    "The 1773 act reignited the worst fears among the colonists. To the Sons and Daughters of Liberty and those who followed them, the act appeared to be proof positive that a handful of corrupt members of Parliament were violating the British Constitution. Veterans of the protest movement had grown accustomed to interpreting British actions in the worst possible light, so the 1773 act appeared to be part of a large conspiracy against liberty.",
+    "As they had done to protest earlier acts and taxes, colonists responded to the Tea Act with a boycott. The Committees of Correspondence helped to coordinate resistance in all of the colonial port cities, so up and down the East Coast, British tea-carrying ships were unable to come to shore and unload their wares. In Charlestown, Boston, Philadelphia, and New York, the equivalent of millions of dollars’ worth of tea was held hostage, either locked in storage warehouses or rotting in the holds of ships as they were forced to sail back to Great Britain.",
+    "In Boston, Thomas Hutchinson, now the royal governor of Massachusetts, vowed that radicals like Samuel Adams would not keep the ships from unloading their cargo. He urged the merchants who would have accepted the tea from the ships to stand their ground and receive the tea once it had been unloaded. When the Dartmouth sailed into Boston Harbor in November 1773, it had twenty days to unload its cargo of tea and pay the duty before it had to return to Great Britain. Two more ships, the Eleanor and the Beaver, followed soon after. Samuel Adams and the Sons of Liberty tried to keep the captains of the ships from paying the duties and posted groups around the ships to make sure the tea would not be unloaded.",
+    "On December 16, just as the Dartmouth’s deadline approached, townspeople gathered at the Old South Meeting House determined to take action. From this gathering, a group of Sons of Liberty and their followers approached the three ships. Some were disguised as Mohawks. Protected by a crowd of spectators, they systematically dumped all the tea into the harbor, destroying goods worth almost $1 million in today’s dollars, a very significant loss. This act soon inspired further acts of resistance up and down the East Coast. However, not all colonists, and not even all Patriots, supported the dumping of the tea. The wholesale destruction of property shocked people on both sides of the Atlantic."
+  ],
+  "questions": [
+    {
+      "id": "boston-tea-party-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did colonists initially respond to the Tea Act?",
+      "options": [
+        "They petitioned Parliament for repeal",
+        "They responded with a boycott",
+        "They paid the duty under protest",
+        "They ignored the act entirely"
+      ],
+      "answerIndex": 1,
+      "evidence": { "paragraphIndex": 1, "start": 52, "end": 101 },
+      "pool": "first"
+    },
+    {
+      "id": "boston-tea-party-f2",
+      "taxonomy": "literal",
+      "prompt": "What happened to British tea-carrying ships as a result of colonial resistance, per the passage?",
+      "options": [
+        "They were unable to come to shore and unload their wares",
+        "They were seized by the Royal Navy",
+        "They were redirected to New York only",
+        "They unloaded without any resistance"
+      ],
+      "answerIndex": 0,
+      "evidence": { "paragraphIndex": 1, "start": 235, "end": 313 },
+      "pool": "first"
+    },
+    {
+      "id": "boston-tea-party-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did royal governor Thomas Hutchinson vow?",
+      "options": [
+        "That the tea would be returned to Great Britain",
+        "That radicals would not keep the ships from unloading their cargo",
+        "That the East India Company would lower its prices",
+        "That the Townshend duties would be repealed"
+      ],
+      "answerIndex": 1,
+      "evidence": { "paragraphIndex": 2, "start": 11, "end": 160 },
+      "pool": "first"
+    },
+    {
+      "id": "boston-tea-party-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how many days did the Dartmouth have to unload its tea and pay the duty?",
+      "options": ["Ten days", "Twenty days", "Thirty days", "Sixty days"],
+      "answerIndex": 1,
+      "evidence": { "paragraphIndex": 2, "start": 364, "end": 467 },
+      "pool": "first"
+    },
+    {
+      "id": "boston-tea-party-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, about how much, in today's dollars, was the destroyed tea worth?",
+      "options": [
+        "About $1,000",
+        "About $100,000",
+        "Almost $1 million",
+        "Over $10 million"
+      ],
+      "answerIndex": 2,
+      "evidence": { "paragraphIndex": 3, "start": 304, "end": 419 },
+      "pool": "first"
+    },
+    {
+      "id": "boston-tea-party-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the 1773 act appear to prove to the Sons and Daughters of Liberty?",
+      "options": [
+        "That a handful of corrupt members of Parliament were violating the British Constitution",
+        "That the East India Company was going bankrupt",
+        "That Dutch tea was of higher quality",
+        "That the colonies should seek full independence immediately"
+      ],
+      "answerIndex": 0,
+      "evidence": { "paragraphIndex": 0, "start": 126, "end": 251 },
+      "pool": "first"
+    },
+    {
+      "id": "boston-tea-party-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, was the destruction of the tea universally supported among colonists?",
+      "options": [
+        "Yes, every colonist and Patriot supported it",
+        "No, some colonists and Patriots did not support it",
+        "Only merchants opposed it",
+        "The passage does not address colonial opinion of the act"
+      ],
+      "answerIndex": 1,
+      "evidence": { "paragraphIndex": 3, "start": 533, "end": 696 },
+      "pool": "first"
+    },
+    {
+      "id": "boston-tea-party-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Sons of Liberty post groups around the ships?",
+      "options": [
+        "To prevent the tea from being unloaded and the duty paid",
+        "To help the crews unload the tea more quickly",
+        "To collect the tea duty on Parliament's behalf",
+        "To repair the ships before they returned to Britain"
+      ],
+      "answerIndex": 0,
+      "evidence": { "paragraphIndex": 2, "start": 534, "end": 712 },
+      "pool": "first"
+    },
+    {
+      "id": "boston-tea-party-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "Colonists came to see the Tea Act as part of a plot against their liberty",
+        "Colonists welcomed the Tea Act as a fair compromise",
+        "Parliament repealed the Tea Act soon after it passed",
+        "The East India Company lost its monopoly on tea"
+      ],
+      "answerIndex": 0,
+      "evidence": { "paragraphIndex": 0, "start": 0, "end": 59 },
+      "pool": "first"
+    },
+    {
+      "id": "boston-tea-party-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that tea \"was held hostage\" in warehouses and ships?",
+      "options": [
+        "Stuck in place and unable to be sold or delivered",
+        "Purchased at a steep discount",
+        "Shipped ahead of schedule",
+        "Donated to colonial charities"
+      ],
+      "answerIndex": 0,
+      "evidence": { "paragraphIndex": 1, "start": 367, "end": 556 },
+      "pool": "first"
+    },
+    {
+      "id": "boston-tea-party-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how had veterans of the protest movement grown accustomed to interpreting British actions?",
+      "options": [
+        "In the worst possible light",
+        "With growing trust",
+        "As mostly harmless",
+        "With total indifference"
+      ],
+      "answerIndex": 0,
+      "evidence": { "paragraphIndex": 0, "start": 253, "end": 366 },
+      "pool": "retest"
+    },
+    {
+      "id": "boston-tea-party-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in which four cities was tea held hostage aboard ships or in warehouses?",
+      "options": [
+        "Charlestown, Boston, Philadelphia, and New York",
+        "Boston, Providence, Newport, and Savannah",
+        "New York, Baltimore, Charleston, and Norfolk",
+        "Boston, Salem, Plymouth, and Newport"
+      ],
+      "answerIndex": 0,
+      "evidence": { "paragraphIndex": 1, "start": 315, "end": 435 },
+      "pool": "retest"
+    },
+    {
+      "id": "boston-tea-party-r3",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what were the names of the two ships that followed the Dartmouth into Boston Harbor?",
+      "options": [
+        "The Neptune and the Falcon",
+        "The Eleanor and the Beaver",
+        "The Liberty and the Diana",
+        "The Resolute and the Endeavor"
+      ],
+      "answerIndex": 1,
+      "evidence": { "paragraphIndex": 2, "start": 469, "end": 533 },
+      "pool": "retest"
+    },
+    {
+      "id": "boston-tea-party-r4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did townspeople gather on December 16th?",
+      "options": [
+        "Faneuil Hall",
+        "The Old South Meeting House",
+        "Griffin's Wharf",
+        "The Massachusetts State House"
+      ],
+      "answerIndex": 1,
+      "evidence": { "paragraphIndex": 3, "start": 61, "end": 112 },
+      "pool": "retest"
+    },
+    {
+      "id": "boston-tea-party-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Sons of Liberty and their followers do to reduce the chance of being personally identified while dumping the tea?",
+      "options": [
+        "They disguised themselves as Mohawks",
+        "They dumped the tea at night when no one could see",
+        "They paid off British customs officers",
+        "They dumped the tea gradually over several weeks"
+      ],
+      "answerIndex": 0,
+      "evidence": { "paragraphIndex": 3, "start": 236, "end": 267 },
+      "pool": "retest"
+    },
+    {
+      "id": "boston-tea-party-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes how colonists resisted the Tea Act, as described in the passage?",
+      "options": [
+        "Colonists coordinated a boycott that blocked tea ships all along the coast",
+        "Colonists petitioned Parliament to repeal the act peacefully",
+        "Colonists paid the tea duty under protest",
+        "Colonists boycotted only Boston Harbor"
+      ],
+      "answerIndex": 0,
+      "evidence": { "paragraphIndex": 1, "start": 103, "end": 314 },
+      "pool": "retest"
+    },
+    {
+      "id": "boston-tea-party-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "In the passage, what does \"proof positive\" mean, as used to describe how the Sons and Daughters of Liberty viewed the 1773 act?",
+      "options": [
+        "A hopeful sign",
+        "Definitive confirmation",
+        "A minor inconvenience",
+        "An unresolved question"
+      ],
+      "answerIndex": 1,
+      "evidence": { "paragraphIndex": 0, "start": 149, "end": 163 },
+      "pool": "retest"
+    }
+  ]
+}
