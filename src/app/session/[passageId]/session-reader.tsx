@@ -7,6 +7,7 @@ import type {
   Question,
   QuestionTaxonomy,
 } from "@/lib/content/types";
+import { lastComprehensionForSpeed } from "@/lib/metrics/comprehension-for-speed";
 import { computeMedianSelfPacedRate } from "@/lib/metrics/median-self-paced-rate";
 import { paginatePassage, type Page } from "@/lib/paced/paginate";
 import { computeWpm } from "@/lib/session/metrics";
@@ -47,11 +48,13 @@ function StartScreen({
   passage,
   mode,
   medianWpm,
+  sessions,
   onStart,
 }: {
   passage: PassageWithWordCounts;
   mode: SessionMode;
   medianWpm: number | null;
+  sessions: SessionRecord[];
   onStart: (targetWpm: number | null) => void;
 }) {
   const difficulty = scoreDifficulty(passage.body, passage.language);
@@ -63,6 +66,10 @@ function StartScreen({
   const targetWpm = isCustom ? Number(customValue) : selectedWpm;
   const hasValidTarget =
     mode !== "paced" || (Number.isFinite(targetWpm) && targetWpm > 0);
+  const pastComprehension =
+    mode === "paced" && hasValidTarget
+      ? lastComprehensionForSpeed(sessions, targetWpm)
+      : null;
 
   return (
     <main className="flex flex-1 flex-col items-start justify-center gap-6 py-16">
@@ -86,6 +93,12 @@ function StartScreen({
             setCustomValue(value);
           }}
         />
+      )}
+      {pastComprehension !== null && (
+        <p className="font-sans text-sm text-muted">
+          You held {Math.round(pastComprehension)}% comprehension the last
+          time you read near this speed.
+        </p>
       )}
       <button
         type="button"
@@ -621,6 +634,7 @@ export function SessionReader({
           passage={passage}
           mode={mode}
           medianWpm={medianSelfPacedWpm}
+          sessions={store?.sessions ?? []}
           onStart={(selectedTargetWpm) => {
             setFocusLost(false);
             setPageIndex(0);
