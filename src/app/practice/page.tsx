@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { DOMAINS, TEXT_TYPES } from "@/lib/content/types";
+import { loadBooks } from "@/lib/content/book-loader";
 import { scoreDifficulty } from "@/lib/content/difficulty";
 import { loadPassages } from "@/lib/content/loader";
 import { useStore } from "@/lib/storage/store-provider";
@@ -20,9 +21,14 @@ export default function PracticePage() {
 
   const { textType, domain } = store.settings.pickerFilters;
 
+  const bookPassageIds = new Set(
+    loadBooks().flatMap((book) => book.chunkPassageIds),
+  );
+
   const filtered = passages.filter(
     (passage) =>
       !passage.calibrationOnly &&
+      !bookPassageIds.has(passage.id) &&
       (textType === "all" || passage.textType === textType) &&
       (domain === "all" || passage.domain === domain),
   );
