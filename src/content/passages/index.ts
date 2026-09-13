@@ -7,6 +7,7 @@ import ozGrayPrairie from "./oz-gray-prairie.json";
 import ozGreenRoom from "./oz-green-room.json";
 import ozSilverShoes from "./oz-silver-shoes.json";
 import secretGardenGreenPoints from "./secret-garden-green-points.json";
+import secretGardenHundredRooms from "./secret-garden-hundred-rooms.json";
 import secretGardenMistressContrary from "./secret-garden-mistress-contrary.json";
 import secretGardenSilentBungalow from "./secret-garden-silent-bungalow.json";
 import sonsAndDaughtersOfLiberty from "./sons-and-daughters-of-liberty.json";
@@ -30,4 +31,5 @@ export const rawPassages: unknown[] = [
   secretGardenGreenPoints,
   secretGardenMistressContrary,
   secretGardenSilentBungalow,
+  secretGardenHundredRooms,
 ];
