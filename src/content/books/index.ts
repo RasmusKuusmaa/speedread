@@ -1,1 +1,3 @@
-export const rawBooks: unknown[] = [];
+import oz from "./oz.json";
+
+export const rawBooks: unknown[] = [oz];

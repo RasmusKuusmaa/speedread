@@ -1,0 +1,17 @@
+{
+  "id": "oz",
+  "title": "The Wonderful Wizard of Oz",
+  "author": "L. Frank Baum",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "Excerpts from The Wonderful Wizard of Oz by L. Frank Baum (1900), in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "language": "en",
+  "chunkPassageIds": [
+    "oz-gray-prairie",
+    "oz-green-room",
+    "oz-silver-shoes",
+    "oz-golden-cap"
+  ]
+}
