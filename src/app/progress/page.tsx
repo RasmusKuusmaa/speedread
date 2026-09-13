@@ -8,6 +8,7 @@ import {
   type TextType,
 } from "@/lib/content/types";
 import { loadPassages } from "@/lib/content/loader";
+import { computeCumulativeWordsRead } from "@/lib/metrics/cumulative-words";
 import { isEligibleSession } from "@/lib/metrics/eligibility";
 import { computeGroupStats, type GroupStats } from "@/lib/metrics/group-stats";
 import { getHoldingRateStatus } from "@/lib/metrics/holding-rate";
@@ -206,6 +207,10 @@ export default function ProgressPage() {
         thresholdPercent={store.settings.comprehensionThreshold}
         sessions={store.sessions}
       />
+      <p className="font-sans text-sm text-muted">
+        {computeCumulativeWordsRead(store.sessions).toLocaleString()} words
+        read in total.
+      </p>
       <TaxonomyBars averages={computeTaxonomyAverages(store.sessions)} />
       <GroupBreakdown title="By domain" keys={DOMAINS} stats={domainStats} />
       <p className="font-sans text-sm text-muted">
