@@ -40,6 +40,7 @@ export interface SessionRecord {
   missClassifications: Record<string, MissClassification>;
   recallText: string | null;
   recallDepth: RecallDepth;
+  unfinishedPageCount: number;
 }
 
 export interface RetestRecord {

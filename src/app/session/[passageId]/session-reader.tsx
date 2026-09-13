@@ -145,12 +145,14 @@ function PacedReadingScreen({
   isLastPage,
   onNextPage,
   onFinish,
+  onFlagUnfinished,
 }: {
   page: Page;
   pageDurationMs: number;
   isLastPage: boolean;
   onNextPage: () => void;
   onFinish: () => void;
+  onFlagUnfinished: () => void;
 }) {
   return (
     <main className="flex flex-1 flex-col py-16">
@@ -165,13 +167,20 @@ function PacedReadingScreen({
           <p key={index}>{paragraph}</p>
         ))}
       </article>
-      <div className="mx-auto mt-10 w-full max-w-[66ch]">
+      <div className="mx-auto mt-10 flex w-full max-w-[66ch] gap-3">
         <button
           type="button"
           onClick={isLastPage ? onFinish : onNextPage}
           className="rounded border border-rule px-4 py-2 font-sans text-sm text-ink"
         >
           {isLastPage ? "I've finished reading" : "Next page"}
+        </button>
+        <button
+          type="button"
+          onClick={onFlagUnfinished}
+          className="rounded border border-rule px-4 py-2 font-sans text-sm text-muted"
+        >
+          I didn&apos;t finish this page
         </button>
       </div>
     </main>
@@ -501,6 +510,7 @@ export function SessionReader({
   );
   const [pageIndex, setPageIndex] = useState(0);
   const [targetWpm, setTargetWpm] = useState<number | null>(null);
+  const [unfinishedPageCount, setUnfinishedPageCount] = useState(0);
   const medianSelfPacedWpm = computeMedianSelfPacedRate(store?.sessions ?? []);
   const recallDepth =
     sessionContext === "practice"
@@ -552,6 +562,7 @@ export function SessionReader({
       missClassifications: {},
       recallText: recallValue?.text ?? null,
       recallDepth: recallValue?.depth ?? recallDepth,
+      unfinishedPageCount,
     };
     update((current) => ({
       ...current,
@@ -639,6 +650,7 @@ export function SessionReader({
             setFocusLost(false);
             setPageIndex(0);
             setTargetWpm(selectedTargetWpm);
+            setUnfinishedPageCount(0);
             timer.start();
             update((current) => ({
               ...current,
@@ -667,6 +679,9 @@ export function SessionReader({
             isLastPage={pageIndex === pages.length - 1}
             onNextPage={() => setPageIndex((index) => index + 1)}
             onFinish={handleFinishReading}
+            onFlagUnfinished={() =>
+              setUnfinishedPageCount((count) => count + 1)
+            }
           />
         );
       }
