@@ -50,12 +50,14 @@ function StartScreen({
   mode,
   medianWpm,
   sessions,
+  sessionContext,
   onStart,
 }: {
   passage: PassageWithWordCounts;
   mode: SessionMode;
   medianWpm: number | null;
   sessions: SessionRecord[];
+  sessionContext: SessionContext;
   onStart: (targetWpm: number | null) => void;
 }) {
   const difficulty = scoreDifficulty(passage.body, passage.language);
@@ -107,7 +109,7 @@ function StartScreen({
         onClick={() => onStart(mode === "paced" ? targetWpm : null)}
         className="rounded border border-rule px-4 py-2 font-sans text-sm text-ink disabled:opacity-40"
       >
-        Start reading
+        {sessionContext === "retest" ? "Begin retest" : "Start reading"}
       </button>
     </main>
   );
@@ -652,11 +654,16 @@ export function SessionReader({
           mode={mode}
           medianWpm={medianSelfPacedWpm}
           sessions={store?.sessions ?? []}
+          sessionContext={sessionContext}
           onStart={(selectedTargetWpm) => {
             setFocusLost(false);
             setPageIndex(0);
             setTargetWpm(selectedTargetWpm);
             setUnfinishedPageCount(0);
+            if (sessionContext === "retest") {
+              setPhase("recall");
+              return;
+            }
             timer.start();
             update((current) => ({
               ...current,
