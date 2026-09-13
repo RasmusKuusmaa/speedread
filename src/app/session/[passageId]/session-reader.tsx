@@ -4,6 +4,11 @@ import { useEffect, useRef, useState } from "react";
 import { scoreDifficulty } from "@/lib/content/difficulty";
 import type { Question, PassageWithWordCounts } from "@/lib/content/types";
 import { computeWpm } from "@/lib/session/metrics";
+import {
+  createSeed,
+  seedForQuestion,
+  shuffledOrder,
+} from "@/lib/session/shuffle";
 import { useReadingTimer } from "@/lib/session/use-reading-timer";
 import { useStore } from "@/lib/storage/store-provider";
 import type { RecallDepth } from "@/lib/storage/types";
@@ -116,16 +121,21 @@ function RecallScreen({
 
 function QuestionScreen({
   question,
+  sessionSeed,
   onAnswer,
 }: {
   question: Question;
+  sessionSeed: number;
   onAnswer: (optionIndex: number) => void;
 }) {
   const [selectedOptionIndex, setSelectedOptionIndex] = useState<number | null>(
     null,
   );
   const [locked, setLocked] = useState(false);
-  const optionOrder = question.options.map((_, index) => index);
+  const optionOrder = shuffledOrder(
+    question.options.length,
+    seedForQuestion(sessionSeed, question.id),
+  );
 
   return (
     <main className="flex flex-1 flex-col items-start justify-center gap-6 py-16">
@@ -200,6 +210,7 @@ export function SessionReader({
     (question) => question.pool === questionPool,
   );
   const [questionIndex, setQuestionIndex] = useState(0);
+  const [sessionSeed] = useState(() => createSeed());
   const answersRef = useRef<number[]>([]);
 
   useEffect(() => {
@@ -291,6 +302,7 @@ export function SessionReader({
         <QuestionScreen
           key={question.id}
           question={question}
+          sessionSeed={sessionSeed}
           onAnswer={(optionIndex) => {
             answersRef.current.push(optionIndex);
             if (questionIndex + 1 < questions.length) {
