@@ -1,8 +1,58 @@
 "use client";
 
+import type { QuestionTaxonomy } from "@/lib/content/types";
 import { getHoldingRateStatus } from "@/lib/metrics/holding-rate";
+import {
+  computeTaxonomyAverages,
+  type TaxonomyAverages,
+} from "@/lib/metrics/taxonomy-breakdown";
 import { useStore } from "@/lib/storage/store-provider";
 import type { SessionRecord } from "@/lib/storage/types";
+
+const TAXONOMY_ORDER: QuestionTaxonomy[] = [
+  "literal",
+  "inference",
+  "main_idea",
+  "vocabulary",
+];
+
+const TAXONOMY_LABELS: Record<QuestionTaxonomy, string> = {
+  literal: "Literal detail",
+  inference: "Inference",
+  main_idea: "Main idea",
+  vocabulary: "Vocabulary",
+};
+
+function TaxonomyBars({ averages }: { averages: TaxonomyAverages }) {
+  return (
+    <div className="flex flex-col gap-3">
+      <h2 className="font-sans text-sm text-muted">
+        Comprehension by question type
+      </h2>
+      <ul className="flex flex-col gap-2">
+        {TAXONOMY_ORDER.map((taxonomy) => {
+          const value = averages[taxonomy];
+          return (
+            <li key={taxonomy} className="flex items-center gap-3">
+              <span className="w-28 shrink-0 font-sans text-sm text-ink">
+                {TAXONOMY_LABELS[taxonomy]}
+              </span>
+              <div className="h-2 flex-1 rounded bg-rule">
+                <div
+                  className="h-2 rounded bg-signal"
+                  style={{ width: `${value ?? 0}%` }}
+                />
+              </div>
+              <span className="w-16 shrink-0 text-right font-sans text-sm text-muted">
+                {value !== undefined ? `${Math.round(value)}%` : "No data"}
+              </span>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  );
+}
 
 function HoldingRateHeadline({
   thresholdPercent,
@@ -54,6 +104,7 @@ export default function ProgressPage() {
         thresholdPercent={store.settings.comprehensionThreshold}
         sessions={store.sessions}
       />
+      <TaxonomyBars averages={computeTaxonomyAverages(store.sessions)} />
     </main>
   );
 }
