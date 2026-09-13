@@ -47,6 +47,7 @@ export function defaultStore(): Store {
     settings: {
       pickerFilters: { textType: "all", domain: "all" },
       recallDepth: "brief",
+      comprehensionThreshold: 80,
     },
     sessions: [],
     retests: [],

@@ -77,6 +77,29 @@ export default function SettingsPage() {
       </section>
 
       <section className="flex flex-col gap-3">
+        <h2 className="font-sans text-sm text-muted">
+          Comprehension threshold
+        </h2>
+        <p className="font-sans text-sm text-muted">
+          The comprehension level your holding rate is measured against.
+        </p>
+        <input
+          type="number"
+          min={0}
+          max={100}
+          value={store.settings.comprehensionThreshold}
+          onChange={(event) => {
+            const value = Number(event.target.value);
+            update((current) => ({
+              ...current,
+              settings: { ...current.settings, comprehensionThreshold: value },
+            }));
+          }}
+          className="w-24 rounded border border-rule px-3 py-2 font-sans text-sm text-ink"
+        />
+      </section>
+
+      <section className="flex flex-col gap-3">
         <h2 className="font-sans text-sm text-muted">Your data</h2>
         <div className="flex gap-3">
           <button

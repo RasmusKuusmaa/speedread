@@ -12,6 +12,7 @@ export type RecallDepth = "full" | "brief" | "off";
 export interface Settings {
   pickerFilters: PickerFilters;
   recallDepth: RecallDepth;
+  comprehensionThreshold: number;
 }
 
 export type SessionMode = "self-paced" | "paced";
