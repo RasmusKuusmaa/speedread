@@ -9,6 +9,7 @@ import type {
 } from "@/lib/content/types";
 import { paginatePassage, type Page } from "@/lib/paced/paginate";
 import { computeWpm } from "@/lib/session/metrics";
+import { PageCountdown } from "./page-countdown";
 import {
   scoreAnswers,
   scoreByTaxonomy,
@@ -32,6 +33,9 @@ import { QuestionCard } from "./question-card";
 
 type Phase =
   "start" | "reading" | "recall" | "questions" | "finished" | "review";
+
+// Placeholder until the speed picker lands and page duration is derived from the reader's chosen wpm.
+const PLACEHOLDER_PACED_WPM = 300;
 
 function capitalize(value: string): string {
   return value.charAt(0).toUpperCase() + value.slice(1);
@@ -93,18 +97,23 @@ function ReadingScreen({
 
 function PacedReadingScreen({
   page,
+  pageDurationMs,
   isLastPage,
   onNextPage,
   onFinish,
 }: {
   page: Page;
+  pageDurationMs: number;
   isLastPage: boolean;
   onNextPage: () => void;
   onFinish: () => void;
 }) {
   return (
     <main className="flex flex-1 flex-col py-16">
-      <article className="mx-auto flex max-w-[66ch] flex-col gap-6 font-serif text-[19px] leading-[1.65] text-ink">
+      <div className="mx-auto w-full max-w-[66ch]">
+        <PageCountdown durationMs={pageDurationMs} />
+      </div>
+      <article className="mx-auto mt-10 flex max-w-[66ch] flex-col gap-6 font-serif text-[19px] leading-[1.65] text-ink">
         {page.paragraphs.map((paragraph, index) => (
           <p key={index}>{paragraph}</p>
         ))}
@@ -581,7 +590,9 @@ export function SessionReader({
         }
         return (
           <PacedReadingScreen
+            key={pageIndex}
             page={page}
+            pageDurationMs={(page.wordCount / PLACEHOLDER_PACED_WPM) * 60_000}
             isLastPage={pageIndex === pages.length - 1}
             onNextPage={() => setPageIndex((index) => index + 1)}
             onFinish={handleFinishReading}
