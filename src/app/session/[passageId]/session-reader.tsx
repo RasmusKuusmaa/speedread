@@ -2,14 +2,15 @@
 
 import { useEffect, useRef, useState } from "react";
 import { scoreDifficulty } from "@/lib/content/difficulty";
-import type { PassageWithWordCounts } from "@/lib/content/types";
+import type { Question, PassageWithWordCounts } from "@/lib/content/types";
 import { computeWpm } from "@/lib/session/metrics";
 import { useReadingTimer } from "@/lib/session/use-reading-timer";
 import { useStore } from "@/lib/storage/store-provider";
 import type { RecallDepth } from "@/lib/storage/types";
+import { QuestionCard } from "./question-card";
 import type { SessionContext } from "./types";
 
-type Phase = "start" | "reading" | "recall" | "finished";
+type Phase = "start" | "reading" | "recall" | "questions" | "finished";
 
 function capitalize(value: string): string {
   return value.charAt(0).toUpperCase() + value.slice(1);
@@ -113,6 +114,44 @@ function RecallScreen({
   );
 }
 
+function QuestionScreen({
+  question,
+  onAnswer,
+}: {
+  question: Question;
+  onAnswer: (optionIndex: number) => void;
+}) {
+  const [selectedOptionIndex, setSelectedOptionIndex] = useState<number | null>(
+    null,
+  );
+  const optionOrder = question.options.map((_, index) => index);
+
+  return (
+    <main className="flex flex-1 flex-col items-start justify-center gap-6 py-16">
+      <QuestionCard
+        question={question}
+        optionOrder={optionOrder}
+        selectedOptionIndex={selectedOptionIndex}
+        onSelect={setSelectedOptionIndex}
+      />
+      <div className="mx-auto w-full max-w-[66ch]">
+        <button
+          type="button"
+          disabled={selectedOptionIndex === null}
+          onClick={() => {
+            if (selectedOptionIndex !== null) {
+              onAnswer(selectedOptionIndex);
+            }
+          }}
+          className="rounded border border-rule px-4 py-2 font-sans text-sm text-ink disabled:opacity-40"
+        >
+          Continue
+        </button>
+      </div>
+    </main>
+  );
+}
+
 function FinishedScreen({
   wpm,
   focusLost,
@@ -152,6 +191,13 @@ export function SessionReader({
     sessionContext === "practice"
       ? (store?.settings.recallDepth ?? "brief")
       : "full";
+
+  const questionPool = sessionContext === "retest" ? "retest" : "first";
+  const questions = passage.questions.filter(
+    (question) => question.pool === questionPool,
+  );
+  const [questionIndex, setQuestionIndex] = useState(0);
+  const answersRef = useRef<number[]>([]);
 
   useEffect(() => {
     if (phase !== "reading") {
@@ -211,7 +257,13 @@ export function SessionReader({
           onFinish={() => {
             timer.stop();
             update((current) => ({ ...current, inProgressSession: null }));
-            setPhase(recallDepth === "off" ? "finished" : "recall");
+            setPhase(
+              recallDepth === "off"
+                ? questions.length > 0
+                  ? "questions"
+                  : "finished"
+                : "recall",
+            );
           }}
         />
       );
@@ -222,7 +274,27 @@ export function SessionReader({
           depth={depth}
           onContinue={(text) => {
             recallRef.current = { text, depth };
-            setPhase("finished");
+            setPhase(questions.length > 0 ? "questions" : "finished");
+          }}
+        />
+      );
+    }
+    case "questions": {
+      const question = questions[questionIndex];
+      if (!question) {
+        return null;
+      }
+      return (
+        <QuestionScreen
+          key={question.id}
+          question={question}
+          onAnswer={(optionIndex) => {
+            answersRef.current.push(optionIndex);
+            if (questionIndex + 1 < questions.length) {
+              setQuestionIndex((index) => index + 1);
+            } else {
+              setPhase("finished");
+            }
           }}
         />
       );
