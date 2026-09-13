@@ -46,6 +46,11 @@ import { QuestionCard } from "./question-card";
 type Phase =
   "start" | "reading" | "recall" | "questions" | "finished" | "review";
 
+interface BookNavigation {
+  isLastChunk: boolean;
+  onContinue: () => void;
+}
+
 // Defensive fallback; paced mode always sets a target wpm before reading starts.
 const FALLBACK_PACED_WPM = 300;
 
@@ -359,6 +364,7 @@ function FinishedScreen({
   hasQuestions,
   isRetest,
   originalComprehension,
+  bookNavigation,
   onReview,
 }: {
   wpm: number;
@@ -368,6 +374,7 @@ function FinishedScreen({
   hasQuestions: boolean;
   isRetest: boolean;
   originalComprehension: number | null;
+  bookNavigation: BookNavigation | null;
   onReview: () => void;
 }) {
   useEnterKey(onReview, hasQuestions);
@@ -421,6 +428,17 @@ function FinishedScreen({
             Show me what I missed
           </button>
         )}
+        {bookNavigation !== null && (
+          <button
+            type="button"
+            onClick={bookNavigation.onContinue}
+            className="rounded border border-rule px-4 py-2 font-sans text-sm text-ink"
+          >
+            {bookNavigation.isLastChunk
+              ? "Finish book"
+              : "Continue to next section"}
+          </button>
+        )}
         <Link
           href="/practice"
           className="rounded border border-rule px-4 py-2 font-sans text-sm text-ink"
@@ -464,6 +482,7 @@ function ReviewScreen({
   missClassifications,
   fontSize,
   lineWidth,
+  bookNavigation,
   onClassifyMiss,
 }: {
   paragraphs: string[];
@@ -473,6 +492,7 @@ function ReviewScreen({
   missClassifications: Record<string, MissClassification>;
   fontSize: FontSize;
   lineWidth: LineWidth;
+  bookNavigation: BookNavigation | null;
   onClassifyMiss: (
     questionId: string,
     classification: MissClassification,
@@ -577,6 +597,17 @@ function ReviewScreen({
         </div>
       )}
       <div className="flex gap-3 border-t border-rule pt-8">
+        {bookNavigation !== null && (
+          <button
+            type="button"
+            onClick={bookNavigation.onContinue}
+            className="rounded border border-rule px-4 py-2 font-sans text-sm text-ink"
+          >
+            {bookNavigation.isLastChunk
+              ? "Finish book"
+              : "Continue to next section"}
+          </button>
+        )}
         <Link
           href="/practice"
           className="rounded border border-rule px-4 py-2 font-sans text-sm text-ink"
@@ -596,11 +627,13 @@ export function SessionReader({
   sessionContext,
   mode,
   retestId,
+  bookNavigation = null,
 }: {
   passage: PassageWithWordCounts;
   sessionContext: SessionContext;
   mode: SessionMode;
   retestId: string | null;
+  bookNavigation?: BookNavigation | null;
 }) {
   const { store, update } = useStore();
   const [phase, setPhase] = useState<Phase>("start");
@@ -897,6 +930,7 @@ export function SessionReader({
           hasQuestions={questions.length > 0}
           isRetest={sessionContext === "retest"}
           originalComprehension={originalComprehension}
+          bookNavigation={bookNavigation}
           onReview={() => setPhase("review")}
         />
       );
@@ -910,6 +944,7 @@ export function SessionReader({
           missClassifications={missClassifications}
           fontSize={fontSize}
           lineWidth={lineWidth}
+          bookNavigation={bookNavigation}
           onClassifyMiss={(questionId, classification) => {
             setMissClassifications((current) => ({
               ...current,
