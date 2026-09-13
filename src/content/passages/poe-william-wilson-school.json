@@ -1,0 +1,324 @@
+{
+  "id": "poe-william-wilson-school",
+  "title": "A Prison-like Rampart",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/2148",
+  "attribution": "Excerpted verbatim from \"William Wilson\" by Edgar Allan Poe (1839), collected in The Works of Edgar Allan Poe.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "My earliest recollections of a school-life, are connected with a large, rambling, Elizabethan house, in a misty-looking village of England, where were a vast number of gigantic and gnarled trees, and where all the houses were excessively ancient. In truth, it was a dream-like and spirit-soothing place, that venerable old town. At this moment, in fancy, I feel the refreshing chilliness of its deeply-shadowed avenues, inhale the fragrance of its thousand shrubberies, and thrill anew with undefinable delight, at the deep hollow note of the church-bell, breaking, each hour, with sullen and sudden roar, upon the stillness of the dusky atmosphere in which the fretted Gothic steeple lay imbedded and asleep.",
+    "It gives me, perhaps, as much of pleasure as I can now in any manner experience, to dwell upon minute recollections of the school and its concerns. Steeped in misery as I am—misery, alas! only too real—I shall be pardoned for seeking relief, however slight and temporary, in the weakness of a few rambling details. These, moreover, utterly trivial, and even ridiculous in themselves, assume, to my fancy, adventitious importance, as connected with a period and a locality when and where I recognise the first ambiguous monitions of the destiny which afterwards so fully overshadowed me. Let me then remember.",
+    "The house, I have said, was old and irregular. The grounds were extensive, and a high and solid brick wall, topped with a bed of mortar and broken glass, encompassed the whole. This prison-like rampart formed the limit of our domain; beyond it we saw but thrice a week—once every Saturday afternoon, when, attended by two ushers, we were permitted to take brief walks in a body through some of the neighbouring fields—and twice during Sunday, when we were paraded in the same formal manner to the morning and evening service in the one church of the village. Of this church the principal of our school was pastor. With how deep a spirit of wonder and perplexity was I wont to regard him from our remote pew in the gallery, as, with step solemn and slow, he ascended the pulpit! This reverend man, with countenance so demurely benign, with robes so glossy and so clerically flowing, with wig so minutely powdered, so rigid and so vast,—-could this be he who, of late, with sour visage, and in snuffy habiliments, administered, ferule in hand, the Draconian laws of the academy? Oh, gigantic paradox, too utterly monstrous for solution!"
+  ],
+  "questions": [
+    {
+      "id": "poe-william-wilson-school-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what kind of house does the narrator recall from his earliest school days?",
+      "options": [
+        "A large, rambling, Elizabethan house",
+        "A small brick cottage",
+        "A modern stone mansion",
+        "A crumbling medieval castle"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 63,
+        "end": 99
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-william-wilson-school-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what sound does the narrator recall breaking the stillness each hour?",
+      "options": [
+        "The deep hollow note of the church-bell",
+        "The cries of the gnarled trees creaking",
+        "The footsteps of the ushers",
+        "A distant clock tower chiming"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 515,
+        "end": 554
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-william-wilson-school-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what topped the brick wall around the school grounds?",
+      "options": [
+        "A bed of mortar and broken glass",
+        "Rows of iron spikes",
+        "Climbing ivy and flowers",
+        "Wooden planks"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 108,
+        "end": 152
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-william-wilson-school-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how often were the boys permitted to leave the school grounds?",
+      "options": [
+        "Thrice a week",
+        "Once a month",
+        "Every day",
+        "Never"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 234,
+        "end": 268
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-william-wilson-school-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who was the principal of the narrator's school?",
+      "options": [
+        "The pastor of the village church",
+        "A retired soldier",
+        "The narrator's own father",
+        "A visiting scholar"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 559,
+        "end": 612
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-william-wilson-school-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the narrator say he takes pleasure in recalling trivial school details?",
+      "options": [
+        "Because they connect to the period when he first sensed the destiny that would later overshadow him",
+        "Because the details make him laugh",
+        "Because he wants to write a history of the school",
+        "Because his friends ask him to retell them often"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 499,
+        "end": 585
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-william-wilson-school-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the narrator call the brick wall a \"prison-like rampart\"?",
+      "options": [
+        "Because it strictly confined the boys and limited their contact with the outside world",
+        "Because it had once been part of an actual prison",
+        "Because it was built by convicts",
+        "Because it was taller than any other wall in the village"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 177,
+        "end": 232
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-william-wilson-school-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the narrator puzzled by his schoolmaster's two roles?",
+      "options": [
+        "The same man seemed impossibly different as a stern disciplinarian versus a solemn, benign pastor",
+        "The schoolmaster refused to admit he was also the pastor",
+        "The narrator suspected there were two identical men",
+        "The schoolmaster had recently changed his appearance"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 936,
+        "end": 1076
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-william-wilson-school-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "The narrator fondly but uneasily recalls a strict, confining school tied to the fate that later overshadowed him",
+        "The narrator describes a happy, unrestricted childhood with few rules",
+        "The narrator explains why he chose to become a teacher himself",
+        "The narrator recounts his first meeting with a lifelong friend"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 147
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-william-wilson-school-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the school's laws were \"Draconian\"?",
+      "options": [
+        "Extremely harsh and strict",
+        "Fair and lenient",
+        "Rarely enforced",
+        "Written in an old language"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 1012,
+        "end": 1075
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-william-wilson-school-r1",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, where was the school located?",
+      "options": [
+        "In a misty-looking village of England",
+        "On a remote island",
+        "In a large city",
+        "Near the seacoast of France"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 101,
+        "end": 138
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-william-wilson-school-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when were the boys allowed to take walks in the fields?",
+      "options": [
+        "Once every Saturday afternoon",
+        "Every morning before class",
+        "Only on holidays",
+        "Once a year, in summer"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 269,
+        "end": 298
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-william-wilson-school-r3",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who accompanied the boys on their walks?",
+      "options": [
+        "Two ushers",
+        "The schoolmaster himself",
+        "No one; they walked alone",
+        "Their parents"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 306,
+        "end": 328
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-william-wilson-school-r4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the narrator recall inhaling from the school's avenues?",
+      "options": [
+        "The fragrance of its thousand shrubberies",
+        "The smoke of distant chimneys",
+        "The scent of fresh rain",
+        "The odor of old books"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 420,
+        "end": 468
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-william-wilson-school-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the narrator say he is \"steeped in misery\" as he writes?",
+      "options": [
+        "He is currently suffering, and looks back on childhood as a temporary relief from it",
+        "He regrets never attending school at all",
+        "He is angry at his former schoolmaster",
+        "He is describing the misery of his classmates, not himself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 148,
+        "end": 201
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-william-wilson-school-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes the narrator's description of his schoolmaster?",
+      "options": [
+        "He seemed like two contradictory people: a solemn pastor and a harsh disciplinarian",
+        "He was universally loved by every student",
+        "He rarely appeared at the school at all",
+        "He was younger than most of the students realized"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 1077,
+        "end": 1134
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-william-wilson-school-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the town was \"spirit-soothing\"?",
+      "options": [
+        "Calming and comforting to the spirit",
+        "Frightening and haunted",
+        "Loud and chaotic",
+        "Cold and unwelcoming"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 257,
+        "end": 302
+      },
+      "pool": "retest"
+    }
+  ]
+}
