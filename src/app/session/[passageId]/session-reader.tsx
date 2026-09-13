@@ -6,6 +6,7 @@ import type { PassageWithWordCounts } from "@/lib/content/types";
 import { computeWpm } from "@/lib/session/metrics";
 import { useReadingTimer } from "@/lib/session/use-reading-timer";
 import { useStore } from "@/lib/storage/store-provider";
+import type { SessionContext } from "./types";
 
 type Phase = "start" | "reading" | "recall" | "finished";
 
@@ -133,13 +134,22 @@ function FinishedScreen({
   );
 }
 
-export function SessionReader({ passage }: { passage: PassageWithWordCounts }) {
+export function SessionReader({
+  passage,
+  sessionContext,
+}: {
+  passage: PassageWithWordCounts;
+  sessionContext: SessionContext;
+}) {
   const { store, update } = useStore();
   const [phase, setPhase] = useState<Phase>("start");
   const [focusLost, setFocusLost] = useState(false);
   const hasCheckedResumeRef = useRef(false);
   const timer = useReadingTimer();
-  const recallDepth = store?.settings.recallDepth ?? "brief";
+  const recallDepth =
+    sessionContext === "practice"
+      ? (store?.settings.recallDepth ?? "brief")
+      : "full";
 
   useEffect(() => {
     if (phase !== "reading") {
