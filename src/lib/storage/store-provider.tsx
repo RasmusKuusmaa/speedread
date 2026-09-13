@@ -9,18 +9,21 @@ import {
   type ReactNode,
 } from "react";
 import { pruneStaleRetests } from "@/lib/spaced/expire-retests";
-import { loadStore, writeStore } from "./storage";
+import { defaultStore, loadStore, writeStore } from "./storage";
 import type { Store } from "./types";
 
 interface StoreContextValue {
   store: Store | null;
+  storageError: string | null;
   update: (updater: (store: Store) => Store) => void;
+  resetStore: () => void;
 }
 
 const StoreContext = createContext<StoreContextValue | null>(null);
 
 export function StoreProvider({ children }: { children: ReactNode }) {
   const [store, setStore] = useState<Store | null>(null);
+  const [storageError, setStorageError] = useState<string | null>(null);
 
   // Server-rendered markup always sees a null store (no localStorage), so the
   // real value is loaded after mount rather than in the initial render — doing
@@ -29,6 +32,8 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     const result = loadStore();
     if (!result.ok) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time hydration from localStorage after mount, not a derivable value
+      setStorageError(result.error);
       return;
     }
     const prunedRetests = pruneStaleRetests(result.value.retests, Date.now());
@@ -39,7 +44,6 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     if (value !== result.value) {
       writeStore(value);
     }
-    // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time hydration from localStorage after mount, not a derivable value
     setStore(value);
   }, []);
 
@@ -49,13 +53,23 @@ export function StoreProvider({ children }: { children: ReactNode }) {
         return current;
       }
       const next = updater(current);
-      writeStore(next);
+      const writeResult = writeStore(next);
+      if (!writeResult.ok) {
+        setStorageError(writeResult.error);
+      }
       return next;
     });
   }, []);
 
+  const resetStore = useCallback(() => {
+    const fresh = defaultStore();
+    writeStore(fresh);
+    setStorageError(null);
+    setStore(fresh);
+  }, []);
+
   return (
-    <StoreContext.Provider value={{ store, update }}>
+    <StoreContext.Provider value={{ store, storageError, update, resetStore }}>
       {children}
     </StoreContext.Provider>
   );

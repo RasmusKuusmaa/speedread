@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Source_Serif_4, Inter } from "next/font/google";
 import { SiteHeader } from "@/components/site-header";
+import { StorageRecoveryBanner } from "@/components/storage-recovery-banner";
 import { StoreProvider } from "@/lib/storage/store-provider";
 import "./globals.css";
 
@@ -27,6 +28,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="flex min-h-full flex-col bg-paper text-ink">
         <StoreProvider>
+          <StorageRecoveryBanner />
           <SiteHeader />
           <div className="mx-auto flex w-full max-w-2xl flex-1 flex-col px-6">
             {children}

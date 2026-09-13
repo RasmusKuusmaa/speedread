@@ -24,6 +24,13 @@ export function readStore(): StorageResult<Store | null> {
   }
 }
 
+export function readRawStore(): string | null {
+  if (typeof window === "undefined") {
+    return null;
+  }
+  return window.localStorage.getItem(STORAGE_KEY);
+}
+
 export function writeStore(store: Store): StorageResult<void> {
   if (typeof window === "undefined") {
     return { ok: false, error: "localStorage is not available on the server" };
