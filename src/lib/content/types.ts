@@ -10,7 +10,8 @@ export type Domain =
   | "history"
   | "economics"
   | "philosophy"
-  | "literature";
+  | "literature"
+  | "engineering";
 
 export const DOMAINS: Domain[] = [
   "physics",
@@ -21,6 +22,7 @@ export const DOMAINS: Domain[] = [
   "economics",
   "philosophy",
   "literature",
+  "engineering",
 ];
 
 export type QuestionTaxonomy =
