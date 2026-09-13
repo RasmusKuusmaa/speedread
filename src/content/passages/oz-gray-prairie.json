@@ -1,0 +1,324 @@
+{
+  "id": "oz-gray-prairie",
+  "title": "As Dull and Gray as Everything Else",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "Excerpted verbatim from The Wonderful Wizard of Oz by L. Frank Baum (1900).",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Dorothy lived in the midst of the great Kansas prairies, with Uncle Henry, who was a farmer, and Aunt Em, who was the farmer’s wife. Their house was small, for the lumber to build it had to be carried by wagon many miles. There were four walls, a floor and a roof, which made one room; and this room contained a rusty looking cookstove, a cupboard for the dishes, a table, three or four chairs, and the beds. Uncle Henry and Aunt Em had a big bed in one corner, and Dorothy a little bed in another corner. There was no garret at all, and no cellar—except a small hole dug in the ground, called a cyclone cellar, where the family could go in case one of those great whirlwinds arose, mighty enough to crush any building in its path. It was reached by a trap door in the middle of the floor, from which a ladder led down into the small, dark hole.",
+    "When Dorothy stood in the doorway and looked around, she could see nothing but the great gray prairie on every side. Not a tree nor a house broke the broad sweep of flat country that reached to the edge of the sky in all directions. The sun had baked the plowed land into a gray mass, with little cracks running through it. Even the grass was not green, for the sun had burned the tops of the long blades until they were the same gray color to be seen everywhere. Once the house had been painted, but the sun blistered the paint and the rains washed it away, and now the house was as dull and gray as everything else.",
+    "When Aunt Em came there to live she was a young, pretty wife. The sun and wind had changed her, too. They had taken the sparkle from her eyes and left them a sober gray; they had taken the red from her cheeks and lips, and they were gray also. She was thin and gaunt, and never smiled now. When Dorothy, who was an orphan, first came to her, Aunt Em had been so startled by the child’s laughter that she would scream and press her hand upon her heart whenever Dorothy’s merry voice reached her ears; and she still looked at the little girl with wonder that she could find anything to laugh at."
+  ],
+  "questions": [
+    {
+      "id": "oz-gray-prairie-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who was Uncle Henry?",
+      "options": [
+        "A farmer",
+        "A soldier",
+        "A shopkeeper",
+        "A schoolteacher"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 62,
+        "end": 91
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-gray-prairie-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what furniture did the one-room house contain?",
+      "options": [
+        "A cookstove, a cupboard, a table, chairs, and beds",
+        "A piano, a bookshelf, and a writing desk",
+        "Only a bed and a chair",
+        "A cookstove and nothing else"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 290,
+        "end": 407
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-gray-prairie-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how was the cyclone cellar reached?",
+      "options": [
+        "By a trap door in the middle of the floor",
+        "By a door at the back of the house",
+        "By climbing down from the roof",
+        "By a tunnel from the barn"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 732,
+        "end": 788
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-gray-prairie-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what happened to the house's paint over time?",
+      "options": [
+        "The sun blistered it and the rains washed it away",
+        "It was repainted a bright green",
+        "It cracked from the cold winters",
+        "Aunt Em scrubbed it off herself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 501,
+        "end": 557
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-gray-prairie-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what change came over Aunt Em's eyes after living there?",
+      "options": [
+        "They lost their sparkle and turned a sober gray",
+        "They grew brighter with each passing year",
+        "They turned a deep shade of green",
+        "They were unaffected by the years"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 101,
+        "end": 168
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-gray-prairie-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the family need a cyclone cellar?",
+      "options": [
+        "To take shelter from whirlwinds strong enough to destroy buildings",
+        "To store food safely from animals",
+        "To hide from passing strangers",
+        "To keep cool during hot summers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 646,
+        "end": 730
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-gray-prairie-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was Aunt Em so startled by Dorothy's laughter at first?",
+      "options": [
+        "Her life had become so joyless that laughter surprised her",
+        "She thought Dorothy was laughing at her",
+        "She had never heard a child laugh before",
+        "She believed laughter brought bad luck"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 342,
+        "end": 450
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-gray-prairie-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the description of the flat gray prairie suggest about Dorothy's surroundings?",
+      "options": [
+        "They were bleak and monotonous",
+        "They were colorful and full of variety",
+        "They changed dramatically with the seasons",
+        "They were crowded with other houses"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 53,
+        "end": 115
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-gray-prairie-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "Life on the gray Kansas prairie had worn down Dorothy's aunt and her surroundings alike",
+        "Dorothy's family was wealthy and lived comfortably",
+        "Aunt Em had recently moved to the prairie and was still adjusting happily",
+        "The house had just been rebuilt and looked new"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 563,
+        "end": 616
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-gray-prairie-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that Aunt Em was \"gaunt\"?",
+      "options": [
+        "Thin and worn-looking",
+        "Cheerful and plump",
+        "Tall and graceful",
+        "Loud and energetic"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 244,
+        "end": 288
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-gray-prairie-r1",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how far did the lumber have to be carried to build the house?",
+      "options": [
+        "Many miles",
+        "Just a few feet",
+        "One mile",
+        "It was cut on the spot"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 160,
+        "end": 220
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-gray-prairie-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did Uncle Henry and Aunt Em sleep?",
+      "options": [
+        "In a big bed in one corner",
+        "In a room upstairs",
+        "In the barn",
+        "Beside the cookstove"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 409,
+        "end": 460
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-gray-prairie-r3",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what had the sun done to the grass on the prairie?",
+      "options": [
+        "Burned it until it was the same gray color as everything else",
+        "Turned it a brighter shade of green",
+        "Made it grow taller than usual",
+        "Had no effect on it at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 358,
+        "end": 462
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-gray-prairie-r4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what had taken the red from Aunt Em's cheeks and lips?",
+      "options": [
+        "The sun and wind",
+        "A long illness",
+        "Years of hard cooking",
+        "The gray paint from the house"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 62,
+        "end": 99
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-gray-prairie-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does it describe the prairie as reaching \"to the edge of the sky in all directions\"?",
+      "options": [
+        "To emphasize how flat and endless the land appeared",
+        "To show that Dorothy could see the ocean nearby",
+        "To suggest that mountains stood far in the distance",
+        "To explain why the family needed a cellar"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 183,
+        "end": 231
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-gray-prairie-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes Aunt Em's life since coming to the prairie?",
+      "options": [
+        "The harsh sun and wind aged her and took away her joy",
+        "She grew wealthier and happier each year",
+        "She left the prairie soon after arriving",
+        "She remained exactly as young and cheerful as before"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 60
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-gray-prairie-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that Aunt Em's eyes became a \"sober gray\"?",
+      "options": [
+        "Dull and without brightness",
+        "Bright and sparkling",
+        "Filled with tears",
+        "Wide with surprise"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 146,
+        "end": 168
+      },
+      "pool": "retest"
+    }
+  ]
+}
