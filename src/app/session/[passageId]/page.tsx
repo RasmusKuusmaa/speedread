@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { loadPassages } from "@/lib/content/loader";
+import { SessionReader } from "./session-reader";
 
 export default async function SessionPage({
   params,
@@ -11,13 +12,5 @@ export default async function SessionPage({
     notFound();
   }
 
-  return (
-    <main className="flex flex-1 flex-col py-16">
-      <article className="mx-auto flex max-w-[66ch] flex-col gap-6 font-serif text-[19px] leading-[1.65] text-ink">
-        {passage.body.map((paragraph, index) => (
-          <p key={index}>{paragraph}</p>
-        ))}
-      </article>
-    </main>
-  );
+  return <SessionReader passage={passage} />;
 }
