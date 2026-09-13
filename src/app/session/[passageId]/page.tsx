@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { loadPassages } from "@/lib/content/loader";
 import { SessionReader } from "./session-reader";
-import type { SessionContext } from "@/lib/storage/types";
+import type { SessionContext, SessionMode } from "@/lib/storage/types";
 
 const SESSION_CONTEXTS: SessionContext[] = [
   "practice",
@@ -9,12 +9,14 @@ const SESSION_CONTEXTS: SessionContext[] = [
   "calibration",
 ];
 
+const SESSION_MODES: SessionMode[] = ["self-paced", "paced"];
+
 export default async function SessionPage({
   params,
   searchParams,
 }: PageProps<"/session/[passageId]">) {
   const { passageId } = await params;
-  const { context } = await searchParams;
+  const { context, mode } = await searchParams;
   const passage = loadPassages().find((item) => item.id === passageId);
 
   if (!passage) {
@@ -28,5 +30,16 @@ export default async function SessionPage({
     ? (requestedContext as SessionContext)
     : "practice";
 
-  return <SessionReader passage={passage} sessionContext={sessionContext} />;
+  const requestedMode = Array.isArray(mode) ? mode[0] : mode;
+  const sessionMode = SESSION_MODES.includes(requestedMode as SessionMode)
+    ? (requestedMode as SessionMode)
+    : "self-paced";
+
+  return (
+    <SessionReader
+      passage={passage}
+      sessionContext={sessionContext}
+      mode={sessionMode}
+    />
+  );
 }

@@ -1,12 +1,13 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { scoreDifficulty } from "@/lib/content/difficulty";
 import type {
   PassageWithWordCounts,
   Question,
   QuestionTaxonomy,
 } from "@/lib/content/types";
+import { paginatePassage, type Page } from "@/lib/paced/paginate";
 import { computeWpm } from "@/lib/session/metrics";
 import {
   scoreAnswers,
@@ -24,6 +25,7 @@ import type {
   MissClassification,
   RecallDepth,
   SessionContext,
+  SessionMode,
   SessionRecord,
 } from "@/lib/storage/types";
 import { QuestionCard } from "./question-card";
@@ -83,6 +85,37 @@ function ReadingScreen({
           className="rounded border border-rule px-4 py-2 font-sans text-sm text-ink"
         >
           I&apos;ve finished reading
+        </button>
+      </div>
+    </main>
+  );
+}
+
+function PacedReadingScreen({
+  page,
+  isLastPage,
+  onNextPage,
+  onFinish,
+}: {
+  page: Page;
+  isLastPage: boolean;
+  onNextPage: () => void;
+  onFinish: () => void;
+}) {
+  return (
+    <main className="flex flex-1 flex-col py-16">
+      <article className="mx-auto flex max-w-[66ch] flex-col gap-6 font-serif text-[19px] leading-[1.65] text-ink">
+        {page.paragraphs.map((paragraph, index) => (
+          <p key={index}>{paragraph}</p>
+        ))}
+      </article>
+      <div className="mx-auto mt-10 w-full max-w-[66ch]">
+        <button
+          type="button"
+          onClick={isLastPage ? onFinish : onNextPage}
+          className="rounded border border-rule px-4 py-2 font-sans text-sm text-ink"
+        >
+          {isLastPage ? "I've finished reading" : "Next page"}
         </button>
       </div>
     </main>
@@ -391,9 +424,11 @@ function ReviewScreen({
 export function SessionReader({
   passage,
   sessionContext,
+  mode,
 }: {
   passage: PassageWithWordCounts;
   sessionContext: SessionContext;
+  mode: SessionMode;
 }) {
   const { store, update } = useStore();
   const [phase, setPhase] = useState<Phase>("start");
@@ -404,6 +439,11 @@ export function SessionReader({
   } | null>(null);
   const hasCheckedResumeRef = useRef(false);
   const timer = useReadingTimer();
+  const pages = useMemo(
+    () => paginatePassage(passage.body, passage.wordCounts.paragraphs),
+    [passage],
+  );
+  const [pageIndex, setPageIndex] = useState(0);
   const recallDepth =
     sessionContext === "practice"
       ? (store?.settings.recallDepth ?? "brief")
@@ -441,7 +481,7 @@ export function SessionReader({
       id: sessionRecordId,
       passageId: passage.id,
       sessionContext,
-      mode: "self-paced",
+      mode,
       timings: {
         startedAtEpochMs: Date.now() - elapsedMs,
         elapsedMs,
@@ -493,6 +533,26 @@ export function SessionReader({
     }
   }, [store, passage.id, timer]);
 
+  function handleFinishReading() {
+    const elapsedMs = timer.stop();
+    update((current) => ({ ...current, inProgressSession: null }));
+    if (recallDepth === "off" && questions.length === 0) {
+      finishSession({
+        elapsedMs,
+        comprehensionValue: 0,
+        taxonomyBreakdownValue: {},
+        recallValue: null,
+      });
+    }
+    setPhase(
+      recallDepth === "off"
+        ? questions.length > 0
+          ? "questions"
+          : "finished"
+        : "recall",
+    );
+  }
+
   switch (phase) {
     case "start":
       return (
@@ -500,6 +560,7 @@ export function SessionReader({
           passage={passage}
           onStart={() => {
             setFocusLost(false);
+            setPageIndex(0);
             timer.start();
             update((current) => ({
               ...current,
@@ -513,29 +574,22 @@ export function SessionReader({
         />
       );
     case "reading":
+      if (mode === "paced") {
+        const page = pages[pageIndex];
+        if (!page) {
+          return null;
+        }
+        return (
+          <PacedReadingScreen
+            page={page}
+            isLastPage={pageIndex === pages.length - 1}
+            onNextPage={() => setPageIndex((index) => index + 1)}
+            onFinish={handleFinishReading}
+          />
+        );
+      }
       return (
-        <ReadingScreen
-          paragraphs={passage.body}
-          onFinish={() => {
-            const elapsedMs = timer.stop();
-            update((current) => ({ ...current, inProgressSession: null }));
-            if (recallDepth === "off" && questions.length === 0) {
-              finishSession({
-                elapsedMs,
-                comprehensionValue: 0,
-                taxonomyBreakdownValue: {},
-                recallValue: null,
-              });
-            }
-            setPhase(
-              recallDepth === "off"
-                ? questions.length > 0
-                  ? "questions"
-                  : "finished"
-                : "recall",
-            );
-          }}
-        />
+        <ReadingScreen paragraphs={passage.body} onFinish={handleFinishReading} />
       );
     case "recall": {
       const depth = recallDepth === "off" ? "brief" : recallDepth;
