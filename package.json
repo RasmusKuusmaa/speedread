@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint && node scripts/validate-passages.mjs",
+    "lint": "eslint && node scripts/validate-passages.mjs && node scripts/validate-books.mjs",
     "format": "prettier --write ."
   },
   "dependencies": {
