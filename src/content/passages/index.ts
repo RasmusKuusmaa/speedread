@@ -12,6 +12,7 @@ import ozSilverShoes from "./oz-silver-shoes.json";
 import poeBlackCatWalledUp from "./poe-black-cat-walled-up.json";
 import poePitAndPendulumDescent from "./poe-pit-and-pendulum-descent.json";
 import poePrematureBurialVision from "./poe-premature-burial-vision.json";
+import poeTellTaleHeartOpening from "./poe-tell-tale-heart-opening.json";
 import poeWilliamWilsonSchool from "./poe-william-wilson-school.json";
 import secretGardenGreenPoints from "./secret-garden-green-points.json";
 import secretGardenHundredRooms from "./secret-garden-hundred-rooms.json";
@@ -44,6 +45,7 @@ export const rawPassages: unknown[] = [
   secretGardenHundredRooms,
   poeBlackCatWalledUp,
   poeWilliamWilsonSchool,
+  poeTellTaleHeartOpening,
   poePitAndPendulumDescent,
   poePrematureBurialVision,
 ];

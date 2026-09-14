@@ -1,0 +1,324 @@
+{
+  "id": "poe-tell-tale-heart-opening",
+  "title": "Object There Was None",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/2148",
+  "attribution": "Excerpted verbatim from \"The Tell-Tale Heart\" by Edgar Allan Poe (1843), collected in The Works of Edgar Allan Poe.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "It is impossible to say how first the idea entered my brain; but once conceived, it haunted me day and night. Object there was none. Passion there was none. I loved the old man. He had never wronged me. He had never given me insult. For his gold I had no desire. I think it was his eye! yes, it was this! He had the eye of a vulture—a pale blue eye, with a film over it. Whenever it fell upon me, my blood ran cold; and so by degrees—very gradually—I made up my mind to take the life of the old man, and thus rid myself of the eye forever.",
+    "Now this is the point. You fancy me mad. Madmen know nothing. But you should have seen me. You should have seen how wisely I proceeded—with what caution—with what foresight—with what dissimulation I went to work! I was never kinder to the old man than during the whole week before I killed him. And every night, about midnight, I turned the latch of his door and opened it—oh, so gently! And then, when I had made an opening sufficient for my head, I put in a dark lantern, all closed, closed, that no light shone out, and then I thrust in my head.",
+    "Upon the eighth night I was more than usually cautious in opening the door. A watch’s minute hand moves more quickly than did mine. Never before that night had I felt the extent of my own powers—of my sagacity. I could scarcely contain my feelings of triumph. To think that there I was, opening the door, little by little, and he not even to dream of my secret deeds or thoughts."
+  ],
+  "questions": [
+    {
+      "id": "poe-tell-tale-heart-opening-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the narrator claim he had no desire for?",
+      "options": [
+        "The old man's gold",
+        "The old man's house",
+        "The old man's respect",
+        "The old man's forgiveness"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 233,
+        "end": 261
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-tell-tale-heart-opening-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the narrator say it was about the old man that bothered him?",
+      "options": [
+        "His eye",
+        "His voice",
+        "His laugh",
+        "His hands"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 263,
+        "end": 304
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-tell-tale-heart-opening-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the old man's eye look like?",
+      "options": [
+        "A pale blue eye, with a film over it",
+        "A bright green eye that glowed",
+        "A dark brown eye, bloodshot and wide",
+        "A milky white, sightless eye"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 305,
+        "end": 369
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-tell-tale-heart-opening-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the narrator carry into the old man's room each night?",
+      "options": [
+        "A dark lantern, all closed",
+        "A lit candle",
+        "A sharpened knife",
+        "A pocket watch"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 449,
+        "end": 517
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-tell-tale-heart-opening-f5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the narrator insist he loved the old man and had no motive against him?",
+      "options": [
+        "To argue his actions weren't driven by ordinary reasons like hatred or greed, making his fixation on the eye seem stranger",
+        "To convince the reader that he never actually harmed the old man",
+        "To explain why he later confessed to the crime",
+        "To show that the old man had forgiven him in advance"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 157,
+        "end": 232
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-tell-tale-heart-opening-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was the narrator especially kind to the old man during the week before the murder?",
+      "options": [
+        "His kindness was part of his careful, deceptive plan",
+        "He was having second thoughts about his plan",
+        "The old man had recently done him a favor",
+        "He wanted witnesses to remember him fondly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 135,
+        "end": 294
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-tell-tale-heart-opening-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the narrator compare his own patience to a watch's minute hand?",
+      "options": [
+        "To emphasize just how slowly and carefully he moved the door open",
+        "To show that he was constantly checking the time",
+        "To suggest that time seemed to stand still with fear",
+        "To explain why he was late arriving that night"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 76,
+        "end": 130
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-tell-tale-heart-opening-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the narrator feel triumphant on the eighth night?",
+      "options": [
+        "He believed his secret plan was working perfectly without the old man suspecting anything",
+        "He had finally decided to abandon his plan",
+        "The old man had invited him into the room",
+        "He had found a way to return the gold he'd stolen"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 211,
+        "end": 379
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-tell-tale-heart-opening-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "The narrator methodically and patiently plotted to kill the old man because of an obsessive fixation on his eye",
+        "The narrator accidentally caused the old man's death during an argument",
+        "The narrator and the old man were plotting together against a third person",
+        "The narrator was trying to protect the old man from an unknown threat"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 420,
+        "end": 538
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-tell-tale-heart-opening-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the narrator acted with \"dissimulation\"?",
+      "options": [
+        "Concealment of one's true feelings or intentions",
+        "Extreme physical caution",
+        "Open honesty about one's plans",
+        "A sudden burst of anger"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 135,
+        "end": 212
+      },
+      "pool": "first"
+    },
+    {
+      "id": "poe-tell-tale-heart-opening-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when did the idea of killing the old man begin to haunt the narrator?",
+      "options": [
+        "Once it was conceived, it haunted him day and night",
+        "Only on the night he acted",
+        "Years after he first met the old man",
+        "After the old man insulted him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 61,
+        "end": 108
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-tell-tale-heart-opening-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, at what time did the narrator open the old man's door each night?",
+      "options": [
+        "About midnight",
+        "At dawn",
+        "Just after dinner",
+        "In the middle of the afternoon"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 299,
+        "end": 372
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-tell-tale-heart-opening-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the narrator describe the way he opened the door?",
+      "options": [
+        "So gently",
+        "Loudly and carelessly",
+        "With a sudden shove",
+        "Only partway"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 363,
+        "end": 387
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-tell-tale-heart-opening-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what had the narrator never felt before the eighth night?",
+      "options": [
+        "The extent of his own powers, of his sagacity",
+        "Any fear of being caught",
+        "Sympathy for the old man",
+        "Doubt about his plan"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 132,
+        "end": 209
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-tell-tale-heart-opening-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the narrator's insistence that \"object there was none, passion there was none\" actually suggest something troubling about his state of mind?",
+      "options": [
+        "It suggests an unmotivated obsession rather than a rational reason for wanting to kill",
+        "It proves that he was acting in self-defense",
+        "It shows he was being blackmailed by the old man",
+        "It confirms that the old man provoked him repeatedly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 110,
+        "end": 156
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-tell-tale-heart-opening-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes the narrator's account of the eighth night?",
+      "options": [
+        "He was more careful than ever, savoring how close he came to catching the old man completely unaware",
+        "He gave up his plan out of guilt",
+        "He was caught by the old man before he could act",
+        "He decided to confess everything to the old man"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 211,
+        "end": 258
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "poe-tell-tale-heart-opening-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the narrator felt his own \"sagacity\"?",
+      "options": [
+        "Wisdom or shrewdness in judgment",
+        "Physical strength",
+        "Deep sadness",
+        "Uncontrollable fear"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 167,
+        "end": 209
+      },
+      "pool": "retest"
+    }
+  ]
+}
