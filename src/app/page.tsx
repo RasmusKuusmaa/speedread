@@ -122,6 +122,9 @@ export default function Home() {
         <Link href="/practice" className="text-ink underline">
           Practice
         </Link>
+        <Link href="/books" className="text-ink underline">
+          Books
+        </Link>
         <Link href="/progress" className="text-ink underline">
           Progress
         </Link>

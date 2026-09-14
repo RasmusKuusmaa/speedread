@@ -17,6 +17,7 @@ export function SiteHeader() {
         </Link>
         <nav className="flex gap-5 text-muted">
           <Link href="/practice">Practice</Link>
+          <Link href="/books">Books</Link>
           <Link href="/progress">Progress</Link>
           <Link href="/settings">Settings</Link>
         </nav>
