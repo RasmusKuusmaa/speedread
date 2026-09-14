@@ -7,6 +7,7 @@ import meditationsTeachers from "./meditations-teachers.json";
 import ozGoldenCap from "./oz-golden-cap.json";
 import ozGrayPrairie from "./oz-gray-prairie.json";
 import ozGreenRoom from "./oz-green-room.json";
+import mechanicalEngineeringAncientHistory from "./mechanical-engineering-ancient-history.json";
 import ozSilverShoes from "./oz-silver-shoes.json";
 import poeBlackCatWalledUp from "./poe-black-cat-walled-up.json";
 import poePitAndPendulumDescent from "./poe-pit-and-pendulum-descent.json";
@@ -36,6 +37,7 @@ export const rawPassages: unknown[] = [
   meditationsTeachers,
   meditationsRusticusApollonius,
   structuralEngineeringHistory,
+  mechanicalEngineeringAncientHistory,
   secretGardenGreenPoints,
   secretGardenMistressContrary,
   secretGardenSilentBungalow,

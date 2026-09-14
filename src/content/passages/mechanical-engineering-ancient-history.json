@@ -1,0 +1,325 @@
+{
+  "id": "mechanical-engineering-ancient-history",
+  "title": "Simple Machines of the Ancient World",
+  "language": "en",
+  "source": "https://en.wikipedia.org/wiki/Mechanical_engineering",
+  "attribution": "Adapted (trimmed) from the Wikipedia article \"Mechanical engineering,\" available under CC BY-SA 4.0.",
+  "licence": "CC BY-SA 4.0",
+  "textType": "expository",
+  "domain": "engineering",
+  "calibrationOnly": false,
+  "body": [
+    "The application of mechanical engineering can be seen in the archives of various ancient and medieval societies. The six classic simple machines were known in the ancient Near East. The wedge and the inclined plane (ramp) were known since prehistoric times. Mesopotamian civilization is credited with the invention of the wheel by several, mainly old sources. The lever mechanism first appeared around 5,000 years ago in the Near East, where it was used in a simple balance scale, and to move large objects in ancient Egyptian technology. The lever was also used in the shadoof water-lifting device, the first crane machine, which appeared in Mesopotamia circa 3000 BC. The earliest evidence of pulleys date back to Mesopotamia in the early 2nd millennium BC.",
+    "The Saqiyah was developed in the Kingdom of Kush during the 4th century BC. It relied on animal power, reducing the requirement of human energy. Reservoirs in the form of Hafirs were developed in Kush to store water and boost irrigation. Bloomeries and blast furnaces were developed during the seventh century BC in Meroe.",
+    "The earliest practical water-powered machines, the water wheel and watermill, first appeared in the Persian Empire, in what are now Iraq and Iran, by the early 4th century BC. In ancient Greece, the works of Archimedes (287–212 BC) influenced mechanics in the Western tradition. The geared Antikythera mechanism was an analog computer invented around the 2nd century BC.",
+    "In Roman Egypt, Heron of Alexandria (c. 10–70 AD) created the first steam-powered device, the aeolipile. In China, Zhang Heng (78–139 AD) improved a water clock and invented a seismometer, and Ma Jun (200–265 AD) invented a chariot with differential gears. The medieval Chinese horologist and engineer Su Song (1020–1101 AD) incorporated an escapement mechanism into his astronomical clock tower two centuries before escapement devices were found in medieval European clocks."
+  ],
+  "questions": [
+    {
+      "id": "mech-eng-history-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where were the six classic simple machines known?",
+      "options": [
+        "The ancient Near East",
+        "Ancient China",
+        "The Roman Empire",
+        "Medieval Europe"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 113,
+        "end": 180
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mech-eng-history-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, which civilization is credited with inventing the wheel?",
+      "options": [
+        "Mesopotamian civilization",
+        "Egyptian civilization",
+        "Greek civilization",
+        "Chinese civilization"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 258,
+        "end": 327
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mech-eng-history-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the shadoof described as?",
+      "options": [
+        "The first crane machine",
+        "The first water clock",
+        "The first steam engine",
+        "The first calculating device"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 539,
+        "end": 623
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mech-eng-history-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Saqiyah rely on?",
+      "options": [
+        "Animal power",
+        "Wind power",
+        "Human labor alone",
+        "Flowing river water"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 76,
+        "end": 143
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mech-eng-history-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the earliest practical water-powered machines first appear?",
+      "options": [
+        "The Persian Empire, in what are now Iraq and Iran",
+        "Ancient Egypt",
+        "The Roman Empire",
+        "Ancient China"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 78,
+        "end": 145
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mech-eng-history-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what device did Heron of Alexandria create?",
+      "options": [
+        "The first steam-powered device, the aeolipile",
+        "The first water clock",
+        "The first geared calculator",
+        "The first mechanical loom"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 50,
+        "end": 103
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mech-eng-history-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author mention that Su Song's escapement mechanism came two centuries before similar European devices?",
+      "options": [
+        "To show that Chinese engineering achieved this innovation well ahead of Europe",
+        "To argue that European clockmakers copied Su Song directly",
+        "To prove that escapement mechanisms originated in Persia",
+        "To explain why Chinese clocks were more accurate today"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 325,
+        "end": 474
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mech-eng-history-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the mention of bloomeries and blast furnaces in Meroe suggest about the Kingdom of Kush?",
+      "options": [
+        "It had advanced ironworking technology",
+        "It imported all its metal tools from Egypt",
+        "It had no metalworking industry",
+        "It relied only on stone tools"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 238,
+        "end": 321
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mech-eng-history-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "Mechanical engineering achievements span many ancient and medieval civilizations, from Mesopotamia to China",
+        "Mechanical engineering began only in ancient Greece",
+        "No mechanical innovations existed before the Industrial Revolution",
+        "Only one civilization is responsible for all early mechanical inventions"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 112
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mech-eng-history-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the Antikythera mechanism was an \"analog computer\"?",
+      "options": [
+        "A mechanical device that calculates using continuous physical processes rather than digital data",
+        "A modern electronic calculating machine",
+        "A written table of astronomical calculations",
+        "A device that only measures time, not calculations"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 279,
+        "end": 369
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mech-eng-history-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, since when were the wedge and inclined plane known?",
+      "options": [
+        "Prehistoric times",
+        "The 4th century BC",
+        "The Industrial Revolution",
+        "The Roman era"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 182,
+        "end": 256
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "mech-eng-history-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, when does the earliest evidence of pulleys date back to?",
+      "options": [
+        "The early 2nd millennium BC, in Mesopotamia",
+        "The 7th century BC, in Meroe",
+        "The 2nd century BC, in Greece",
+        "The 1st century AD, in Rome"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 670,
+        "end": 758
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "mech-eng-history-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, whose works influenced mechanics in the Western tradition?",
+      "options": [
+        "Archimedes",
+        "Heron of Alexandria",
+        "Zhang Heng",
+        "Su Song"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 195,
+        "end": 277
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "mech-eng-history-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Ma Jun invent?",
+      "options": [
+        "A chariot with differential gears",
+        "A water-powered seismometer",
+        "A steam-powered device",
+        "An astronomical clock tower"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 193,
+        "end": 255
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "mech-eng-history-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author group the Saqiyah, Hafirs, and bloomeries together when describing the Kingdom of Kush?",
+      "options": [
+        "To show the range of practical engineering technologies Kush developed",
+        "To argue that Kush borrowed all its technology from Egypt",
+        "To prove that Kush had no independent inventions",
+        "To explain why Kush eventually abandoned irrigation"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 75
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "mech-eng-history-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes the passage's account of early water-powered technology?",
+      "options": [
+        "Practical water-powered machines emerged in the Persian Empire alongside other mechanical innovations across ancient civilizations",
+        "Water-powered machines were invented only in ancient China",
+        "Water power was not used until the Industrial Revolution",
+        "The Antikythera mechanism was the first water-powered device"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 114
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "mech-eng-history-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that Su Song incorporated an \"escapement mechanism\" into his clock tower?",
+      "options": [
+        "A device that regulates the movement of a clock's mechanism",
+        "A decorative element on the clock's exterior",
+        "A device used to wind the clock manually",
+        "A mechanism for telling the date rather than the time"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 325,
+        "end": 395
+      },
+      "pool": "retest"
+    }
+  ]
+}
