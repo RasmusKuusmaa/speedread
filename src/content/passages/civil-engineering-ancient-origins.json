@@ -1,0 +1,324 @@
+{
+  "id": "civil-engineering-ancient-origins",
+  "title": "Geographical Variations of the Same Occupation",
+  "language": "en",
+  "source": "https://en.wikipedia.org/wiki/Civil_engineering",
+  "attribution": "Adapted (trimmed) from the Wikipedia article \"Civil engineering,\" available under CC BY-SA 4.0.",
+  "licence": "CC BY-SA 4.0",
+  "textType": "expository",
+  "domain": "engineering",
+  "calibrationOnly": false,
+  "body": [
+    "Engineering has been an aspect of life since the beginnings of human existence. The earliest practice of civil engineering may have commenced between 4000 and 2000 BC in ancient Egypt, the Indus Valley civilization, and Mesopotamia when humans started to abandon a nomadic existence, creating a need for the construction of shelter. During this time, transportation became increasingly important, leading to the development of the wheel and sailing.",
+    "Until modern times there was no clear distinction between civil engineering and architecture, and the terms engineer and architect were mainly geographical variations referring to the same occupation. The construction of pyramids in Egypt (c. 2700–2500 BC) constitutes some of the first instances of large structure construction in history. Other ancient civil engineering constructions include the Qanat water management system in modern-day Iran, the Parthenon by Iktinos in ancient Greece (447–438 BC), the Appian Way by Roman engineers (c. 312 BC), and the Great Wall of China by General Meng T'ien (c. 220 BC). The Romans developed civil structures throughout their empire, including especially aqueducts, harbors, bridges, dams, and roads.",
+    "In the 18th century, the term civil engineering was coined to incorporate all things civilian as opposed to military engineering. In 1747, the first institution for the teaching of civil engineering, the Ecole Nationale des Ponts et Chaussees, was established in France. The first self-proclaimed civil engineer was John Smeaton, who constructed the Eddystone Lighthouse. In 1771 Smeaton and some of his colleagues formed the Smeatonian Society of Civil Engineers, a group of leaders of the profession who met informally over dinner."
+  ],
+  "questions": [
+    {
+      "id": "civil-eng-origins-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in which regions did the earliest practice of civil engineering possibly begin?",
+      "options": [
+        "Ancient Egypt, the Indus Valley civilization, and Mesopotamia",
+        "Ancient Greece, Rome, and Persia",
+        "China, Japan, and Korea",
+        "The Aztec, Maya, and Inca civilizations"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 123,
+        "end": 231
+      },
+      "pool": "first"
+    },
+    {
+      "id": "civil-eng-origins-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what two developments came from the growing importance of transportation?",
+      "options": [
+        "The wheel and sailing",
+        "The road and the bridge",
+        "The cart and the canal",
+        "The map and the compass"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 397,
+        "end": 448
+      },
+      "pool": "first"
+    },
+    {
+      "id": "civil-eng-origins-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who built the Parthenon?",
+      "options": [
+        "Iktinos",
+        "Meng T'ien",
+        "John Smeaton",
+        "Archimedes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 449,
+        "end": 491
+      },
+      "pool": "first"
+    },
+    {
+      "id": "civil-eng-origins-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who is credited with building the Great Wall of China mentioned in the passage?",
+      "options": [
+        "General Meng T'ien",
+        "Emperor Shih Huang Ti alone",
+        "Iktinos",
+        "John Smeaton"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 557,
+        "end": 602
+      },
+      "pool": "first"
+    },
+    {
+      "id": "civil-eng-origins-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in what year was the first institution for teaching civil engineering established?",
+      "options": [
+        "1747",
+        "1701",
+        "1820",
+        "1650"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 130,
+        "end": 198
+      },
+      "pool": "first"
+    },
+    {
+      "id": "civil-eng-origins-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what structure did John Smeaton construct?",
+      "options": [
+        "The Eddystone Lighthouse",
+        "The Parthenon",
+        "The Great Wall of China",
+        "The Appian Way"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 271,
+        "end": 370
+      },
+      "pool": "first"
+    },
+    {
+      "id": "civil-eng-origins-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author say the terms \"engineer\" and \"architect\" were once interchangeable?",
+      "options": [
+        "Civil engineering and architecture were not yet distinguished as separate professions",
+        "Architects were legally required to also train as engineers",
+        "The two words simply meant different things in different languages",
+        "Engineers were considered more skilled than architects at the time"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 199
+      },
+      "pool": "first"
+    },
+    {
+      "id": "civil-eng-origins-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did abandoning a nomadic existence create a need for civil engineering?",
+      "options": [
+        "Settling in one place required constructing permanent shelter",
+        "Nomadic people had no need for tools of any kind",
+        "Farming required the invention of the wheel first",
+        "Trade routes needed to be mapped for the first time"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 232,
+        "end": 331
+      },
+      "pool": "first"
+    },
+    {
+      "id": "civil-eng-origins-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "Civil engineering has ancient roots across many civilizations and only became a distinct, formally organized profession in the 18th century",
+        "Civil engineering began in 18th-century France and had no earlier history",
+        "The Romans were the only ancient civilization to practice civil engineering",
+        "Architecture and civil engineering have always been entirely separate fields"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 129
+      },
+      "pool": "first"
+    },
+    {
+      "id": "civil-eng-origins-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that civil engineering was named to distinguish it from \"military engineering\"?",
+      "options": [
+        "Engineering done for civilian rather than armed forces purposes",
+        "Engineering that only takes place during wartime",
+        "Engineering practiced exclusively by government employees",
+        "Engineering that requires formal military training"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 21,
+        "end": 128
+      },
+      "pool": "first"
+    },
+    {
+      "id": "civil-eng-origins-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, approximately when were the Egyptian pyramids mentioned in the passage constructed?",
+      "options": [
+        "c. 2700–2500 BC",
+        "c. 4000–3500 BC",
+        "c. 1000–800 BC",
+        "c. 220 BC"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 201,
+        "end": 339
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "civil-eng-origins-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what is the Qanat, mentioned as an ancient civil engineering construction?",
+      "options": [
+        "A water management system in modern-day Iran",
+        "A defensive wall in ancient China",
+        "A road network across the Roman Empire",
+        "A temple complex in ancient Greece"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 395,
+        "end": 447
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "civil-eng-origins-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Romans develop throughout their empire?",
+      "options": [
+        "Aqueducts, harbors, bridges, dams, and roads",
+        "Pyramids, temples, and canals",
+        "Only roads and bridges",
+        "Water clocks and seismometers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 616,
+        "end": 744
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "civil-eng-origins-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, in what year did Smeaton and his colleagues form the Smeatonian Society of Civil Engineers?",
+      "options": [
+        "1771",
+        "1747",
+        "1800",
+        "1650"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 372,
+        "end": 463
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "civil-eng-origins-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author mention the Appian Way alongside the pyramids and the Great Wall?",
+      "options": [
+        "To show that large-scale civil engineering projects arose independently across many different ancient civilizations",
+        "To argue that Roman roads were more advanced than Egyptian pyramids",
+        "To prove that all ancient civilizations copied Roman engineering methods",
+        "To explain why the Appian Way is still in use today"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 506,
+        "end": 551
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "civil-eng-origins-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes how the Smeatonian Society functioned, according to the passage?",
+      "options": [
+        "As an informal dinner gathering of leaders in the civil engineering profession",
+        "As a formal government regulatory body",
+        "As a university degree-granting institution",
+        "As a competitive guild that excluded most engineers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 465,
+        "end": 532
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "civil-eng-origins-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that early engineers and architects were considered \"geographical variations\" of the same occupation?",
+      "options": [
+        "The two job titles differed mainly by region, not by the actual work done",
+        "The two professions required different physical locations to practice",
+        "Engineers only worked in cities while architects worked in rural areas",
+        "The terms referred to entirely unrelated jobs"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 98,
+        "end": 199
+      },
+      "pool": "retest"
+    }
+  ]
+}
