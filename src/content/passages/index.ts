@@ -1,6 +1,7 @@
 import baconOfTruth from "./bacon-of-truth.json";
 import bostonTeaParty from "./boston-tea-party.json";
 import covalentBonding from "./covalent-bonding.json";
+import meditationsRusticusApollonius from "./meditations-rusticus-apollonius.json";
 import meditationsTeachers from "./meditations-teachers.json";
 import ozGoldenCap from "./oz-golden-cap.json";
 import ozGrayPrairie from "./oz-gray-prairie.json";
@@ -31,6 +32,7 @@ export const rawPassages: unknown[] = [
   ozGreenRoom,
   ozGrayPrairie,
   meditationsTeachers,
+  meditationsRusticusApollonius,
   structuralEngineeringHistory,
   secretGardenGreenPoints,
   secretGardenMistressContrary,

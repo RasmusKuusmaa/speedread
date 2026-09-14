@@ -1,0 +1,323 @@
+{
+  "id": "meditations-rusticus-apollonius",
+  "title": "True Liberty and Unvariable Steadfastness",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/2680",
+  "attribution": "Excerpted verbatim from Meditations by Marcus Aurelius, in the Jeremy Collier translation.",
+  "licence": "Public domain",
+  "textType": "expository",
+  "domain": "philosophy",
+  "calibrationOnly": false,
+  "body": [
+    "To Rusticus I am beholding, that I first entered into the conceit that my life wanted some redress and cure. And then, that I did not fall into the ambition of ordinary sophists, either to write tracts concerning the common theorems, or to exhort men unto virtue and the study of philosophy by public orations; as also that I never by way of ostentation did affect to show myself an active able man, for any kind of bodily exercises. And that I gave over the study of rhetoric and poetry, and of elegant neat language. That I did not use to walk about the house in my long robe, nor to do any such things. Moreover I learned of him to write letters without any affectation, or curiosity; such as that was, which by him was written to my mother from Sinuessa: and to be easy and ready to be reconciled, and well pleased again with them that had offended me, as soon as any of them would be content to seek unto me again. To read with diligence; not to rest satisfied with a light and superficial knowledge, nor quickly to assent to things commonly spoken of: whom also I must thank that ever I lighted upon Epictetus his Hypomnemata, or moral commentaries and common-factions: which also he gave me of his own.",
+    "From Apollonius, true liberty, and unvariable steadfastness, and not to regard anything at all, though never so little, but right and reason: and always, whether in the sharpest pains, or after the loss of a child, or in long diseases, to be still the same man; who also was a present and visible example unto me, that it was possible for the same man to be both vehement and remiss: a man not subject to be vexed, and offended with the incapacity of his scholars and auditors in his lectures and expositions; and a true pattern of a man who of all his good gifts and faculties, least esteemed in himself, that his excellent skill and ability to teach and persuade others the common theorems and maxims of the Stoic philosophy. Of him also I learned how to receive favours and kindnesses (as commonly they are accounted:) from friends, so that I might not become obnoxious unto them, for them, nor more yielding upon occasion, than in right I ought; and yet so that I should not pass them neither, as an unsensible and unthankful man."
+  ],
+  "questions": [
+    {
+      "id": "meditations-rusticus-apollonius-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the author first realize because of Rusticus?",
+      "options": [
+        "That his life needed correction and cure",
+        "That he should become a soldier",
+        "That he should abandon philosophy",
+        "That his family owed him a debt"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 33,
+        "end": 107
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-rusticus-apollonius-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, from where was the letter Rusticus wrote to the author's mother sent?",
+      "options": [
+        "Sinuessa",
+        "Athens",
+        "Rome",
+        "Alexandria"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 706,
+        "end": 757
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-rusticus-apollonius-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, whose writings did the author come to value because of Rusticus?",
+      "options": [
+        "Epictetus's",
+        "Plato's",
+        "Seneca's",
+        "Cato's"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 1058,
+        "end": 1131
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-rusticus-apollonius-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, through what hardships did Apollonius remain the same man?",
+      "options": [
+        "Sharp pains, the loss of a child, or long diseases",
+        "Poverty, exile, and war",
+        "Betrayal by friends and public disgrace",
+        "Old age and blindness"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 154,
+        "end": 260
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-rusticus-apollonius-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Apollonius teach the author to value above all else?",
+      "options": [
+        "Right and reason",
+        "Wealth and status",
+        "Popularity among students",
+        "Physical strength"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 65,
+        "end": 140
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-rusticus-apollonius-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author value that Apollonius could be both \"vehement and remiss\"?",
+      "options": [
+        "It let him hold strong convictions while staying patient with less capable students",
+        "It let him win arguments against rival philosophers",
+        "It made him popular with the emperor's court",
+        "It allowed him to teach two subjects at once"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 319,
+        "end": 476
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-rusticus-apollonius-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the author want to avoid becoming \"obnoxious\" to friends who did him favors?",
+      "options": [
+        "So that accepting kindness wouldn't compromise his independence or fairness",
+        "Because he disliked owing anyone money",
+        "Because his friends often demanded repayment",
+        "Because accepting gifts was against Stoic law"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 836,
+        "end": 948
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-rusticus-apollonius-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author highlight Rusticus's habit of writing letters \"without any affectation\"?",
+      "options": [
+        "It modeled plain, sincere communication instead of showy rhetoric",
+        "It saved him time when writing to his mother",
+        "It was required by imperial law",
+        "It impressed the sophists he studied under"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 615,
+        "end": 686
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-rusticus-apollonius-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "The author credits Rusticus and Apollonius with specific lessons in humility, steadiness, and plain communication",
+        "The author argues that Rusticus and Apollonius were mistaken in their teachings",
+        "The author describes a political rivalry between Rusticus and Apollonius",
+        "The author explains why he rejected philosophy entirely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 108
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-rusticus-apollonius-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the author was \"easy and ready to be reconciled\" with those who had offended him?",
+      "options": [
+        "Willing to forgive and make peace",
+        "Quick to seek revenge",
+        "Indifferent to being wronged",
+        "Unable to forget an insult"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 763,
+        "end": 855
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-rusticus-apollonius-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what kind of knowledge did the author learn not to be satisfied with?",
+      "options": [
+        "A light and superficial knowledge",
+        "Knowledge gained only from books",
+        "Knowledge shared by sophists",
+        "Knowledge that contradicted his teachers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 944,
+        "end": 1004
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "meditations-rusticus-apollonius-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the author give up studying because of Rusticus?",
+      "options": [
+        "Rhetoric and poetry, and elegant neat language",
+        "Mathematics and geometry",
+        "History and law",
+        "Medicine and astronomy"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 443,
+        "end": 517
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "meditations-rusticus-apollonius-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what example did Apollonius set regarding his own teaching skill?",
+      "options": [
+        "He least esteemed in himself his excellent skill and ability to teach",
+        "He boasted constantly of his own teaching ability",
+        "He refused to teach anyone he considered incapable",
+        "He charged high fees for his lessons"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 514,
+        "end": 671
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "meditations-rusticus-apollonius-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the author call the kindnesses he received from friends?",
+      "options": [
+        "Favours",
+        "Debts",
+        "Gifts of state",
+        "Tributes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 740,
+        "end": 787
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "meditations-rusticus-apollonius-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author mention that he stopped trying to appear an \"active able man\" in bodily exercises?",
+      "options": [
+        "To show he had learned not to seek attention or show off",
+        "Because an injury prevented him from exercising",
+        "Because his teachers forbade physical activity",
+        "Because he preferred to study indoors"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 324,
+        "end": 432
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "meditations-rusticus-apollonius-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what the author learned from Apollonius?",
+      "options": [
+        "To hold firmly to reason and stay consistent through hardship while remaining patient with others",
+        "To avoid teaching students who struggled",
+        "To value wealth over philosophical study",
+        "To distrust all forms of kindness from friends"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 17,
+        "end": 140
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "meditations-rusticus-apollonius-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the author avoided writing with \"affectation\"?",
+      "options": [
+        "An artificial or exaggerated style meant to impress",
+        "Excessive length and detail",
+        "Poor grammar and spelling",
+        "A tone of anger or complaint"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 632,
+        "end": 686
+      },
+      "pool": "retest"
+    }
+  ]
+}
