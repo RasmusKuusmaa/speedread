@@ -52,7 +52,12 @@ export function defaultStore(): Store {
     schemaVersion: 1,
     createdAt: new Date().toISOString(),
     settings: {
-      pickerFilters: { textType: "all", domain: "all" },
+      pickerFilters: {
+        textType: "all",
+        domain: "all",
+        lengthBand: "all",
+        difficultyBand: "all",
+      },
       recallDepth: "brief",
       comprehensionThreshold: 80,
       fontSize: "medium",

@@ -4,6 +4,13 @@ import { tokenize } from "./words";
 export type DifficultyBand =
   "accessible" | "moderate" | "demanding" | "unrated";
 
+export const DIFFICULTY_BANDS: DifficultyBand[] = [
+  "accessible",
+  "moderate",
+  "demanding",
+  "unrated",
+];
+
 export interface DifficultyScore {
   band: DifficultyBand;
   top2000Share: number | null;

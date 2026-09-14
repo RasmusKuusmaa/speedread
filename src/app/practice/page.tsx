@@ -3,7 +3,8 @@
 import Link from "next/link";
 import { DOMAINS, TEXT_TYPES } from "@/lib/content/types";
 import { loadBooks } from "@/lib/content/book-loader";
-import { scoreDifficulty } from "@/lib/content/difficulty";
+import { DIFFICULTY_BANDS, scoreDifficulty } from "@/lib/content/difficulty";
+import { LENGTH_BANDS, scoreLength } from "@/lib/content/length";
 import { loadPassages } from "@/lib/content/loader";
 import { useStore } from "@/lib/storage/store-provider";
 
@@ -19,18 +20,30 @@ export default function PracticePage() {
     return null;
   }
 
-  const { textType, domain } = store.settings.pickerFilters;
+  const { textType, domain, lengthBand, difficultyBand } =
+    store.settings.pickerFilters;
 
   const bookPassageIds = new Set(
     loadBooks().flatMap((book) => book.chunkPassageIds),
   );
 
-  const filtered = passages.filter(
-    (passage) =>
-      !passage.calibrationOnly &&
-      !bookPassageIds.has(passage.id) &&
+  const withMeta = passages
+    .filter(
+      (passage) =>
+        !passage.calibrationOnly && !bookPassageIds.has(passage.id),
+    )
+    .map((passage) => ({
+      passage,
+      length: scoreLength(passage.wordCounts.total),
+      difficulty: scoreDifficulty(passage.body, passage.language),
+    }));
+
+  const filtered = withMeta.filter(
+    ({ passage, length, difficulty }) =>
       (textType === "all" || passage.textType === textType) &&
-      (domain === "all" || passage.domain === domain),
+      (domain === "all" || passage.domain === domain) &&
+      (lengthBand === "all" || length === lengthBand) &&
+      (difficultyBand === "all" || difficulty.band === difficultyBand),
   );
 
   return (
@@ -87,27 +100,76 @@ export default function PracticePage() {
             </option>
           ))}
         </select>
+
+        <select
+          value={lengthBand}
+          onChange={(event) => {
+            const value = event.target.value as typeof lengthBand;
+            update((current) => ({
+              ...current,
+              settings: {
+                ...current.settings,
+                pickerFilters: {
+                  ...current.settings.pickerFilters,
+                  lengthBand: value,
+                },
+              },
+            }));
+          }}
+          className="rounded border border-rule px-3 py-2 text-ink"
+        >
+          <option value="all">All lengths</option>
+          {LENGTH_BANDS.map((option) => (
+            <option key={option} value={option}>
+              {capitalize(option)}
+            </option>
+          ))}
+        </select>
+
+        <select
+          value={difficultyBand}
+          onChange={(event) => {
+            const value = event.target.value as typeof difficultyBand;
+            update((current) => ({
+              ...current,
+              settings: {
+                ...current.settings,
+                pickerFilters: {
+                  ...current.settings.pickerFilters,
+                  difficultyBand: value,
+                },
+              },
+            }));
+          }}
+          className="rounded border border-rule px-3 py-2 text-ink"
+        >
+          <option value="all">All difficulties</option>
+          {DIFFICULTY_BANDS.map((option) => (
+            <option key={option} value={option}>
+              {capitalize(option)}
+            </option>
+          ))}
+        </select>
       </div>
 
       <ul className="flex flex-col gap-4">
-        {filtered.map((passage) => {
-          const difficulty = scoreDifficulty(passage.body, passage.language);
-          return (
-            <li key={passage.id} className="border-b border-rule pb-4">
-              <Link
-                href={`/session/${passage.id}`}
-                className="font-serif text-lg text-ink underline"
-              >
-                {passage.title}
-              </Link>
-              <p className="mt-1 flex gap-3 font-sans text-sm text-muted">
-                <span>{capitalize(passage.textType)}</span>
-                <span>{capitalize(passage.domain)}</span>
-                <span>{capitalize(difficulty.band)}</span>
-              </p>
-            </li>
-          );
-        })}
+        {filtered.map(({ passage, length, difficulty }) => (
+          <li key={passage.id} className="border-b border-rule pb-4">
+            <Link
+              href={`/session/${passage.id}`}
+              className="font-serif text-lg text-ink underline"
+            >
+              {passage.title}
+            </Link>
+            <p className="mt-1 flex gap-3 font-sans text-sm text-muted">
+              <span>{capitalize(passage.textType)}</span>
+              <span>{capitalize(passage.domain)}</span>
+              <span>{passage.wordCounts.total} words</span>
+              <span>{capitalize(length)}</span>
+              <span>{capitalize(difficulty.band)}</span>
+            </p>
+          </li>
+        ))}
       </ul>
     </main>
   );

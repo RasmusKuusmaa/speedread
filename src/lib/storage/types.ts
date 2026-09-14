@@ -1,3 +1,5 @@
+import type { DifficultyBand } from "@/lib/content/difficulty";
+import type { LengthBand } from "@/lib/content/length";
 import type { Domain, QuestionTaxonomy, TextType } from "@/lib/content/types";
 
 export type SchemaVersion = 1;
@@ -5,6 +7,8 @@ export type SchemaVersion = 1;
 export interface PickerFilters {
   textType: TextType | "all";
   domain: Domain | "all";
+  lengthBand: LengthBand | "all";
+  difficultyBand: DifficultyBand | "all";
 }
 
 export type RecallDepth = "full" | "brief" | "off";
