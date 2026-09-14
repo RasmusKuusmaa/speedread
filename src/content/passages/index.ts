@@ -1,3 +1,4 @@
+import baconOfAdversity from "./bacon-of-adversity.json";
 import baconOfTruth from "./bacon-of-truth.json";
 import bostonTeaParty from "./boston-tea-party.json";
 import covalentBonding from "./covalent-bonding.json";
@@ -22,6 +23,7 @@ import structuralEngineeringHistory from "./structural-engineering-history.json"
 
 export const rawPassages: unknown[] = [
   baconOfTruth,
+  baconOfAdversity,
   covalentBonding,
   bostonTeaParty,
   storyOfAnHour,
