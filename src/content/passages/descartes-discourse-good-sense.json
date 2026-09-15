@@ -1,0 +1,324 @@
+{
+  "id": "descartes-discourse-good-sense",
+  "title": "The Most Equally Distributed",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/59",
+  "attribution": "Excerpted verbatim from Discourse on the Method by René Descartes, translated by John Veitch (Project Gutenberg edition).",
+  "licence": "Public domain",
+  "textType": "expository",
+  "domain": "philosophy",
+  "calibrationOnly": false,
+  "body": [
+    "Good sense is, of all things among men, the most equally distributed; for every one thinks himself so abundantly provided with it, that those even who are the most difficult to satisfy in everything else, do not usually desire a larger measure of this quality than they already possess. And in this it is not likely that all are mistaken; the conviction is rather to be held as testifying that the power of judging aright and of distinguishing truth from error, which is properly what is called good sense or reason, is by nature equal in all men; and that the diversity of our opinions, consequently, does not arise from some being endowed with a larger share of reason than others, but solely from this, that we conduct our thoughts along different ways, and do not fix our attention on the same objects.",
+    "For to be possessed of a vigorous mind is not enough; the prime requisite is rightly to apply it. The greatest minds, as they are capable of the highest excellences, are open likewise to the greatest aberrations; and those who travel very slowly may yet make far greater progress, provided they keep always to the straight road, than those who, while they run, forsake it.",
+    "For myself, I have never fancied my mind to be in any respect more perfect than those of the generality; on the contrary, I have often wished that I were equal to some others in promptitude of thought, or in clearness and distinctness of imagination, or in fullness and readiness of memory. And besides these, I know of no other qualities that contribute to the perfection of the mind."
+  ],
+  "questions": [
+    {
+      "id": "descartes-discourse-good-sense-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the author say is \"of all things among men, the most equally distributed\"?",
+      "options": [
+        "Good sense",
+        "Wealth",
+        "Physical strength",
+        "Memory"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 68
+      },
+      "pool": "first"
+    },
+    {
+      "id": "descartes-discourse-good-sense-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the author say is \"properly what is called good sense or reason\"?",
+      "options": [
+        "The power of judging aright and of distinguishing truth from error",
+        "The ability to memorize large amounts of information",
+        "The capacity to speak persuasively in public",
+        "The skill of solving mathematical equations quickly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 394,
+        "end": 515
+      },
+      "pool": "first"
+    },
+    {
+      "id": "descartes-discourse-good-sense-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the author say actually causes the diversity of people's opinions?",
+      "options": [
+        "Conducting thoughts along different ways and not fixing attention on the same objects",
+        "Some people having a larger share of reason than others",
+        "Differences in education and upbringing alone",
+        "Differences in physical strength and stamina"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 684,
+        "end": 805
+      },
+      "pool": "first"
+    },
+    {
+      "id": "descartes-discourse-good-sense-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the author say is \"the prime requisite\" beyond simply possessing a vigorous mind?",
+      "options": [
+        "Rightly to apply it",
+        "Sharing it generously with others",
+        "Testing it against the opinions of philosophers",
+        "Writing it down in a book"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 96
+      },
+      "pool": "first"
+    },
+    {
+      "id": "descartes-discourse-good-sense-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, to what are \"the greatest minds\" also said to be open?",
+      "options": [
+        "The greatest aberrations",
+        "The greatest honors",
+        "The greatest wealth",
+        "The greatest friendships"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 98,
+        "end": 211
+      },
+      "pool": "first"
+    },
+    {
+      "id": "descartes-discourse-good-sense-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, in what three qualities does the author say he wished he were equal to others?",
+      "options": [
+        "Promptitude of thought, clearness of imagination, and readiness of memory",
+        "Physical strength, wealth, and social standing",
+        "Skill in mathematics, music, and painting",
+        "Courage, patience, and generosity"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 122,
+        "end": 289
+      },
+      "pool": "first"
+    },
+    {
+      "id": "descartes-discourse-good-sense-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author say that those who \"travel very slowly\" may make \"far greater progress\" than those who run?",
+      "options": [
+        "Steady, careful reasoning along a correct method matters more than raw quickness of mind",
+        "Slow travelers are simply more physically fit than fast ones",
+        "Speed is always harmful and should be avoided in any task",
+        "Running causes people to become lost more easily than walking"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 217,
+        "end": 371
+      },
+      "pool": "first"
+    },
+    {
+      "id": "descartes-discourse-good-sense-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author say it is \"not likely that all are mistaken\" in believing they have enough good sense?",
+      "options": [
+        "Such near-universal agreement suggests good sense really is distributed equally by nature, rather than being a shared illusion",
+        "Most people have carefully studied philosophy and tested their own reasoning",
+        "Everyone has been told the same thing by their teachers",
+        "The author has personally surveyed every person he has met"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 517,
+        "end": 546
+      },
+      "pool": "first"
+    },
+    {
+      "id": "descartes-discourse-good-sense-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "Reason is equally shared by all people, so what matters most is applying it correctly and steadily rather than possessing an exceptional natural mind",
+        "Only a rare few people are born with the capacity for good judgment",
+        "The author believes his own mind is far superior to that of ordinary people",
+        "Progress in thinking depends entirely on natural talent rather than method"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 96
+      },
+      "pool": "first"
+    },
+    {
+      "id": "descartes-discourse-good-sense-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the greatest minds are open to the greatest \"aberrations\"?",
+      "options": [
+        "Errors or deviations from what is correct",
+        "Achievements and honors",
+        "Friendships and alliances",
+        "Physical illnesses"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 166,
+        "end": 211
+      },
+      "pool": "first"
+    },
+    {
+      "id": "descartes-discourse-good-sense-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who does the author say usually does not desire a larger measure of good sense?",
+      "options": [
+        "Even those who are the most difficult to satisfy in everything else",
+        "Only the wealthiest members of society",
+        "Only trained philosophers",
+        "Only those who have studied at a university"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 136,
+        "end": 285
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "descartes-discourse-good-sense-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the author say is \"not enough\" on its own?",
+      "options": [
+        "Possessing a vigorous mind",
+        "Owning many books",
+        "Having many friends",
+        "Living a long life"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 52
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "descartes-discourse-good-sense-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, does the author claim that his own mind is more perfect than other people's?",
+      "options": [
+        "No, he says he never fancied it more perfect than those of the generality",
+        "Yes, he claims to be far more intelligent than most",
+        "He claims only his memory is superior to others'",
+        "He claims only his imagination is superior to others'"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 12,
+        "end": 103
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "descartes-discourse-good-sense-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the author say he knows of no other qualities besides those three that contribute to?",
+      "options": [
+        "The perfection of the mind",
+        "The wealth of a nation",
+        "The happiness of a family",
+        "The strength of an army"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 291,
+        "end": 384
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "descartes-discourse-good-sense-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the author list specific qualities like memory and imagination when denying that his mind is exceptional?",
+      "options": [
+        "To show humility while still suggesting that his careful method, not natural gifts, is the source of his achievements",
+        "To prove that he has no useful mental qualities at all",
+        "To argue that memory and imagination are unimportant qualities",
+        "To boast that he possesses all of these qualities in abundance"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 105,
+        "end": 289
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "descartes-discourse-good-sense-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes the passage's argument about reason and progress?",
+      "options": [
+        "Since reason is shared equally by all, real progress comes from applying it correctly and steadily rather than from raw natural talent",
+        "Progress depends entirely on being born with an exceptional mind",
+        "Only the fastest thinkers ever make meaningful progress",
+        "Reason varies greatly from person to person by nature"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 517,
+        "end": 546
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "descartes-discourse-good-sense-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does \"promptitude of thought\" mean?",
+      "options": [
+        "Quickness or speed of thinking",
+        "Careful, slow deliberation",
+        "Forgetfulness or absent-mindedness",
+        "Confusion about a topic"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 122,
+        "end": 200
+      },
+      "pool": "retest"
+    }
+  ]
+}

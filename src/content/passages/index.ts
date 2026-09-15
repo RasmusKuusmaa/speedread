@@ -8,6 +8,7 @@ import civilEngineeringAncientOrigins from "./civil-engineering-ancient-origins.
 import eiffelTowerHistory from "./eiffel-tower-history.json";
 import electricalEngineering19thCentury from "./electrical-engineering-19th-century.json";
 import covalentBonding from "./covalent-bonding.json";
+import descartesDiscourseGoodSense from "./descartes-discourse-good-sense.json";
 import giftOfTheMagiOpening from "./gift-of-the-magi-opening.json";
 import hooverDamHistory from "./hoover-dam-history.json";
 import meditationsRusticusApollonius from "./meditations-rusticus-apollonius.json";
@@ -44,6 +45,7 @@ export const rawPassages: unknown[] = [
   baconOfAdversity,
   baconOfStudies,
   covalentBonding,
+  descartesDiscourseGoodSense,
   giftOfTheMagiOpening,
   bostonTeaParty,
   storyOfAnHour,
