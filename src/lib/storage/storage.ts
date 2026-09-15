@@ -71,13 +71,38 @@ export function defaultStore(): Store {
   };
 }
 
+// A store written by an older build can be missing fields that were added to the
+// schema afterwards without a version bump, so every read backfills the defaults
+// instead of trusting the parsed JSON to carry the full shape.
+export function normalizeStore(store: Store): Store {
+  const defaults = defaultStore();
+  const candidate = store as Partial<Store>;
+  return {
+    schemaVersion: candidate.schemaVersion ?? defaults.schemaVersion,
+    createdAt: candidate.createdAt ?? defaults.createdAt,
+    settings: {
+      ...defaults.settings,
+      ...candidate.settings,
+      pickerFilters: {
+        ...defaults.settings.pickerFilters,
+        ...candidate.settings?.pickerFilters,
+      },
+    },
+    sessions: candidate.sessions ?? defaults.sessions,
+    retests: candidate.retests ?? defaults.retests,
+    calibration: candidate.calibration ?? defaults.calibration,
+    inProgressSession: candidate.inProgressSession ?? defaults.inProgressSession,
+    bookProgress: candidate.bookProgress ?? defaults.bookProgress,
+  };
+}
+
 export function loadStore(): StorageResult<Store> {
   const result = readStore();
   if (!result.ok) {
     return result;
   }
   if (result.value !== null) {
-    return { ok: true, value: result.value };
+    return { ok: true, value: normalizeStore(result.value) };
   }
 
   const seeded = defaultStore();

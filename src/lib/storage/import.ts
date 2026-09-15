@@ -1,5 +1,5 @@
 import { runMigrations } from "./migrations";
-import { writeStore, type StorageResult } from "./storage";
+import { normalizeStore, writeStore, type StorageResult } from "./storage";
 import type { Store } from "./types";
 
 const CURRENT_SCHEMA_VERSION = 1;
@@ -42,7 +42,7 @@ export function importStore(json: string): StorageResult<Store> {
     };
   }
 
-  const migrated = runMigrations(parsed);
+  const migrated = normalizeStore(runMigrations(parsed));
 
   const writeResult = writeStore(migrated);
   if (!writeResult.ok) {
