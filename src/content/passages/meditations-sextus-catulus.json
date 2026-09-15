@@ -1,0 +1,326 @@
+{
+  "id": "meditations-sextus-catulus",
+  "title": "Very Learned, and Yet Making Little Show",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/2680",
+  "attribution": "Excerpted verbatim from Meditations by Marcus Aurelius, in the Jeremy Collier translation.",
+  "licence": "Public domain",
+  "textType": "expository",
+  "domain": "philosophy",
+  "calibrationOnly": false,
+  "body": [
+    "Of Sextus, mildness and the pattern of a family governed with paternal affection; and a purpose to live according to nature: to be grave without affectation: to observe carefully the several dispositions of my friends, not to be offended with idiots, nor unseasonably to set upon those that are carried with the vulgar opinions, with the theorems, and tenets of philosophers: his conversation being an example how a man might accommodate himself to all men and companies; so that though his company were sweeter and more pleasing than any flatterer’s cogging and fawning; yet was it at the same time most respected and reverenced: who also had a proper happiness and faculty, rationally and methodically to find out, and set in order all necessary determinations and instructions for a man’s life. A man without ever the least appearance of anger, or any other passion; able at the same time most exactly to observe the Stoic Apathia, or unpassionateness, and yet to be most tender-hearted: ever of good credit; and yet almost without any noise, or rumour: very learned, and yet making little show.",
+    "From Alexander the Grammarian, to be un-reprovable myself, and not reproachfully to reprehend any man for a barbarism, or a solecism, or any false pronunciation, but dextrously by way of answer, or testimony, or confirmation of the same matter to utter it as it should have been spoken; or by some other such close and indirect admonition, handsomely and civilly to tell him of it.",
+    "Of Fronto, to how much envy and fraud and hypocrisy the state of a tyrannous king is subject unto, and how they who are commonly called nobly born, are in some sort incapable, or void of natural affection.",
+    "Of Alexander the Platonic, not often nor without great necessity to say, or to write to any man in a letter, that I am not at leisure; nor in this manner still to put off those duties, which we owe to our friends and acquaintances, under pretence of urgent affairs.",
+    "Of Catulus, not to contemn any friend’s expostulation, though unjust, but to strive to reduce him to his former disposition: freely and heartily to speak well of all my masters upon any occasion, as it is reported of Domitius, and Athenodotus: and to love my children with true affection."
+  ],
+  "questions": [
+    {
+      "id": "meditations-sextus-catulus-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the author learn from Sextus about living?",
+      "options": [
+        "To live according to nature",
+        "To live for wealth and honor",
+        "To live in strict solitude",
+        "To live by the letter of the law"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 86,
+        "end": 123
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-sextus-catulus-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Alexander the Grammarian teach the author to avoid doing?",
+      "options": [
+        "Reproachfully correcting someone for a grammatical error",
+        "Speaking in public without notes",
+        "Writing long letters to friends",
+        "Arguing with philosophers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 63,
+        "end": 160
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-sextus-catulus-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Fronto teach the author about kings?",
+      "options": [
+        "How much envy, fraud, and hypocrisy a tyrannous king's position is subject to",
+        "How to rule wisely as a king",
+        "How kings should treat their soldiers",
+        "How to become a king oneself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 11,
+        "end": 97
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-sextus-catulus-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what phrase did Alexander the Platonic teach the author not to overuse in letters?",
+      "options": [
+        "\"I am not at leisure\"",
+        "\"I am deeply sorry\"",
+        "\"I demand an answer\"",
+        "\"I have no opinion\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 27,
+        "end": 133
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-sextus-catulus-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the author learn from Catulus about a friend's unjust complaint?",
+      "options": [
+        "Not to dismiss it, but to try to restore the friend to his former disposition",
+        "To ignore it completely",
+        "To end the friendship at once",
+        "To report it to a third party"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 12,
+        "end": 123
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-sextus-catulus-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author praise Sextus for being \"very learned, and yet making little show\"?",
+      "options": [
+        "True wisdom, in the author's view, doesn't need to be displayed to be genuine",
+        "Sextus was actually not very knowledgeable",
+        "Sextus was forbidden from teaching openly",
+        "Sextus preferred writing to speaking"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 1057,
+        "end": 1097
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-sextus-catulus-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author say the \"nobly born\" can be \"void of natural affection\"?",
+      "options": [
+        "Fronto observed that the corrupting effects of power and privilege can hollow out ordinary human feeling",
+        "Noble families never had children of their own",
+        "Fronto believed only common people could love truly",
+        "Kings were legally forbidden from showing affection"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 103,
+        "end": 204
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-sextus-catulus-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did Alexander the Grammarian's method of correction work \"handsomely and civilly\"?",
+      "options": [
+        "It corrected errors indirectly, without openly embarrassing the person",
+        "It relied on written notes rather than speech",
+        "It was performed only in private tutoring sessions",
+        "It involved rewarding correct speech with praise"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 290,
+        "end": 380
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-sextus-catulus-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "The author continues listing specific virtues he learned from different teachers and friends",
+        "The author argues that all his teachers were flawed",
+        "The author explains why he abandoned philosophy",
+        "The author describes a single dramatic event from his youth"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 80
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-sextus-catulus-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that Sextus achieved the Stoic \"Apathia\"?",
+      "options": [
+        "A calm freedom from being ruled by passion or emotion",
+        "A total lack of interest in other people",
+        "An inability to feel physical pain",
+        "A refusal to ever change his opinions"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 870,
+        "end": 954
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-sextus-catulus-r1",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the author learn from Sextus about observing friends' dispositions?",
+      "options": [
+        "To observe them carefully, without being offended by fools",
+        "To avoid friends who disagreed with him",
+        "To judge friends only by their wealth",
+        "To rely on others to judge his friends for him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 158,
+        "end": 249
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "meditations-sextus-catulus-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, whose good example did Catulus cite for speaking well of one's masters?",
+      "options": [
+        "Domitius and Athenodotus",
+        "Sextus and Fronto",
+        "Alexander the Grammarian and Alexander the Platonic",
+        "Rusticus and Apollonius"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 196,
+        "end": 242
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "meditations-sextus-catulus-r3",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what duties did Alexander the Platonic warn against neglecting?",
+      "options": [
+        "Duties owed to friends and acquaintances",
+        "Duties owed to the state",
+        "Duties owed to one's teachers",
+        "Duties owed to strangers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 171,
+        "end": 230
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "meditations-sextus-catulus-r4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did Sextus's company compare to a flatterer's?",
+      "options": [
+        "It was sweeter and more pleasing, yet still respected and reverenced",
+        "It was harsher but more honest",
+        "It was identical in every way",
+        "It was less enjoyable but more useful"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 487,
+        "end": 629
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "meditations-sextus-catulus-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author value that Sextus was \"of good credit... and yet almost without any noise, or rumour\"?",
+      "options": [
+        "It shows Sextus earned trust through character rather than seeking attention or fame",
+        "It shows Sextus was secretly dishonest",
+        "It shows Sextus avoided all public speaking",
+        "It shows Sextus was unknown outside his family"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 991,
+        "end": 1055
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "meditations-sextus-catulus-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what the author learned from Alexander the Grammarian?",
+      "options": [
+        "How to correct others' errors gently and indirectly rather than through open criticism",
+        "How to write formal grammar textbooks",
+        "How to avoid speaking to uneducated people",
+        "How to memorize long passages of poetry"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 63,
+        "end": 160
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "meditations-sextus-catulus-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean to \"contemn\" a friend's unjust complaint, as Catulus advised against?",
+      "options": [
+        "To treat it with scorn or disregard",
+        "To investigate it thoroughly",
+        "To agree with it immediately",
+        "To forget about it entirely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 12,
+        "end": 68
+      },
+      "pool": "retest"
+    }
+  ]
+}
