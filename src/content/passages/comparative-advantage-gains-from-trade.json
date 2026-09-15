@@ -1,0 +1,319 @@
+{
+  "id": "comparative-advantage-gains-from-trade",
+  "title": "Better at Everything",
+  "language": "en",
+  "source": "https://en.wikipedia.org/wiki/Comparative_advantage",
+  "attribution": "Quoted from the opening of the Wikipedia article “Comparative advantage,” available under CC BY-SA 4.0.",
+  "licence": "CC BY-SA 4.0",
+  "textType": "expository",
+  "domain": "economics",
+  "calibrationOnly": false,
+  "body": [
+    "Comparative advantage is an economic principle that explains why people, firms, and countries can often benefit from trade even when one party is more productive at producing every good or service. The principle states that greater gains from trade arise when each participant devotes a larger share of its labor and other productive resources to the activities with the lowest opportunity cost and obtains other goods and services through trade. Comparative advantage differs from absolute advantage, which concerns being more productive overall, and competitive advantage, which concerns outperforming rivals in a marketplace.",
+    "A very early use of the term comparative advantage appears in An Essay on the External Corn Trade by Robert Torrens in 1815.",
+    "David Ricardo developed the classical theory of comparative advantage in 1817 to explain why countries engage in international trade even when one country's workers are more efficient at producing every single good than workers in other countries. He demonstrated that if two countries capable of producing two commodities engage in the free market (albeit with the assumption that the capital and labour do not move internationally), then each country will increase its overall consumption by exporting the good for which it has a comparative advantage while importing the other good, provided that there exist differences in labor productivity between both countries. Widely regarded as one of the most powerful yet counter-intuitive insights in economics, Ricardo's theory implies that comparative advantage rather than absolute advantage is responsible for much of international trade."
+  ],
+  "questions": [
+    {
+      "id": "comparative-advantage-gains-from-trade-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the principle of comparative advantage explain?",
+      "options": [
+        "Why trade can benefit both parties even when one produces everything better",
+        "Why trade benefits only the party that produces everything more cheaply",
+        "Why a country that produces everything better should stop trading at all",
+        "Why two countries of equal productivity have nothing to gain from trade"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 61,
+        "end": 196
+      },
+      "pool": "first"
+    },
+    {
+      "id": "comparative-advantage-gains-from-trade-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who developed the classical theory of comparative advantage, and when?",
+      "options": [
+        "David Ricardo, in 1817",
+        "Robert Torrens, in 1817",
+        "David Ricardo, in 1815",
+        "Robert Torrens, in 1871"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 77
+      },
+      "pool": "first"
+    },
+    {
+      "id": "comparative-advantage-gains-from-trade-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does a very early use of the term comparative advantage appear?",
+      "options": [
+        "An Essay on the External Corn Trade, by Robert Torrens",
+        "An Essay on the External Corn Trade, by David Ricardo",
+        "On the Principles of Political Economy, by Robert Torrens",
+        "On the Principles of Political Economy, by David Ricardo"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 62,
+        "end": 123
+      },
+      "pool": "first"
+    },
+    {
+      "id": "comparative-advantage-gains-from-trade-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, to which activities should a participant devote a larger share of its resources?",
+      "options": [
+        "Those with the lowest opportunity cost",
+        "Those with the highest total output value",
+        "Those its trading partners cannot perform",
+        "Those with the fewest workers to be paid"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 277,
+        "end": 394
+      },
+      "pool": "first"
+    },
+    {
+      "id": "comparative-advantage-gains-from-trade-f5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage distinguishes it, what does “absolute advantage” concern?",
+      "options": [
+        "Being more productive overall",
+        "Outperforming rivals in a market",
+        "Having the lowest opportunity cost",
+        "Exporting more than one imports"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 482,
+        "end": 546
+      },
+      "pool": "first"
+    },
+    {
+      "id": "comparative-advantage-gains-from-trade-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Ricardo's theory set out to explain?",
+      "options": [
+        "Why countries trade when one country's workers are more efficient at everything",
+        "Why countries trade only when their workers are equally efficient at everything",
+        "Why countries stop trading once their workers become more efficient than others",
+        "Why workers move between countries in search of the most efficient employers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 78,
+        "end": 214
+      },
+      "pool": "first"
+    },
+    {
+      "id": "comparative-advantage-gains-from-trade-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what must be true of the two countries for Ricardo's result to hold?",
+      "options": [
+        "Their labor productivity must differ from one another",
+        "Their labor productivity must be identical to each other",
+        "Their workers must be free to move between the countries",
+        "Their governments must agree on a fixed price for the goods"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 586,
+        "end": 668
+      },
+      "pool": "first"
+    },
+    {
+      "id": "comparative-advantage-gains-from-trade-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, which assumption does Ricardo's demonstration rest on?",
+      "options": [
+        "That capital and labour do not move between the countries",
+        "That capital and labour move freely between the countries",
+        "That each country produces only one commodity in total",
+        "That neither country is able to export what it produces"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 350,
+        "end": 432
+      },
+      "pool": "first"
+    },
+    {
+      "id": "comparative-advantage-gains-from-trade-f9",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is Ricardo's insight described as counter-intuitive?",
+      "options": [
+        "A country worse at producing everything can still gain by trading",
+        "A country better at producing everything gains nothing by trading",
+        "A country gains most by producing every good it needs for itself",
+        "A country's gains depend on how large its population happens to be"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 670,
+        "end": 757
+      },
+      "pool": "first"
+    },
+    {
+      "id": "comparative-advantage-gains-from-trade-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "What each party gives up, not who is better, is what makes trade worthwhile",
+        "Whoever produces a good most efficiently should be the only one to make it",
+        "Trade is worthwhile only between countries of roughly equal productive power",
+        "A country's standing in a market decides what it ought to produce and sell"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 224,
+        "end": 394
+      },
+      "pool": "first"
+    },
+    {
+      "id": "comparative-advantage-gains-from-trade-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does each country do with the good in which it has a comparative advantage?",
+      "options": [
+        "It exports that good and imports the other one",
+        "It imports that good and exports the other one",
+        "It keeps that good and trades away all the rest",
+        "It stops producing it and buys it from abroad"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 491,
+        "end": 584
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "comparative-advantage-gains-from-trade-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, in what year did Robert Torrens use the term comparative advantage?",
+      "options": ["1815", "1817", "1851", "1871"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 98,
+        "end": 123
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "comparative-advantage-gains-from-trade-r3",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage distinguishes it, what does “competitive advantage” concern?",
+      "options": [
+        "Outperforming rivals in a marketplace",
+        "Being more productive than others overall",
+        "Producing at the lowest opportunity cost",
+        "Trading without any tariffs at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 552,
+        "end": 627
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "comparative-advantage-gains-from-trade-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how many countries and commodities feature in Ricardo's demonstration?",
+      "options": [
+        "Two countries and two commodities",
+        "Two countries and one commodity",
+        "One country and two commodities",
+        "Three countries and two commodities"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 269,
+        "end": 348
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "comparative-advantage-gains-from-trade-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Ricardo's theory imply drives much of international trade?",
+      "options": [
+        "Comparative advantage rather than absolute advantage",
+        "Absolute advantage rather than comparative advantage",
+        "Competitive advantage rather than either of the others",
+        "The free movement of workers rather than any advantage"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 789,
+        "end": 888
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "comparative-advantage-gains-from-trade-r6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what happens to a country's overall consumption under free trade?",
+      "options": [
+        "It increases, because of what the country gains by trading",
+        "It decreases, because the country gives up its own output",
+        "It stays fixed, because exports and imports cancel each other",
+        "It varies, depending on which country is more productive"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 435,
+        "end": 490
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "comparative-advantage-gains-from-trade-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises how the passage separates the three kinds of advantage?",
+      "options": [
+        "Opportunity cost, overall productivity, and standing against rivals",
+        "Overall productivity, market share, and the total volume of exports",
+        "Standing against rivals, tariff levels, and the mobility of workers",
+        "Labor productivity, capital mobility, and the number of commodities"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 447,
+        "end": 627
+      },
+      "pool": "retest"
+    }
+  ]
+}

@@ -11,6 +11,7 @@ import eiffelTowerHistory from "./eiffel-tower-history.json";
 import empireStateBuildingHistory from "./empire-state-building-history.json";
 import electricalEngineering19thCentury from "./electrical-engineering-19th-century.json";
 import frankensteinCreationScene from "./frankenstein-creation-scene.json";
+import comparativeAdvantageGainsFromTrade from "./comparative-advantage-gains-from-trade.json";
 import covalentBonding from "./covalent-bonding.json";
 import descartesDiscourseGoodSense from "./descartes-discourse-good-sense.json";
 import giftOfTheMagiOpening from "./gift-of-the-magi-opening.json";
@@ -104,4 +105,5 @@ export const rawPassages: unknown[] = [
   wrightFlyerHistory,
   superconductivityZeroResistance,
   photosynthesisLightIntoSugar,
+  comparativeAdvantageGainsFromTrade,
 ];
