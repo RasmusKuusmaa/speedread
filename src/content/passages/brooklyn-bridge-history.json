@@ -1,0 +1,324 @@
+{
+  "id": "brooklyn-bridge-history",
+  "title": "The Novelty of the Design",
+  "language": "en",
+  "source": "https://en.wikipedia.org/wiki/Brooklyn_Bridge",
+  "attribution": "Adapted (trimmed) from the Wikipedia article \"Brooklyn Bridge,\" available under CC BY-SA 4.0.",
+  "licence": "CC BY-SA 4.0",
+  "textType": "expository",
+  "domain": "engineering",
+  "calibrationOnly": false,
+  "body": [
+    "The Brooklyn Bridge is a cable-stayed suspension bridge in New York City, spanning the East River between the boroughs of Manhattan and Brooklyn. Opened on May 24, 1883, the Brooklyn Bridge was the first fixed crossing of the East River. It was also the longest suspension bridge in the world when opened, with a main span of 1,595.5 feet and a deck 127 feet above mean high water. The span was originally called the New York and Brooklyn Bridge or the East River Bridge but was officially renamed the Brooklyn Bridge in 1915.",
+    "Proposals for a bridge connecting Manhattan and Brooklyn were first made in the early 19th century; these plans evolved into what is now the Brooklyn Bridge, designed by John A. Roebling. The project's chief engineer, his son Washington Roebling, contributed further design work, assisted by the latter's wife, the engineer Emily Warren Roebling. Construction started in 1870 and was overseen by the New York Bridge Company, which in turn was controlled by the Tammany Hall political machine. Numerous controversies and the novelty of the design prolonged the project over thirteen years.",
+    "After opening, the Brooklyn Bridge underwent several reconfigurations, having carried horse-drawn vehicles and elevated railway lines until 1950. To alleviate increasing traffic flows, additional bridges and tunnels were built across the East River. Due to gradual deterioration, the Brooklyn Bridge was renovated several times, including in the 1950s, 1980s, and 2010s."
+  ],
+  "questions": [
+    {
+      "id": "brooklyn-bridge-history-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when did the Brooklyn Bridge open?",
+      "options": [
+        "May 24, 1883",
+        "July 4, 1870",
+        "January 1, 1900",
+        "December 1915"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 146,
+        "end": 236
+      },
+      "pool": "first"
+    },
+    {
+      "id": "brooklyn-bridge-history-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was the bridge's main span when it opened?",
+      "options": [
+        "1,595.5 feet",
+        "127 feet",
+        "1,915 feet",
+        "486 feet"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 306,
+        "end": 338
+      },
+      "pool": "first"
+    },
+    {
+      "id": "brooklyn-bridge-history-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who designed the Brooklyn Bridge?",
+      "options": [
+        "John A. Roebling",
+        "Washington Roebling",
+        "Emily Warren Roebling",
+        "The Tammany Hall political machine"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 158,
+        "end": 186
+      },
+      "pool": "first"
+    },
+    {
+      "id": "brooklyn-bridge-history-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who assisted Washington Roebling with the bridge's design work?",
+      "options": [
+        "His wife, engineer Emily Warren Roebling",
+        "His father, John A. Roebling",
+        "The New York Bridge Company's board",
+        "A team from Tammany Hall"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 280,
+        "end": 345
+      },
+      "pool": "first"
+    },
+    {
+      "id": "brooklyn-bridge-history-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in what year did construction on the bridge start?",
+      "options": [
+        "1870",
+        "1883",
+        "1915",
+        "1950"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 347,
+        "end": 375
+      },
+      "pool": "first"
+    },
+    {
+      "id": "brooklyn-bridge-history-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the bridge carry until 1950?",
+      "options": [
+        "Horse-drawn vehicles and elevated railway lines",
+        "Only pedestrian foot traffic",
+        "Automobiles exclusively",
+        "Freight trains only"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 71,
+        "end": 144
+      },
+      "pool": "first"
+    },
+    {
+      "id": "brooklyn-bridge-history-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Brooklyn Bridge project take over thirteen years to complete?",
+      "options": [
+        "Numerous controversies and the novelty of its design prolonged construction",
+        "The Roebling family repeatedly changed their minds about the location",
+        "The East River proved too narrow for the planned design",
+        "Tammany Hall refused to allow construction to begin"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 493,
+        "end": 587
+      },
+      "pool": "first"
+    },
+    {
+      "id": "brooklyn-bridge-history-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why were additional bridges and tunnels built across the East River after the Brooklyn Bridge opened?",
+      "options": [
+        "To relieve increasing traffic that the Brooklyn Bridge alone could no longer handle",
+        "Because the Brooklyn Bridge was permanently closed for repairs",
+        "Because the original bridge design was found to be unsafe",
+        "To replace the Brooklyn Bridge entirely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 146,
+        "end": 248
+      },
+      "pool": "first"
+    },
+    {
+      "id": "brooklyn-bridge-history-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "The Brooklyn Bridge was a groundbreaking, record-setting structure whose difficult construction and later use reflected its lasting importance",
+        "The Brooklyn Bridge was a minor local project with little historical significance",
+        "The Brooklyn Bridge was completed quickly and without any controversy",
+        "The Brooklyn Bridge was replaced entirely within a few decades of opening"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 238,
+        "end": 304
+      },
+      "pool": "first"
+    },
+    {
+      "id": "brooklyn-bridge-history-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the bridge underwent several \"reconfigurations\"?",
+      "options": [
+        "Changes to its structure or arrangement over time",
+        "Complete demolitions and rebuildings",
+        "Changes of ownership",
+        "Renamings without any physical change"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 15,
+        "end": 69
+      },
+      "pool": "first"
+    },
+    {
+      "id": "brooklyn-bridge-history-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how high was the bridge's deck above mean high water?",
+      "options": [
+        "127 feet",
+        "1,595.5 feet",
+        "486 feet",
+        "38 feet"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 343,
+        "end": 380
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "brooklyn-bridge-history-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was the bridge originally called?",
+      "options": [
+        "The New York and Brooklyn Bridge or the East River Bridge",
+        "The Manhattan Crossing",
+        "The Roebling Span",
+        "The Tammany Bridge"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 382,
+        "end": 470
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "brooklyn-bridge-history-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what organization oversaw construction, and what group controlled it?",
+      "options": [
+        "The New York Bridge Company, controlled by the Tammany Hall political machine",
+        "The federal government, controlled by Congress",
+        "A private bank, controlled by foreign investors",
+        "The city of Brooklyn, controlled by its mayor"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 384,
+        "end": 491
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "brooklyn-bridge-history-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, in what decades was the bridge renovated due to deterioration?",
+      "options": [
+        "The 1950s, 1980s, and 2010s",
+        "The 1880s, 1900s, and 1920s",
+        "Only the 2010s",
+        "The 1930s and 1940s"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 280,
+        "end": 369
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "brooklyn-bridge-history-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author mention that proposals for the bridge were first made in the early 19th century, decades before construction began?",
+      "options": [
+        "To show how long the idea existed before finally being realized",
+        "To argue that the bridge was rushed into construction",
+        "To suggest that the original proposals were technically flawed",
+        "To explain why the bridge was built so cheaply"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 98
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "brooklyn-bridge-history-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes the roles of the Roebling family in the passage?",
+      "options": [
+        "John Roebling designed the bridge, and his son and daughter-in-law carried the engineering work forward",
+        "Only John Roebling was ever involved in the bridge's design",
+        "The Roebling family had no connection to the bridge's design",
+        "Washington Roebling designed the bridge alone, with no family assistance"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 188,
+        "end": 345
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "brooklyn-bridge-history-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the bridge was renovated due to \"gradual deterioration\"?",
+      "options": [
+        "A slow worsening of its physical condition over time",
+        "A sudden structural collapse",
+        "Vandalism by visitors",
+        "A change in ownership requiring updates"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 250,
+        "end": 327
+      },
+      "pool": "retest"
+    }
+  ]
+}
