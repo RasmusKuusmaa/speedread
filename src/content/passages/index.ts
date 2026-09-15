@@ -34,6 +34,7 @@ import poePitAndPendulumDescent from "./poe-pit-and-pendulum-descent.json";
 import poePrematureBurialVision from "./poe-premature-burial-vision.json";
 import poeTellTaleHeartOpening from "./poe-tell-tale-heart-opening.json";
 import poeWilliamWilsonSchool from "./poe-william-wilson-school.json";
+import prideAndPrejudiceOpening from "./pride-and-prejudice-opening.json";
 import secretGardenGreenPoints from "./secret-garden-green-points.json";
 import secretGardenHundredRooms from "./secret-garden-hundred-rooms.json";
 import secretGardenMistressContrary from "./secret-garden-mistress-contrary.json";
@@ -95,5 +96,6 @@ export const rawPassages: unknown[] = [
   poeTellTaleHeartOpening,
   poePitAndPendulumDescent,
   poePrematureBurialVision,
+  prideAndPrejudiceOpening,
   wrightFlyerHistory,
 ];

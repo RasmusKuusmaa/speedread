@@ -1,0 +1,324 @@
+{
+  "id": "pride-and-prejudice-opening",
+  "title": "A Truth Universally Acknowledged",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/1342",
+  "attribution": "Excerpted verbatim from Pride and Prejudice by Jane Austen (1813).",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "It is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife. However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered as the rightful property of some one or other of their daughters.",
+    "\"My dear Mr. Bennet,\" said his lady to him one day, \"have you heard that Netherfield Park is let at last?\" Mr. Bennet replied that he had not. \"But it is,\" returned she; \"for Mrs. Long has just been here, and she told me all about it.\" Mr. Bennet made no answer. \"Do not you want to know who has taken it?\" cried his wife, impatiently. \"You want to tell me, and I have no objection to hearing it.\"",
+    "\"Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and some of his servants are to be in the house by the end of next week.\" \"What is his name?\" \"Bingley.\" \"Is he married or single?\" \"Oh, single, my dear, to be sure! A single man of large fortune; four or five thousand a year. What a fine thing for our girls!\""
+  ],
+  "questions": [
+    {
+      "id": "pride-and-prejudice-opening-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what \"truth\" does the opening line claim is universally acknowledged?",
+      "options": [
+        "That a single man in possession of a good fortune must be in want of a wife",
+        "That a woman with a good fortune must remain unmarried",
+        "That all wealthy families eventually move to the countryside",
+        "That marriage is never discussed among wealthy families"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 115
+      },
+      "pool": "first"
+    },
+    {
+      "id": "pride-and-prejudice-opening-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who told Mrs. Bennet about Netherfield Park being let?",
+      "options": [
+        "Mrs. Long",
+        "Mr. Bennet",
+        "Mr. Morris",
+        "Bingley himself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 171,
+        "end": 233
+      },
+      "pool": "first"
+    },
+    {
+      "id": "pride-and-prejudice-opening-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what news does Mrs. Bennet bring to her husband?",
+      "options": [
+        "That Netherfield Park is let at last",
+        "That their daughter has become engaged",
+        "That Mr. Morris has died",
+        "That a ball is being planned nearby"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 53,
+        "end": 104
+      },
+      "pool": "first"
+    },
+    {
+      "id": "pride-and-prejudice-opening-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what is the name of the man who has taken Netherfield?",
+      "options": [
+        "Bingley",
+        "Bennet",
+        "Morris",
+        "Long"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 418,
+        "end": 428
+      },
+      "pool": "first"
+    },
+    {
+      "id": "pride-and-prejudice-opening-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the new tenant travel to see Netherfield?",
+      "options": [
+        "He came down on Monday in a chaise and four",
+        "He arrived on foot after a long journey",
+        "He sailed up the nearby river",
+        "He was carried in on horseback alone"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 130,
+        "end": 195
+      },
+      "pool": "first"
+    },
+    {
+      "id": "pride-and-prejudice-opening-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what is the new tenant's fortune, according to Mrs. Bennet?",
+      "options": [
+        "Four or five thousand a year",
+        "Ten thousand a year",
+        "A few hundred a year",
+        "An unknown, unstated amount"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 490,
+        "end": 549
+      },
+      "pool": "first"
+    },
+    {
+      "id": "pride-and-prejudice-opening-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the narrator say the wealthy single man is considered \"the rightful property of some one or other of their daughters,\" regardless of his own feelings?",
+      "options": [
+        "The narrator is being ironic, mocking how local families view a wealthy bachelor purely as a marriage prospect for their daughters",
+        "The narrator is stating a literal legal rule of the time",
+        "The narrator believes the man has no say in his own life at all",
+        "The narrator is warning readers that the man is dangerous"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 295,
+        "end": 376
+      },
+      "pool": "first"
+    },
+    {
+      "id": "pride-and-prejudice-opening-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Mr. Bennet reply, \"You want to tell me, and I have no objection to hearing it,\" instead of directly asking who has taken Netherfield?",
+      "options": [
+        "He is teasingly indifferent, letting his wife reveal news she is clearly eager to share",
+        "He genuinely has no interest in hearing any news at all",
+        "He already knows the full story and is testing her honesty",
+        "He is angry with his wife and refuses to speak further"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 336,
+        "end": 397
+      },
+      "pool": "first"
+    },
+    {
+      "id": "pride-and-prejudice-opening-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "A wealthy new bachelor's arrival in the neighborhood immediately excites Mrs. Bennet's hopes for her daughters' marriage prospects",
+        "Mr. Bennet is planning to sell his own estate to Bingley",
+        "Mrs. Bennet is upset that a stranger has moved into the area",
+        "The Bennet family is preparing to leave their home permanently"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 490,
+        "end": 583
+      },
+      "pool": "first"
+    },
+    {
+      "id": "pride-and-prejudice-opening-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that a man is \"in want of\" a wife?",
+      "options": [
+        "In need of, or lacking, a wife",
+        "Actively avoiding a wife",
+        "Already married to a wife",
+        "Forbidden from having a wife"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 90,
+        "end": 115
+      },
+      "pool": "first"
+    },
+    {
+      "id": "pride-and-prejudice-opening-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, had Mr. Bennet already heard about Netherfield being let?",
+      "options": [
+        "No, he replied that he had not",
+        "Yes, he had heard it from Mr. Morris",
+        "Yes, he had heard it from Bingley directly",
+        "The passage does not say"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 107,
+        "end": 141
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "pride-and-prejudice-opening-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, from where does the new tenant come?",
+      "options": [
+        "The north of England",
+        "The south of France",
+        "Scotland",
+        "London"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 50,
+        "end": 128
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "pride-and-prejudice-opening-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, by when is the new tenant to take possession of Netherfield?",
+      "options": [
+        "Before Michaelmas",
+        "Before Christmas",
+        "Before the new year",
+        "Before the following summer"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 275,
+        "end": 322
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "pride-and-prejudice-opening-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does Mrs. Bennet exclaim about the meaning of Bingley's fortune for her daughters?",
+      "options": [
+        "\"What a fine thing for our girls!\"",
+        "\"What a terrible loss for our girls!\"",
+        "\"Our girls will never meet him!\"",
+        "\"Our girls are too young to marry!\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 551,
+        "end": 583
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "pride-and-prejudice-opening-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might Mrs. Bennet be so eager to share every detail about Bingley immediately?",
+      "options": [
+        "She is excited by the prospect of a wealthy, single new neighbor as a marriage opportunity for her daughters",
+        "She wants to warn her husband that Bingley is dangerous",
+        "She is worried that Bingley will compete with Mr. Bennet's business",
+        "She has already decided to move her family away from the area"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 430,
+        "end": 453
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "pride-and-prejudice-opening-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes the exchange between Mr. and Mrs. Bennet in the passage?",
+      "options": [
+        "Mrs. Bennet excitedly delivers news of a wealthy new neighbor while Mr. Bennet responds with dry, teasing indifference",
+        "Mr. and Mrs. Bennet argue bitterly about their daughters' futures",
+        "Mr. Bennet is the one who first brings up the news about Netherfield",
+        "Mrs. Bennet refuses to tell her husband any details at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 336,
+        "end": 397
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "pride-and-prejudice-opening-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does \"fortune\" refer to when describing the new tenant?",
+      "options": [
+        "His wealth or financial means",
+        "His personal reputation among neighbors",
+        "His physical appearance",
+        "His family's history in the region"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 30,
+        "end": 102
+      },
+      "pool": "retest"
+    }
+  ]
+}
