@@ -1,0 +1,318 @@
+{
+  "id": "oz-c03-s2",
+  "title": "How Dorothy Saved the Scarecrow, part 2",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "She took off her old leather shoes and tried on the silver ones, which fitted her as well as if they had been made for her.",
+    "Finally she picked up her basket.",
+    "“Come along, Toto,” she said. “We will go to the Emerald City and ask the Great Oz how to get back to Kansas again.”",
+    "She closed the door, locked it, and put the key carefully in the pocket of her dress. And so, with Toto trotting along soberly behind her, she started on her journey.",
+    "There were several roads nearby, but it did not take her long to find the one paved with yellow bricks. Within a short time she was walking briskly toward the Emerald City, her silver shoes tinkling merrily on the hard, yellow road-bed. The sun shone bright and the birds sang sweetly, and Dorothy did not feel nearly so bad as you might think a little girl would who had been suddenly whisked away from her own country and set down in the midst of a strange land.",
+    "She was surprised, as she walked along, to see how pretty the country was about her. There were neat fences at the sides of the road, painted a dainty blue color, and beyond them were fields of grain and vegetables in abundance. Evidently the Munchkins were good farmers and able to raise large crops. Once in a while she would pass a house, and the people came out to look at her and bow low as she went by; for everyone knew she had been the means of destroying the Wicked Witch and setting them free from bondage. The houses of the Munchkins were odd-looking dwellings, for each was round, with a big dome for a roof. All were painted blue, for in this country of the East blue was the favorite color.",
+    "Toward evening, when Dorothy was tired with her long walk and began to wonder where she should pass the night, she came to a house rather larger than the rest. On the green lawn before it many men and women were dancing. Five little fiddlers played as loudly as possible, and the people were laughing and singing, while a big table near by was loaded with delicious fruits and nuts, pies and cakes, and many other good things to eat."
+  ],
+  "questions": [
+    {
+      "id": "oz-c03-s2-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the silver shoes fit Dorothy?",
+      "options": [
+        "As well as if they had been made for her",
+        "A little too large, so she stuffed them",
+        "So tightly that she could hardly walk",
+        "Loosely enough to wear over her own"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 65,
+        "end": 122
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s2-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Dorothy do with the key?",
+      "options": [
+        "Put it carefully in the pocket of her dress",
+        "Left it hanging on the peg beside her bed",
+        "Gave it to the Munchkins for safekeeping",
+        "Hid it under a stone beside the door"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 36,
+        "end": 84
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s2-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what colour were the fences beside the road?",
+      "options": [
+        "A dainty blue",
+        "A dull gray",
+        "A bright green",
+        "A faded white"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 134,
+        "end": 161
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s2-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what shape were the houses of the Munchkins?",
+      "options": [
+        "Round, with a big dome for a roof",
+        "Square, with a pointed roof",
+        "Long and low, with no roof at all",
+        "Tall and narrow, with many windows"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 573,
+        "end": 619
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s2-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was on the green lawn before the larger house?",
+      "options": [
+        "Many men and women dancing",
+        "A row of five painted wagons",
+        "A field of grain ready for cutting",
+        "A crowd waiting to speak to her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 160,
+        "end": 220
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s2-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Munchkins come out and bow as Dorothy passed?",
+      "options": [
+        "They knew she was the means of setting them free",
+        "They had never seen a stranger on that road before",
+        "They wanted her to stop and eat at their houses",
+        "They were afraid she would use her magic on them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 409,
+        "end": 480
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s2-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the state of the fields tell Dorothy about the Munchkins?",
+      "options": [
+        "That they are good farmers who raise large crops",
+        "That they have been too frightened to work the land",
+        "That they grow only what the witch allowed them",
+        "That they depend on the Emerald City for food"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 229,
+        "end": 300
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s2-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how is Dorothy bearing her situation as she walks?",
+      "options": [
+        "Better than one might expect of a girl so far from home",
+        "Worse than she admits to Toto as they go along",
+        "So badly that she stops every mile to rest",
+        "So cheerfully that she forgets Kansas entirely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 290,
+        "end": 343
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s2-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does walking briskly mean?",
+      "options": [
+        "Walking at a good quick pace",
+        "Walking slowly and carefully",
+        "Walking without making a sound",
+        "Walking with a limp"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 124,
+        "end": 171
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s2-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A pleasant first day's walk that ends at a celebration",
+        "A hard first day's walk through dangerous country",
+        "A journey delayed by Munchkins who will not let her pass",
+        "A search for the yellow road that takes the whole day"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 0,
+        "end": 57
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s2-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what sound did the silver shoes make on the road?",
+      "options": [
+        "They tinkled merrily",
+        "They creaked loudly",
+        "They made no sound at all",
+        "They rang like little bells"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 173,
+        "end": 235
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s2-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how many fiddlers were playing?",
+      "options": ["Five", "Three", "Seven", "Two"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 221,
+        "end": 270
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s2-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what colour was favoured in the country of the East?",
+      "options": ["Blue", "Green", "Yellow", "White"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 644,
+        "end": 703
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s2-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was the yellow road easy to pick out?",
+      "options": [
+        "Of the several roads nearby, only one was paved with yellow brick",
+        "It was the only road that led away from the house",
+        "The Munchkins had gathered at the head of it",
+        "It was the widest and smoothest road in the country"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 102
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s2-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Dorothy say she will ask the Great Oz?",
+      "options": [
+        "How to get back to Kansas again",
+        "Whether he can give her new shoes",
+        "Where the Wicked Witch of the West lives",
+        "Why the Munchkins call her a witch"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 66,
+        "end": 114
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s2-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that Toto trotted along soberly?",
+      "options": [
+        "He kept up quietly, without his usual play",
+        "He walked so slowly that she had to wait",
+        "He followed unwillingly and had to be called",
+        "He ran ahead and would not stay beside her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 94,
+        "end": 137
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s2-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Dorothy sets out and finds the country rich, friendly, and welcoming",
+        "Dorothy sets out and finds the country empty and frightening",
+        "Dorothy loses her way among several roads and turns back",
+        "Dorothy is stopped by Munchkins who warn her not to go on"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 0,
+        "end": 83
+      },
+      "pool": "retest"
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "id": "oz-c03-s6",
+  "title": "How Dorothy Saved the Scarecrow, part 6",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“I understand how you feel,” said the little girl, who was truly sorry for him. “If you will come with me I’ll ask Oz to do all he can for you.”",
+    "“Thank you,” he answered gratefully.",
+    "They walked back to the road. Dorothy helped him over the fence, and they started along the path of yellow brick for the Emerald City.",
+    "Toto did not like this addition to the party at first. He smelled around the stuffed man as if he suspected there might be a nest of rats in the straw, and he often growled in an unfriendly way at the Scarecrow.",
+    "“Don’t mind Toto,” said Dorothy to her new friend. “He never bites.”",
+    "“Oh, I’m not afraid,” replied the Scarecrow. “He can’t hurt the straw. Do let me carry that basket for you. I shall not mind it, for I can’t get tired. I’ll tell you a secret,” he continued, as he walked along. “There is only one thing in the world I am afraid of.”",
+    "“What is that?” asked Dorothy; “the Munchkin farmer who made you?”",
+    "“No,” answered the Scarecrow; “it’s a lighted match.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c03-s6-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy have to help the Scarecrow do?",
+      "options": [
+        "Get over the fence",
+        "Climb down from the pole",
+        "Carry his own hat",
+        "Find the yellow road"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 30,
+        "end": 63
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s6-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how did Toto first treat the Scarecrow?",
+      "options": [
+        "He growled at him in an unfriendly way",
+        "He walked beside him without a sound",
+        "He ran away down the road in fright",
+        "He carried the straw about in his mouth"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 156,
+        "end": 210
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s6-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Dorothy tell the Scarecrow about Toto?",
+      "options": [
+        "That he never bites",
+        "That he is afraid of strangers",
+        "That he cannot be left behind",
+        "That he will carry the basket"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 52,
+        "end": 67
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s6-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the Scarecrow offer to do?",
+      "options": [
+        "Carry Dorothy's basket",
+        "Lead the way to the city",
+        "Find food along the road",
+        "Keep watch through the night"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 71,
+        "end": 107
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s6-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the one thing the Scarecrow is afraid of?",
+      "options": [
+        "A lighted match",
+        "A hungry crow",
+        "The Munchkin who made him",
+        "A pole and a cornfield"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 31,
+        "end": 51
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s6-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did Toto sniff around the stuffed man?",
+      "options": [
+        "He suspected there might be rats in the straw",
+        "He was looking for the food in the basket",
+        "He recognised the smell of the cornfield",
+        "He wanted to pull the straw out himself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 89,
+        "end": 150
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s6-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Scarecrow untroubled by the growling?",
+      "options": [
+        "A dog can do no harm to straw",
+        "He has met the dog somewhere before",
+        "Dorothy has promised to hold Toto back",
+        "He cannot hear the growling at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 46,
+        "end": 70
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s6-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why can the Scarecrow offer to carry the basket all day?",
+      "options": [
+        "He is never able to get tired",
+        "He is stronger than Dorothy is",
+        "The basket is lighter than his straw",
+        "He wants to prove he has brains"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 108,
+        "end": 151
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s6-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does Dorothy mean by calling the Scarecrow an addition to the party?",
+      "options": [
+        "A new member of the travelling group",
+        "An extra weight for her to carry",
+        "A stranger she does not yet trust",
+        "A guide who knows the country"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 54
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s6-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "Two travellers become three, with one small fear admitted",
+        "A dog and a scarecrow quarrel until Dorothy separates them",
+        "A scarecrow proves he has brains after all",
+        "A journey is delayed by an argument over the basket"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 69,
+        "end": 133
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s6-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Dorothy promise the Scarecrow?",
+      "options": [
+        "To ask Oz to do all he can for him",
+        "To take him back to his own cornfield",
+        "To find the farmer who made him",
+        "To carry him if he grows too tired"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 106,
+        "end": 142
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s6-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how does the Scarecrow answer that promise?",
+      "options": ["Gratefully", "Doubtfully", "Angrily", "Without a word"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 13,
+        "end": 35
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s6-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Dorothy guess the Scarecrow fears?",
+      "options": [
+        "The Munchkin farmer who made him",
+        "A lighted match",
+        "The crows in the cornfield",
+        "The Wicked Witch of the West"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 32,
+        "end": 65
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s6-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why would a lighted match frighten a straw man?",
+      "options": [
+        "Straw burns, and he is stuffed with it",
+        "The light would blind his painted eyes",
+        "It would show the crows where he stands",
+        "It was how the farmer first made him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 212,
+        "end": 264
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s6-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Dorothy's sympathy for the Scarecrow show?",
+      "options": [
+        "She takes his wish for brains seriously",
+        "She doubts that Oz will help either of them",
+        "She wants company on a frightening road",
+        "She believes he is cleverer than he admits"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 29,
+        "end": 78
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s6-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that Toto suspected something?",
+      "options": [
+        "He half believed it without being sure",
+        "He had been told about it beforehand",
+        "He was certain of it and acted at once",
+        "He disliked it without knowing why"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 89,
+        "end": 150
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s6-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "The party sets off together, with the dog slowly coming round",
+        "The dog drives the Scarecrow away from the road",
+        "The Scarecrow admits he cannot walk as far as Dorothy",
+        "Dorothy decides to leave the basket behind"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 29
+      },
+      "pool": "retest"
+    }
+  ]
+}

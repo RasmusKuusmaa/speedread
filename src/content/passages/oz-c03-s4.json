@@ -1,0 +1,329 @@
+{
+  "id": "oz-c03-s4",
+  "title": "How Dorothy Saved the Scarecrow, part 4",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "This worried Dorothy a little, but she knew that only the Great Oz could help her get to Kansas again, so she bravely resolved not to turn back.",
+    "She bade her friends good-bye, and again started along the road of yellow brick. When she had gone several miles she thought she would stop to rest, and so climbed to the top of the fence beside the road and sat down. There was a great cornfield beyond the fence, and not far away she saw a Scarecrow, placed high on a pole to keep the birds from the ripe corn.",
+    "Dorothy leaned her chin upon her hand and gazed thoughtfully at the Scarecrow. Its head was a small sack stuffed with straw, with eyes, nose, and mouth painted on it to represent a face. An old, pointed blue hat, that had belonged to some Munchkin, was perched on his head, and the rest of the figure was a blue suit of clothes, worn and faded, which had also been stuffed with straw. On the feet were some old boots with blue tops, such as every man wore in this country, and the figure was raised above the stalks of corn by means of the pole stuck up its back.",
+    "While Dorothy was looking earnestly into the queer, painted face of the Scarecrow, she was surprised to see one of the eyes slowly wink at her. She thought she must have been mistaken at first, for none of the scarecrows in Kansas ever wink; but presently the figure nodded its head to her in a friendly way. Then she climbed down from the fence and walked up to it, while Toto ran around the pole and barked.",
+    "“Good day,” said the Scarecrow, in a rather husky voice.",
+    "“Did you speak?” asked the girl, in wonder.",
+    "“Certainly,” answered the Scarecrow. “How do you do?”",
+    "“I’m pretty well, thank you,” replied Dorothy politely. “How do you do?”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c03-s4-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Scarecrow's head made of?",
+      "options": [
+        "A small sack stuffed with straw",
+        "A wooden block carved to shape",
+        "An old pail turned upside down",
+        "A bundle of blue cloth"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 79,
+        "end": 123
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s4-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was the Scarecrow placed there to do?",
+      "options": [
+        "Keep the birds from the ripe corn",
+        "Mark the boundary of the field",
+        "Frighten travellers off the road",
+        "Show the way to the Emerald City"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 302,
+        "end": 360
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s4-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was on the Scarecrow's head?",
+      "options": [
+        "An old pointed blue hat",
+        "A pink sunbonnet",
+        "A cap hung with little bells",
+        "Nothing at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 187,
+        "end": 272
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s4-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what held the figure up above the corn?",
+      "options": [
+        "A pole stuck up its back",
+        "A rope tied to a fence post",
+        "A frame of blue-painted wood",
+        "A heap of stones at its feet"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 492,
+        "end": 562
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s4-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy do just before she saw the Scarecrow?",
+      "options": [
+        "Climbed to the top of the fence and sat down",
+        "Stopped at a house to ask for water",
+        "Left the yellow road to cross a field",
+        "Lay down under a tree to sleep"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 156,
+        "end": 216
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s4-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did Dorothy doubt what she had seen at first?",
+      "options": [
+        "No scarecrow in Kansas had ever winked at her",
+        "The painted face was too far away to see clearly",
+        "She had been told the country was full of tricks",
+        "Toto was barking and distracting her attention"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 194,
+        "end": 240
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s4-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what convinced Dorothy the Scarecrow was alive?",
+      "options": [
+        "It nodded its head to her in a friendly way",
+        "It climbed down from the pole by itself",
+        "It called out to her across the cornfield",
+        "It turned to watch her walking up the road"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 242,
+        "end": 307
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s4-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Dorothy decide not to turn back?",
+      "options": [
+        "Only the Great Oz can help her reach Kansas",
+        "The Munchkins have refused to take her in",
+        "She has already walked too far to return",
+        "Boq has promised to follow after her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 35,
+        "end": 101
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s4-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the Scarecrow's husky voice mean?",
+      "options": [
+        "It sounded dry and hoarse",
+        "It sounded loud and deep",
+        "It sounded sweet and high",
+        "It sounded faint and far off"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 12,
+        "end": 55
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s4-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures what happens in the passage?",
+      "options": [
+        "A rest by the roadside turns into a meeting with a living scarecrow",
+        "A scarecrow frightens Dorothy away from a field of ripe corn",
+        "Dorothy searches a cornfield for someone to give her directions",
+        "Dorothy decides to turn back to the house she slept in"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 83,
+        "end": 142
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s4-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was painted on the sack to make a face?",
+      "options": [
+        "Eyes, nose, and mouth",
+        "Only two large eyes",
+        "A mouth and a blue beard",
+        "Nothing; it was left blank"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 125,
+        "end": 185
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s4-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was the rest of the figure dressed in?",
+      "options": [
+        "A worn and faded blue suit",
+        "A white gown covered in stars",
+        "A farmer's coat of gray cloth",
+        "Nothing but straw and string"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 278,
+        "end": 343
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s4-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Toto do when Dorothy walked up to the Scarecrow?",
+      "options": [
+        "Ran around the pole and barked",
+        "Hid behind Dorothy's skirts",
+        "Sat down in the road and waited",
+        "Chased the birds out of the corn"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 367,
+        "end": 408
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s4-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Scarecrow's clothing suggest about where it came from?",
+      "options": [
+        "It was made from things a Munchkin had worn out",
+        "It was sewn specially for the figure by a farmer",
+        "It was taken from a traveller on the yellow road",
+        "It had been left behind by the Wicked Witch"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 433,
+        "end": 471
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s4-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does Dorothy behave once the Scarecrow speaks?",
+      "options": [
+        "She answers politely, returning his greeting",
+        "She runs back to the fence in fright",
+        "She refuses to believe he has spoken",
+        "She calls Toto and hurries down the road"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 55
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s4-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that Dorothy resolved not to turn back?",
+      "options": [
+        "She firmly made up her mind to go on",
+        "She was ordered to keep going by Boq",
+        "She had no road by which to return",
+        "She hesitated before going on anyway"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 103,
+        "end": 143
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s4-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A stuffed figure in a field turns out to be alive and friendly",
+        "A girl grows so tired on the road that she imagines things",
+        "A farmer's scarecrow frightens a dog away from the corn",
+        "A traveller stops to ask a stranger the way to the city"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 0,
+        "end": 43
+      },
+      "pool": "retest"
+    }
+  ]
+}

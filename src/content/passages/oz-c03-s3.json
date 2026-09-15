@@ -1,0 +1,323 @@
+{
+  "id": "oz-c03-s3",
+  "title": "How Dorothy Saved the Scarecrow, part 3",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "The people greeted Dorothy kindly, and invited her to supper and to pass the night with them; for this was the home of one of the richest Munchkins in the land, and his friends were gathered with him to celebrate their freedom from the bondage of the Wicked Witch.",
+    "Dorothy ate a hearty supper and was waited upon by the rich Munchkin himself, whose name was Boq. Then she sat upon a settee and watched the people dance.",
+    "When Boq saw her silver shoes he said, “You must be a great sorceress.”",
+    "“Why?” asked the girl.",
+    "“Because you wear silver shoes and have killed the Wicked Witch. Besides, you have white in your frock, and only witches and sorceresses wear white.”",
+    "“My dress is blue and white checked,” said Dorothy, smoothing out the wrinkles in it.",
+    "“It is kind of you to wear that,” said Boq. “Blue is the color of the Munchkins, and white is the witch color. So we know you are a friendly witch.”",
+    "Dorothy did not know what to say to this, for all the people seemed to think her a witch, and she knew very well she was only an ordinary little girl who had come by the chance of a cyclone into a strange land.",
+    "When she had tired watching the dancing, Boq led her into the house, where he gave her a room with a pretty bed in it. The sheets were made of blue cloth, and Dorothy slept soundly in them till morning, with Toto curled up on the blue rug beside her.",
+    "She ate a hearty breakfast, and watched a wee Munchkin baby, who played with Toto and pulled his tail and crowed and laughed in a way that greatly amused Dorothy. Toto was a fine curiosity to all the people, for they had never seen a dog before.",
+    "“How far is it to the Emerald City?” the girl asked.",
+    "“I do not know,” answered Boq gravely, “for I have never been there. It is better for people to keep away from Oz, unless they have business with him. But it is a long way to the Emerald City, and it will take you many days. The country here is rich and pleasant, but you must pass through rough and dangerous places before you reach the end of your journey.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c03-s3-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the rich Munchkin's name?",
+      "options": ["Boq", "Oz", "Toto", "Ev"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 78,
+        "end": 96
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s3-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why were the Munchkins gathered at the house?",
+      "options": [
+        "To celebrate their freedom from the Wicked Witch",
+        "To choose a new ruler now the witch was dead",
+        "To welcome Dorothy on her way to the city",
+        "To hold a market for the season's crops"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 165,
+        "end": 263
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s3-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what colour were the sheets on Dorothy's bed?",
+      "options": ["Blue", "White", "Green", "Yellow"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 119,
+        "end": 153
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s3-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why was Toto a curiosity to the Munchkins?",
+      "options": [
+        "They had never seen a dog before",
+        "He was the only black thing in the land",
+        "He would not stop barking at them",
+        "He had come out of a cyclone with her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 208,
+        "end": 244
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s3-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Boq say about the distance to the Emerald City?",
+      "options": [
+        "That it is a long way and will take many days",
+        "That it can be walked in a single morning",
+        "That no one has ever measured the road",
+        "That it lies just beyond the next fence"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 151,
+        "end": 223
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s3-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Boq take Dorothy for a sorceress?",
+      "options": [
+        "She wears silver shoes and white, and killed the witch",
+        "She arrived in a house that fell out of the sky",
+        "She travels alone with a creature nobody has seen",
+        "She is going to the Emerald City to speak with Oz"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 1,
+        "end": 64
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s3-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Boq read into the colours of Dorothy's dress?",
+      "options": [
+        "That she is a witch who is friendly to the Munchkins",
+        "That she has been sent by the Wizard of Oz himself",
+        "That she comes from the country to the north",
+        "That she has taken the dead witch's place in the East"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 111,
+        "end": 147
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s3-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Dorothy not know what to say to Boq?",
+      "options": [
+        "She knows she is only an ordinary girl blown there by chance",
+        "She cannot understand what the Munchkins mean by witch",
+        "She is afraid that contradicting him would be rude",
+        "She has been told to keep her own country secret"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 94,
+        "end": 149
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s3-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does Boq mean by saying it is better to keep away from Oz unless you have business with him?",
+      "options": [
+        "Do not go to him without a real reason",
+        "Do not speak of him to any stranger",
+        "Do not trust anything that he says",
+        "Do not travel to his city after dark"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 69,
+        "end": 150
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s3-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A kind welcome, and a first warning about what lies ahead",
+        "A quarrel about whether Dorothy is really a witch",
+        "A feast at which Dorothy is asked to stay for good",
+        "A lesson in the customs and colours of the Munchkins"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 268,
+        "end": 357
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s3-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who waited on Dorothy at supper?",
+      "options": [
+        "The rich Munchkin himself",
+        "The five little fiddlers",
+        "A wee Munchkin baby",
+        "The Witch of the North"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 32,
+        "end": 76
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s3-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Munchkin baby do that amused Dorothy?",
+      "options": [
+        "Played with Toto and pulled his tail",
+        "Danced with the grown people",
+        "Tried on her pink sunbonnet",
+        "Carried her basket to the road"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 61,
+        "end": 101
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s3-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Boq say about his own travels?",
+      "options": [
+        "He has never been to the Emerald City",
+        "He has been there once, long ago",
+        "He goes there every year to trade",
+        "He was born in the Emerald City"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 40,
+        "end": 67
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s3-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Boq say about white clothing?",
+      "options": [
+        "That only witches and sorceresses wear it",
+        "That it is worn by every Munchkin farmer",
+        "That it is the colour of the Emerald City",
+        "That it was the dead witch's own colour"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 108,
+        "end": 147
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s3-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does Dorothy pass her night at the house?",
+      "options": [
+        "She sleeps soundly, with Toto on the rug beside her",
+        "She lies awake worrying about the journey ahead",
+        "She sits up watching the dancing until morning",
+        "She is woken again and again by the fiddlers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 159,
+        "end": 201
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s3-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that Boq answered gravely?",
+      "options": [
+        "Seriously, without any joking",
+        "Sadly, as though grieving",
+        "Slowly, as though half asleep",
+        "Sharply, as though annoyed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 17,
+        "end": 37
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s3-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A night of hospitality that ends with a caution about the road",
+        "A night of dancing that Dorothy is too tired to enjoy",
+        "An argument in which Dorothy denies being a sorceress",
+        "A description of how the Munchkins farm their country"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 60
+      },
+      "pool": "retest"
+    }
+  ]
+}

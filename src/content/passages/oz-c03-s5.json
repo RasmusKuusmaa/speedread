@@ -1,0 +1,331 @@
+{
+  "id": "oz-c03-s5",
+  "title": "How Dorothy Saved the Scarecrow, part 5",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“I’m not feeling well,” said the Scarecrow, with a smile, “for it is very tedious being perched up here night and day to scare away crows.”",
+    "“Can’t you get down?” asked Dorothy.",
+    "“No, for this pole is stuck up my back. If you will please take away the pole I shall be greatly obliged to you.”",
+    "Dorothy reached up both arms and lifted the figure off the pole, for, being stuffed with straw, it was quite light.",
+    "“Thank you very much,” said the Scarecrow, when he had been set down on the ground. “I feel like a new man.”",
+    "Dorothy was puzzled at this, for it sounded queer to hear a stuffed man speak, and to see him bow and walk along beside her.",
+    "“Who are you?” asked the Scarecrow when he had stretched himself and yawned. “And where are you going?”",
+    "“My name is Dorothy,” said the girl, “and I am going to the Emerald City, to ask the Great Oz to send me back to Kansas.”",
+    "“Where is the Emerald City?” he inquired. “And who is Oz?”",
+    "“Why, don’t you know?” she returned, in surprise.",
+    "“No, indeed. I don’t know anything. You see, I am stuffed, so I have no brains at all,” he answered sadly.",
+    "“Oh,” said Dorothy, “I’m awfully sorry for you.”",
+    "“Do you think,” he asked, “if I go to the Emerald City with you, that Oz would give me some brains?”",
+    "“I cannot tell,” she returned, “but you may come with me, if you like. If Oz will not give you any brains you will be no worse off than you are now.”",
+    "“That is true,” said the Scarecrow. “You see,” he continued confidentially, “I don’t mind my legs and arms and body being stuffed, because I cannot get hurt. If anyone treads on my toes or sticks a pin into me, it doesn’t matter, for I can’t feel it. But I do not want people to call me a fool, and if my head stays stuffed with straw instead of with brains, as yours is, how am I ever to know anything?”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c03-s5-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Scarecrow say he is not feeling well?",
+      "options": [
+        "It is tedious being perched up to scare crows",
+        "The pole in his back has torn his coat",
+        "The birds have pulled out half his straw",
+        "The sun has faded his painted face"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 59,
+        "end": 137
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s5-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why could the Scarecrow not get down himself?",
+      "options": [
+        "The pole was stuck up his back",
+        "His legs were tied to the frame",
+        "He was afraid of falling into the corn",
+        "He had never learned how to walk"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 1,
+        "end": 39
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s5-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why was the Scarecrow easy for Dorothy to lift?",
+      "options": [
+        "He was stuffed with straw and quite light",
+        "He helped by pulling himself upward",
+        "The pole was already loose in the ground",
+        "She stood on the fence to reach him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 65,
+        "end": 114
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s5-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the Scarecrow say he wants from Oz?",
+      "options": ["Some brains", "A heart", "Courage", "A ride to Kansas"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 65,
+        "end": 98
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s5-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Scarecrow say when set down on the ground?",
+      "options": [
+        "That he feels like a new man",
+        "That he would rather go back up",
+        "That he cannot feel his own feet",
+        "That the straw has shifted about"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 85,
+        "end": 107
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s5-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Scarecrow not mind his body being stuffed?",
+      "options": [
+        "Nothing can hurt him, however he is treated",
+        "Straw is lighter than flesh to carry about",
+        "It keeps him from feeling the cold at night",
+        "It makes him tall enough to see the road"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 14,
+        "start": 131,
+        "end": 156
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s5-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Scarecrow fear most about having no brains?",
+      "options": [
+        "That people will call him a fool",
+        "That he will forget the way to the city",
+        "That the crows will stop being afraid",
+        "That Dorothy will not want his company"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 14,
+        "start": 251,
+        "end": 293
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s5-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what reason does Dorothy give for letting him come along?",
+      "options": [
+        "If Oz refuses, he will be no worse off than now",
+        "He knows the road to the Emerald City well",
+        "He can carry her basket the whole way",
+        "The Witch of the North told her to take him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 71,
+        "end": 148
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s5-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the Scarecrow mean by tedious?",
+      "options": [
+        "Wearisome and dull",
+        "Frightening and sudden",
+        "Painful to the body",
+        "Difficult to explain"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 63,
+        "end": 103
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s5-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A rescue that gains Dorothy a companion with a wish of his own",
+        "A rescue that Dorothy quickly comes to regret",
+        "An argument about whether the Scarecrow can think",
+        "A lesson in how scarecrows are made in the East"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 0,
+        "end": 100
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s5-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Scarecrow do after being set on his feet?",
+      "options": [
+        "Stretched himself and yawned",
+        "Ran a little way down the road",
+        "Sat down beside the fence to rest",
+        "Climbed back up onto his pole"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 35,
+        "end": 75
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s5-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the Scarecrow say he knows?",
+      "options": [
+        "Nothing at all",
+        "Only the way to the city",
+        "Everything the crows have told him",
+        "As much as any Munchkin farmer"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 13,
+        "end": 35
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s5-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Dorothy say she will ask Oz to do for her?",
+      "options": [
+        "Send her back to Kansas",
+        "Give her a pair of new shoes",
+        "Make her the ruler of the Munchkins",
+        "Carry her over the great desert"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 74,
+        "end": 119
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s5-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what puzzles Dorothy about her new companion?",
+      "options": [
+        "A stuffed man speaks, bows, and walks beside her",
+        "He knows her name without being told it",
+        "He refuses to say who made him or when",
+        "He can lift the basket without growing tired"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 29,
+        "end": 77
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s5-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Scarecrow not know at the start of the conversation?",
+      "options": [
+        "Where the Emerald City is, or who Oz is",
+        "That he is stuffed with straw rather than brains",
+        "That Dorothy has come from another country",
+        "How long he has been standing on the pole"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 0,
+        "end": 58
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s5-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does speaking confidentially mean?",
+      "options": [
+        "Telling her something as a private matter",
+        "Speaking loudly so that all could hear",
+        "Speaking with great certainty of himself",
+        "Explaining something over and over"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 14,
+        "start": 47,
+        "end": 74
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s5-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A stuffed man is freed from his pole and joins the journey",
+        "A stuffed man refuses to leave the field he guards",
+        "A girl teaches a scarecrow how to walk and talk",
+        "A scarecrow warns a girl about the road to the city"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 36,
+        "end": 69
+      },
+      "pool": "retest"
+    }
+  ]
+}

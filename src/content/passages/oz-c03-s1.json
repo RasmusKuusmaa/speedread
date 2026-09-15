@@ -1,0 +1,317 @@
+{
+  "id": "oz-c03-s1",
+  "title": "How Dorothy Saved the Scarecrow, part 1",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "When Dorothy was left alone she began to feel hungry. So she went to the cupboard and cut herself some bread, which she spread with butter. She gave some to Toto, and taking a pail from the shelf she carried it down to the little brook and filled it with clear, sparkling water. Toto ran over to the trees and began to bark at the birds sitting there. Dorothy went to get him, and saw such delicious fruit hanging from the branches that she gathered some of it, finding it just what she wanted to help out her breakfast.",
+    "Then she went back to the house, and having helped herself and Toto to a good drink of the cool, clear water, she set about making ready for the journey to the City of Emeralds.",
+    "Dorothy had only one other dress, but that happened to be clean and was hanging on a peg beside her bed. It was gingham, with checks of white and blue; and although the blue was somewhat faded with many washings, it was still a pretty frock. The girl washed herself carefully, dressed herself in the clean gingham, and tied her pink sunbonnet on her head. She took a little basket and filled it with bread from the cupboard, laying a white cloth over the top. Then she looked down at her feet and noticed how old and worn her shoes were.",
+    "“They surely will never do for a long journey, Toto,” she said. And Toto looked up into her face with his little black eyes and wagged his tail to show he knew what she meant.",
+    "At that moment Dorothy saw lying on the table the silver shoes that had belonged to the Witch of the East.",
+    "“I wonder if they will fit me,” she said to Toto. “They would be just the thing to take a long walk in, for they could not wear out.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c03-s1-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy carry down to the brook?",
+      "options": [
+        "A pail from the shelf",
+        "A basket from the cupboard",
+        "A white cloth from the table",
+        "A cup from beside her bed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 167,
+        "end": 235
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s1-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Dorothy find hanging from the branches?",
+      "options": [
+        "Delicious fruit",
+        "Blue lanterns",
+        "Ripe corn",
+        "Small bells"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 381,
+        "end": 431
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s1-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was Dorothy's other dress like?",
+      "options": [
+        "Gingham, checked in white and blue",
+        "Plain gray, worn thin at the elbows",
+        "White silk, sprinkled with small stars",
+        "Blue wool, with a deep rolled hem"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 105,
+        "end": 150
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s1-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Dorothy put in her little basket?",
+      "options": [
+        "Bread, with a white cloth over the top",
+        "Fruit, with a white cloth over the top",
+        "Her old shoes and her pink sunbonnet",
+        "A pail of water from the little brook"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 385,
+        "end": 458
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s1-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy tie on her head?",
+      "options": [
+        "Her pink sunbonnet",
+        "A pointed blue hat",
+        "A white cloth from the basket",
+        "A cap hung with little bells"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 319,
+        "end": 354
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s1-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did Dorothy start thinking about the silver shoes?",
+      "options": [
+        "Her own shoes were too old and worn for a long journey",
+        "She had been told the shoes would protect her from witches",
+        "The Munchkins had asked her to wear them out of respect",
+        "She wanted to leave her own shoes behind in the house"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 497,
+        "end": 536
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s1-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what advantage does Dorothy expect the silver shoes to have?",
+      "options": [
+        "That they could not wear out on a long walk",
+        "That they would carry her home without walking",
+        "That they would make the Munchkins obey her",
+        "That they would keep her feet from getting wet"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 104,
+        "end": 131
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s1-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does Toto answer when Dorothy speaks to him?",
+      "options": [
+        "He looks into her face and wags his tail",
+        "He barks twice and runs towards the road",
+        "He growls and hides beneath the table",
+        "He takes the old shoes away in his mouth"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 68,
+        "end": 143
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s1-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the fruit helped out her breakfast?",
+      "options": [
+        "It added to what she already had",
+        "It replaced the meal entirely",
+        "It spoiled the bread she had cut",
+        "It was all she could find to eat"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 462,
+        "end": 519
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s1-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures what the passage shows?",
+      "options": [
+        "A careful, practical child getting herself ready to travel",
+        "A frightened child putting off a journey she dreads",
+        "A hungry child searching a strange country for food",
+        "A child saying goodbye to the people who helped her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 110,
+        "end": 176
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c03-s1-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy spread on her bread?",
+      "options": ["Butter", "Honey", "Jam", "Nothing at all"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 86,
+        "end": 138
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s1-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was Toto barking at among the trees?",
+      "options": [
+        "The birds sitting there",
+        "The fruit on the branches",
+        "A Munchkin passing by",
+        "The brook running past"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 310,
+        "end": 350
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s1-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where had the clean dress been hanging?",
+      "options": [
+        "On a peg beside her bed",
+        "Over the back of a chair",
+        "In the cupboard with the dishes",
+        "On a line outside the door"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 68,
+        "end": 103
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s1-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the faded blue of the frock suggest?",
+      "options": [
+        "It had been washed a great many times",
+        "It had been made from very cheap cloth",
+        "It had been left out in the sun to dry",
+        "It had been dyed the wrong colour once"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 156,
+        "end": 211
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s1-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Dorothy's preparation show about the journey ahead?",
+      "options": [
+        "She expects to be walking a long way and takes food",
+        "She expects to be back at the house before nightfall",
+        "She expects the Munchkins to carry her belongings",
+        "She expects to find nothing to eat along the road"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 53
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s1-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what is a frock?",
+      "options": ["A dress", "A coat", "A hat", "A pair of shoes"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 213,
+        "end": 240
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c03-s1-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Breakfast, clean clothes, and a pair of shoes that will last",
+        "A morning spent searching the house for something to eat",
+        "A decision to stay where she is until help arrives",
+        "A farewell to the Munchkins before the road begins"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 0,
+        "end": 31
+      },
+      "pool": "retest"
+    }
+  ]
+}
