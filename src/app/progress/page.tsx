@@ -9,6 +9,7 @@ import {
   type TextType,
 } from "@/lib/content/types";
 import { loadBooks } from "@/lib/content/book-loader";
+import { completionPercent } from "@/lib/books/progress";
 import { loadPassages } from "@/lib/content/loader";
 import type { BookWithChunks } from "@/lib/content/types";
 import { computeCumulativeWordsRead } from "@/lib/metrics/cumulative-words";
@@ -93,8 +94,8 @@ function HoldingRateHeadline({
   if (status.upperBoundWpm === null) {
     return (
       <p className="font-serif text-2xl text-ink">
-        You haven&apos;t yet held {thresholdPercent}% comprehension at any
-        speed you&apos;ve read at.
+        You haven&apos;t yet held {thresholdPercent}% comprehension at any speed
+        you&apos;ve read at.
       </p>
     );
   }
@@ -259,13 +260,11 @@ function CalibrationChart({ sessions }: { sessions: SessionRecord[] }) {
             className="flex items-center justify-between gap-3 font-sans text-sm"
           >
             <span className="text-ink">
-              {new Date(
-                session.timings.startedAtEpochMs,
-              ).toLocaleDateString()}
+              {new Date(session.timings.startedAtEpochMs).toLocaleDateString()}
             </span>
             <span className="text-muted">
-              {Math.round(session.wpm)} wpm,{" "}
-              {Math.round(session.comprehension)}% comprehension
+              {Math.round(session.wpm)} wpm, {Math.round(session.comprehension)}
+              % comprehension
             </span>
           </li>
         ))}
@@ -295,11 +294,15 @@ function BookProgressSection({
           const progress = bookProgress.find(
             (entry) => entry.bookId === book.id,
           );
-          const totalChunks = book.chunks.length;
           const chunkIds = new Set(book.chunkPassageIds);
-          const bookSessions = sessions.filter((session) =>
-            chunkIds.has(session.passageId),
+          // A sitting can cover several sections at once, so match on
+          // everything it read rather than the section it started at.
+          const bookSessions = sessions.filter(
+            (session) =>
+              chunkIds.has(session.passageId) ||
+              session.chunkPassageIds.some((id) => chunkIds.has(id)),
           );
+          const percentRead = Math.round(completionPercent(book, progress));
           const averageComprehension =
             bookSessions.length > 0
               ? bookSessions.reduce(
@@ -309,11 +312,11 @@ function BookProgressSection({
               : null;
 
           const status =
-            progress === undefined
+            percentRead === 0
               ? "Not started"
-              : progress.completedAtEpochMs !== null
+              : percentRead === 100
                 ? "Finished"
-                : `${progress.currentChunkIndex} of ${totalChunks} sections read`;
+                : `${percentRead}% read`;
 
           return (
             <li
@@ -376,8 +379,8 @@ export default function ProgressPage() {
         sessions={store.sessions}
       />
       <p className="font-sans text-sm text-muted">
-        {computeCumulativeWordsRead(store.sessions).toLocaleString()} words
-        read in total.
+        {computeCumulativeWordsRead(store.sessions).toLocaleString()} words read
+        in total.
       </p>
       <TaxonomyBars averages={computeTaxonomyAverages(store.sessions)} />
       <GroupBreakdown title="By domain" keys={DOMAINS} stats={domainStats} />
