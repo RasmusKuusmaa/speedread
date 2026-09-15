@@ -1,0 +1,324 @@
+{
+  "id": "empire-state-building-history",
+  "title": "Ensured to Be the World's Tallest",
+  "language": "en",
+  "source": "https://en.wikipedia.org/wiki/Empire_State_Building",
+  "attribution": "Adapted (trimmed) from the Wikipedia article \"Empire State Building,\" available under CC BY-SA 4.0.",
+  "licence": "CC BY-SA 4.0",
+  "textType": "expository",
+  "domain": "engineering",
+  "calibrationOnly": false,
+  "body": [
+    "The Empire State Building is a 102-story, supertall skyscraper in the Midtown South neighborhood of Manhattan, New York City, United States. The building was designed in the Art Deco style by Shreve, Lamb & Harmon and constructed between 1930 and 1931. The building has a roof height of 1,250 feet (380 m) and stands a total of 1,454 feet (443.2 m) tall including its antenna. The Empire State Building was the world's tallest building until the North Tower of the World Trade Center was topped out in 1970.",
+    "In 1929, Empire State Inc. acquired the site and devised plans for a skyscraper there. The design for the Empire State Building was changed fifteen times until it was ensured to be the world's tallest building. Construction started on March 17, 1930, and the building opened thirteen and a half months afterward on May 1, 1931. Despite favorable publicity related to the building's construction, because of the Great Depression and World War II, its owners did not make a profit until the early 1950s.",
+    "Around four million tourists from around the world annually visit the building's 86th- and 102nd-floor observatories. The Empire State Building is an international cultural icon: it has been featured in more than 250 television series and films since the film King Kong was released in 1933. A symbol of New York City, the building has been named as one of the Seven Wonders of the Modern World by the American Society of Civil Engineers."
+  ],
+  "questions": [
+    {
+      "id": "empire-state-building-history-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many stories does the Empire State Building have?",
+      "options": [
+        "102",
+        "50",
+        "150",
+        "86"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 62
+      },
+      "pool": "first"
+    },
+    {
+      "id": "empire-state-building-history-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what architectural firm designed the Empire State Building?",
+      "options": [
+        "Shreve, Lamb & Harmon",
+        "Empire State Inc.",
+        "The American Institute of Architects",
+        "The American Society of Civil Engineers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 141,
+        "end": 213
+      },
+      "pool": "first"
+    },
+    {
+      "id": "empire-state-building-history-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the building's total height including its antenna?",
+      "options": [
+        "1,454 feet (443.2 m)",
+        "1,250 feet (380 m)",
+        "2,000 feet (610 m)",
+        "500 feet (152 m)"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 310,
+        "end": 375
+      },
+      "pool": "first"
+    },
+    {
+      "id": "empire-state-building-history-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, until what event was the Empire State Building the world's tallest building?",
+      "options": [
+        "Until the North Tower of the World Trade Center was topped out in 1970",
+        "Until the September 11 attacks in 2001",
+        "Until One World Trade Center opened in 2012",
+        "Until the Great Depression began in 1929"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 377,
+        "end": 506
+      },
+      "pool": "first"
+    },
+    {
+      "id": "empire-state-building-history-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, on what date did construction on the building start?",
+      "options": [
+        "March 17, 1930",
+        "May 1, 1931",
+        "January 1, 1929",
+        "September 11, 1930"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 211,
+        "end": 249
+      },
+      "pool": "first"
+    },
+    {
+      "id": "empire-state-building-history-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, on what date did the building open?",
+      "options": [
+        "May 1, 1931",
+        "March 17, 1930",
+        "December 25, 1931",
+        "July 4, 1930"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 255,
+        "end": 326
+      },
+      "pool": "first"
+    },
+    {
+      "id": "empire-state-building-history-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was the building's design \"changed fifteen times\"?",
+      "options": [
+        "To ensure the building would be the world's tallest",
+        "To reduce the total construction cost",
+        "To satisfy a request from the city government",
+        "To make room for more tourist observatories"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 87,
+        "end": 209
+      },
+      "pool": "first"
+    },
+    {
+      "id": "empire-state-building-history-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why didn't the building's owners turn a profit until the early 1950s despite favorable publicity?",
+      "options": [
+        "The Great Depression and World War II suppressed demand for office space despite the building's fame",
+        "The building was never open to paying tenants until the 1950s",
+        "The observatories were closed to visitors for over a decade",
+        "The building was damaged and required lengthy repairs"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 396,
+        "end": 500
+      },
+      "pool": "first"
+    },
+    {
+      "id": "empire-state-building-history-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "The Empire State Building was built to be a record-setting skyscraper and became a lasting cultural icon despite early financial struggles",
+        "The Empire State Building was a financial success from the moment it opened",
+        "The Empire State Building has never been surpassed in height",
+        "The Empire State Building was rarely visited by tourists after opening"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 118,
+        "end": 177
+      },
+      "pool": "first"
+    },
+    {
+      "id": "empire-state-building-history-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the Empire State Building is a \"supertall\" skyscraper?",
+      "options": [
+        "It belongs to a category of extremely tall buildings",
+        "It is unusually wide compared to its height",
+        "It is built entirely underground",
+        "It has an unusually small number of floors"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 62
+      },
+      "pool": "first"
+    },
+    {
+      "id": "empire-state-building-history-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in what architectural style was the building designed?",
+      "options": [
+        "Art Deco",
+        "Gothic Revival",
+        "Modernist",
+        "Baroque"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 141,
+        "end": 213
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "empire-state-building-history-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what company acquired the building's site in 1929?",
+      "options": [
+        "Empire State Inc.",
+        "Shreve, Lamb & Harmon",
+        "The American Society of Civil Engineers",
+        "The Waldorf-Astoria Corporation"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 85
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "empire-state-building-history-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how long after construction started did the building open?",
+      "options": [
+        "Thirteen and a half months",
+        "Exactly one year",
+        "Five years",
+        "Six months"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 255,
+        "end": 326
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "empire-state-building-history-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, about how many tourists visit the building's observatories annually?",
+      "options": [
+        "Around four million",
+        "About ten thousand",
+        "Around forty thousand",
+        "About four hundred"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 116
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "empire-state-building-history-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author mention that the building has appeared in films since King Kong in 1933?",
+      "options": [
+        "To illustrate the building's long-standing status as a recognizable cultural icon across many decades",
+        "To argue that the building was originally built as a movie set",
+        "To prove that the building was unpopular until the film was released",
+        "To suggest that the building was demolished shortly after 1933"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 179,
+        "end": 290
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "empire-state-building-history-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what the passage says about the building's cultural significance?",
+      "options": [
+        "It has become an internationally recognized symbol of New York City, appearing in countless films and drawing millions of tourists",
+        "It is significant mainly because of its low construction cost",
+        "It is primarily known as an office building with little tourist interest",
+        "It lost its cultural significance after being surpassed in height"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 292,
+        "end": 437
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "empire-state-building-history-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the North Tower of the World Trade Center was \"topped out\" in 1970?",
+      "options": [
+        "Its structural framework reached its final, full height",
+        "It was demolished down to its foundation",
+        "It was officially opened to the public",
+        "It was painted its final color"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 436,
+        "end": 506
+      },
+      "pool": "retest"
+    }
+  ]
+}
