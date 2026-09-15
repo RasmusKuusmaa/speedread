@@ -1,0 +1,324 @@
+{
+  "id": "panama-canal-history",
+  "title": "A Lack of Investors' Confidence",
+  "language": "en",
+  "source": "https://en.wikipedia.org/wiki/Panama_Canal",
+  "attribution": "Adapted (trimmed) from the Wikipedia article \"Panama Canal,\" available under CC BY-SA 4.0.",
+  "licence": "CC BY-SA 4.0",
+  "textType": "expository",
+  "domain": "engineering",
+  "calibrationOnly": false,
+  "body": [
+    "The Panama Canal is an artificial 82-kilometer (51-mile) waterway in Panama that connects the Caribbean Sea with the Pacific Ocean. It cuts across the narrowest point of the Isthmus of Panama, and is a conduit for maritime trade between the Atlantic Ocean and the Pacific Ocean. Locks at each end lift ships up to Gatun Lake, an artificial fresh water lake 26 meters (85 ft) above sea level, created by damming the Chagres River and Lake Alajuela to reduce the amount of excavation work required for the canal. A third, wider lane of locks was constructed between September 2007 and May 2016, allowing for the transit of larger, Neopanamax ships.",
+    "Colombia, France, and later the United States controlled the territory surrounding the canal during construction. France began work on the canal in 1881, but stopped in 1889 because of a lack of investors' confidence due to engineering problems and a high worker mortality rate. The US took over the project in 1904 and opened the canal in 1914. The US continued to control the canal and the surrounding Panama Canal Zone until the Torrijos-Carter Treaties provided for its handover to Panama in 1977. After a period of joint American-Panamanian control, the Panamanian government took control in 1999.",
+    "Annual traffic has risen from about 1,000 ships in 1914, when the canal opened, to 14,702 vessels in 2008. By 2012, more than 815,000 vessels had passed through the canal in total. In that year, the top five users of the canal were the United States, China, Chile, Japan, and South Korea. The American Society of Civil Engineers has ranked the Panama Canal one of the Seven Wonders of the Modern World."
+  ],
+  "questions": [
+    {
+      "id": "panama-canal-history-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how long is the Panama Canal?",
+      "options": [
+        "82 kilometers (51 miles)",
+        "26 kilometers (16 miles)",
+        "150 kilometers (93 miles)",
+        "40 kilometers (25 miles)"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 75
+      },
+      "pool": "first"
+    },
+    {
+      "id": "panama-canal-history-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what two bodies of water does the canal connect?",
+      "options": [
+        "The Caribbean Sea and the Pacific Ocean",
+        "The Atlantic Ocean and the Indian Ocean",
+        "The Gulf of Mexico and the Pacific Ocean",
+        "The Mediterranean Sea and the Red Sea"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 20,
+        "end": 130
+      },
+      "pool": "first"
+    },
+    {
+      "id": "panama-canal-history-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, to what lake do locks lift ships at each end of the canal?",
+      "options": [
+        "Gatun Lake",
+        "Lake Alajuela",
+        "Lake Panama",
+        "Lake Chagres"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 279,
+        "end": 324
+      },
+      "pool": "first"
+    },
+    {
+      "id": "panama-canal-history-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, when was the third, wider lane of locks constructed?",
+      "options": [
+        "Between September 2007 and May 2016",
+        "Between 1881 and 1889",
+        "Between 1904 and 1914",
+        "Between 1977 and 1999"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 511,
+        "end": 591
+      },
+      "pool": "first"
+    },
+    {
+      "id": "panama-canal-history-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, which country began work on the canal in 1881?",
+      "options": [
+        "France",
+        "Colombia",
+        "The United States",
+        "Spain"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 114,
+        "end": 152
+      },
+      "pool": "first"
+    },
+    {
+      "id": "panama-canal-history-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, in what year did the United States open the canal?",
+      "options": [
+        "1914",
+        "1904",
+        "1889",
+        "1977"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 279,
+        "end": 344
+      },
+      "pool": "first"
+    },
+    {
+      "id": "panama-canal-history-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did France stop work on the canal in 1889?",
+      "options": [
+        "Investors lost confidence because of engineering problems and a high worker mortality rate",
+        "The Panamanian government forced France to withdraw",
+        "France ran out of available land to dig through",
+        "The canal had already been completed by that point"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 154,
+        "end": 277
+      },
+      "pool": "first"
+    },
+    {
+      "id": "panama-canal-history-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was the signing of the Torrijos-Carter Treaties significant?",
+      "options": [
+        "It provided for the canal's handover from the United States to Panama in 1977",
+        "It marked the moment France first began construction",
+        "It ended all ship traffic through the canal",
+        "It authorized the building of the third lane of locks"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 428,
+        "end": 500
+      },
+      "pool": "first"
+    },
+    {
+      "id": "panama-canal-history-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "The Panama Canal is a major engineering achievement whose control passed through several nations before Panama gained full authority over it",
+        "The Panama Canal was built quickly and easily by a single country",
+        "The Panama Canal has seen a steady decline in ship traffic since it opened",
+        "The Panama Canal was abandoned shortly after its completion"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 112
+      },
+      "pool": "first"
+    },
+    {
+      "id": "panama-canal-history-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the canal is a \"conduit\" for maritime trade?",
+      "options": [
+        "A channel or passage through which something flows",
+        "A barrier that blocks trade routes",
+        "A tax imposed on shipping companies",
+        "A type of ship built for narrow waterways"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 197,
+        "end": 277
+      },
+      "pool": "first"
+    },
+    {
+      "id": "panama-canal-history-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, damming what river and lake created Gatun Lake?",
+      "options": [
+        "The Chagres River and Lake Alajuela",
+        "The Panama River and Lake Gatun",
+        "The Colon River and Lake Balboa",
+        "The Isthmus River and Lake Colon"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 392,
+        "end": 446
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "panama-canal-history-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, in what year did the United States take over the canal project?",
+      "options": [
+        "1904",
+        "1881",
+        "1889",
+        "1914"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 279,
+        "end": 344
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "panama-canal-history-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in what year did the Panamanian government take full control of the canal?",
+      "options": [
+        "1999",
+        "1977",
+        "1914",
+        "2016"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 555,
+        "end": 601
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "panama-canal-history-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how many vessels in total had passed through the canal by 2012?",
+      "options": [
+        "More than 815,000",
+        "About 14,702",
+        "About 1,000",
+        "More than 2 million"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 107,
+        "end": 179
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "panama-canal-history-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author mention that the American Society of Civil Engineers ranked the canal one of the Seven Wonders of the Modern World?",
+      "options": [
+        "To underscore the scale and significance of the canal as an engineering achievement",
+        "To argue that the canal is no longer in use today",
+        "To suggest that the canal was built entirely without modern technology",
+        "To prove that the canal was the very first of its kind in history"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 289,
+        "end": 401
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "panama-canal-history-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what the passage says about the canal's traffic over time?",
+      "options": [
+        "Traffic grew enormously, from about 1,000 ships in 1914 to hundreds of thousands of vessels by 2012",
+        "Traffic has remained exactly the same since the canal opened in 1914",
+        "Traffic dropped sharply after the third lane of locks was built",
+        "The passage does not discuss traffic levels at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 105
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "panama-canal-history-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the treaties provided for the canal's \"handover\" to Panama?",
+      "options": [
+        "The formal transfer of control to Panama",
+        "The permanent closing of the canal",
+        "A temporary loan of the canal's profits",
+        "A renaming of the canal itself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 428,
+        "end": 500
+      },
+      "pool": "retest"
+    }
+  ]
+}

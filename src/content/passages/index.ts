@@ -19,6 +19,7 @@ import ozGrayPrairie from "./oz-gray-prairie.json";
 import ozGreenRoom from "./oz-green-room.json";
 import mechanicalEngineeringAncientHistory from "./mechanical-engineering-ancient-history.json";
 import ozSilverShoes from "./oz-silver-shoes.json";
+import panamaCanalHistory from "./panama-canal-history.json";
 import poeBlackCatWalledUp from "./poe-black-cat-walled-up.json";
 import poePitAndPendulumDescent from "./poe-pit-and-pendulum-descent.json";
 import poePrematureBurialVision from "./poe-premature-burial-vision.json";
@@ -61,6 +62,7 @@ export const rawPassages: unknown[] = [
   eiffelTowerHistory,
   brooklynBridgeHistory,
   hooverDamHistory,
+  panamaCanalHistory,
   secretGardenGreenPoints,
   secretGardenMistressContrary,
   secretGardenSilentBungalow,
