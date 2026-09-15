@@ -1,0 +1,326 @@
+{
+  "id": "oz-c20-s1",
+  "title": "The Dainty China Country, part 1",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "While the Woodman was making a ladder from wood which he found in the forest Dorothy lay down and slept, for she was tired by the long walk. The Lion also curled himself up to sleep and Toto lay beside him.",
+    "The Scarecrow watched the Woodman while he worked, and said to him:",
+    "“I cannot think why this wall is here, nor what it is made of.”",
+    "“Rest your brains and do not worry about the wall,” replied the Woodman. “When we have climbed over it, we shall know what is on the other side.”",
+    "After a time the ladder was finished. It looked clumsy, but the Tin Woodman was sure it was strong and would answer their purpose. The Scarecrow waked Dorothy and the Lion and Toto, and told them that the ladder was ready. The Scarecrow climbed up the ladder first, but he was so awkward that Dorothy had to follow close behind and keep him from falling off. When he got his head over the top of the wall the Scarecrow said, “Oh, my!”",
+    "“Go on,” exclaimed Dorothy.",
+    "So the Scarecrow climbed farther up and sat down on the top of the wall, and Dorothy put her head over and cried, “Oh, my!” just as the Scarecrow had done.",
+    "Then Toto came up, and immediately began to bark, but Dorothy made him be still.",
+    "The Lion climbed the ladder next, and the Tin Woodman came last; but both of them cried, “Oh, my!” as soon as they looked over the wall. When they were all sitting in a row on the top of the wall, they looked down and saw a strange sight.",
+    "Before them was a great stretch of country having a floor as smooth and shining and white as the bottom of a big platter. Scattered around were many houses made entirely of china and painted in the brightest colors. These houses were quite small, the biggest of them reaching only as high as Dorothy’s waist. There were also pretty little barns, with china fences around them; and many cows and sheep and horses and pigs and chickens, all made of china, were standing about in groups."
+  ],
+  "questions": [
+    {
+      "id": "oz-c20-s1-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Woodman make the ladder from?",
+      "options": [
+        "Wood he found in the forest",
+        "Slats taken from the china wall",
+        "Tin beaten out into long strips",
+        "Branches cut from the fighting trees"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 22,
+        "end": 76
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s1-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who climbed the ladder first?",
+      "options": [
+        "The Scarecrow, with Dorothy behind",
+        "The Tin Woodman, with his axe",
+        "The Lion, with Toto on his back",
+        "Dorothy, carrying her basket"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 223,
+        "end": 264
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s1-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the floor of the country like?",
+      "options": [
+        "Smooth and white as a big platter",
+        "Rough and broken like dry mud",
+        "Green as the fields near the city",
+        "Soft with moss and dried leaves"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 43,
+        "end": 120
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s1-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how big were the china houses?",
+      "options": [
+        "The biggest reached Dorothy's waist",
+        "They were taller than the wall",
+        "About the height of the Tin Woodman",
+        "No bigger than Dorothy's basket"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 247,
+        "end": 307
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s1-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did each of them say at the top?",
+      "options": ["Oh, my!", "Look there!", "Nothing at all", "Come back!"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 405,
+        "end": 434
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s1-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did Dorothy follow close behind the Scarecrow?",
+      "options": [
+        "He was so awkward she had to keep him from falling",
+        "She wanted to see over the wall first",
+        "The ladder would hold only two at a time",
+        "He could not see the rungs in the dark"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 266,
+        "end": 327
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s1-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what was the Woodman's answer to the Scarecrow's puzzling?",
+      "options": [
+        "To rest his brains until they could see the other side",
+        "That the wall had been built by Glinda herself",
+        "That china walls are common in the South",
+        "That the wall was made of painted wood"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 1,
+        "end": 49
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s1-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what was the ladder like when finished?",
+      "options": [
+        "Clumsy, but strong enough for the purpose",
+        "Neat and handsome, but rather weak",
+        "Too short to reach the top of the wall",
+        "So heavy that nobody could lift it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 38,
+        "end": 98
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s1-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does answer their purpose mean?",
+      "options": [
+        "Serve well enough for what they need",
+        "Reply to a question they had asked",
+        "Match the plan the Scarecrow drew",
+        "Last them for the rest of the journey"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 103,
+        "end": 129
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s1-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A ladder gets them to the top of a wall and a strange country below",
+        "A wall proves too high for any ladder they can build",
+        "The Scarecrow works out what the china wall is made of",
+        "The party decides to walk around the china wall instead"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 197,
+        "end": 237
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s1-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy do while the ladder was built?",
+      "options": [
+        "Lay down and slept, being tired",
+        "Helped the Woodman cut the wood",
+        "Kept watch at the edge of the wood",
+        "Walked along the wall to find a gate"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 77,
+        "end": 103
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c20-s1-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what were the china houses painted?",
+      "options": [
+        "The brightest colours",
+        "Plain white, like the floor",
+        "All in shades of green",
+        "Left unpainted altogether"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 183,
+        "end": 214
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c20-s1-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Toto do at the top of the wall?",
+      "options": [
+        "Began to bark at once",
+        "Refused to climb any higher",
+        "Jumped down the other side",
+        "Fell asleep on the Lion's back"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 19,
+        "end": 48
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c20-s1-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what animals stood about in the country below?",
+      "options": [
+        "China cows, sheep, horses, pigs, and chickens",
+        "Real cattle grazing among china fences",
+        "Nothing living or made at all",
+        "Only a single purple china dog"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 377,
+        "end": 452
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c20-s1-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, who went up the ladder last?",
+      "options": [
+        "The Tin Woodman",
+        "The Scarecrow",
+        "Dorothy and Toto",
+        "The Cowardly Lion"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 34,
+        "end": 63
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c20-s1-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does awkward describe about the Scarecrow?",
+      "options": [
+        "Clumsy and unsteady on the rungs",
+        "Unwilling to go up at all",
+        "Slower than the others were",
+        "Frightened of the height"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 266,
+        "end": 287
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c20-s1-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Careful work with a ladder opens a view of a country made of china",
+        "A sleep at the foot of the wall that lasts until morning",
+        "A quarrel about who should climb the ladder first",
+        "A decision that the china country cannot be crossed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 137,
+        "end": 195
+      },
+      "pool": "retest"
+    }
+  ]
+}
