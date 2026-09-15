@@ -1,0 +1,336 @@
+{
+  "id": "oz-c13-s3",
+  "title": "The Rescue, part 3",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "So she called the Winkies to help her, and they walked all that day and part of the next until they came to the tall tree in the branches of which the Winged Monkeys had tossed the Scarecrow’s clothes.",
+    "It was a very tall tree, and the trunk was so smooth that no one could climb it; but the Woodman said at once, “I’ll chop it down, and then we can get the Scarecrow’s clothes.”",
+    "Now while the tinsmiths had been at work mending the Woodman himself, another of the Winkies, who was a goldsmith, had made an axe-handle of solid gold and fitted it to the Woodman’s axe, instead of the old broken handle. Others polished the blade until all the rust was removed and it glistened like burnished silver.",
+    "As soon as he had spoken, the Tin Woodman began to chop, and in a short time the tree fell over with a crash, whereupon the Scarecrow’s clothes fell out of the branches and rolled off on the ground.",
+    "Dorothy picked them up and had the Winkies carry them back to the castle, where they were stuffed with nice, clean straw; and behold! here was the Scarecrow, as good as ever, thanking them over and over again for saving him.",
+    "Now that they were reunited, Dorothy and her friends spent a few happy days at the Yellow Castle, where they found everything they needed to make them comfortable.",
+    "But one day the girl thought of Aunt Em, and said, “We must go back to Oz, and claim his promise.”",
+    "“Yes,” said the Woodman, “at last I shall get my heart.”",
+    "“And I shall get my brains,” added the Scarecrow joyfully.",
+    "“And I shall get my courage,” said the Lion thoughtfully.",
+    "“And I shall get back to Kansas,” cried Dorothy, clapping her hands. “Oh, let us start for the Emerald City tomorrow!”",
+    "This they decided to do. The next day they called the Winkies together and bade them good-bye. The Winkies were sorry to have them go, and they had grown so fond of the Tin Woodman that they begged him to stay and rule over them and the Yellow Land of the West. Finding they were determined to go, the Winkies gave Toto and the Lion each a golden collar; and to Dorothy they presented a beautiful bracelet studded with diamonds; and to the Scarecrow they gave a gold-headed walking stick, to keep him from stumbling; and to the Tin Woodman they offered a silver oil-can, inlaid with gold and set with precious jewels.",
+    "Every one of the travelers made the Winkies a pretty speech in return, and all shook hands with them until their arms ached.",
+    "Dorothy went to the Witch’s cupboard to fill her basket with food for the journey, and there she saw the Golden Cap. She tried it on her own head and found that it fitted her exactly. She did not know anything about the charm of the Golden Cap, but she saw that it was pretty, so she made up her mind to wear it and carry her sunbonnet in the basket.",
+    "Then, being prepared for the journey, they all started for the Emerald City; and the Winkies gave them three cheers and many good wishes to carry with them."
+  ],
+  "questions": [
+    {
+      "id": "oz-c13-s3-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why could nobody climb the tall tree?",
+      "options": [
+        "Its trunk was too smooth",
+        "Its branches began too high",
+        "It was guarded by the Monkeys",
+        "It stood in the middle of a river"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 29,
+        "end": 79
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s3-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what had the goldsmith made for the Woodman?",
+      "options": [
+        "An axe-handle of solid gold",
+        "A new blade of polished steel",
+        "A golden collar like the Lion's",
+        "A silver oil-can set with jewels"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 115,
+        "end": 151
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s3-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Scarecrow stuffed with at the castle?",
+      "options": [
+        "Nice, clean straw",
+        "The same straw as before",
+        "Feathers from the Witch's crows",
+        "Dry leaves from the forest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 74,
+        "end": 120
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s3-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Winkies give the Scarecrow?",
+      "options": [
+        "A gold-headed walking stick",
+        "A golden collar",
+        "A bracelet studded with diamonds",
+        "A silver oil-can"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 450,
+        "end": 487
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s3-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did they give Dorothy?",
+      "options": [
+        "A bracelet studded with diamonds",
+        "A golden collar for her neck",
+        "A silver oil-can inlaid with gold",
+        "A basket full of food"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 359,
+        "end": 427
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s3-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Winkies beg the Tin Woodman to do?",
+      "options": [
+        "Stay and rule over them and their land",
+        "Take their goldsmith with him to Oz",
+        "Come back once he had his heart",
+        "Leave his axe behind as a keepsake"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 186,
+        "end": 228
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s3-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did Dorothy decide to wear the Golden Cap?",
+      "options": [
+        "She thought it pretty, knowing nothing of its charm",
+        "The Queen of the Mice had told her to",
+        "She wanted to command the Winged Monkeys",
+        "Her sunbonnet had been lost in the castle"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 184,
+        "end": 243
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s3-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what prompted the decision to leave?",
+      "options": [
+        "Dorothy thought of Aunt Em and the Wizard's promise",
+        "The Winkies asked them politely to go",
+        "The castle food had begun to run out",
+        "The Scarecrow insisted they had stayed too long"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 0,
+        "end": 39
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s3-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does reunited mean?",
+      "options": [
+        "Brought back together again",
+        "Set free from bondage",
+        "Made as good as new",
+        "Given fresh clothes to wear"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 0,
+        "end": 27
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s3-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "The party is whole again, richly thanked, and sets out to claim its promise",
+        "The party decides to settle in the Yellow Land for good",
+        "The Scarecrow cannot be recovered from the tall tree",
+        "A quarrel over the Golden Cap divides the friends"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 14,
+        "start": 0,
+        "end": 75
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s3-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Winkies give the Lion and Toto?",
+      "options": [
+        "A golden collar each",
+        "A silver bell each",
+        "A diamond bracelet each",
+        "Nothing at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 298,
+        "end": 353
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c13-s3-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was the gold-headed stick meant to do?",
+      "options": [
+        "Keep the Scarecrow from stumbling",
+        "Help him reach the high branches",
+        "Serve as a weapon on the road",
+        "Mark him out as a person of rank"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 489,
+        "end": 515
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c13-s3-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did Dorothy find the Golden Cap?",
+      "options": [
+        "In the Witch's cupboard",
+        "On the kitchen floor",
+        "Among the Scarecrow's clothes",
+        "In the Lion's little yard"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 0,
+        "end": 36
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c13-s3-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how was the Scarecrow's bundle brought down?",
+      "options": [
+        "The Woodman chopped the whole tree down",
+        "The Winkies formed a ladder to reach it",
+        "The Lion shook the tree until it fell",
+        "The Winged Monkeys returned it to them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 112,
+        "end": 174
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c13-s3-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did each of the four look forward to?",
+      "options": [
+        "A heart, brains, courage, and Kansas",
+        "Ruling the Yellow Land together",
+        "Another holiday with the Winkies",
+        "Meeting the Winged Monkeys again"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 56
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c13-s3-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does burnished describe?",
+      "options": [
+        "Polished until it shone",
+        "Blackened by rust",
+        "Beaten out of shape",
+        "Worn down by use"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 283,
+        "end": 317
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c13-s3-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A rescue, a parting full of gifts, and the road back to Oz",
+        "A decision to stay and rule the Winkie country",
+        "A long search that fails to find the Scarecrow's clothes",
+        "A quarrel with the Winkies over the Witch's treasure"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 95,
+        "end": 133
+      },
+      "pool": "retest"
+    }
+  ]
+}

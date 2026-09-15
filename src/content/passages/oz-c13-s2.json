@@ -1,0 +1,326 @@
+{
+  "id": "oz-c13-s2",
+  "title": "The Rescue, part 2",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“Then bring them to me,” she said. And when the tinsmiths came, bringing with them all their tools in baskets, she inquired, “Can you straighten out those dents in the Tin Woodman, and bend him back into shape again, and solder him together where he is broken?”",
+    "The tinsmiths looked the Woodman over carefully and then answered that they thought they could mend him so he would be as good as ever. So they set to work in one of the big yellow rooms of the castle and worked for three days and four nights, hammering and twisting and bending and soldering and polishing and pounding at the legs and body and head of the Tin Woodman, until at last he was straightened out into his old form, and his joints worked as well as ever. To be sure, there were several patches on him, but the tinsmiths did a good job, and as the Woodman was not a vain man he did not mind the patches at all.",
+    "When, at last, he walked into Dorothy’s room and thanked her for rescuing him, he was so pleased that he wept tears of joy, and Dorothy had to wipe every tear carefully from his face with her apron, so his joints would not be rusted. At the same time her own tears fell thick and fast at the joy of meeting her old friend again, and these tears did not need to be wiped away. As for the Lion, he wiped his eyes so often with the tip of his tail that it became quite wet, and he was obliged to go out into the courtyard and hold it in the sun till it dried.",
+    "“If we only had the Scarecrow with us again,” said the Tin Woodman, when Dorothy had finished telling him everything that had happened, “I should be quite happy.”",
+    "“We must try to find him,” said the girl."
+  ],
+  "questions": [
+    {
+      "id": "oz-c13-s2-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how long did the tinsmiths work?",
+      "options": [
+        "Three days and four nights",
+        "A single long afternoon",
+        "Seven days and seven nights",
+        "Two whole weeks"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 205,
+        "end": 242
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s2-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the tinsmiths bring with them?",
+      "options": [
+        "All their tools in baskets",
+        "A new axe for the Woodman",
+        "Sheets of fresh tin",
+        "A cart to carry him on"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 64,
+        "end": 109
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s2-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was left on the Woodman after the mending?",
+      "options": [
+        "Several patches",
+        "A permanent limp",
+        "A dent in his head",
+        "Nothing at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 478,
+        "end": 511
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s2-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Dorothy use to wipe the Woodman's tears?",
+      "options": [
+        "Her apron",
+        "A cloth from the kitchen",
+        "The Lion's tail",
+        "Her white dress"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 143,
+        "end": 197
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s2-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion have to do with his tail?",
+      "options": [
+        "Hold it in the sun until it dried",
+        "Wrap it round his own neck",
+        "Have the tinsmiths mend it",
+        "Keep it out of the Woodman's way"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 523,
+        "end": 555
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s2-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did Dorothy's tears not need wiping away?",
+      "options": [
+        "She is not made of tin and cannot rust",
+        "She cried far fewer tears than the Woodman",
+        "The Winkies wiped them for her",
+        "Her tears fell on the floor, not her face"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 329,
+        "end": 374
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s2-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the patches not trouble the Woodman?",
+      "options": [
+        "He was not a vain man",
+        "He could not see them himself",
+        "The tinsmiths had painted over them",
+        "He expected to be mended again"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 551,
+        "end": 619
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s2-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Woodman say would complete his happiness?",
+      "options": [
+        "Having the Scarecrow with them once more",
+        "Getting the heart the Wizard promised",
+        "Returning to the forest where he was found",
+        "Having his axe mended with a golden handle"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 137,
+        "end": 160
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s2-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does solder mean?",
+      "options": [
+        "Join broken metal together",
+        "Hammer metal flat again",
+        "Polish metal until it shines",
+        "Cut metal into new shapes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 217,
+        "end": 259
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s2-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A battered friend is made whole again and wept over by everyone",
+        "A quarrel over how the Woodman should be mended",
+        "The tinsmiths refuse to work on a man made of tin",
+        "The Woodman decides he would rather stay as he is"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 384,
+        "end": 425
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s2-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the tinsmiths work?",
+      "options": [
+        "In one of the big yellow rooms of the castle",
+        "Out on the rocky plain where he fell",
+        "In their own workshops in the village",
+        "In the courtyard beside the Lion's yard"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 136,
+        "end": 200
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c13-s2-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Woodman do when he walked into Dorothy's room?",
+      "options": [
+        "Thanked her and wept tears of joy",
+        "Asked at once for his axe",
+        "Complained about the patches",
+        "Went straight out to find the Scarecrow"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 79,
+        "end": 122
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c13-s2-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the tinsmiths say they could do?",
+      "options": [
+        "Mend him so he would be as good as ever",
+        "Make him an entirely new body of tin",
+        "Straighten him, but not mend the breaks",
+        "Nothing at all for a man so badly damaged"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 71,
+        "end": 134
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c13-s2-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why must the Woodman's tears be wiped at once?",
+      "options": [
+        "Otherwise his joints would rust",
+        "Otherwise the patches would loosen",
+        "Otherwise Dorothy would start crying too",
+        "Otherwise the Lion would laugh at him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 199,
+        "end": 232
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c13-s2-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the work on him involve?",
+      "options": [
+        "Hammering, twisting, bending, soldering, and polishing",
+        "Melting him down and casting him afresh",
+        "Only a little straightening of one leg",
+        "Replacing his head with a new one"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 244,
+        "end": 306
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c13-s2-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does vain describe?",
+      "options": [
+        "Overly concerned with his appearance",
+        "Empty of any real feeling inside",
+        "Of no use at all to his friends",
+        "Proud of his own great strength"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 551,
+        "end": 584
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c13-s2-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Skilled hands restore the Woodman, and the reunion is a tearful one",
+        "The Woodman is mended but never works properly again",
+        "Dorothy sets out alone to find the Scarecrow's clothes",
+        "The Winkies beg the Woodman to stay and rule them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 41
+      },
+      "pool": "retest"
+    }
+  ]
+}

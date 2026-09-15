@@ -1,0 +1,330 @@
+{
+  "id": "oz-c13-s1",
+  "title": "The Rescue, part 1",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "The Cowardly Lion was much pleased to hear that the Wicked Witch had been melted by a bucket of water, and Dorothy at once unlocked the gate of his prison and set him free. They went in together to the castle, where Dorothy’s first act was to call all the Winkies together and tell them that they were no longer slaves.",
+    "There was great rejoicing among the yellow Winkies, for they had been made to work hard during many years for the Wicked Witch, who had always treated them with great cruelty. They kept this day as a holiday, then and ever after, and spent the time in feasting and dancing.",
+    "“If our friends, the Scarecrow and the Tin Woodman, were only with us,” said the Lion, “I should be quite happy.”",
+    "“Don’t you suppose we could rescue them?” asked the girl anxiously.",
+    "“We can try,” answered the Lion.",
+    "So they called the yellow Winkies and asked them if they would help to rescue their friends, and the Winkies said that they would be delighted to do all in their power for Dorothy, who had set them free from bondage. So she chose a number of the Winkies who looked as if they knew the most, and they all started away. They traveled that day and part of the next until they came to the rocky plain where the Tin Woodman lay, all battered and bent. His axe was near him, but the blade was rusted and the handle broken off short.",
+    "The Winkies lifted him tenderly in their arms, and carried him back to the Yellow Castle again, Dorothy shedding a few tears by the way at the sad plight of her old friend, and the Lion looking sober and sorry. When they reached the castle Dorothy said to the Winkies:",
+    "“Are any of your people tinsmiths?”",
+    "“Oh, yes. Some of us are very good tinsmiths,” they told her."
+  ],
+  "questions": [
+    {
+      "id": "oz-c13-s1-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was Dorothy's first act inside the castle?",
+      "options": [
+        "Telling the Winkies they were no longer slaves",
+        "Searching the cupboard for the Golden Cap",
+        "Setting out at once to find the Scarecrow",
+        "Locking the gate of the Lion's prison"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 277,
+        "end": 318
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s1-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how did the Winkies mark the day?",
+      "options": [
+        "As a holiday, with feasting and dancing",
+        "With a day of mourning for the Witch",
+        "By marching out to find the Scarecrow",
+        "By pulling down the Yellow Castle"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 176,
+        "end": 207
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s1-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what state was the Woodman's axe in?",
+      "options": [
+        "The blade rusted and the handle broken short",
+        "Bent double but otherwise sound",
+        "Lost somewhere among the rocks",
+        "Sharper than it had ever been"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 469,
+        "end": 525
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s1-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, where did they find the Tin Woodman?",
+      "options": [
+        "On the rocky plain, battered and bent",
+        "In the branches of a very tall tree",
+        "At the bottom of the castle courtyard",
+        "Beside the road to the Emerald City"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 362,
+        "end": 422
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s1-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy ask the Winkies about their people?",
+      "options": [
+        "Whether any of them were tinsmiths",
+        "Whether any of them knew the road east",
+        "Whether any of them could climb a tree",
+        "Whether any of them had seen the Scarecrow"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 1,
+        "end": 34
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s1-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why were the Winkies so glad to help Dorothy?",
+      "options": [
+        "She had set them free from years of bondage",
+        "She had promised them the Witch's treasure",
+        "They were afraid of what the Lion would do",
+        "The Wizard had ordered them to obey her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 168,
+        "end": 215
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s1-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how had the Witch treated the Winkies?",
+      "options": [
+        "With great cruelty, over many years of hard work",
+        "Kindly enough, so long as they obeyed her",
+        "As guests rather than as servants",
+        "As soldiers to be sent out against strangers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 128,
+        "end": 174
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s1-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, which Winkies did Dorothy choose for the search?",
+      "options": [
+        "Those who looked as if they knew the most",
+        "The strongest and largest among them",
+        "Those who had seen the Monkeys fly over",
+        "Every one of them, to be sure of finding him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 217,
+        "end": 289
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s1-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the sad plight of her old friend mean?",
+      "options": [
+        "The wretched state he had been left in",
+        "The long distance he had fallen",
+        "The promise he had failed to keep",
+        "The journey he still had to make"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 136,
+        "end": 171
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s1-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A freed people help their liberator search for her broken friends",
+        "A castle is abandoned and its slaves are sent away",
+        "The Lion and Dorothy set out alone to find the Scarecrow",
+        "The Winkies refuse to leave their new holiday"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 38,
+        "end": 91
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c13-s1-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who set the Lion free?",
+      "options": [
+        "Dorothy, by unlocking the gate",
+        "The Winkies, by breaking the fence",
+        "The Tin Woodman, with his axe",
+        "He broke out of the yard himself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 107,
+        "end": 171
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c13-s1-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how did the Winkies carry the Woodman?",
+      "options": [
+        "Tenderly, in their arms",
+        "On a cart drawn by horses",
+        "Dragged behind on a rope",
+        "Piece by piece in baskets"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 0,
+        "end": 45
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c13-s1-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how long did the journey to the rocky plain take?",
+      "options": [
+        "That day and part of the next",
+        "A single afternoon",
+        "Nearly a week of walking",
+        "Less than an hour"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 318,
+        "end": 361
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c13-s1-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what would make the Lion quite happy?",
+      "options": [
+        "Having the Scarecrow and the Woodman back",
+        "Returning to the forest he came from",
+        "Being given the courage Oz promised",
+        "Ruling the Yellow Land in the Witch's place"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 88,
+        "end": 111
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c13-s1-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did Dorothy and the Lion behave on the way back?",
+      "options": [
+        "She shed tears and he looked sober and sorry",
+        "Both of them laughed at the Woodman's dents",
+        "Both hurried ahead of the Winkies carrying him",
+        "Neither of them spoke a word the whole way"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 177,
+        "end": 209
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c13-s1-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does rejoicing mean?",
+      "options": [
+        "Great gladness and celebration",
+        "Loud and angry complaint",
+        "Quiet relief after fear",
+        "Serious discussion of plans"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 50
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c13-s1-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Freedom for the Winkies, and the first of two friends recovered",
+        "A holiday that delays the search for the Scarecrow",
+        "A failed attempt to find the Tin Woodman on the rocks",
+        "The Lion is crowned ruler of the Yellow Land"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 32
+      },
+      "pool": "retest"
+    }
+  ]
+}
