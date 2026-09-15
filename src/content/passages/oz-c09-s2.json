@@ -1,0 +1,331 @@
+{
+  "id": "oz-c09-s2",
+  "title": "The Queen of the Field Mice, part 2",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“Oh, your Majesty, we thought you would be killed! How did you manage to escape the great Wildcat?” They all bowed so low to the little Queen that they almost stood upon their heads.",
+    "“This funny tin man,” she answered, “killed the Wildcat and saved my life. So hereafter you must all serve him, and obey his slightest wish.”",
+    "“We will!” cried all the mice, in a shrill chorus. And then they scampered in all directions, for Toto had awakened from his sleep, and seeing all these mice around him he gave one bark of delight and jumped right into the middle of the group. Toto had always loved to chase mice when he lived in Kansas, and he saw no harm in it.",
+    "But the Tin Woodman caught the dog in his arms and held him tight, while he called to the mice, “Come back! Come back! Toto shall not hurt you.”",
+    "At this the Queen of the Mice stuck her head out from underneath a clump of grass and asked, in a timid voice, “Are you sure he will not bite us?”",
+    "“I will not let him,” said the Woodman; “so do not be afraid.”",
+    "One by one the mice came creeping back, and Toto did not bark again, although he tried to get out of the Woodman’s arms, and would have bitten him had he not known very well he was made of tin. Finally one of the biggest mice spoke.",
+    "“Is there anything we can do,” it asked, “to repay you for saving the life of our Queen?”",
+    "“Nothing that I know of,” answered the Woodman; but the Scarecrow, who had been trying to think, but could not because his head was stuffed with straw, said, quickly, “Oh, yes; you can save our friend, the Cowardly Lion, who is asleep in the poppy bed.”",
+    "“A Lion!” cried the little Queen. “Why, he would eat us all up.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c09-s2-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Queen order her people to do?",
+      "options": [
+        "Serve the tin man and obey his slightest wish",
+        "Carry the Wildcat's body away from the field",
+        "Keep well clear of the strangers and their dog",
+        "Bring string from every nest in the meadow"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 75,
+        "end": 140
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s2-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why did the mice scatter in all directions?",
+      "options": [
+        "Toto woke and jumped into the middle of them",
+        "The Wildcat's body frightened them away",
+        "The Queen had sent them on an errand",
+        "The Scarecrow had shouted at them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 94,
+        "end": 130
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s2-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Tin Woodman stop Toto?",
+      "options": [
+        "Caught him in his arms and held him tight",
+        "Shut him inside Dorothy's basket",
+        "Tied him to a tree with a piece of string",
+        "Set him on the truck out of reach"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 65
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s2-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why would Toto not bite the Tin Woodman?",
+      "options": [
+        "He knew very well the man was made of tin",
+        "He had grown fond of him on the journey",
+        "Dorothy had told him never to bite",
+        "The Woodman held his jaws shut"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 121,
+        "end": 192
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s2-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the biggest mouse ask?",
+      "options": [
+        "Whether there was anything they could do in return",
+        "Whether the Lion would eat them all",
+        "Whether the dog belonged to the tin man",
+        "Whether the Queen had been hurt at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 54
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s2-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did Toto see no harm in chasing the mice?",
+      "options": [
+        "He had always chased mice back in Kansas",
+        "He had been asleep and did not know they were friends",
+        "The Woodman had not told him to stop",
+        "The mice had bowed to him as they did to the Queen"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 244,
+        "end": 303
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s2-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what made the Queen creep back out?",
+      "options": [
+        "The Woodman's promise that he would not let Toto bite",
+        "The sight of her people returning first",
+        "Dorothy calling to her from the grass",
+        "The Scarecrow offering her a piece of string"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 0,
+        "end": 38
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s2-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was it the Scarecrow who thought of the Lion?",
+      "options": [
+        "He kept trying to think even with a head full of straw",
+        "He alone remembered where the Lion had fallen",
+        "The Woodman had asked him to speak for them all",
+        "The mice had told him the Lion was asleep"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 67,
+        "end": 150
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s2-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does a shrill chorus describe?",
+      "options": [
+        "Many high voices calling out together",
+        "One voice raised above the rest",
+        "A song the mice had learned by heart",
+        "A sound of squeaking in the distance"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 11,
+        "end": 49
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s2-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "An offer of thanks is turned into a plan to save the Lion",
+        "A dog's hunting instinct ruins the party's new friendship",
+        "The mice refuse to help anyone who travels with a lion",
+        "The Queen rewards the Woodman with a piece of string"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 177,
+        "end": 251
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s2-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how low did the mice bow to their Queen?",
+      "options": [
+        "Almost onto their heads",
+        "Only as low as their knees",
+        "They did not bow at all",
+        "They lay flat upon the grass"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 100,
+        "end": 182
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c09-s2-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Queen call the Tin Woodman?",
+      "options": [
+        "This funny tin man",
+        "Our brave deliverer",
+        "The tall silver stranger",
+        "That dreadful creature"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 34
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c09-s2-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Queen's first fear about the Lion?",
+      "options": [
+        "That he would eat all the mice",
+        "That he was too heavy to move",
+        "That he was already dead",
+        "That he served the Wicked Witch"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 35,
+        "end": 62
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c09-s2-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did Toto do after being caught?",
+      "options": [
+        "Stopped barking but struggled to get free",
+        "Went straight back to sleep in the grass",
+        "Bit the Tin Woodman on the arm",
+        "Ran off to find Dorothy at once"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 44,
+        "end": 119
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c09-s2-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, in what voice did the Queen ask about the dog?",
+      "options": [
+        "A timid one, from under a clump of grass",
+        "A commanding one, from the top of the truck",
+        "An angry one, with her people behind her",
+        "A cheerful one, now the danger was past"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 86,
+        "end": 109
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c09-s2-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does obey his slightest wish mean?",
+      "options": [
+        "Do whatever he asks, however small",
+        "Obey him only in great matters",
+        "Follow him wherever he goes",
+        "Grant him one wish of his choosing"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 112,
+        "end": 139
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c09-s2-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A debt of gratitude finds its use in a plan to rescue the Lion",
+        "A dog frightens away the mice and the chance of help",
+        "The Queen of the Mice refuses to go near the poppy field",
+        "The Tin Woodman is made king of the field mice"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 0,
+        "end": 46
+      },
+      "pool": "retest"
+    }
+  ]
+}

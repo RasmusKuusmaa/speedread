@@ -1,0 +1,331 @@
+{
+  "id": "oz-c09-s1",
+  "title": "The Queen of the Field Mice, part 1",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“We cannot be far from the road of yellow brick, now,” remarked the Scarecrow, as he stood beside the girl, “for we have come nearly as far as the river carried us away.”",
+    "The Tin Woodman was about to reply when he heard a low growl, and turning his head (which worked beautifully on hinges) he saw a strange beast come bounding over the grass toward them. It was, indeed, a great yellow Wildcat, and the Woodman thought it must be chasing something, for its ears were lying close to its head and its mouth was wide open, showing two rows of ugly teeth, while its red eyes glowed like balls of fire. As it came nearer the Tin Woodman saw that running before the beast was a little gray field mouse, and although he had no heart he knew it was wrong for the Wildcat to try to kill such a pretty, harmless creature.",
+    "So the Woodman raised his axe, and as the Wildcat ran by he gave it a quick blow that cut the beast’s head clean off from its body, and it rolled over at his feet in two pieces.",
+    "The field mouse, now that it was freed from its enemy, stopped short; and coming slowly up to the Woodman it said, in a squeaky little voice:",
+    "“Oh, thank you! Thank you ever so much for saving my life.”",
+    "“Don’t speak of it, I beg of you,” replied the Woodman. “I have no heart, you know, so I am careful to help all those who may need a friend, even if it happens to be only a mouse.”",
+    "“Only a mouse!” cried the little animal, indignantly. “Why, I am a Queen—the Queen of all the Field Mice!”",
+    "“Oh, indeed,” said the Woodman, making a bow.",
+    "“Therefore you have done a great deed, as well as a brave one, in saving my life,” added the Queen.",
+    "At that moment several mice were seen running up as fast as their little legs could carry them, and when they saw their Queen they exclaimed:"
+  ],
+  "questions": [
+    {
+      "id": "oz-c09-s1-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what beast came bounding over the grass?",
+      "options": [
+        "A great yellow Wildcat",
+        "A gray wolf from the forest",
+        "One of the Kalidahs",
+        "A field mouse the size of a cat"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 185,
+        "end": 223
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s1-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was the Wildcat chasing?",
+      "options": [
+        "A little gray field mouse",
+        "A brightly coloured bird",
+        "The Cowardly Lion",
+        "Toto, across the grass"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 471,
+        "end": 525
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s1-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Tin Woodman stop the Wildcat?",
+      "options": [
+        "He cut its head off with one blow of his axe",
+        "He caught it by the tail as it ran past",
+        "He frightened it away by banging his tin chest",
+        "He stood in its path until it turned aside"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 57,
+        "end": 130
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s1-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the mouse turn out to be?",
+      "options": [
+        "The Queen of all the Field Mice",
+        "The oldest mouse in the meadow",
+        "A servant of the Wicked Witch",
+        "A messenger from the Emerald City"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 60,
+        "end": 105
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s1-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Wildcat look as it ran?",
+      "options": [
+        "Ears flat, mouth open, eyes glowing red",
+        "Ears pricked, mouth shut, eyes half closed",
+        "Head down, tail high, moving slowly",
+        "Limping, as though it had been hurt"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 283,
+        "end": 348
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s1-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Tin Woodman act although he has no heart?",
+      "options": [
+        "He knew the killing was wrong even without one",
+        "The Scarecrow told him what he ought to do",
+        "He hoped the mouse would reward him for it",
+        "He had been attacked by the Wildcat himself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 531,
+        "end": 607
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s1-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Woodman say about helping others?",
+      "options": [
+        "Having no heart, he takes care to help anyone in need",
+        "He helps only those who can repay the favour",
+        "He helps because the Scarecrow expects it of him",
+        "He would rather not be thanked by an animal"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 84,
+        "end": 139
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s1-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Queen object to the Woodman's words?",
+      "options": [
+        "He had called her only a mouse",
+        "He had refused her thanks outright",
+        "He had bowed too low before her",
+        "He had killed the Wildcat too quickly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 0,
+        "end": 53
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s1-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does indignantly convey?",
+      "options": [
+        "With offended dignity",
+        "With great gratitude",
+        "With sudden fear",
+        "With quiet amusement"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 16,
+        "end": 52
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s1-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A small act of mercy turns out to have saved a queen",
+        "A wildcat attacks the party and is driven off",
+        "The travellers find the yellow road again at last",
+        "The Tin Woodman regrets killing a living creature"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 11,
+        "end": 80
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s1-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Scarecrow say about their position?",
+      "options": [
+        "That they could not be far from the yellow road",
+        "That they had walked past the road already",
+        "That the river had carried them further than he thought",
+        "That they should turn back towards the forest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 1,
+        "end": 52
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c09-s1-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how did the Tin Woodman's head turn?",
+      "options": [
+        "Beautifully, on hinges",
+        "Stiffly, needing oil",
+        "Not at all, being rusted",
+        "Only with the Scarecrow's help"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 66,
+        "end": 119
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c09-s1-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the mouse do once it was free?",
+      "options": [
+        "Stopped short and came slowly up to the Woodman",
+        "Ran straight on into the long grass",
+        "Climbed onto the Woodman's tin foot",
+        "Called at once for the other mice"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 55,
+        "end": 105
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c09-s1-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Woodman think the Wildcat was doing?",
+      "options": [
+        "Chasing something, from the way it ran",
+        "Hunting the party themselves",
+        "Fleeing from a larger beast",
+        "Guarding the road to the river"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 229,
+        "end": 277
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c09-s1-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does the Woodman receive the news of the Queen's rank?",
+      "options": [
+        "He makes her a bow",
+        "He laughs at the idea",
+        "He refuses to believe it",
+        "He asks her to prove it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 45
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c09-s1-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does harmless describe about the mouse?",
+      "options": [
+        "That it could do no injury to anyone",
+        "That it was too small to be seen",
+        "That it had no home to run to",
+        "That it was already badly hurt"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 608,
+        "end": 640
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c09-s1-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A rescue by the roadside earns the party a powerful friend",
+        "A battle with a wildcat costs the Tin Woodman his axe",
+        "A mouse leads the travellers back to the yellow road",
+        "The Tin Woodman proves he has a heart after all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 59
+      },
+      "pool": "retest"
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "id": "oz-c09-s3",
+  "title": "The Queen of the Field Mice, part 3",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“Oh, no,” declared the Scarecrow; “this Lion is a coward.”",
+    "“Really?” asked the Mouse.",
+    "“He says so himself,” answered the Scarecrow, “and he would never hurt anyone who is our friend. If you will help us to save him I promise that he shall treat you all with kindness.”",
+    "“Very well,” said the Queen, “we trust you. But what shall we do?”",
+    "“Are there many of these mice which call you Queen and are willing to obey you?”",
+    "“Oh, yes; there are thousands,” she replied.",
+    "“Then send for them all to come here as soon as possible, and let each one bring a long piece of string.”",
+    "The Queen turned to the mice that attended her and told them to go at once and get all her people. As soon as they heard her orders they ran away in every direction as fast as possible.",
+    "“Now,” said the Scarecrow to the Tin Woodman, “you must go to those trees by the riverside and make a truck that will carry the Lion.”",
+    "So the Woodman went at once to the trees and began to work; and he soon made a truck out of the limbs of trees, from which he chopped away all the leaves and branches. He fastened it together with wooden pegs and made the four wheels out of short pieces of a big tree trunk. So fast and so well did he work that by the time the mice began to arrive the truck was all ready for them.",
+    "They came from all directions, and there were thousands of them: big mice and little mice and middle-sized mice; and each one brought a piece of string in his mouth. It was about this time that Dorothy woke from her long sleep and opened her eyes. She was greatly astonished to find herself lying upon the grass, with thousands of mice standing around and looking at her timidly. But the Scarecrow told her about everything, and turning to the dignified little Mouse, he said:"
+  ],
+  "questions": [
+    {
+      "id": "oz-c09-s3-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Scarecrow tell the mice about the Lion?",
+      "options": [
+        "That this Lion is a coward",
+        "That the Lion is already dead",
+        "That the Lion belongs to Dorothy",
+        "That the Lion cannot smell mice"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 35,
+        "end": 56
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s3-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was each mouse to bring?",
+      "options": [
+        "A long piece of string",
+        "A blade of sweet grass",
+        "A wheel from the truck",
+        "A poppy from the field"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 58,
+        "end": 103
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s3-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many mice call her Queen?",
+      "options": [
+        "Thousands",
+        "A few dozen",
+        "About a hundred",
+        "She would not say"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 10,
+        "end": 29
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s3-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Scarecrow tell the Tin Woodman to make?",
+      "options": [
+        "A truck that would carry the Lion",
+        "A raft to cross the river again",
+        "A cage to hold the mice safely",
+        "A shelter for Dorothy to sleep in"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 95,
+        "end": 132
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s3-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what were the truck's wheels made from?",
+      "options": [
+        "Short pieces of a big tree trunk",
+        "Round stones from the riverbed",
+        "Strips of tin from the Woodman",
+        "Bundles of woven string"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 213,
+        "end": 273
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s3-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what promise wins the Queen's agreement?",
+      "options": [
+        "That the Lion will treat every mouse with kindness",
+        "That the mice will be paid for the string they bring",
+        "That the Woodman will kill any wildcat they meet",
+        "That the Lion will be kept asleep until they are gone"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 129,
+        "end": 180
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s3-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how quickly did the Tin Woodman work?",
+      "options": [
+        "The truck was finished by the time the mice arrived",
+        "It took him until the following morning",
+        "He worked slowly because his joints were stiff",
+        "He needed the Scarecrow's help to finish"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 275,
+        "end": 372
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s3-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what surprised Dorothy when she woke?",
+      "options": [
+        "Thousands of mice standing round and looking at her",
+        "That the Lion was lying asleep beside her",
+        "That she had been carried across the river",
+        "That the Scarecrow had come back to them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 313,
+        "end": 378
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s3-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does harnessed suggest the strings were for?",
+      "options": [
+        "Fastening the mice to the truck so they could pull",
+        "Tying the truck's timbers together",
+        "Binding the Lion so he could not struggle",
+        "Marking the path back to the road"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 58,
+        "end": 103
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s3-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A rescue is organised, with thousands of small helpers and a home-made cart",
+        "The mice refuse to go near a lion, however cowardly",
+        "The Tin Woodman builds a raft to carry the Lion over the river",
+        "Dorothy wakes and takes charge of the rescue herself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 1,
+        "end": 56
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s3-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Queen say when she agreed?",
+      "options": [
+        "That they would trust him, but asked what to do",
+        "That the mice would come only if the Lion was tied",
+        "That she would send for half her people",
+        "That the Scarecrow must promise it in writing"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 43
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c09-s3-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Woodman chop away from the tree limbs?",
+      "options": [
+        "All the leaves and branches",
+        "The bark and the roots",
+        "The ends that were too thick",
+        "Nothing at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 112,
+        "end": 166
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c09-s3-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what fastened the truck together?",
+      "options": [
+        "Wooden pegs",
+        "Pieces of string",
+        "Strips of tin",
+        "Nothing but its own weight"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 168,
+        "end": 208
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c09-s3-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does the Scarecrow answer the doubt that the Lion is really a coward?",
+      "options": [
+        "He says the Lion admits it himself",
+        "He offers to wake the Lion and ask him",
+        "He says the mice may see for themselves",
+        "He refuses to answer the question at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 44
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c09-s3-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what sort of mice answered the Queen's summons?",
+      "options": [
+        "Big, little, and middle-sized, from all directions",
+        "Only the largest and strongest of her people",
+        "A dozen of her personal attendants",
+        "Only those who lived near the poppy field"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 65,
+        "end": 111
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c09-s3-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does dignified describe about the Mouse?",
+      "options": [
+        "Her grave and stately manner",
+        "Her unusual size",
+        "Her fine gray colouring",
+        "Her quickness of speech"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 429,
+        "end": 466
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c09-s3-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A promise of kindness buys the help of thousands of mice",
+        "A truck is built but the mice never arrive to pull it",
+        "Dorothy wakes and finds her friends have abandoned her",
+        "The Queen decides the Lion is too dangerous to save"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 50
+      },
+      "pool": "retest"
+    }
+  ]
+}

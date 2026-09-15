@@ -1,0 +1,331 @@
+{
+  "id": "oz-c09-s4",
+  "title": "The Queen of the Field Mice, part 4",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“Permit me to introduce to you her Majesty, the Queen.”",
+    "Dorothy nodded gravely and the Queen made a curtsy, after which she became quite friendly with the little girl.",
+    "The Scarecrow and the Woodman now began to fasten the mice to the truck, using the strings they had brought. One end of a string was tied around the neck of each mouse and the other end to the truck. Of course the truck was a thousand times bigger than any of the mice who were to draw it; but when all the mice had been harnessed, they were able to pull it quite easily. Even the Scarecrow and the Tin Woodman could sit on it, and were drawn swiftly by their queer little horses to the place where the Lion lay asleep.",
+    "After a great deal of hard work, for the Lion was heavy, they managed to get him up on the truck. Then the Queen hurriedly gave her people the order to start, for she feared if the mice stayed among the poppies too long they also would fall asleep.",
+    "At first the little creatures, many though they were, could hardly stir the heavily loaded truck; but the Woodman and the Scarecrow both pushed from behind, and they got along better. Soon they rolled the Lion out of the poppy bed to the green fields, where he could breathe the sweet, fresh air again, instead of the poisonous scent of the flowers.",
+    "Dorothy came to meet them and thanked the little mice warmly for saving her companion from death. She had grown so fond of the big Lion she was glad he had been rescued.",
+    "Then the mice were unharnessed from the truck and scampered away through the grass to their homes. The Queen of the Mice was the last to leave.",
+    "“If ever you need us again,” she said, “come out into the field and call, and we shall hear you and come to your assistance. Good-bye!”",
+    "“Good-bye!” they all answered, and away the Queen ran, while Dorothy held Toto tightly lest he should run after her and frighten her.",
+    "After this they sat down beside the Lion until he should awaken; and the Scarecrow brought Dorothy some fruit from a tree near by, which she ate for her dinner."
+  ],
+  "questions": [
+    {
+      "id": "oz-c09-s4-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how were the mice fastened to the truck?",
+      "options": [
+        "A string round each neck, tied to the truck",
+        "A harness of woven grass across their backs",
+        "They pushed it from behind in a crowd",
+        "They were tied together in a long line"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 109,
+        "end": 167
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s4-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how much bigger than a mouse was the truck?",
+      "options": [
+        "A thousand times",
+        "A hundred times",
+        "Ten times",
+        "Twice as big"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 210,
+        "end": 268
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s4-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the Queen hurry the start?",
+      "options": [
+        "She feared the mice would fall asleep among the poppies",
+        "She expected the Wildcat's mate to come looking",
+        "She wanted to be home before nightfall",
+        "She was afraid the Lion would wake too soon"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 159,
+        "end": 247
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s4-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who pushed the truck from behind?",
+      "options": [
+        "The Woodman and the Scarecrow",
+        "Dorothy and Toto",
+        "The Queen and her attendants",
+        "Nobody; the mice managed alone"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 98,
+        "end": 155
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s4-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Queen say as she left?",
+      "options": [
+        "That they should call in the field if ever they needed her",
+        "That she would send mice to follow them to the city",
+        "That she could never repay what they had done",
+        "That they must not bring the dog near her again"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 40,
+        "end": 95
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s4-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did Dorothy hold Toto tightly at the end?",
+      "options": [
+        "So that he would not chase the Queen and frighten her",
+        "So that he would not run back into the poppies",
+        "So that the Lion would not wake and see him",
+        "So that he would not pull the strings loose"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 55,
+        "end": 115
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s4-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was Dorothy so glad the Lion was saved?",
+      "options": [
+        "She had grown very fond of him",
+        "He was the only one who could carry her",
+        "He alone knew the way to the city",
+        "She feared the mice would eat him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 98,
+        "end": 168
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s4-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did getting the Lion onto the truck take?",
+      "options": [
+        "A great deal of hard work, because he was heavy",
+        "Only a moment, since the mice were so many",
+        "The help of every mouse in the meadow",
+        "Several attempts, because he kept waking"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 55
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s4-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the Scarecrow mean by calling the mice queer little horses?",
+      "options": [
+        "They were doing the work horses usually do",
+        "They looked exactly like very small horses",
+        "They were harnessed the wrong way round",
+        "They were as strong as horses for their size"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 428,
+        "end": 479
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s4-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "Thousands of small creatures do together what none could do alone",
+        "The mice prove too weak to move the loaded truck",
+        "The Lion wakes and thanks the mice for saving him",
+        "Dorothy is introduced to a queen and joins her court"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 184,
+        "end": 250
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c09-s4-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did Dorothy and the Queen greet each other?",
+      "options": [
+        "Dorothy nodded gravely and the Queen made a curtsy",
+        "Dorothy bowed low and the Queen squeaked at her",
+        "The Queen hid until Dorothy called her out",
+        "They did not greet each other at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 50
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c09-s4-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who was the last of the mice to leave?",
+      "options": [
+        "The Queen",
+        "The biggest mouse",
+        "The one who found the string",
+        "They all left together"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 99,
+        "end": 143
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c09-s4-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Scarecrow bring Dorothy?",
+      "options": [
+        "Fruit from a tree near by",
+        "Nuts from her own basket",
+        "Water from the river",
+        "A poppy from the field"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 69,
+        "end": 129
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c09-s4-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what could the mice manage once harnessed?",
+      "options": [
+        "They pulled the truck quite easily, even with riders",
+        "They could only move it a few inches at a time",
+        "They pulled it but could not steer it at all",
+        "They needed Dorothy's help to start it moving"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 290,
+        "end": 370
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c09-s4-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the green fields give the Lion that the poppies could not?",
+      "options": [
+        "Sweet fresh air instead of the poisonous scent",
+        "Shade from the afternoon sun",
+        "Water enough to drink when he woke",
+        "A soft place to lie until morning"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 252,
+        "end": 301
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c09-s4-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does come to your assistance mean?",
+      "options": [
+        "Come to help you",
+        "Come to call on you",
+        "Come to find you",
+        "Come to warn you"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 96,
+        "end": 123
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c09-s4-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "The mice repay their debt, and the party is whole again",
+        "The mice are unable to move the Lion and give up",
+        "Dorothy makes friends with a queen and stays behind",
+        "The Lion wakes on the truck and frightens the mice off"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 0,
+        "end": 60
+      },
+      "pool": "retest"
+    }
+  ]
+}
