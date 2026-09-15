@@ -1,0 +1,330 @@
+{
+  "id": "oz-c18-s4",
+  "title": "Away to the South, part 4",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“You must have been thinking again,” remarked the Tin Woodman.",
+    "“I have,” said the Scarecrow.",
+    "“I shall go with Dorothy,” declared the Lion, “for I am tired of your city and long for the woods and the country again. I am really a wild beast, you know. Besides, Dorothy will need someone to protect her.”",
+    "“That is true,” agreed the Woodman. “My axe may be of service to her; so I also will go with her to the Land of the South.”",
+    "“When shall we start?” asked the Scarecrow.",
+    "“Are you going?” they asked, in surprise.",
+    "“Certainly. If it wasn’t for Dorothy I should never have had brains. She lifted me from the pole in the cornfield and brought me to the Emerald City. So my good luck is all due to her, and I shall never leave her until she starts back to Kansas for good and all.”",
+    "“Thank you,” said Dorothy gratefully. “You are all very kind to me. But I should like to start as soon as possible.”",
+    "“We shall go tomorrow morning,” returned the Scarecrow. “So now let us all get ready, for it will be a long journey.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c18-s4-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Lion want to go?",
+      "options": [
+        "He is tired of the city and longs for the country",
+        "He wants to meet Glinda for himself",
+        "He is afraid to stay in the Palace alone",
+        "He has been ordered to go by the Scarecrow"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 47,
+        "end": 119
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s4-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the Woodman offer?",
+      "options": [
+        "That his axe may be of service to her",
+        "That he will carry her basket",
+        "That he will rule the city while they are gone",
+        "That he will find the road south"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 37,
+        "end": 68
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s4-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Scarecrow say he owes Dorothy?",
+      "options": [
+        "That but for her he would never have had brains",
+        "That she saved him from the Winged Monkeys",
+        "That she gave him the right to rule the city",
+        "That she taught him how to walk and talk"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 12,
+        "end": 68
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s4-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, when do they decide to start?",
+      "options": [
+        "Tomorrow morning",
+        "That same hour",
+        "In three days' time",
+        "After the harvest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 1,
+        "end": 29
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s4-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Tin Woodman remark first?",
+      "options": [
+        "That the Scarecrow must have been thinking again",
+        "That the journey will be too dangerous",
+        "That Dorothy should go alone",
+        "That the Lion is not brave enough"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 1,
+        "end": 34
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s4-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what surprised the others about the Scarecrow?",
+      "options": [
+        "That he meant to leave the city he now ruled",
+        "That he had thought of the plan at all",
+        "That he wanted the Lion to stay behind",
+        "That he would not say when to start"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 0,
+        "end": 41
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s4-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how long does the Scarecrow promise to stay with Dorothy?",
+      "options": [
+        "Until she starts back to Kansas for good",
+        "Until they reach the southern border",
+        "Until Glinda has been found and asked",
+        "Only as far as the first day's walk"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 189,
+        "end": 261
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s4-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what reason does the Lion give besides his own wishes?",
+      "options": [
+        "Dorothy will need someone to protect her",
+        "The Woodman cannot manage the road alone",
+        "The Scarecrow must be left to rule",
+        "Toto is too small to make the journey"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 157,
+        "end": 207
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s4-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does of service mean?",
+      "options": [
+        "Useful and helpful to her",
+        "Owed to her as a duty",
+        "Given as a present",
+        "Needed for her protection only"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 37,
+        "end": 68
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s4-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "All three friends choose to go with her, each for his own reason",
+        "Only the Lion is willing to leave the Emerald City",
+        "The Scarecrow refuses to leave the throne he has won",
+        "The party decides the southern road is too dangerous"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 57,
+        "end": 116
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s4-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Lion call himself?",
+      "options": [
+        "Really a wild beast",
+        "The King of the Emerald City",
+        "A tame lion now",
+        "A friend of the Quadlings"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 121,
+        "end": 156
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c18-s4-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how did Dorothy answer their offers?",
+      "options": [
+        "Gratefully, saying they were all very kind",
+        "By refusing to let them come",
+        "By asking them to hurry the preparations",
+        "By bursting into tears again"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 37
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c18-s4-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Scarecrow say the journey would be?",
+      "options": [
+        "Long",
+        "Short but dangerous",
+        "Easy enough",
+        "Impossible in winter"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 86,
+        "end": 115
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c18-s4-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Scarecrow credit to Dorothy?",
+      "options": [
+        "All his good luck, beginning with the pole",
+        "The brains Oz put into his head himself",
+        "The rule of the Emerald City",
+        "His friendship with the Tin Woodman"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 150,
+        "end": 183
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c18-s4-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Dorothy ask for?",
+      "options": [
+        "To start as soon as possible",
+        "To be allowed to travel alone",
+        "To take the Golden Cap with her",
+        "To wait until the Monkeys return"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 68,
+        "end": 115
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c18-s4-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does declared convey about the Lion's words?",
+      "options": [
+        "He said it firmly and openly",
+        "He said it under his breath",
+        "He said it as a question",
+        "He said it unwillingly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 44
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c18-s4-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A company re-forms for one more journey, by choice and not by need",
+        "A company breaks up now that each has his gift",
+        "Dorothy insists on making the journey by herself",
+        "The Scarecrow sends the others south without him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 43
+      },
+      "pool": "retest"
+    }
+  ]
+}

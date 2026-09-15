@@ -1,0 +1,329 @@
+{
+  "id": "oz-c18-s1",
+  "title": "Away to the South, part 1",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Dorothy wept bitterly at the passing of her hope to get home to Kansas again; but when she thought it all over she was glad she had not gone up in a balloon. And she also felt sorry at losing Oz, and so did her companions.",
+    "The Tin Woodman came to her and said:",
+    "“Truly I should be ungrateful if I failed to mourn for the man who gave me my lovely heart. I should like to cry a little because Oz is gone, if you will kindly wipe away my tears, so that I shall not rust.”",
+    "“With pleasure,” she answered, and brought a towel at once. Then the Tin Woodman wept for several minutes, and she watched the tears carefully and wiped them away with the towel. When he had finished, he thanked her kindly and oiled himself thoroughly with his jeweled oil-can, to guard against mishap.",
+    "The Scarecrow was now the ruler of the Emerald City, and although he was not a Wizard the people were proud of him. “For,” they said, “there is not another city in all the world that is ruled by a stuffed man.” And, so far as they knew, they were quite right.",
+    "The morning after the balloon had gone up with Oz, the four travelers met in the Throne Room and talked matters over. The Scarecrow sat in the big throne and the others stood respectfully before him.",
+    "“We are not so unlucky,” said the new ruler, “for this Palace and the Emerald City belong to us, and we can do just as we please. When I remember that a short time ago I was up on a pole in a farmer’s cornfield, and that now I am the ruler of this beautiful City, I am quite satisfied with my lot.”",
+    "“I also,” said the Tin Woodman, “am well-pleased with my new heart; and, really, that was the only thing I wished in all the world.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c18-s1-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Tin Woodman ask Dorothy to do?",
+      "options": [
+        "Wipe away his tears so he would not rust",
+        "Oil his joints with the jewelled can",
+        "Fetch the Golden Cap from her room",
+        "Stop crying over the lost balloon"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 142,
+        "end": 179
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s1-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Dorothy bring him?",
+      "options": [
+        "A towel",
+        "His silver oil-can",
+        "A green handkerchief",
+        "Her own white apron"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 31,
+        "end": 58
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s1-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Woodman do after weeping?",
+      "options": [
+        "Oiled himself thoroughly against mishap",
+        "Went out to chop more wood",
+        "Sat down upon the green throne",
+        "Asked for a second heart"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 227,
+        "end": 276
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s1-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who became the ruler of the Emerald City?",
+      "options": [
+        "The Scarecrow",
+        "The Tin Woodman",
+        "The soldier with green whiskers",
+        "Dorothy"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 51
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s1-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the Scarecrow sit for the meeting?",
+      "options": [
+        "In the big throne",
+        "On the floor with the others",
+        "By the window, as Oz had",
+        "Outside the Throne Room door"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 118,
+        "end": 153
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s1-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why were the people proud of the Scarecrow?",
+      "options": [
+        "No other city in the world was ruled by a stuffed man",
+        "He had defeated the Wicked Witch of the West",
+        "He had been chosen by the four good Witches",
+        "He had brought their Wizard safely home"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 135,
+        "end": 208
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s1-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was Dorothy glad not to have flown?",
+      "options": [
+        "Thinking it over, the balloon seemed the worse risk",
+        "She would have had to leave Toto behind",
+        "Oz had admitted the balloon might not float",
+        "The Winged Monkeys had warned her against it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 78,
+        "end": 156
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s1-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Woodman say he ought to mourn?",
+      "options": [
+        "It would be ungrateful not to mourn the man who gave him his heart",
+        "The people expect the new rulers to grieve publicly",
+        "He has nothing else to do now that Oz has gone",
+        "Weeping proves that the silk heart really works"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 1,
+        "end": 50
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s1-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does satisfied with my lot mean?",
+      "options": [
+        "Content with the position he now has",
+        "Pleased with the size of his brains",
+        "Grateful for the friends he has made",
+        "Ready to give up the throne"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 264,
+        "end": 296
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s1-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "The Wizard's departure leaves three of them settled and one of them not",
+        "The city falls into confusion once its Wizard has gone",
+        "The Scarecrow refuses to rule the Emerald City",
+        "Dorothy decides she is content to stay after all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 51,
+        "end": 116
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s1-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how long did the Tin Woodman weep?",
+      "options": [
+        "Several minutes",
+        "A whole hour",
+        "All that night",
+        "Only a moment"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 60,
+        "end": 105
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c18-s1-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Woodman say was the only thing he had wished for?",
+      "options": [
+        "His new heart",
+        "A city of his own to rule",
+        "A golden handle for his axe",
+        "To see Oz once more"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 81,
+        "end": 130
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c18-s1-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who owns the Palace and the city now?",
+      "options": [
+        "The four travellers themselves",
+        "The people of the Emerald City",
+        "Glinda, the Witch of the South",
+        "Nobody, until Oz returns"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 46,
+        "end": 95
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c18-s1-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what change does the Scarecrow reflect on?",
+      "options": [
+        "From a pole in a cornfield to ruler of a city",
+        "From a stuffed man to a man of flesh",
+        "From a coward to the bravest of them all",
+        "From a farmer's property to a free man"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 151,
+        "end": 210
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c18-s1-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the four feel about losing Oz?",
+      "options": [
+        "Sorry, Dorothy and her companions alike",
+        "Relieved that the humbug had gone",
+        "Angry at being left without their gifts",
+        "Indifferent, now that they had what they wanted"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 158,
+        "end": 222
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c18-s1-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does mishap mean?",
+      "options": [
+        "An accident or misfortune",
+        "A sudden change of mind",
+        "A long and tiresome delay",
+        "A belief that proves mistaken"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 278,
+        "end": 301
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c18-s1-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Grief, a new ruler, and one traveller still far from home",
+        "A city left without any ruler at all",
+        "A plan to follow the balloon across the desert",
+        "A quarrel over who should sit on the throne"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 48
+      },
+      "pool": "retest"
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "id": "oz-c18-s3",
+  "title": "Away to the South, part 3",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "The Scarecrow was thinking again, and his head bulged out so horribly that Dorothy feared it would burst.",
+    "“Let us call in the soldier with the green whiskers,” he said, “and ask his advice.”",
+    "So the soldier was summoned and entered the Throne Room timidly, for while Oz was alive he never was allowed to come farther than the door.",
+    "“This little girl,” said the Scarecrow to the soldier, “wishes to cross the desert. How can she do so?”",
+    "“I cannot tell,” answered the soldier, “for nobody has ever crossed the desert, unless it is Oz himself.”",
+    "“Is there no one who can help me?” asked Dorothy earnestly.",
+    "“Glinda might,” he suggested.",
+    "“Who is Glinda?” inquired the Scarecrow.",
+    "“The Witch of the South. She is the most powerful of all the Witches, and rules over the Quadlings. Besides, her castle stands on the edge of the desert, so she may know a way to cross it.”",
+    "“Glinda is a Good Witch, isn’t she?” asked the child.",
+    "“The Quadlings think she is good,” said the soldier, “and she is kind to everyone. I have heard that Glinda is a beautiful woman, who knows how to keep young in spite of the many years she has lived.”",
+    "“How can I get to her castle?” asked Dorothy.",
+    "“The road is straight to the South,” he answered, “but it is said to be full of dangers to travelers. There are wild beasts in the woods, and a race of queer men who do not like strangers to cross their country. For this reason none of the Quadlings ever come to the Emerald City.”",
+    "The soldier then left them and the Scarecrow said:",
+    "“It seems, in spite of dangers, that the best thing Dorothy can do is to travel to the Land of the South and ask Glinda to help her. For, of course, if Dorothy stays here she will never get back to Kansas.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c18-s3-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, whom does the soldier name as a possible helper?",
+      "options": [
+        "Glinda",
+        "Gayelette",
+        "The Queen of the Field Mice",
+        "The Guardian of the Gates"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 0,
+        "end": 29
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s3-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who is Glinda?",
+      "options": [
+        "The Witch of the South, who rules the Quadlings",
+        "The Witch of the North, who kissed Dorothy",
+        "A sorceress who lives in a ruby palace",
+        "The wife of the Wizard of Oz"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 1,
+        "end": 24
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s3-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does Glinda's castle stand?",
+      "options": [
+        "On the edge of the desert",
+        "In the middle of a great forest",
+        "Beside the Emerald City wall",
+        "On an island in a river"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 109,
+        "end": 152
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s3-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, which way does the road to Glinda run?",
+      "options": [
+        "Straight to the South",
+        "Straight to the North",
+        "East, towards the rising sun",
+        "West, into the Winkie country"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 1,
+        "end": 34
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s3-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why had the soldier never come past the door before?",
+      "options": [
+        "Oz had never allowed it while he was alive",
+        "He was too frightened of the great Head",
+        "The Guardian of the Gates forbade it",
+        "He had only just joined the Palace guard"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 65,
+        "end": 138
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s3-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what has the soldier heard about Glinda?",
+      "options": [
+        "That she is beautiful and keeps young despite her years",
+        "That she has never been seen by any living person",
+        "That she is more wicked than the Witch of the West",
+        "That she once ruled the Emerald City herself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 83,
+        "end": 128
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s3-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what makes the southern road dangerous?",
+      "options": [
+        "Wild beasts in the woods and men who dislike strangers",
+        "A desert that must be crossed twice over",
+        "The Winged Monkeys, who patrol that country",
+        "A river too deep and swift to ford"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 102,
+        "end": 136
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s3-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why do no Quadlings visit the Emerald City?",
+      "options": [
+        "The road between is full of dangers",
+        "They are forbidden by Glinda",
+        "They have never heard of the city",
+        "The desert lies between them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 212,
+        "end": 279
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s3-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does summoned mean?",
+      "options": ["Sent for", "Dismissed", "Questioned", "Rewarded"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 27
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s3-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A new name and a dangerous road become Dorothy's only chance",
+        "A soldier proves that the desert cannot be crossed at all",
+        "The Scarecrow decides Dorothy must stay in the city",
+        "Glinda arrives at the Emerald City to help them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 14,
+        "start": 37,
+        "end": 104
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s3-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who does the soldier say has crossed the desert?",
+      "options": [
+        "Nobody, unless it is Oz himself",
+        "Glinda and her Quadlings",
+        "The Winged Monkeys, many times",
+        "The Wicked Witch of the West"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 40,
+        "end": 78
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c18-s3-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how is Glinda described as treating people?",
+      "options": [
+        "She is kind to everyone",
+        "She is feared by all the Quadlings",
+        "She sees nobody but her own people",
+        "She demands payment for her help"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 54,
+        "end": 81
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c18-s3-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how powerful is Glinda said to be?",
+      "options": [
+        "The most powerful of all the Witches",
+        "Less powerful than the Witch of the North",
+        "About equal to the Wizard of Oz",
+        "Powerful only within her own castle"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 25,
+        "end": 68
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c18-s3-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did Dorothy fear about the Scarecrow's head?",
+      "options": [
+        "That it would burst, it bulged so horribly",
+        "That the pins would fall out of it",
+        "That the brains had stopped working",
+        "That he would think himself too clever"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 38,
+        "end": 104
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c18-s3-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is the Scarecrow's argument for going south?",
+      "options": [
+        "Staying in the city means never getting back to Kansas",
+        "Glinda has already promised to help her",
+        "The dangers of the road have been exaggerated",
+        "The Quadlings will give them fresh supplies"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 14,
+        "start": 149,
+        "end": 204
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c18-s3-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does timidly describe about the soldier?",
+      "options": [
+        "He came in nervously",
+        "He came in proudly",
+        "He came in quickly",
+        "He came in unwillingly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 32,
+        "end": 63
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c18-s3-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A soldier's advice turns the journey south, dangers and all",
+        "A soldier proves that Dorothy can never leave Oz",
+        "The Scarecrow decides to send the Lion instead",
+        "Glinda is revealed to be a wicked witch after all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 0,
+        "end": 59
+      },
+      "pool": "retest"
+    }
+  ]
+}

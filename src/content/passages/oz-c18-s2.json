@@ -1,0 +1,331 @@
+{
+  "id": "oz-c18-s2",
+  "title": "Away to the South, part 2",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“For my part, I am content in knowing I am as brave as any beast that ever lived, if not braver,” said the Lion modestly.",
+    "“If Dorothy would only be contented to live in the Emerald City,” continued the Scarecrow, “we might all be happy together.”",
+    "“But I don’t want to live here,” cried Dorothy. “I want to go to Kansas, and live with Aunt Em and Uncle Henry.”",
+    "“Well, then, what can be done?” inquired the Woodman.",
+    "The Scarecrow decided to think, and he thought so hard that the pins and needles began to stick out of his brains. Finally he said:",
+    "“Why not call the Winged Monkeys, and ask them to carry you over the desert?”",
+    "“I never thought of that!” said Dorothy joyfully. “It’s just the thing. I’ll go at once for the Golden Cap.”",
+    "When she brought it into the Throne Room she spoke the magic words, and soon the band of Winged Monkeys flew in through the open window and stood beside her.",
+    "“This is the second time you have called us,” said the Monkey King, bowing before the little girl. “What do you wish?”",
+    "“I want you to fly with me to Kansas,” said Dorothy.",
+    "But the Monkey King shook his head.",
+    "“That cannot be done,” he said. “We belong to this country alone, and cannot leave it. There has never been a Winged Monkey in Kansas yet, and I suppose there never will be, for they don’t belong there. We shall be glad to serve you in any way in our power, but we cannot cross the desert. Good-bye.”",
+    "And with another bow, the Monkey King spread his wings and flew away through the window, followed by all his band.",
+    "Dorothy was ready to cry with disappointment. “I have wasted the charm of the Golden Cap to no purpose,” she said, “for the Winged Monkeys cannot help me.”",
+    "“It is certainly too bad!” said the tender-hearted Woodman."
+  ],
+  "questions": [
+    {
+      "id": "oz-c18-s2-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Scarecrow's suggestion?",
+      "options": [
+        "Call the Winged Monkeys to carry her over the desert",
+        "Build a second balloon out of green silk",
+        "Send for the Queen of the Field Mice",
+        "Ask the Guardian of the Gates for advice"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 1,
+        "end": 76
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s2-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how did the Monkey King answer?",
+      "options": [
+        "That they belong to this country and cannot leave it",
+        "That they would carry her but not the dog",
+        "That the charm had already been used up",
+        "That Kansas lies too far for any flight"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 33,
+        "end": 86
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s2-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many times had Dorothy now called the Monkeys?",
+      "options": ["Twice", "Once", "Three times", "She had never called them"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 1,
+        "end": 43
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s2-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what happened when the Scarecrow thought hard?",
+      "options": [
+        "Pins and needles began to stick out of his brains",
+        "His head bulged until Dorothy feared it would burst",
+        "He fell over and had to be picked up",
+        "He forgot what he had been asked"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 36,
+        "end": 113
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s2-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Lion describe his own courage?",
+      "options": [
+        "As brave as any beast that ever lived, if not braver",
+        "Still very small, whatever Oz had given him",
+        "Enough for the city, but not for the woods",
+        "Greater than the Winged Monkeys' own"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 38,
+        "end": 95
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s2-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did Dorothy call the idea just the thing?",
+      "options": [
+        "She had never thought of using the Monkeys that way",
+        "She had already tried every other plan",
+        "The Scarecrow rarely had any ideas at all",
+        "The Golden Cap was about to be taken from her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 1,
+        "end": 25
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s2-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Dorothy conclude after the Monkeys leave?",
+      "options": [
+        "That she has wasted a call of the Golden Cap",
+        "That the Monkeys were lying about the desert",
+        "That she must walk across the desert herself",
+        "That the Scarecrow's brains are no use at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 47,
+        "end": 102
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s2-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what would make the Scarecrow perfectly happy?",
+      "options": [
+        "If Dorothy were content to live in the Emerald City",
+        "If Oz came back to rule the city again",
+        "If the Winged Monkeys served him as well",
+        "If he could return to his own cornfield"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 1,
+        "end": 63
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s2-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does modestly convey about the Lion?",
+      "options": [
+        "He says it without boasting",
+        "He says it in a whisper",
+        "He says it doubting it himself",
+        "He says it to please the others"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 98,
+        "end": 120
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s2-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A good idea is tried at once and refused by those who must obey",
+        "The Winged Monkeys carry Dorothy across the desert at last",
+        "The Scarecrow persuades Dorothy to remain in the city",
+        "A quarrel between Dorothy and the Monkey King"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 0,
+        "end": 35
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c18-s2-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did Dorothy want to live?",
+      "options": [
+        "In Kansas, with Aunt Em and Uncle Henry",
+        "In the Emerald City with her friends",
+        "In the Yellow Castle of the Winkies",
+        "In the land of the Quadlings"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 49,
+        "end": 110
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c18-s2-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how did the Monkeys enter the Throne Room?",
+      "options": [
+        "Through the open window",
+        "Through the great front door",
+        "Down the chimney of the Palace",
+        "They did not enter at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 77,
+        "end": 135
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c18-s2-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Woodman say about the refusal?",
+      "options": [
+        "That it was certainly too bad",
+        "That the Monkeys should be forced",
+        "That Dorothy should try the charm again",
+        "That he had expected it all along"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 14,
+        "start": 0,
+        "end": 59
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c18-s2-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Monkey King offer instead?",
+      "options": [
+        "To serve her in any way within their power",
+        "To carry her as far as the desert's edge",
+        "To find someone else who can help her",
+        "Nothing whatever; he simply refuses"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 203,
+        "end": 256
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c18-s2-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why has no Winged Monkey ever been in Kansas?",
+      "options": [
+        "They do not belong there and cannot leave Oz",
+        "Nobody has ever asked them to go",
+        "The desert is too wide for their wings",
+        "Kansas has no forests for them to live in"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 87,
+        "end": 137
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c18-s2-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does to no purpose mean?",
+      "options": [
+        "Without achieving anything",
+        "Without meaning to",
+        "Without telling her friends",
+        "Without knowing the words"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 47,
+        "end": 102
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c18-s2-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A hopeful plan is spent and wasted in a single morning",
+        "A hopeful plan carries Dorothy home the same day",
+        "The Monkeys agree to take Dorothy as far as they can",
+        "The Scarecrow admits his brains were a fraud"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 0,
+        "end": 45
+      },
+      "pool": "retest"
+    }
+  ]
+}
