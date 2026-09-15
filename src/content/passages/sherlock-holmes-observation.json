@@ -1,0 +1,324 @@
+{
+  "id": "sherlock-holmes-observation",
+  "title": "You See, But You Do Not Observe",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/1661",
+  "attribution": "Excerpted verbatim from \"A Scandal in Bohemia,\" in The Adventures of Sherlock Holmes by Arthur Conan Doyle (1892).",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "\"It is simplicity itself,\" said he; \"my eyes tell me that on the inside of your left shoe, just where the firelight strikes it, the leather is scored by six almost parallel cuts. Obviously they have been caused by someone who has very carelessly scraped round the edges of the sole in order to remove crusted mud from it. Hence, you see, my double deduction that you had been out in vile weather, and that you had a particularly malignant boot-slitting specimen of the London slavey.\"",
+    "I could not help laughing at the ease with which he explained his process of deduction. \"When I hear you give your reasons,\" I remarked, \"the thing always appears to me to be so ridiculously simple that I could easily do it myself, though at each successive instance of your reasoning I am baffled until you explain your process. And yet I believe that my eyes are as good as yours.\" \"Quite so,\" he answered, lighting a cigarette, and throwing himself down into an armchair. \"You see, but you do not observe. The distinction is clear.\"",
+    "\"For example, you have frequently seen the steps which lead up from the hall to this room.\" \"Frequently.\" \"How often?\" \"Well, some hundreds of times.\" \"Then how many are there?\" \"How many? I don't know.\" \"Quite so! You have not observed. And yet you have seen. That is just my point. Now, I know that there are seventeen steps, because I have both seen and observed.\""
+  ],
+  "questions": [
+    {
+      "id": "sherlock-holmes-observation-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Holmes say caused the six almost parallel cuts on Watson's shoe?",
+      "options": [
+        "Someone carelessly scraping round the edges of the sole to remove crusted mud",
+        "Watson kicking a stone on his walk",
+        "A tear from walking through thick brush",
+        "Watson's dog chewing on the leather"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 179,
+        "end": 320
+      },
+      "pool": "first"
+    },
+    {
+      "id": "sherlock-holmes-observation-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what \"double deduction\" does Holmes make from examining the shoe?",
+      "options": [
+        "That Watson had been out in vile weather and had a careless, boot-slitting servant girl",
+        "That Watson had traveled abroad recently and lost weight",
+        "That Watson had taken up a new hobby and injured his foot",
+        "That Watson had visited a shoemaker and bought new boots"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 322,
+        "end": 482
+      },
+      "pool": "first"
+    },
+    {
+      "id": "sherlock-holmes-observation-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does Watson describe Holmes's explanations once they are given?",
+      "options": [
+        "Ridiculously simple, though baffling before they were explained",
+        "Impossible to follow even after explanation",
+        "Obvious from the very first moment",
+        "Too technical for him to understand at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 138,
+        "end": 328
+      },
+      "pool": "first"
+    },
+    {
+      "id": "sherlock-holmes-observation-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does Holmes do as he answers \"Quite so\"?",
+      "options": [
+        "He lights a cigarette and throws himself down into an armchair",
+        "He stands up and paces the room",
+        "He picks up a magnifying glass",
+        "He pours himself a glass of water"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 384,
+        "end": 473
+      },
+      "pool": "first"
+    },
+    {
+      "id": "sherlock-holmes-observation-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many times has Watson seen the steps leading up to the room?",
+      "options": [
+        "Some hundreds of times",
+        "Only once",
+        "About a dozen times",
+        "He has never seen them before"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 119,
+        "end": 150
+      },
+      "pool": "first"
+    },
+    {
+      "id": "sherlock-holmes-observation-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how many steps does Holmes say lead up from the hall?",
+      "options": [
+        "Seventeen",
+        "Twelve",
+        "Twenty",
+        "Seven"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 284,
+        "end": 365
+      },
+      "pool": "first"
+    },
+    {
+      "id": "sherlock-holmes-observation-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Holmes say, \"You see, but you do not observe\"?",
+      "options": [
+        "He means that merely looking at something differs from consciously noting and analyzing its details",
+        "He means that Watson's eyesight is physically weaker than his own",
+        "He means that Watson refuses to look at anything closely",
+        "He means that Watson has never actually visited the room before"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 476,
+        "end": 534
+      },
+      "pool": "first"
+    },
+    {
+      "id": "sherlock-holmes-observation-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Holmes bring up the number of steps right after Watson claims his eyes are as good as Holmes's?",
+      "options": [
+        "To demonstrate concretely that good eyesight alone does not equal true observation",
+        "To change the subject away from his deduction about the shoe",
+        "To test whether Watson can count quickly under pressure",
+        "To prove that the house has been recently renovated"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 205,
+        "end": 283
+      },
+      "pool": "first"
+    },
+    {
+      "id": "sherlock-holmes-observation-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "Holmes demonstrates that careful, deliberate observation reveals far more than simply seeing, using both the shoe and the staircase as proof",
+        "Holmes admits that his deductions are often just lucky guesses",
+        "Watson proves that he observes details just as well as Holmes does",
+        "The passage shows that Holmes and Watson disagree about the weather"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 476,
+        "end": 534
+      },
+      "pool": "first"
+    },
+    {
+      "id": "sherlock-holmes-observation-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does Holmes mean by \"observe\"?",
+      "options": [
+        "To consciously notice and register details, not just look at something",
+        "To politely comment on something out loud",
+        "To obey a rule or instruction",
+        "To celebrate a special occasion"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 476,
+        "end": 534
+      },
+      "pool": "first"
+    },
+    {
+      "id": "sherlock-holmes-observation-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where on Watson's shoe did Holmes notice the scored cuts?",
+      "options": [
+        "On the inside of the left shoe, where the firelight strikes it",
+        "On the toe of the right shoe",
+        "On the heel of both shoes",
+        "On the laces of the left shoe"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 37,
+        "end": 177
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "sherlock-holmes-observation-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does Watson say he could do once Holmes explains his reasoning?",
+      "options": [
+        "Easily do it himself",
+        "Never understand it at all",
+        "Explain it better than Holmes",
+        "Prove Holmes wrong"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 138,
+        "end": 230
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "sherlock-holmes-observation-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Watson believe about his own eyes compared to Holmes's?",
+      "options": [
+        "That his eyes are just as good as Holmes's",
+        "That his eyes are far better than Holmes's",
+        "That his eyes are much weaker than Holmes's",
+        "That his eyes have never been tested"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 330,
+        "end": 381
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "sherlock-holmes-observation-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how does Holmes say he knows there are seventeen steps?",
+      "options": [
+        "Because he has both seen and observed them",
+        "Because he counted them once, long ago",
+        "Because a builder told him the exact number",
+        "Because he measured the staircase with a tape"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 284,
+        "end": 365
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "sherlock-holmes-observation-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Holmes's explanation about the shoe and the servant girl seem convincing to Watson despite being unusual?",
+      "options": [
+        "Holmes lays out a clear, step-by-step chain of physical evidence connecting each detail to its cause",
+        "Watson has seen the servant girl misbehave many times before",
+        "Holmes had already met the servant girl in person",
+        "Watson had already guessed the same explanation himself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 179,
+        "end": 320
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "sherlock-holmes-observation-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what the exchange about the staircase teaches?",
+      "options": [
+        "Seeing something many times is not the same as truly observing and remembering its details",
+        "Watson has a poor memory compared to most people",
+        "Holmes has never actually walked up the staircase himself",
+        "The number of steps in a house rarely matters to anyone"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 205,
+        "end": 283
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "sherlock-holmes-observation-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that Watson had been out in \"vile\" weather?",
+      "options": [
+        "Extremely unpleasant or bad weather",
+        "Unusually warm and sunny weather",
+        "Weather typical for springtime",
+        "Weather that had been predicted in advance"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 363,
+        "end": 395
+      },
+      "pool": "retest"
+    }
+  ]
+}
