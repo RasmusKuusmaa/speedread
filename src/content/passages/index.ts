@@ -4,6 +4,7 @@ import baconOfTruth from "./bacon-of-truth.json";
 import bostonTeaParty from "./boston-tea-party.json";
 import brooklynBridgeHistory from "./brooklyn-bridge-history.json";
 import civilEngineeringAncientOrigins from "./civil-engineering-ancient-origins.json";
+import eiffelTowerHistory from "./eiffel-tower-history.json";
 import electricalEngineering19thCentury from "./electrical-engineering-19th-century.json";
 import covalentBonding from "./covalent-bonding.json";
 import giftOfTheMagiOpening from "./gift-of-the-magi-opening.json";
@@ -52,6 +53,7 @@ export const rawPassages: unknown[] = [
   mechanicalEngineeringAncientHistory,
   civilEngineeringAncientOrigins,
   electricalEngineering19thCentury,
+  eiffelTowerHistory,
   brooklynBridgeHistory,
   secretGardenGreenPoints,
   secretGardenMistressContrary,

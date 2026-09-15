@@ -1,0 +1,325 @@
+{
+  "id": "eiffel-tower-history",
+  "title": "The Iron Lady of Paris",
+  "language": "en",
+  "source": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+  "attribution": "Adapted (trimmed) from the Wikipedia article \"Eiffel Tower,\" available under CC BY-SA 4.0.",
+  "licence": "CC BY-SA 4.0",
+  "textType": "expository",
+  "domain": "engineering",
+  "calibrationOnly": false,
+  "body": [
+    "The Eiffel Tower is a lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower from 1887 to 1889.",
+    "Locally nicknamed \"La dame de fer\" for its use of wrought iron, it was constructed as the centrepiece of the 1889 World's Fair, and to crown the centennial anniversary of the French Revolution. Although initially criticised by some of France's leading artists and intellectuals for its design, it has since become a global cultural icon of France and one of the most recognisable structures in the world.",
+    "The tower is 330 metres tall, about the same height as an 81-storey building, and the tallest structure in Paris. Its base is square, measuring 125 metres on each side. During its construction, the Eiffel Tower surpassed the Washington Monument to become by far the tallest human-made structure in the world, a title it held for 41 years until the Chrysler Building in New York City was finished in 1930.",
+    "The tower has three levels for visitors, with restaurants on the first and second levels. The top level's upper platform is 276 metres above the ground, the highest public observation deck in the European Union. The climb from ground level to the first level is over 300 steps, as is the climb from the first level to the second, making the entire ascent a 600-step climb."
+  ],
+  "questions": [
+    {
+      "id": "eiffel-tower-history-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who was the Eiffel Tower named after?",
+      "options": [
+        "The engineer Gustave Eiffel",
+        "A French king",
+        "The architect of the Washington Monument",
+        "The mayor of Paris"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 75,
+        "end": 120
+      },
+      "pool": "first"
+    },
+    {
+      "id": "eiffel-tower-history-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, between what years was the tower built?",
+      "options": [
+        "1887 to 1889",
+        "1889 to 1900",
+        "1930 to 1935",
+        "1875 to 1880"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 136,
+        "end": 182
+      },
+      "pool": "first"
+    },
+    {
+      "id": "eiffel-tower-history-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why was the tower nicknamed \"La dame de fer\"?",
+      "options": [
+        "For its use of wrought iron",
+        "For its resemblance to a woman's dress",
+        "Because Eiffel's wife inspired the design",
+        "Because it was painted a shade of gray called \"fer\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 62
+      },
+      "pool": "first"
+    },
+    {
+      "id": "eiffel-tower-history-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how tall is the Eiffel Tower?",
+      "options": [
+        "330 metres",
+        "125 metres",
+        "276 metres",
+        "81 metres"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 28
+      },
+      "pool": "first"
+    },
+    {
+      "id": "eiffel-tower-history-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what structure did the Eiffel Tower surpass to become the tallest human-made structure in the world?",
+      "options": [
+        "The Washington Monument",
+        "The Chrysler Building",
+        "Notre-Dame Cathedral",
+        "The Great Pyramid"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 194,
+        "end": 307
+      },
+      "pool": "first"
+    },
+    {
+      "id": "eiffel-tower-history-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how many steps make up the entire climb from ground level to the second level?",
+      "options": [
+        "600 steps",
+        "300 steps",
+        "276 steps",
+        "125 steps"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 330,
+        "end": 371
+      },
+      "pool": "first"
+    },
+    {
+      "id": "eiffel-tower-history-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author mention that the tower was \"initially criticised by some of France's leading artists and intellectuals\"?",
+      "options": [
+        "To show that the tower's reputation changed dramatically from controversial to beloved over time",
+        "To argue that the tower should never have been built",
+        "To prove that all French artists opposed modern architecture",
+        "To explain why the tower was eventually torn down"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 194,
+        "end": 336
+      },
+      "pool": "first"
+    },
+    {
+      "id": "eiffel-tower-history-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the tower eventually lose its title as the tallest structure in the world?",
+      "options": [
+        "The Chrysler Building, completed in 1930, surpassed it in height",
+        "The tower was shortened during a later renovation",
+        "A new French law limited building heights",
+        "An earthquake reduced the tower's height"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 309,
+        "end": 403
+      },
+      "pool": "first"
+    },
+    {
+      "id": "eiffel-tower-history-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "The Eiffel Tower began as a controversial 1889 World's Fair centerpiece but became a record-setting, world-famous landmark",
+        "The Eiffel Tower was immediately beloved by everyone who saw it",
+        "The Eiffel Tower has remained the tallest structure in the world ever since it was built",
+        "The Eiffel Tower was built primarily as a restaurant complex"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 64,
+        "end": 126
+      },
+      "pool": "first"
+    },
+    {
+      "id": "eiffel-tower-history-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the Eiffel Tower is a \"lattice\" tower?",
+      "options": [
+        "Built from a crisscrossing framework of open, interlaced structural pieces",
+        "Built entirely from solid stone blocks",
+        "Covered in decorative glass panels",
+        "Shaped like a perfect cylinder"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 56
+      },
+      "pool": "first"
+    },
+    {
+      "id": "eiffel-tower-history-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what anniversary did the tower's construction help crown?",
+      "options": [
+        "The centennial anniversary of the French Revolution",
+        "The 500th anniversary of the founding of Paris",
+        "The 50th anniversary of French independence",
+        "The coronation anniversary of a French king"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 132,
+        "end": 192
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "eiffel-tower-history-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how wide is the tower's square base on each side?",
+      "options": [
+        "125 metres",
+        "330 metres",
+        "276 metres",
+        "600 metres"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 114,
+        "end": 167
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "eiffel-tower-history-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how high above the ground is the top level's upper platform?",
+      "options": [
+        "276 metres",
+        "330 metres",
+        "125 metres",
+        "81 metres"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 90,
+        "end": 151
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "eiffel-tower-history-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, on which levels of the tower are restaurants located?",
+      "options": [
+        "The first and second levels",
+        "The second and third levels",
+        "Only the top level",
+        "Only the ground level"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 41,
+        "end": 88
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "eiffel-tower-history-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author compare the tower's height to an \"81-storey building\"?",
+      "options": [
+        "To help readers grasp the tower's immense height using a familiar comparison",
+        "To argue that the tower should have been built as an office building",
+        "To show that the tower is shorter than most skyscrapers",
+        "To explain how many apartments the tower could hold"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 30,
+        "end": 76
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "eiffel-tower-history-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes the tower's observation levels, as described in the passage?",
+      "options": [
+        "Visitors can reach three levels, with the top offering the highest public observation deck in the European Union",
+        "The tower has only one level open to visitors",
+        "The tower's levels are closed to the public entirely",
+        "Visitors can only view the tower from the ground"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 153,
+        "end": 210
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "eiffel-tower-history-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the tower is a \"global cultural icon\" of France?",
+      "options": [
+        "A widely recognized symbol representing France around the world",
+        "A structure used only by French government officials",
+        "A building that no longer serves any public purpose",
+        "A monument that few people outside France have heard of"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 294,
+        "end": 346
+      },
+      "pool": "retest"
+    }
+  ]
+}
