@@ -1,0 +1,325 @@
+{
+  "id": "wright-flyer-history",
+  "title": "The Pioneer Era of Aviation",
+  "language": "en",
+  "source": "https://en.wikipedia.org/wiki/Wright_Flyer",
+  "attribution": "Adapted (trimmed) from the Wikipedia article \"Wright Flyer,\" available under CC BY-SA 4.0.",
+  "licence": "CC BY-SA 4.0",
+  "textType": "expository",
+  "domain": "engineering",
+  "calibrationOnly": false,
+  "body": [
+    "The Wright Flyer (also known as the Kitty Hawk, Flyer I or the 1903 Flyer) made the first sustained flight by a manned heavier-than-air powered and controlled aircraft on December 17, 1903. Invented and flown by brothers Orville and Wilbur Wright, it marked the beginning of the pioneer era of aviation.",
+    "The aircraft is a single-place biplane design with anhedral (drooping) wings, front double elevator (a canard) and rear double rudder. It used a 12 horsepower (9 kilowatts) gasoline engine powering two pusher propellers. Employing \"wing warping\", it was relatively unstable and very difficult to fly.",
+    "The Wright brothers flew it four times in a location now part of the town of Kill Devil Hills, about 4 miles (6 kilometers) south of Kitty Hawk, North Carolina. The airplane flew 852 ft (260 m) on its fourth and final flight, but was damaged on landing, and wrecked minutes later when powerful gusts blew it over.",
+    "The brothers shipped the wreckage back to Dayton, and the aircraft never flew again. Orville later restored it and displayed it on several occasions. The Flyer joined the Smithsonian Institution's collection of historic aircraft in 1948 after the end of a long and bitter dispute between Orville and the Institution over its refusal to recognize the Flyer as the first successful airplane."
+  ],
+  "questions": [
+    {
+      "id": "wright-flyer-history-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, on what date did the Wright Flyer make the first sustained flight?",
+      "options": [
+        "December 17, 1903",
+        "January 1, 1900",
+        "July 4, 1903",
+        "November 30, 1948"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 75,
+        "end": 188
+      },
+      "pool": "first"
+    },
+    {
+      "id": "wright-flyer-history-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who invented and flew the Wright Flyer?",
+      "options": [
+        "Brothers Orville and Wilbur Wright",
+        "Charlie Taylor alone",
+        "The Smithsonian Institution",
+        "A team of Dayton engineers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 190,
+        "end": 246
+      },
+      "pool": "first"
+    },
+    {
+      "id": "wright-flyer-history-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how powerful was the gasoline engine used in the Wright Flyer?",
+      "options": [
+        "12 horsepower (9 kilowatts)",
+        "50 horsepower (37 kilowatts)",
+        "2 horsepower (1.5 kilowatts)",
+        "100 horsepower (75 kilowatts)"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 135,
+        "end": 219
+      },
+      "pool": "first"
+    },
+    {
+      "id": "wright-flyer-history-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how many times did the Wright brothers fly the aircraft?",
+      "options": [
+        "Four times",
+        "Once",
+        "Ten times",
+        "Twice"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 93
+      },
+      "pool": "first"
+    },
+    {
+      "id": "wright-flyer-history-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how far did the airplane fly on its fourth and final flight?",
+      "options": [
+        "852 ft (260 m)",
+        "100 ft (30 m)",
+        "5,280 ft (1,609 m)",
+        "40 ft (12 m)"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 161,
+        "end": 224
+      },
+      "pool": "first"
+    },
+    {
+      "id": "wright-flyer-history-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, in what year did the Flyer join the Smithsonian Institution's collection?",
+      "options": [
+        "1948",
+        "1903",
+        "1915",
+        "1977"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 150,
+        "end": 236
+      },
+      "pool": "first"
+    },
+    {
+      "id": "wright-flyer-history-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was the Wright Flyer \"relatively unstable and very difficult to fly\"?",
+      "options": [
+        "Its wing-warping control method required constant, difficult pilot input to keep it balanced",
+        "The engine was too weak to lift the aircraft off the ground",
+        "The wings were too small to generate any lift at all",
+        "The pilot had no prior aviation training of any kind"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 221,
+        "end": 299
+      },
+      "pool": "first"
+    },
+    {
+      "id": "wright-flyer-history-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was there a \"long and bitter dispute\" between Orville and the Smithsonian Institution?",
+      "options": [
+        "The Smithsonian had refused to recognize the Flyer as the first successful airplane",
+        "The Smithsonian wanted to charge admission to view the aircraft",
+        "Orville refused to ever donate the aircraft to any museum",
+        "The Smithsonian had accidentally destroyed the original aircraft"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 237,
+        "end": 388
+      },
+      "pool": "first"
+    },
+    {
+      "id": "wright-flyer-history-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "The Wright Flyer, though unstable and short-lived as a flying machine, achieved history's first sustained powered flight and later became a celebrated museum piece",
+        "The Wright Flyer was a commercial airliner used for decades after 1903",
+        "The Wright Flyer was designed and built entirely by the Smithsonian Institution",
+        "The Wright Flyer never successfully left the ground"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 75,
+        "end": 188
+      },
+      "pool": "first"
+    },
+    {
+      "id": "wright-flyer-history-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the flight \"marked the beginning of the pioneer era of aviation\"?",
+      "options": [
+        "It signaled the start of an early, foundational period in the development of flight",
+        "It marked the final flight ever made by any aircraft",
+        "It ended a long period of experimentation in aviation",
+        "It was named in honor of a person called Pioneer"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 248,
+        "end": 302
+      },
+      "pool": "first"
+    },
+    {
+      "id": "wright-flyer-history-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, by what other names is the Wright Flyer also known?",
+      "options": [
+        "The Kitty Hawk, Flyer I, or the 1903 Flyer",
+        "The Spirit of Dayton",
+        "The Silver Dart",
+        "The Aerodrome"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 74
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "wright-flyer-history-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what shape did the Wright Flyer's wings have?",
+      "options": [
+        "Anhedral (drooping) wings",
+        "Swept-back delta wings",
+        "Perfectly flat, horizontal wings",
+        "Vertical, folding wings"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 76
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "wright-flyer-history-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, near what town did the Wright brothers fly the aircraft?",
+      "options": [
+        "Kill Devil Hills, near Kitty Hawk, North Carolina",
+        "Dayton, Ohio",
+        "Washington, D.C.",
+        "Cape Canaveral, Florida"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 39,
+        "end": 159
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "wright-flyer-history-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what happened to the aircraft shortly after it landed from its fourth flight?",
+      "options": [
+        "It was wrecked when powerful gusts blew it over",
+        "It was immediately shipped to the Smithsonian",
+        "It caught fire and burned completely",
+        "It was sold to a private collector"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 226,
+        "end": 312
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "wright-flyer-history-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the aircraft never fly again after that day?",
+      "options": [
+        "It had already been wrecked by powerful gusts after landing, leaving it unfit for further flight",
+        "The Wright brothers lost interest in aviation after 1903",
+        "The Smithsonian banned any further test flights",
+        "The engine ran out of fuel permanently"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 83
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "wright-flyer-history-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes the significance of the Wright Flyer?",
+      "options": [
+        "It was a fragile, hard-to-fly aircraft that nonetheless achieved the first sustained powered flight before being preserved as a museum piece",
+        "It was a stable, reliable aircraft used in commercial service for years",
+        "It was primarily a symbolic model that never actually flew",
+        "It was built by the Smithsonian Institution to test aviation theories"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 85,
+        "end": 148
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "wright-flyer-history-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does \"sustained flight\" mean?",
+      "options": [
+        "Continuous flight maintained under the aircraft's own power, rather than a brief hop or glide",
+        "A flight that lasted for many days without landing",
+        "A flight powered entirely by wind currents",
+        "A flight that occurred only once in history"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 75,
+        "end": 167
+      },
+      "pool": "retest"
+    }
+  ]
+}

@@ -35,6 +35,7 @@ import stampAct1765 from "./stamp-act-1765.json";
 import storyOfAnHour from "./story-of-an-hour.json";
 import structuralEngineeringHistory from "./structural-engineering-history.json";
 import toBuildAFireOpening from "./to-build-a-fire-opening.json";
+import wrightFlyerHistory from "./wright-flyer-history.json";
 
 export const rawPassages: unknown[] = [
   baconOfTruth,
@@ -74,4 +75,5 @@ export const rawPassages: unknown[] = [
   poeTellTaleHeartOpening,
   poePitAndPendulumDescent,
   poePrematureBurialVision,
+  wrightFlyerHistory,
 ];
