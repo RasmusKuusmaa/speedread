@@ -8,6 +8,7 @@ import eiffelTowerHistory from "./eiffel-tower-history.json";
 import electricalEngineering19thCentury from "./electrical-engineering-19th-century.json";
 import covalentBonding from "./covalent-bonding.json";
 import giftOfTheMagiOpening from "./gift-of-the-magi-opening.json";
+import hooverDamHistory from "./hoover-dam-history.json";
 import meditationsRusticusApollonius from "./meditations-rusticus-apollonius.json";
 import millOnLibertyThought from "./mill-on-liberty-thought.json";
 import meditationsSeverusMaximus from "./meditations-severus-maximus.json";
@@ -59,6 +60,7 @@ export const rawPassages: unknown[] = [
   electricalEngineering19thCentury,
   eiffelTowerHistory,
   brooklynBridgeHistory,
+  hooverDamHistory,
   secretGardenGreenPoints,
   secretGardenMistressContrary,
   secretGardenSilentBungalow,

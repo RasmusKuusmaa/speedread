@@ -1,0 +1,324 @@
+{
+  "id": "hoover-dam-history",
+  "title": "A Massive Effort Involving Thousands",
+  "language": "en",
+  "source": "https://en.wikipedia.org/wiki/Hoover_Dam",
+  "attribution": "Adapted (trimmed) from the Wikipedia article \"Hoover Dam,\" available under CC BY-SA 4.0.",
+  "licence": "CC BY-SA 4.0",
+  "textType": "expository",
+  "domain": "engineering",
+  "calibrationOnly": false,
+  "body": [
+    "The Hoover Dam is a concrete arch-gravity dam in the Black Canyon of the Colorado River, on the boundary between the U.S. states of Nevada and Arizona. Constructed between 1931 and 1936, during the Great Depression, it was dedicated on September 30, 1935, by President Franklin D. Roosevelt. Its construction was the result of a massive effort involving thousands of workers, and cost over 100 lives. Bills passed by Congress during its construction referred to it as Hoover Dam, but the Roosevelt administration named it Boulder Dam. In 1947, Congress reinstated the name Hoover Dam.",
+    "Since about 1900, the Black Canyon and nearby Boulder Canyon had been investigated for their potential to support a dam that would control floods, provide irrigation water, and produce hydroelectric power. In 1928, Congress authorized the project. The winning bid to build the dam was submitted by a consortium named Six Companies, Inc., which began construction in early 1931. Such a large concrete structure had never been built before, and some of the techniques used were unproven. Nevertheless, the dam was turned over to the federal government on March 1, 1936, more than two years ahead of schedule.",
+    "Hoover Dam impounds Lake Mead and is located near Boulder City, Nevada, a municipality originally constructed for workers on the construction project, about 30 miles southeast of Las Vegas, Nevada. The dam's generators provide power for public and private utilities in Nevada, Arizona, and California. Hoover Dam is a major tourist attraction, with 7 million tourists a year."
+  ],
+  "questions": [
+    {
+      "id": "hoover-dam-history-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in what canyon is the Hoover Dam located?",
+      "options": [
+        "The Black Canyon",
+        "The Grand Canyon",
+        "Boulder Canyon",
+        "Glen Canyon"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 87
+      },
+      "pool": "first"
+    },
+    {
+      "id": "hoover-dam-history-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who dedicated the dam on September 30, 1935?",
+      "options": [
+        "President Franklin D. Roosevelt",
+        "President Herbert Hoover",
+        "President Harry Truman",
+        "President Woodrow Wilson"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 216,
+        "end": 290
+      },
+      "pool": "first"
+    },
+    {
+      "id": "hoover-dam-history-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what name did the Roosevelt administration give the dam?",
+      "options": [
+        "Boulder Dam",
+        "Hoover Dam",
+        "Colorado Dam",
+        "Black Canyon Dam"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 484,
+        "end": 533
+      },
+      "pool": "first"
+    },
+    {
+      "id": "hoover-dam-history-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what consortium submitted the winning bid to build the dam?",
+      "options": [
+        "Six Companies, Inc.",
+        "The Federal Bureau of Reclamation",
+        "The Colorado River Authority",
+        "United Dam Builders"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 248,
+        "end": 336
+      },
+      "pool": "first"
+    },
+    {
+      "id": "hoover-dam-history-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when was the dam turned over to the federal government?",
+      "options": [
+        "March 1, 1936",
+        "September 30, 1935",
+        "1928",
+        "1947"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 500,
+        "end": 566
+      },
+      "pool": "first"
+    },
+    {
+      "id": "hoover-dam-history-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what body of water does Hoover Dam impound?",
+      "options": [
+        "Lake Mead",
+        "Lake Powell",
+        "The Colorado Sea",
+        "Boulder Lake"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 29
+      },
+      "pool": "first"
+    },
+    {
+      "id": "hoover-dam-history-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author mention that \"such a large concrete structure had never been built before\"?",
+      "options": [
+        "To emphasize the unprecedented technical risk and challenge involved in the project",
+        "To argue that the dam should never have been attempted",
+        "To prove that the builders had no prior construction experience at all",
+        "To explain why the dam was built much smaller than planned"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 378,
+        "end": 484
+      },
+      "pool": "first"
+    },
+    {
+      "id": "hoover-dam-history-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was Congress's 1947 decision to reinstate the name \"Hoover Dam\" significant?",
+      "options": [
+        "It reversed the Roosevelt administration's earlier choice of \"Boulder Dam,\" restoring the name tied to President Hoover",
+        "It marked the first time the dam had ever been officially named",
+        "It renamed the dam after a location rather than a person",
+        "It was required because the original name had never been legal"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 535,
+        "end": 583
+      },
+      "pool": "first"
+    },
+    {
+      "id": "hoover-dam-history-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "The Hoover Dam was an ambitious, record-setting Depression-era project that was completed ahead of schedule and still serves multiple purposes today",
+        "The Hoover Dam was a minor local project with little lasting importance",
+        "The Hoover Dam took far longer to build than originally planned",
+        "The Hoover Dam was abandoned shortly after construction began"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 500,
+        "end": 605
+      },
+      "pool": "first"
+    },
+    {
+      "id": "hoover-dam-history-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that Hoover Dam \"impounds\" Lake Mead?",
+      "options": [
+        "It holds back and collects its water",
+        "It releases its water continuously",
+        "It was named in honor of the lake",
+        "It was built entirely underneath the lake"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 29
+      },
+      "pool": "first"
+    },
+    {
+      "id": "hoover-dam-history-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, between what years was the Hoover Dam constructed?",
+      "options": [
+        "1931 and 1936",
+        "1928 and 1931",
+        "1900 and 1928",
+        "1935 and 1947"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 152,
+        "end": 214
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "hoover-dam-history-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, in what year did Congress authorize the dam project?",
+      "options": [
+        "1928",
+        "1900",
+        "1931",
+        "1936"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 206,
+        "end": 246
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "hoover-dam-history-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, near what city is Hoover Dam located?",
+      "options": [
+        "Boulder City, Nevada",
+        "Phoenix, Arizona",
+        "Las Vegas proper",
+        "Reno, Nevada"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 34,
+        "end": 70
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "hoover-dam-history-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, about how many tourists visit Hoover Dam each year?",
+      "options": [
+        "7 million",
+        "1 million",
+        "100,000",
+        "30 million"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 302,
+        "end": 374
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "hoover-dam-history-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why had the Black Canyon and Boulder Canyon been investigated since about 1900?",
+      "options": [
+        "Officials were exploring their potential to support a dam for flood control, irrigation, and hydroelectric power",
+        "Prospectors believed there was gold hidden in the canyons",
+        "The canyons were being considered as national park sites",
+        "Railroad companies wanted to build a bridge there"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 61,
+        "end": 204
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "hoover-dam-history-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what the passage says about Hoover Dam's ongoing uses?",
+      "options": [
+        "It supplies electricity to several states and draws millions of visitors as a tourist attraction",
+        "It is used exclusively for irrigation and nothing else",
+        "It no longer serves any practical purpose today",
+        "It is closed to the public for safety reasons"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 198,
+        "end": 300
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "hoover-dam-history-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that constructing the dam was a \"massive effort\"?",
+      "options": [
+        "An undertaking requiring enormous scale and resources",
+        "A quick and simple task",
+        "An effort involving only a handful of engineers",
+        "A project completed entirely by machines"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 292,
+        "end": 374
+      },
+      "pool": "retest"
+    }
+  ]
+}
