@@ -1,0 +1,309 @@
+{
+  "id": "superconductivity-zero-resistance",
+  "title": "Resistance Exactly Zero",
+  "language": "en",
+  "source": "https://en.wikipedia.org/wiki/Superconductivity",
+  "attribution": "Quoted from the opening of the Wikipedia article “Superconductivity,” available under CC BY-SA 4.0.",
+  "licence": "CC BY-SA 4.0",
+  "textType": "expository",
+  "domain": "physics",
+  "calibrationOnly": false,
+  "body": [
+    "Superconductivity is a set of physical properties observed in superconductors: materials where electrical resistance is exactly zero and magnetic fields are expelled from the material. Unlike an ordinary metallic conductor, whose resistance decreases gradually as its temperature is lowered, even down to near absolute zero, a superconductor has a characteristic critical temperature below which the resistance drops abruptly to zero. An electric current through a loop of superconducting wire can persist indefinitely with no power source.",
+    "The superconductivity phenomenon was discovered in 1911 by Dutch physicist Heike Kamerlingh Onnes. Like ferromagnetism and atomic spectral lines, superconductivity is a phenomenon which can only be explained by quantum mechanics. It is characterized by the Meissner effect, the complete cancellation of the magnetic field in the interior of the superconductor during its transitions into the superconducting state. The occurrence of the Meissner effect indicates that superconductivity cannot be understood simply as the idealization of perfect conductivity in classical physics.",
+    "In 1986, it was discovered that some cuprate-perovskite ceramic materials have a critical temperature above 35 K (−238 °C). It was found shortly thereafter (by Ching-Wu Chu) that replacing the lanthanum with yttrium, i.e. making YBCO, raised the critical temperature to 92 K (−181 °C), which was important because liquid nitrogen could then be used as a refrigerant. Such a high transition temperature is theoretically impossible for a conventional superconductor, leading the materials to be termed high-temperature superconductors. The cheaply available coolant liquid nitrogen boils at 77 K (−196 °C) and thus the existence of superconductivity at higher temperatures than this facilitates many experiments and applications that are less practical at lower temperatures."
+  ],
+  "questions": [
+    {
+      "id": "superconductivity-zero-resistance-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in what year was superconductivity discovered?",
+      "options": ["1911", "1933", "1986", "1957"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 55
+      },
+      "pool": "first"
+    },
+    {
+      "id": "superconductivity-zero-resistance-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who discovered superconductivity?",
+      "options": [
+        "Heike Kamerlingh Onnes, a Dutch physicist",
+        "Ching-Wu Chu, working on ceramic oxides",
+        "A team studying ferromagnetism in Leiden",
+        "Walther Meissner, a German physicist"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 37,
+        "end": 97
+      },
+      "pool": "first"
+    },
+    {
+      "id": "superconductivity-zero-resistance-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, which two properties define a superconductor?",
+      "options": [
+        "Resistance of exactly zero, and magnetic fields expelled from the material",
+        "Resistance of exactly zero, and magnetic fields trapped inside the material",
+        "Resistance that falls gradually, and a steady internal magnetic field",
+        "Resistance that rises with cooling, and no magnetic field of any kind"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 79,
+        "end": 183
+      },
+      "pool": "first"
+    },
+    {
+      "id": "superconductivity-zero-resistance-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how does an ordinary metallic conductor's resistance behave as it is cooled?",
+      "options": [
+        "It decreases gradually, even down to near absolute zero",
+        "It drops abruptly to zero at a characteristic temperature",
+        "It stays fixed until absolute zero, then falls away",
+        "It climbs steadily as the temperature is lowered"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 224,
+        "end": 323
+      },
+      "pool": "first"
+    },
+    {
+      "id": "superconductivity-zero-resistance-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what critical temperature did YBCO reach?",
+      "options": ["92 K", "35 K", "77 K", "38 K"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 235,
+        "end": 274
+      },
+      "pool": "first"
+    },
+    {
+      "id": "superconductivity-zero-resistance-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, at what temperature does liquid nitrogen boil?",
+      "options": ["77 K", "92 K", "35 K", "4 K"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 564,
+        "end": 593
+      },
+      "pool": "first"
+    },
+    {
+      "id": "superconductivity-zero-resistance-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did raising the critical temperature to 92 K matter?",
+      "options": [
+        "Liquid nitrogen, which boils below that, could then serve as the coolant",
+        "It was the first temperature at which any resistance had been measured",
+        "It removed the need to cool the material below room temperature at all",
+        "It proved that the Meissner effect applies to ceramics as well as metals"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 286,
+        "end": 365
+      },
+      "pool": "first"
+    },
+    {
+      "id": "superconductivity-zero-resistance-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the occurrence of the Meissner effect show?",
+      "options": [
+        "Superconductivity is more than an idealised version of perfect conduction",
+        "Superconductivity is simply perfect conduction described in other words",
+        "Classical physics accounts for superconductivity without any additions",
+        "Magnetic fields play no part in how a superconductor actually behaves"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 486,
+        "end": 578
+      },
+      "pool": "first"
+    },
+    {
+      "id": "superconductivity-zero-resistance-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what is a superconductor's “critical temperature”?",
+      "options": [
+        "The temperature below which its resistance drops abruptly to zero",
+        "The temperature at which the material itself begins to melt away",
+        "The lowest temperature any known refrigerant is able to reach",
+        "The temperature at which its resistance starts to fall gradually"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 346,
+        "end": 433
+      },
+      "pool": "first"
+    },
+    {
+      "id": "superconductivity-zero-resistance-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "A quantum state with zero resistance, later reached at far warmer temperatures",
+        "A gradual loss of resistance in ordinary metals as they approach absolute zero",
+        "A magnetic effect that classical physics had already explained well before 1911",
+        "A laboratory curiosity that has never been observed outside of pure elements"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 146,
+        "end": 228
+      },
+      "pool": "first"
+    },
+    {
+      "id": "superconductivity-zero-resistance-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what kind of materials were found in 1986 to have a critical temperature above 35 K?",
+      "options": [
+        "Cuprate-perovskite ceramic materials",
+        "Ordinary metallic conductors and alloys",
+        "Pure elements cooled with liquid helium",
+        "Ferromagnetic materials of several kinds"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 32,
+        "end": 112
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "superconductivity-zero-resistance-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who raised the critical temperature by replacing the lanthanum with yttrium?",
+      "options": [
+        "Ching-Wu Chu",
+        "Heike Kamerlingh Onnes",
+        "Walther Meissner",
+        "Hendrik Casimir"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 156,
+        "end": 215
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "superconductivity-zero-resistance-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what can an electric current in a loop of superconducting wire do?",
+      "options": [
+        "Persist indefinitely with no power source",
+        "Persist for a few minutes before it decays",
+        "Grow steadily as long as the loop stays cold",
+        "Flow only while a magnet is held beside it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 435,
+        "end": 539
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "superconductivity-zero-resistance-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what is the Meissner effect?",
+      "options": [
+        "The complete cancellation of the magnetic field inside the superconductor",
+        "The abrupt fall of electrical resistance to zero as the material cools",
+        "The gradual expulsion of heat from the interior of a cooled conductor",
+        "The rise in critical temperature when lanthanum is swapped for yttrium"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 274,
+        "end": 359
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "superconductivity-zero-resistance-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why were the 1986 materials called high-temperature superconductors?",
+      "options": [
+        "Their transition temperature is theoretically impossible for a conventional one",
+        "They superconduct at ordinary room temperature and need no cooling at all",
+        "They were the first superconductors anyone had managed to cool that far",
+        "They lose their resistance only when they are heated rather than cooled"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 405,
+        "end": 532
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "superconductivity-zero-resistance-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that magnetic fields are “expelled” from a superconductor?",
+      "options": [
+        "They are driven out of the material's interior",
+        "They are amplified within the material's interior",
+        "They are converted into a current in the material",
+        "They are measured as they pass through unchanged"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 137,
+        "end": 183
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "superconductivity-zero-resistance-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises what the passage says about the discoveries of 1986 and after?",
+      "options": [
+        "They lifted the critical temperature into the range a cheap coolant can reach",
+        "They showed that the critical temperature cannot be lifted any further at all",
+        "They replaced quantum mechanics with a classical account of superconductivity",
+        "They found the first material whose resistance ever fell all the way to zero"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 534,
+        "end": 593
+      },
+      "pool": "retest"
+    }
+  ]
+}
