@@ -1,0 +1,326 @@
+{
+  "id": "oz-c19-s3",
+  "title": "Attacked by the Fighting Trees, part 3",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“Here is another space between the trees,” called the Lion.",
+    "“Let me try it first,” said the Scarecrow, “for it doesn’t hurt me to get thrown about.” He walked up to another tree, as he spoke, but its branches immediately seized him and tossed him back again.",
+    "“This is strange,” exclaimed Dorothy. “What shall we do?”",
+    "“The trees seem to have made up their minds to fight us, and stop our journey,” remarked the Lion.",
+    "“I believe I will try it myself,” said the Woodman, and shouldering his axe, he marched up to the first tree that had handled the Scarecrow so roughly. When a big branch bent down to seize him the Woodman chopped at it so fiercely that he cut it in two. At once the tree began shaking all its branches as if in pain, and the Tin Woodman passed safely under it.",
+    "“Come on!” he shouted to the others. “Be quick!” They all ran forward and passed under the tree without injury, except Toto, who was caught by a small branch and shaken until he howled. But the Woodman promptly chopped off the branch and set the little dog free.",
+    "The other trees of the forest did nothing to keep them back, so they made up their minds that only the first row of trees could bend down their branches, and that probably these were the policemen of the forest, and given this wonderful power in order to keep strangers out of it.",
+    "The four travelers walked with ease through the trees until they came to the farther edge of the wood. Then, to their surprise, they found before them a high wall which seemed to be made of white china. It was smooth, like the surface of a dish, and higher than their heads.",
+    "“What shall we do now?” asked Dorothy.",
+    "“I will make a ladder,” said the Tin Woodman, “for we certainly must climb over the wall.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c19-s3-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the Scarecrow offer to try first?",
+      "options": [
+        "Being thrown about does not hurt him",
+        "He could see further than the others",
+        "He was the ruler and must lead",
+        "The Lion asked him to go"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 44,
+        "end": 86
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c19-s3-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how did the Tin Woodman get past the tree?",
+      "options": [
+        "He chopped the branch in two with his axe",
+        "He crawled under it on his hands and knees",
+        "He waited until the branches were still",
+        "He climbed over the top of it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 193,
+        "end": 252
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c19-s3-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to the tree when it was cut?",
+      "options": [
+        "It shook all its branches as if in pain",
+        "It fell over with a great crash",
+        "It let go of the Scarecrow at once",
+        "It caught the Woodman by the arm"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 262,
+        "end": 315
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c19-s3-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who was caught by a small branch?",
+      "options": ["Toto", "Dorothy", "The Lion", "The Scarecrow"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 112,
+        "end": 157
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c19-s3-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did they find at the far edge of the wood?",
+      "options": [
+        "A high wall that seemed made of white china",
+        "A river far too deep for them to cross",
+        "The castle of Glinda the Good Witch",
+        "A field of bright scarlet poppies"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 128,
+        "end": 201
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c19-s3-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did they conclude about the trees?",
+      "options": [
+        "Only the first row could bend down its branches",
+        "Every tree in the wood would attack them",
+        "The trees had been enchanted by Glinda",
+        "The trees were guarding something behind them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 61,
+        "end": 152
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c19-s3-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did they suppose the first row was for?",
+      "options": [
+        "To act as policemen keeping strangers out",
+        "To mark the boundary of Glinda's country",
+        "To shelter the smaller trees behind them",
+        "To catch food for the beasts of the wood"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 154,
+        "end": 210
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c19-s3-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Woodman propose about the wall?",
+      "options": [
+        "To make a ladder so they can climb over",
+        "To chop a hole straight through it",
+        "To follow it until it comes to an end",
+        "To wait until someone opens a gate"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 1,
+        "end": 21
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c19-s3-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does promptly mean?",
+      "options": [
+        "Straight away, without delay",
+        "Carefully, after some thought",
+        "Reluctantly, after being asked",
+        "Quietly, without being noticed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 186,
+        "end": 233
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c19-s3-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "An axe settles the fighting trees, and a new obstacle appears",
+        "The fighting trees turn the party back towards the city",
+        "The Scarecrow is destroyed by the branches of the wood",
+        "The party finds Glinda's castle at the edge of the wood"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 53
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c19-s3-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened when the Scarecrow tried the second tree?",
+      "options": [
+        "Its branches seized him and tossed him back",
+        "It let him pass without any trouble",
+        "It caught him and would not let go",
+        "It bent away from him as he came"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 132,
+        "end": 197
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c19-s3-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Woodman shout to the others?",
+      "options": [
+        "To come on, and be quick",
+        "To turn back at once",
+        "To climb the tree behind him",
+        "To carry Toto over the roots"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 0,
+        "end": 36
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c19-s3-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the china wall like to look at?",
+      "options": [
+        "Smooth, like the surface of a dish",
+        "Rough and covered in moss",
+        "Cracked from top to bottom",
+        "Painted in shades of green"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 203,
+        "end": 244
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c19-s3-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Lion conclude about the trees' behaviour?",
+      "options": [
+        "That they had made up their minds to stop the journey",
+        "That they were only bending in the wind",
+        "That they had mistaken the party for beasts",
+        "That the Woodman had angered them first"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 1,
+        "end": 55
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c19-s3-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how tall was the wall?",
+      "options": [
+        "Higher than their heads",
+        "About knee high",
+        "Just above the Lion's shoulder",
+        "Too high to see the top of"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 246,
+        "end": 273
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c19-s3-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does without injury mean?",
+      "options": [
+        "Without being hurt at all",
+        "Without being seen",
+        "Without stopping to rest",
+        "Without any help from others"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 70,
+        "end": 110
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c19-s3-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "The wood is beaten by one sharp axe, and a china wall waits beyond",
+        "The wood proves impossible to enter and they turn aside",
+        "Toto is lost among the branches of the fighting trees",
+        "The travellers decide to sleep at the edge of the wood"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 0,
+        "end": 38
+      },
+      "pool": "retest"
+    }
+  ]
+}

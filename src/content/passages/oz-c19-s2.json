@@ -1,0 +1,325 @@
+{
+  "id": "oz-c19-s2",
+  "title": "Attacked by the Fighting Trees, part 2",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "They now turned and took a last look at the Emerald City. All they could see was a mass of towers and steeples behind the green walls, and high up above everything the spires and dome of the Palace of Oz.",
+    "“Oz was not such a bad Wizard, after all,” said the Tin Woodman, as he felt his heart rattling around in his breast.",
+    "“He knew how to give me brains, and very good brains, too,” said the Scarecrow.",
+    "“If Oz had taken a dose of the same courage he gave me,” added the Lion, “he would have been a brave man.”",
+    "Dorothy said nothing. Oz had not kept the promise he made her, but he had done his best, so she forgave him. As he said, he was a good man, even if he was a bad Wizard.",
+    "The first day’s journey was through the green fields and bright flowers that stretched about the Emerald City on every side. They slept that night on the grass, with nothing but the stars over them; and they rested very well indeed.",
+    "In the morning they traveled on until they came to a thick wood. There was no way of going around it, for it seemed to extend to the right and left as far as they could see; and, besides, they did not dare change the direction of their journey for fear of getting lost. So they looked for the place where it would be easiest to get into the forest.",
+    "The Scarecrow, who was in the lead, finally discovered a big tree with such wide-spreading branches that there was room for the party to pass underneath. So he walked forward to the tree, but just as he came under the first branches they bent down and twined around him, and the next minute he was raised from the ground and flung headlong among his fellow travelers.",
+    "This did not hurt the Scarecrow, but it surprised him, and he looked rather dizzy when Dorothy picked him up."
+  ],
+  "questions": [
+    {
+      "id": "oz-c19-s2-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what could they see of the city as they looked back?",
+      "options": [
+        "Towers and steeples, and the Palace dome above",
+        "Nothing at all but the flat green fields",
+        "The green girl waving from the city gate",
+        "Smoke rising from the Wizard's own fire"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 58,
+        "end": 133
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c19-s2-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Scarecrow say about Oz?",
+      "options": [
+        "That he knew how to give very good brains",
+        "That he was a dangerous humbug",
+        "That he should never have left the city",
+        "That he had promised too much"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 1,
+        "end": 57
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c19-s2-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did they sleep the first night?",
+      "options": [
+        "On the grass, with nothing but stars above",
+        "In a Munchkin farmhouse by the road",
+        "Under the wide-spreading tree at the wood",
+        "Inside the green city walls, as guests"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 125,
+        "end": 159
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c19-s2-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did they come to the next morning?",
+      "options": [
+        "A thick wood",
+        "A high white wall",
+        "A broad river",
+        "A field of poppies"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 15,
+        "end": 63
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c19-s2-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to the Scarecrow at the first tree?",
+      "options": [
+        "Its branches seized him and flung him back",
+        "Its branches lifted him gently over the wood",
+        "It fell across his path with a great crash",
+        "It refused to let anyone under it at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 291,
+        "end": 366
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c19-s2-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why could they not go around the wood?",
+      "options": [
+        "It stretched as far as they could see both ways",
+        "The Lion refused to leave the road",
+        "The trees had closed the road behind them",
+        "A river ran along one side of it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 102,
+        "end": 172
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c19-s2-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did they not change direction?",
+      "options": [
+        "They feared getting lost if they left their course",
+        "The Scarecrow had forbidden any change at all",
+        "The Guardian had drawn them a map to follow",
+        "Glinda's castle lay directly to the north"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 188,
+        "end": 268
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c19-s2-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Dorothy forgive Oz?",
+      "options": [
+        "He did his best, even though he broke his promise",
+        "He gave her the Golden Cap in exchange",
+        "He had never really promised her anything",
+        "The Scarecrow persuaded her to forgive him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 63,
+        "end": 107
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c19-s2-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does wide-spreading describe?",
+      "options": [
+        "Branches reaching out far to the sides",
+        "A forest covering a great distance",
+        "A road broadening as it went",
+        "A river growing wider downstream"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 55,
+        "end": 99
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c19-s2-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A kindly backward look, and then a wood that fights them",
+        "A quarrel about whether Oz deserved forgiveness",
+        "A day's march that ends safely inside the forest",
+        "A decision to go around the wood rather than through"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 192,
+        "end": 269
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c19-s2-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion say about Oz and courage?",
+      "options": [
+        "That a dose of it would have made Oz brave",
+        "That Oz had kept the best of it for himself",
+        "That the drink had been water all along",
+        "That Oz never had any courage to give"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 1,
+        "end": 54
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c19-s2-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was the first day's journey through?",
+      "options": [
+        "Green fields and bright flowers",
+        "A thick and gloomy wood",
+        "A stretch of rocky desert",
+        "The streets of the Emerald City"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 0,
+        "end": 71
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c19-s2-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who was in the lead at the wood?",
+      "options": ["The Scarecrow", "The Tin Woodman", "The Lion", "Dorothy"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 34
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c19-s2-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the throw affect the Scarecrow?",
+      "options": [
+        "It did not hurt him, but it surprised him",
+        "It tore his coat and spilled his straw",
+        "It knocked him senseless for a while",
+        "It broke the pins inside his head"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 0,
+        "end": 53
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c19-s2-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Tin Woodman feel as he spoke of Oz?",
+      "options": [
+        "His heart rattling around in his breast",
+        "The patch on his chest coming loose",
+        "His jaws beginning to rust again",
+        "Nothing at all, being made of tin"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 65,
+        "end": 115
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c19-s2-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does headlong describe?",
+      "options": [
+        "Being flung head first through the air",
+        "Moving at a great speed",
+        "Falling straight down to the ground",
+        "Turning back the way he came"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 321,
+        "end": 366
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c19-s2-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A generous verdict on the Wizard, then an unexpected attack by trees",
+        "A wood that lets them pass without any trouble",
+        "A night on the grass that nobody can sleep through",
+        "A decision to return to the Emerald City at once"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 270,
+        "end": 348
+      },
+      "pool": "retest"
+    }
+  ]
+}
