@@ -1,0 +1,328 @@
+{
+  "id": "oz-c11-s6",
+  "title": "The Wonderful City of Oz, part 6",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“What must I do?” asked the girl.",
+    "“Kill the Wicked Witch of the West,” answered Oz.",
+    "“But I cannot!” exclaimed Dorothy, greatly surprised.",
+    "“You killed the Witch of the East and you wear the silver shoes, which bear a powerful charm. There is now but one Wicked Witch left in all this land, and when you can tell me she is dead I will send you back to Kansas—but not before.”",
+    "The little girl began to weep, she was so much disappointed; and the eyes winked again and looked upon her anxiously, as if the Great Oz felt that she could help him if she would.",
+    "“I never killed anything, willingly,” she sobbed. “Even if I wanted to, how could I kill the Wicked Witch? If you, who are Great and Terrible, cannot kill her yourself, how do you expect me to do it?”",
+    "“I do not know,” said the Head; “but that is my answer, and until the Wicked Witch dies you will not see your uncle and aunt again. Remember that the Witch is Wicked—tremendously Wicked—and ought to be killed. Now go, and do not ask to see me again until you have done your task.”",
+    "Sorrowfully Dorothy left the Throne Room and went back where the Lion and the Scarecrow and the Tin Woodman were waiting to hear what Oz had said to her. “There is no hope for me,” she said sadly, “for Oz will not send me home until I have killed the Wicked Witch of the West; and that I can never do.”",
+    "Her friends were sorry, but could do nothing to help her; so Dorothy went to her own room and lay down on the bed and cried herself to sleep.",
+    "The next morning the soldier with the green whiskers came to the Scarecrow and said:",
+    "“Come with me, for Oz has sent for you.”",
+    "So the Scarecrow followed him and was admitted into the great Throne Room, where he saw, sitting in the emerald throne, a most lovely Lady. She was dressed in green silk gauze and wore upon her flowing green locks a crown of jewels. Growing from her shoulders were wings, gorgeous in color and so light that they fluttered if the slightest breath of air reached them."
+  ],
+  "questions": [
+    {
+      "id": "oz-c11-s6-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Oz tell Dorothy she must do?",
+      "options": [
+        "Kill the Wicked Witch of the West",
+        "Bring him the Golden Cap",
+        "Cross the great desert alone",
+        "Give up the silver shoes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 49
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s6-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, when will Oz send Dorothy back to Kansas?",
+      "options": [
+        "When she can tell him the Witch is dead",
+        "As soon as she asks a second time",
+        "After she has stayed a year in the city",
+        "He refuses ever to do it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 155,
+        "end": 218
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s6-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy do when she left the Throne Room?",
+      "options": [
+        "Went to her room and cried herself to sleep",
+        "Set off for the West that same hour",
+        "Asked the soldier to take her back in",
+        "Told her friends she had succeeded"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 61,
+        "end": 140
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s6-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who came for the Scarecrow the next morning?",
+      "options": [
+        "The soldier with the green whiskers",
+        "The Guardian of the great Gates",
+        "The green girl with green hair",
+        "Dorothy and the Cowardly Lion"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 17,
+        "end": 74
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s6-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what form did Oz take for the Scarecrow?",
+      "options": [
+        "A most lovely Lady with wings",
+        "An enormous Head without a body",
+        "A terrible Beast with five eyes",
+        "A Ball of Fire that scorched"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 81,
+        "end": 138
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s6-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is Dorothy's objection to the task?",
+      "options": [
+        "She has never willingly killed anything and cannot see how",
+        "She does not believe the Witch of the West exists",
+        "She has no way of travelling to the West",
+        "She has promised the Good Witch not to fight"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 1,
+        "end": 35
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s6-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what argument does Dorothy turn back on Oz?",
+      "options": [
+        "If he cannot kill the Witch himself, how can she?",
+        "If he is good, why does he ask for a killing?",
+        "If he is a wizard, why does he need her shoes?",
+        "If she kills the Witch, who will rule the Winkies?"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 107,
+        "end": 199
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s6-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Oz admit when pressed?",
+      "options": [
+        "That he does not know how she is to do it",
+        "That he never expected her to succeed",
+        "That the Witch cannot be killed at all",
+        "That he would rather she stayed in the city"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 0,
+        "end": 30
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s6-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does sorrowfully describe about Dorothy's leaving?",
+      "options": [
+        "She left full of grief",
+        "She left in a great hurry",
+        "She left without saying anything",
+        "She left more determined than before"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 40
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s6-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "The price of going home turns out to be a killing Dorothy cannot face",
+        "The Wizard agrees to send Dorothy home at once",
+        "Dorothy persuades the Wizard to ask for something easier",
+        "The Scarecrow refuses to go before the Wizard at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 155,
+        "end": 178
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s6-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Oz say the silver shoes bear?",
+      "options": [
+        "A powerful charm",
+        "The mark of the Witch of the East",
+        "The seal of the Emerald City",
+        "Nothing of any use"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 65,
+        "end": 92
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s6-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how many Wicked Witches are left in the land?",
+      "options": ["One", "Two", "Three", "None"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 94,
+        "end": 149
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s6-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the lovely Lady wearing?",
+      "options": [
+        "Green silk gauze and a crown of jewels",
+        "A green uniform and a long beard",
+        "Thick woolly hair over all her body",
+        "Nothing but a robe of fire"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 140,
+        "end": 175
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s6-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the eyes look at Dorothy while she wept?",
+      "options": [
+        "Anxiously, as if he hoped she could help him",
+        "Angrily, as if she had wasted his time",
+        "Sleepily, as if the audience were over",
+        "Kindly, as if he meant to relent"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 65,
+        "end": 116
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s6-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how do her friends respond to Dorothy's news?",
+      "options": [
+        "They are sorry but can do nothing to help",
+        "They offer to kill the Witch in her place",
+        "They urge her to go back and argue again",
+        "They decide to leave the city at once"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 0,
+        "end": 56
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s6-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the Lady's wings fluttering at the slightest breath show?",
+      "options": [
+        "How light and delicate they were",
+        "How strong the wind in the room was",
+        "How frightened she was of the Scarecrow",
+        "How eager she was to fly away"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 294,
+        "end": 366
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s6-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A hard condition is set, and the Wizard changes shape for the next visitor",
+        "A wizard proves kinder to the Scarecrow than to Dorothy",
+        "Dorothy agrees at once to kill the Wicked Witch",
+        "The travellers decide to leave the Emerald City for good"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 210,
+        "end": 279
+      },
+      "pool": "retest"
+    }
+  ]
+}

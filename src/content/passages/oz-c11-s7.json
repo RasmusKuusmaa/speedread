@@ -1,0 +1,335 @@
+{
+  "id": "oz-c11-s7",
+  "title": "The Wonderful City of Oz, part 7",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "When the Scarecrow had bowed, as prettily as his straw stuffing would let him, before this beautiful creature, she looked upon him sweetly, and said:",
+    "“I am Oz, the Great and Terrible. Who are you, and why do you seek me?”",
+    "Now the Scarecrow, who had expected to see the great Head Dorothy had told him of, was much astonished; but he answered her bravely.",
+    "“I am only a Scarecrow, stuffed with straw. Therefore I have no brains, and I come to you praying that you will put brains in my head instead of straw, so that I may become as much a man as any other in your dominions.”",
+    "“Why should I do this for you?” asked the Lady.",
+    "“Because you are wise and powerful, and no one else can help me,” answered the Scarecrow.",
+    "“I never grant favors without some return,” said Oz; “but this much I will promise. If you will kill for me the Wicked Witch of the West, I will bestow upon you a great many brains, and such good brains that you will be the wisest man in all the Land of Oz.”",
+    "“I thought you asked Dorothy to kill the Witch,” said the Scarecrow, in surprise.",
+    "“So I did. I don’t care who kills her. But until she is dead I will not grant your wish. Now go, and do not seek me again until you have earned the brains you so greatly desire.”",
+    "The Scarecrow went sorrowfully back to his friends and told them what Oz had said; and Dorothy was surprised to find that the Great Wizard was not a Head, as she had seen him, but a lovely Lady.",
+    "“All the same,” said the Scarecrow, “she needs a heart as much as the Tin Woodman.”",
+    "On the next morning the soldier with the green whiskers came to the Tin Woodman and said:",
+    "“Oz has sent for you. Follow me.”",
+    "So the Tin Woodman followed him and came to the great Throne Room. He did not know whether he would find Oz a lovely Lady or a Head, but he hoped it would be the lovely Lady. “For,” he said to himself, “if it is the head, I am sure I shall not be given a heart, since a head has no heart of its own and therefore cannot feel for me. But if it is the lovely Lady I shall beg hard for a heart, for all ladies are themselves said to be kindly hearted.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c11-s7-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Scarecrow ask the Lady for?",
+      "options": [
+        "Brains put in his head instead of straw",
+        "A heart that he may love",
+        "Courage to face the Wicked Witch",
+        "A way back to his own cornfield"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 103,
+        "end": 150
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s7-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does Oz promise the Scarecrow if the Witch dies?",
+      "options": [
+        "Brains good enough to make him the wisest man in Oz",
+        "A crown and the rule of the Emerald City",
+        "A heart as well as the brains he asks for",
+        "Safe passage back to the Munchkin country"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 138,
+        "end": 180
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s7-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Oz say about who kills the Witch?",
+      "options": [
+        "That it does not matter who does it",
+        "That it must be Dorothy alone",
+        "That the Scarecrow must do it himself",
+        "That the Lion is best suited to it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 11,
+        "end": 38
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s7-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what surprised Dorothy in the Scarecrow's report?",
+      "options": [
+        "That the Wizard was a lovely Lady, not a Head",
+        "That the Wizard had refused to see him at all",
+        "That the Wizard had promised him brains at once",
+        "That the Wizard knew her name already"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 87,
+        "end": 153
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s7-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Tin Woodman hope to find in the Throne Room?",
+      "options": [
+        "The lovely Lady rather than the Head",
+        "The Head rather than the Lady",
+        "A terrible Beast he could frighten",
+        "Nobody there at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 137,
+        "end": 173
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s7-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Woodman prefer the Lady?",
+      "options": [
+        "He believes ladies are kindly hearted and will pity him",
+        "He thinks a Lady will be easier to deceive",
+        "He has heard she grants every request",
+        "He is afraid of the Head's loud voice"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 392,
+        "end": 447
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s7-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what reasoning does the Woodman use against the Head?",
+      "options": [
+        "A head has no heart and so cannot feel for him",
+        "A head cannot reach down to hand him anything",
+        "A head would not understand what a heart is",
+        "A head has already refused Dorothy once"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 262,
+        "end": 331
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s7-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Scarecrow say about the Lady afterwards?",
+      "options": [
+        "That she needs a heart as much as the Tin Woodman does",
+        "That she was kinder to him than to Dorothy",
+        "That she is really the Head in disguise",
+        "That he did not believe she was Oz at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 37,
+        "end": 81
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s7-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does dominions mean?",
+      "options": [
+        "The lands the Wizard rules",
+        "The halls of the palace",
+        "The people of the court",
+        "The powers a wizard has"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 152,
+        "end": 217
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s7-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "The same condition is set for a second petitioner, in a different shape",
+        "The Wizard grants the Scarecrow's wish without any condition",
+        "The Scarecrow discovers the Wizard is a fraud",
+        "The Tin Woodman refuses to enter the Throne Room"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 39,
+        "end": 88
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s7-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Scarecrow bow?",
+      "options": [
+        "As prettily as his straw stuffing allowed",
+        "So low that his pointed hat fell off",
+        "Not at all, having no manners to speak of",
+        "Stiffly, because his joints were newly made"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 30,
+        "end": 77
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s7-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how does the Scarecrow describe himself to Oz?",
+      "options": [
+        "Only a Scarecrow, stuffed with straw",
+        "A man as good as any in the land",
+        "A friend of Dorothy the Small and Meek",
+        "The wisest man in all of Oz"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 1,
+        "end": 43
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s7-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Oz say about granting favours?",
+      "options": [
+        "That he never grants them without some return",
+        "That he grants them only to strangers",
+        "That he grants one favour each year",
+        "That he has never granted one before"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 1,
+        "end": 41
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s7-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was the Scarecrow astonished on entering?",
+      "options": [
+        "He had expected the Head that Dorothy described",
+        "He had not known the Wizard would speak at all",
+        "He had been told the Throne Room was empty",
+        "He had expected to find Dorothy still there"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 19,
+        "end": 81
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s7-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what reason does the Scarecrow give for asking Oz?",
+      "options": [
+        "That Oz is wise and powerful and no one else can help",
+        "That the Witch of the North had sent him",
+        "That he has already earned the favour",
+        "That he has nothing else left to try"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 1,
+        "end": 63
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s7-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does bestow mean?",
+      "options": [
+        "Give as a gift",
+        "Take away",
+        "Promise in writing",
+        "Hide somewhere safe"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 138,
+        "end": 180
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s7-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A second petitioner meets a different Oz and the same price",
+        "A second petitioner is granted his wish immediately",
+        "A wizard admits he cannot make brains at all",
+        "The Scarecrow persuades Oz to spare the Witch"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 0,
+        "end": 50
+      },
+      "pool": "retest"
+    }
+  ]
+}

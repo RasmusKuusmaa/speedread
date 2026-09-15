@@ -1,0 +1,331 @@
+{
+  "id": "oz-c11-s5",
+  "title": "The Wonderful City of Oz, part 5",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "It was not such an awful voice as she had expected to come from the big Head; so she took courage and answered:",
+    "“I am Dorothy, the Small and Meek. I have come to you for help.”",
+    "The eyes looked at her thoughtfully for a full minute. Then said the voice:",
+    "“Where did you get the silver shoes?”",
+    "“I got them from the Wicked Witch of the East, when my house fell on her and killed her,” she replied.",
+    "“Where did you get the mark upon your forehead?” continued the voice.",
+    "“That is where the Good Witch of the North kissed me when she bade me good-bye and sent me to you,” said the girl.",
+    "Again the eyes looked at her sharply, and they saw she was telling the truth. Then Oz asked, “What do you wish me to do?”",
+    "“Send me back to Kansas, where my Aunt Em and Uncle Henry are,” she answered earnestly. “I don’t like your country, although it is so beautiful. And I am sure Aunt Em will be dreadfully worried over my being away so long.”",
+    "The eyes winked three times, and then they turned up to the ceiling and down to the floor and rolled around so queerly that they seemed to see every part of the room. And at last they looked at Dorothy again.",
+    "“Why should I do this for you?” asked Oz.",
+    "“Because you are strong and I am weak; because you are a Great Wizard and I am only a little girl.”",
+    "“But you were strong enough to kill the Wicked Witch of the East,” said Oz.",
+    "“That just happened,” returned Dorothy simply; “I could not help it.”",
+    "“Well,” said the Head, “I will give you my answer. You have no right to expect me to send you back to Kansas unless you do something for me in return. In this country everyone must pay for everything he gets. If you wish me to use my magic power to send you home again you must do something for me first. Help me and I will help you.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c11-s5-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does Dorothy name herself to Oz?",
+      "options": [
+        "Dorothy, the Small and Meek",
+        "Dorothy of Kansas",
+        "The Sorceress of the East",
+        "Dorothy, the Great and Terrible"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 1,
+        "end": 34
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s5-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, where did Dorothy say she got the silver shoes?",
+      "options": [
+        "From the Wicked Witch of the East, killed by her house",
+        "From the Good Witch of the North as a parting gift",
+        "From the Munchkins who made them for her",
+        "From the green girl at the palace"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 1,
+        "end": 45
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s5-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the mark on her forehead come from?",
+      "options": [
+        "The Good Witch of the North's kiss",
+        "The Wicked Witch's dying blow",
+        "The Guardian's locked spectacles",
+        "The fall of the house"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 1,
+        "end": 52
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s5-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does Dorothy ask Oz to do?",
+      "options": [
+        "Send her back to Kansas to her aunt and uncle",
+        "Give her a way to cross the great desert",
+        "Make the Munchkins stop calling her a witch",
+        "Take the silver shoes away from her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 1,
+        "end": 61
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s5-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Oz say everyone must do in that country?",
+      "options": [
+        "Pay for everything he gets",
+        "Obey the Wizard without question",
+        "Wear green spectacles at all times",
+        "Serve a year in the palace"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 14,
+        "start": 151,
+        "end": 208
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s5-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was Dorothy able to take courage?",
+      "options": [
+        "The voice was not as awful as she had expected",
+        "The Head smiled kindly at her as she came in",
+        "The green girl had come in with her after all",
+        "She could see the Wizard was only pretending"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 50
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s5-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what convinced Oz that Dorothy spoke honestly?",
+      "options": [
+        "His eyes looked at her sharply and saw she told the truth",
+        "The soldier had vouched for her beforehand",
+        "She showed him the mark on her forehead",
+        "She refused to claim any credit for the killing"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 77
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s5-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does Dorothy explain killing the Witch of the East?",
+      "options": [
+        "That it simply happened and she could not help it",
+        "That the silver shoes had done it for her",
+        "That the Good Witch of the North had arranged it",
+        "That she had meant to do it all along"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 0,
+        "end": 45
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s5-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does Dorothy mean by calling herself meek?",
+      "options": [
+        "Small and without power of her own",
+        "Quiet because she is frightened",
+        "Patient in waiting for an answer",
+        "Modest about what she has done"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 1,
+        "end": 34
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s5-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A plea for help is answered with a demand for payment first",
+        "A plea for help is granted at once by a kindly wizard",
+        "A wizard proves that Dorothy has been lying to him",
+        "A girl refuses to tell the Wizard where she came from"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 14,
+        "start": 305,
+        "end": 333
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s5-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how long did the eyes look at her before speaking?",
+      "options": [
+        "A full minute",
+        "Only an instant",
+        "Half an hour",
+        "They never looked at her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 54
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s5-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how many times did the eyes wink?",
+      "options": ["Three", "Once", "Five", "They did not wink"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 0,
+        "end": 27
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s5-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what reason does Dorothy give for Oz helping her?",
+      "options": [
+        "He is strong and a great wizard, and she is only a little girl",
+        "She has already killed one wicked witch for him",
+        "The Good Witch of the North sent her to him",
+        "She will pay him with the silver shoes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 1,
+        "end": 37
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s5-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Dorothy say about the Land of Oz?",
+      "options": [
+        "That she does not like it, beautiful though it is",
+        "That she would gladly stay if Aunt Em could come",
+        "That it is far better than Kansas ever was",
+        "That she has seen too little of it to judge"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 89,
+        "end": 144
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s5-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Oz point out about Dorothy's own strength?",
+      "options": [
+        "That she was strong enough to kill the Witch of the East",
+        "That she walked the whole way from Munchkin country",
+        "That she faced the Kalidahs without running",
+        "That she alone dared ask to see him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 1,
+        "end": 64
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s5-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does earnestly convey about Dorothy's answer?",
+      "options": [
+        "She spoke with serious feeling",
+        "She spoke in a great hurry",
+        "She spoke without much hope",
+        "She spoke to flatter him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 64,
+        "end": 86
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s5-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A truthful account wins a hearing, but help is made conditional",
+        "A wizard sends a girl away without listening to her",
+        "A girl bargains successfully for a journey home",
+        "A wizard admits he has no magic power at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 14,
+        "start": 51,
+        "end": 150
+      },
+      "pool": "retest"
+    }
+  ]
+}

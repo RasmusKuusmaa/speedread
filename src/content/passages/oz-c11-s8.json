@@ -1,0 +1,325 @@
+{
+  "id": "oz-c11-s8",
+  "title": "The Wonderful City of Oz, part 8",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "But when the Woodman entered the great Throne Room he saw neither the Head nor the Lady, for Oz had taken the shape of a most terrible Beast. It was nearly as big as an elephant, and the green throne seemed hardly strong enough to hold its weight. The Beast had a head like that of a rhinoceros, only there were five eyes in its face. There were five long arms growing out of its body, and it also had five long, slim legs. Thick, woolly hair covered every part of it, and a more dreadful-looking monster could not be imagined. It was fortunate the Tin Woodman had no heart at that moment, for it would have beat loud and fast from terror. But being only tin, the Woodman was not at all afraid, although he was much disappointed.",
+    "“I am Oz, the Great and Terrible,” spoke the Beast, in a voice that was one great roar. “Who are you, and why do you seek me?”",
+    "“I am a Woodman, and made of tin. Therefore I have no heart, and cannot love. I pray you to give me a heart that I may be as other men are.”",
+    "“Why should I do this?” demanded the Beast.",
+    "“Because I ask it, and you alone can grant my request,” answered the Woodman.",
+    "Oz gave a low growl at this, but said, gruffly: “If you indeed desire a heart, you must earn it.”",
+    "“How?” asked the Woodman.",
+    "“Help Dorothy to kill the Wicked Witch of the West,” replied the Beast. “When the Witch is dead, come to me, and I will then give you the biggest and kindest and most loving heart in all the Land of Oz.”",
+    "So the Tin Woodman was forced to return sorrowfully to his friends and tell them of the terrible Beast he had seen. They all wondered greatly at the many forms the Great Wizard could take upon himself, and the Lion said:"
+  ],
+  "questions": [
+    {
+      "id": "oz-c11-s8-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what shape had Oz taken for the Tin Woodman?",
+      "options": [
+        "A most terrible Beast",
+        "A lovely Lady with wings",
+        "An enormous Head",
+        "A Ball of Fire"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 89,
+        "end": 140
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s8-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how large was the Beast?",
+      "options": [
+        "Nearly as big as an elephant",
+        "About the size of a large dog",
+        "Small enough to sit in one hand",
+        "Taller than the palace roof"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 142,
+        "end": 177
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s8-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many eyes did the Beast have?",
+      "options": ["Five", "Two", "Three", "Seven"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 296,
+        "end": 333
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s8-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the Tin Woodman ask for?",
+      "options": [
+        "A heart, so that he may be as other men are",
+        "Brains, so that he may think properly",
+        "Courage, so that he may face the Witch",
+        "Oil, so that he may never rust again"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 78,
+        "end": 138
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s8-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Oz promise when the Witch is dead?",
+      "options": [
+        "The biggest and kindest and most loving heart in all Oz",
+        "A heart of tin to match the rest of him",
+        "To send him back to the Munchkin maiden",
+        "To make him ruler of the Winkie country"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 113,
+        "end": 201
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s8-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was it fortunate the Woodman had no heart?",
+      "options": [
+        "It would have beaten loud and fast from terror",
+        "The Beast would have torn it out of him",
+        "He would have pitied the Beast too much",
+        "It would have rusted in the heat of the room"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 590,
+        "end": 638
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s8-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the Woodman actually feel before the Beast?",
+      "options": [
+        "Not afraid, but much disappointed",
+        "So frightened he could not speak",
+        "Delighted to meet so strange a creature",
+        "Angry at being tricked by the Wizard"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 660,
+        "end": 728
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s8-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the party conclude from the different shapes?",
+      "options": [
+        "They wondered greatly at the many forms Oz could take",
+        "They decided the Wizard had no real power",
+        "They agreed each had seen a different wizard",
+        "They believed the Head was the true Oz"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 116,
+        "end": 187
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s8-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does gruffly describe about Oz's speech?",
+      "options": [
+        "Rough and short in tone",
+        "Soft and kindly in tone",
+        "Loud enough to shake the room",
+        "Slow and difficult to hear"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 29,
+        "end": 46
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s8-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A third petitioner, a third shape, and the same condition again",
+        "A wizard who finally grants a wish without any price",
+        "A beast that attacks the Tin Woodman in the Throne Room",
+        "A Woodman who refuses to help kill the Wicked Witch"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 49,
+        "end": 96
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s8-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many arms and legs did the Beast have?",
+      "options": [
+        "Five of each",
+        "Four of each",
+        "Two arms and four legs",
+        "None at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 335,
+        "end": 384
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s8-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what covered the Beast's body?",
+      "options": [
+        "Thick, woolly hair",
+        "Scales like a fish",
+        "Green feathers",
+        "Smooth tin plate"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 424,
+        "end": 467
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s8-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Beast's voice like?",
+      "options": [
+        "One great roar",
+        "A low, quiet whisper",
+        "A sweet and gentle voice",
+        "A voice like Dorothy's own"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 52,
+        "end": 86
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s8-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, whose head did the Beast's resemble?",
+      "options": [
+        "A rhinoceros",
+        "An elephant",
+        "A lion of the forest",
+        "A man of the city"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 248,
+        "end": 294
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s8-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what reason does the Woodman give for asking Oz?",
+      "options": [
+        "That he asks it, and Oz alone can grant it",
+        "That he has served the Wizard faithfully",
+        "That Dorothy has asked him to come",
+        "That he has nothing else to live for"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 1,
+        "end": 53
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s8-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the throne seemed hardly strong enough?",
+      "options": [
+        "It looked barely able to bear the weight",
+        "It had already begun to crack apart",
+        "It was made of something other than marble",
+        "It had been built for a smaller wizard"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 183,
+        "end": 246
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s8-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Another shape of Oz, another petitioner, and the same price set",
+        "A wizard who is finally revealed in his own true form",
+        "A Woodman who bargains the Wizard down to an easier task",
+        "A beast that proves too frightened to speak to the Woodman"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 0,
+        "end": 66
+      },
+      "pool": "retest"
+    }
+  ]
+}

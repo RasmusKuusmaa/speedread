@@ -1,0 +1,330 @@
+{
+  "id": "oz-c11-s9",
+  "title": "The Wonderful City of Oz, part 9",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“If he is a Beast when I go to see him, I shall roar my loudest, and so frighten him that he will grant all I ask. And if he is the lovely Lady, I shall pretend to spring upon her, and so compel her to do my bidding. And if he is the great Head, he will be at my mercy; for I will roll this head all about the room until he promises to give us what we desire. So be of good cheer, my friends, for all will yet be well.”",
+    "The next morning the soldier with the green whiskers led the Lion to the great Throne Room and bade him enter the presence of Oz.",
+    "The Lion at once passed through the door, and glancing around saw, to his surprise, that before the throne was a Ball of Fire, so fierce and glowing he could scarcely bear to gaze upon it. His first thought was that Oz had by accident caught on fire and was burning up; but when he tried to go nearer, the heat was so intense that it singed his whiskers, and he crept back tremblingly to a spot nearer the door.",
+    "Then a low, quiet voice came from the Ball of Fire, and these were the words it spoke:",
+    "“I am Oz, the Great and Terrible. Who are you, and why do you seek me?”",
+    "And the Lion answered, “I am a Cowardly Lion, afraid of everything. I came to you to beg that you give me courage, so that in reality I may become the King of Beasts, as men call me.”",
+    "“Why should I give you courage?” demanded Oz.",
+    "“Because of all Wizards you are the greatest, and alone have power to grant my request,” answered the Lion.",
+    "The Ball of Fire burned fiercely for a time, and the voice said, “Bring me proof that the Wicked Witch is dead, and that moment I will give you courage. But as long as the Witch lives, you must remain a coward.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c11-s9-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion plan to do if Oz were a Beast?",
+      "options": [
+        "Roar his loudest to frighten him",
+        "Spring upon him at once",
+        "Roll him about the room",
+        "Run out of the door"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 40,
+        "end": 84
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s9-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did he plan if Oz were the great Head?",
+      "options": [
+        "Roll it about the room until it promised",
+        "Roar at it until it woke from sleep",
+        "Pretend to spring upon it and bite",
+        "Ask it politely for a little courage"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 270,
+        "end": 332
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s9-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion actually find before the throne?",
+      "options": [
+        "A Ball of Fire",
+        "A lovely Lady",
+        "A terrible Beast",
+        "An enormous Head"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 89,
+        "end": 125
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s9-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what happened when the Lion tried to go nearer?",
+      "options": [
+        "The heat singed his whiskers",
+        "The fire went out entirely",
+        "A voice ordered him back",
+        "The floor gave way beneath him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 302,
+        "end": 353
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s9-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Oz demand as proof?",
+      "options": [
+        "Proof that the Wicked Witch is dead",
+        "Proof that the Lion is truly a coward",
+        "Proof that Dorothy sent him",
+        "Proof that he is King of Beasts"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 66,
+        "end": 110
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s9-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what was the Lion's first thought about the Ball of Fire?",
+      "options": [
+        "That Oz had caught fire by accident and was burning up",
+        "That the Wizard was hiding somewhere behind it",
+        "That the room itself was about to burn down",
+        "That it was a trick of the green spectacles"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 189,
+        "end": 249
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s9-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Lion ask courage for?",
+      "options": [
+        "So that he may really become the King of Beasts men call him",
+        "So that he may kill the Wicked Witch alone",
+        "So that he may return to his forest unafraid",
+        "So that he may protect Dorothy on the road"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 115,
+        "end": 181
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s9-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Oz say will happen while the Witch lives?",
+      "options": [
+        "The Lion must remain a coward",
+        "The Lion must stay in the palace",
+        "The Ball of Fire will keep on burning",
+        "Nobody may enter the Throne Room"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 153,
+        "end": 210
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s9-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does compel her to do my bidding mean?",
+      "options": [
+        "Force her to do what he wants",
+        "Persuade her with kind words",
+        "Ask her nicely for a favour",
+        "Offer her something in exchange"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 181,
+        "end": 215
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s9-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "Bold plans collapse before a shape the Lion cannot threaten",
+        "A lion frightens the Wizard into granting his wish",
+        "A lion refuses to enter the Throne Room at all",
+        "A wizard admits the Lion is brave already"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 359,
+        "end": 410
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s9-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who led the Lion to the Throne Room?",
+      "options": [
+        "The soldier with the green whiskers",
+        "The Guardian of the great Gates",
+        "The green girl with green hair",
+        "Dorothy and the Scarecrow"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 17,
+        "end": 90
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s9-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how does the Lion describe himself to Oz?",
+      "options": [
+        "A Cowardly Lion, afraid of everything",
+        "The King of all the Beasts",
+        "A friend of the Emerald City",
+        "A servant of the Wicked Witch"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 24,
+        "end": 67
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s9-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the voice from the fire like?",
+      "options": [
+        "Low and quiet",
+        "One great roar",
+        "Sweet and singing",
+        "Harsh and shouting"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 50
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s9-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Lion tell his friends to be of good cheer?",
+      "options": [
+        "He believed he could deal with the Wizard in any shape",
+        "He had already been promised his courage",
+        "He knew the Wizard was only a trick",
+        "He had decided to leave the city that night"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 360,
+        "end": 418
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s9-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what reason does the Lion give for asking Oz?",
+      "options": [
+        "That Oz is the greatest of wizards and alone can grant it",
+        "That he has served Dorothy faithfully on the road",
+        "That every other wizard has already refused him",
+        "That the Witch of the North promised he would"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 1,
+        "end": 44
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s9-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does intense describe?",
+      "options": [
+        "The fierceness of the heat",
+        "The brightness of the emeralds",
+        "The loudness of the voice",
+        "The Lion's own fear"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 302,
+        "end": 353
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s9-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A lion's boasts come to nothing before a Ball of Fire",
+        "A lion wins his courage by frightening the Wizard",
+        "A lion discovers the Wizard is really a Beast",
+        "A lion is given courage on condition he stays"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 0,
+        "end": 43
+      },
+      "pool": "retest"
+    }
+  ]
+}

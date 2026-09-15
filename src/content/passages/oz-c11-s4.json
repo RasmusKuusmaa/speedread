@@ -1,0 +1,329 @@
+{
+  "id": "oz-c11-s4",
+  "title": "The Wonderful City of Oz, part 4",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“Are you really going to look upon the face of Oz the Terrible?”",
+    "“Of course,” answered the girl, “if he will see me.”",
+    "“Oh, he will see you,” said the soldier who had taken her message to the Wizard, “although he does not like to have people ask to see him. Indeed, at first he was angry and said I should send you back where you came from. Then he asked me what you looked like, and when I mentioned your silver shoes he was very much interested. At last I told him about the mark upon your forehead, and he decided he would admit you to his presence.”",
+    "Just then a bell rang, and the green girl said to Dorothy, “That is the signal. You must go into the Throne Room alone.”",
+    "She opened a little door and Dorothy walked boldly through and found herself in a wonderful place. It was a big, round room with a high arched roof, and the walls and ceiling and floor were covered with large emeralds set closely together. In the center of the roof was a great light, as bright as the sun, which made the emeralds sparkle in a wonderful manner.",
+    "But what interested Dorothy most was the big throne of green marble that stood in the middle of the room. It was shaped like a chair and sparkled with gems, as did everything else. In the center of the chair was an enormous Head, without a body to support it or any arms or legs whatever. There was no hair upon this head, but it had eyes and a nose and mouth, and was much bigger than the head of the biggest giant.",
+    "As Dorothy gazed upon this in wonder and fear, the eyes turned slowly and looked at her sharply and steadily. Then the mouth moved, and Dorothy heard a voice say:",
+    "“I am Oz, the Great and Terrible. Who are you, and why do you seek me?”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c11-s4-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the soldier say Oz asked about Dorothy?",
+      "options": [
+        "What she looked like",
+        "How long she had travelled",
+        "Whether she came from Kansas",
+        "Who had sent her to him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 222,
+        "end": 259
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s4-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what detail made Oz decide to admit her?",
+      "options": [
+        "The mark upon her forehead",
+        "The silver shoes on her feet",
+        "The dog she carried in her arms",
+        "The green gown she had been given"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 329,
+        "end": 381
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s4-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Throne Room like?",
+      "options": [
+        "Big and round, covered everywhere with emeralds",
+        "Long and narrow, hung with green curtains",
+        "Small and dark, lit by a single candle",
+        "Open to the sky, with no roof at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 99,
+        "end": 147
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s4-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what stood in the middle of the room?",
+      "options": [
+        "A big throne of green marble",
+        "A great pot covered with gold",
+        "A screen for the Wizard to sit behind",
+        "A fountain of green perfume"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 37,
+        "end": 104
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s4-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was sitting on the throne?",
+      "options": [
+        "An enormous Head with no body at all",
+        "A lovely Lady with fluttering wings",
+        "A terrible Beast with five eyes",
+        "A Ball of Fire too hot to approach"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 181,
+        "end": 228
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s4-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what had Oz first told the soldier to do?",
+      "options": [
+        "Send Dorothy back where she came from",
+        "Bring her in at once",
+        "Ask her to wait for seven days",
+        "Take her message to the Guardian"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 147,
+        "end": 220
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s4-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Dorothy do at the signal?",
+      "options": [
+        "Walks boldly through the little door alone",
+        "Waits for her friends to follow her in",
+        "Asks the green girl to come with her",
+        "Hesitates until the bell rings twice"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 29,
+        "end": 58
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s4-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does the Head first show it is alive?",
+      "options": [
+        "Its eyes turn and look at her sharply",
+        "It calls her by name across the room",
+        "It rises off the throne into the air",
+        "It smiles and beckons her nearer"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 47,
+        "end": 108
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s4-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the court lady mean by Oz the Terrible?",
+      "options": [
+        "A name for the Wizard that marks how he is feared",
+        "A description of how ugly the Wizard is",
+        "A title given to him by the Munchkins",
+        "A joke the courtiers make among themselves"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 1,
+        "end": 63
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s4-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "Dorothy is admitted alone and meets the Wizard as a giant Head",
+        "Dorothy is refused an audience and sent back to her room",
+        "Dorothy discovers the Wizard is only an ordinary man",
+        "The court explains why nobody may see the Wizard"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 71
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s4-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was in the centre of the roof?",
+      "options": [
+        "A great light as bright as the sun",
+        "A window of thick green glass",
+        "A carved crown of emeralds",
+        "An opening to the sky above"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 240,
+        "end": 305
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s4-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Head lack?",
+      "options": [
+        "A body, arms, legs, and hair",
+        "Eyes and a mouth",
+        "A nose and a voice",
+        "Any resemblance to a giant"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 230,
+        "end": 287
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s4-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the green girl call the bell?",
+      "options": [
+        "The signal",
+        "The alarm",
+        "The Wizard's summons",
+        "The hour"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 60,
+        "end": 79
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s4-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how big was the Head?",
+      "options": [
+        "Bigger than the head of the biggest giant",
+        "About the size of an ordinary man's",
+        "Small enough to sit in a chair's arm",
+        "As large as the throne it rested on"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 361,
+        "end": 415
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s4-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does Dorothy feel as she looks at the Head?",
+      "options": [
+        "With wonder and fear together",
+        "With amusement at the sight",
+        "With disappointment at its size",
+        "With no feeling at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 0,
+        "end": 45
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s4-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the walls were set closely together?",
+      "options": [
+        "The emeralds were packed tight against each other",
+        "The walls were built very near to the throne",
+        "The room had been made too small for its roof",
+        "The stones had been fitted without mortar"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 185,
+        "end": 238
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s4-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "An audience granted on the strength of the shoes and the mark",
+        "An audience refused because Dorothy came uninvited",
+        "A description of how the Throne Room was built",
+        "A quarrel between the soldier and the court ladies"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 383,
+        "end": 432
+      },
+      "pool": "retest"
+    }
+  ]
+}

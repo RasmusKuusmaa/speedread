@@ -1,0 +1,326 @@
+{
+  "id": "oz-c11-s3",
+  "title": "The Wonderful City of Oz, part 3",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "In a wardrobe were many green dresses, made of silk and satin and velvet; and all of them fitted Dorothy exactly.",
+    "“Make yourself perfectly at home,” said the green girl, “and if you wish for anything ring the bell. Oz will send for you tomorrow morning.”",
+    "She left Dorothy alone and went back to the others. These she also led to rooms, and each one of them found himself lodged in a very pleasant part of the Palace. Of course this politeness was wasted on the Scarecrow; for when he found himself alone in his room he stood stupidly in one spot, just within the doorway, to wait till morning. It would not rest him to lie down, and he could not close his eyes; so he remained all night staring at a little spider which was weaving its web in a corner of the room, just as if it were not one of the most wonderful rooms in the world. The Tin Woodman lay down on his bed from force of habit, for he remembered when he was made of flesh; but not being able to sleep, he passed the night moving his joints up and down to make sure they kept in good working order. The Lion would have preferred a bed of dried leaves in the forest, and did not like being shut up in a room; but he had too much sense to let this worry him, so he sprang upon the bed and rolled himself up like a cat and purred himself asleep in a minute.",
+    "The next morning, after breakfast, the green maiden came to fetch Dorothy, and she dressed her in one of the prettiest gowns, made of green brocaded satin. Dorothy put on a green silk apron and tied a green ribbon around Toto’s neck, and they started for the Throne Room of the Great Oz.",
+    "First they came to a great hall in which were many ladies and gentlemen of the court, all dressed in rich costumes. These people had nothing to do but talk to each other, but they always came to wait outside the Throne Room every morning, although they were never permitted to see Oz. As Dorothy entered they looked at her curiously, and one of them whispered:"
+  ],
+  "questions": [
+    {
+      "id": "oz-c11-s3-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was in the wardrobe?",
+      "options": [
+        "Many green dresses of silk, satin, and velvet",
+        "A row of little green books with funny pictures",
+        "Spectacles of every size, with green glasses",
+        "A green silk apron and a ribbon for Toto"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 37
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s3-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Scarecrow do all night?",
+      "options": [
+        "Stood in one spot watching a spider weave",
+        "Lay on the bed without closing his eyes",
+        "Walked up and down the seven passages",
+        "Read the little green books on the shelf"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 410,
+        "end": 458
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s3-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Tin Woodman spend the night?",
+      "options": [
+        "Moving his joints to keep them working",
+        "Sharpening his axe on a green stone",
+        "Standing quietly beside the Scarecrow",
+        "Oiling himself from head to foot"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 710,
+        "end": 759
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s3-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how did the Lion settle himself?",
+      "options": [
+        "Sprang on the bed, rolled up, and purred himself asleep",
+        "Lay across the doorway to guard the room",
+        "Slept on the floor as he would in the forest",
+        "Stayed awake all night, too uneasy to rest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 964,
+        "end": 1022
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s3-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was Dorothy dressed in the next morning?",
+      "options": [
+        "A gown of green brocaded satin",
+        "The gingham frock she arrived in",
+        "A green silk gauze with a jewelled crown",
+        "A plain green apron only"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 126,
+        "end": 154
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s3-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was the Tin Woodman's use of the bed only habit?",
+      "options": [
+        "He remembered doing it when he was made of flesh",
+        "The green girl had insisted that he use it",
+        "He was afraid of offending his hosts",
+        "He hoped it would keep his joints from rusting"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 579,
+        "end": 634
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s3-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was the fine room wasted on the Scarecrow?",
+      "options": [
+        "He can neither rest nor close his eyes",
+        "He could not see the colours through his paint",
+        "He would rather have been left in a cornfield",
+        "He spent the night in the Lion's room instead"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 339,
+        "end": 405
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s3-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what do the courtiers outside the Throne Room do?",
+      "options": [
+        "Wait every morning although they never see Oz",
+        "Carry messages between the Wizard and the city",
+        "Guard the door against any stranger",
+        "Choose which visitors shall be admitted"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 171,
+        "end": 237
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s3-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Lion had too much sense to let it worry him?",
+      "options": [
+        "He was wise enough not to fret about it",
+        "He was too tired to think about it",
+        "He had been told not to complain",
+        "He did not understand what troubled him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 915,
+        "end": 962
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s3-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A night at the palace passes differently for each of the four",
+        "A night at the palace in which nobody is able to rest",
+        "A morning in which the Wizard refuses to see anyone",
+        "A description of the green clothes worn at court"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 85,
+        "end": 160
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s3-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the green girl tell Dorothy to do if she wanted anything?",
+      "options": [
+        "Ring the bell",
+        "Call from the window",
+        "Come down to the great hall",
+        "Ask the soldier at the door"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 57,
+        "end": 99
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s3-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, when did the green girl say Oz would send for Dorothy?",
+      "options": [
+        "Tomorrow morning",
+        "That same evening",
+        "After seven days",
+        "She did not say"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 101,
+        "end": 138
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s3-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy tie round Toto's neck?",
+      "options": [
+        "A green ribbon",
+        "A little bell",
+        "A silk apron",
+        "A chain of emeralds"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 194,
+        "end": 232
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s3-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what had the ladies and gentlemen of the court to do?",
+      "options": [
+        "Nothing but talk to each other",
+        "Attend the Wizard in his Throne Room",
+        "Govern the city in the Wizard's name",
+        "Guard the palace against strangers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 116,
+        "end": 169
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s3-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the court receive Dorothy?",
+      "options": [
+        "They looked at her curiously and whispered",
+        "They bowed low as she went past",
+        "They tried to stop her at the door",
+        "They took no notice of her at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 285,
+        "end": 332
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s3-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does lodged mean?",
+      "options": [
+        "Given a place to stay",
+        "Locked in for the night",
+        "Fastened into position",
+        "Hidden away from sight"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 85,
+        "end": 160
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s3-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A comfortable night, and Dorothy dressed for her audience",
+        "A night in which the Scarecrow learns to sleep",
+        "A morning at court where Dorothy is turned away",
+        "A description of the Wizard's many disguises"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 73
+      },
+      "pool": "retest"
+    }
+  ]
+}

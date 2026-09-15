@@ -1,0 +1,336 @@
+{
+  "id": "oz-c11-s10",
+  "title": "The Wonderful City of Oz, part 10",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "The Lion was angry at this speech, but could say nothing in reply, and while he stood silently gazing at the Ball of Fire it became so furiously hot that he turned tail and rushed from the room. He was glad to find his friends waiting for him, and told them of his terrible interview with the Wizard.",
+    "“What shall we do now?” asked Dorothy sadly.",
+    "“There is only one thing we can do,” returned the Lion, “and that is to go to the land of the Winkies, seek out the Wicked Witch, and destroy her.”",
+    "“But suppose we cannot?” said the girl.",
+    "“Then I shall never have courage,” declared the Lion.",
+    "“And I shall never have brains,” added the Scarecrow.",
+    "“And I shall never have a heart,” spoke the Tin Woodman.",
+    "“And I shall never see Aunt Em and Uncle Henry,” said Dorothy, beginning to cry.",
+    "“Be careful!” cried the green girl. “The tears will fall on your green silk gown and spot it.”",
+    "So Dorothy dried her eyes and said, “I suppose we must try it; but I am sure I do not want to kill anybody, even to see Aunt Em again.”",
+    "“I will go with you; but I’m too much of a coward to kill the Witch,” said the Lion.",
+    "“I will go too,” declared the Scarecrow; “but I shall not be of much help to you, I am such a fool.”",
+    "“I haven’t the heart to harm even a Witch,” remarked the Tin Woodman; “but if you go I certainly shall go with you.”",
+    "Therefore it was decided to start upon their journey the next morning, and the Woodman sharpened his axe on a green grindstone and had all his joints properly oiled. The Scarecrow stuffed himself with fresh straw and Dorothy put new paint on his eyes that he might see better. The green girl, who was very kind to them, filled Dorothy’s basket with good things to eat, and fastened a little bell around Toto’s neck with a green ribbon.",
+    "They went to bed quite early and slept soundly until daylight, when they were awakened by the crowing of a green cock that lived in the back yard of the Palace, and the cackling of a hen that had laid a green egg."
+  ],
+  "questions": [
+    {
+      "id": "oz-c11-s10-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Lion leave the Throne Room?",
+      "options": [
+        "He turned tail and rushed out",
+        "He walked out slowly, roaring",
+        "He was carried out by the soldier",
+        "He stayed until the fire went out"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 154,
+        "end": 193
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s10-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the Lion say is the only thing they can do?",
+      "options": [
+        "Go to the land of the Winkies and destroy the Witch",
+        "Leave the Emerald City and go home",
+        "Ask the Wizard once more for mercy",
+        "Send word to the Good Witch of the North"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 57,
+        "end": 101
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s10-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the green girl call out to Dorothy?",
+      "options": [
+        "Her tears would spot the green silk gown",
+        "The Wizard was calling for her",
+        "The Lion had come back from the Wizard",
+        "It was time to leave the palace"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 37,
+        "end": 93
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s10-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Woodman do to prepare?",
+      "options": [
+        "Sharpened his axe and had his joints oiled",
+        "Built a new truck for the journey",
+        "Filled his oil-can from the palace stores",
+        "Made a raft to cross the river again"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 75,
+        "end": 126
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s10-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy do for the Scarecrow?",
+      "options": [
+        "Put new paint on his eyes",
+        "Stuffed him with fresh straw",
+        "Mended the tear in his coat",
+        "Made him a new pointed hat"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 217,
+        "end": 275
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s10-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how do the three companions offer their help?",
+      "options": [
+        "Each admits he will be of little use, but goes anyway",
+        "Each promises to kill the Witch single-handed",
+        "Each asks Dorothy to release him from the journey",
+        "Each insists the others should go instead"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 1,
+        "end": 67
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s10-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Dorothy say about the killing?",
+      "options": [
+        "That she does not want to kill anybody, even to see Aunt Em",
+        "That she will do it gladly if it takes her home",
+        "That she will leave it to the Lion to manage",
+        "That she no longer believes the Witch exists"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 63,
+        "end": 133
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s10-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what would each of them lose if they fail?",
+      "options": [
+        "Courage, brains, a heart, and a way home",
+        "Only Dorothy's chance of reaching Kansas",
+        "The gifts the Wizard has already given them",
+        "Their rooms and welcome in the palace"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 53
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s10-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the green girl was very kind to them?",
+      "options": [
+        "She did thoughtful things to help them on their way",
+        "She spoke to them gently but did nothing",
+        "She agreed to travel with them to the West",
+        "She asked the Wizard to spare them the task"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 277,
+        "end": 318
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s10-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "Four who each doubt themselves agree to go anyway, and prepare",
+        "Four travellers decide the task is impossible and stay",
+        "The Wizard relents and offers to help them himself",
+        "The green girl persuades them not to leave the city"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 0,
+        "end": 69
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s10-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the green girl put round Toto's neck?",
+      "options": [
+        "A little bell on a green ribbon",
+        "A collar of woven emeralds",
+        "A green silk apron",
+        "Nothing; she filled the basket instead"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 373,
+        "end": 434
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s10-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the green girl fill Dorothy's basket with?",
+      "options": [
+        "Good things to eat",
+        "Green spectacles",
+        "Paint for the Scarecrow",
+        "Oil for the Woodman"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 320,
+        "end": 367
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s10-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Scarecrow say about his own usefulness?",
+      "options": [
+        "That he would not be much help, being such a fool",
+        "That he would lead the party to the West",
+        "That he alone could outwit the Wicked Witch",
+        "That he would rather stay in the city"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 42,
+        "end": 98
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s10-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why could the Lion say nothing in reply to Oz?",
+      "options": [
+        "He was angry, but the fire grew too hot to bear",
+        "He had promised Dorothy that he would not argue",
+        "The Wizard had already vanished from the throne",
+        "He had lost his voice from roaring in the forest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 65
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s10-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Tin Woodman say about harming a Witch?",
+      "options": [
+        "That he has not the heart for it, but will go with them",
+        "That he will strike the first blow himself",
+        "That a witch cannot be harmed by an axe",
+        "That he would rather stay behind"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 1,
+        "end": 41
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s10-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does grindstone refer to?",
+      "options": [
+        "A stone used for sharpening the axe",
+        "A stone set into the palace floor",
+        "A green gem from the Throne Room",
+        "A weight for holding the raft down"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 75,
+        "end": 126
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s10-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A reluctant decision, and careful preparation for a hard journey",
+        "A refusal to go, and a decision to stay in the palace",
+        "A quarrel in which the party breaks apart",
+        "A promise from the Wizard to travel with them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 44
+      },
+      "pool": "retest"
+    }
+  ]
+}

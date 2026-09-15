@@ -1,0 +1,321 @@
+{
+  "id": "oz-c11-s1",
+  "title": "The Wonderful City of Oz, part 1",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Even with eyes protected by the green spectacles, Dorothy and her friends were at first dazzled by the brilliancy of the wonderful City. The streets were lined with beautiful houses all built of green marble and studded everywhere with sparkling emeralds. They walked over a pavement of the same green marble, and where the blocks were joined together were rows of emeralds, set closely, and glittering in the brightness of the sun. The window panes were of green glass; even the sky above the City had a green tint, and the rays of the sun were green.",
+    "There were many people—men, women, and children—walking about, and these were all dressed in green clothes and had greenish skins. They looked at Dorothy and her strangely assorted company with wondering eyes, and the children all ran away and hid behind their mothers when they saw the Lion; but no one spoke to them. Many shops stood in the street, and Dorothy saw that everything in them was green. Green candy and green pop-corn were offered for sale, as well as green shoes, green hats, and green clothes of all sorts. At one place a man was selling green lemonade, and when the children bought it Dorothy could see that they paid for it with green pennies.",
+    "There seemed to be no horses nor animals of any kind; the men carried things around in little green carts, which they pushed before them. Everyone seemed happy and contented and prosperous.",
+    "The Guardian of the Gates led them through the streets until they came to a big building, exactly in the middle of the City, which was the Palace of Oz, the Great Wizard. There was a soldier before the door, dressed in a green uniform and wearing a long green beard.",
+    "“Here are strangers,” said the Guardian of the Gates to him, “and they demand to see the Great Oz.”",
+    "“Step inside,” answered the soldier, “and I will carry your message to him.”",
+    "So they passed through the Palace Gates and were led into a big room with a green carpet and lovely green furniture set with emeralds. The soldier made them all wipe their feet upon a green mat before entering this room, and when they were seated he said politely:",
+    "“Please make yourselves comfortable while I go to the door of the Throne Room and tell Oz you are here.”",
+    "They had to wait a long time before the soldier returned. When, at last, he came back, Dorothy asked:",
+    "“Have you seen Oz?”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c11-s1-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what were the houses of the city built of?",
+      "options": [
+        "Green marble studded with emeralds",
+        "Green glass set in silver frames",
+        "Yellow brick like the road outside",
+        "Painted wood in the Munchkin style"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 165,
+        "end": 207
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s1-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was sold by the man in the street?",
+      "options": ["Green lemonade", "Green candy", "Green hats", "Green carts"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 524,
+        "end": 569
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s1-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the children pay with?",
+      "options": [
+        "Green pennies",
+        "Small emeralds",
+        "Green ribbons",
+        "Nothing at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 626,
+        "end": 661
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s1-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how did the men carry things about?",
+      "options": [
+        "In little green carts they pushed",
+        "On the backs of green horses",
+        "In baskets upon their heads",
+        "They did not carry anything"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 54,
+        "end": 105
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s1-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the soldier before the palace door wearing?",
+      "options": [
+        "A green uniform and a long green beard",
+        "A suit of green armour",
+        "Green spectacles locked on with gold",
+        "A crown of emeralds"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 208,
+        "end": 265
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s1-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the children run and hide?",
+      "options": [
+        "They were frightened by the Lion",
+        "They had never seen a little girl before",
+        "The Guardian had told them to keep away",
+        "They were afraid of Dorothy's shoes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 214,
+        "end": 291
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s1-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what impression do the city's people give?",
+      "options": [
+        "Happy, contented, and prosperous",
+        "Poor, frightened, and silent",
+        "Hurried and too busy to look up",
+        "Suspicious of every stranger"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 138,
+        "end": 189
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s1-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the soldier do with their message?",
+      "options": [
+        "Went to the door of the Throne Room to tell Oz they had come",
+        "Refused to carry it and sent them away",
+        "Wrote it down for the Wizard to read later",
+        "Took it to the Guardian of the Gates instead"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 36,
+        "end": 102
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s1-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does brilliancy describe?",
+      "options": [
+        "The dazzling brightness of the city",
+        "The cleverness of the Wizard",
+        "The richness of the green clothes",
+        "The polish of the marble floor"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 74,
+        "end": 135
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s1-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A city green in every particular, and a message carried to its ruler",
+        "A city whose people crowd round the travellers with questions",
+        "A palace whose doors are shut against the party",
+        "A journey through streets where nothing is for sale"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 54
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c11-s1-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the Palace of Oz stand?",
+      "options": [
+        "Exactly in the middle of the City",
+        "Beside the great green gate",
+        "Outside the wall, in the fields",
+        "At the end of the yellow road"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 90,
+        "end": 123
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s1-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the soldier make them do before entering the room?",
+      "options": [
+        "Wipe their feet on a green mat",
+        "Leave their spectacles at the door",
+        "Give up the Woodman's axe",
+        "Write their names in a book"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 135,
+        "end": 193
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s1-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what colour was the sky above the city?",
+      "options": ["Green", "Blue", "Gray", "Gold"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 471,
+        "end": 515
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s1-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the townspeople treat the strangers?",
+      "options": [
+        "They stared with wondering eyes but nobody spoke",
+        "They crowded round and asked many questions",
+        "They ran indoors and barred their windows",
+        "They offered them food from the green shops"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 293,
+        "end": 317
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s1-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the absence of horses suggest about the city?",
+      "options": [
+        "There seemed to be no animals of any kind in it",
+        "The people had eaten all their animals",
+        "Animals were kept outside the green wall",
+        "The Wizard had turned them all into carts"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 52
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s1-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does strangely assorted describe?",
+      "options": [
+        "A company oddly mixed together",
+        "A company dressed in poor clothes",
+        "A company that had lost its way",
+        "A company arranged in a line"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 131,
+        "end": 208
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c11-s1-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Arrival in a city where everything is green, and a wait at the palace",
+        "A refusal at the palace door that sends the party back",
+        "A meeting with the Wizard in the streets of his city",
+        "A description of how the green people earn their living"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 0,
+        "end": 57
+      },
+      "pool": "retest"
+    }
+  ]
+}
