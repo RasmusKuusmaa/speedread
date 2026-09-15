@@ -1,0 +1,324 @@
+{
+  "id": "moby-dick-opening",
+  "title": "Driving Off the Spleen",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/2701",
+  "attribution": "Excerpted verbatim from Moby-Dick by Herman Melville (1851).",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation. Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people's hats off—then, I account it high time to get to sea as soon as I can.",
+    "This is my substitute for pistol and ball. With a philosophical flourish Cato throws himself upon his sword; I quietly take to the ship. There is nothing surprising in this. If they but knew it, almost all men in their degree, some time or other, cherish very nearly the same feelings towards the ocean with me.",
+    "There now is your insular city of the Manhattoes, belted round by wharves as Indian isles by coral reefs—commerce surrounds it with her surf. Right and left, the streets take you waterward. Its extreme downtown is the battery, where that noble mole is washed by waves, and cooled by breezes, which a few hours previous were out of sight of land. Look at the crowds of water-gazers there."
+  ],
+  "questions": [
+    {
+      "id": "moby-dick-opening-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the narrator ask to be called?",
+      "options": [
+        "Ishmael",
+        "Ahab",
+        "Starbuck",
+        "Queequeg"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 15
+      },
+      "pool": "first"
+    },
+    {
+      "id": "moby-dick-opening-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the narrator have little or none of in his purse?",
+      "options": [
+        "Money",
+        "Food",
+        "Letters",
+        "Tools"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 62,
+        "end": 147
+      },
+      "pool": "first"
+    },
+    {
+      "id": "moby-dick-opening-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the narrator say sailing is \"a way\" for him to do?",
+      "options": [
+        "Driving off the spleen and regulating the circulation",
+        "Earning a large fortune quickly",
+        "Meeting new friends in port towns",
+        "Escaping from the law"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 225,
+        "end": 300
+      },
+      "pool": "first"
+    },
+    {
+      "id": "moby-dick-opening-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the narrator call his practice of going to sea?",
+      "options": [
+        "His substitute for pistol and ball",
+        "His favorite childhood hobby",
+        "His only source of income",
+        "His family's tradition"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 41
+      },
+      "pool": "first"
+    },
+    {
+      "id": "moby-dick-opening-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who does the narrator say \"throws himself upon his sword\" with a philosophical flourish, unlike himself?",
+      "options": [
+        "Cato",
+        "Ahab",
+        "Ishmael's father",
+        "A Roman emperor"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 43,
+        "end": 135
+      },
+      "pool": "first"
+    },
+    {
+      "id": "moby-dick-opening-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what is Manhattan's \"extreme downtown\" called?",
+      "options": [
+        "The battery",
+        "The harbor",
+        "The wharf district",
+        "The exchange"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 190,
+        "end": 267
+      },
+      "pool": "first"
+    },
+    {
+      "id": "moby-dick-opening-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the narrator describe symptoms like pausing before coffin warehouses and following every funeral he meets?",
+      "options": [
+        "To illustrate the depth of the melancholy that drives him to go to sea as a remedy",
+        "To show that he works at a funeral home for a living",
+        "To explain why he is afraid of the ocean",
+        "To prove that he has recently lost a family member"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 407,
+        "end": 526
+      },
+      "pool": "first"
+    },
+    {
+      "id": "moby-dick-opening-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the narrator call going to sea his \"substitute for pistol and ball\"?",
+      "options": [
+        "Instead of the extreme act Cato takes, he chooses a milder way of coping with his despair",
+        "He plans to hunt for sport once he is aboard the ship",
+        "He is unable to afford a pistol of his own",
+        "He believes sailing is more dangerous than dueling"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 41
+      },
+      "pool": "first"
+    },
+    {
+      "id": "moby-dick-opening-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "The narrator turns to the sea as his personal remedy for melancholy, a longing he believes many men secretly share",
+        "The narrator is excited to visit Manhattan for the first time",
+        "The narrator explains why he has decided to become a soldier",
+        "The narrator describes his wealth and comfortable life on shore"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 195,
+        "end": 310
+      },
+      "pool": "first"
+    },
+    {
+      "id": "moby-dick-opening-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean to drive off the \"spleen\"?",
+      "options": [
+        "To relieve feelings of gloom or ill temper",
+        "To cure a physical illness of the stomach",
+        "To remove excess weight from the body",
+        "To calm an angry crowd of people"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 225,
+        "end": 300
+      },
+      "pool": "first"
+    },
+    {
+      "id": "moby-dick-opening-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the narrator say he had \"nothing particular\" to do on shore?",
+      "options": [
+        "Nothing particular to interest him",
+        "Nothing particular to eat",
+        "Nothing particular to wear",
+        "Nothing particular to read"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 101,
+        "end": 147
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "moby-dick-opening-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the narrator say almost all men cherish nearly the same feelings toward?",
+      "options": [
+        "The ocean",
+        "Their hometowns",
+        "Money",
+        "Old age"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 247,
+        "end": 310
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "moby-dick-opening-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is said to belt round the \"insular city of the Manhattoes\"?",
+      "options": [
+        "Wharves, likened to coral reefs around Indian isles",
+        "Tall stone walls built for defense",
+        "Farmland stretching in every direction",
+        "A dense forest of old trees"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 50,
+        "end": 104
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "moby-dick-opening-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the narrator invite the reader to look at in the city?",
+      "options": [
+        "The crowds of water-gazers",
+        "The tall buildings downtown",
+        "The ships being built in the harbor",
+        "The busy market stalls"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 346,
+        "end": 386
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "moby-dick-opening-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the narrator compare Manhattan's wharves to \"Indian isles by coral reefs\"?",
+      "options": [
+        "To emphasize how completely commerce and shipping encircle and define the city",
+        "To argue that Manhattan was originally built by island settlers",
+        "To suggest that the city's wharves are made of coral",
+        "To prove that Manhattan is located near a tropical climate"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 105,
+        "end": 140
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "moby-dick-opening-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what the passage suggests about people living in a city like Manhattan?",
+      "options": [
+        "Even landlocked city dwellers are drawn toward the sea, gathering at its edges to gaze at the water",
+        "City dwellers have no interest in the ocean at all",
+        "Most residents of the city work directly in the shipping trade",
+        "The city was built specifically to keep people away from the water"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 346,
+        "end": 386
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "moby-dick-opening-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the narrator's \"hypos\" get \"such an upper hand\" of him?",
+      "options": [
+        "His low spirits or melancholy become overwhelming",
+        "His physical strength becomes unusually great",
+        "His sense of humor becomes uncontrollable",
+        "His memory begins to fail him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 552,
+        "end": 589
+      },
+      "pool": "retest"
+    }
+  ]
+}

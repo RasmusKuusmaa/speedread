@@ -16,6 +16,7 @@ import goldenGateBridgeHistory from "./golden-gate-bridge-history.json";
 import hooverDamHistory from "./hoover-dam-history.json";
 import meditationsRusticusApollonius from "./meditations-rusticus-apollonius.json";
 import millOnLibertyThought from "./mill-on-liberty-thought.json";
+import mobyDickOpening from "./moby-dick-opening.json";
 import meditationsSeverusMaximus from "./meditations-severus-maximus.json";
 import meditationsSextusCatulus from "./meditations-sextus-catulus.json";
 import meditationsTeachers from "./meditations-teachers.json";
@@ -64,6 +65,7 @@ export const rawPassages: unknown[] = [
   meditationsTeachers,
   meditationsRusticusApollonius,
   millOnLibertyThought,
+  mobyDickOpening,
   meditationsSextusCatulus,
   meditationsSeverusMaximus,
   structuralEngineeringHistory,
