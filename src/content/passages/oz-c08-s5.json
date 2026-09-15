@@ -1,0 +1,325 @@
+{
+  "id": "oz-c08-s5",
+  "title": "The Deadly Poppy Field, part 5",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "They now came upon more and more of the big scarlet poppies, and fewer and fewer of the other flowers; and soon they found themselves in the midst of a great meadow of poppies. Now it is well known that when there are many of these flowers together their odor is so powerful that anyone who breathes it falls asleep, and if the sleeper is not carried away from the scent of the flowers, he sleeps on and on forever. But Dorothy did not know this, nor could she get away from the bright red flowers that were everywhere about; so presently her eyes grew heavy and she felt she must sit down to rest and to sleep.",
+    "But the Tin Woodman would not let her do this.",
+    "“We must hurry and get back to the road of yellow brick before dark,” he said; and the Scarecrow agreed with him. So they kept walking until Dorothy could stand no longer. Her eyes closed in spite of herself and she forgot where she was and fell among the poppies, fast asleep.",
+    "“What shall we do?” asked the Tin Woodman.",
+    "“If we leave her here she will die,” said the Lion. “The smell of the flowers is killing us all. I myself can scarcely keep my eyes open, and the dog is asleep already.”",
+    "It was true; Toto had fallen down beside his little mistress. But the Scarecrow and the Tin Woodman, not being made of flesh, were not troubled by the scent of the flowers.",
+    "“Run fast,” said the Scarecrow to the Lion, “and get out of this deadly flower bed as soon as you can. We will bring the little girl with us, but if you should fall asleep you are too big to be carried.”",
+    "So the Lion aroused himself and bounded forward as fast as he could go. In a moment he was out of sight.",
+    "“Let us make a chair with our hands and carry her,” said the Scarecrow. So they picked up Toto and put the dog in Dorothy’s lap, and then they made a chair with their hands for the seat and their arms for the arms and carried the sleeping girl between them through the flowers."
+  ],
+  "questions": [
+    {
+      "id": "oz-c08-s5-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to anyone who breathes the poppies' odour?",
+      "options": [
+        "They fall asleep",
+        "They grow suddenly strong",
+        "They lose their memory",
+        "They begin to weep"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 249,
+        "end": 315
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s5-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what happens if a sleeper is not carried away from the scent?",
+      "options": [
+        "He sleeps on and on forever",
+        "He wakes again by morning",
+        "He is poisoned within the hour",
+        "He wanders off in his sleep"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 387,
+        "end": 414
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s5-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who fell asleep before Dorothy?",
+      "options": ["Toto", "The Lion", "The Scarecrow", "Nobody"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 142,
+        "end": 167
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s5-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why were the Scarecrow and the Tin Woodman unharmed?",
+      "options": [
+        "They are not made of flesh",
+        "They held their breath the whole way",
+        "They walked at the edge of the field",
+        "They had no noses to smell with"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 101,
+        "end": 171
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s5-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Scarecrow tell the Lion to do?",
+      "options": [
+        "Run fast and get out of the flower bed",
+        "Carry Dorothy on his back to safety",
+        "Lie down and hold his breath",
+        "Go back the way they had come"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 45,
+        "end": 101
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s5-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did Dorothy not avoid the danger?",
+      "options": [
+        "She did not know what the flowers could do",
+        "She refused to listen to the Tin Woodman",
+        "She had stopped to gather them in her basket",
+        "She was too tired to walk any faster"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 416,
+        "end": 445
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s5-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Lion sent ahead rather than carried?",
+      "options": [
+        "He is far too big for the others to carry",
+        "He can run faster than any of them",
+        "He alone knows the way out of the field",
+        "He is the only one still fully awake"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 142,
+        "end": 201
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s5-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the two of them carry Dorothy?",
+      "options": [
+        "They made a chair of their hands and arms",
+        "They dragged her along by the shoulders",
+        "They laid her on the Lion's broad back",
+        "They took turns carrying her in their arms"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 133,
+        "end": 185
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s5-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that Dorothy's eyes closed in spite of herself?",
+      "options": [
+        "She could not keep them open however she tried",
+        "She shut them deliberately to rest a moment",
+        "She was pretending to sleep to stop the walk",
+        "She had been told to close them by the Woodman"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 172,
+        "end": 207
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s5-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A beautiful meadow turns out to be a slow and deadly trap",
+        "A meadow of flowers restores the tired travellers",
+        "The Lion abandons the party at the first sign of danger",
+        "Dorothy insists on resting against her friends' advice"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 107,
+        "end": 175
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s5-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Tin Woodman urge as Dorothy grew sleepy?",
+      "options": [
+        "That they hurry back to the road before dark",
+        "That she rest for a few minutes only",
+        "That the Lion carry her the rest of the way",
+        "That they turn back to the riverbank"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 1,
+        "end": 67
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s5-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Lion say about his own eyes?",
+      "options": [
+        "That he could scarcely keep them open",
+        "That the flowers had blinded him",
+        "That he saw better than the others",
+        "That he would close them and rest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 97,
+        "end": 136
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s5-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where was Toto put while Dorothy was carried?",
+      "options": [
+        "In Dorothy's lap",
+        "On the Lion's back",
+        "In the Scarecrow's arms",
+        "In the basket"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 72,
+        "end": 127
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s5-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what changed about the flowers as they walked on?",
+      "options": [
+        "The scarlet poppies crowded out the other kinds",
+        "The flowers grew shorter and more scattered",
+        "The scent grew weaker the further they went",
+        "The poppies gave way to open grass"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 59
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s5-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what would happen if Dorothy were left where she fell?",
+      "options": [
+        "She would die there among the flowers",
+        "She would wake by herself in the morning",
+        "The Lion would carry her out later",
+        "The scent would soon wear off her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 51
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s5-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Lion aroused himself?",
+      "options": [
+        "Stirred himself into action",
+        "Woke up from a deep sleep",
+        "Grew angry at the Scarecrow",
+        "Roared to clear his head"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 47
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s5-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Those who cannot fall asleep save the ones who can",
+        "The whole party falls asleep among the poppies",
+        "The Lion carries Dorothy clear of the flowers",
+        "Dorothy wakes in time to warn her friends"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 46
+      },
+      "pool": "retest"
+    }
+  ]
+}

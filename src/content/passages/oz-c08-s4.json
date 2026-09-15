@@ -1,0 +1,326 @@
+{
+  "id": "oz-c08-s4",
+  "title": "The Deadly Poppy Field, part 4",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "So the big bird flew into the air and over the water till she came to where the Scarecrow was perched upon his pole. Then the Stork with her great claws grabbed the Scarecrow by the arm and carried him up into the air and back to the bank, where Dorothy and the Lion and the Tin Woodman and Toto were sitting.",
+    "When the Scarecrow found himself among his friends again, he was so happy that he hugged them all, even the Lion and Toto; and as they walked along he sang “Tol-de-ri-de-oh!” at every step, he felt so gay.",
+    "“I was afraid I should have to stay in the river forever,” he said, “but the kind Stork saved me, and if I ever get any brains I shall find the Stork again and do her some kindness in return.”",
+    "“That’s all right,” said the Stork, who was flying along beside them. “I always like to help anyone in trouble. But I must go now, for my babies are waiting in the nest for me. I hope you will find the Emerald City and that Oz will help you.”",
+    "“Thank you,” replied Dorothy, and then the kind Stork flew into the air and was soon out of sight.",
+    "They walked along listening to the singing of the brightly colored birds and looking at the lovely flowers which now became so thick that the ground was carpeted with them. There were big yellow and white and blue and purple blossoms, besides great clusters of scarlet poppies, which were so brilliant in color they almost dazzled Dorothy’s eyes.",
+    "“Aren’t they beautiful?” the girl asked, as she breathed in the spicy scent of the bright flowers.",
+    "“I suppose so,” answered the Scarecrow. “When I have brains, I shall probably like them better.”",
+    "“If I only had a heart, I should love them,” added the Tin Woodman.",
+    "“I always did like flowers,” said the Lion. “They seem so helpless and frail. But there are none in the forest so bright as these.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c08-s4-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Stork carry the Scarecrow?",
+      "options": [
+        "By the arm, in her great claws",
+        "On her back, between her wings",
+        "In her beak, by his hat",
+        "By the pole he was stuck on"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 122,
+        "end": 185
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s4-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Scarecrow sing as they walked?",
+      "options": [
+        "Tol-de-ri-de-oh!",
+        "A Munchkin dancing song",
+        "Nothing; he could not sing",
+        "A song about the Stork"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 148,
+        "end": 188
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s4-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the Stork have to leave?",
+      "options": [
+        "Her babies were waiting in the nest",
+        "A storm was coming up the river",
+        "She had promised to meet other storks",
+        "She was too tired to fly further"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 131,
+        "end": 175
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s4-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what colour were the poppies?",
+      "options": ["Scarlet", "Yellow", "Purple", "White"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 235,
+        "end": 276
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s4-f5",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Lion say about flowers?",
+      "options": [
+        "That he always did like them",
+        "That he had never noticed them",
+        "That they made him sneeze",
+        "That the forest had brighter ones"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 0,
+        "end": 43
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s4-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the Scarecrow show his happiness?",
+      "options": [
+        "He hugged them all, even the Lion and Toto",
+        "He offered to carry the basket the rest of the way",
+        "He promised never to touch a pole again",
+        "He asked to be tied to Dorothy's arm"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 58,
+        "end": 97
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s4-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Scarecrow promise about the Stork?",
+      "options": [
+        "To repay her kindness if he ever gets brains",
+        "To send word to her nest when he reaches the city",
+        "To ask Oz to give her a reward as well",
+        "To carry her babies across the river"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 127,
+        "end": 190
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s4-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how do the Scarecrow and the Woodman answer Dorothy's delight in the flowers?",
+      "options": [
+        "Each says his missing part would let him enjoy them properly",
+        "Each says the flowers are not worth looking at",
+        "Each warns her that the flowers may be dangerous",
+        "Each asks her to gather some for the journey"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 41,
+        "end": 95
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s4-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Scarecrow felt so gay?",
+      "options": [
+        "So light-hearted and merry",
+        "So proud of his rescue",
+        "So grateful to the Stork",
+        "So eager to reach the city"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 190,
+        "end": 204
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s4-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A rescue restores the party, and the road grows thick with flowers",
+        "A stork joins the party on its way to the Emerald City",
+        "The travellers stop to gather flowers and lose a day",
+        "The Scarecrow decides he no longer needs any brains"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 88,
+        "end": 171
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s4-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Stork say she always liked to do?",
+      "options": [
+        "Help anyone in trouble",
+        "Fly along the river in the morning",
+        "Carry messages to the Emerald City",
+        "Rest at the water's edge"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 71,
+        "end": 111
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s4-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Stork hope for them?",
+      "options": [
+        "That they would find the city and Oz would help",
+        "That they would keep to the riverbank",
+        "That they would not meet the Wicked Witch",
+        "That they would visit her nest one day"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 177,
+        "end": 241
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s4-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Tin Woodman say about the flowers?",
+      "options": [
+        "That with a heart he should love them",
+        "That they reminded him of his cottage",
+        "That they were brighter than the Munchkin fields",
+        "That they would rust his joints"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 1,
+        "end": 42
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s4-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Scarecrow fear while he was on the pole?",
+      "options": [
+        "That he should have to stay in the river forever",
+        "That the Stork would drop him on the rocks",
+        "That his friends had drowned in the river",
+        "That the crows would find him helpless"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 1,
+        "end": 56
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s4-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the poppies almost dazzle Dorothy?",
+      "options": [
+        "They were so brilliant in colour",
+        "They grew taller than she was",
+        "The sun was setting behind them",
+        "There were so few other flowers left"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 278,
+        "end": 345
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s4-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does spicy describe?",
+      "options": [
+        "The scent of the flowers",
+        "The taste of the fruit",
+        "The heat of the afternoon",
+        "The colour of the poppies"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 41,
+        "end": 97
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s4-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A kindness done and repaid in words, then a road carpeted in red",
+        "A stork carries the whole party across the river",
+        "The Scarecrow explains why flowers mean nothing to him",
+        "The travellers lose their way among the flower beds"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 56
+      },
+      "pool": "retest"
+    }
+  ]
+}

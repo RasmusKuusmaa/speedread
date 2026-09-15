@@ -1,0 +1,325 @@
+{
+  "id": "oz-c08-s6",
+  "title": "The Deadly Poppy Field, part 6",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "On and on they walked, and it seemed that the great carpet of deadly flowers that surrounded them would never end. They followed the bend of the river, and at last came upon their friend the Lion, lying fast asleep among the poppies. The flowers had been too strong for the huge beast and he had given up at last, and fallen only a short distance from the end of the poppy bed, where the sweet grass spread in beautiful green fields before them.",
+    "“We can do nothing for him,” said the Tin Woodman, sadly; “for he is much too heavy to lift. We must leave him here to sleep on forever, and perhaps he will dream that he has found courage at last.”",
+    "“I’m sorry,” said the Scarecrow. “The Lion was a very good comrade for one so cowardly. But let us go on.”",
+    "They carried the sleeping girl to a pretty spot beside the river, far enough from the poppy field to prevent her breathing any more of the poison of the flowers, and here they laid her gently on the soft grass and waited for the fresh breeze to waken her."
+  ],
+  "questions": [
+    {
+      "id": "oz-c08-s6-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did they find the Lion?",
+      "options": [
+        "Asleep among the poppies near the field's end",
+        "Waiting for them on the green grass beyond",
+        "Swimming in the river to keep himself awake",
+        "Running still, far ahead on the road"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 156,
+        "end": 232
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s6-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why can they do nothing for the Lion?",
+      "options": [
+        "He is much too heavy to lift",
+        "He cannot be woken by any noise",
+        "The poppies are thickest where he lies",
+        "They have no water to revive him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 59,
+        "end": 91
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s6-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how far from the end of the poppy bed had the Lion fallen?",
+      "options": [
+        "Only a short distance",
+        "Halfway across the field",
+        "At the very beginning of it",
+        "Beyond it, on the grass"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 318,
+        "end": 376
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s6-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, where did they lay Dorothy down?",
+      "options": [
+        "On soft grass beside the river, clear of the poppies",
+        "Under a tree at the edge of the flower bed",
+        "On the raft they had pulled up the bank",
+        "Beside the sleeping Lion among the flowers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 166,
+        "end": 209
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s6-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what were they waiting for?",
+      "options": [
+        "The fresh breeze to waken her",
+        "The Lion to catch them up",
+        "The Stork to return with help",
+        "The sun to go down"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 214,
+        "end": 254
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s6-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why had the Lion not escaped the field?",
+      "options": [
+        "The flowers proved too strong even for so huge a beast",
+        "He had turned back to look for Dorothy",
+        "He had lost his way among the tall poppies",
+        "He had stopped to rest and could not rise"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 234,
+        "end": 284
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s6-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Tin Woodman imagine for the sleeping Lion?",
+      "options": [
+        "That he may dream he has found courage at last",
+        "That he will wake once the wind changes",
+        "That the other beasts will come and carry him",
+        "That the Wizard may yet be sent back for him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 141,
+        "end": 196
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s6-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does the Scarecrow sum up the Lion?",
+      "options": [
+        "A very good comrade, for one so cowardly",
+        "A companion who was never any use at all",
+        "The bravest of all of them on the journey",
+        "A beast who should never have come along"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 34,
+        "end": 87
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s6-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the poison of the flowers mean?",
+      "options": [
+        "The sleep-bringing scent they give off",
+        "A juice inside the scarlet petals",
+        "The thorns hidden among the stems",
+        "The pollen that dusted their clothes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 98,
+        "end": 160
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s6-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "Dorothy is carried to safety, but the Lion must be left behind",
+        "The whole party escapes the poppy field together",
+        "The Lion wakes just in time to follow them out",
+        "The Tin Woodman decides to stay with the sleeping Lion"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 93,
+        "end": 135
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s6-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did they follow to find their way?",
+      "options": [
+        "The bend of the river",
+        "The line of the yellow road",
+        "The Lion's tracks in the flowers",
+        "The flight of the Stork"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 115,
+        "end": 150
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s6-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what lay beyond the end of the poppy bed?",
+      "options": [
+        "Sweet grass in beautiful green fields",
+        "The walls of the Emerald City",
+        "A second stretch of dark forest",
+        "The bank of the broad river"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 378,
+        "end": 444
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s6-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Scarecrow answer the Woodman about the Lion?",
+      "options": [
+        "He was sorry, but said they must go on",
+        "He insisted they carry him anyway",
+        "He offered to stay behind with him",
+        "He said nothing at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 32
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s6-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the carpet of flowers seem to the two carriers?",
+      "options": [
+        "As though it would never come to an end",
+        "Thinner with every step they took",
+        "Shorter than they had been told",
+        "Easier to cross than the forest had been"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 27,
+        "end": 113
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s6-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did they carry Dorothy so far past the field?",
+      "options": [
+        "So that she would breathe no more of the scent",
+        "So that the Lion would not see her when he woke",
+        "So that the river would hide them from the witch",
+        "So that she could be laid beside fresh water to drink"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 66,
+        "end": 145
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s6-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does comrade mean?",
+      "options": [
+        "A companion on the journey",
+        "A servant who carries things",
+        "A guide who knows the country",
+        "A rival for Dorothy's favour"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 34,
+        "end": 87
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s6-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "An escape from the flowers that is one companion short",
+        "A rescue in which every member of the party is saved",
+        "A decision to wait beside the Lion until he wakes",
+        "A search along the river for the road they lost"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 56
+      },
+      "pool": "retest"
+    }
+  ]
+}

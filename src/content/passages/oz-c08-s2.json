@@ -1,0 +1,326 @@
+{
+  "id": "oz-c08-s2",
+  "title": "The Deadly Poppy Field, part 2",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“Good-bye!” he called after them, and they were very sorry to leave him. Indeed, the Tin Woodman began to cry, but fortunately remembered that he might rust, and so dried his tears on Dorothy’s apron.",
+    "Of course this was a bad thing for the Scarecrow.",
+    "“I am now worse off than when I first met Dorothy,” he thought. “Then, I was stuck on a pole in a cornfield, where I could make-believe scare the crows, at any rate. But surely there is no use for a Scarecrow stuck on a pole in the middle of a river. I am afraid I shall never have any brains, after all!”",
+    "Down the stream the raft floated, and the poor Scarecrow was left far behind. Then the Lion said:",
+    "“Something must be done to save us. I think I can swim to the shore and pull the raft after me, if you will only hold fast to the tip of my tail.”",
+    "So he sprang into the water, and the Tin Woodman caught fast hold of his tail. Then the Lion began to swim with all his might toward the shore. It was hard work, although he was so big; but by and by they were drawn out of the current, and then Dorothy took the Tin Woodman’s long pole and helped push the raft to the land.",
+    "They were all tired out when they reached the shore at last and stepped off upon the pretty green grass, and they also knew that the stream had carried them a long way past the road of yellow brick that led to the Emerald City.",
+    "“What shall we do now?” asked the Tin Woodman, as the Lion lay down on the grass to let the sun dry him.",
+    "“We must get back to the road, in some way,” said Dorothy.",
+    "“The best plan will be to walk along the riverbank until we come to the road again,” remarked the Lion."
+  ],
+  "questions": [
+    {
+      "id": "oz-c08-s2-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Tin Woodman dry his tears on?",
+      "options": [
+        "Dorothy's apron",
+        "The grass of the bank",
+        "His own tin arm",
+        "A leaf from the trees"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 162,
+        "end": 199
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s2-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why did the Tin Woodman stop crying?",
+      "options": [
+        "He remembered he might rust",
+        "The Lion told him to be quiet",
+        "The Scarecrow called out to him",
+        "The raft began to tip over"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 111,
+        "end": 156
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s2-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion offer to do?",
+      "options": [
+        "Swim ashore and pull the raft after him",
+        "Jump to the bank and fetch help",
+        "Dive down to free the stuck pole",
+        "Carry Dorothy on his back to land"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 36,
+        "end": 94
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s2-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Tin Woodman hold on to?",
+      "options": [
+        "The tip of the Lion's tail",
+        "The edge of the wooden raft",
+        "Dorothy's outstretched hand",
+        "His own long pushing pole"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 33,
+        "end": 77
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s2-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion do once they reached the shore?",
+      "options": [
+        "Lay down on the grass to dry in the sun",
+        "Went to look for the yellow road",
+        "Swam straight back for the Scarecrow",
+        "Slept until the following morning"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 47,
+        "end": 103
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s2-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Scarecrow think he is worse off than before?",
+      "options": [
+        "On a pole in a river he cannot even pretend to scare crows",
+        "He has lost the basket Dorothy trusted him with",
+        "He can no longer see the road to the Emerald City",
+        "The water will rot the straw he is stuffed with"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 166,
+        "end": 250
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s2-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did Dorothy help once the Lion had them out of the current?",
+      "options": [
+        "She took the long pole and pushed the raft to land",
+        "She called out directions to the swimming Lion",
+        "She held Toto up so the Lion could see them",
+        "She paddled with her hands over the side"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 245,
+        "end": 322
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s2-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what had the river cost them besides the Scarecrow?",
+      "options": [
+        "It carried them far past the yellow brick road",
+        "It swept away the basket and the oil-can",
+        "It left them on the Wicked Witch's own bank",
+        "It broke the raft the Woodman had built"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 129,
+        "end": 197
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s2-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the Scarecrow mean by make-believe scare the crows?",
+      "options": [
+        "Pretend to do it without really succeeding",
+        "Frighten them by pure accident",
+        "Do it better than any other scarecrow",
+        "Refuse to do it at all any more"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 109,
+        "end": 164
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s2-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "The Lion swims them ashore, far off course and one friend short",
+        "The Scarecrow is pulled from his pole and back onto the raft",
+        "The travellers leave the raft and swim for the nearer bank",
+        "The Tin Woodman rusts in the river and has to be left there"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 35
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s2-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Lion's swim like?",
+      "options": [
+        "Hard work, even for so big a beast",
+        "Easy, because the current helped him",
+        "Impossible until the Woodman let go",
+        "Short, since the bank was near"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 144,
+        "end": 184
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s2-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what plan did the Lion suggest on the shore?",
+      "options": [
+        "Walk along the riverbank until they met the road",
+        "Build a second raft and cross back over",
+        "Wait where they were for the Scarecrow",
+        "Follow the river down to the witch's country"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 1,
+        "end": 82
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s2-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Scarecrow call after them?",
+      "options": ["Good-bye", "Come back", "Help me", "Nothing at all"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 32
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s2-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the party feel about leaving the Scarecrow?",
+      "options": [
+        "Very sorry, and one of them wept over it",
+        "Relieved, since the raft rode better without him",
+        "Confident that he would free himself soon",
+        "Angry with him for pushing so hard"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 34,
+        "end": 71
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s2-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Scarecrow fear most about his position?",
+      "options": [
+        "That he will never get any brains after all",
+        "That the crows will come and pull out his straw",
+        "That the river will rise and carry him off",
+        "That his friends will forget where he is"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 251,
+        "end": 304
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s2-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that they were drawn out of the current?",
+      "options": [
+        "Pulled clear of the fast-moving water",
+        "Rescued by someone on the bank",
+        "Lifted out of the water entirely",
+        "Turned to face back upstream"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 186,
+        "end": 234
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s2-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A rescue by swimming that lands them safe but off course",
+        "A rescue that brings the Scarecrow back to the raft",
+        "A decision to float downstream to the witch's country",
+        "A quarrel about who was to blame for the lost pole"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 0,
+        "end": 59
+      },
+      "pool": "retest"
+    }
+  ]
+}

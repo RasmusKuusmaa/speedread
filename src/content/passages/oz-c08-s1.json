@@ -1,0 +1,330 @@
+{
+  "id": "oz-c08-s1",
+  "title": "The Deadly Poppy Field, part 1",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Our little party of travelers awakened the next morning refreshed and full of hope, and Dorothy breakfasted like a princess off peaches and plums from the trees beside the river. Behind them was the dark forest they had passed safely through, although they had suffered many discouragements; but before them was a lovely, sunny country that seemed to beckon them on to the Emerald City.",
+    "To be sure, the broad river now cut them off from this beautiful land. But the raft was nearly done, and after the Tin Woodman had cut a few more logs and fastened them together with wooden pins, they were ready to start. Dorothy sat down in the middle of the raft and held Toto in her arms. When the Cowardly Lion stepped upon the raft it tipped badly, for he was big and heavy; but the Scarecrow and the Tin Woodman stood upon the other end to steady it, and they had long poles in their hands to push the raft through the water.",
+    "They got along quite well at first, but when they reached the middle of the river the swift current swept the raft downstream, farther and farther away from the road of yellow brick. And the water grew so deep that the long poles would not touch the bottom.",
+    "“This is bad,” said the Tin Woodman, “for if we cannot get to the land we shall be carried into the country of the Wicked Witch of the West, and she will enchant us and make us her slaves.”",
+    "“And then I should get no brains,” said the Scarecrow.",
+    "“And I should get no courage,” said the Cowardly Lion.",
+    "“And I should get no heart,” said the Tin Woodman.",
+    "“And I should never get back to Kansas,” said Dorothy.",
+    "“We must certainly get to the Emerald City if we can,” the Scarecrow continued, and he pushed so hard on his long pole that it stuck fast in the mud at the bottom of the river. Then, before he could pull it out again—or let go—the raft was swept away, and the poor Scarecrow was left clinging to the pole in the middle of the river."
+  ],
+  "questions": [
+    {
+      "id": "oz-c08-s1-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy breakfast on?",
+      "options": [
+        "Peaches and plums from the trees",
+        "Nuts left over in her basket",
+        "Bread given her by the Munchkins",
+        "Fish caught out of the river"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 88,
+        "end": 145
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s1-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what fastened the logs of the raft together?",
+      "options": [
+        "Wooden pins",
+        "Lengths of rope",
+        "Strips of tin",
+        "Vines from the trees"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 155,
+        "end": 194
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s1-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the raft tip badly?",
+      "options": [
+        "The Lion was big and heavy",
+        "The current struck it sideways",
+        "Dorothy stood up to see ahead",
+        "The logs had not been tied firmly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 354,
+        "end": 378
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s1-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Scarecrow and Tin Woodman hold?",
+      "options": [
+        "Long poles to push the raft",
+        "Ropes to steer it with",
+        "The corners of the raft",
+        "Toto and the basket"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 461,
+        "end": 530
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s1-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, whose country lay downstream?",
+      "options": [
+        "The Wicked Witch of the West",
+        "The Wicked Witch of the East",
+        "The Witch of the North",
+        "The Quadlings of the South"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 71,
+        "end": 139
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s1-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the poles stop working in midstream?",
+      "options": [
+        "The water grew too deep for them to reach the bottom",
+        "The current snapped them against the rocks",
+        "The Lion's weight pushed the raft under",
+        "They had been cut too short for the river"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 183,
+        "end": 257
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s1-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does each traveller fear losing if they drift?",
+      "options": [
+        "The very thing each means to ask the Wizard for",
+        "The road they have followed since the start",
+        "The raft the Tin Woodman spent a day building",
+        "The food Dorothy has gathered for the journey"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 54
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s1-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the Scarecrow come to be left behind?",
+      "options": [
+        "His pole stuck in the mud and the raft swept on without him",
+        "He jumped into the water to lighten the raft",
+        "He was knocked overboard by the Lion's weight",
+        "He stayed to hold the raft while the others landed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 84,
+        "end": 148
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s1-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does discouragements refer to?",
+      "options": [
+        "The setbacks they met in the forest",
+        "The warnings the Munchkins gave them",
+        "The beasts that still followed them",
+        "The doubts the Scarecrow expressed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 243,
+        "end": 290
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s1-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A hopeful crossing goes wrong and costs them a companion",
+        "A river proves too wide for any raft to cross",
+        "The party decides to give up and follow the water",
+        "The Wicked Witch of the West captures the travellers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 82,
+        "end": 125
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s1-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did Dorothy sit on the raft?",
+      "options": [
+        "In the middle, with Toto in her arms",
+        "At the front, holding a pole",
+        "At the back, beside the Lion",
+        "On the logs behind the Scarecrow"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 222,
+        "end": 290
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s1-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Tin Woodman fear the Witch would do?",
+      "options": [
+        "Enchant them and make them her slaves",
+        "Take away the oil-can and axe",
+        "Drown them all in the swift river",
+        "Send them back to the forest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 145,
+        "end": 187
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s1-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what lay behind them that morning?",
+      "options": [
+        "The dark forest they had passed through",
+        "The ditch the Lion had jumped",
+        "The cornfield where they found the Scarecrow",
+        "The Munchkin country"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 179,
+        "end": 241
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s1-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the lovely country seem to beckon them?",
+      "options": [
+        "It was sunny and lay on the road to the Emerald City",
+        "The Stork had promised to guide them across it",
+        "They could already see the green walls from the bank",
+        "The Lion had hunted in it when he was young"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 296,
+        "end": 365
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s1-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what kept the raft steady when the Lion boarded?",
+      "options": [
+        "The Scarecrow and Woodman stood on the other end",
+        "Dorothy shifted to the far side with Toto",
+        "The logs were pinned together very tightly",
+        "The Lion lay flat in the middle of it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 380,
+        "end": 455
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s1-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the raft was swept away?",
+      "options": [
+        "Carried off by the force of the water",
+        "Broken apart by the current",
+        "Pushed back towards the near bank",
+        "Lifted clear out of the river"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 227,
+        "end": 250
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s1-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A well-made raft is defeated by the river's current",
+        "A river crossing that goes exactly as planned",
+        "A quarrel about who should steer the raft",
+        "The travellers decide the river cannot be crossed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 34
+      },
+      "pool": "retest"
+    }
+  ]
+}

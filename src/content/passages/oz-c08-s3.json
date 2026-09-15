@@ -1,0 +1,330 @@
+{
+  "id": "oz-c08-s3",
+  "title": "The Deadly Poppy Field, part 3",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "So, when they were rested, Dorothy picked up her basket and they started along the grassy bank, to the road from which the river had carried them. It was a lovely country, with plenty of flowers and fruit trees and sunshine to cheer them, and had they not felt so sorry for the poor Scarecrow, they could have been very happy.",
+    "They walked along as fast as they could, Dorothy only stopping once to pick a beautiful flower; and after a time the Tin Woodman cried out: “Look!”",
+    "Then they all looked at the river and saw the Scarecrow perched upon his pole in the middle of the water, looking very lonely and sad.",
+    "“What can we do to save him?” asked Dorothy.",
+    "The Lion and the Woodman both shook their heads, for they did not know. So they sat down upon the bank and gazed wistfully at the Scarecrow until a Stork flew by, who, upon seeing them, stopped to rest at the water’s edge.",
+    "“Who are you and where are you going?” asked the Stork.",
+    "“I am Dorothy,” answered the girl, “and these are my friends, the Tin Woodman and the Cowardly Lion; and we are going to the Emerald City.”",
+    "“This isn’t the road,” said the Stork, as she twisted her long neck and looked sharply at the queer party.",
+    "“I know it,” returned Dorothy, “but we have lost the Scarecrow, and are wondering how we shall get him again.”",
+    "“Where is he?” asked the Stork.",
+    "“Over there in the river,” answered the little girl.",
+    "“If he wasn’t so big and heavy I would get him for you,” remarked the Stork.",
+    "“He isn’t heavy a bit,” said Dorothy eagerly, “for he is stuffed with straw; and if you will bring him back to us, we shall thank you ever and ever so much.”",
+    "“Well, I’ll try,” said the Stork, “but if I find he is too heavy to carry I shall have to drop him in the river again.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c08-s3-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did Dorothy stop once on the walk?",
+      "options": [
+        "To pick a beautiful flower",
+        "To rest her tired feet",
+        "To look back at the Scarecrow",
+        "To fill her basket with fruit"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 41,
+        "end": 94
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s3-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who called out Look when they saw the Scarecrow?",
+      "options": [
+        "The Tin Woodman",
+        "The Cowardly Lion",
+        "Dorothy",
+        "The Stork"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 113,
+        "end": 147
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s3-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what stopped to rest at the water's edge?",
+      "options": ["A Stork", "A crow", "A heron", "A wild swan"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 140,
+        "end": 161
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s3-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Stork say about the road?",
+      "options": [
+        "That this was not the road to the Emerald City",
+        "That the road had been washed away by the river",
+        "That she would show them the road herself",
+        "That no road led to the Emerald City at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 37
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s3-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Stork fear about carrying him?",
+      "options": [
+        "That he would be too big and heavy",
+        "That his straw would catch in her claws",
+        "That the wind would blow them both down",
+        "That her babies would be left too long"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 1,
+        "end": 54
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s3-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why could the party not be happy in that lovely country?",
+      "options": [
+        "They felt too sorry for the Scarecrow",
+        "They had lost the road and could not find it",
+        "The flowers had begun to make them drowsy",
+        "They had nothing left to eat but fruit"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 243,
+        "end": 325
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s3-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Dorothy answer the Stork so eagerly?",
+      "options": [
+        "She sees at once that the Scarecrow's lightness solves the problem",
+        "She hopes the Stork will show them the road as well",
+        "She is afraid the Stork will fly away before she finishes",
+        "She wants to prove the Scarecrow is worth saving"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 0,
+        "end": 44
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s3-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Lion and the Woodman contribute to the problem?",
+      "options": [
+        "Nothing; they shook their heads, not knowing what to do",
+        "A plan to swim out to the pole and fetch him back",
+        "An argument over which of them should go for him",
+        "A suggestion that they wait until it grew dark"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 71
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s3-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does gazing wistfully convey?",
+      "options": [
+        "Looking with helpless longing",
+        "Looking with growing anger",
+        "Looking with great impatience",
+        "Looking without any interest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 107,
+        "end": 139
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s3-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A chance meeting with a stork offers the one hope of a rescue",
+        "The party finds the yellow road again by following the bank",
+        "The Scarecrow frees himself and rejoins his friends",
+        "The travellers agree that the Scarecrow cannot be saved"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 44
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c08-s3-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Stork look at the party?",
+      "options": [
+        "Sharply, twisting her long neck",
+        "Sleepily, from the water's edge",
+        "Fearfully, ready to fly off",
+        "Kindly, with her head bowed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 39,
+        "end": 105
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s3-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Stork warn she might have to do?",
+      "options": [
+        "Drop him in the river again if he proved too heavy",
+        "Leave them at once if her babies called",
+        "Take payment in fruit for the trouble",
+        "Fetch other storks to help her carry him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 35,
+        "end": 117
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s3-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Scarecrow look on his pole?",
+      "options": [
+        "Very lonely and sad",
+        "Cheerful, waving at them",
+        "Asleep, with his head down",
+        "Angry at being left behind"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 106,
+        "end": 133
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s3-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did Dorothy tell the Stork what he was stuffed with?",
+      "options": [
+        "To show the Stork that he weighed almost nothing",
+        "To explain why he could not swim ashore",
+        "To warn her that he might come apart",
+        "To prove that he was not a real man"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 47,
+        "end": 75
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s3-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what had the country to offer the travellers?",
+      "options": [
+        "Flowers, fruit trees, and sunshine to cheer them",
+        "Nothing but grass and the bare riverbank",
+        "Munchkin farms where they could ask for help",
+        "A bridge back to the yellow brick road"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 147,
+        "end": 237
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s3-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the Stork mean by calling them a queer party?",
+      "options": [
+        "An odd-looking group of travellers",
+        "A group in a great hurry",
+        "A party that has lost its way",
+        "A group too small to travel safely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 72,
+        "end": 105
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c08-s3-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A walk along the bank brings the party a stranger who can help",
+        "A walk along the bank brings the party back to the road",
+        "A stork refuses to help and flies away again",
+        "The Scarecrow is carried past them by the current"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 55
+      },
+      "pool": "retest"
+    }
+  ]
+}
