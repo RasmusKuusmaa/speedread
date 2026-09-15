@@ -1,0 +1,324 @@
+{
+  "id": "bacon-of-studies",
+  "title": "Reading Maketh a Full Man",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/575",
+  "attribution": "Excerpted verbatim from \"Of Studies,\" in The Essays or Counsels, Civil and Moral by Francis Bacon (1625).",
+  "licence": "Public domain",
+  "textType": "expository",
+  "domain": "philosophy",
+  "calibrationOnly": false,
+  "body": [
+    "STUDIES serve for delight, for ornament, and for ability. Their chief use for delight, is in privateness and retiring; for ornament, is in discourse; and for ability, is in the judgment, and disposition of business. For expert men can execute, and perhaps judge of particulars, one by one; but the general counsels, and the plots and marshalling of affairs, come best, from those that are learned. To spend too much time in studies is sloth; to use them too much for ornament, is affectation; to make judgment wholly by their rules, is the humor of a scholar. They perfect nature, and are perfected by experience: for natural abilities are like natural plants, that need proyning, by study; and studies themselves, do give forth directions too much at large, except they be bounded in by experience.",
+    "Crafty men contemn studies, simple men admire them, and wise men use them; for they teach not their own use; but that is a wisdom without them, and above them, won by observation. Read not to contradict and confute; nor to believe and take for granted; nor to find talk and discourse; but to weigh and consider. Some books are to be tasted, others to be swallowed, and some few to be chewed and digested; that is, some books are to be read only in parts; others to be read, but not curiously; and some few to be read wholly, and with diligence and attention.",
+    "Reading maketh a full man; conference a ready man; and writing an exact man. And therefore, if a man write little, he had need have a great memory; if he confer little, he had need have a present wit: and if he read little, he had need have much cunning, to seem to know, that he doth not. Histories make men wise; poets witty; the mathematics subtile; natural philosophy deep; moral grave; logic and rhetoric able to contend."
+  ],
+  "questions": [
+    {
+      "id": "bacon-of-studies-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what are the three chief uses of studies?",
+      "options": [
+        "Delight, ornament, and ability",
+        "Wealth, fame, and power",
+        "Memory, speech, and writing",
+        "Curiosity, leisure, and pride"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 56
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bacon-of-studies-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the author call spending too much time in studies?",
+      "options": [
+        "Sloth",
+        "Wisdom",
+        "Ambition",
+        "Affectation"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 398,
+        "end": 440
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bacon-of-studies-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does reading make a man, according to the author?",
+      "options": [
+        "A full man",
+        "A ready man",
+        "An exact man",
+        "A wise man"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 25
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bacon-of-studies-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the author say writing makes a man?",
+      "options": [
+        "An exact man",
+        "A full man",
+        "A ready man",
+        "A cunning man"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 51,
+        "end": 75
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bacon-of-studies-f5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author say a man who writes little needs a great memory?",
+      "options": [
+        "Without writing things down, he must rely on memory to retain what he has learned",
+        "Writing was considered a sign of poor memory in itself",
+        "Memory and writing were thought to be entirely unrelated skills",
+        "A great memory was required before one could learn to write"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 92,
+        "end": 146
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bacon-of-studies-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author compare natural abilities to plants that need \"proyning\" (pruning) by study?",
+      "options": [
+        "Natural talent alone is unrefined and needs the shaping discipline of study to reach its full potential",
+        "Plants and human minds require the exact same care",
+        "Study can only harm natural talent, not improve it",
+        "Pruning was a common hobby among scholars of the time"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 614,
+        "end": 689
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bacon-of-studies-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author warn against making judgment \"wholly by their rules\"?",
+      "options": [
+        "Relying entirely on the rules found in books, rather than one's own judgment, is a narrow, overly bookish habit of mind",
+        "Books contain no useful rules at all",
+        "Rules from books were considered illegal to follow",
+        "Judgment should never be informed by books in any way"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 493,
+        "end": 558
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bacon-of-studies-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author say some books should be \"tasted\" while others should be \"chewed and digested\"?",
+      "options": [
+        "Different books deserve different levels of attention depending on their importance and depth",
+        "All books should be read exactly the same way",
+        "Only bad books should be read quickly",
+        "Chewing and digesting refers to literally destroying old books"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 312,
+        "end": 403
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bacon-of-studies-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "Studies are valuable for several purposes, but must be balanced with experience and read with judgment rather than followed blindly",
+        "Studies are useless without a formal teacher",
+        "Only the wealthy should pursue serious study",
+        "Reading is inferior to writing in every respect"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 56,
+        "end": 178
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bacon-of-studies-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that using studies too much for ornament is \"affectation\"?",
+      "options": [
+        "An artificial display meant to impress rather than a genuine trait",
+        "A natural and sincere expression of learning",
+        "A rare and valuable skill",
+        "A sign of true wisdom"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 442,
+        "end": 491
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bacon-of-studies-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who does the author say condemns studies?",
+      "options": [
+        "Crafty men",
+        "Wise men",
+        "Simple men",
+        "Scholars"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 73
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "bacon-of-studies-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the author say conference (conversation) makes a man?",
+      "options": [
+        "A ready man",
+        "A full man",
+        "An exact man",
+        "A cunning man"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 27,
+        "end": 49
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "bacon-of-studies-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what subject does the author say makes men \"witty\"?",
+      "options": [
+        "Poets",
+        "Histories",
+        "Mathematics",
+        "Logic"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 315,
+        "end": 326
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "bacon-of-studies-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what should a reader do instead of reading \"to contradict and confute\"?",
+      "options": [
+        "Weigh and consider",
+        "Memorize word for word",
+        "Argue immediately with the author",
+        "Skip to the conclusion"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 285,
+        "end": 310
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "bacon-of-studies-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author say true wisdom about using studies comes from \"observation\" rather than from the studies themselves?",
+      "options": [
+        "Books can inform the mind but cannot teach a person how or when to apply that knowledge in life",
+        "Studies are entirely useless compared to observation",
+        "Observation is simply another word for reading",
+        "Only uneducated people rely on observation"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 75,
+        "end": 178
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "bacon-of-studies-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes the author's advice on reading books of differing importance?",
+      "options": [
+        "Readers should adjust their attention to match each book's value, some deserving only a taste and others careful digestion",
+        "All books deserve exactly the same careful attention",
+        "Only short books are worth reading at all",
+        "Books should be judged solely by their length"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 414,
+        "end": 557
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "bacon-of-studies-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that mathematics makes men \"subtile\"?",
+      "options": [
+        "Precise and sharp in reasoning",
+        "Slow and hesitant in decisions",
+        "Loud and argumentative",
+        "Forgetful of small details"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 328,
+        "end": 351
+      },
+      "pool": "retest"
+    }
+  ]
+}
