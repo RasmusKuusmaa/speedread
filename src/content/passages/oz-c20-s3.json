@@ -1,0 +1,336 @@
+{
+  "id": "oz-c20-s3",
+  "title": "The Dainty China Country, part 3",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Dorothy was shocked to see that the cow had broken her leg off, and that the pail was lying in several small pieces, while the poor milkmaid had a nick in her left elbow.",
+    "“There!” cried the milkmaid angrily. “See what you have done! My cow has broken her leg, and I must take her to the mender’s shop and have it glued on again. What do you mean by coming here and frightening my cow?”",
+    "“I’m very sorry,” returned Dorothy. “Please forgive us.”",
+    "But the pretty milkmaid was much too vexed to make any answer. She picked up the leg sulkily and led her cow away, the poor animal limping on three legs. As she left them the milkmaid cast many reproachful glances over her shoulder at the clumsy strangers, holding her nicked elbow close to her side.",
+    "Dorothy was quite grieved at this mishap.",
+    "“We must be very careful here,” said the kind-hearted Woodman, “or we may hurt these pretty little people so they will never get over it.”",
+    "A little farther on Dorothy met a most beautifully dressed young Princess, who stopped short as she saw the strangers and started to run away.",
+    "Dorothy wanted to see more of the Princess, so she ran after her. But the china girl cried out:",
+    "“Don’t chase me! Don’t chase me!”",
+    "She had such a frightened little voice that Dorothy stopped and said, “Why not?”",
+    "“Because,” answered the Princess, also stopping, a safe distance away, “if I run I may fall down and break myself.”",
+    "“But could you not be mended?” asked the girl.",
+    "“Oh, yes; but one is never so pretty after being mended, you know,” replied the Princess.",
+    "“I suppose not,” said Dorothy.",
+    "“Now there is Mr. Joker, one of our clowns,” continued the china lady, “who is always trying to stand upon his head. He has broken himself so often that he is mended in a hundred places, and doesn’t look at all pretty. Here he comes now, so you can see for yourself.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c20-s3-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was broken when the cow kicked?",
+      "options": [
+        "The cow's leg and the pail",
+        "The milkmaid's arm and the stool",
+        "The stool alone",
+        "Nothing at all was broken"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 32,
+        "end": 62
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s3-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, where was the milkmaid nicked?",
+      "options": [
+        "In her left elbow",
+        "On her right cheek",
+        "Across her forehead",
+        "At the ankle"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 123,
+        "end": 169
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s3-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where must the cow be taken?",
+      "options": [
+        "To the mender's shop, to be glued",
+        "Back to the china barn",
+        "To the Princess for judgement",
+        "Out of the country altogether"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 93,
+        "end": 129
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s3-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why does the Princess not want to be chased?",
+      "options": [
+        "If she runs she may fall and break herself",
+        "She has been forbidden to speak to strangers",
+        "She is late for an appointment at the shop",
+        "She dislikes being looked at closely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 72,
+        "end": 113
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s3-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is Mr. Joker always trying to do?",
+      "options": [
+        "Stand upon his head",
+        "Mend himself with glue",
+        "Run away from strangers",
+        "Climb the china wall"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 14,
+        "start": 72,
+        "end": 115
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s3-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the milkmaid treat Dorothy's apology?",
+      "options": [
+        "She was too vexed to answer it at all",
+        "She forgave her and led the cow away",
+        "She asked Dorothy to pay for the mending",
+        "She laughed and said it did not matter"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 62
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s3-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is being mended not a full remedy?",
+      "options": [
+        "One is never so pretty afterwards",
+        "The glue does not hold for long",
+        "The mender charges more than most can pay",
+        "A mended china figure cannot speak"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 10,
+        "end": 55
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s3-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what lesson does the Woodman draw?",
+      "options": [
+        "They must be very careful not to hurt the little people",
+        "They should leave the country as fast as they can",
+        "They ought to pay for whatever they break",
+        "They must not speak to any of the china people"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 1,
+        "end": 29
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s3-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does reproachful describe about the glances?",
+      "options": [
+        "Looks of blame cast over her shoulder",
+        "Looks of fear at the strangers",
+        "Looks of curiosity about the Lion",
+        "Looks of pity for the broken cow"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 171,
+        "end": 231
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s3-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "Clumsy visitors learn what their size costs a brittle people",
+        "The china people drive the travellers out of their country",
+        "Dorothy makes friends with a milkmaid and a princess",
+        "The Princess agrees to guide them across the country"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 41
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s3-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the cow walk away?",
+      "options": [
+        "Limping on three legs",
+        "Carried by the milkmaid",
+        "Dragged along on a rope",
+        "Perfectly soundly again"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 115,
+        "end": 152
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c20-s3-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the milkmaid accuse them of?",
+      "options": [
+        "Coming there and frightening her cow",
+        "Stealing the milk from her pail",
+        "Breaking down the china wall",
+        "Chasing the Princess through the fields"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 158,
+        "end": 213
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c20-s3-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many places is Mr. Joker mended in?",
+      "options": [
+        "A hundred",
+        "A dozen",
+        "Only two or three",
+        "None; he has never broken"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 14,
+        "start": 153,
+        "end": 185
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c20-s3-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Princess start to run away?",
+      "options": [
+        "She saw the strangers and was frightened",
+        "She was late for the mender's shop",
+        "The Lion had roared at her",
+        "Dorothy had called out to her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 75,
+        "end": 141
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c20-s3-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what stopped Dorothy chasing her?",
+      "options": [
+        "The frightened little voice calling out",
+        "The Tin Woodman catching her arm",
+        "The Princess falling and breaking",
+        "The wall in front of them both"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 0,
+        "end": 59
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c20-s3-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does sulkily describe?",
+      "options": [
+        "Picking it up in a bad temper",
+        "Picking it up very carefully",
+        "Picking it up in a great hurry",
+        "Picking it up with a laugh"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 63,
+        "end": 92
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c20-s3-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A broken cow and a wary princess teach the visitors their own clumsiness",
+        "A milkmaid forgives the travellers and shows them the road",
+        "A princess agrees to return to Kansas with Dorothy",
+        "The travellers are taken to the mender's shop to be judged"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 0,
+        "end": 73
+      },
+      "pool": "retest"
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "id": "oz-c21-s1",
+  "title": "The Lion Becomes the King of Beasts, part 1",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "After climbing down from the china wall the travelers found themselves in a disagreeable country, full of bogs and marshes and covered with tall, rank grass. It was difficult to walk without falling into muddy holes, for the grass was so thick that it hid them from sight. However, by carefully picking their way, they got safely along until they reached solid ground. But here the country seemed wilder than ever, and after a long and tiresome walk through the underbrush they entered another forest, where the trees were bigger and older than any they had ever seen.",
+    "“This forest is perfectly delightful,” declared the Lion, looking around him with joy. “Never have I seen a more beautiful place.”",
+    "“It seems gloomy,” said the Scarecrow.",
+    "“Not a bit of it,” answered the Lion. “I should like to live here all my life. See how soft the dried leaves are under your feet and how rich and green the moss is that clings to these old trees. Surely no wild beast could wish a pleasanter home.”",
+    "“Perhaps there are wild beasts in the forest now,” said Dorothy.",
+    "“I suppose there are,” returned the Lion, “but I do not see any of them about.”",
+    "They walked through the forest until it became too dark to go any farther. Dorothy and Toto and the Lion lay down to sleep, while the Woodman and the Scarecrow kept watch over them as usual.",
+    "When morning came, they started again. Before they had gone far they heard a low rumble, as of the growling of many wild animals. Toto whimpered a little, but none of the others was frightened, and they kept along the well-trodden path until they came to an opening in the wood, in which were gathered hundreds of beasts of every variety. There were tigers and elephants and bears and wolves and foxes and all the others in the natural history, and for a moment Dorothy was afraid. But the Lion explained that the animals were holding a meeting, and he judged by their snarling and growling that they were in great trouble."
+  ],
+  "questions": [
+    {
+      "id": "oz-c21-s1-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the country beyond the china wall like?",
+      "options": [
+        "Full of bogs and marshes and tall rank grass",
+        "A smooth white floor like a platter",
+        "Rich farmland with blue-painted fences",
+        "A stretch of sand with nothing growing"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 98,
+        "end": 156
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c21-s1-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why was walking difficult there?",
+      "options": [
+        "The thick grass hid the muddy holes",
+        "The ground was covered in loose stones",
+        "The marsh water came up to their knees",
+        "The wind blew hard against them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 217,
+        "end": 271
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c21-s1-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion say about the new forest?",
+      "options": [
+        "That it was perfectly delightful",
+        "That it was gloomy and unpleasant",
+        "That he had lived there as a cub",
+        "That it hid too many dangers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 1,
+        "end": 36
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c21-s1-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Scarecrow say about the forest?",
+      "options": [
+        "That it seems gloomy",
+        "That it is full of wild beasts",
+        "That the trees may fight them again",
+        "That they should go around it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 38
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c21-s1-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did they hear the next morning?",
+      "options": [
+        "A low rumble, like many animals growling",
+        "The ringing of a distant bell",
+        "The shouting of the Quadling people",
+        "The barking of a china dog"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 64,
+        "end": 128
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c21-s1-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Lion like the forest so much?",
+      "options": [
+        "The soft leaves and green moss make a fine home for a beast",
+        "It reminds him of the Emerald City he has left",
+        "It has no other wild beasts living in it",
+        "The trees there cannot bend down their branches"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 79,
+        "end": 128
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c21-s1-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did Toto react to the growling?",
+      "options": [
+        "He whimpered a little",
+        "He barked loudly in reply",
+        "He ran ahead to investigate",
+        "He hid in Dorothy's basket"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 130,
+        "end": 153
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c21-s1-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Lion judge from the snarling?",
+      "options": [
+        "That the beasts were in great trouble",
+        "That they were hunting something nearby",
+        "That they had scented the travellers",
+        "That they were fighting among themselves"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 550,
+        "end": 622
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c21-s1-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does rank describe about the grass?",
+      "options": [
+        "Coarse and overgrown",
+        "Neatly cut and short",
+        "Dry and brown with drought",
+        "Arranged in straight rows"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 127,
+        "end": 156
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c21-s1-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A hard march ends in a forest the Lion loves and a gathering of beasts",
+        "A hard march ends with the party lost among the marshes",
+        "The Lion refuses to enter a forest full of wild beasts",
+        "The travellers are attacked by tigers and bears at once"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 279,
+        "end": 337
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c21-s1-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what were the trees of the new forest like?",
+      "options": [
+        "Bigger and older than any they had seen",
+        "Small and thinly scattered",
+        "Made entirely of white china",
+        "The same fighting trees as before"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 502,
+        "end": 567
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c21-s1-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who kept watch while the others slept?",
+      "options": [
+        "The Woodman and the Scarecrow",
+        "The Lion alone",
+        "Dorothy and Toto together",
+        "Nobody kept watch that night"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 124,
+        "end": 189
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c21-s1-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what kinds of beasts were in the opening?",
+      "options": [
+        "Tigers, elephants, bears, wolves, and foxes",
+        "Only lions, gathered from the whole forest",
+        "Winged monkeys and field mice",
+        "Beasts made of china, like the country behind"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 339,
+        "end": 401
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c21-s1-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did Dorothy feel at the sight of the beasts?",
+      "options": [
+        "Afraid, for a moment",
+        "Delighted at the spectacle",
+        "Certain they meant no harm",
+        "Too tired to care at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 445,
+        "end": 480
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c21-s1-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Lion answer about wild beasts?",
+      "options": [
+        "That he supposes there are some, though he sees none",
+        "That the forest is certainly empty of them",
+        "That they will not come near a lion",
+        "That he will drive them all away"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 1,
+        "end": 20
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c21-s1-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does disagreeable describe?",
+      "options": [
+        "Unpleasant country to travel through",
+        "Country too steep to climb",
+        "Country nobody has ever entered",
+        "Country full of quarrelling people"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 40,
+        "end": 96
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c21-s1-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Rough country gives way to a forest where the beasts are holding council",
+        "A journey through marshes that ends with everyone lost",
+        "A quarrel between the Lion and the Scarecrow about the forest",
+        "An attack by wild beasts as soon as they enter the wood"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 482,
+        "end": 544
+      },
+      "pool": "retest"
+    }
+  ]
+}

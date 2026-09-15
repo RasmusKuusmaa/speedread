@@ -1,0 +1,335 @@
+{
+  "id": "oz-c20-s4",
+  "title": "The Dainty China Country, part 4",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Indeed, a jolly little clown came walking toward them, and Dorothy could see that in spite of his pretty clothes of red and yellow and green he was completely covered with cracks, running every which way and showing plainly that he had been mended in many places.",
+    "The Clown put his hands in his pockets, and after puffing out his cheeks and nodding his head at them saucily, he said:",
+    "“My lady fair, Why do you stare At poor old Mr. Joker? You’re quite as stiff And prim as if You’d eaten up a poker!”",
+    "“Be quiet, sir!” said the Princess. “Can’t you see these are strangers, and should be treated with respect?”",
+    "“Well, that’s respect, I expect,” declared the Clown, and immediately stood upon his head.",
+    "“Don’t mind Mr. Joker,” said the Princess to Dorothy. “He is considerably cracked in his head, and that makes him foolish.”",
+    "“Oh, I don’t mind him a bit,” said Dorothy. “But you are so beautiful,” she continued, “that I am sure I could love you dearly. Won’t you let me carry you back to Kansas, and stand you on Aunt Em’s mantel? I could carry you in my basket.”",
+    "“That would make me very unhappy,” answered the china Princess. “You see, here in our country we live contentedly, and can talk and move around as we please. But whenever any of us are taken away our joints at once stiffen, and we can only stand straight and look pretty. Of course that is all that is expected of us when we are on mantels and cabinets and drawing-room tables, but our lives are much pleasanter here in our own country.”",
+    "“I would not make you unhappy for all the world!” exclaimed Dorothy. “So I’ll just say good-bye.”",
+    "“Good-bye,” replied the Princess.",
+    "They walked carefully through the china country. The little animals and all the people scampered out of their way, fearing the strangers would break them, and after an hour or so the travelers reached the other side of the country and came to another china wall.",
+    "It was not so high as the first, however, and by standing upon the Lion’s back they all managed to scramble to the top. Then the Lion gathered his legs under him and jumped on the wall; but just as he jumped, he upset a china church with his tail and smashed it all to pieces.",
+    "“That was too bad,” said Dorothy, “but really I think we were lucky in not doing these little people more harm than breaking a cow’s leg and a church. They are all so brittle!”",
+    "“They are, indeed,” said the Scarecrow, “and I am thankful I am made of straw and cannot be easily damaged. There are worse things in the world than being a Scarecrow.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c20-s4-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was Mr. Joker covered with?",
+      "options": [
+        "Cracks running every which way",
+        "Spots of red and yellow paint",
+        "Fresh glue from the mender's shop",
+        "A long ermine robe"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 141,
+        "end": 178
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s4-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Clown do after speaking?",
+      "options": [
+        "Stood upon his head",
+        "Ran away behind a barn",
+        "Bowed low to the Princess",
+        "Began to cry with shame"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 54,
+        "end": 89
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s4-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy offer the Princess?",
+      "options": [
+        "To carry her to Kansas and set her on Aunt Em's mantel",
+        "To take her to the mender's shop for repairs",
+        "To give her a ride upon the Lion's back",
+        "To build her a house outside the wall"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 128,
+        "end": 169
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s4-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what happens to china people taken away?",
+      "options": [
+        "Their joints stiffen and they can only stand and look pretty",
+        "They break into pieces before the journey ends",
+        "They lose their colour and turn plain white",
+        "They grow to the size of ordinary people"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 196,
+        "end": 222
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s4-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion break with his tail?",
+      "options": [
+        "A china church",
+        "A china barn",
+        "The second china wall",
+        "A milkmaid's stool"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 209,
+        "end": 246
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s4-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Princess say Mr. Joker is foolish?",
+      "options": [
+        "He is considerably cracked in his head",
+        "He has never been properly mended",
+        "He was made by a careless workman",
+        "He has been standing on his head too long"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 55,
+        "end": 93
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s4-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Dorothy give up her plan at once?",
+      "options": [
+        "She would not make the Princess unhappy for anything",
+        "She has no room in her basket after all",
+        "The Clown warns her against taking anyone",
+        "The Lion refuses to carry the extra weight"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 1,
+        "end": 48
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s4-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the china people behave as they crossed?",
+      "options": [
+        "They scampered out of the way, fearing to be broken",
+        "They followed the strangers in a curious crowd",
+        "They threw small china stones at the Lion",
+        "They took no notice of the travellers at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 49,
+        "end": 113
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s4-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does brittle mean?",
+      "options": [
+        "Easily broken",
+        "Very brightly coloured",
+        "Small and light",
+        "Unfriendly to strangers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 151,
+        "end": 175
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s4-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A kindness refused, a crossing made, and two things broken on the way",
+        "The china Princess agrees to come to Kansas after all",
+        "The travellers are held responsible for the broken church",
+        "Mr. Joker guides the party safely out of the country"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 0,
+        "end": 48
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s4-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the party get over the second wall?",
+      "options": [
+        "By standing upon the Lion's back",
+        "By building a second ladder",
+        "By finding a gate in the china",
+        "By breaking a hole through it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 46,
+        "end": 78
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c20-s4-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how long did the crossing take?",
+      "options": [
+        "An hour or so",
+        "The best part of a day",
+        "Three days",
+        "Only a few minutes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 159,
+        "end": 215
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c20-s4-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what colours was the Clown dressed in?",
+      "options": [
+        "Red, yellow, and green",
+        "Silver, gold, and purple",
+        "Pink, yellow, and blue",
+        "Plain white, like the floor"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 82,
+        "end": 140
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c20-s4-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Princess say about life at home?",
+      "options": [
+        "They live contentedly and can talk and move as they please",
+        "They are forbidden to speak to one another",
+        "They are always afraid of being broken",
+        "They wish they could be put on mantels"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 74,
+        "end": 113
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c20-s4-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Scarecrow conclude at the end?",
+      "options": [
+        "That there are worse things than being made of straw",
+        "That he would rather have been made of china",
+        "That the china people should be mended by Oz",
+        "That they should never have entered the country"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 108,
+        "end": 167
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c20-s4-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does saucily describe about the Clown's nod?",
+      "options": [
+        "Cheeky and impudent",
+        "Slow and solemn",
+        "Shy and uncertain",
+        "Angry and sharp"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 73,
+        "end": 109
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c20-s4-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "The china country is crossed with only small damage and one refusal",
+        "The china country proves impossible to cross at all",
+        "A clown guides the travellers to the second wall",
+        "Dorothy carries a china princess away in her basket"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 35,
+        "end": 67
+      },
+      "pool": "retest"
+    }
+  ]
+}

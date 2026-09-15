@@ -1,0 +1,329 @@
+{
+  "id": "oz-c21-s2",
+  "title": "The Lion Becomes the King of Beasts, part 2",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "As he spoke several of the beasts caught sight of him, and at once the great assemblage hushed as if by magic. The biggest of the tigers came up to the Lion and bowed, saying:",
+    "“Welcome, O King of Beasts! You have come in good time to fight our enemy and bring peace to all the animals of the forest once more.”",
+    "“What is your trouble?” asked the Lion quietly.",
+    "“We are all threatened,” answered the tiger, “by a fierce enemy which has lately come into this forest. It is a most tremendous monster, like a great spider, with a body as big as an elephant and legs as long as a tree trunk. It has eight of these long legs, and as the monster crawls through the forest he seizes an animal with a leg and drags it to his mouth, where he eats it as a spider does a fly. Not one of us is safe while this fierce creature is alive, and we had called a meeting to decide how to take care of ourselves when you came among us.”",
+    "The Lion thought for a moment.",
+    "“Are there any other lions in this forest?” he asked.",
+    "“No; there were some, but the monster has eaten them all. And, besides, they were none of them nearly so large and brave as you.”",
+    "“If I put an end to your enemy, will you bow down to me and obey me as King of the Forest?” inquired the Lion.",
+    "“We will do that gladly,” returned the tiger; and all the other beasts roared with a mighty roar: “We will!”",
+    "“Where is this great spider of yours now?” asked the Lion.",
+    "“Yonder, among the oak trees,” said the tiger, pointing with his forefoot.",
+    "“Take good care of these friends of mine,” said the Lion, “and I will go at once to fight the monster.”",
+    "He bade his comrades good-bye and marched proudly away to do battle with the enemy."
+  ],
+  "questions": [
+    {
+      "id": "oz-c21-s2-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the tigers greet the Lion?",
+      "options": [
+        "As King of Beasts, with a bow",
+        "With snarls and bared teeth",
+        "By running away into the trees",
+        "By taking no notice of him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 1,
+        "end": 27
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c21-s2-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what is the enemy like?",
+      "options": [
+        "A great spider with a body like an elephant",
+        "A pack of wolves led by a giant",
+        "A winged monster out of the clouds",
+        "A witch who rules the forest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 104,
+        "end": 156
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c21-s2-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many legs has the monster?",
+      "options": ["Eight", "Six", "Four", "Twelve"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 226,
+        "end": 257
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c21-s2-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what happened to the other lions of the forest?",
+      "options": [
+        "The monster has eaten them all",
+        "They fled to the Emerald City",
+        "They were tamed by the Wicked Witch",
+        "There were never any others"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 5,
+        "end": 56
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c21-s2-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where is the spider now?",
+      "options": [
+        "Among the oak trees",
+        "Beside the marshes they crossed",
+        "Inside a cave in the hills",
+        "Nobody knows where"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 0,
+        "end": 45
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c21-s2-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what bargain does the Lion propose?",
+      "options": [
+        "He will kill the enemy if they obey him as King",
+        "He will fight if the beasts fight beside him",
+        "He will stay if they feed his companions",
+        "He will lead them away to a new forest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 32,
+        "end": 90
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c21-s2-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the assembly answer the bargain?",
+      "options": [
+        "They roared with a mighty roar that they would",
+        "They argued about it among themselves",
+        "They refused to obey a stranger",
+        "They said nothing at all in reply"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 46,
+        "end": 96
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c21-s2-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why had the beasts called the meeting?",
+      "options": [
+        "To decide how to take care of themselves",
+        "To choose a new King of the Forest",
+        "To drive the strangers out of the wood",
+        "To divide the forest among themselves"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 466,
+        "end": 529
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c21-s2-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does assemblage mean?",
+      "options": [
+        "The gathering of beasts",
+        "The noise they were making",
+        "The clearing in the wood",
+        "The council's decision"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 59,
+        "end": 94
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c21-s2-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A cowardly lion is hailed as king and takes on the task at once",
+        "A gathering of beasts refuses to accept the Lion as king",
+        "The Lion advises the beasts to leave the forest",
+        "The travellers are attacked by a great spider"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 63,
+        "end": 101
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c21-s2-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the monster eat its prey?",
+      "options": [
+        "Seizes it with a leg and drags it to its mouth",
+        "Traps it in a web among the oak trees",
+        "Swallows it whole without chewing",
+        "Poisons it and leaves it for later"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 304,
+        "end": 360
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c21-s2-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how long are the monster's legs said to be?",
+      "options": [
+        "As long as a tree trunk",
+        "About the length of a man's arm",
+        "Longer than the forest is wide",
+        "No longer than a wolf's"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 196,
+        "end": 224
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c21-s2-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Lion ask about the trouble?",
+      "options": [
+        "Quietly",
+        "Angrily",
+        "In a great roar",
+        "Without stopping to listen"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 24,
+        "end": 46
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c21-s2-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the tiger say the dead lions were no loss?",
+      "options": [
+        "None of them was nearly so large and brave as he is",
+        "They had all been cowards like the monster",
+        "They had refused to fight the enemy",
+        "They had left the forest long before"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 72,
+        "end": 127
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c21-s2-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Lion ask the beasts to do for his friends?",
+      "options": [
+        "Take good care of them while he was gone",
+        "Lead them safely out of the forest",
+        "Find them food and a place to sleep",
+        "Keep them away from the oak trees"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 1,
+        "end": 40
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c21-s2-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does hushed mean?",
+      "options": [
+        "Fell suddenly silent",
+        "Grew louder all at once",
+        "Scattered into the trees",
+        "Bowed down to the ground"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 67,
+        "end": 109
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c21-s2-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A kingdom is offered on one condition, and the condition is accepted",
+        "A council of beasts decides to leave the forest for good",
+        "The Lion refuses to fight a monster so much larger than himself",
+        "The tigers drive the travellers away from the meeting"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 0,
+        "end": 54
+      },
+      "pool": "retest"
+    }
+  ]
+}

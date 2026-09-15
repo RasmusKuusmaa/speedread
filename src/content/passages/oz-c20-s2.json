@@ -1,0 +1,327 @@
+{
+  "id": "oz-c20-s2",
+  "title": "The Dainty China Country, part 2",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "But the strangest of all were the people who lived in this queer country. There were milkmaids and shepherdesses, with brightly colored bodices and golden spots all over their gowns; and princesses with most gorgeous frocks of silver and gold and purple; and shepherds dressed in knee breeches with pink and yellow and blue stripes down them, and golden buckles on their shoes; and princes with jeweled crowns upon their heads, wearing ermine robes and satin doublets; and funny clowns in ruffled gowns, with round red spots upon their cheeks and tall, pointed caps. And, strangest of all, these people were all made of china, even to their clothes, and were so small that the tallest of them was no higher than Dorothy’s knee.",
+    "No one did so much as look at the travelers at first, except one little purple china dog with an extra-large head, which came to the wall and barked at them in a tiny voice, afterwards running away again.",
+    "“How shall we get down?” asked Dorothy.",
+    "They found the ladder so heavy they could not pull it up, so the Scarecrow fell off the wall and the others jumped down upon him so that the hard floor would not hurt their feet. Of course they took pains not to light on his head and get the pins in their feet. When all were safely down they picked up the Scarecrow, whose body was quite flattened out, and patted his straw into shape again.",
+    "“We must cross this strange place in order to get to the other side,” said Dorothy, “for it would be unwise for us to go any other way except due South.”",
+    "They began walking through the country of the china people, and the first thing they came to was a china milkmaid milking a china cow. As they drew near, the cow suddenly gave a kick and kicked over the stool, the pail, and even the milkmaid herself, and all fell on the china ground with a great clatter."
+  ],
+  "questions": [
+    {
+      "id": "oz-c20-s2-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how tall were the china people?",
+      "options": [
+        "No higher than Dorothy's knee",
+        "About as tall as Dorothy herself",
+        "Taller than the Tin Woodman",
+        "No bigger than Dorothy's thumb"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 659,
+        "end": 726
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s2-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what came to the wall and barked at them?",
+      "options": [
+        "A little purple china dog",
+        "A china cow with a broken leg",
+        "One of the china clowns",
+        "A shepherdess in a bright bodice"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 54,
+        "end": 113
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s2-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did they get down from the wall?",
+      "options": [
+        "The Scarecrow fell first and the others jumped on him",
+        "They pulled the ladder up and lowered it down",
+        "The Lion jumped down and caught each of them",
+        "They climbed down the smooth china face"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 58,
+        "end": 128
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s2-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did they take pains to avoid?",
+      "options": [
+        "Landing on the Scarecrow's head and the pins",
+        "Treading on the little china people",
+        "Breaking the ladder they had made",
+        "Waking the purple china dog again"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 189,
+        "end": 229
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s2-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did they come to first in the country?",
+      "options": [
+        "A china milkmaid milking a china cow",
+        "A church made of white china",
+        "A princess in a gorgeous frock",
+        "A clown standing on his head"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 64,
+        "end": 133
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s2-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Scarecrow go off the wall first?",
+      "options": [
+        "His body could break the others' fall without harm",
+        "He was the ruler and had to lead the way",
+        "He wanted to see the china people closely",
+        "He had dropped the basket over the edge"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 129,
+        "end": 177
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s2-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why must they cross the china country at all?",
+      "options": [
+        "Going any way but due south would be unwise",
+        "The china people had invited them through",
+        "The wall behind them could not be climbed again",
+        "Glinda's castle stood on the far side of it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 85,
+        "end": 151
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s2-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what happened when they drew near the cow?",
+      "options": [
+        "It kicked over the stool, the pail, and the milkmaid",
+        "It walked away quietly into a china barn",
+        "It stood quite still and let them pass",
+        "It broke into pieces at the sound of their feet"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 154,
+        "end": 208
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s2-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does clatter describe?",
+      "options": [
+        "The noise of the china falling",
+        "The chatter of the china people",
+        "The rattle of the Woodman's joints",
+        "The barking of the purple dog"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 251,
+        "end": 304
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s2-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A beautiful country turns out to be fragile the moment they enter it",
+        "A country of china people welcomes the travellers warmly",
+        "The travellers decide to go around the china country",
+        "The Scarecrow is broken past mending by the fall"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 73
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c20-s2-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what were the china clowns wearing?",
+      "options": [
+        "Ruffled gowns and tall pointed caps",
+        "Ermine robes and satin doublets",
+        "Knee breeches with coloured stripes",
+        "Frocks of silver, gold, and purple"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 469,
+        "end": 502
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c20-s2-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the princesses wear?",
+      "options": [
+        "Gorgeous frocks of silver, gold, and purple",
+        "Bodices with golden spots",
+        "Jewelled crowns and ermine robes",
+        "Plain white china, undecorated"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 183,
+        "end": 253
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c20-s2-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did they do with the flattened Scarecrow?",
+      "options": [
+        "Picked him up and patted his straw into shape",
+        "Left him lying until he recovered himself",
+        "Carried him the rest of the way",
+        "Stuffed him with fresh china dust"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 318,
+        "end": 391
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c20-s2-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why could they not bring the ladder down?",
+      "options": [
+        "They found it too heavy to pull up the wall",
+        "The china people had taken it away",
+        "It had broken as the last of them climbed",
+        "The Woodman had left it in the forest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 56
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c20-s2-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what were the china people made of, clothes included?",
+      "options": [
+        "China, every part of them",
+        "Painted wood over china frames",
+        "Silk and satin over china bodies",
+        "Straw, like the Scarecrow"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 590,
+        "end": 648
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c20-s2-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does queer describe about the country?",
+      "options": [
+        "Strange and unlike anywhere else",
+        "Sad and rather gloomy",
+        "Crowded and full of noise",
+        "Poor and badly kept"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 30,
+        "end": 72
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c20-s2-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A first look at the china people, and a first accident among them",
+        "A friendly welcome from the people of the china country",
+        "The travellers' decision to turn back from the china wall",
+        "A search through the china country for a way out"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 0,
+        "end": 58
+      },
+      "pool": "retest"
+    }
+  ]
+}
