@@ -19,6 +19,8 @@ export type LineWidth = "narrow" | "medium" | "wide";
 
 export interface Settings {
   pickerFilters: PickerFilters;
+  // How many consecutive book sections one sitting covers.
+  sectionsPerSitting: number;
   recallDepth: RecallDepth;
   comprehensionThreshold: number;
   fontSize: FontSize;

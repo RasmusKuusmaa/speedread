@@ -59,6 +59,7 @@ export function defaultStore(): Store {
         lengthBand: "all",
         difficultyBand: "all",
       },
+      sectionsPerSitting: 1,
       recallDepth: "brief",
       comprehensionThreshold: 80,
       fontSize: "medium",
@@ -94,7 +95,8 @@ export function normalizeStore(store: Store): Store {
     sessions: candidate.sessions ?? defaults.sessions,
     retests: candidate.retests ?? defaults.retests,
     calibration: candidate.calibration ?? defaults.calibration,
-    inProgressSession: candidate.inProgressSession ?? defaults.inProgressSession,
+    inProgressSession:
+      candidate.inProgressSession ?? defaults.inProgressSession,
     bookProgress: candidate.bookProgress ?? defaults.bookProgress,
   };
 }

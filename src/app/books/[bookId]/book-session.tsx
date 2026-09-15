@@ -1,66 +1,70 @@
 "use client";
 
+import { useState } from "react";
 import { SessionReader } from "@/app/session/[passageId]/session-reader";
+import { applySitting, bookProgressFor } from "@/lib/books/progress";
+import {
+  composeSitting,
+  splitSittingOutcome,
+  type Sitting,
+} from "@/lib/books/sitting";
 import type { BookWithChunks } from "@/lib/content/types";
 import { useStore } from "@/lib/storage/store-provider";
+import { BookContents } from "./book-contents";
 
 export function BookSession({ book }: { book: BookWithChunks }) {
   const { store, update } = useStore();
+  // Composed once when reading starts, so changing the length control cannot
+  // swap the text out from under a reader mid-session.
+  const [sitting, setSitting] = useState<Sitting | null>(null);
 
   if (store === null) {
     return null;
   }
 
-  const progress = store.bookProgress.find(
-    (entry) => entry.bookId === book.id,
-  );
-  const currentChunkIndex = progress?.currentChunkIndex ?? 0;
+  const sectionsPerSitting = store.settings.sectionsPerSitting;
 
-  if (currentChunkIndex >= book.chunks.length) {
+  if (sitting === null) {
     return (
-      <main className="flex flex-1 flex-col items-start justify-center gap-4 py-16">
-        <h1 className="font-serif text-2xl text-ink">{book.title}</h1>
-        <p className="font-sans text-base text-muted">
-          You&apos;ve finished this book.
-        </p>
-      </main>
+      <BookContents
+        book={book}
+        progress={bookProgressFor(store, book.id)}
+        sectionsPerSitting={sectionsPerSitting}
+        onChangeSectionsPerSitting={(count) => {
+          update((current) => ({
+            ...current,
+            settings: { ...current.settings, sectionsPerSitting: count },
+          }));
+        }}
+        onStart={(fromIndex) => {
+          setSitting(composeSitting(book, fromIndex, sectionsPerSitting));
+        }}
+      />
     );
-  }
-
-  const currentChunk = book.chunks[currentChunkIndex]!;
-  const isLastChunk = currentChunkIndex === book.chunks.length - 1;
-
-  function handleContinue() {
-    const nextIndex = currentChunkIndex + 1;
-    update((current) => {
-      const existing = current.bookProgress.find(
-        (entry) => entry.bookId === book.id,
-      );
-      return {
-        ...current,
-        bookProgress: [
-          ...current.bookProgress.filter((entry) => entry.bookId !== book.id),
-          {
-            bookId: book.id,
-            currentChunkIndex: nextIndex,
-            chunks: existing?.chunks ?? [],
-            startedAtEpochMs: existing?.startedAtEpochMs ?? Date.now(),
-            completedAtEpochMs:
-              nextIndex >= book.chunks.length ? Date.now() : null,
-          },
-        ],
-      };
-    });
   }
 
   return (
     <SessionReader
-      key={currentChunk.id}
-      passage={currentChunk}
+      key={`${sitting.passage.id}-${sitting.sections.length}`}
+      passage={sitting.passage}
       sessionContext="book"
       mode="self-paced"
       retestId={null}
-      bookNavigation={{ isLastChunk, onContinue: handleContinue }}
+      chunkPassageIds={sitting.sections.map((section) => section.id)}
+      onSessionComplete={({ elapsedMs, answers }) => {
+        update((current) =>
+          applySitting(current, {
+            bookId: book.id,
+            orderedPassageIds: book.chunkPassageIds,
+            outcomes: splitSittingOutcome(sitting, answers, elapsedMs),
+            now: Date.now(),
+          }),
+        );
+      }}
+      bookNavigation={{
+        label: "Back to the contents",
+        onContinue: () => setSitting(null),
+      }}
     />
   );
 }

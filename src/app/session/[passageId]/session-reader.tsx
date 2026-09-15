@@ -47,7 +47,7 @@ type Phase =
   "start" | "reading" | "recall" | "questions" | "finished" | "review";
 
 interface BookNavigation {
-  isLastChunk: boolean;
+  label: string;
   onContinue: () => void;
 }
 
@@ -434,9 +434,7 @@ function FinishedScreen({
             onClick={bookNavigation.onContinue}
             className="rounded border border-rule px-4 py-2 font-sans text-sm text-ink"
           >
-            {bookNavigation.isLastChunk
-              ? "Finish book"
-              : "Continue to next section"}
+            {bookNavigation.label}
           </button>
         )}
         <Link
@@ -603,9 +601,7 @@ function ReviewScreen({
             onClick={bookNavigation.onContinue}
             className="rounded border border-rule px-4 py-2 font-sans text-sm text-ink"
           >
-            {bookNavigation.isLastChunk
-              ? "Finish book"
-              : "Continue to next section"}
+            {bookNavigation.label}
           </button>
         )}
         <Link
