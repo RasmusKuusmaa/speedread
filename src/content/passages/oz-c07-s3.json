@@ -1,0 +1,328 @@
+{
+  "id": "oz-c07-s3",
+  "title": "The Journey to the Great Oz, part 3",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "The Scarecrow sat upon the Lion’s back, and the big beast walked to the edge of the gulf and crouched down.",
+    "“Why don’t you run and jump?” asked the Scarecrow.",
+    "“Because that isn’t the way we Lions do these things,” he replied. Then giving a great spring, he shot through the air and landed safely on the other side. They were all greatly pleased to see how easily he did it, and after the Scarecrow had got down from his back the Lion sprang across the ditch again.",
+    "Dorothy thought she would go next; so she took Toto in her arms and climbed on the Lion’s back, holding tightly to his mane with one hand. The next moment it seemed as if she were flying through the air; and then, before she had time to think about it, she was safe on the other side. The Lion went back a third time and got the Tin Woodman, and then they all sat down for a few moments to give the beast a chance to rest, for his great leaps had made his breath short, and he panted like a big dog that has been running too long.",
+    "They found the forest very thick on this side, and it looked dark and gloomy. After the Lion had rested they started along the road of yellow brick, silently wondering, each in his own mind, if ever they would come to the end of the woods and reach the bright sunshine again. To add to their discomfort, they soon heard strange noises in the depths of the forest, and the Lion whispered to them that it was in this part of the country that the Kalidahs lived.",
+    "“What are the Kalidahs?” asked the girl.",
+    "“They are monstrous beasts with bodies like bears and heads like tigers,” replied the Lion, “and with claws so long and sharp that they could tear me in two as easily as I could kill Toto. I’m terribly afraid of the Kalidahs.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c07-s3-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the Lion not run before jumping?",
+      "options": [
+        "That is not the way Lions do these things",
+        "The edge of the gulf was too crumbling",
+        "The Scarecrow would have fallen off",
+        "He had no room to take a run"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 1,
+        "end": 52
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s3-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how many times did the Lion cross the ditch in all?",
+      "options": [
+        "Three times over and back again",
+        "Once only, carrying all three",
+        "Twice, carrying two at a time",
+        "Four times, once for each of them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 285,
+        "end": 340
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s3-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy hold on to as she crossed?",
+      "options": [
+        "The Lion's mane",
+        "The Lion's collar",
+        "The Scarecrow's arm",
+        "Her own basket"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 96,
+        "end": 137
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s3-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what are the Kalidahs like?",
+      "options": [
+        "Bodies like bears and heads like tigers",
+        "Bodies like tigers and heads like bears",
+        "Bodies like lions and heads like wolves",
+        "Bodies like bears and heads like men"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 1,
+        "end": 71
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s3-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who told them the Kalidahs lived there?",
+      "options": [
+        "The Lion, in a whisper",
+        "The Tin Woodman, from his father",
+        "The Scarecrow, from the crows",
+        "Dorothy, from the Munchkins"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 368,
+        "end": 458
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s3-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the great leaps affect the Lion?",
+      "options": [
+        "They left him short of breath and panting",
+        "They tore the claws on his front feet",
+        "They made him bolder than before",
+        "They left him unable to walk further"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 423,
+        "end": 468
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s3-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what was on each traveller's mind after crossing?",
+      "options": [
+        "Whether they would ever reach sunshine again",
+        "Whether the Lion could be trusted at all",
+        "Whether the Wizard would grant their wishes",
+        "Whether they had food enough for the day"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 149,
+        "end": 238
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s3-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Lion so afraid of the Kalidahs?",
+      "options": [
+        "Their claws could tear him in two",
+        "They hunt in packs too large to fight",
+        "They cannot be frightened by any roar",
+        "They have hunted him once before"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 97,
+        "end": 156
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s3-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does gloomy describe about the forest?",
+      "options": [
+        "Dark and dispiriting",
+        "Thick with thorns",
+        "Full of loud noises",
+        "Damp underfoot"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 51,
+        "end": 76
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s3-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "The ditch is crossed, but the forest ahead is darker and worse",
+        "The Lion refuses the jump and the party turns back",
+        "The travellers come out of the forest into sunshine",
+        "The Kalidahs attack while the party is crossing"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 45
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s3-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion do before springing?",
+      "options": [
+        "Walked to the edge and crouched down",
+        "Took a long run at the gulf",
+        "Measured the gap with his paw",
+        "Roared to give himself courage"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 44,
+        "end": 106
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s3-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Dorothy carry across with her?",
+      "options": [
+        "Toto, in her arms",
+        "The basket of nuts on her back",
+        "The oil-can in her pocket",
+        "Nothing at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 35,
+        "end": 94
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s3-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the crossing feel to Dorothy?",
+      "options": [
+        "As if she were flying through the air",
+        "As though the fall would never end",
+        "Slower than she had expected",
+        "Rougher than riding in a wagon"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 155,
+        "end": 202
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s3-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the party sit down after the third crossing?",
+      "options": [
+        "To let the Lion get his breath back",
+        "To eat the nuts before going on",
+        "To wait for the noises to stop",
+        "To decide which way to go next"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 351,
+        "end": 421
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s3-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does the Lion compare the Kalidahs' strength to his own?",
+      "options": [
+        "They could tear him apart as easily as he could kill Toto",
+        "They are about as strong as he is himself",
+        "They are slower than he is but far heavier",
+        "They can only harm him if there are several"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 157,
+        "end": 187
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s3-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does panted mean?",
+      "options": [
+        "Breathed hard and quickly",
+        "Growled deep in his throat",
+        "Lay down and would not move",
+        "Shook his mane out"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 474,
+        "end": 529
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s3-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A crossing safely made, and a warning about what lives ahead",
+        "A crossing that costs the Lion the last of his strength",
+        "A meeting with the Kalidahs on the far side of the ditch",
+        "A decision to leave the road and go around the forest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 276,
+        "end": 362
+      },
+      "pool": "retest"
+    }
+  ]
+}

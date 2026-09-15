@@ -1,0 +1,330 @@
+{
+  "id": "oz-c07-s5",
+  "title": "The Journey to the Great Oz, part 5",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“We are lost, for they will surely tear us to pieces with their sharp claws. But stand close behind me, and I will fight them as long as I am alive.”",
+    "“Wait a minute!” called the Scarecrow. He had been thinking what was best to be done, and now he asked the Woodman to chop away the end of the tree that rested on their side of the ditch. The Tin Woodman began to use his axe at once, and, just as the two Kalidahs were nearly across, the tree fell with a crash into the gulf, carrying the ugly, snarling brutes with it, and both were dashed to pieces on the sharp rocks at the bottom.",
+    "“Well,” said the Cowardly Lion, drawing a long breath of relief, “I see we are going to live a little while longer, and I am glad of it, for it must be a very uncomfortable thing not to be alive. Those creatures frightened me so badly that my heart is beating yet.”",
+    "“Ah,” said the Tin Woodman sadly, “I wish I had a heart to beat.”",
+    "This adventure made the travelers more anxious than ever to get out of the forest, and they walked so fast that Dorothy became tired, and had to ride on the Lion’s back. To their great joy the trees became thinner the farther they advanced, and in the afternoon they suddenly came upon a broad river, flowing swiftly just before them. On the other side of the water they could see the road of yellow brick running through a beautiful country, with green meadows dotted with bright flowers and all the road bordered with trees hanging full of delicious fruits. They were greatly pleased to see this delightful country before them.",
+    "“How shall we cross the river?” asked Dorothy.",
+    "“That is easily done,” replied the Scarecrow. “The Tin Woodman must build us a raft, so we can float to the other side.”",
+    "So the Woodman took his axe and began to chop down small trees to make a raft, and while he was busy at this the Scarecrow found on the riverbank a tree full of fine fruit. This pleased Dorothy, who had eaten nothing but nuts all day, and she made a hearty meal of the ripe fruit.",
+    "But it takes time to make a raft, even when one is as industrious and untiring as the Tin Woodman, and when night came the work was not done. So they found a cozy place under the trees where they slept well until the morning; and Dorothy dreamed of the Emerald City, and of the good Wizard Oz, who would soon send her back to her own home again."
+  ],
+  "questions": [
+    {
+      "id": "oz-c07-s5-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Scarecrow ask the Woodman to do?",
+      "options": [
+        "Chop away the end of the tree on their side",
+        "Cut down a second tree beside the first",
+        "Throw his axe at the leading Kalidah",
+        "Push the tree further across the gulf"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 94,
+        "end": 186
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s5-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what happened to the two Kalidahs?",
+      "options": [
+        "They fell with the tree and were dashed on the rocks",
+        "They turned back into the forest unhurt",
+        "They swam the river and followed on",
+        "They were driven off by the Lion's roar"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 326,
+        "end": 400
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s5-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the travellers come upon that afternoon?",
+      "options": [
+        "A broad river flowing swiftly",
+        "A second great ditch",
+        "The wall of the Emerald City",
+        "A field of bright poppies"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 262,
+        "end": 333
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s5-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Scarecrow say must be done to cross the river?",
+      "options": [
+        "The Tin Woodman must build a raft",
+        "The Lion must swim them over",
+        "They must follow the bank to a bridge",
+        "They must wait for the water to fall"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 47,
+        "end": 83
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s5-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what had Dorothy eaten all that day before the fruit?",
+      "options": [
+        "Nothing but nuts",
+        "Nothing at all",
+        "Bread and fruit",
+        "Roast deer"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 195,
+        "end": 233
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s5-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the party walk so fast after the Kalidahs?",
+      "options": [
+        "They were more anxious than ever to leave the forest",
+        "The Lion was afraid more beasts would follow",
+        "They hoped to reach the city before nightfall",
+        "Dorothy wanted to find food as soon as possible"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 81
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s5-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Tin Woodman's reply to the Lion reveal?",
+      "options": [
+        "That he envies even a heart that beats with fear",
+        "That he was not frightened by the Kalidahs at all",
+        "That he blames the Lion for the danger they were in",
+        "That he wishes the Scarecrow had thought faster"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 35,
+        "end": 63
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s5-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did they see across the river?",
+      "options": [
+        "The yellow road running through a beautiful country",
+        "The green walls of the Emerald City itself",
+        "A second forest thicker than the first",
+        "A desert stretching to the horizon"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 366,
+        "end": 441
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s5-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does industrious describe about the Tin Woodman?",
+      "options": [
+        "That he works hard and steadily",
+        "That he works only when asked",
+        "That he is clever with his hands",
+        "That he never needs oiling"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 34,
+        "end": 97
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s5-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A narrow escape is followed by the first sight of better country",
+        "A battle with two beasts leaves the party badly hurt",
+        "The river proves impossible to cross without a bridge",
+        "The Scarecrow admits his plan very nearly killed them all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 560,
+        "end": 629
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s5-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion offer to do before the Scarecrow spoke?",
+      "options": [
+        "Fight the Kalidahs as long as he was alive",
+        "Carry Dorothy away along the road",
+        "Jump back across the gulf for help",
+        "Push the tree into the ditch himself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 108,
+        "end": 147
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s5-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Lion say after the danger passed?",
+      "options": [
+        "That his heart was beating yet from fright",
+        "That he had never been frightened at all",
+        "That he would face them again if he had to",
+        "That the Scarecrow deserved no credit"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 196,
+        "end": 264
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s5-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did Dorothy have to ride on the Lion's back?",
+      "options": [
+        "She became tired from walking so fast",
+        "Her shoes had worn through at last",
+        "The road was too rough to walk on",
+        "The Lion insisted on carrying her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 87,
+        "end": 168
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s5-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was the raft not finished that day?",
+      "options": [
+        "Building a raft takes time, even for a tireless worker",
+        "The Tin Woodman's axe had grown blunt",
+        "Darkness fell before they reached the river",
+        "The trees by the river were too large to cut"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 0,
+        "end": 32
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s5-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did Dorothy's day end?",
+      "options": [
+        "Asleep under the trees, dreaming of the Emerald City",
+        "Awake all night watching for the Kalidahs",
+        "On the far bank of the river already",
+        "Hungry, with nothing but nuts to eat"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 230,
+        "end": 265
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s5-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does drawing a long breath of relief suggest?",
+      "options": [
+        "The strain had passed and he could breathe again",
+        "He was still too frightened to speak",
+        "He had been holding his breath to hide",
+        "He was worn out from the fighting"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 8,
+        "end": 63
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s5-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Quick thinking destroys the pursuers and opens the way to a kinder country",
+        "A long fight with the Kalidahs ends with the Lion victorious",
+        "The party builds a raft and crosses the river before dark",
+        "The travellers decide the forest cannot be crossed at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 38
+      },
+      "pool": "retest"
+    }
+  ]
+}

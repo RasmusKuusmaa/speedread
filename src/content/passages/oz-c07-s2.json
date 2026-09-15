@@ -1,0 +1,331 @@
+{
+  "id": "oz-c07-s2",
+  "title": "The Journey to the Great Oz, part 2",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "When it was daylight, the girl bathed her face in a little rippling brook, and soon after they all started toward the Emerald City.",
+    "This was to be an eventful day for the travelers. They had hardly been walking an hour when they saw before them a great ditch that crossed the road and divided the forest as far as they could see on either side. It was a very wide ditch, and when they crept up to the edge and looked into it they could see it was also very deep, and there were many big, jagged rocks at the bottom. The sides were so steep that none of them could climb down, and for a moment it seemed that their journey must end.",
+    "“What shall we do?” asked Dorothy despairingly.",
+    "“I haven’t the faintest idea,” said the Tin Woodman, and the Lion shook his shaggy mane and looked thoughtful.",
+    "But the Scarecrow said, “We cannot fly, that is certain. Neither can we climb down into this great ditch. Therefore, if we cannot jump over it, we must stop where we are.”",
+    "“I think I could jump over it,” said the Cowardly Lion, after measuring the distance carefully in his mind.",
+    "“Then we are all right,” answered the Scarecrow, “for you can carry us all over on your back, one at a time.”",
+    "“Well, I’ll try it,” said the Lion. “Who will go first?”",
+    "“I will,” declared the Scarecrow, “for, if you found that you could not jump over the gulf, Dorothy would be killed, or the Tin Woodman badly dented on the rocks below. But if I am on your back it will not matter so much, for the fall would not hurt me at all.”",
+    "“I am terribly afraid of falling, myself,” said the Cowardly Lion, “but I suppose there is nothing to do but try it. So get on my back and we will make the attempt.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c07-s2-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what blocked the road about an hour after they set out?",
+      "options": [
+        "A great ditch crossing the road",
+        "A river flowing swiftly",
+        "A wall of fallen trees",
+        "A pair of monstrous beasts"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 92,
+        "end": 148
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s2-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was at the bottom of the ditch?",
+      "options": [
+        "Many big, jagged rocks",
+        "A stream of dark water",
+        "A bed of soft leaves",
+        "Nothing that they could see"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 335,
+        "end": 382
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s2-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who says he could jump over it?",
+      "options": [
+        "The Cowardly Lion",
+        "The Tin Woodman",
+        "Toto, by barking",
+        "The Scarecrow"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 1,
+        "end": 29
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s2-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who offers to go across first?",
+      "options": [
+        "The Scarecrow",
+        "Dorothy",
+        "The Tin Woodman",
+        "The Lion alone"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 0,
+        "end": 32
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s2-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy do when she bathed her face?",
+      "options": [
+        "Used a little rippling brook",
+        "Used water from the oil-can",
+        "Used the dew from the leaves",
+        "Waited until they reached the river"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 22,
+        "end": 73
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s2-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Scarecrow insist on going first?",
+      "options": [
+        "A fall would not hurt him as it would the others",
+        "He is the lightest of the party to carry",
+        "He wants to prove he is not a coward",
+        "He alone can see the far side clearly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 222,
+        "end": 259
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s2-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does the Scarecrow reason his way to the answer?",
+      "options": [
+        "By ruling out flying and climbing, leaving only jumping",
+        "By remembering a ditch he had seen from his pole",
+        "By asking each companion in turn for a plan",
+        "By measuring the width of the ditch with his arms"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 25,
+        "end": 56
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s2-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Lion admit even as he agrees to jump?",
+      "options": [
+        "That he is terribly afraid of falling",
+        "That he has never jumped so far",
+        "That his legs are too tired to try",
+        "That he would rather turn back"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 1,
+        "end": 40
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s2-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does asking despairingly convey?",
+      "options": [
+        "Asking as though there were no hope",
+        "Asking in a hurry",
+        "Asking without expecting an answer",
+        "Asking for the second time"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 20,
+        "end": 46
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s2-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "An impassable ditch is solved by the one who says he has no brains",
+        "An impassable ditch forces the party to turn back",
+        "The Lion refuses to help and the party must go around",
+        "Dorothy decides the journey is too dangerous to continue"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 448,
+        "end": 498
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s2-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how far did the ditch stretch?",
+      "options": [
+        "As far as they could see on either side",
+        "Only across the road itself",
+        "To the edge of the forest on one side",
+        "About a hundred paces each way"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 153,
+        "end": 211
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s2-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why could none of them climb down?",
+      "options": [
+        "The sides were too steep",
+        "The rocks were too sharp",
+        "The Lion would not let them",
+        "It was too dark to see"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 384,
+        "end": 442
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s2-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Tin Woodman say when asked what to do?",
+      "options": [
+        "That he had not the faintest idea",
+        "That they must build a bridge",
+        "That the Lion should jump across",
+        "That they should go around it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 51
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s2-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Scarecrow propose once the Lion says he can jump?",
+      "options": [
+        "That the Lion carry them over one at a time",
+        "That the Lion jump across and fetch help",
+        "That they tie themselves together and jump",
+        "That the Lion push a tree across the gap"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 50,
+        "end": 107
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s2-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what harm does the Scarecrow foresee if the jump fails?",
+      "options": [
+        "Dorothy killed, or the Tin Woodman dented on the rocks",
+        "The Lion breaking his legs on the far side",
+        "The basket of nuts lost into the ditch",
+        "All four of them stranded on the wrong side"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 92,
+        "end": 167
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s2-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does calling it an eventful day mean?",
+      "options": [
+        "A day full of happenings",
+        "A day of steady walking",
+        "A day that ended badly",
+        "A day nobody had expected"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 49
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s2-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A dead end becomes crossable once someone thinks it through",
+        "A day of easy walking through a pleasant country",
+        "A quarrel over who should risk the crossing first",
+        "The Lion proves at last that he is not a coward"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 47
+      },
+      "pool": "retest"
+    }
+  ]
+}

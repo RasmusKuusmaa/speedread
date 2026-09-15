@@ -1,0 +1,327 @@
+{
+  "id": "oz-c07-s4",
+  "title": "The Journey to the Great Oz, part 4",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“I’m not surprised that you are,” returned Dorothy. “They must be dreadful beasts.”",
+    "The Lion was about to reply when suddenly they came to another gulf across the road. But this one was so broad and deep that the Lion knew at once he could not leap across it.",
+    "So they sat down to consider what they should do, and after serious thought the Scarecrow said:",
+    "“Here is a great tree, standing close to the ditch. If the Tin Woodman can chop it down, so that it will fall to the other side, we can walk across it easily.”",
+    "“That is a first-rate idea,” said the Lion. “One would almost suspect you had brains in your head, instead of straw.”",
+    "The Woodman set to work at once, and so sharp was his axe that the tree was soon chopped nearly through. Then the Lion put his strong front legs against the tree and pushed with all his might, and slowly the big tree tipped and fell with a crash across the ditch, with its top branches on the other side.",
+    "They had just started to cross this queer bridge when a sharp growl made them all look up, and to their horror they saw running toward them two great beasts with bodies like bears and heads like tigers.",
+    "“They are the Kalidahs!” said the Cowardly Lion, beginning to tremble.",
+    "“Quick!” cried the Scarecrow. “Let us cross over.”",
+    "So Dorothy went first, holding Toto in her arms, the Tin Woodman followed, and the Scarecrow came next. The Lion, although he was certainly afraid, turned to face the Kalidahs, and then he gave so loud and terrible a roar that Dorothy screamed and the Scarecrow fell over backward, while even the fierce beasts stopped short and looked at him in surprise.",
+    "But, seeing they were bigger than the Lion, and remembering that there were two of them and only one of him, the Kalidahs again rushed forward, and the Lion crossed over the tree and turned to see what they would do next. Without stopping an instant the fierce beasts also began to cross the tree. And the Lion said to Dorothy:"
+  ],
+  "questions": [
+    {
+      "id": "oz-c07-s4-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why could the Lion not leap the second gulf?",
+      "options": [
+        "It was too broad and deep",
+        "His legs were too tired",
+        "The Kalidahs were watching him",
+        "The edge would not bear his weight"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 85,
+        "end": 174
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s4-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was the Scarecrow's plan for the second gulf?",
+      "options": [
+        "Chop down a tree to fall across it",
+        "Build a raft to float them over",
+        "Fill the gulf with branches and leaves",
+        "Follow it until it grew narrower"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 52,
+        "end": 127
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s4-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who pushed the tree over?",
+      "options": [
+        "The Lion",
+        "The Tin Woodman",
+        "The Scarecrow",
+        "All of them together"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 105,
+        "end": 191
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s4-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, in what order did they cross the tree?",
+      "options": [
+        "Dorothy, the Tin Woodman, then the Scarecrow",
+        "The Scarecrow, Dorothy, then the Tin Woodman",
+        "The Lion first, then the others together",
+        "The Tin Woodman first, with his axe ready"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 0,
+        "end": 103
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s4-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion do when he saw the Kalidahs?",
+      "options": [
+        "Began to tremble",
+        "Sprang across the gulf",
+        "Attacked them at once",
+        "Hid behind the tree"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 25,
+        "end": 69
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s4-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Lion's roar achieve?",
+      "options": [
+        "It stopped the Kalidahs short in surprise",
+        "It drove the Kalidahs back into the forest",
+        "It brought the tree down across the ditch",
+        "It frightened the Kalidahs into fighting each other"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 282,
+        "end": 354
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s4-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Kalidahs come on again?",
+      "options": [
+        "They were bigger, and two against one",
+        "They had not understood the roar",
+        "They were hungry and would not be stopped",
+        "They knew the Lion was a coward"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 0,
+        "end": 87
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s4-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Lion's behaviour at the tree show?",
+      "options": [
+        "He turned to face them although he was afraid",
+        "He was braver than he had ever admitted",
+        "He ran across before the others had gone",
+        "He had no fear of the Kalidahs at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 104,
+        "end": 175
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s4-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the Lion mean by calling it a first-rate idea?",
+      "options": [
+        "An excellent one",
+        "A dangerous one",
+        "A simple one",
+        "A familiar one"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 43
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s4-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A bridge is made and crossed with the Kalidahs close behind",
+        "The Kalidahs are driven off by the Lion's roar alone",
+        "The party decides to fight the Kalidahs at the ditch",
+        "The Tin Woodman's axe breaks and the plan fails"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 222,
+        "end": 297
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s4-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion say about the Scarecrow's plan?",
+      "options": [
+        "That one would almost suspect he had brains",
+        "That it would take far too long to do",
+        "That the tree would never reach across",
+        "That he had thought of it himself first"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 45,
+        "end": 116
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s4-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how sharp was the Tin Woodman's axe?",
+      "options": [
+        "Sharp enough to chop the tree nearly through at once",
+        "Too blunt to cut anything but small branches",
+        "Sharp, but the tree took him all afternoon",
+        "So sharp that it split the tree in two"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 33,
+        "end": 103
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s4-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy do when the Lion roared?",
+      "options": ["Screamed", "Fainted", "Laughed", "Ran back across the tree"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 186,
+        "end": 243
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s4-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what happened to the Scarecrow at the sound of the roar?",
+      "options": [
+        "He fell over backward",
+        "He dropped the basket",
+        "He ran on ahead alone",
+        "He lost his hat in the ditch"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 248,
+        "end": 280
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s4-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the party come to meet the Kalidahs just then?",
+      "options": [
+        "They had just started to cross the fallen tree",
+        "They had gone looking for them in the forest",
+        "The Lion's roar had drawn them to the spot",
+        "The beasts had been following since the first ditch"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 0,
+        "end": 89
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s4-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that they looked up to their horror?",
+      "options": [
+        "With sudden dread at what they saw",
+        "With great curiosity",
+        "With relief that help had come",
+        "With anger at the interruption"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 91,
+        "end": 156
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s4-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A felled tree gets them over, but the danger follows them onto it",
+        "A felled tree proves too short to reach the other side",
+        "The Lion drives off two beasts and is praised for his courage",
+        "The party argues about whether to cross or to fight"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 48
+      },
+      "pool": "retest"
+    }
+  ]
+}

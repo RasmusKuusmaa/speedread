@@ -1,0 +1,315 @@
+{
+  "id": "oz-c07-s1",
+  "title": "The Journey to the Great Oz, part 1",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "They were obliged to camp out that night under a large tree in the forest, for there were no houses near. The tree made a good, thick covering to protect them from the dew, and the Tin Woodman chopped a great pile of wood with his axe and Dorothy built a splendid fire that warmed her and made her feel less lonely. She and Toto ate the last of their bread, and now she did not know what they would do for breakfast.",
+    "“If you wish,” said the Lion, “I will go into the forest and kill a deer for you. You can roast it by the fire, since your tastes are so peculiar that you prefer cooked food, and then you will have a very good breakfast.”",
+    "“Don’t! Please don’t,” begged the Tin Woodman. “I should certainly weep if you killed a poor deer, and then my jaws would rust again.”",
+    "But the Lion went away into the forest and found his own supper, and no one ever knew what it was, for he didn’t mention it. And the Scarecrow found a tree full of nuts and filled Dorothy’s basket with them, so that she would not be hungry for a long time. She thought this was very kind and thoughtful of the Scarecrow, but she laughed heartily at the awkward way in which the poor creature picked up the nuts. His padded hands were so clumsy and the nuts were so small that he dropped almost as many as he put in the basket. But the Scarecrow did not mind how long it took him to fill the basket, for it enabled him to keep away from the fire, as he feared a spark might get into his straw and burn him up. So he kept a good distance away from the flames, and only came near to cover Dorothy with dry leaves when she lay down to sleep. These kept her very snug and warm, and she slept soundly until morning."
+  ],
+  "questions": [
+    {
+      "id": "oz-c07-s1-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the party camp under a tree?",
+      "options": [
+        "There were no houses near",
+        "The Lion refused to walk further",
+        "A storm was coming on quickly",
+        "The road had given out entirely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 75,
+        "end": 104
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s1-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who chopped the pile of wood for the fire?",
+      "options": [
+        "The Tin Woodman",
+        "The Cowardly Lion",
+        "Dorothy and Toto",
+        "The Scarecrow"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 177,
+        "end": 234
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s1-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Scarecrow fill Dorothy's basket with?",
+      "options": ["Nuts", "Ripe fruit", "Dry leaves", "Bread from the cottage"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 129,
+        "end": 206
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s1-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Lion offer to do?",
+      "options": [
+        "Go into the forest and kill a deer",
+        "Carry Dorothy on his back all night",
+        "Keep watch beside the fire till dawn",
+        "Frighten away the other beasts"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 31,
+        "end": 80
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s1-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Scarecrow cover Dorothy with?",
+      "options": [
+        "Dry leaves",
+        "His own blue coat",
+        "A pile of straw",
+        "The white cloth"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 762,
+        "end": 809
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s1-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Tin Woodman beg the Lion not to hunt?",
+      "options": [
+        "He would weep over the deer and rust his jaws",
+        "He wanted the party to reach the city hungry",
+        "He thought the Lion would be caught by the Kalidahs",
+        "He had already found food for Dorothy himself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 48,
+        "end": 97
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s1-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Scarecrow not mind how long the nuts took?",
+      "options": [
+        "It kept him at a safe distance from the fire",
+        "He enjoyed being useful to Dorothy at last",
+        "He had nothing else to do until morning",
+        "He was hoping to find brains among the nuts"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 599,
+        "end": 644
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s1-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did Dorothy laugh at the Scarecrow gathering nuts?",
+      "options": [
+        "His padded hands dropped nearly as many as he gathered",
+        "He kept mistaking stones for nuts in the dark",
+        "He insisted on carrying the basket on his head",
+        "He talked the whole time instead of working"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 476,
+        "end": 525
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s1-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the Lion mean by calling Dorothy's tastes peculiar?",
+      "options": [
+        "Odd, because she prefers her food cooked",
+        "Expensive, because she will only eat deer",
+        "Delicate, because she eats so very little",
+        "Strict, because she refuses to eat meat"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 112,
+        "end": 173
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s1-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A night in the open where each companion provides what he can",
+        "A night in which the party runs out of food entirely",
+        "A quarrel about whether animals should be killed for food",
+        "A long walk that ends without anywhere to shelter"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 316,
+        "end": 356
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c07-s1-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy and Toto eat that night?",
+      "options": [
+        "The last of their bread",
+        "Nuts from the Scarecrow's tree",
+        "Roast deer from the Lion's hunt",
+        "Fruit found beside the road"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 316,
+        "end": 356
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s1-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Lion do about his own supper?",
+      "options": [
+        "Found it in the forest and never mentioned it",
+        "Went without any supper at all that night",
+        "Shared the nuts the Scarecrow had gathered",
+        "Killed a deer and roasted it on the fire"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 4,
+        "end": 63
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s1-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the thick tree protect them from?",
+      "options": ["The dew", "The wind", "The rain", "The Kalidahs"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 106,
+        "end": 171
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s1-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the fire do for Dorothy besides warm her?",
+      "options": [
+        "It made her feel less lonely",
+        "It kept the wild beasts away",
+        "It showed the road ahead",
+        "It dried out her wet clothes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 239,
+        "end": 314
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s1-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is the Scarecrow afraid might happen near the flames?",
+      "options": [
+        "A spark might catch his straw and burn him up",
+        "The heat might melt the paint from his face",
+        "The smoke might blind his painted eyes",
+        "His clothes might be scorched beyond mending"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 646,
+        "end": 707
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s1-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the leaves kept Dorothy snug?",
+      "options": [
+        "Warm and comfortable",
+        "Hidden from view",
+        "Dry but uncomfortable",
+        "Still and unable to move"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 838,
+        "end": 871
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c07-s1-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Three companions who need nothing themselves look after the one who does",
+        "A hunting trip that leaves the party with food for many days",
+        "An argument about cooked food that divides the travellers",
+        "A sleepless night spent guarding the camp against beasts"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 257,
+        "end": 319
+      },
+      "pool": "retest"
+    }
+  ]
+}
