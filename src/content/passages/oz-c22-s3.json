@@ -1,0 +1,323 @@
+{
+  "id": "oz-c22-s3",
+  "title": "The Country of the Quadlings, part 3",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "The Monkeys had set them down near a farmhouse, and the four travelers walked up to it and knocked at the door. It was opened by the farmer’s wife, and when Dorothy asked for something to eat the woman gave them all a good dinner, with three kinds of cake and four kinds of cookies, and a bowl of milk for Toto.",
+    "“How far is it to the Castle of Glinda?” asked the child.",
+    "“It is not a great way,” answered the farmer’s wife. “Take the road to the South and you will soon reach it.”",
+    "Thanking the good woman, they started afresh and walked by the fields and across the pretty bridges until they saw before them a very beautiful Castle. Before the gates were three young girls, dressed in handsome red uniforms trimmed with gold braid; and as Dorothy approached, one of them said to her:",
+    "“Why have you come to the South Country?”",
+    "“To see the Good Witch who rules here,” she answered. “Will you take me to her?”",
+    "“Let me have your name, and I will ask Glinda if she will receive you.” They told who they were, and the girl soldier went into the Castle. After a few moments she came back to say that Dorothy and the others were to be admitted at once."
+  ],
+  "questions": [
+    {
+      "id": "oz-c22-s3-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who opened the farmhouse door?",
+      "options": [
+        "The farmer's wife",
+        "A girl soldier in red",
+        "Glinda herself",
+        "A short fat Quadling man"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 112,
+        "end": 146
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c22-s3-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the woman give them?",
+      "options": [
+        "A good dinner, cake, cookies, and milk for Toto",
+        "Only bread and water, having little to spare",
+        "Directions, but nothing at all to eat",
+        "A basket of red grain to carry away"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 192,
+        "end": 229
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c22-s3-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how far was it to Glinda's Castle?",
+      "options": [
+        "Not a great way",
+        "Three days' walk",
+        "Beyond the desert",
+        "Nobody could say"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 52
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c22-s3-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, which road were they told to take?",
+      "options": [
+        "The road to the South",
+        "The road to the East",
+        "The road beside the river",
+        "The road over the hill"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 54,
+        "end": 107
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c22-s3-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who stood before the Castle gates?",
+      "options": [
+        "Three young girls in red uniforms",
+        "A soldier with green whiskers",
+        "Two armless Hammer-Heads",
+        "A crowd of chubby Quadlings"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 152,
+        "end": 191
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c22-s3-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the girl soldier ask Dorothy for?",
+      "options": [
+        "Her name, to take in to Glinda",
+        "A gift for the Good Witch",
+        "Proof that the Witch was dead",
+        "The Golden Cap she was wearing"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 1,
+        "end": 69
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c22-s3-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what answer came back from the Castle?",
+      "options": [
+        "That they were to be admitted at once",
+        "That Glinda would see them tomorrow",
+        "That only Dorothy might come in",
+        "That the Witch was away from home"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 186,
+        "end": 236
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c22-s3-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did Dorothy say she had come south?",
+      "options": [
+        "To see the Good Witch who rules there",
+        "To find a road across the desert",
+        "To ask the Quadlings for food",
+        "To escape the Hammer-Heads"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 1,
+        "end": 37
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c22-s3-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does receive you mean?",
+      "options": [
+        "Agree to see you as a visitor",
+        "Accept a gift from you",
+        "Welcome you as a servant",
+        "Understand what you say"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 28,
+        "end": 69
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c22-s3-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A meal, a short road, and an audience granted at the Castle gate",
+        "A refusal at the gate that leaves them waiting outside",
+        "A long search through the Quadling country for the Castle",
+        "A farmer's wife who warns them against seeing Glinda"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 100,
+        "end": 150
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c22-s3-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many kinds of cake were served?",
+      "options": ["Three", "Four", "One", "None at all"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 231,
+        "end": 255
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c22-s3-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how were the girl soldiers dressed?",
+      "options": [
+        "In red uniforms trimmed with gold braid",
+        "In green silk with jewelled crowns",
+        "In plain white, like the china people",
+        "In yellow, as the Winkies dress"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 193,
+        "end": 249
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c22-s3-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did they walk across on the way?",
+      "options": [
+        "Pretty bridges over the brooks",
+        "The hill of the Hammer-Heads",
+        "A stretch of bare desert",
+        "The floor of the china country"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 49,
+        "end": 99
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c22-s3-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what was Toto given at the farmhouse?",
+      "options": [
+        "A bowl of milk",
+        "A share of the cake",
+        "Nothing; he was left outside",
+        "A red collar from the farmer"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 283,
+        "end": 310
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c22-s3-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, where had the Monkeys set them down?",
+      "options": [
+        "Near a farmhouse in the Quadling country",
+        "At the gates of Glinda's Castle",
+        "On the far side of the desert",
+        "At the top of the rocky hill"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 46
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c22-s3-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does started afresh mean?",
+      "options": [
+        "Set out again on their way",
+        "Began the whole journey over",
+        "Changed the direction they took",
+        "Took a different road entirely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 25,
+        "end": 44
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c22-s3-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Kindness from strangers brings them to Glinda's door and inside it",
+        "A farmer's wife refuses to tell them where the Castle is",
+        "The girl soldiers turn the travellers away from the gate",
+        "Dorothy decides not to see the Good Witch after all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 23
+      },
+      "pool": "retest"
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": "oz-c22-s1",
+  "title": "The Country of the Quadlings, part 1",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "The four travelers passed through the rest of the forest in safety, and when they came out from its gloom saw before them a steep hill, covered from top to bottom with great pieces of rock.",
+    "“That will be a hard climb,” said the Scarecrow, “but we must get over the hill, nevertheless.”",
+    "So he led the way and the others followed. They had nearly reached the first rock when they heard a rough voice cry out, “Keep back!”",
+    "“Who are you?” asked the Scarecrow.",
+    "Then a head showed itself over the rock and the same voice said, “This hill belongs to us, and we don’t allow anyone to cross it.”",
+    "“But we must cross it,” said the Scarecrow. “We’re going to the country of the Quadlings.”",
+    "“But you shall not!” replied the voice, and there stepped from behind the rock the strangest man the travelers had ever seen.",
+    "He was quite short and stout and had a big head, which was flat at the top and supported by a thick neck full of wrinkles. But he had no arms at all, and, seeing this, the Scarecrow did not fear that so helpless a creature could prevent them from climbing the hill. So he said, “I’m sorry not to do as you wish, but we must pass over your hill whether you like it or not,” and he walked boldly forward.",
+    "As quick as lightning the man’s head shot forward and his neck stretched out until the top of the head, where it was flat, struck the Scarecrow in the middle and sent him tumbling, over and over, down the hill. Almost as quickly as it came the head went back to the body, and the man laughed harshly as he said, “It isn’t as easy as you think!”",
+    "A chorus of boisterous laughter came from the other rocks, and Dorothy saw hundreds of the armless Hammer-Heads upon the hillside, one behind every rock."
+  ],
+  "questions": [
+    {
+      "id": "oz-c22-s1-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did they see when they left the forest?",
+      "options": [
+        "A steep hill covered with great rocks",
+        "A wall of smooth white china",
+        "A field of ripening red grain",
+        "A castle with three girl soldiers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 106,
+        "end": 188
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c22-s1-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the rough voice first cry out?",
+      "options": [
+        "Keep back!",
+        "Come along!",
+        "Who goes there?",
+        "Turn around!"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 87,
+        "end": 133
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c22-s1-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was strange about the man's body?",
+      "options": [
+        "He had no arms at all",
+        "He had no legs beneath him",
+        "He had two heads instead of one",
+        "He was made entirely of rock"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 123,
+        "end": 148
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c22-s1-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was the top of his head like?",
+      "options": [
+        "Flat",
+        "Pointed",
+        "Round as a ball",
+        "Covered in thick hair"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 49,
+        "end": 74
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c22-s1-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many Hammer-Heads did Dorothy see?",
+      "options": [
+        "Hundreds, one behind every rock",
+        "Only the one who had spoken",
+        "About a dozen on the hillside",
+        "Too few to stop the party"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 63,
+        "end": 129
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c22-s1-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Scarecrow not fear the man?",
+      "options": [
+        "A creature with no arms seemed helpless to stop them",
+        "The man was much shorter than any of them",
+        "The Lion had already frightened him once",
+        "He believed the hill did not belong to anyone"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 168,
+        "end": 241
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c22-s1-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the man actually stop him?",
+      "options": [
+        "His head shot out on a stretching neck and struck him",
+        "He rolled a great rock down onto the path",
+        "He seized the Scarecrow and threw him down",
+        "He called the other Hammer-Heads to help"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 22,
+        "end": 76
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c22-s1-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what claim do the Hammer-Heads make?",
+      "options": [
+        "That the hill belongs to them and nobody may cross",
+        "That the road south has been closed by Glinda",
+        "That strangers must pay to pass over the hill",
+        "That the country beyond is forbidden to all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 66,
+        "end": 128
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c22-s1-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does boisterous describe about the laughter?",
+      "options": [
+        "Loud and rowdy",
+        "Quiet and hidden",
+        "Kindly and warm",
+        "Nervous and uneasy"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 0,
+        "end": 57
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c22-s1-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A hill that looks merely steep turns out to be defended",
+        "A hill is crossed easily despite an angry warning",
+        "The Scarecrow persuades the Hammer-Heads to let them pass",
+        "The party decides to go around the rocky hill"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 313,
+        "end": 343
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c22-s1-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where were the travellers going?",
+      "options": [
+        "To the country of the Quadlings",
+        "Back to the Emerald City",
+        "To the land of the Winkies",
+        "Over the desert to Kansas"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 45,
+        "end": 88
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c22-s1-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was the man's build?",
+      "options": [
+        "Short and stout, with a thick wrinkled neck",
+        "Tall and thin, with long legs",
+        "Small enough to sit in a hand",
+        "Broad as an ox and covered in hair"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 47
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c22-s1-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who led the way up the hill?",
+      "options": ["The Scarecrow", "The Lion", "The Tin Woodman", "Dorothy"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 42
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c22-s1-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how far did the Scarecrow get up the hill?",
+      "options": [
+        "Nearly to the first rock",
+        "Halfway to the top",
+        "Over the crest and down the far side",
+        "Not one step from the forest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 43,
+        "end": 81
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c22-s1-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what happened to the head after the blow?",
+      "options": [
+        "It went back to the body almost as quickly",
+        "It stayed stretched out across the path",
+        "It fell off and rolled down the hill",
+        "It struck each of the others in turn"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 211,
+        "end": 270
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c22-s1-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does walked boldly forward mean?",
+      "options": [
+        "Went on without hesitating",
+        "Went on very quietly",
+        "Went on against orders",
+        "Went on ahead of the others"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 373,
+        "end": 401
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c22-s1-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A helpless-looking guard proves able to stop them cold",
+        "A steep hill is climbed with nothing worse than hard work",
+        "The Hammer-Heads agree to let the strangers pass",
+        "The Lion drives the Hammer-Heads back behind their rocks"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 44,
+        "end": 124
+      },
+      "pool": "retest"
+    }
+  ]
+}
