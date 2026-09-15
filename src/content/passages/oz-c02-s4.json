@@ -1,0 +1,332 @@
+{
+  "id": "oz-c02-s4",
+  "title": "The Council with the Munchkins, part 4",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“Oh, yes,” replied Dorothy.",
+    "“Then that accounts for it. In the civilized countries I believe there are no witches left, nor wizards, nor sorceresses, nor magicians. But, you see, the Land of Oz has never been civilized, for we are cut off from all the rest of the world. Therefore we still have witches and wizards amongst us.”",
+    "“Who are the wizards?” asked Dorothy.",
+    "“Oz himself is the Great Wizard,” answered the Witch, sinking her voice to a whisper. “He is more powerful than all the rest of us together. He lives in the City of Emeralds.”",
+    "Dorothy was going to ask another question, but just then the Munchkins, who had been standing silently by, gave a loud shout and pointed to the corner of the house where the Wicked Witch had been lying.",
+    "“What is it?” asked the little old woman, and looked, and began to laugh. The feet of the dead Witch had disappeared entirely, and nothing was left but the silver shoes.",
+    "“She was so old,” explained the Witch of the North, “that she dried up quickly in the sun. That is the end of her. But the silver shoes are yours, and you shall have them to wear.” She reached down and picked up the shoes, and after shaking the dust out of them handed them to Dorothy.",
+    "“The Witch of the East was proud of those silver shoes,” said one of the Munchkins, “and there is some charm connected with them; but what it is we never knew.”",
+    "Dorothy carried the shoes into the house and placed them on the table. Then she came out again to the Munchkins and said:",
+    "“I am anxious to get back to my aunt and uncle, for I am sure they will worry about me. Can you help me find my way?”",
+    "The Munchkins and the Witch first looked at one another, and then at Dorothy, and then shook their heads."
+  ],
+  "questions": [
+    {
+      "id": "oz-c02-s4-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who is the Great Wizard?",
+      "options": [
+        "Oz himself",
+        "The Witch of the North",
+        "The eldest of the Munchkins",
+        "The Wicked Witch of the West"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 33
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s4-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, where does the Great Wizard live?",
+      "options": [
+        "In the City of Emeralds",
+        "In the land of the East",
+        "Beyond the great desert",
+        "In the country of the Winkies"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 141,
+        "end": 174
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s4-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to the dead Witch's feet?",
+      "options": [
+        "They dried up in the sun and disappeared",
+        "They were carried away by the Munchkins",
+        "They were buried beneath the fallen house",
+        "They turned to silver along with the shoes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 74,
+        "end": 125
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s4-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Dorothy do with the silver shoes?",
+      "options": [
+        "Carried them inside and put them on the table",
+        "Put them straight on and walked about in them",
+        "Gave them to the little old woman to keep safe",
+        "Left them lying in the dust where they had fallen"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 0,
+        "end": 69
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s4-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy ask the Munchkins to help her do?",
+      "options": [
+        "Find her way back to her aunt and uncle",
+        "Carry her house back to the prairie",
+        "Bury the witch her house had fallen on",
+        "Reach the City of Emeralds before dark"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 88,
+        "end": 116
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s4-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Land of Oz still have witches and wizards?",
+      "options": [
+        "It is cut off from the rest of the world and never was civilized",
+        "Its people have refused to give up the customs of their fathers",
+        "The Great Wizard gathers them there and will not let them leave",
+        "The desert around it draws them in from the civilized countries"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 151,
+        "end": 241
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s4-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what do the Munchkins know about the silver shoes?",
+      "options": [
+        "That some charm belongs to them, but not what it is",
+        "That whoever wears them cannot be harmed by witches",
+        "That they were made by the Great Wizard as a gift",
+        "That they will carry the wearer across the desert"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 89,
+        "end": 158
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s4-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the shaking of heads tell Dorothy?",
+      "options": [
+        "That nobody there can help her get home",
+        "That she has asked a forbidden question",
+        "That they do not believe she wants to leave",
+        "That the Wizard alone may be spoken to"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 57,
+        "end": 104
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s4-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, why does the Witch sink her voice to a whisper?",
+      "options": [
+        "She drops it low in speaking of the Wizard",
+        "She has grown hoarse from so much talking",
+        "She wants the Munchkins to come nearer",
+        "She is afraid Dorothy will refuse to listen"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 34,
+        "end": 84
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s4-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures what the passage does?",
+      "options": [
+        "It names the one power that might send Dorothy home, and gives her the shoes",
+        "It explains how the Wicked Witch of the East first came to rule the East",
+        "It shows the Munchkins deciding which of them will guide Dorothy",
+        "It describes the City of Emeralds and the road that leads to it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 87,
+        "end": 140
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s4-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how powerful is Oz said to be?",
+      "options": [
+        "More powerful than all the rest of them together",
+        "About as powerful as the Witch of the North",
+        "Less powerful than the Wicked Witch of the West",
+        "Powerful only within the walls of his own city"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 87,
+        "end": 140
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s4-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Munchkins do that interrupted Dorothy's next question?",
+      "options": [
+        "They gave a loud shout and pointed at the house",
+        "They began to weep and take out handkerchiefs",
+        "They bowed low and walked away through the trees",
+        "They picked up the shoes and handed them over"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 107,
+        "end": 163
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s4-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was left of the Wicked Witch of the East?",
+      "options": [
+        "Nothing but the silver shoes",
+        "Nothing but a block of wood",
+        "Nothing but her pointed hat",
+        "Nothing but a mark in the dust"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 131,
+        "end": 168
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s4-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Witch of the North laugh at the sight?",
+      "options": [
+        "The witch had simply dried up, and that was the end of her",
+        "The Munchkins had been frightened by their own shouting",
+        "Dorothy had jumped back from the corner of the house",
+        "The shoes had been left behind exactly as she foretold"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 0,
+        "end": 90
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s4-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Dorothy most want at this point?",
+      "options": [
+        "To get back to the aunt and uncle who will be worrying",
+        "To learn what charm the silver shoes are said to carry",
+        "To meet the Great Wizard who lives in the Emerald City",
+        "To see the rest of the beautiful country she has landed in"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 1,
+        "end": 46
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s4-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the Witch mean by a civilized country?",
+      "options": [
+        "One joined to the wider world, where magic has died out",
+        "One whose people are gentle and well mannered",
+        "One large enough to hold a city and a desert",
+        "One ruled by a wizard rather than by witches"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 28,
+        "end": 90
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s4-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Dorothy is given the dead witch's shoes and asks in vain for a way home",
+        "Dorothy refuses the silver shoes and asks to meet the Wizard instead",
+        "The Munchkins explain why the Wizard will not see any stranger",
+        "The Witch of the North offers to carry Dorothy across the desert"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 115,
+        "end": 179
+      },
+      "pool": "retest"
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": "oz-c02-s1",
+  "title": "The Council with the Munchkins, part 1",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "She was awakened by a shock, so sudden and severe that if Dorothy had not been lying on the soft bed she might have been hurt. As it was, the jar made her catch her breath and wonder what had happened; and Toto put his cold little nose into her face and whined dismally. Dorothy sat up and noticed that the house was not moving; nor was it dark, for the bright sunshine came in at the window, flooding the little room. She sprang from her bed and with Toto at her heels ran and opened the door.",
+    "The little girl gave a cry of amazement and looked about her, her eyes growing bigger and bigger at the wonderful sights she saw.",
+    "The cyclone had set the house down very gently—for a cyclone—in the midst of a country of marvelous beauty. There were lovely patches of greensward all about, with stately trees bearing rich and luscious fruits. Banks of gorgeous flowers were on every hand, and birds with rare and brilliant plumage sang and fluttered in the trees and bushes. A little way off was a small brook, rushing and sparkling along between green banks, and murmuring in a voice very grateful to a little girl who had lived so long on the dry, gray prairies.",
+    "While she stood looking eagerly at the strange and beautiful sights, she noticed coming toward her a group of the queerest people she had ever seen. They were not as big as the grown folk she had always been used to; but neither were they very small. In fact, they seemed about as tall as Dorothy, who was a well-grown child for her age, although they were, so far as looks go, many years older.",
+    "Three were men and one a woman, and all were oddly dressed. They wore round hats that rose to a small point a foot above their heads, with little bells around the brims that tinkled sweetly as they moved. The hats of the men were blue; the little woman’s hat was white, and she wore a white gown that hung in pleats from her shoulders. Over it were sprinkled little stars that glistened in the sun like diamonds. The men were dressed in blue, of the same shade as their hats, and wore well-polished boots with a deep roll of blue at the tops. The men, Dorothy thought, were about as old as Uncle Henry, for two of them had beards. But the little woman was doubtless much older. Her face was covered with wrinkles, her hair was nearly white, and she walked rather stiffly."
+  ],
+  "questions": [
+    {
+      "id": "oz-c02-s1-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Toto do when Dorothy woke?",
+      "options": [
+        "Put his cold nose in her face and whined",
+        "Jumped from the bed and scratched the door",
+        "Barked at the window until she got up",
+        "Crept under the bed and refused to move"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 206,
+        "end": 269
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s1-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Dorothy find when she opened the door?",
+      "options": [
+        "A country of marvelous beauty",
+        "A city built entirely of green glass",
+        "A stretch of desert with no water",
+        "A forest so dark she could not see"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 61,
+        "end": 106
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s1-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what were the men's hats like?",
+      "options": [
+        "Blue, pointed, and hung with little bells",
+        "White, pointed, and sprinkled with stars",
+        "Round and flat, with a wide green brim",
+        "Tall and black, without any decoration"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 205,
+        "end": 234
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s1-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how tall were the strangers compared with Dorothy?",
+      "options": [
+        "About as tall as she was",
+        "Barely up to her knees",
+        "Nearly twice her height",
+        "Taller than Uncle Henry"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 260,
+        "end": 296
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s1-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the little woman wearing?",
+      "options": [
+        "A white gown sprinkled with little stars",
+        "A blue gown with a deep roll at the hem",
+        "A gray dress of the same cloth as her hat",
+        "A cloak of green that hung to the ground"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 274,
+        "end": 334
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s1-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was the sound of the brook so welcome to Dorothy?",
+      "options": [
+        "She had lived a long time on the dry gray prairie",
+        "She had drunk nothing since the storm began",
+        "It was the first sound she had heard all morning",
+        "It reminded her of a stream near her own house"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 433,
+        "end": 532
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s1-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did Dorothy judge the ages of the three men?",
+      "options": [
+        "By their beards, guessing them as old as her uncle",
+        "By their stiff walk, guessing them older than her aunt",
+        "By their white hair, guessing them older than anyone",
+        "By their height, guessing them younger than herself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 603,
+        "end": 629
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s1-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the birds' plumage refer to?",
+      "options": [
+        "Their feathers",
+        "Their singing",
+        "Their nests",
+        "Their flight"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 262,
+        "end": 318
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s1-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures what the passage sets against each other?",
+      "options": [
+        "The gray dryness she came from and the colour she wakes into",
+        "The safety of her house and the danger waiting outside it",
+        "The kindness of strangers and the coldness of her family",
+        "The quiet of the morning and the noise of the storm"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 106
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s1-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best describes what happens in the passage?",
+      "options": [
+        "A girl wakes in an unknown country and its people approach",
+        "A girl searches a strange country for someone to help her",
+        "A girl is welcomed into a house by people she knows well",
+        "A girl watches a storm carry her house across a prairie"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 69,
+        "end": 147
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s1-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what woke Dorothy?",
+      "options": [
+        "A shock so sudden and severe it made her catch her breath",
+        "The bright sunshine that came flooding in at the window",
+        "A loud shout from the people gathering outside the door",
+        "The sound of a brook rushing along between green banks"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 49
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s1-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why was Dorothy not hurt by the landing?",
+      "options": [
+        "She had been lying on the soft bed",
+        "She had braced herself against the wall",
+        "The house came down onto deep grass",
+        "Toto had woken her just beforehand"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 55,
+        "end": 125
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s1-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what colour were the three men dressed in?",
+      "options": [
+        "Blue, the same shade as their hats",
+        "White, the same shade as the gown",
+        "Green, the colour of the far-off city",
+        "Gray, the colour of the prairie"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 413,
+        "end": 474
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s1-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what made the little woman seem much older than the men?",
+      "options": [
+        "Her wrinkles, her white hair, and her stiff walk",
+        "Her white clothes and the bells around her hat",
+        "The way the three men stood back and let her speak",
+        "Her habit of bowing low before she said anything"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 678,
+        "end": 770
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s1-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the aside that the house landed gently for a cyclone suggest?",
+      "options": [
+        "It was a hard landing, but mild for such a storm",
+        "The cyclone had lost all its force before landing",
+        "Cyclones in that country are gentler than at home",
+        "The house was set down without any jar at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 35,
+        "end": 61
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s1-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does calling Dorothy a well-grown child for her age mean?",
+      "options": [
+        "She was big for her years",
+        "She was old for her size",
+        "She was strong for a girl",
+        "She was tall for a Munchkin"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 289,
+        "end": 336
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s1-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A landing in a beautiful country, and a first sight of its people",
+        "A long flight that ends with a crash into a field of flowers",
+        "A meeting in which a girl is told how to get herself home",
+        "A search through a strange land for somewhere safe to sleep"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 39
+      },
+      "pool": "retest"
+    }
+  ]
+}

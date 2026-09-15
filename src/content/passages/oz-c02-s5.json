@@ -1,0 +1,335 @@
+{
+  "id": "oz-c02-s5",
+  "title": "The Council with the Munchkins, part 5",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“At the East, not far from here,” said one, “there is a great desert, and none could live to cross it.”",
+    "“It is the same at the South,” said another, “for I have been there and seen it. The South is the country of the Quadlings.”",
+    "“I am told,” said the third man, “that it is the same at the West. And that country, where the Winkies live, is ruled by the Wicked Witch of the West, who would make you her slave if you passed her way.”",
+    "“The North is my home,” said the old lady, “and at its edge is the same great desert that surrounds this Land of Oz. I’m afraid, my dear, you will have to live with us.”",
+    "Dorothy began to sob at this, for she felt lonely among all these strange people. Her tears seemed to grieve the kind-hearted Munchkins, for they immediately took out their handkerchiefs and began to weep also. As for the little old woman, she took off her cap and balanced the point on the end of her nose, while she counted “One, two, three” in a solemn voice. At once the cap changed to a slate, on which was written in big, white chalk marks:",
+    "“LET DOROTHY GO TO THE CITY OF EMERALDS”",
+    "The little old woman took the slate from her nose, and having read the words on it, asked, “Is your name Dorothy, my dear?”",
+    "“Yes,” answered the child, looking up and drying her tears.",
+    "“Then you must go to the City of Emeralds. Perhaps Oz will help you.”",
+    "“Where is this city?” asked Dorothy.",
+    "“It is exactly in the center of the country, and is ruled by Oz, the Great Wizard I told you of.”",
+    "“Is he a good man?” inquired the girl anxiously.",
+    "“He is a good Wizard. Whether he is a man or not I cannot tell, for I have never seen him.”",
+    "“How can I get there?” asked Dorothy."
+  ],
+  "questions": [
+    {
+      "id": "oz-c02-s5-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what lies to the East, not far away?",
+      "options": [
+        "A great desert that none could live to cross",
+        "The country where the Quadlings live",
+        "The city ruled by the Great Wizard",
+        "The home of the Witch of the North"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 45,
+        "end": 101
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s5-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who lives in the country to the South?",
+      "options": [
+        "The Quadlings",
+        "The Winkies",
+        "The Munchkins",
+        "The Gillikins"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 81,
+        "end": 123
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s5-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who rules the country of the Winkies?",
+      "options": [
+        "The Wicked Witch of the West",
+        "The Wicked Witch of the East",
+        "The Witch of the North",
+        "The Great Wizard of Oz"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 109,
+        "end": 149
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s5-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the little old woman's cap turn into?",
+      "options": [
+        "A slate written on in white chalk",
+        "A handkerchief for drying tears",
+        "A map of the road to the city",
+        "A pair of silver shoes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 363,
+        "end": 397
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s5-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was written on the slate?",
+      "options": [
+        "That Dorothy should go to the City of Emeralds",
+        "That Dorothy should stay among the Munchkins",
+        "That Dorothy should cross the desert to the East",
+        "That Dorothy should seek the Witch of the South"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 0,
+        "end": 40
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s5-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, where does the City of Emeralds stand?",
+      "options": [
+        "Exactly in the center of the country",
+        "At the eastern edge of the desert",
+        "On the border of the Winkie country",
+        "In the north, beside the witch's home"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 1,
+        "end": 43
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s5-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Munchkins take out their handkerchiefs?",
+      "options": [
+        "Dorothy's crying had upset them too",
+        "The dust from the road had got into their eyes",
+        "They were saying goodbye and did not want to",
+        "They had been told to hide their faces from a witch"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 82,
+        "end": 135
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s5-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Dorothy begin to sob?",
+      "options": [
+        "She is told she will have to live among strangers",
+        "She is frightened of the witch who rules the West",
+        "She has been asked to cross the desert alone",
+        "She has lost the silver shoes she was given"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 80
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s5-f9",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Witch admit about the Wizard when Dorothy asks if he is a good man?",
+      "options": [
+        "That she cannot say whether he is a man at all",
+        "That he has been known to refuse good people",
+        "That he is good only to those who come with gifts",
+        "That he was once a man but is no longer one"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 22,
+        "end": 90
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s5-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures what the passage settles?",
+      "options": [
+        "Every way out is barred, so Dorothy is sent to the Wizard instead",
+        "The desert can be crossed if Dorothy travels to the South first",
+        "The Munchkins agree to carry Dorothy home across the sand",
+        "The Witch of the North decides to take Dorothy north with her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 117,
+        "end": 168
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s5-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the little old woman balance on her nose?",
+      "options": [
+        "The point of her cap",
+        "The corner of a slate",
+        "A stick of white chalk",
+        "One of the silver shoes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 240,
+        "end": 306
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s5-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did she count while she balanced it?",
+      "options": [
+        "One, two, three",
+        "One to ten",
+        "Three, two, one",
+        "Her own name three times"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 308,
+        "end": 361
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s5-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who is said to rule the City of Emeralds?",
+      "options": [
+        "Oz, the Great Wizard",
+        "The Witch of the North",
+        "A council of the Munchkins",
+        "The Wicked Witch of the West"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 45,
+        "end": 95
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s5-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what surrounds the Land of Oz on every side?",
+      "options": [
+        "The same great desert",
+        "A ring of high mountains",
+        "A forest of dark trees",
+        "A river too deep to ford"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 48,
+        "end": 115
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s5-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why would passing through the West be dangerous?",
+      "options": [
+        "The witch who rules there would make Dorothy her slave",
+        "The Winkies drive out every stranger who comes near",
+        "The desert reaches further west than anywhere else",
+        "The road west is the longest of all the four roads"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 151,
+        "end": 201
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s5-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that Dorothy's tears grieve the Munchkins?",
+      "options": [
+        "They are made sad by her crying",
+        "They are annoyed by the delay",
+        "They are ashamed of their own country",
+        "They are frightened of the witch"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 82,
+        "end": 135
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s5-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Four directions are ruled out, and a slate names the one road left",
+        "Four Munchkins argue about which country is the most dangerous",
+        "A witch performs a trick with her cap to cheer a crying child",
+        "A girl chooses the City of Emeralds over the country of the North"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 1,
+        "end": 68
+      },
+      "pool": "retest"
+    }
+  ]
+}

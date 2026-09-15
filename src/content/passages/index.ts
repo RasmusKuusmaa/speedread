@@ -28,6 +28,12 @@ import millOnLibertyThought from "./mill-on-liberty-thought.json";
 import mobyDickOpening from "./moby-dick-opening.json";
 import ozC01S2 from "./oz-c01-s2.json";
 import ozC01S3 from "./oz-c01-s3.json";
+import ozC02S1 from "./oz-c02-s1.json";
+import ozC02S2 from "./oz-c02-s2.json";
+import ozC02S3 from "./oz-c02-s3.json";
+import ozC02S4 from "./oz-c02-s4.json";
+import ozC02S5 from "./oz-c02-s5.json";
+import ozC02S6 from "./oz-c02-s6.json";
 import ozGrayPrairie from "./oz-gray-prairie.json";
 import ozGreenRoom from "./oz-green-room.json";
 import ozSilverShoes from "./oz-silver-shoes.json";
@@ -108,6 +114,12 @@ export const rawPassages: unknown[] = [
   ozGrayPrairie,
   ozC01S2,
   ozC01S3,
+  ozC02S1,
+  ozC02S2,
+  ozC02S3,
+  ozC02S4,
+  ozC02S5,
+  ozC02S6,
   ozGreenRoom,
   ozSilverShoes,
 ];

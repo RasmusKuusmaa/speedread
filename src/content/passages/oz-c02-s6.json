@@ -1,0 +1,323 @@
+{
+  "id": "oz-c02-s6",
+  "title": "The Council with the Munchkins, part 6",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“You must walk. It is a long journey, through a country that is sometimes pleasant and sometimes dark and terrible. However, I will use all the magic arts I know of to keep you from harm.”",
+    "“Won’t you go with me?” pleaded the girl, who had begun to look upon the little old woman as her only friend.",
+    "“No, I cannot do that,” she replied, “but I will give you my kiss, and no one will dare injure a person who has been kissed by the Witch of the North.”",
+    "She came close to Dorothy and kissed her gently on the forehead. Where her lips touched the girl they left a round, shining mark, as Dorothy found out soon after.",
+    "“The road to the City of Emeralds is paved with yellow brick,” said the Witch, “so you cannot miss it. When you get to Oz do not be afraid of him, but tell your story and ask him to help you. Good-bye, my dear.”",
+    "The three Munchkins bowed low to her and wished her a pleasant journey, after which they walked away through the trees. The Witch gave Dorothy a friendly little nod, whirled around on her left heel three times, and straightway disappeared, much to the surprise of little Toto, who barked after her loudly enough when she had gone, because he had been afraid even to growl while she stood by.",
+    "But Dorothy, knowing her to be a witch, had expected her to disappear in just that way, and was not surprised in the least."
+  ],
+  "questions": [
+    {
+      "id": "oz-c02-s6-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Witch of the North give Dorothy?",
+      "options": [
+        "A kiss on the forehead",
+        "A cap that turns into a slate",
+        "A handkerchief for the journey",
+        "A charm to hang about her neck"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 42,
+        "end": 65
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s6-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the kiss leave behind?",
+      "options": [
+        "A round shining mark",
+        "A faint white scar",
+        "A smear of white chalk",
+        "A small silver star"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 97,
+        "end": 128
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s6-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the road to the City of Emeralds paved with?",
+      "options": [
+        "Yellow brick",
+        "Green stone",
+        "Silver tiles",
+        "White gravel"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 1,
+        "end": 60
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s6-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how did the Witch of the North disappear?",
+      "options": [
+        "She whirled around three times on her left heel",
+        "She stepped behind the trees and did not return",
+        "She rose slowly into the air and was gone",
+        "She counted to three and faded where she stood"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 166,
+        "end": 238
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s6-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the three Munchkins do before leaving?",
+      "options": [
+        "Bowed low and wished her a pleasant journey",
+        "Gave her food and water for the road ahead",
+        "Warned her about the witch who rules the West",
+        "Pointed out where the yellow road began"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 0,
+        "end": 70
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s6-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Witch give Dorothy the kiss?",
+      "options": [
+        "So that no one will dare to injure her",
+        "So that she will not forget the way home",
+        "So that the Wizard will know who sent her",
+        "So that the Munchkins will obey her orders"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 71,
+        "end": 149
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s6-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did Toto only bark after the Witch had gone?",
+      "options": [
+        "He had been too frightened even to growl while she stood there",
+        "He had been asleep until the moment she vanished",
+        "He was barking at the Munchkins walking away",
+        "He wanted her to come back and take them along"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 331,
+        "end": 390
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s6-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was Dorothy not surprised by the disappearance?",
+      "options": [
+        "She knew the woman was a witch and expected it",
+        "She had seen the same trick done with the cap",
+        "She was too busy looking at the road ahead",
+        "She had not been watching when it happened"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 13,
+        "end": 86
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s6-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that Dorothy pleaded with the Witch?",
+      "options": [
+        "She begged her to come along",
+        "She argued that she was right",
+        "She thanked her for her help",
+        "She complained about the journey"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 24,
+        "end": 40
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s6-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures what the passage does?",
+      "options": [
+        "It sends Dorothy off alone, with protection and a road to follow",
+        "It shows the Witch refusing to help Dorothy in any way at all",
+        "It describes the dangers waiting along the road to the city",
+        "It explains why the Munchkins cannot leave their own country"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 16,
+        "end": 115
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s6-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Witch describe the journey ahead?",
+      "options": [
+        "Long, and sometimes pleasant, sometimes dark and terrible",
+        "Short, but harder than anything Dorothy has done",
+        "Easy as far as the desert, and impossible after it",
+        "Pleasant the whole way, so long as she keeps to the road"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 16,
+        "end": 115
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s6-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the Witch tell Dorothy to do when she reaches Oz?",
+      "options": [
+        "Tell her story and ask him to help her",
+        "Show him the mark left on her forehead",
+        "Give him the silver shoes as a present",
+        "Say that the Witch of the North sent her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 147,
+        "end": 190
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s6-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Witch promise to use on Dorothy's behalf?",
+      "options": [
+        "All the magic arts she knows",
+        "The last of her power as a witch",
+        "A charm hidden in the silver shoes",
+        "The help of the three Munchkins"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 125,
+        "end": 186
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s6-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Dorothy ask the Witch to come with her?",
+      "options": [
+        "She has come to see the old woman as her only friend",
+        "She does not believe she can find the road alone",
+        "She is afraid of the Munchkins who are watching",
+        "She wants the Witch to speak to the Wizard for her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 42,
+        "end": 108
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s6-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why can Dorothy be sure of finding the right road?",
+      "options": [
+        "It is paved with yellow brick and cannot be missed",
+        "The Munchkins are going to walk the first mile with her",
+        "The mark on her forehead will show her the way",
+        "The Witch has drawn it for her on the slate"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 80,
+        "end": 101
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s6-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does straightway mean?",
+      "options": ["At once", "Slowly", "In a straight line", "Without a word"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 211,
+        "end": 238
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s6-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A parting that leaves Dorothy protected, directed, and on her own",
+        "A refusal that leaves Dorothy with no way of reaching the city",
+        "A warning about the witch who rules the country to the west",
+        "A promise that the Munchkins will follow her to the city"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 120,
+        "end": 164
+      },
+      "pool": "retest"
+    }
+  ]
+}

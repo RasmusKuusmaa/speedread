@@ -55,12 +55,7 @@
       "id": "oz-green-room-f3",
       "taxonomy": "literal",
       "prompt": "According to the passage, how many flights of stairs did Dorothy climb to reach her room?",
-      "options": [
-        "Three",
-        "One",
-        "Five",
-        "Seven"
-      ],
+      "options": ["Three", "One", "Five", "Seven"],
       "answerIndex": 0,
       "evidence": {
         "paragraphIndex": 3,
@@ -217,12 +212,7 @@
       "id": "oz-green-room-r2",
       "taxonomy": "literal",
       "prompt": "According to the passage, who did Dorothy NOT say good-bye to before going to her room?",
-      "options": [
-        "Toto",
-        "The soldier",
-        "The green girl",
-        "Oz"
-      ],
+      "options": ["Toto", "The soldier", "The green girl", "Oz"],
       "answerIndex": 0,
       "evidence": {
         "paragraphIndex": 3,
@@ -235,12 +225,7 @@
       "id": "oz-green-room-r3",
       "taxonomy": "literal",
       "prompt": "Per the passage, how many passages did Dorothy walk through to reach her room?",
-      "options": [
-        "Seven",
-        "Three",
-        "Ten",
-        "Two"
-      ],
+      "options": ["Seven", "Three", "Ten", "Two"],
       "answerIndex": 0,
       "evidence": {
         "paragraphIndex": 3,

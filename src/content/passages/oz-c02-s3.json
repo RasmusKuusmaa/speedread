@@ -1,0 +1,328 @@
+{
+  "id": "oz-c02-s3",
+  "title": "The Council with the Munchkins, part 3",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“Who are the Munchkins?” inquired Dorothy.",
+    "“They are the people who live in this land of the East where the Wicked Witch ruled.”",
+    "“Are you a Munchkin?” asked Dorothy.",
+    "“No, but I am their friend, although I live in the land of the North. When they saw the Witch of the East was dead the Munchkins sent a swift messenger to me, and I came at once. I am the Witch of the North.”",
+    "“Oh, gracious!” cried Dorothy. “Are you a real witch?”",
+    "“Yes, indeed,” answered the little woman. “But I am a good witch, and the people love me. I am not as powerful as the Wicked Witch was who ruled here, or I should have set the people free myself.”",
+    "“But I thought all witches were wicked,” said the girl, who was half frightened at facing a real witch.",
+    "“Oh, no, that is a great mistake. There were only four witches in all the Land of Oz, and two of them, those who live in the North and the South, are good witches. I know this is true, for I am one of them myself, and cannot be mistaken. Those who dwelt in the East and the West were, indeed, wicked witches; but now that you have killed one of them, there is but one Wicked Witch in all the Land of Oz—the one who lives in the West.”",
+    "“But,” said Dorothy, after a moment’s thought, “Aunt Em has told me that the witches were all dead—years and years ago.”",
+    "“Who is Aunt Em?” inquired the little old woman.",
+    "“She is my aunt who lives in Kansas, where I came from.”",
+    "The Witch of the North seemed to think for a time, with her head bowed and her eyes upon the ground. Then she looked up and said, “I do not know where Kansas is, for I have never heard that country mentioned before. But tell me, is it a civilized country?”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c02-s3-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the little old woman live?",
+      "options": [
+        "In the land of the North",
+        "In the land of the East",
+        "In the land of the South",
+        "In the City of Emeralds"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 28,
+        "end": 68
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s3-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how many witches were there in all the Land of Oz?",
+      "options": ["Four", "Two", "Three", "Six"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 34,
+        "end": 84
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s3-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, which witches are the good ones?",
+      "options": [
+        "Those of the North and the South",
+        "Those of the East and the West",
+        "Those of the North and the East",
+        "Those of the West and the South"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 103,
+        "end": 162
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s3-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, which wicked witch is still living?",
+      "options": [
+        "The one who lives in the West",
+        "The one who lives in the East",
+        "The one who lives in the North",
+        "The one who lives in the South"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 351,
+        "end": 432
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s3-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who are the Munchkins?",
+      "options": [
+        "The people of the land of the East",
+        "The people of the land of the North",
+        "The people who serve the Great Wizard",
+        "The people who guard the desert"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 1,
+        "end": 84
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s3-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why had the good witch not freed the Munchkins herself?",
+      "options": [
+        "She was not as powerful as the witch who ruled them",
+        "She had not been told what was happening to them",
+        "She was forbidden to enter the land of the East",
+        "She had promised the Wizard not to interfere"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 90,
+        "end": 149
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s3-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is Dorothy half frightened during this conversation?",
+      "options": [
+        "She had always believed that every witch was wicked",
+        "She had been warned that witches could not be trusted",
+        "She thinks the woman means to keep her in the East",
+        "She fears the dead witch will rise again from the dust"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 41,
+        "end": 102
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s3-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what had Aunt Em told Dorothy about witches?",
+      "options": [
+        "That they had all died years and years ago",
+        "That they lived far away across a great desert",
+        "That only the wicked ones were left in the world",
+        "That a child should never speak to one of them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 48,
+        "end": 98
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s3-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the passage?",
+      "options": [
+        "A girl's simple rule about witches is taken apart and corrected",
+        "A witch explains why she cannot help the Munchkins at all",
+        "A girl learns that her aunt has been lying to her for years",
+        "A witch decides which of the four countries Dorothy will visit"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 33
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s3-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best describes the little old woman's manner here?",
+      "options": [
+        "Patient and certain, correcting the girl without offence",
+        "Sharp and impatient at being asked so many questions",
+        "Uneasy, as though she would rather not answer at all",
+        "Boastful about how powerful a witch she herself is"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 164,
+        "end": 236
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s3-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Witch of the North learn the Witch of the East was dead?",
+      "options": [
+        "The Munchkins sent a swift messenger to her",
+        "She saw the house fall from her own country",
+        "The Wizard of Oz sent word to her at once",
+        "She had foreseen it in the chalk on her slate"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 115,
+        "end": 177
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s3-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the Witch say when Kansas is named?",
+      "options": [
+        "That she has never heard the country mentioned",
+        "That it lies beyond the desert to the south",
+        "That the Wizard has told her about it before",
+        "That no witch has ever travelled as far as that"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 131,
+        "end": 214
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s3-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Witch ask about Kansas?",
+      "options": [
+        "Whether it is a civilized country",
+        "Whether it lies beyond the desert",
+        "Whether any witches rule there",
+        "Whether Dorothy means to return"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 216,
+        "end": 255
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s3-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Witch so sure that good witches exist?",
+      "options": [
+        "Because she is one of them herself",
+        "Because the Munchkins have always said so",
+        "Because the Wizard of Oz once told her",
+        "Because the wicked ones have all now died"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 185,
+        "end": 236
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s3-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Dorothy's question about real witches show?",
+      "options": [
+        "She had thought of witches as something out of stories",
+        "She had met a witch once before, back in Kansas",
+        "She doubts that the woman is telling her the truth",
+        "She hopes the woman will teach her some magic"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 31,
+        "end": 54
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s3-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the Witch mean by the Munchkins being ruled?",
+      "options": [
+        "Held under the power of the witch of that land",
+        "Governed by a council chosen from among them",
+        "Judged by the Wizard who lives in the centre",
+        "Guarded by the desert that surrounds the land"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 33,
+        "end": 83
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s3-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A lesson in who the witches of Oz are, good and wicked alike",
+        "An argument about whether Kansas is a civilized country",
+        "A warning about the Wicked Witch who still rules the West",
+        "An account of how the Munchkins came to be set free"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 0,
+        "end": 40
+      },
+      "pool": "retest"
+    }
+  ]
+}

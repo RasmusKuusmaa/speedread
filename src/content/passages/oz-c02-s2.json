@@ -1,0 +1,331 @@
+{
+  "id": "oz-c02-s2",
+  "title": "The Council with the Munchkins, part 2",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "When these people drew near the house where Dorothy was standing in the doorway, they paused and whispered among themselves, as if afraid to come farther. But the little old woman walked up to Dorothy, made a low bow and said, in a sweet voice:",
+    "“You are welcome, most noble Sorceress, to the land of the Munchkins. We are so grateful to you for having killed the Wicked Witch of the East, and for setting our people free from bondage.”",
+    "Dorothy listened to this speech with wonder. What could the little woman possibly mean by calling her a sorceress, and saying she had killed the Wicked Witch of the East? Dorothy was an innocent, harmless little girl, who had been carried by a cyclone many miles from home; and she had never killed anything in all her life.",
+    "But the little woman evidently expected her to answer; so Dorothy said, with hesitation, “You are very kind, but there must be some mistake. I have not killed anything.”",
+    "“Your house did, anyway,” replied the little old woman, with a laugh, “and that is the same thing. See!” she continued, pointing to the corner of the house. “There are her two feet, still sticking out from under a block of wood.”",
+    "Dorothy looked, and gave a little cry of fright. There, indeed, just under the corner of the great beam the house rested on, two feet were sticking out, shod in silver shoes with pointed toes.",
+    "“Oh, dear! Oh, dear!” cried Dorothy, clasping her hands together in dismay. “The house must have fallen on her. Whatever shall we do?”",
+    "“There is nothing to be done,” said the little woman calmly.",
+    "“But who was she?” asked Dorothy.",
+    "“She was the Wicked Witch of the East, as I said,” answered the little woman. “She has held all the Munchkins in bondage for many years, making them slave for her night and day. Now they are all set free, and are grateful to you for the favor.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c02-s2-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what title does the little old woman give Dorothy?",
+      "options": [
+        "Most noble Sorceress",
+        "Queen of the Munchkins",
+        "Witch of the North",
+        "Friend of the East"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 1,
+        "end": 38
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s2-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was sticking out from under the corner of the house?",
+      "options": [
+        "Two feet in silver shoes with pointed toes",
+        "Two hands still clutching a pointed hat",
+        "A broken beam from the house's own frame",
+        "A slate covered in big white chalk marks"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 125,
+        "end": 191
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s2-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, whom does the woman say Dorothy has killed?",
+      "options": [
+        "The Wicked Witch of the East",
+        "The Wicked Witch of the West",
+        "The Witch who ruled in the North",
+        "The Great Wizard of Oz himself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 96,
+        "end": 142
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s2-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how had the Witch treated the Munchkins?",
+      "options": [
+        "She made them slave for her night and day",
+        "She drove them out of the land of the East",
+        "She took their silver shoes away from them",
+        "She kept them shut up inside their houses"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 137,
+        "end": 176
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s2-f5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Dorothy object to being thanked?",
+      "options": [
+        "She has never killed anything in her life",
+        "She does not think the woman is telling the truth",
+        "She would rather not be noticed by strangers",
+        "She believes the witch is still alive somewhere"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 278,
+        "end": 323
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s2-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does the old woman answer Dorothy's denial?",
+      "options": [
+        "By saying the house did it, which comes to the same thing",
+        "By insisting that Dorothy has simply forgotten what she did",
+        "By explaining that the witch had died of old age already",
+        "By admitting that there has indeed been a mistake"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 68
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s2-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the group pause before the house?",
+      "options": [
+        "They were afraid to come any closer",
+        "They were waiting for Dorothy to speak first",
+        "They wanted to look at the silver shoes",
+        "They had been told to stay where they were"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 81,
+        "end": 153
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s2-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Munchkins were held in bondage?",
+      "options": [
+        "They were forced to work for her without freedom",
+        "They were kept tied up inside her own house",
+        "They were bound by a promise they had made",
+        "They were charged a heavy tax every year"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 148,
+        "end": 188
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s2-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the situation in the passage?",
+      "options": [
+        "A girl is honoured for a killing her falling house did by accident",
+        "A girl is accused of a crime she insists she did not commit",
+        "A girl is asked to rule a people she has only just met",
+        "A girl discovers that a witch she feared is still alive"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 45,
+        "end": 113
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s2-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best describes how the two speakers differ?",
+      "options": [
+        "One is horrified by the death, the other treats it calmly",
+        "One believes in witches, the other refuses to believe",
+        "One wants to leave at once, the other wants her to stay",
+        "One is grateful for the shoes, the other wants them back"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 60
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c02-s2-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the little old woman greet Dorothy?",
+      "options": [
+        "With a low bow and a sweet voice",
+        "With a shout and a wave of her cap",
+        "With a whisper the others could not hear",
+        "With a long silence and a hard stare"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 202,
+        "end": 243
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s2-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how did Dorothy react to the sight of the feet?",
+      "options": [
+        "She gave a little cry of fright",
+        "She laughed at the strange shoes",
+        "She ran back inside the house",
+        "She asked to be given the shoes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 0,
+        "end": 47
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s2-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the woman say can be done about the witch?",
+      "options": [
+        "Nothing",
+        "The house must be moved",
+        "The Munchkins must be told",
+        "Oz must be sent for"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 60
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s2-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does being called a sorceress bewilder Dorothy?",
+      "options": [
+        "She is an ordinary girl who was carried there by a storm",
+        "She has been told that sorceresses no longer exist",
+        "She cannot understand the language the woman speaks",
+        "She thinks the title belongs to the little old woman"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 171,
+        "end": 272
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s2-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Munchkins' gratitude reveal about their lives?",
+      "options": [
+        "They had been held down for years and are now free",
+        "They had feared the house would fall on them next",
+        "They had been searching for a sorceress for years",
+        "They had never seen anyone from outside their land"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 79,
+        "end": 135
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s2-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does calling Dorothy innocent and harmless convey?",
+      "options": [
+        "She had done nothing and could do nothing of the kind",
+        "She was too young to understand what had happened",
+        "She had been forgiven for what her house had done",
+        "She was too gentle to be frightened by the sight"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 171,
+        "end": 216
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c02-s2-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A welcome and a thanks that rest on a death Dorothy knew nothing of",
+        "A quarrel over who has the right to the dead witch's shoes",
+        "A warning that the Wicked Witch of the East may return",
+        "A plan for getting a lost girl back to her own country"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 70,
+        "end": 95
+      },
+      "pool": "retest"
+    }
+  ]
+}

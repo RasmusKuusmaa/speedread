@@ -18,12 +18,7 @@
       "id": "oz-gray-prairie-f1",
       "taxonomy": "literal",
       "prompt": "According to the passage, who was Uncle Henry?",
-      "options": [
-        "A farmer",
-        "A soldier",
-        "A shopkeeper",
-        "A schoolteacher"
-      ],
+      "options": ["A farmer", "A soldier", "A shopkeeper", "A schoolteacher"],
       "answerIndex": 0,
       "evidence": {
         "paragraphIndex": 0,
