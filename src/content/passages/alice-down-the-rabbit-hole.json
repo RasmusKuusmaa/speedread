@@ -1,0 +1,324 @@
+{
+  "id": "alice-down-the-rabbit-hole",
+  "title": "Burning with Curiosity",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11",
+  "attribution": "Excerpted verbatim from Alice's Adventures in Wonderland by Lewis Carroll (1865).",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, \"and what is the use of a book,\" thought Alice \"without pictures or conversations?\"",
+    "So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her. There was nothing so very remarkable in that; nor did Alice think it so very much out of the way to hear the Rabbit say to itself, \"Oh dear! Oh dear! I shall be late!\" but when the Rabbit actually took a watch out of its waistcoat-pocket, and looked at it, and then hurried on, Alice started to her feet, for it flashed across her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it, and burning with curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge.",
+    "In another moment down went Alice after it, never once considering how in the world she was to get out again. The rabbit-hole went straight on like a tunnel for some way, and then dipped suddenly down, so suddenly that Alice had not a moment to think about stopping herself before she found herself falling down a very deep well."
+  ],
+  "questions": [
+    {
+      "id": "alice-down-the-rabbit-hole-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why was Alice tired?",
+      "options": [
+        "Of sitting by her sister and having nothing to do",
+        "Of running through the field all afternoon",
+        "Of reading a very long book by herself",
+        "Of arguing with her sister about a rabbit"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 103
+      },
+      "pool": "first"
+    },
+    {
+      "id": "alice-down-the-rabbit-hole-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Alice think was missing from her sister's book?",
+      "options": [
+        "Pictures or conversations",
+        "A title page",
+        "An interesting plot",
+        "Illustrations of rabbits"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 176,
+        "end": 217
+      },
+      "pool": "first"
+    },
+    {
+      "id": "alice-down-the-rabbit-hole-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what kind of animal ran close by Alice?",
+      "options": [
+        "A White Rabbit with pink eyes",
+        "A gray cat with green eyes",
+        "A brown dog with a collar",
+        "A black bird with a red beak"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 242,
+        "end": 288
+      },
+      "pool": "first"
+    },
+    {
+      "id": "alice-down-the-rabbit-hole-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Rabbit say to itself?",
+      "options": [
+        "\"Oh dear! Oh dear! I shall be late!\"",
+        "\"Curiouser and curiouser!\"",
+        "\"Off with her head!\"",
+        "\"We're all mad here!\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 387,
+        "end": 457
+      },
+      "pool": "first"
+    },
+    {
+      "id": "alice-down-the-rabbit-hole-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Rabbit take out of its waistcoat-pocket?",
+      "options": [
+        "A watch",
+        "A key",
+        "A letter",
+        "A pair of gloves"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 467,
+        "end": 527
+      },
+      "pool": "first"
+    },
+    {
+      "id": "alice-down-the-rabbit-hole-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, where did Alice see the Rabbit pop down?",
+      "options": [
+        "A large rabbit-hole under the hedge",
+        "A hole beneath a tree",
+        "A door in the garden wall",
+        "A well beside the bank"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 811,
+        "end": 878
+      },
+      "pool": "first"
+    },
+    {
+      "id": "alice-down-the-rabbit-hole-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did Alice jump to her feet and chase after the Rabbit?",
+      "options": [
+        "She had never before seen a rabbit with a waistcoat-pocket or a watch, and it startled her curiosity",
+        "She wanted to return the watch to its rightful owner",
+        "Her sister told her to follow the Rabbit",
+        "She was frightened and wanted to escape from it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 631,
+        "end": 726
+      },
+      "pool": "first"
+    },
+    {
+      "id": "alice-down-the-rabbit-hole-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the narrator mention that the hot day made Alice feel \"sleepy and stupid\" just before the Rabbit appears?",
+      "options": [
+        "To show she was drowsy and inattentive, making the Rabbit's sudden, odd appearance feel all the more striking",
+        "To explain why Alice fell asleep and dreamed the entire story",
+        "To suggest that Alice was too tired to notice the Rabbit at all",
+        "To show that the weather had made Alice ill"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 66,
+        "end": 114
+      },
+      "pool": "first"
+    },
+    {
+      "id": "alice-down-the-rabbit-hole-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "Alice, bored and drowsy, is drawn into a strange adventure when curiosity leads her to chase an oddly human rabbit down a hole",
+        "Alice spends the whole passage happily reading a picture book with her sister",
+        "Alice is frightened by a rabbit and runs home to safety",
+        "Alice deliberately digs a hole to search for a lost watch"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 108
+      },
+      "pool": "first"
+    },
+    {
+      "id": "alice-down-the-rabbit-hole-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that there was \"nothing so very remarkable\" in the Rabbit running by?",
+      "options": [
+        "Nothing especially unusual or worth noticing",
+        "Nothing that could be seen clearly",
+        "Nothing that made a sound",
+        "Nothing that was dangerous"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 290,
+        "end": 334
+      },
+      "pool": "first"
+    },
+    {
+      "id": "alice-down-the-rabbit-hole-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was Alice considering before the Rabbit appeared?",
+      "options": [
+        "Whether making a daisy-chain was worth the trouble of getting up",
+        "Whether to go swimming in a nearby pond",
+        "Whether to ask her sister for a different book",
+        "Whether to take a nap on the bank"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 117,
+        "end": 226
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "alice-down-the-rabbit-hole-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what shape did the rabbit-hole take at first?",
+      "options": [
+        "Straight, like a tunnel",
+        "Round, like a bowl",
+        "Twisted, like a spiral staircase",
+        "Narrow, like a chimney"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 110,
+        "end": 169
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "alice-down-the-rabbit-hole-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to the tunnel after it went straight for a while?",
+      "options": [
+        "It dipped suddenly down",
+        "It came to a dead end",
+        "It split into two paths",
+        "It grew narrower and narrower"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 171,
+        "end": 273
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "alice-down-the-rabbit-hole-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Alice find herself falling down after the tunnel dipped?",
+      "options": [
+        "A very deep well",
+        "A steep, rocky cliff",
+        "A grassy hillside",
+        "A flight of stone stairs"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 274,
+        "end": 328
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "alice-down-the-rabbit-hole-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why didn't Alice think it \"very much out of the way\" to hear the Rabbit talk to itself?",
+      "options": [
+        "In the drowsy, dreamlike moment, the strangeness of it didn't strike her until she thought it over afterward",
+        "She had heard the same rabbit speak on many earlier occasions",
+        "She assumed her sister had trained the rabbit to talk",
+        "She could not actually hear what the Rabbit was saying"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 336,
+        "end": 419
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "alice-down-the-rabbit-hole-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what leads Alice down the rabbit hole?",
+      "options": [
+        "Her curiosity about the unusual Rabbit overcomes her drowsy boredom, and she follows it without thinking of the consequences",
+        "She is chasing the Rabbit to retrieve a watch it stole from her sister",
+        "She falls into the hole by accident while picking daisies",
+        "Her sister pushes her into the hole as a joke"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 732,
+        "end": 789
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "alice-down-the-rabbit-hole-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that Alice was \"burning with curiosity\"?",
+      "options": [
+        "Feeling an intense eagerness to find out something",
+        "Feeling physically overheated from the sun",
+        "Feeling angry about being ignored",
+        "Feeling too tired to move any further"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 732,
+        "end": 789
+      },
+      "pool": "retest"
+    }
+  ]
+}

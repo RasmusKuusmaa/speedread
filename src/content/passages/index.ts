@@ -1,3 +1,4 @@
+import aliceDownTheRabbitHole from "./alice-down-the-rabbit-hole.json";
 import baconOfAdversity from "./bacon-of-adversity.json";
 import baconOfStudies from "./bacon-of-studies.json";
 import baconOfTruth from "./bacon-of-truth.json";
@@ -38,6 +39,7 @@ import toBuildAFireOpening from "./to-build-a-fire-opening.json";
 import wrightFlyerHistory from "./wright-flyer-history.json";
 
 export const rawPassages: unknown[] = [
+  aliceDownTheRabbitHole,
   baconOfTruth,
   baconOfAdversity,
   baconOfStudies,
