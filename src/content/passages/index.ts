@@ -9,6 +9,7 @@ import electricalEngineering19thCentury from "./electrical-engineering-19th-cent
 import covalentBonding from "./covalent-bonding.json";
 import giftOfTheMagiOpening from "./gift-of-the-magi-opening.json";
 import meditationsRusticusApollonius from "./meditations-rusticus-apollonius.json";
+import millOnLibertyThought from "./mill-on-liberty-thought.json";
 import meditationsSeverusMaximus from "./meditations-severus-maximus.json";
 import meditationsSextusCatulus from "./meditations-sextus-catulus.json";
 import meditationsTeachers from "./meditations-teachers.json";
@@ -47,6 +48,7 @@ export const rawPassages: unknown[] = [
   ozGrayPrairie,
   meditationsTeachers,
   meditationsRusticusApollonius,
+  millOnLibertyThought,
   meditationsSextusCatulus,
   meditationsSeverusMaximus,
   structuralEngineeringHistory,

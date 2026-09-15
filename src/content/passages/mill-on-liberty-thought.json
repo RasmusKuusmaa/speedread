@@ -1,0 +1,323 @@
+{
+  "id": "mill-on-liberty-thought",
+  "title": "The Liberty of Thought",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/34901",
+  "attribution": "Excerpted verbatim from On Liberty by John Stuart Mill (1859).",
+  "licence": "Public domain",
+  "textType": "expository",
+  "domain": "philosophy",
+  "calibrationOnly": false,
+  "body": [
+    "Apart from the peculiar tenets of individual thinkers, there is also in the world at large an increasing inclination to stretch unduly the powers of society over the individual, both by the force of opinion and even by that of legislation: and as the tendency of all the changes taking place in the world is to strengthen society, and diminish the power of the individual, this encroachment is not one of the evils which tend spontaneously to disappear, but, on the contrary, to grow more and more formidable. The disposition of mankind, whether as rulers or as fellow-citizens to impose their own opinions and inclinations as a rule of conduct on others, is so energetically supported by some of the best and by some of the worst feelings incident to human nature, that it is hardly ever kept under restraint by anything but want of power; and as the power is not declining, but growing, unless a strong barrier of moral conviction can be raised against the mischief, we must expect, in the present circumstances of the world, to see it increase.",
+    "It will be convenient for the argument, if, instead of at once entering upon the general thesis, we confine ourselves in the first instance to a single branch of it, on which the principle here stated is, if not fully, yet to a certain point, recognised by the current opinions. This one branch is the Liberty of Thought: from which it is impossible to separate the cognate liberty of speaking and of writing."
+  ],
+  "questions": [
+    {
+      "id": "mill-on-liberty-thought-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, through what two means does society's power over the individual increase?",
+      "options": [
+        "The force of opinion and legislation",
+        "Wealth and military strength",
+        "Religion and education alone",
+        "Fear and violence"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 178,
+        "end": 238
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mill-on-liberty-thought-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the author say is \"hardly ever kept under restraint by anything but want of power\"?",
+      "options": [
+        "Mankind's disposition to impose their own opinions on others",
+        "The growth of legislation",
+        "The spread of new inventions",
+        "The rise of individual thinkers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 656,
+        "end": 839
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mill-on-liberty-thought-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what single branch does the author choose to focus on first?",
+      "options": [
+        "The Liberty of Thought",
+        "The Liberty of Trade",
+        "The Liberty of Assembly",
+        "The Liberty of Religion"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 279,
+        "end": 320
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mill-on-liberty-thought-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what two liberties does the author say are inseparable from the Liberty of Thought?",
+      "options": [
+        "The liberty of speaking and of writing",
+        "The liberty of travel and trade",
+        "The liberty of voting and assembly",
+        "The liberty of worship and silence"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 322,
+        "end": 408
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mill-on-liberty-thought-f5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author say the encroachment of society on the individual is not an evil that will \"spontaneously disappear\"?",
+      "options": [
+        "The general trend of change in the world is to strengthen society and weaken the individual, not the reverse",
+        "Governments have passed laws specifically protecting the encroachment",
+        "Most individuals actively support the loss of their own liberty",
+        "No one has ever tried to resist this encroachment before"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 244,
+        "end": 452
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mill-on-liberty-thought-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author say the desire to impose one's opinions on others is supported by both \"the best and the worst feelings\" in human nature?",
+      "options": [
+        "Such impositions can come from sincere moral conviction as well as from selfish or domineering impulses",
+        "Only evil people ever try to impose their opinions on others",
+        "Good feelings and bad feelings are actually the same thing",
+        "The author believes imposing opinions is always justified"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 656,
+        "end": 764
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mill-on-liberty-thought-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author believe a \"strong barrier of moral conviction\" is necessary against this trend?",
+      "options": [
+        "Growing social power isn't naturally checked by anything except a lack of power, so only firm moral principle can hold it back",
+        "Legislation alone is always sufficient to stop such trends",
+        "Moral conviction was already strong enough in the author's time",
+        "The trend was expected to reverse on its own"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 889,
+        "end": 1046
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mill-on-liberty-thought-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author choose to begin with a single branch of the argument rather than the whole thesis at once?",
+      "options": [
+        "That branch is already recognized to some degree by current opinion, making it a more convenient starting point",
+        "The author had no time to address the whole thesis",
+        "The whole thesis was considered too controversial to state directly",
+        "Readers had specifically requested this branch be discussed first"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 166,
+        "end": 277
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mill-on-liberty-thought-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "Society's power over individuals tends to grow unchecked unless resisted by firm moral conviction, and the author will begin examining this through the liberty of thought",
+        "Society's power over individuals is declining rapidly and needs no resistance",
+        "Individual liberty was fully protected in the author's time",
+        "Legislation is the only threat to individual liberty"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 55,
+        "end": 176
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mill-on-liberty-thought-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that this encroachment tends to grow \"more formidable\"?",
+      "options": [
+        "More powerful and difficult to resist",
+        "More rare and unlikely to occur",
+        "More popular among ordinary citizens",
+        "More easily reversed over time"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 454,
+        "end": 508
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mill-on-liberty-thought-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the author say is the general tendency of changes taking place in the world?",
+      "options": [
+        "To strengthen society and diminish the power of the individual",
+        "To weaken all forms of government",
+        "To increase individual liberty at every turn",
+        "To eliminate the need for moral conviction"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 247,
+        "end": 371
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "mill-on-liberty-thought-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who does the author say has a disposition to impose their opinions on others as a rule of conduct?",
+      "options": [
+        "Mankind, whether as rulers or as fellow-citizens",
+        "Only kings and emperors",
+        "Only religious leaders",
+        "Only professional philosophers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 510,
+        "end": 654
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "mill-on-liberty-thought-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, is the power to impose opinions on others declining or growing?",
+      "options": [
+        "Growing",
+        "Declining",
+        "Staying exactly the same",
+        "Unknown, according to the author"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 845,
+        "end": 887
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "mill-on-liberty-thought-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, to what extent is the principle behind the Liberty of Thought already recognized by current opinion?",
+      "options": [
+        "To a certain point, though not fully",
+        "Completely and universally",
+        "Not at all",
+        "Only among a small circle of philosophers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 205,
+        "end": 277
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "mill-on-liberty-thought-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author call the liberty of speaking and writing \"cognate\" to the liberty of thought?",
+      "options": [
+        "They are so closely related that they cannot be meaningfully separated from one another",
+        "They developed in entirely different historical periods",
+        "They are opposites that constantly conflict with each other",
+        "They apply only to professional writers and speakers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 322,
+        "end": 408
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "mill-on-liberty-thought-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes why the author starts with the Liberty of Thought?",
+      "options": [
+        "It offers the clearest, most widely accepted starting point for a broader argument about individual liberty",
+        "It is the least important of all the liberties discussed",
+        "It has nothing to do with the rest of the argument",
+        "It was the only liberty the author personally valued"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 97,
+        "end": 164
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "mill-on-liberty-thought-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean to \"stretch unduly\" the powers of society over the individual?",
+      "options": [
+        "To extend those powers beyond what is proper or justified",
+        "To reduce those powers to almost nothing",
+        "To apply those powers only in emergencies",
+        "To transfer those powers to a foreign government"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 91,
+        "end": 176
+      },
+      "pool": "retest"
+    }
+  ]
+}
