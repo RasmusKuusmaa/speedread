@@ -1,0 +1,324 @@
+{
+  "id": "electrical-engineering-19th-century",
+  "title": "A Unified Theory of Electricity and Magnetism",
+  "language": "en",
+  "source": "https://en.wikipedia.org/wiki/Electrical_engineering",
+  "attribution": "Adapted (trimmed) from the Wikipedia article \"Electrical engineering,\" available under CC BY-SA 4.0.",
+  "licence": "CC BY-SA 4.0",
+  "textType": "expository",
+  "domain": "engineering",
+  "calibrationOnly": false,
+  "body": [
+    "Electricity has been a subject of scientific interest since at least the early 17th century. William Gilbert was a prominent early electrical scientist, and was the first to draw a clear distinction between magnetism and static electricity. He is credited with establishing the term \"electricity\". He also designed the versorium: a device that detects the presence of statically charged objects. In 1762 Swedish professor Johan Wilcke invented a device later named electrophorus that produced a static electric charge. By 1800 Alessandro Volta had developed the voltaic pile, a forerunner of the electric battery.",
+    "In the 19th century, research into the subject started to intensify. Notable developments in this century include the work of Hans Christian Oersted, who discovered in 1820 that an electric current produces a magnetic field that will deflect a compass needle; of William Sturgeon, who in 1825 invented the electromagnet; of Joseph Henry and Edward Davy, who invented the electrical relay in 1835; of Georg Ohm, who in 1827 quantified the relationship between the electric current and potential difference in a conductor; of Michael Faraday, the discoverer of electromagnetic induction in 1831; and of James Clerk Maxwell, who in 1873 published a unified theory of electricity and magnetism in his treatise Electricity and Magnetism.",
+    "Practical applications and advances in such fields created an increasing need for standardized units of measure. They led to the international standardization of the units volt, ampere, coulomb, ohm, farad, and henry. This was achieved at an international conference in Chicago in 1893. The publication of these standards formed the basis of future advances in standardization in various industries."
+  ],
+  "questions": [
+    {
+      "id": "electrical-eng-19c-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who is credited with establishing the term \"electricity\"?",
+      "options": [
+        "William Gilbert",
+        "Alessandro Volta",
+        "Michael Faraday",
+        "James Clerk Maxwell"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 241,
+        "end": 296
+      },
+      "pool": "first"
+    },
+    {
+      "id": "electrical-eng-19c-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Gilbert's versorium detect?",
+      "options": [
+        "The presence of statically charged objects",
+        "The strength of a magnetic field",
+        "The flow of electric current",
+        "The temperature of a conductor"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 330,
+        "end": 394
+      },
+      "pool": "first"
+    },
+    {
+      "id": "electrical-eng-19c-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Volta develop by 1800?",
+      "options": [
+        "The voltaic pile",
+        "The electromagnet",
+        "The electrical relay",
+        "The versorium"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 519,
+        "end": 612
+      },
+      "pool": "first"
+    },
+    {
+      "id": "electrical-eng-19c-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Oersted discover in 1820?",
+      "options": [
+        "That an electric current produces a magnetic field that deflects a compass needle",
+        "That magnetism and static electricity are identical",
+        "That electricity could be stored in a pile of metal discs",
+        "That heat could be converted directly into electricity"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 150,
+        "end": 258
+      },
+      "pool": "first"
+    },
+    {
+      "id": "electrical-eng-19c-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Faraday discover in 1831?",
+      "options": [
+        "Electromagnetic induction",
+        "The electrical relay",
+        "The voltaic pile",
+        "The unified theory of electricity and magnetism"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 521,
+        "end": 592
+      },
+      "pool": "first"
+    },
+    {
+      "id": "electrical-eng-19c-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, where was the international conference that standardized electrical units held?",
+      "options": [
+        "Chicago",
+        "London",
+        "Paris",
+        "Berlin"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 218,
+        "end": 285
+      },
+      "pool": "first"
+    },
+    {
+      "id": "electrical-eng-19c-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author group Oersted, Sturgeon, Henry, Davy, Ohm, Faraday, and Maxwell together in one paragraph?",
+      "options": [
+        "To show how rapidly scientific understanding of electricity and magnetism advanced throughout the 19th century",
+        "To argue that they all worked together in the same laboratory",
+        "To prove that only British scientists contributed to electrical theory",
+        "To explain why electricity was not studied before the 19th century"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 68
+      },
+      "pool": "first"
+    },
+    {
+      "id": "electrical-eng-19c-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did standardized units like the volt and ampere become necessary?",
+      "options": [
+        "Practical applications and advances in the field created an increasing need for consistent measurement",
+        "Governments required all scientists to use the same language",
+        "Earlier scientists had refused to measure their results at all",
+        "The units were needed to settle a dispute between Volta and Gilbert"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 112
+      },
+      "pool": "first"
+    },
+    {
+      "id": "electrical-eng-19c-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "Understanding of electricity developed gradually from early scientific curiosity into a rapidly advancing, eventually standardized field of study",
+        "Electricity was fully understood as early as the 17th century",
+        "Standardized units of measure existed long before electrical science began",
+        "Electrical engineering had no connection to earlier scientific discoveries"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 92
+      },
+      "pool": "first"
+    },
+    {
+      "id": "electrical-eng-19c-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that Ohm \"quantified\" the relationship between current and potential difference?",
+      "options": [
+        "He expressed it in precise, measurable terms",
+        "He first discovered that a relationship existed",
+        "He disproved an earlier theory about the relationship",
+        "He gave the relationship its modern name"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 411,
+        "end": 519
+      },
+      "pool": "first"
+    },
+    {
+      "id": "electrical-eng-19c-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in what year did Johan Wilcke invent the electrophorus?",
+      "options": [
+        "1762",
+        "1800",
+        "1820",
+        "1893"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 396,
+        "end": 478
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "electrical-eng-19c-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Sturgeon invent in 1825?",
+      "options": [
+        "The electromagnet",
+        "The voltaic pile",
+        "The electrical relay",
+        "The versorium"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 260,
+        "end": 319
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "electrical-eng-19c-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who invented the electrical relay in 1835?",
+      "options": [
+        "Joseph Henry and Edward Davy",
+        "Hans Christian Oersted",
+        "Georg Ohm",
+        "James Clerk Maxwell"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 321,
+        "end": 395
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "electrical-eng-19c-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, in what treatise did Maxwell publish his unified theory?",
+      "options": [
+        "Electricity and Magnetism",
+        "Principles of Electrical Science",
+        "The Nature of Electric Force",
+        "On the Motion of Charged Bodies"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 622,
+        "end": 731
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "electrical-eng-19c-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the publication of standardized units suggest about the state of electrical engineering by the 1890s?",
+      "options": [
+        "It had matured into a field organized enough to require and adopt shared international measurement standards",
+        "It had stagnated since the early 19th century",
+        "It remained a purely theoretical pursuit with no practical use",
+        "It was rejected by most industries at the time"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 287,
+        "end": 399
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "electrical-eng-19c-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes the passage's account of early electrical science?",
+      "options": [
+        "Early scientists like Gilbert, Wilcke, and Volta laid the groundwork that 19th-century researchers rapidly built upon",
+        "Electrical science began and ended within the 19th century",
+        "Gilbert's work was later proven entirely incorrect",
+        "No progress was made in electrical science before 1893"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 93,
+        "end": 151
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "electrical-eng-19c-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that Gilbert drew a \"clear distinction\" between magnetism and static electricity?",
+      "options": [
+        "He showed they were separate, distinguishable phenomena",
+        "He proved they were the exact same phenomenon",
+        "He invented new words for both phenomena",
+        "He measured both phenomena using the same instrument"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 157,
+        "end": 239
+      },
+      "pool": "retest"
+    }
+  ]
+}

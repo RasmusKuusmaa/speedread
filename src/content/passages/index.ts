@@ -2,6 +2,7 @@ import baconOfAdversity from "./bacon-of-adversity.json";
 import baconOfTruth from "./bacon-of-truth.json";
 import bostonTeaParty from "./boston-tea-party.json";
 import civilEngineeringAncientOrigins from "./civil-engineering-ancient-origins.json";
+import electricalEngineering19thCentury from "./electrical-engineering-19th-century.json";
 import covalentBonding from "./covalent-bonding.json";
 import meditationsRusticusApollonius from "./meditations-rusticus-apollonius.json";
 import meditationsSeverusMaximus from "./meditations-severus-maximus.json";
@@ -45,6 +46,7 @@ export const rawPassages: unknown[] = [
   structuralEngineeringHistory,
   mechanicalEngineeringAncientHistory,
   civilEngineeringAncientOrigins,
+  electricalEngineering19thCentury,
   secretGardenGreenPoints,
   secretGardenMistressContrary,
   secretGardenSilentBungalow,
