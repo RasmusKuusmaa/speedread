@@ -1,0 +1,338 @@
+{
+  "id": "oz-c16-s2",
+  "title": "The Magic Art of the Great Humbug, part 2",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“How do you feel?” she asked.",
+    "“I feel wise indeed,” he answered earnestly. “When I get used to my brains I shall know everything.”",
+    "“Why are those needles and pins sticking out of your head?” asked the Tin Woodman.",
+    "“That is proof that he is sharp,” remarked the Lion.",
+    "“Well, I must go to Oz and get my heart,” said the Woodman. So he walked to the Throne Room and knocked at the door.",
+    "“Come in,” called Oz, and the Woodman entered and said, “I have come for my heart.”",
+    "“Very well,” answered the little man. “But I shall have to cut a hole in your breast, so I can put your heart in the right place. I hope it won’t hurt you.”",
+    "“Oh, no,” answered the Woodman. “I shall not feel it at all.”",
+    "So Oz brought a pair of tinsmith’s shears and cut a small, square hole in the left side of the Tin Woodman’s breast. Then, going to a chest of drawers, he took out a pretty heart, made entirely of silk and stuffed with sawdust.",
+    "“Isn’t it a beauty?” he asked.",
+    "“It is, indeed!” replied the Woodman, who was greatly pleased. “But is it a kind heart?”",
+    "“Oh, very!” answered Oz. He put the heart in the Woodman’s breast and then replaced the square of tin, soldering it neatly together where it had been cut.",
+    "“There,” said he; “now you have a heart that any man might be proud of. I’m sorry I had to put a patch on your breast, but it really couldn’t be helped.”",
+    "“Never mind the patch,” exclaimed the happy Woodman. “I am very grateful to you, and shall never forget your kindness.”",
+    "“Don’t speak of it,” replied Oz.",
+    "Then the Tin Woodman went back to his friends, who wished him every joy on account of his good fortune.",
+    "The Lion now walked to the Throne Room and knocked at the door."
+  ],
+  "questions": [
+    {
+      "id": "oz-c16-s2-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Oz use to cut the hole in the Woodman?",
+      "options": [
+        "A pair of tinsmith's shears",
+        "The Woodman's own axe",
+        "A knife from the kitchen",
+        "A pair of scissors and glue"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 0,
+        "end": 41
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c16-s2-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was the heart made of?",
+      "options": [
+        "Silk, stuffed with sawdust",
+        "Bran mixed with pins",
+        "Red glass set in tin",
+        "Cotton soaked in oil"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 180,
+        "end": 226
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c16-s2-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where was the hole cut?",
+      "options": [
+        "The left side of his breast",
+        "The back of his head",
+        "The top of his shoulder",
+        "The middle of his back"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 46,
+        "end": 115
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c16-s2-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Oz do after putting the heart in?",
+      "options": [
+        "Replaced the square of tin and soldered it neatly",
+        "Painted over the join with green paint",
+        "Left the hole open so the heart could be seen",
+        "Tied a ribbon round the Woodman's chest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 70,
+        "end": 131
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c16-s2-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion say about the needles and pins?",
+      "options": [
+        "That they proved the Scarecrow was sharp",
+        "That they would have to be pulled out",
+        "That they made the Scarecrow dangerous",
+        "That he could not see any at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 1,
+        "end": 31
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c16-s2-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was the Woodman untroubled by the cutting?",
+      "options": [
+        "He would not feel it at all",
+        "He had been given something to dull the pain",
+        "Oz promised it would be over quickly",
+        "He had asked for the hole himself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 33,
+        "end": 59
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c16-s2-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Woodman most want to know about the heart?",
+      "options": [
+        "Whether it was a kind one",
+        "Whether it would rust in the rain",
+        "Whether it had belonged to anyone else",
+        "Whether it could be taken out again"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 64,
+        "end": 87
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c16-s2-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the Scarecrow describe his new state?",
+      "options": [
+        "Feeling wise, and expecting to know everything in time",
+        "No different at all from before",
+        "Sorry that he had let Oz open his head",
+        "Unable to think clearly with the pins in"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 46,
+        "end": 99
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c16-s2-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does soldering mean?",
+      "options": [
+        "Joining the metal back together",
+        "Polishing the tin until it shines",
+        "Cutting a square out of the tin",
+        "Painting over the cut edges"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 103,
+        "end": 153
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c16-s2-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A second wish is granted with silk and sawdust, to the owner's joy",
+        "A second petitioner is refused and sent away",
+        "The Woodman discovers the heart is only stuffing",
+        "The Scarecrow warns the Woodman not to trust Oz"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 15,
+        "start": 47,
+        "end": 102
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c16-s2-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Oz apologise for?",
+      "options": [
+        "Having to put a patch on the Woodman's breast",
+        "Taking so long to grant the wish",
+        "Making the heart too small to see",
+        "Using shears instead of proper tools"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 72,
+        "end": 117
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c16-s2-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how did the Woodman answer about the patch?",
+      "options": [
+        "Never mind it; he was very grateful",
+        "He asked for it to be polished",
+        "He complained it would show",
+        "He said nothing at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 0,
+        "end": 52
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c16-s2-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did Oz keep the heart?",
+      "options": [
+        "In a chest of drawers",
+        "On a high shelf in a cupboard",
+        "In the back room with the bran",
+        "Under the green marble throne"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 123,
+        "end": 150
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c16-s2-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Tin Woodman say he would never forget?",
+      "options": [
+        "The Wizard's kindness",
+        "The pain of the cutting",
+        "The colour of the silk heart",
+        "The words Oz used"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 81,
+        "end": 117
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c16-s2-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, who asked about the pins sticking out?",
+      "options": [
+        "The Tin Woodman",
+        "The Cowardly Lion",
+        "Dorothy",
+        "The Wizard himself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 60,
+        "end": 81
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c16-s2-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does earnestly convey about the Scarecrow's reply?",
+      "options": [
+        "He meant it seriously and sincerely",
+        "He said it as a sort of joke",
+        "He said it doubtfully, half unsure",
+        "He said it in a very loud voice"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 22,
+        "end": 43
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c16-s2-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A silk heart and a square of solder are enough to make a man happy",
+        "A tin man refuses the heart because it is only silk",
+        "A wizard admits to the Woodman that he is a humbug",
+        "The Lion decides he no longer wants any courage"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 19,
+        "end": 70
+      },
+      "pool": "retest"
+    }
+  ]
+}

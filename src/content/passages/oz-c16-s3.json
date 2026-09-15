@@ -1,0 +1,332 @@
+{
+  "id": "oz-c16-s3",
+  "title": "The Magic Art of the Great Humbug, part 3",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“Come in,” said Oz.",
+    "“I have come for my courage,” announced the Lion, entering the room.",
+    "“Very well,” answered the little man; “I will get it for you.”",
+    "He went to a cupboard and reaching up to a high shelf took down a square green bottle, the contents of which he poured into a green-gold dish, beautifully carved. Placing this before the Cowardly Lion, who sniffed at it as if he did not like it, the Wizard said:",
+    "“Drink.”",
+    "“What is it?” asked the Lion.",
+    "“Well,” answered Oz, “if it were inside of you, it would be courage. You know, of course, that courage is always inside one; so that this really cannot be called courage until you have swallowed it. Therefore I advise you to drink it as soon as possible.”",
+    "The Lion hesitated no longer, but drank till the dish was empty.",
+    "“How do you feel now?” asked Oz.",
+    "“Full of courage,” replied the Lion, who went joyfully back to his friends to tell them of his good fortune.",
+    "Oz, left to himself, smiled to think of his success in giving the Scarecrow and the Tin Woodman and the Lion exactly what they thought they wanted. “How can I help being a humbug,” he said, “when all these people make me do things that everybody knows can’t be done? It was easy to make the Scarecrow and the Lion and the Woodman happy, because they imagined I could do anything. But it will take more than imagination to carry Dorothy back to Kansas, and I’m sure I don’t know how it can be done.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c16-s3-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did Oz keep the courage?",
+      "options": [
+        "In a square green bottle on a high shelf",
+        "In a chest of drawers by the throne",
+        "In a golden pot covered with a plate",
+        "In the back room with the bran"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 54,
+        "end": 85
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c16-s3-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did he pour the contents into?",
+      "options": [
+        "A green-gold dish, beautifully carved",
+        "A plain tin cup from the kitchen",
+        "The Tin Woodman's own oil-can",
+        "A bowl of thick green glass"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 87,
+        "end": 141
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c16-s3-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Lion first react to it?",
+      "options": [
+        "He sniffed at it as if he did not like it",
+        "He drank it down at once without asking",
+        "He refused to come near the dish at all",
+        "He asked what such a drink had cost"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 202,
+        "end": 244
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c16-s3-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Lion say when asked how he felt?",
+      "options": [
+        "Full of courage",
+        "Rather sick",
+        "No different at all",
+        "Frightened still"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 0,
+        "end": 35
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c16-s3-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who did Oz find it easy to satisfy?",
+      "options": [
+        "The Scarecrow, the Tin Woodman, and the Lion",
+        "Dorothy and her little dog Toto only",
+        "All four of the travellers, without exception",
+        "Nobody at all among them so far"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 52,
+        "end": 146
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c16-s3-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is Oz's argument for drinking it?",
+      "options": [
+        "Courage is always inside one, so it must be swallowed first",
+        "The drink will not keep once it is poured out",
+        "It works only if taken before noon",
+        "The dish must be returned to the cupboard"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 69,
+        "end": 123
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c16-s3-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Oz say he cannot help being a humbug?",
+      "options": [
+        "People ask him to do things everyone knows cannot be done",
+        "He was trained as a ventriloquist and cannot stop",
+        "The Witches would destroy him if he told the truth",
+        "His people would never believe the truth anyway"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 191,
+        "end": 265
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c16-s3-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why were the three so easy to satisfy?",
+      "options": [
+        "They imagined he could do anything",
+        "They asked for very small things",
+        "They never checked what he gave them",
+        "They were afraid to complain"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 337,
+        "end": 378
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c16-s3-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does hesitated no longer mean?",
+      "options": [
+        "He stopped holding back and acted",
+        "He refused to wait for an answer",
+        "He grew angry and spoke out",
+        "He asked one more question first"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 28
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c16-s3-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "Three wishes granted by belief, and one that belief cannot solve",
+        "A wizard who finally admits he can do nothing at all",
+        "A lion who refuses to drink and stays a coward",
+        "A plan to carry Dorothy across the desert at last"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 380,
+        "end": 450
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c16-s3-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion say when he entered?",
+      "options": [
+        "That he had come for his courage",
+        "That he no longer needed anything",
+        "That the Scarecrow had sent him",
+        "That he would not drink anything"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 1,
+        "end": 27
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c16-s3-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how much of the dish did the Lion drink?",
+      "options": [
+        "All of it, till the dish was empty",
+        "Only a little, and left the rest",
+        "None at all",
+        "Half, and gave the rest to Toto"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 30,
+        "end": 63
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c16-s3-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Oz do when he was left alone?",
+      "options": [
+        "Smiled to think of his success",
+        "Wept over his own dishonesty",
+        "Began at once to build a balloon",
+        "Sent for Dorothy immediately"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 0,
+        "end": 51
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c16-s3-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the Lion feel as he left?",
+      "options": [
+        "Joyful, and eager to tell his friends",
+        "Doubtful about what he had swallowed",
+        "Ashamed at having hesitated",
+        "Angry at the taste of the drink"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 37,
+        "end": 74
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c16-s3-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what problem does Oz admit he cannot solve?",
+      "options": [
+        "How to carry Dorothy back to Kansas",
+        "How to make the Lion truly brave",
+        "How to keep his secret any longer",
+        "How to leave the Palace unseen"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 452,
+        "end": 496
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c16-s3-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does imagination refer to?",
+      "options": [
+        "What the three believed he could do",
+        "The pictures in the green books",
+        "The stories Oz told about himself",
+        "The dreams Dorothy had at night"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 380,
+        "end": 418
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c16-s3-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A green drink finishes the easy wishes and leaves the hard one",
+        "A wizard confesses to the Lion that the drink is nothing",
+        "The Lion refuses the courage and leaves the city",
+        "Dorothy is told that she must stay in Oz forever"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 149,
+        "end": 178
+      },
+      "pool": "retest"
+    }
+  ]
+}
