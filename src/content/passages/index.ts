@@ -12,6 +12,7 @@ import frankensteinCreationScene from "./frankenstein-creation-scene.json";
 import covalentBonding from "./covalent-bonding.json";
 import descartesDiscourseGoodSense from "./descartes-discourse-good-sense.json";
 import giftOfTheMagiOpening from "./gift-of-the-magi-opening.json";
+import internationalSpaceStationHistory from "./international-space-station-history.json";
 import goldenGateBridgeHistory from "./golden-gate-bridge-history.json";
 import hooverDamHistory from "./hoover-dam-history.json";
 import meditationsRusticusApollonius from "./meditations-rusticus-apollonius.json";
@@ -54,6 +55,7 @@ export const rawPassages: unknown[] = [
   descartesDiscourseGoodSense,
   giftOfTheMagiOpening,
   goldenGateBridgeHistory,
+  internationalSpaceStationHistory,
   bostonTeaParty,
   storyOfAnHour,
   stampAct1765,

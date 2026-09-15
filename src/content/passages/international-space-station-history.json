@@ -1,0 +1,324 @@
+{
+  "id": "international-space-station-history",
+  "title": "The Longest Continuous Human Presence",
+  "language": "en",
+  "source": "https://en.wikipedia.org/wiki/International_Space_Station",
+  "attribution": "Adapted (trimmed) from the Wikipedia article \"International Space Station,\" available under CC BY-SA 4.0.",
+  "licence": "CC BY-SA 4.0",
+  "textType": "expository",
+  "domain": "engineering",
+  "calibrationOnly": false,
+  "body": [
+    "The International Space Station (ISS) is a space station in low Earth orbit. It is operated by five partner space agencies: NASA (United States), Roscosmos (Russia), ESA (Europe), JAXA (Japan), and CSA (Canada). It is the first space station built, maintained and crewed through international cooperation and the largest human spacecraft ever constructed. Since 2 November 2000, it has hosted the longest continuous human presence in space.",
+    "The station orbits between 51.64 degrees north and south, at about 400 kilometres (250 miles) above Earth, below the Van Allen radiation belts and most space debris. Its orbit takes it at 7.67 km/s (27,600 km/h; 17,200 mph) roughly every 93 minutes around Earth, 15.5 times a day. Measuring 109 m (358 ft) with solar arrays by 73 m (239 ft), it is as large as a full-sized football field.",
+    "The station is a modular space station divided into two main sections: the Russian Orbital Segment, developed by Roscosmos, and the US Orbital Segment, built by NASA, ESA, JAXA, and CSA. In total, the station consists of 43 different modules and elements. The first ISS module was launched in 1998, and long-term occupancy began with the arrival of the Expedition 1 crew on 2 November 2000."
+  ],
+  "questions": [
+    {
+      "id": "international-space-station-history-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many partner space agencies operate the International Space Station?",
+      "options": [
+        "Five",
+        "Two",
+        "Ten",
+        "Three"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 77,
+        "end": 210
+      },
+      "pool": "first"
+    },
+    {
+      "id": "international-space-station-history-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, which space agency represents Japan?",
+      "options": [
+        "JAXA",
+        "ESA",
+        "CSA",
+        "Roscosmos"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 180,
+        "end": 192
+      },
+      "pool": "first"
+    },
+    {
+      "id": "international-space-station-history-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, since what date has the ISS hosted the longest continuous human presence in space?",
+      "options": [
+        "November 2, 2000",
+        "July 4, 1998",
+        "January 1, 2000",
+        "October 31, 2000"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 356,
+        "end": 439
+      },
+      "pool": "first"
+    },
+    {
+      "id": "international-space-station-history-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, about how far above Earth does the ISS orbit?",
+      "options": [
+        "About 400 kilometres (250 miles)",
+        "About 40 kilometres (25 miles)",
+        "About 4,000 kilometres (2,500 miles)",
+        "About 100 kilometres (62 miles)"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 58,
+        "end": 164
+      },
+      "pool": "first"
+    },
+    {
+      "id": "international-space-station-history-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many times a day does the ISS orbit Earth?",
+      "options": [
+        "15.5 times",
+        "1 time",
+        "93 times",
+        "7.67 times"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 224,
+        "end": 279
+      },
+      "pool": "first"
+    },
+    {
+      "id": "international-space-station-history-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how many different modules and elements does the station consist of in total?",
+      "options": [
+        "43",
+        "5",
+        "16",
+        "100"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 187,
+        "end": 254
+      },
+      "pool": "first"
+    },
+    {
+      "id": "international-space-station-history-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the ISS orbit \"below the Van Allen radiation belts and most space debris\"?",
+      "options": [
+        "To reduce astronauts' exposure to harmful radiation and lower the risk of collisions with debris",
+        "To make the station more visible from Earth at night",
+        "To allow it to communicate directly with the Moon",
+        "To keep its solar panels charged at all times"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 58,
+        "end": 164
+      },
+      "pool": "first"
+    },
+    {
+      "id": "international-space-station-history-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the ISS considered \"the first space station built, maintained and crewed through international cooperation\"?",
+      "options": [
+        "It required continuous cooperation among five separate national space agencies rather than being run by a single nation",
+        "It was the very first object ever placed into orbit around Earth",
+        "It was built entirely without any government funding",
+        "It was designed to operate without any human crew at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 212,
+        "end": 354
+      },
+      "pool": "first"
+    },
+    {
+      "id": "international-space-station-history-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "The ISS is a large, internationally operated space station that has maintained a continuous human presence in orbit since 2000",
+        "The ISS is a small research satellite with no crew aboard",
+        "The ISS was built and is operated entirely by a single country",
+        "The ISS has been unoccupied since it was first launched"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 212,
+        "end": 354
+      },
+      "pool": "first"
+    },
+    {
+      "id": "international-space-station-history-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the ISS is a \"modular\" space station?",
+      "options": [
+        "It is built from separate, connectable sections rather than as a single unbroken structure",
+        "It can only be assembled and disassembled on Earth",
+        "It changes its orbit every few months",
+        "It is powered entirely by a single large engine"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 69
+      },
+      "pool": "first"
+    },
+    {
+      "id": "international-space-station-history-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, which country does Roscosmos represent?",
+      "options": [
+        "Russia",
+        "Canada",
+        "Japan",
+        "The United States"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 146,
+        "end": 164
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "international-space-station-history-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, in what year was the first ISS module launched?",
+      "options": [
+        "1998",
+        "2000",
+        "1990",
+        "2010"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 256,
+        "end": 297
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "international-space-station-history-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, at what speed does the ISS orbit?",
+      "options": [
+        "7.67 km/s (27,600 km/h; 17,200 mph)",
+        "1 km/s (3,600 km/h; 2,237 mph)",
+        "50 km/s (180,000 km/h; 111,847 mph)",
+        "0.5 km/s (1,800 km/h; 1,118 mph)"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 166,
+        "end": 261
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "international-space-station-history-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, to what is the size of the ISS compared?",
+      "options": [
+        "A full-sized football field",
+        "A small city block",
+        "A single-family house",
+        "A large shopping mall"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 342,
+        "end": 387
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "international-space-station-history-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author mention that the station is divided into a Russian Orbital Segment and a US Orbital Segment?",
+      "options": [
+        "To show that separately built national segments were integrated into one continuously operated international station",
+        "To argue that the two segments operate completely independently of each other",
+        "To suggest that the segments were built by competing rather than cooperating nations",
+        "To prove that only two countries were involved in building the ISS"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 71,
+        "end": 185
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "international-space-station-history-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what the passage says about the ISS's structure?",
+      "options": [
+        "It is a large, modular station built from dozens of connected sections contributed by different space agencies",
+        "It is a single, uninterrupted structure launched all at once in 1998",
+        "It has no internal divisions or separate modules of any kind",
+        "It was built entirely by one agency and later shared with others"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 187,
+        "end": 254
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "international-space-station-history-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the ISS has hosted the longest \"continuous\" human presence in space?",
+      "options": [
+        "Unbroken and uninterrupted since it began",
+        "Occurring only once a year",
+        "Limited to a single astronaut at a time",
+        "Planned but not yet actually achieved"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 356,
+        "end": 439
+      },
+      "pool": "retest"
+    }
+  ]
+}
