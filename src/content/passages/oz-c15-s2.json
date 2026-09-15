@@ -1,0 +1,335 @@
+{
+  "id": "oz-c15-s2",
+  "title": "The Discovery of Oz, the Terrible, part 2",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "The four travelers passed a sleepless night, each thinking of the gift Oz had promised to bestow on him. Dorothy fell asleep only once, and then she dreamed she was in Kansas, where Aunt Em was telling her how glad she was to have her little girl at home again.",
+    "Promptly at nine o’clock the next morning the green-whiskered soldier came to them, and four minutes later they all went into the Throne Room of the Great Oz.",
+    "Of course each one of them expected to see the Wizard in the shape he had taken before, and all were greatly surprised when they looked about and saw no one at all in the room. They kept close to the door and closer to one another, for the stillness of the empty room was more dreadful than any of the forms they had seen Oz take.",
+    "Presently they heard a solemn Voice, that seemed to come from somewhere near the top of the great dome, and it said:",
+    "“I am Oz, the Great and Terrible. Why do you seek me?”",
+    "They looked again in every part of the room, and then, seeing no one, Dorothy asked, “Where are you?”",
+    "“I am everywhere,” answered the Voice, “but to the eyes of common mortals I am invisible. I will now seat myself upon my throne, that you may converse with me.” Indeed, the Voice seemed just then to come straight from the throne itself; so they walked toward it and stood in a row while Dorothy said:",
+    "“We have come to claim our promise, O Oz.”",
+    "“What promise?” asked Oz.",
+    "“You promised to send me back to Kansas when the Wicked Witch was destroyed,” said the girl.",
+    "“And you promised to give me brains,” said the Scarecrow.",
+    "“And you promised to give me a heart,” said the Tin Woodman.",
+    "“And you promised to give me courage,” said the Cowardly Lion.",
+    "“Is the Wicked Witch really destroyed?” asked the Voice, and Dorothy thought it trembled a little."
+  ],
+  "questions": [
+    {
+      "id": "oz-c15-s2-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy dream?",
+      "options": [
+        "That she was in Kansas with Aunt Em",
+        "That the Wizard had refused them",
+        "That the Witch had come back to life",
+        "That the Monkeys carried her home"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 145,
+        "end": 174
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s2-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did they find in the Throne Room?",
+      "options": [
+        "No one at all",
+        "The great Head on the throne",
+        "The lovely Lady waiting",
+        "A Ball of Fire burning"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 142,
+        "end": 175
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s2-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the Voice seem to come from?",
+      "options": [
+        "Near the top of the great dome",
+        "Behind the screen in the corner",
+        "From under the green marble throne",
+        "From outside the closed door"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 37,
+        "end": 102
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s2-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Voice say about being seen?",
+      "options": [
+        "That to common mortals he is invisible",
+        "That he had gone away for a time",
+        "That only Dorothy could see him",
+        "That the spectacles hid him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 40,
+        "end": 88
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s2-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy say they had come for?",
+      "options": [
+        "To claim their promise",
+        "To ask for another favour",
+        "To report the Witch's death only",
+        "To say goodbye to the city"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 1,
+        "end": 41
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s2-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was the empty room so dreadful to them?",
+      "options": [
+        "The stillness was worse than any shape Oz had taken",
+        "They feared the Wizard had already gone",
+        "They thought the Monkeys had destroyed him",
+        "The room was darker than it had been before"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 232,
+        "end": 285
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s2-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did Dorothy notice in the Voice's last question?",
+      "options": [
+        "That it seemed to tremble a little",
+        "That it came from a different place",
+        "That it had grown much louder",
+        "That it spoke in a woman's tone"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 57,
+        "end": 97
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s2-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the four spend the night before?",
+      "options": [
+        "Sleepless, each thinking of his promised gift",
+        "Soundly asleep after their long journey",
+        "Arguing about what to ask the Wizard",
+        "Preparing to leave the city at dawn"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 43
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s2-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does converse with me mean?",
+      "options": [
+        "Talk with me",
+        "Argue with me",
+        "Travel with me",
+        "Bargain with me"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 129,
+        "end": 158
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s2-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "An audience with a Wizard who cannot be seen, and four claims made",
+        "An audience in which the Wizard grants every wish at once",
+        "A discovery that the Throne Room has been abandoned",
+        "A quarrel between the four about who should speak first"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 54
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s2-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, at what hour did the soldier come for them?",
+      "options": [
+        "Promptly at nine o'clock",
+        "Four minutes after nine",
+        "At sunrise that morning",
+        "At noon exactly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 74
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s2-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, where did the Voice say it would seat itself?",
+      "options": [
+        "Upon the throne",
+        "Behind the corner screen",
+        "At the top of the dome",
+        "Beside the little door"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 90,
+        "end": 127
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s2-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what had Aunt Em said in the dream?",
+      "options": [
+        "How glad she was to have her little girl home",
+        "That Dorothy must never leave the farm again",
+        "That the house had been rebuilt at last",
+        "That Uncle Henry had gone to look for her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 176,
+        "end": 260
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s2-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the four behave in the empty room?",
+      "options": [
+        "Kept close to the door and close to one another",
+        "Spread out to search every corner at once",
+        "Sat down on the floor to wait",
+        "Called out for the Wizard by name"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 177,
+        "end": 230
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s2-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what had each of them expected to see?",
+      "options": [
+        "The shape Oz had taken for him before",
+        "The little old man behind the screen",
+        "An empty room with nobody in it",
+        "All four shapes of Oz at once"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 10,
+        "end": 86
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s2-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does solemn describe about the Voice?",
+      "options": [
+        "Grave and serious in tone",
+        "Loud enough to shake the dome",
+        "Kindly and welcoming",
+        "Weak and hard to hear"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 35
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s2-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Four promises are claimed from a voice with no body to be seen",
+        "Four travellers find the Throne Room empty and leave again",
+        "The Wizard appears in a fifth shape none of them expected",
+        "Dorothy alone is admitted while the others wait outside"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 237,
+        "end": 280
+      },
+      "pool": "retest"
+    }
+  ]
+}

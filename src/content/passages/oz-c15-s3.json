@@ -1,0 +1,328 @@
+{
+  "id": "oz-c15-s3",
+  "title": "The Discovery of Oz, the Terrible, part 3",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“Yes,” she answered, “I melted her with a bucket of water.”",
+    "“Dear me,” said the Voice, “how sudden! Well, come to me tomorrow, for I must have time to think it over.”",
+    "“You’ve had plenty of time already,” said the Tin Woodman angrily.",
+    "“We shan’t wait a day longer,” said the Scarecrow.",
+    "“You must keep your promises to us!” exclaimed Dorothy.",
+    "The Lion thought it might be as well to frighten the Wizard, so he gave a large, loud roar, which was so fierce and dreadful that Toto jumped away from him in alarm and tipped over the screen that stood in a corner. As it fell with a crash they looked that way, and the next moment all of them were filled with wonder. For they saw, standing in just the spot the screen had hidden, a little old man, with a bald head and a wrinkled face, who seemed to be as much surprised as they were. The Tin Woodman, raising his axe, rushed toward the little man and cried out, “Who are you?”",
+    "“I am Oz, the Great and Terrible,” said the little man, in a trembling voice. “But don’t strike me—please don’t—and I’ll do anything you want me to.”",
+    "Our friends looked at him in surprise and dismay.",
+    "“I thought Oz was a great Head,” said Dorothy.",
+    "“And I thought Oz was a lovely Lady,” said the Scarecrow.",
+    "“And I thought Oz was a terrible Beast,” said the Tin Woodman.",
+    "“And I thought Oz was a Ball of Fire,” exclaimed the Lion.",
+    "“No, you are all wrong,” said the little man meekly. “I have been making believe.”",
+    "“Making believe!” cried Dorothy. “Are you not a Great Wizard?”",
+    "“Hush, my dear,” he said. “Don’t speak so loud, or you will be overheard—and I should be ruined. I’m supposed to be a Great Wizard.”",
+    "“And aren’t you?” she asked.",
+    "“Not a bit of it, my dear; I’m just a common man.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c15-s3-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what tipped over the screen?",
+      "options": [
+        "Toto, jumping away from the Lion's roar",
+        "The Tin Woodman's swinging axe",
+        "A gust of wind from the open door",
+        "The Scarecrow stumbling against it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 130,
+        "end": 191
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s3-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was standing where the screen had been?",
+      "options": [
+        "A little old man with a bald head",
+        "A great painted Head on a wire",
+        "A ball of cotton soaked in oil",
+        "Nothing at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 382,
+        "end": 436
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s3-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Tin Woodman do?",
+      "options": [
+        "Rushed at the little man with his axe raised",
+        "Ran straight out of the Throne Room",
+        "Laughed until his jaws began to rust",
+        "Knelt down before the little old man"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 504,
+        "end": 549
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s3-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the little man beg them not to do?",
+      "options": [
+        "Strike him",
+        "Tell the people",
+        "Leave the city",
+        "Call the Monkeys"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 79,
+        "end": 98
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s3-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the little man call himself at the end?",
+      "options": [
+        "Just a common man",
+        "A very great Wizard",
+        "A servant of the real Oz",
+        "The King of the Winkies"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 16,
+        "start": 27,
+        "end": 48
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s3-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Lion roar just then?",
+      "options": [
+        "He thought it might frighten the Wizard into keeping his word",
+        "He had been startled by the Voice from the dome",
+        "He was angry at Toto for knocking the screen",
+        "He wanted to prove he had found his courage"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 0,
+        "end": 59
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s3-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what do the four different answers show?",
+      "options": [
+        "Each of them had met Oz in a different shape",
+        "None of them had really seen Oz at all",
+        "They could not agree on what they saw",
+        "The Wizard had lied to only one of them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 0,
+        "end": 46
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s3-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the little man ask Dorothy to speak quietly?",
+      "options": [
+        "If he were overheard he would be ruined",
+        "The Voice would drown out her words",
+        "He was hard of hearing in that room",
+        "The soldier was listening at the door"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 14,
+        "start": 27,
+        "end": 72
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s3-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does making believe mean?",
+      "options": [
+        "Pretending to be something he is not",
+        "Persuading people by argument",
+        "Believing something without proof",
+        "Making promises he cannot keep"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 54,
+        "end": 81
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s3-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "An accident with a screen exposes the Wizard as an ordinary man",
+        "The Wizard appears in yet another terrible shape",
+        "The Tin Woodman destroys the Wizard with his axe",
+        "The travellers agree to wait one more day"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 49
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s3-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did Dorothy say she melted the Witch?",
+      "options": [
+        "With a bucket of water",
+        "With the silver shoes",
+        "With the Golden Cap",
+        "With the Woodman's axe"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 22,
+        "end": 57
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s3-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Voice ask for when it heard the news?",
+      "options": [
+        "Time to think it over until tomorrow",
+        "Proof that the Witch was dead",
+        "The Golden Cap as payment",
+        "The travellers to leave the city"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 67,
+        "end": 104
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s3-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who said they would not wait a day longer?",
+      "options": ["The Scarecrow", "The Tin Woodman", "Dorothy", "The Lion"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 50
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s3-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the little man react to being found?",
+      "options": [
+        "He trembled and offered to do anything they wanted",
+        "He ordered them out of the Throne Room",
+        "He vanished behind the screen again",
+        "He laughed at their astonishment"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 35,
+        "end": 76
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s3-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what was the Tin Woodman's tone when he objected to waiting?",
+      "options": ["Angry", "Amused", "Frightened", "Sorrowful"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 37,
+        "end": 65
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s3-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does dismay mean?",
+      "options": [
+        "Dismayed shock at what they found",
+        "Delight at a happy surprise",
+        "Boredom at a long wait",
+        "Anger at being kept waiting"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 49
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s3-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A roar, a fallen screen, and the end of a long pretence",
+        "A bargain struck between the travellers and the Wizard",
+        "A fight in which the Wizard is driven from his throne",
+        "A decision to give the Wizard one more day"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 0,
+        "end": 32
+      },
+      "pool": "retest"
+    }
+  ]
+}

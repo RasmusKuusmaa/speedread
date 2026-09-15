@@ -1,0 +1,325 @@
+{
+  "id": "oz-c15-s8",
+  "title": "The Discovery of Oz, the Terrible, part 8",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“Very well,” answered Oz meekly. “Come to me tomorrow and you shall have a heart. I have played Wizard for so many years that I may as well continue the part a little longer.”",
+    "“And now,” said Dorothy, “how am I to get back to Kansas?”",
+    "“We shall have to think about that,” replied the little man. “Give me two or three days to consider the matter and I’ll try to find a way to carry you over the desert. In the meantime you shall all be treated as my guests, and while you live in the Palace my people will wait upon you and obey your slightest wish. There is only one thing I ask in return for my help—such as it is. You must keep my secret and tell no one I am a humbug.”",
+    "They agreed to say nothing of what they had learned, and went back to their rooms in high spirits. Even Dorothy had hope that “The Great and Terrible Humbug,” as she called him, would find a way to send her back to Kansas, and if he did she was willing to forgive him everything."
+  ],
+  "questions": [
+    {
+      "id": "oz-c15-s8-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Oz ask in return for his help?",
+      "options": [
+        "That they keep his secret and tell no one",
+        "That they give back the Golden Cap",
+        "That they stay in the Palace for a year",
+        "That they never speak to him again"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 382,
+        "end": 436
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s8-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how long does Oz ask for to think about Kansas?",
+      "options": [
+        "Two or three days",
+        "A single night",
+        "A whole month",
+        "Until the spring"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 62,
+        "end": 110
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s8-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Oz say about carrying Dorothy?",
+      "options": [
+        "He will try to find a way over the desert",
+        "He will send the Winged Monkeys with her",
+        "He cannot possibly help her at all",
+        "He will go with her as far as Omaha"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 115,
+        "end": 166
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s8-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how will they live in the meantime?",
+      "options": [
+        "As his guests, waited on by his people",
+        "As servants in the Palace kitchens",
+        "In an inn in the city streets",
+        "Camped outside the green wall"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 184,
+        "end": 221
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s8-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what name does Dorothy give him?",
+      "options": [
+        "The Great and Terrible Humbug",
+        "The Little Old Man of Omaha",
+        "The Wizard of the Green Glasses",
+        "The Very Bad Wizard"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 159,
+        "end": 176
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s8-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Oz agree to give the Woodman a heart?",
+      "options": [
+        "He may as well play the Wizard a little longer",
+        "He has found a real heart in his cupboard",
+        "The Woodman threatened him with his axe",
+        "Dorothy insisted that he keep his promise"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 82,
+        "end": 157
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s8-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the four feel as they went back to their rooms?",
+      "options": [
+        "In high spirits",
+        "Bitterly disappointed",
+        "Angry with the Wizard",
+        "Frightened of being overheard"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 53,
+        "end": 97
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s8-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, on what condition would Dorothy forgive him everything?",
+      "options": [
+        "If he found a way to send her back to Kansas",
+        "If he told his people the truth about himself",
+        "If he gave her friends their gifts first",
+        "If he came with them across the desert"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 223,
+        "end": 278
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s8-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does meekly describe about Oz's answer?",
+      "options": [
+        "Given quietly, without any resistance",
+        "Given proudly, as a great favour",
+        "Given angrily, after an argument",
+        "Given slowly, after long thought"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 13,
+        "end": 31
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s8-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A bargain of secrecy for gifts, and hope restored on both sides",
+        "A refusal that leaves the travellers with nothing",
+        "A quarrel in which the Wizard is exposed to his people",
+        "A decision to leave the Emerald City that same night"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 315,
+        "end": 366
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s8-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did they agree to do?",
+      "options": [
+        "Say nothing of what they had learned",
+        "Leave the city within three days",
+        "Give the Wizard back the Golden Cap",
+        "Tell the people the whole truth"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 51
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s8-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what will the Wizard's people do for them?",
+      "options": [
+        "Wait upon them and obey their slightest wish",
+        "Guard them until the Wizard decides",
+        "Show them the road across the desert",
+        "Make them each a suit of green clothes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 256,
+        "end": 313
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s8-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when is the Woodman to come for his heart?",
+      "options": [
+        "Tomorrow",
+        "That same evening",
+        "In two or three days",
+        "After Dorothy leaves"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 34,
+        "end": 81
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s8-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is the desert the obstacle to?",
+      "options": [
+        "Getting Dorothy back to Kansas",
+        "Reaching the Winkie country",
+        "Finding the Witch of the South",
+        "Sending the Monkeys home"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 115,
+        "end": 166
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s8-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Dorothy's nickname for Oz suggest?",
+      "options": [
+        "She now sees the grand title and the fraud together",
+        "She still believes he is a great and terrible wizard",
+        "She has decided never to speak to him again",
+        "She thinks he is more dangerous than the Witches"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 99,
+        "end": 158
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s8-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does in high spirits mean?",
+      "options": [
+        "Cheerful and hopeful again",
+        "Angry and ready to argue",
+        "Tired out but relieved",
+        "Frightened of what comes next"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 53,
+        "end": 97
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s8-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A secret kept in exchange for gifts, and hope for the journey home",
+        "A wizard who admits he can do nothing for any of them",
+        "A plan to cross the desert agreed on that same day",
+        "A quarrel about whether to tell the people the truth"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 58
+      },
+      "pool": "retest"
+    }
+  ]
+}

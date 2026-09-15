@@ -1,0 +1,322 @@
+{
+  "id": "oz-c15-s5",
+  "title": "The Discovery of Oz, the Terrible, part 5",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“Really,” said the Scarecrow, “you ought to be ashamed of yourself for being such a humbug.”",
+    "“I am—I certainly am,” answered the little man sorrowfully; “but it was the only thing I could do. Sit down, please, there are plenty of chairs; and I will tell you my story.”",
+    "So they sat down and listened while he told the following tale.",
+    "“I was born in Omaha—”",
+    "“Why, that isn’t very far from Kansas!” cried Dorothy.",
+    "“No, but it’s farther from here,” he said, shaking his head at her sadly. “When I grew up I became a ventriloquist, and at that I was very well trained by a great master. I can imitate any kind of a bird or beast.” Here he mewed so like a kitten that Toto pricked up his ears and looked everywhere to see where she was. “After a time,” continued Oz, “I tired of that, and became a balloonist.”",
+    "“What is that?” asked Dorothy.",
+    "“A man who goes up in a balloon on circus day, so as to draw a crowd of people together and get them to pay to see the circus,” he explained.",
+    "“Oh,” she said, “I know.”",
+    "“Well, one day I went up in a balloon and the ropes got twisted, so that I couldn’t come down again. It went way up above the clouds, so far that a current of air struck it and carried it many, many miles away. For a day and a night I traveled through the air, and on the morning of the second day I awoke and found the balloon floating over a strange and beautiful country.",
+    "“It came down gradually, and I was not hurt a bit. But I found myself in the midst of a strange people, who, seeing me come from the clouds, thought I was a great Wizard. Of course I let them think so, because they were afraid of me, and promised to do anything I wished them to."
+  ],
+  "questions": [
+    {
+      "id": "oz-c15-s5-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where was Oz born?",
+      "options": [
+        "Omaha",
+        "Kansas",
+        "The Emerald City",
+        "The Land of the North"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 1,
+        "end": 20
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s5-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was his first trade?",
+      "options": ["Ventriloquist", "Balloonist", "Tinsmith", "Circus rider"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 75,
+        "end": 114
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s5-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did he become after that?",
+      "options": ["A balloonist", "A ventriloquist", "A farmer", "A soldier"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 351,
+        "end": 391
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s5-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what went wrong with the balloon?",
+      "options": [
+        "The ropes got twisted so he could not come down",
+        "It caught fire above the circus crowd",
+        "A storm tore the silk apart",
+        "He fell out of it over the desert"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 7,
+        "end": 63
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s5-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how long did he travel through the air?",
+      "options": [
+        "A day and a night",
+        "Three days and nights",
+        "A week",
+        "Only an hour"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 211,
+        "end": 259
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s5-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the people take him for a Wizard?",
+      "options": [
+        "He had come down to them out of the clouds",
+        "He told them so as soon as he landed",
+        "He could imitate any bird or beast",
+        "He arrived wearing a wizard's robes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 104,
+        "end": 169
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s5-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did he let them go on believing it?",
+      "options": [
+        "They were afraid of him and promised to do anything he wished",
+        "He was too badly hurt to explain the truth",
+        "He could not speak their language at first",
+        "The Witches had ordered him to keep the secret"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 202,
+        "end": 278
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s5-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what proof of his skill does he give in the room?",
+      "options": [
+        "He mews so like a kitten that Toto looks for it",
+        "He throws his voice up into the dome again",
+        "He makes the great Head speak once more",
+        "He lights the Ball of Fire for them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 215,
+        "end": 245
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s5-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what is a balloonist?",
+      "options": [
+        "A man who goes up in a balloon to draw a crowd",
+        "A man who makes balloons for circuses",
+        "A man who studies the currents of the air",
+        "A man who travels the world by balloon"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 1,
+        "end": 45
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s5-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "An ordinary showman's accident is how the Wizard came to Oz",
+        "A great wizard explains where his powers came from",
+        "A man from Omaha is put on trial by the travellers",
+        "Dorothy discovers that Oz comes from Kansas itself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 145,
+        "end": 173
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s5-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy say about Omaha?",
+      "options": [
+        "That it is not very far from Kansas",
+        "That she had never heard of it",
+        "That her uncle once lived there",
+        "That it lies beyond the desert"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 1,
+        "end": 38
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s5-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how did Oz answer that?",
+      "options": [
+        "That it is farther from here",
+        "That he had forgotten the way",
+        "That Kansas does not exist",
+        "That he would take her there"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 1,
+        "end": 31
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s5-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what could Oz imitate?",
+      "options": [
+        "Any kind of bird or beast",
+        "The voices of the four Witches",
+        "The roar of the Cowardly Lion only",
+        "Nothing but a kitten's mew"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 171,
+        "end": 213
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s5-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how was he trained as a ventriloquist?",
+      "options": [
+        "Very well, by a great master",
+        "Entirely by himself",
+        "By the people of the Emerald City",
+        "By a travelling circus troupe"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 116,
+        "end": 169
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s5-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the balloon come down in Oz?",
+      "options": [
+        "Gradually, so that he was not hurt at all",
+        "With a crash that broke his leg",
+        "Into the middle of a deep river",
+        "On the roof of a ruby palace"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 1,
+        "end": 50
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s5-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does a current of air mean?",
+      "options": [
+        "A stream of moving air that carried him",
+        "A sudden storm of wind and rain",
+        "The cold air high above the clouds",
+        "The still air at the storm's centre"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 134,
+        "end": 172
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s5-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A showman blown off course becomes a wizard by mistake",
+        "A wizard explains how he learned his magic arts",
+        "A man from Omaha tries to return home by balloon",
+        "The travellers refuse to listen to the Wizard's story"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 63
+      },
+      "pool": "retest"
+    }
+  ]
+}

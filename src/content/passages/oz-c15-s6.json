@@ -1,0 +1,320 @@
+{
+  "id": "oz-c15-s6",
+  "title": "The Discovery of Oz, the Terrible, part 6",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“Just to amuse myself, and keep the good people busy, I ordered them to build this City, and my Palace; and they did it all willingly and well. Then I thought, as the country was so green and beautiful, I would call it the Emerald City; and to make the name fit better I put green spectacles on all the people, so that everything they saw was green.”",
+    "“But isn’t everything here green?” asked Dorothy.",
+    "“No more than in any other city,” replied Oz; “but when you wear green spectacles, why of course everything you see looks green to you. The Emerald City was built a great many years ago, for I was a young man when the balloon brought me here, and I am a very old man now. But my people have worn green glasses on their eyes so long that most of them think it really is an Emerald City, and it certainly is a beautiful place, abounding in jewels and precious metals, and every good thing that is needed to make one happy. I have been good to the people, and they like me; but ever since this Palace was built, I have shut myself up and would not see any of them.",
+    "“One of my greatest fears was the Witches, for while I had no magical powers at all I soon found out that the Witches were really able to do wonderful things. There were four of them in this country, and they ruled the people who live in the North and South and East and West. Fortunately, the Witches of the North and South were good, and I knew they would do me no harm; but the Witches of the East and West were terribly wicked, and had they not thought I was more powerful than they themselves, they would surely have destroyed me. As it was, I lived in deadly fear of them for many years; so you can imagine how pleased I was when I heard your house had fallen on the Wicked Witch of the East. When you came to me, I was willing to promise anything if you would only do away with the other Witch; but, now that you have melted her, I am ashamed to say that I cannot keep my promises.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c15-s6-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Oz order the people to build?",
+      "options": [
+        "The City and his Palace",
+        "A great wall around the country",
+        "A road of yellow brick",
+        "A balloon to carry him home"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 54,
+        "end": 102
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s6-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why did he put green spectacles on everyone?",
+      "options": [
+        "To make the name Emerald City fit better",
+        "To keep them from being blinded",
+        "Because the Witches demanded it",
+        "So that they could not see him plainly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 237,
+        "end": 309
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s6-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how green is the city really?",
+      "options": [
+        "No more than any other city",
+        "Greener than any place on earth",
+        "Green only in the Palace itself",
+        "Green only when the sun shines"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 1,
+        "end": 31
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s6-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how many Witches were there in the country?",
+      "options": ["Four", "Two", "Three", "Six"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 159,
+        "end": 198
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s6-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Oz fear most?",
+      "options": [
+        "The Witches",
+        "The Winged Monkeys",
+        "His own people",
+        "The great desert"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 1,
+        "end": 41
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s6-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was he safe from the wicked Witches for so long?",
+      "options": [
+        "They thought he was more powerful than they were",
+        "He kept the Golden Cap locked in his Palace",
+        "The good Witches had promised to defend him",
+        "He never once left the Emerald City"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 436,
+        "end": 497
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s6-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was he so pleased about the house falling?",
+      "options": [
+        "It destroyed one of the two Witches he feared",
+        "It brought Dorothy and the silver shoes to him",
+        "It proved that his own magic was working",
+        "It frightened his people into obeying him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 594,
+        "end": 665
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s6-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why do his people think the city really is emerald?",
+      "options": [
+        "They have worn green glasses so long they believe it",
+        "The Wizard has told them so every year",
+        "The city truly is built of emeralds",
+        "None of them has ever left the city"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 272,
+        "end": 331
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s6-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does abounding in jewels mean?",
+      "options": [
+        "Full of them, in great plenty",
+        "Short of them, and always wanting more",
+        "Trading in them with other countries",
+        "Built entirely out of them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 425,
+        "end": 464
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s6-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "The city's green and its ruler's power are both made of glass",
+        "A wizard explains how he defeated the four Witches",
+        "A city is built by magic in a single night's work",
+        "The Wizard promises to keep every promise he made"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 837,
+        "end": 887
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s6-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, which Witches were good?",
+      "options": [
+        "Those of the North and South",
+        "Those of the East and West",
+        "Those of the North and East",
+        "None of the four"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 290,
+        "end": 334
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s6-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how old was Oz when the balloon brought him?",
+      "options": [
+        "A young man",
+        "A boy of ten",
+        "Already old",
+        "He does not say"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 187,
+        "end": 241
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s6-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what has Oz done ever since the Palace was built?",
+      "options": [
+        "Shut himself up and refused to see his people",
+        "Travelled the four countries in secret",
+        "Taught the people to make green glass",
+        "Kept watch for the Wicked Witches"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 609,
+        "end": 660
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s6-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did he get the city built?",
+      "options": [
+        "The people did it all willingly and well",
+        "He forced them to it with threats",
+        "The Winged Monkeys built it for him",
+        "He hired workmen from the Munchkin country"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 104,
+        "end": 142
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s6-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did Oz find out about the Witches' powers?",
+      "options": [
+        "That they really could do wonderful things, unlike him",
+        "That they were as powerless as he was himself",
+        "That they could be defeated with green glass",
+        "That they were afraid of the Winged Monkeys"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 84,
+        "end": 157
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s6-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does deadly fear mean?",
+      "options": [
+        "Fear so great it ruled his life",
+        "Fear of dying by poison",
+        "Fear that came only at night",
+        "Fear he kept entirely hidden"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 547,
+        "end": 592
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s6-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "The green city and the fearful man who invented it",
+        "A wizard's long war against the four Witches",
+        "An account of how the Winkies were enslaved",
+        "A promise that Dorothy will be sent home at once"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 51,
+        "end": 127
+      },
+      "pool": "retest"
+    }
+  ]
+}

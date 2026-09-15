@@ -1,0 +1,334 @@
+{
+  "id": "oz-c15-s1",
+  "title": "The Discovery of Oz, the Terrible, part 1",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "The four travelers walked up to the great gate of Emerald City and rang the bell. After ringing several times, it was opened by the same Guardian of the Gates they had met before.",
+    "“What! are you back again?” he asked, in surprise.",
+    "“Do you not see us?” answered the Scarecrow.",
+    "“But I thought you had gone to visit the Wicked Witch of the West.”",
+    "“We did visit her,” said the Scarecrow.",
+    "“And she let you go again?” asked the man, in wonder.",
+    "“She could not help it, for she is melted,” explained the Scarecrow.",
+    "“Melted! Well, that is good news, indeed,” said the man. “Who melted her?”",
+    "“It was Dorothy,” said the Lion gravely.",
+    "“Good gracious!” exclaimed the man, and he bowed very low indeed before her.",
+    "Then he led them into his little room and locked the spectacles from the great box on all their eyes, just as he had done before. Afterward they passed on through the gate into the Emerald City. When the people heard from the Guardian of the Gates that Dorothy had melted the Wicked Witch of the West, they all gathered around the travelers and followed them in a great crowd to the Palace of Oz.",
+    "The soldier with the green whiskers was still on guard before the door, but he let them in at once, and they were again met by the beautiful green girl, who showed each of them to their old rooms at once, so they might rest until the Great Oz was ready to receive them.",
+    "The soldier had the news carried straight to Oz that Dorothy and the other travelers had come back again, after destroying the Wicked Witch; but Oz made no reply. They thought the Great Wizard would send for them at once, but he did not. They had no word from him the next day, nor the next, nor the next. The waiting was tiresome and wearing, and at last they grew vexed that Oz should treat them in so poor a fashion, after sending them to undergo hardships and slavery. So the Scarecrow at last asked the green girl to take another message to Oz, saying if he did not let them in to see him at once they would call the Winged Monkeys to help them, and find out whether he kept his promises or not. When the Wizard was given this message he was so frightened that he sent word for them to come to the Throne Room at four minutes after nine o’clock the next morning. He had once met the Winged Monkeys in the Land of the West, and he did not wish to meet them again."
+  ],
+  "questions": [
+    {
+      "id": "oz-c15-s1-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who opened the great gate to them?",
+      "options": [
+        "The same Guardian of the Gates as before",
+        "The soldier with the green whiskers",
+        "The green girl with green hair",
+        "Nobody; the gate stood open"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 111,
+        "end": 178
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s1-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who told the Guardian that Dorothy had melted the Witch?",
+      "options": [
+        "The Lion",
+        "The Scarecrow",
+        "Dorothy herself",
+        "The Tin Woodman"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 0,
+        "end": 40
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s1-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the people do when they heard the news?",
+      "options": [
+        "Gathered round and followed them to the Palace",
+        "Shut their doors and hid indoors",
+        "Demanded that the travellers leave the city",
+        "Took off their green spectacles in the street"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 302,
+        "end": 375
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s1-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how long did they wait without word from Oz?",
+      "options": [
+        "That day and three more",
+        "Only until the following morning",
+        "A full week and a day",
+        "Less than an hour"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 238,
+        "end": 305
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s1-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when did Oz finally agree to see them?",
+      "options": [
+        "Four minutes after nine the next morning",
+        "At noon on the very same day",
+        "At sunset on the third day of waiting",
+        "He never named an hour at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 788,
+        "end": 866
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s1-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what finally moved the Wizard to see them?",
+      "options": [
+        "A threat to call the Winged Monkeys",
+        "The crowd gathering at the Palace",
+        "The Lion's roaring at the door",
+        "A gift Dorothy sent in to him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 602,
+        "end": 649
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s1-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did that threat work so well?",
+      "options": [
+        "He had met the Monkeys in the West and did not want to again",
+        "He had no magic left to defend the Palace",
+        "The Monkeys were the rulers of the city",
+        "He had promised Gayelette never to face them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 868,
+        "end": 926
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s1-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the travellers grow vexed?",
+      "options": [
+        "Oz treated them poorly after sending them into danger",
+        "The green girl refused to carry their messages",
+        "The city crowds would not leave them alone",
+        "Their old rooms had been given to others"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 420,
+        "end": 471
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s1-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the Guardian's bowing very low indeed show?",
+      "options": [
+        "New respect for Dorothy after the news",
+        "Fear that she would melt him too",
+        "That he had known her secret all along",
+        "A habit he had with every visitor"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 36,
+        "end": 75
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s1-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A triumphant return meets days of silence, broken only by a threat",
+        "A triumphant return is rewarded at once by the Wizard",
+        "The city refuses to believe the Wicked Witch is dead",
+        "The Guardian of the Gates bars them from the city"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 306,
+        "end": 342
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s1-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Guardian do before letting them through?",
+      "options": [
+        "Locked the green spectacles on all their eyes",
+        "Sent word ahead to the Wizard in his Palace",
+        "Asked to see the Witch's silver shoe as proof",
+        "Made them wipe their feet on the green mat"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 42,
+        "end": 100
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s1-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who showed them to their old rooms?",
+      "options": [
+        "The beautiful green girl",
+        "The Guardian of the Gates",
+        "The soldier with the green whiskers",
+        "The Wizard himself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 104,
+        "end": 151
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s1-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did Oz answer the first message?",
+      "options": [
+        "He made no reply at all",
+        "He sent word to come at once",
+        "He asked for proof of the Witch's death",
+        "He ordered them out of the city"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 141,
+        "end": 161
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s1-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was the Guardian so surprised to see them?",
+      "options": [
+        "He had thought the Wicked Witch would never let them go",
+        "He had been told they were killed on the road",
+        "He did not recognise them without their spectacles",
+        "He believed the city gates had been locked"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 0,
+        "end": 53
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s1-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Scarecrow's message demand?",
+      "options": [
+        "To be let in at once, or the Monkeys would be called",
+        "That the Wizard come out to meet them in the street",
+        "That the promises be put into writing first",
+        "That the green girl speak to Oz on their behalf"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 550,
+        "end": 601
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s1-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does vexed mean?",
+      "options": [
+        "Annoyed and out of patience",
+        "Frightened and uncertain",
+        "Tired out from travelling",
+        "Eager to begin again"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 348,
+        "end": 371
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s1-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A welcome from the city, and a long silence from its ruler",
+        "A refusal at the gate that keeps them out of the city",
+        "A celebration in which the Wizard joins the crowd",
+        "A decision to leave the Emerald City for good"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 163,
+        "end": 220
+      },
+      "pool": "retest"
+    }
+  ]
+}

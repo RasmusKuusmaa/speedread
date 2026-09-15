@@ -1,0 +1,330 @@
+{
+  "id": "oz-c15-s4",
+  "title": "The Discovery of Oz, the Terrible, part 4",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“You’re more than that,” said the Scarecrow, in a grieved tone; “you’re a humbug.”",
+    "“Exactly so!” declared the little man, rubbing his hands together as if it pleased him. “I am a humbug.”",
+    "“But this is terrible,” said the Tin Woodman. “How shall I ever get my heart?”",
+    "“Or I my courage?” asked the Lion.",
+    "“Or I my brains?” wailed the Scarecrow, wiping the tears from his eyes with his coat sleeve.",
+    "“My dear friends,” said Oz, “I pray you not to speak of these little things. Think of me, and the terrible trouble I’m in at being found out.”",
+    "“Doesn’t anyone else know you’re a humbug?” asked Dorothy.",
+    "“No one knows it but you four—and myself,” replied Oz. “I have fooled everyone so long that I thought I should never be found out. It was a great mistake my ever letting you into the Throne Room. Usually I will not see even my subjects, and so they believe I am something terrible.”",
+    "“But, I don’t understand,” said Dorothy, in bewilderment. “How was it that you appeared to me as a great Head?”",
+    "“That was one of my tricks,” answered Oz. “Step this way, please, and I will tell you all about it.”",
+    "He led the way to a small chamber in the rear of the Throne Room, and they all followed him. He pointed to one corner, in which lay the great Head, made out of many thicknesses of paper, and with a carefully painted face.",
+    "“This I hung from the ceiling by a wire,” said Oz. “I stood behind the screen and pulled a thread, to make the eyes move and the mouth open.”",
+    "“But how about the voice?” she inquired.",
+    "“Oh, I am a ventriloquist,” said the little man. “I can throw the sound of my voice wherever I wish, so that you thought it was coming out of the Head. Here are the other things I used to deceive you.” He showed the Scarecrow the dress and the mask he had worn when he seemed to be the lovely Lady. And the Tin Woodman saw that his terrible Beast was nothing but a lot of skins, sewn together, with slats to keep their sides out. As for the Ball of Fire, the false Wizard had hung that also from the ceiling. It was really a ball of cotton, but when oil was poured upon it the ball burned fiercely."
+  ],
+  "questions": [
+    {
+      "id": "oz-c15-s4-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Scarecrow call Oz?",
+      "options": ["A humbug", "A coward", "A thief", "A wizard still"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 25,
+        "end": 62
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s4-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who knows that Oz is a humbug?",
+      "options": [
+        "Only the four travellers and himself",
+        "Everyone in the Emerald City",
+        "The green girl and the soldier",
+        "The Witches of the four countries"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 1,
+        "end": 40
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s4-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the great Head made of?",
+      "options": [
+        "Many thicknesses of paper, with a painted face",
+        "Carved green marble set with emeralds",
+        "Skins sewn together over wooden slats",
+        "A ball of cotton soaked in oil"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 119,
+        "end": 185
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s4-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was the terrible Beast really?",
+      "options": [
+        "Skins sewn together, with slats inside them",
+        "A hanging Head worked by hidden threads",
+        "A costume of green silk gauze and a mask",
+        "A ball of cotton hung from the ceiling"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 347,
+        "end": 392
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s4-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what made the Ball of Fire burn?",
+      "options": [
+        "Oil poured on a ball of cotton",
+        "A lamp hidden behind the throne",
+        "A mirror that caught the sunlight",
+        "Green glass lit from below"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 509,
+        "end": 572
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s4-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did Oz make the Head seem alive?",
+      "options": [
+        "He hung it by a wire and pulled threads from behind the screen",
+        "He stood inside it and spoke through its mouth",
+        "He worked it with the help of the green girl",
+        "He used real magic on that one occasion"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 52,
+        "end": 97
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s4-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the voice seem to come from the Head?",
+      "options": [
+        "Oz is a ventriloquist and can throw his voice",
+        "A speaking tube ran up through the wire",
+        "The dome echoed whatever he whispered",
+        "The green girl spoke from the chamber behind"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 1,
+        "end": 25
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s4-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Oz call his great mistake?",
+      "options": [
+        "Ever letting them into the Throne Room",
+        "Promising to send Dorothy back to Kansas",
+        "Building the Emerald City in the first place",
+        "Fighting against the Wicked Witch of the West"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 131,
+        "end": 195
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s4-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does humbug mean?",
+      "options": [
+        "Someone who deceives people by pretending",
+        "Someone who has lost his powers",
+        "Someone who talks too much",
+        "Someone who breaks his promises"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 37
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s4-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "The Wizard shows the plain machinery behind every terrible shape",
+        "The Wizard insists that his magic is real after all",
+        "The travellers forgive the Wizard and ask nothing more",
+        "The Scarecrow is given his brains at once"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 152,
+        "end": 200
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s4-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Scarecrow wipe his eyes with?",
+      "options": [
+        "His coat sleeve",
+        "Dorothy's apron",
+        "The Lion's tail",
+        "A green handkerchief"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 40,
+        "end": 91
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s4-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does Oz beg them to think about?",
+      "options": [
+        "The terrible trouble he is in at being found out",
+        "The long years he has ruled the city well",
+        "The danger the Witches still present",
+        "The journey they have just completed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 90,
+        "end": 140
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s4-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why do his subjects think him terrible?",
+      "options": [
+        "Because he will not see even them",
+        "Because he keeps the Golden Cap",
+        "Because he built the city by magic",
+        "Because the Witches fear him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 196,
+        "end": 235
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s4-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, where did Oz take them to explain?",
+      "options": [
+        "A small chamber behind the Throne Room",
+        "Out into the streets of the city",
+        "Up to the top of the great dome",
+        "To the room where the green girl slept"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 0,
+        "end": 64
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s4-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what had the Scarecrow seen that was explained by a dress and mask?",
+      "options": [
+        "The lovely Lady",
+        "The great Head",
+        "The terrible Beast",
+        "The Ball of Fire"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 202,
+        "end": 260
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s4-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does bewilderment describe about Dorothy?",
+      "options": [
+        "Complete confusion at what she has heard",
+        "Anger at having been tricked",
+        "Pity for the little old man",
+        "Relief that the danger is over"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 27,
+        "end": 56
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s4-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Every marvel turns out to be paper, cloth, cotton, and a trick voice",
+        "The Wizard proves that his magic was real after all",
+        "The travellers decide to expose the Wizard to his people",
+        "The Wizard promises to grant all four wishes at once"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 0,
+        "end": 41
+      },
+      "pool": "retest"
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "id": "oz-c15-s7",
+  "title": "The Discovery of Oz, the Terrible, part 7",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“I think you are a very bad man,” said Dorothy.",
+    "“Oh, no, my dear; I’m really a very good man, but I’m a very bad Wizard, I must admit.”",
+    "“Can’t you give me brains?” asked the Scarecrow.",
+    "“You don’t need them. You are learning something every day. A baby has brains, but it doesn’t know much. Experience is the only thing that brings knowledge, and the longer you are on earth the more experience you are sure to get.”",
+    "“That may all be true,” said the Scarecrow, “but I shall be very unhappy unless you give me brains.”",
+    "The false Wizard looked at him carefully.",
+    "“Well,” he said with a sigh, “I’m not much of a magician, as I said; but if you will come to me tomorrow morning, I will stuff your head with brains. I cannot tell you how to use them, however; you must find that out for yourself.”",
+    "“Oh, thank you—thank you!” cried the Scarecrow. “I’ll find a way to use them, never fear!”",
+    "“But how about my courage?” asked the Lion anxiously.",
+    "“You have plenty of courage, I am sure,” answered Oz. “All you need is confidence in yourself. There is no living thing that is not afraid when it faces danger. The True courage is in facing danger when you are afraid, and that kind of courage you have in plenty.”",
+    "“Perhaps I have, but I’m scared just the same,” said the Lion. “I shall really be very unhappy unless you give me the sort of courage that makes one forget he is afraid.”",
+    "“Very well, I will give you that sort of courage tomorrow,” replied Oz.",
+    "“How about my heart?” asked the Tin Woodman.",
+    "“Why, as for that,” answered Oz, “I think you are wrong to want a heart. It makes most people unhappy. If you only knew it, you are in luck not to have a heart.”",
+    "“That must be a matter of opinion,” said the Tin Woodman. “For my part, I will bear all the unhappiness without a murmur, if you will give me the heart.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c15-s7-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does Oz describe himself to Dorothy?",
+      "options": [
+        "A very good man, but a very bad Wizard",
+        "A very bad man and a worse Wizard",
+        "A great Wizard who has lost his powers",
+        "An honest man who never lied"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 18,
+        "end": 71
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s7-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does Oz say brings knowledge?",
+      "options": ["Experience", "Brains", "Courage", "Good advice"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 105,
+        "end": 155
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s7-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Oz say the Lion really needs?",
+      "options": [
+        "Confidence in himself",
+        "A heart to go with his courage",
+        "A rest after the long journey",
+        "Brains to know when to run"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 55,
+        "end": 94
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s7-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does Oz say about hearts?",
+      "options": [
+        "They make most people unhappy",
+        "They are the hardest thing to make",
+        "They cannot be given to a man of tin",
+        "They are worth more than brains"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 73,
+        "end": 102
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s7-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what will Oz do for the Scarecrow tomorrow?",
+      "options": [
+        "Stuff his head with brains",
+        "Teach him how to use his brains",
+        "Send him back to his cornfield",
+        "Give him a heart instead"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 114,
+        "end": 148
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s7-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is Oz's definition of true courage?",
+      "options": [
+        "Facing danger even while you are afraid",
+        "Never feeling any fear at all",
+        "Roaring loudly enough to frighten others",
+        "Refusing to admit that you are afraid"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 161,
+        "end": 217
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s7-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Scarecrow still want brains?",
+      "options": [
+        "He will be unhappy without them, whatever Oz says",
+        "He does not believe a word the Wizard says",
+        "He has been promised them by the Witch",
+        "He wants to be wiser than the Tin Woodman"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 45,
+        "end": 98
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s7-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Tin Woodman answer about unhappiness?",
+      "options": [
+        "He will bear it without a murmur if he can have the heart",
+        "He does not believe hearts cause any unhappiness",
+        "He would rather have brains after all",
+        "He will ask the Witch of the North instead"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 14,
+        "start": 72,
+        "end": 120
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s7-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does Oz mean by calling himself not much of a magician?",
+      "options": [
+        "He admits he has very little real skill",
+        "He is being modest about great powers",
+        "He has forgotten the magic he once knew",
+        "He works only small magic, not great"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 30,
+        "end": 67
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s7-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A humbug argues that each already has what he asks for, then agrees anyway",
+        "A humbug refuses every request the travellers make",
+        "The travellers decide they do not need the Wizard's gifts",
+        "The Wizard reveals that he has real magic after all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 1,
+        "end": 57
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c15-s7-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Dorothy call Oz?",
+      "options": [
+        "A very bad man",
+        "A very good wizard",
+        "A clever humbug",
+        "An old friend"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 1,
+        "end": 31
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s7-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does Oz say a baby has?",
+      "options": [
+        "Brains, though it does not know much",
+        "Courage, though it cannot walk",
+        "A heart, though it cannot love",
+        "Experience, though it is young"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 60,
+        "end": 104
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s7-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what will Oz not be able to tell the Scarecrow?",
+      "options": [
+        "How to use the brains he is given",
+        "Where the brains are kept",
+        "When the brains will start working",
+        "Whether the brains will last"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 150,
+        "end": 192
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s7-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Lion say about Oz's reassurance?",
+      "options": [
+        "That he is scared just the same, whatever Oz says",
+        "That he has felt braver ever since the Witch died",
+        "That he never needed courage in the first place",
+        "That he would rather have brains than courage"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 1,
+        "end": 45
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s7-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what sort of courage does the Lion want?",
+      "options": [
+        "The sort that makes one forget he is afraid",
+        "The sort that lets him fight without claws",
+        "The sort the Witch of the West possessed",
+        "The sort that comes only with experience"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 114,
+        "end": 168
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s7-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does without a murmur mean?",
+      "options": [
+        "Without complaining at all",
+        "Without saying it aloud",
+        "Without a sound of any kind",
+        "Without much hope of success"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 14,
+        "start": 72,
+        "end": 120
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c15-s7-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Sensible advice is offered, refused, and the gifts are promised anyway",
+        "The Wizard proves that none of them needs anything at all",
+        "The travellers give up their requests and go home",
+        "The Wizard gives out the gifts on the spot"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 0,
+        "end": 41
+      },
+      "pool": "retest"
+    }
+  ]
+}
