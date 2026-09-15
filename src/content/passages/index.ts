@@ -1,4 +1,5 @@
 import aliceDownTheRabbitHole from "./alice-down-the-rabbit-hole.json";
+import aristotleNicomacheanVirtueHabit from "./aristotle-nicomachean-virtue-habit.json";
 import baconOfAdversity from "./bacon-of-adversity.json";
 import baconOfStudies from "./bacon-of-studies.json";
 import baconOfTruth from "./bacon-of-truth.json";
@@ -48,6 +49,7 @@ import wrightFlyerHistory from "./wright-flyer-history.json";
 
 export const rawPassages: unknown[] = [
   aliceDownTheRabbitHole,
+  aristotleNicomacheanVirtueHabit,
   baconOfTruth,
   baconOfAdversity,
   baconOfStudies,

@@ -1,0 +1,324 @@
+{
+  "id": "aristotle-nicomachean-virtue-habit",
+  "title": "By Doing Just Actions We Come to Be Just",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/8438",
+  "attribution": "Excerpted verbatim from The Nicomachean Ethics of Aristotle (Project Gutenberg edition).",
+  "licence": "Public domain",
+  "textType": "expository",
+  "domain": "philosophy",
+  "calibrationOnly": false,
+  "body": [
+    "Again, in whatever cases we get things by nature, we get the faculties first and perform the acts of working afterwards; an illustration of which is afforded by the case of our bodily senses, for it was not from having often seen or heard that we got these senses, but just the reverse: we had them and so exercised them, but did not have them because we had exercised them. But the Virtues we get by first performing single acts of working, which, again, is the case of other things, as the arts for instance; for what we have to make when we have learned how, these we learn how to make by making: men come to be builders, for instance, by building; harp-players, by playing on the harp: exactly so, by doing just actions we come to be just; by doing the actions of self-mastery we come to be perfected in self-mastery; and by doing brave actions brave.",
+    "And to the truth of this testimony is borne by what takes place in communities: because the law-givers make the individual members good men by habituation, and this is the intention certainly of every law-giver, and all who do not effect it well fail of their intent; and herein consists the difference between a good Constitution and a bad.",
+    "So too then is it with the Virtues: for by acting in the various relations in which we are thrown with our fellow men, we come to be, some just, some unjust: and by acting in dangerous positions and being habituated to feel fear or confidence, we come to be, some brave, others cowards."
+  ],
+  "questions": [
+    {
+      "id": "aristotle-nicomachean-virtue-habit-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in cases where we get things by nature, in what order do we acquire faculties versus performing acts of working?",
+      "options": [
+        "We get the faculties first and perform the acts of working afterwards",
+        "We perform the acts of working first and get the faculties afterwards",
+        "Faculties and acts of working always appear at exactly the same time",
+        "The order differs randomly from person to person"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 50,
+        "end": 119
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aristotle-nicomachean-virtue-habit-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what example does the author use to illustrate getting a faculty before exercising it?",
+      "options": [
+        "Our bodily senses, such as sight and hearing",
+        "The skill of playing the harp",
+        "The trade of building houses",
+        "The virtue of bravery in battle"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 121,
+        "end": 190
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aristotle-nicomachean-virtue-habit-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how do men come to be builders?",
+      "options": [
+        "By building",
+        "By studying architecture books",
+        "By watching other builders work",
+        "By being born with the skill"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 600,
+        "end": 650
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aristotle-nicomachean-virtue-habit-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how do men come to be harp-players?",
+      "options": [
+        "By playing on the harp",
+        "By listening to harp music",
+        "By reading about harp technique",
+        "By being taught music theory alone"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 652,
+        "end": 688
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aristotle-nicomachean-virtue-habit-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do law-givers use to make individual members of a community good men?",
+      "options": [
+        "Habituation",
+        "Punishment alone",
+        "Wealth and reward",
+        "Public praise alone"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 80,
+        "end": 154
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aristotle-nicomachean-virtue-habit-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, in what does the difference between a good Constitution and a bad one consist?",
+      "options": [
+        "Whether the law-giver succeeds or fails at instilling good habits in citizens",
+        "The number of laws a Constitution contains",
+        "The wealth of the nation that adopts it",
+        "The age of the Constitution itself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 216,
+        "end": 340
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aristotle-nicomachean-virtue-habit-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author say the Virtues are unlike the bodily senses in how they are acquired?",
+      "options": [
+        "With virtues we must first perform the actions before the corresponding quality exists in us, reversing the usual order for natural faculties",
+        "Virtues, like the senses, exist in us from birth without any effort",
+        "The bodily senses require years of practice to develop fully",
+        "Virtues can only be learned by reading philosophical texts"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 379,
+        "end": 440
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aristotle-nicomachean-virtue-habit-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author compare becoming virtuous to becoming a builder or harp-player?",
+      "options": [
+        "To show that virtue, like a craft or skill, develops through repeated practice rather than existing from birth",
+        "To argue that virtue and craftsmanship have nothing meaningful in common",
+        "To suggest that only skilled builders can become virtuous",
+        "To prove that virtue requires formal schooling in a trade"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 690,
+        "end": 742
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aristotle-nicomachean-virtue-habit-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "Virtue is formed through the repeated practice of virtuous actions, just as skills and even good citizens are shaped through habituation",
+        "Virtue is an inborn trait that cannot be changed through practice",
+        "Only law-givers are capable of becoming truly virtuous",
+        "Virtue has nothing to do with a person's actions or habits"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 690,
+        "end": 854
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aristotle-nicomachean-virtue-habit-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does \"habituation\" mean?",
+      "options": [
+        "The process of forming a habit through repeated practice",
+        "A formal law passed by a government",
+        "A punishment given for breaking the law",
+        "A natural talent present from birth"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 80,
+        "end": 154
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aristotle-nicomachean-virtue-habit-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, by doing what kind of actions do we come to be \"just\"?",
+      "options": [
+        "Just actions",
+        "Actions performed only by law-givers",
+        "Actions praised by a community",
+        "Actions taught only in schools"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 702,
+        "end": 742
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aristotle-nicomachean-virtue-habit-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, by doing what actions do we come to be \"perfected in self-mastery\"?",
+      "options": [
+        "The actions of self-mastery",
+        "The actions of building",
+        "The actions of playing the harp",
+        "The actions of law-making"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 744,
+        "end": 820
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aristotle-nicomachean-virtue-habit-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is described as \"the intention certainly of every law-giver\"?",
+      "options": [
+        "To make individual members good men by habituation",
+        "To collect taxes efficiently from citizens",
+        "To punish wrongdoers as severely as possible",
+        "To ensure that citizens remain wealthy"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 156,
+        "end": 210
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aristotle-nicomachean-virtue-habit-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what do we come to be by acting in dangerous positions and being habituated to feel fear or confidence?",
+      "options": [
+        "Some brave, others cowards",
+        "All equally fearless",
+        "All equally fearful",
+        "Neither brave nor cowardly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 158,
+        "end": 285
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aristotle-nicomachean-virtue-habit-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author bring up law-givers and communities right after discussing how individuals form habits?",
+      "options": [
+        "To extend the same principle from individuals to society, showing law-givers deliberately use habituation to shape citizens' character",
+        "To argue that communities have no influence on individual virtue at all",
+        "To show that law-givers are exempt from needing good habits themselves",
+        "To prove that virtue can only be taught by law-givers, never by parents"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 78
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aristotle-nicomachean-virtue-habit-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what the passage says about becoming just or unjust?",
+      "options": [
+        "We become just or unjust through how we habitually act toward other people in our various relations",
+        "Justice is decided entirely at birth and cannot change",
+        "Only law-givers can determine who is just or unjust",
+        "Justice depends solely on wealth and social status"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 36,
+        "end": 156
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aristotle-nicomachean-virtue-habit-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean to be \"habituated\" to feel fear or confidence?",
+      "options": [
+        "To become accustomed to a feeling through repeated experience",
+        "To feel a sudden, single, unexpected emotion",
+        "To be permanently unable to feel any emotion",
+        "To be legally required to feel a certain way"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 158,
+        "end": 242
+      },
+      "pool": "retest"
+    }
+  ]
+}
