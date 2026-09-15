@@ -628,12 +628,14 @@ export function SessionReader({
   mode,
   retestId,
   bookNavigation = null,
+  chunkPassageIds = [],
 }: {
   passage: PassageWithWordCounts;
   sessionContext: SessionContext;
   mode: SessionMode;
   retestId: string | null;
   bookNavigation?: BookNavigation | null;
+  chunkPassageIds?: string[];
 }) {
   const { store, update } = useStore();
   const [phase, setPhase] = useState<Phase>("start");
@@ -717,6 +719,7 @@ export function SessionReader({
       recallText: recallValue?.text ?? null,
       recallDepth: recallValue?.depth ?? recallDepth,
       unfinishedPageCount,
+      chunkPassageIds,
     };
     const newRetests =
       sessionContext === "practice" || sessionContext === "book"

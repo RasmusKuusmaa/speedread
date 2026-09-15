@@ -2,7 +2,7 @@ import { runMigrations } from "./migrations";
 import { normalizeStore, writeStore, type StorageResult } from "./storage";
 import type { Store } from "./types";
 
-const CURRENT_SCHEMA_VERSION = 1;
+const CURRENT_SCHEMA_VERSION = 2;
 
 function isStoreShape(value: unknown): value is Store {
   if (typeof value !== "object" || value === null) {
@@ -42,7 +42,7 @@ export function importStore(json: string): StorageResult<Store> {
     };
   }
 
-  const migrated = normalizeStore(runMigrations(parsed));
+  const migrated = runMigrations(normalizeStore(parsed));
 
   const writeResult = writeStore(migrated);
   if (!writeResult.ok) {

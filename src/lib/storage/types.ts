@@ -2,7 +2,7 @@ import type { DifficultyBand } from "@/lib/content/difficulty";
 import type { LengthBand } from "@/lib/content/length";
 import type { Domain, QuestionTaxonomy, TextType } from "@/lib/content/types";
 
-export type SchemaVersion = 1;
+export type SchemaVersion = 1 | 2;
 
 export interface PickerFilters {
   textType: TextType | "all";
@@ -51,6 +51,9 @@ export interface SessionRecord {
   recallText: string | null;
   recallDepth: RecallDepth;
   unfinishedPageCount: number;
+  // Book sections covered by this sitting, in reading order. Empty for
+  // sessions that did not come from a book.
+  chunkPassageIds: string[];
 }
 
 export interface RetestRecord {
@@ -69,11 +72,21 @@ export interface InProgressSession {
   startedAtEpochMs: number;
 }
 
+export interface BookChunkProgress {
+  passageId: string;
+  readCount: number;
+  lastReadAtEpochMs: number;
+  questionsAsked: number;
+  questionsCorrect: number;
+  totalElapsedMs: number;
+}
+
 export interface BookProgress {
   bookId: string;
   currentChunkIndex: number;
   startedAtEpochMs: number;
   completedAtEpochMs: number | null;
+  chunks: BookChunkProgress[];
 }
 
 export interface Store {

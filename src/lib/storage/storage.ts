@@ -1,3 +1,4 @@
+import { runMigrations } from "./migrations";
 import type { Store } from "./types";
 
 export const STORAGE_KEY = "reading-trainer";
@@ -49,7 +50,7 @@ export function writeStore(store: Store): StorageResult<void> {
 
 export function defaultStore(): Store {
   return {
-    schemaVersion: 1,
+    schemaVersion: 2,
     createdAt: new Date().toISOString(),
     settings: {
       pickerFilters: {
@@ -78,7 +79,9 @@ export function normalizeStore(store: Store): Store {
   const defaults = defaultStore();
   const candidate = store as Partial<Store>;
   return {
-    schemaVersion: candidate.schemaVersion ?? defaults.schemaVersion,
+    // A store with no version at all predates versioning, so it enters the
+    // migration chain at the bottom rather than being taken for a current one.
+    schemaVersion: candidate.schemaVersion ?? 1,
     createdAt: candidate.createdAt ?? defaults.createdAt,
     settings: {
       ...defaults.settings,
@@ -102,7 +105,7 @@ export function loadStore(): StorageResult<Store> {
     return result;
   }
   if (result.value !== null) {
-    return { ok: true, value: normalizeStore(result.value) };
+    return { ok: true, value: runMigrations(normalizeStore(result.value)) };
   }
 
   const seeded = defaultStore();

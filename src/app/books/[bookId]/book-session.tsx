@@ -43,6 +43,7 @@ export function BookSession({ book }: { book: BookWithChunks }) {
           {
             bookId: book.id,
             currentChunkIndex: nextIndex,
+            chunks: existing?.chunks ?? [],
             startedAtEpochMs: existing?.startedAtEpochMs ?? Date.now(),
             completedAtEpochMs:
               nextIndex >= book.chunks.length ? Date.now() : null,
