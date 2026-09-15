@@ -1,0 +1,324 @@
+{
+  "id": "seneca-benefits-in-general",
+  "title": "The Very Cement of All Communities",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/56075",
+  "attribution": "Excerpted verbatim from Seneca's Morals of a Happy Life, Benefits, Anger and Clemency, translated by Sir Roger L'Estrange (Project Gutenberg edition).",
+  "licence": "Public domain",
+  "textType": "expository",
+  "domain": "philosophy",
+  "calibrationOnly": false,
+  "body": [
+    "It is, perhaps, one of the most pernicious errors of a rash and inconsiderate life, the common ignorance of the world in the matter of exchanging benefits. And this arises from a mistake, partly in the person that we would oblige, and partly in the thing itself. To begin with the latter: \"A benefit is a good office, done with intention and judgment;\" that is to say, with a due regard to all the circumstances of what, how, why, when, where, to whom, how much, and the like; or otherwise: \"It is a voluntary and benevolent action that delights the giver in the comfort it brings to the receiver.\"",
+    "The very meditation of it breeds good blood and generous thoughts; and instructs us in honor, humanity, friendship, piety, gratitude, prudence, and justice. In short, the art and skill of conferring benefits is, of all human duties, the most absolutely necessary to the well-being, both of reasonable nature, and of every individual; as the very cement of all communities, and the blessing of particulars. He that does good to another man does good also to himself; not only in the consequence, but in the very act of doing it; for the conscience of well-doing is an ample reward.",
+    "Of benefits in general, there are several sorts; as necessary, profitable, and delightful. Some things there are, without which we cannot live; others without which we ought not to live; and some, again, without which we will not live. In the first rank are those which deliver us from capital dangers, or apprehensions of death: and the favor is rated according to the hazard; for the greater the extremity, the greater seems the obligation."
+  ],
+  "questions": [
+    {
+      "id": "seneca-benefits-in-general-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, from what two sources does the common ignorance about exchanging benefits arise?",
+      "options": [
+        "A mistake in the person we would oblige, and a mistake in the thing itself",
+        "A mistake in the law, and a mistake in religion",
+        "A mistake in wealth, and a mistake in poverty",
+        "A mistake in youth, and a mistake in old age"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 156,
+        "end": 261
+      },
+      "pool": "first"
+    },
+    {
+      "id": "seneca-benefits-in-general-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what is the first definition given for \"a benefit\"?",
+      "options": [
+        "A good office, done with intention and judgment",
+        "A gift of money given in secret",
+        "A promise made between two friends",
+        "A law passed by a ruler for the people"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 289,
+        "end": 352
+      },
+      "pool": "first"
+    },
+    {
+      "id": "seneca-benefits-in-general-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the second definition given for \"a benefit\"?",
+      "options": [
+        "A voluntary and benevolent action that delights the giver in the comfort it brings to the receiver",
+        "An obligation forced upon someone by law",
+        "A debt that must eventually be repaid with interest",
+        "A reward given only to the wealthy"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 491,
+        "end": 598
+      },
+      "pool": "first"
+    },
+    {
+      "id": "seneca-benefits-in-general-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the author say the art of conferring benefits serves as, for all communities?",
+      "options": [
+        "The very cement of all communities",
+        "A threat to all communities",
+        "An unnecessary luxury for communities",
+        "A burden upon all communities"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 334,
+        "end": 404
+      },
+      "pool": "first"
+    },
+    {
+      "id": "seneca-benefits-in-general-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, into what three sorts are benefits in general divided?",
+      "options": [
+        "Necessary, profitable, and delightful",
+        "Public, private, and secret",
+        "Ancient, modern, and future",
+        "Physical, mental, and spiritual"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 89
+      },
+      "pool": "first"
+    },
+    {
+      "id": "seneca-benefits-in-general-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, according to what is \"the favor\" of a benefit rated?",
+      "options": [
+        "According to the hazard, so greater danger means greater obligation",
+        "According to the wealth of the giver",
+        "According to the age of the receiver",
+        "According to how publicly the benefit is given"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 330,
+        "end": 441
+      },
+      "pool": "first"
+    },
+    {
+      "id": "seneca-benefits-in-general-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author say that \"he that does good to another man does good also to himself... in the very act of doing it\"?",
+      "options": [
+        "Doing good is inherently rewarding in itself, regardless of any external outcome or repayment",
+        "Helping others always leads to receiving money in return",
+        "People who do good deeds are eventually made rulers",
+        "Good deeds are only valuable if they are publicly recognized"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 466,
+        "end": 579
+      },
+      "pool": "first"
+    },
+    {
+      "id": "seneca-benefits-in-general-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author place benefits that \"deliver us from capital dangers, or apprehensions of death\" in \"the first rank\"?",
+      "options": [
+        "Preserving someone's life is considered the greatest possible favor, so the obligation scales with the severity of the danger",
+        "These benefits are the easiest for anyone to provide",
+        "These benefits cost the least amount of money to give",
+        "These benefits are given only by kings and rulers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 236,
+        "end": 328
+      },
+      "pool": "first"
+    },
+    {
+      "id": "seneca-benefits-in-general-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "Understanding and rightly exchanging benefits is essential to virtue and to holding society together, and benefits vary in kind and obligation",
+        "Benefits are worthless unless they involve money",
+        "Only the wealthy are capable of giving true benefits",
+        "The exchange of benefits has no real effect on society"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 167,
+        "end": 332
+      },
+      "pool": "first"
+    },
+    {
+      "id": "seneca-benefits-in-general-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean to call ignorance about benefits one of the most \"pernicious\" errors of life?",
+      "options": [
+        "Harmful or destructive",
+        "Amusing or entertaining",
+        "Rare or unusual",
+        "Forgivable or minor"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 16,
+        "end": 82
+      },
+      "pool": "first"
+    },
+    {
+      "id": "seneca-benefits-in-general-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the meditation on benefits breed in a person?",
+      "options": [
+        "Good blood and generous thoughts",
+        "Fear and suspicion of others",
+        "A desire for wealth and status",
+        "Confusion about right and wrong"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 65
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "seneca-benefits-in-general-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, in what seven qualities does meditating on benefits instruct us?",
+      "options": [
+        "Honor, humanity, friendship, piety, gratitude, prudence, and justice",
+        "Wealth, fame, power, beauty, speed, strength, and luck",
+        "Silence, secrecy, caution, doubt, fear, envy, and pride",
+        "Courage, ambition, cleverness, wit, charm, patience, and skill"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 71,
+        "end": 155
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "seneca-benefits-in-general-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what three categories describe the things we cannot, ought not, and will not live without?",
+      "options": [
+        "Categories of things people depend on to different degrees, none of them named individually in this passage",
+        "Food, water, and shelter specifically",
+        "Money, land, and livestock specifically",
+        "Books, tools, and weapons specifically"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 91,
+        "end": 234
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "seneca-benefits-in-general-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the author call the reward for the \"conscience of well-doing\"?",
+      "options": [
+        "An ample reward",
+        "A modest reward",
+        "An uncertain reward",
+        "A delayed reward"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 528,
+        "end": 579
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "seneca-benefits-in-general-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the author open by calling ignorance about exchanging benefits one of the \"most pernicious errors\" of life?",
+      "options": [
+        "He considers benefit-exchange central to virtue and society, so misunderstanding it damages both personal character and communal well-being",
+        "He believes that giving gifts is always a waste of money",
+        "He thinks that most people already understand benefits perfectly well",
+        "He wants to argue that benefits should never be exchanged at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 334,
+        "end": 404
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "seneca-benefits-in-general-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what the passage says about benefits given in the face of \"capital dangers\"?",
+      "options": [
+        "They are ranked highest in obligation because they rescue someone from death or grave danger",
+        "They are the least valuable kind of benefit a person can give",
+        "They are only meaningful if the receiver is wealthy",
+        "They are considered a burden rather than a favor"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 236,
+        "end": 328
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "seneca-benefits-in-general-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean for an action to be \"voluntary and benevolent\"?",
+      "options": [
+        "Freely chosen and motivated by kindness toward others",
+        "Required by law and motivated by fear of punishment",
+        "Accidental and without any clear motive",
+        "Paid for and motivated by profit"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 491,
+        "end": 598
+      },
+      "pool": "retest"
+    }
+  ]
+}

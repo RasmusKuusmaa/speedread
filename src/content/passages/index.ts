@@ -34,6 +34,7 @@ import secretGardenGreenPoints from "./secret-garden-green-points.json";
 import secretGardenHundredRooms from "./secret-garden-hundred-rooms.json";
 import secretGardenMistressContrary from "./secret-garden-mistress-contrary.json";
 import secretGardenSilentBungalow from "./secret-garden-silent-bungalow.json";
+import senecaBenefitsInGeneral from "./seneca-benefits-in-general.json";
 import sherlockHolmesObservation from "./sherlock-holmes-observation.json";
 import sonsAndDaughtersOfLiberty from "./sons-and-daughters-of-liberty.json";
 import stampAct1765 from "./stamp-act-1765.json";
@@ -79,6 +80,7 @@ export const rawPassages: unknown[] = [
   secretGardenMistressContrary,
   secretGardenSilentBungalow,
   secretGardenHundredRooms,
+  senecaBenefitsInGeneral,
   sherlockHolmesObservation,
   poeBlackCatWalledUp,
   poeWilliamWilsonSchool,
