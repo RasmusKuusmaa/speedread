@@ -1,0 +1,314 @@
+{
+  "id": "oz-c14-s4",
+  "title": "The Winged Monkeys, part 4",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“There lived here then, away at the North, a beautiful princess, who was also a powerful sorceress. All her magic was used to help the people, and she was never known to hurt anyone who was good. Her name was Gayelette, and she lived in a handsome palace built from great blocks of ruby. Everyone loved her, but her greatest sorrow was that she could find no one to love in return, since all the men were much too stupid and ugly to mate with one so beautiful and wise. At last, however, she found a boy who was handsome and manly and wise beyond his years. Gayelette made up her mind that when he grew to be a man she would make him her husband, so she took him to her ruby palace and used all her magic powers to make him as strong and good and lovely as any woman could wish. When he grew to manhood, Quelala, as he was called, was said to be the best and wisest man in all the land, while his manly beauty was so great that Gayelette loved him dearly, and hastened to make everything ready for the wedding.",
+    "“My grandfather was at that time the King of the Winged Monkeys which lived in the forest near Gayelette’s palace, and the old fellow loved a joke better than a good dinner. One day, just before the wedding, my grandfather was flying out with his band when he saw Quelala walking beside the river. He was dressed in a rich costume of pink silk and purple velvet, and my grandfather thought he would see what he could do. At his word the band flew down and seized Quelala, carried him in their arms until they were over the middle of the river, and then dropped him into the water.",
+    "“‘Swim out, my fine fellow,’ cried my grandfather, ‘and see if the water has spotted your clothes.’ Quelala was much too wise not to swim, and he was not in the least spoiled by all his good fortune. He laughed, when he came to the top of the water, and swam in to shore. But when Gayelette came running out to him she found his silks and velvet all ruined by the river."
+  ],
+  "questions": [
+    {
+      "id": "oz-c14-s4-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the princess's name?",
+      "options": ["Gayelette", "Quelala", "Glinda", "Gillikin"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 196,
+        "end": 218
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s4-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was her palace built from?",
+      "options": [
+        "Great blocks of ruby",
+        "Green marble and emeralds",
+        "Yellow brick and gold",
+        "Silver and white stone"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 224,
+        "end": 286
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s4-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was her greatest sorrow?",
+      "options": [
+        "She could find no one to love in return",
+        "Her magic could not heal the sick",
+        "The Monkeys mocked her wherever she went",
+        "Her palace stood too far north"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 308,
+        "end": 380
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s4-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was the young man called?",
+      "options": ["Quelala", "Gayelette", "Oz", "The King Crow"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 804,
+        "end": 829
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s4-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was Quelala wearing by the river?",
+      "options": [
+        "Pink silk and purple velvet",
+        "Green silk gauze",
+        "A plain brown travelling cloak",
+        "Nothing but a golden cap"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 298,
+        "end": 361
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s4-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the grandfather drop Quelala in the river?",
+      "options": [
+        "He loved a joke better than a good dinner",
+        "He had been ordered to do it by Gayelette",
+        "Quelala had thrown nuts at the Monkeys",
+        "He wanted to stop the wedding taking place"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 119,
+        "end": 172
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s4-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did Quelala take his ducking?",
+      "options": [
+        "He laughed and swam calmly to the shore",
+        "He shouted for Gayelette to punish them",
+        "He nearly drowned before help arrived",
+        "He swore never to forgive the Monkeys"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 200,
+        "end": 248
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s4-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what had Gayelette done with her magic?",
+      "options": [
+        "Used it to help people and never to harm the good",
+        "Used it to make herself the most beautiful in the land",
+        "Kept it hidden until she needed a husband",
+        "Given it away to the Winged Monkeys"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 100,
+        "end": 141
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s4-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does sorceress mean?",
+      "options": [
+        "A woman with magic powers",
+        "A woman who rules a kingdom",
+        "A woman who lives alone",
+        "A woman who cannot be harmed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 43,
+        "end": 98
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s4-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A prank played on a princess's bridegroom sets up what follows",
+        "A princess uses her magic to punish a wicked people",
+        "A young man refuses to marry the princess who raised him",
+        "The Monkeys are driven out of the forest by a sorceress"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 367,
+        "end": 419
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s4-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who was the King of the Winged Monkeys then?",
+      "options": [
+        "The speaker's grandfather",
+        "The speaker himself",
+        "Quelala, after his wedding",
+        "Gayelette's own brother"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 1,
+        "end": 63
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s4-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the grandfather call out to Quelala?",
+      "options": [
+        "To swim out and see if the water had spotted his clothes",
+        "To beg pardon for walking beside the river",
+        "To come back and be carried home again",
+        "To say nothing about it to Gayelette"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 52,
+        "end": 97
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s4-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Gayelette find when she ran out?",
+      "options": [
+        "His silks and velvet all ruined by the river",
+        "Quelala missing and the Monkeys gone",
+        "The Monkeys laughing on the bank",
+        "Her bridegroom unhurt and quite dry"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 315,
+        "end": 369
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s4-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why had Gayelette taken the boy to her palace?",
+      "options": [
+        "To raise him with magic until he was fit to marry",
+        "To keep him safe from the Winged Monkeys",
+        "Because his own family had cast him out",
+        "To teach him how to rule the North"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 647,
+        "end": 681
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s4-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what was said of Quelala when he grew up?",
+      "options": [
+        "That he was the best and wisest man in all the land",
+        "That he had grown proud on his good fortune",
+        "That he was afraid of the Winged Monkeys",
+        "That he wished to marry someone else"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 831,
+        "end": 885
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s4-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does spoiled describe about Quelala?",
+      "options": [
+        "Made vain or selfish by good fortune",
+        "Made wet by the river water",
+        "Made angry by the Monkeys' joke",
+        "Made ill by the cold water"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 139,
+        "end": 198
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s4-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A kind princess, a fine bridegroom, and a joke that goes too far",
+        "A princess who could find nobody to love at all",
+        "A young man who refuses to be helped by magic",
+        "The Monkeys' first meeting with the Wizard of Oz"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 174,
+        "end": 237
+      },
+      "pool": "retest"
+    }
+  ]
+}

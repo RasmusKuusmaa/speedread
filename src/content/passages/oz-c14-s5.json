@@ -1,0 +1,328 @@
+{
+  "id": "oz-c14-s5",
+  "title": "The Winged Monkeys, part 5",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“The princess was angry, and she knew, of course, who did it. She had all the Winged Monkeys brought before her, and she said at first that their wings should be tied and they should be treated as they had treated Quelala, and dropped in the river. But my grandfather pleaded hard, for he knew the Monkeys would drown in the river with their wings tied, and Quelala said a kind word for them also; so that Gayelette finally spared them, on condition that the Winged Monkeys should ever after do three times the bidding of the owner of the Golden Cap. This Cap had been made for a wedding present to Quelala, and it is said to have cost the princess half her kingdom. Of course my grandfather and all the other Monkeys at once agreed to the condition, and that is how it happens that we are three times the slaves of the owner of the Golden Cap, whosoever he may be.”",
+    "“And what became of them?” asked Dorothy, who had been greatly interested in the story.",
+    "“Quelala being the first owner of the Golden Cap,” replied the Monkey, “he was the first to lay his wishes upon us. As his bride could not bear the sight of us, he called us all to him in the forest after he had married her and ordered us always to keep where she could never again set eyes on a Winged Monkey, which we were glad to do, for we were all afraid of her.",
+    "“This was all we ever had to do until the Golden Cap fell into the hands of the Wicked Witch of the West, who made us enslave the Winkies, and afterward drive Oz himself out of the Land of the West. Now the Golden Cap is yours, and three times you have the right to lay your wishes upon us.”",
+    "As the Monkey King finished his story Dorothy looked down and saw the green, shining walls of the Emerald City before them. She wondered at the rapid flight of the Monkeys, but was glad the journey was over. The strange creatures set the travelers down carefully before the gate of the City, the King bowed low to Dorothy, and then flew swiftly away, followed by all his band.",
+    "“That was a good ride,” said the little girl.",
+    "“Yes, and a quick way out of our troubles,” replied the Lion. “How lucky it was you brought away that wonderful Cap!”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c14-s5-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Gayelette first say should be done to the Monkeys?",
+      "options": [
+        "Their wings tied and themselves dropped in the river",
+        "All of them driven out of her kingdom",
+        "Their King put to death as an example",
+        "Their forest burned to the ground"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 117,
+        "end": 166
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s5-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who spoke a kind word for the Monkeys?",
+      "options": [
+        "Quelala",
+        "The grandfather alone",
+        "The Wizard of Oz",
+        "Nobody at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 354,
+        "end": 396
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s5-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the condition Gayelette set?",
+      "options": [
+        "Three times obeying the owner of the Golden Cap",
+        "Never to fly over her kingdom again",
+        "To serve Quelala for the rest of their lives",
+        "To give up their wings for a hundred years"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 455,
+        "end": 549
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s5-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what had the Golden Cap been made for?",
+      "options": [
+        "A wedding present for Quelala",
+        "A crown for Gayelette herself",
+        "A gift to the King of the Monkeys",
+        "A prize in a contest of magic"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 551,
+        "end": 606
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s5-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was Quelala's own command to the Monkeys?",
+      "options": [
+        "To keep away where his bride could never see them",
+        "To serve him faithfully for three years",
+        "To carry him and Gayelette across the desert",
+        "To return the Cap to Gayelette at once"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 228,
+        "end": 309
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s5-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the grandfather plead so hard?",
+      "options": [
+        "Monkeys with tied wings would drown in the river",
+        "He was ashamed of the joke he had played",
+        "He hoped to be given the Golden Cap himself",
+        "He wanted Quelala to marry the princess"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 282,
+        "end": 352
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s5-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Wicked Witch use the Cap for?",
+      "options": [
+        "Enslaving the Winkies and driving out Oz",
+        "Building her castle in the Yellow Land",
+        "Making herself invisible to her enemies",
+        "Calling up her wolves, crows, and bees"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 106,
+        "end": 197
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s5-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why were the Monkeys glad to obey Quelala's order?",
+      "options": [
+        "They were all afraid of Gayelette themselves",
+        "It meant they need never work again",
+        "It let them return to their own forest",
+        "It freed them from the Cap for good"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 311,
+        "end": 366
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s5-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does bidding mean?",
+      "options": [
+        "What one is commanded to do",
+        "An offer made at a sale",
+        "An invitation to a wedding",
+        "A farewell at parting"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 492,
+        "end": 549
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s5-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A punishment softened into a lasting service, and a journey ended",
+        "A punishment that destroyed the Winged Monkeys entirely",
+        "A princess who forgave the Monkeys without any condition",
+        "A quarrel over who should own the Golden Cap"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 398,
+        "end": 435
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s5-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Cap said to have cost?",
+      "options": [
+        "Half the princess's kingdom",
+        "A year of the Monkeys' service",
+        "All the gold in the ruby palace",
+        "Nothing; it was a gift"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 612,
+        "end": 665
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s5-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who was the first owner of the Golden Cap?",
+      "options": [
+        "Quelala",
+        "Gayelette",
+        "The Wicked Witch of the West",
+        "The Monkey King"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 1,
+        "end": 48
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s5-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the Monkeys set the travellers down?",
+      "options": [
+        "Before the gate of the Emerald City",
+        "Inside the Throne Room itself",
+        "On the road a day's walk away",
+        "At the edge of the poppy field"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 230,
+        "end": 290
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s5-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did Dorothy see as the story ended?",
+      "options": [
+        "The green shining walls of the Emerald City",
+        "The Yellow Castle far behind them",
+        "The ruby palace of Gayelette",
+        "The forest where the Monkeys lived"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 38,
+        "end": 110
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s5-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Lion say about the Cap?",
+      "options": [
+        "That it was lucky Dorothy brought it away",
+        "That it should be given back to the Monkeys",
+        "That he would rather have walked the whole way",
+        "That the Witch should never have owned it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 63,
+        "end": 116
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s5-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does whosoever he may be mean?",
+      "options": [
+        "Whoever the owner happens to be",
+        "However powerful the owner is",
+        "Whichever Monkey is chosen",
+        "Whenever the owner calls"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 845,
+        "end": 864
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s5-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "The story of the Cap ends just as its power brings them home",
+        "The Monkeys refuse to serve Dorothy any longer",
+        "Gayelette destroys the Winged Monkeys for their joke",
+        "The travellers are set down far from the Emerald City"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 173,
+        "end": 206
+      },
+      "pool": "retest"
+    }
+  ]
+}

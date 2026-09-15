@@ -1,0 +1,329 @@
+{
+  "id": "oz-c14-s1",
+  "title": "The Winged Monkeys, part 1",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "You will remember there was no road—not even a pathway—between the castle of the Wicked Witch and the Emerald City. When the four travelers went in search of the Witch she had seen them coming, and so sent the Winged Monkeys to bring them to her. It was much harder to find their way back through the big fields of buttercups and yellow daisies than it was being carried. They knew, of course, they must go straight east, toward the rising sun; and they started off in the right way. But at noon, when the sun was over their heads, they did not know which was east and which was west, and that was the reason they were lost in the great fields. They kept on walking, however, and at night the moon came out and shone brightly. So they lay down among the sweet smelling yellow flowers and slept soundly until morning—all but the Scarecrow and the Tin Woodman.",
+    "The next morning the sun was behind a cloud, but they started on, as if they were quite sure which way they were going.",
+    "“If we walk far enough,” said Dorothy, “I am sure we shall sometime come to some place.”",
+    "But day by day passed away, and they still saw nothing before them but the scarlet fields. The Scarecrow began to grumble a bit.",
+    "“We have surely lost our way,” he said, “and unless we find it again in time to reach the Emerald City, I shall never get my brains.”",
+    "“Nor I my heart,” declared the Tin Woodman. “It seems to me I can scarcely wait till I get to Oz, and you must admit this is a very long journey.”",
+    "“You see,” said the Cowardly Lion, with a whimper, “I haven’t the courage to keep tramping forever, without getting anywhere at all.”",
+    "Then Dorothy lost heart. She sat down on the grass and looked at her companions, and they sat down and looked at her, and Toto found that for the first time in his life he was too tired to chase a butterfly that flew past his head. So he put out his tongue and panted and looked at Dorothy as if to ask what they should do next."
+  ],
+  "questions": [
+    {
+      "id": "oz-c14-s1-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what lay between the Witch's castle and the Emerald City?",
+      "options": [
+        "No road, and not even a pathway",
+        "A road of yellow brick",
+        "A wide river with no bridge",
+        "A forest full of Kalidahs"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 18,
+        "end": 73
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s1-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, which way did they know they must travel?",
+      "options": [
+        "Straight east, towards the rising sun",
+        "Straight west, towards the sunset",
+        "North, towards the good Witch's land",
+        "South, into the Quadling country"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 394,
+        "end": 443
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s1-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did they lose their bearings at noon?",
+      "options": [
+        "The sun was overhead, so east and west looked alike",
+        "A thick fog came down over the fields",
+        "The Scarecrow led them the wrong way",
+        "They had been walking in circles all morning"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 497,
+        "end": 564
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s1-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did they see day after day?",
+      "options": [
+        "Nothing but the scarlet fields",
+        "The green walls in the distance",
+        "The Witch's castle behind them",
+        "A line of low blue hills"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 32,
+        "end": 89
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s1-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was Toto too tired to do?",
+      "options": [
+        "Chase a butterfly that flew past",
+        "Bark at the field mice",
+        "Walk another step by himself",
+        "Eat what was in the basket"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 169,
+        "end": 230
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s1-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was the return journey harder than the outward one?",
+      "options": [
+        "They had been carried out, but had to find the way back",
+        "They were weaker after their time in the castle",
+        "The Witch had destroyed the road behind them",
+        "The gifts the Winkies gave them were heavy"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 247,
+        "end": 311
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s1-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did each companion fear losing?",
+      "options": [
+        "Brains, a heart, and the strength to keep walking",
+        "The gifts the Winkies had given them",
+        "The Golden Cap Dorothy had brought away",
+        "The friendship they had built on the road"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 104,
+        "end": 131
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s1-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what hope did Dorothy offer at first?",
+      "options": [
+        "That walking far enough must bring them somewhere",
+        "That the Winged Monkeys would come for them",
+        "That the Winkies would follow and find them",
+        "That the Wizard would send out a search"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 40,
+        "end": 86
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s1-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does Dorothy losing heart mean?",
+      "options": [
+        "Her courage and hope gave way",
+        "Her heart began to beat fast",
+        "She forgot why she was travelling",
+        "She quarrelled with her friends"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 24
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s1-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A party with no road loses its way and its spirits together",
+        "A party walks east and reaches the city within a day",
+        "A quarrel about direction splits the four travellers",
+        "The Winged Monkeys carry them back across the fields"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 1,
+        "end": 28
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s1-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who slept among the flowers that night?",
+      "options": [
+        "All but the Scarecrow and the Tin Woodman",
+        "Only Dorothy and Toto, in the grass",
+        "Every one of the four, very soundly",
+        "Nobody; they walked on all night long"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 788,
+        "end": 857
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s1-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was the weather like the next morning?",
+      "options": [
+        "The sun was behind a cloud",
+        "The sun shone hot on their faces",
+        "Rain fell all through the day",
+        "A strong wind blew from the east"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 43
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s1-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why had the Witch sent the Monkeys originally?",
+      "options": [
+        "To bring the travellers to her",
+        "To destroy the Emerald City",
+        "To search the fields for the Cap",
+        "To guard the road east"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 194,
+        "end": 245
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s1-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Lion say about tramping on?",
+      "options": [
+        "He has not the courage to do it forever with no result",
+        "He would rather carry Dorothy than walk",
+        "He knows the way better than the others",
+        "He is the only one who is not yet tired"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 52,
+        "end": 98
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s1-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does the Tin Woodman describe the journey?",
+      "options": [
+        "As a very long one he can scarcely wait to end",
+        "As shorter than he had expected it to be",
+        "As easier than the forest they crossed",
+        "As one he would gladly make again"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 102,
+        "end": 144
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s1-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does grumble mean?",
+      "options": [
+        "Complain in a low voice",
+        "Speak up bravely",
+        "Laugh at the others",
+        "Refuse to say anything"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 91,
+        "end": 128
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s1-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Days of walking with no landmark leave all four discouraged",
+        "A clear road east brings them quickly to the city",
+        "The travellers decide to return to the Yellow Castle",
+        "The field mice find them and show them the way"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 232,
+        "end": 267
+      },
+      "pool": "retest"
+    }
+  ]
+}

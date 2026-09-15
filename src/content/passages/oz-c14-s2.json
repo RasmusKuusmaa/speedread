@@ -1,0 +1,334 @@
+{
+  "id": "oz-c14-s2",
+  "title": "The Winged Monkeys, part 2",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“Suppose we call the field mice,” she suggested. “They could probably tell us the way to the Emerald City.”",
+    "“To be sure they could,” cried the Scarecrow. “Why didn’t we think of that before?”",
+    "Dorothy blew the little whistle she had always carried about her neck since the Queen of the Mice had given it to her. In a few minutes they heard the pattering of tiny feet, and many of the small gray mice came running up to her. Among them was the Queen herself, who asked, in her squeaky little voice:",
+    "“What can I do for my friends?”",
+    "“We have lost our way,” said Dorothy. “Can you tell us where the Emerald City is?”",
+    "“Certainly,” answered the Queen; “but it is a great way off, for you have had it at your backs all this time.” Then she noticed Dorothy’s Golden Cap, and said, “Why don’t you use the charm of the Cap, and call the Winged Monkeys to you? They will carry you to the City of Oz in less than an hour.”",
+    "“I didn’t know there was a charm,” answered Dorothy, in surprise. “What is it?”",
+    "“It is written inside the Golden Cap,” replied the Queen of the Mice. “But if you are going to call the Winged Monkeys we must run away, for they are full of mischief and think it great fun to plague us.”",
+    "“Won’t they hurt me?” asked the girl anxiously.",
+    "“Oh, no. They must obey the wearer of the Cap. Good-bye!” And she scampered out of sight, with all the mice hurrying after her.",
+    "Dorothy looked inside the Golden Cap and saw some words written upon the lining. These, she thought, must be the charm, so she read the directions carefully and put the Cap upon her head.",
+    "“Ep-pe, pep-pe, kak-ke!” she said, standing on her left foot.",
+    "“What did you say?” asked the Scarecrow, who did not know what she was doing."
+  ],
+  "questions": [
+    {
+      "id": "oz-c14-s2-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy blow to call the mice?",
+      "options": [
+        "The little whistle from the Queen",
+        "The Witch's silver whistle",
+        "A horn the Winkies gave her",
+        "Nothing; she called aloud"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 69
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s2-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Queen say about the Emerald City?",
+      "options": [
+        "That it was a great way off, behind them all this time",
+        "That it lay only an hour's walk to the east",
+        "That she had never heard of such a place",
+        "That the road to it had been destroyed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 34,
+        "end": 108
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s2-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where is the charm of the Cap written?",
+      "options": [
+        "Inside the Golden Cap, on the lining",
+        "On a slate the Queen carried",
+        "In a book in the Witch's cupboard",
+        "Nowhere; it must be remembered"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 1,
+        "end": 36
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s2-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how long would the Monkeys take to carry them?",
+      "options": [
+        "Less than an hour",
+        "A full day and night",
+        "About three days",
+        "Longer than walking"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 237,
+        "end": 295
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s2-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what were the first words of the charm Dorothy said?",
+      "options": [
+        "Ep-pe, pep-pe, kak-ke!",
+        "Hil-lo, hol-lo, hel-lo!",
+        "Ziz-zy, zuz-zy, zik!",
+        "She said nothing at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 0,
+        "end": 33
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s2-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why must the mice run away before the Monkeys come?",
+      "options": [
+        "The Monkeys are full of mischief and plague them",
+        "The Monkeys would eat them if they stayed",
+        "The Queen has quarrelled with the Monkey King",
+        "The charm only works if nobody else is near"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 137,
+        "end": 202
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s2-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is Dorothy safe from the Monkeys?",
+      "options": [
+        "They must obey whoever wears the Cap",
+        "The mark on her forehead protects her",
+        "The Queen has spoken for her",
+        "She is carrying the mice's whistle"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 9,
+        "end": 46
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s2-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what had Dorothy not known until now?",
+      "options": [
+        "That the Golden Cap carried any charm at all",
+        "That the field mice could be called by whistle",
+        "That the Emerald City lay to the east",
+        "That the Winged Monkeys existed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 0,
+        "end": 65
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s2-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does plague us mean?",
+      "options": [
+        "Pester and torment us",
+        "Make us fall ill",
+        "Hunt and eat us",
+        "Copy everything we do"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 171,
+        "end": 202
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s2-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "Small friends point the way and name a power she already wears",
+        "The mice refuse to help and hurry away again at once",
+        "Dorothy decides the Cap is far too dangerous to use",
+        "The party walks east and reaches the city on foot"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 161,
+        "end": 199
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s2-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who came with the field mice?",
+      "options": [
+        "The Queen herself",
+        "The Monkey King",
+        "The Guardian of the Gates",
+        "Nobody else"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 231,
+        "end": 263
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s2-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Scarecrow say when the mice were suggested?",
+      "options": [
+        "That they should have thought of it before",
+        "That the mice could not possibly know",
+        "That he would rather keep walking east",
+        "That the Queen had forgotten them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 47,
+        "end": 82
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s2-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy do after reading the lining?",
+      "options": [
+        "Put the Cap on her head and stood on her left foot",
+        "Handed the Cap to the Scarecrow so he could read it",
+        "Called the Queen of the Mice back to explain it",
+        "Put the Cap away in her basket for safekeeping"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 120,
+        "end": 186
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s2-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the mice arrive?",
+      "options": [
+        "With a pattering of tiny feet, within a few minutes",
+        "Slowly, over the course of a whole day",
+        "Carried on the backs of the Monkeys",
+        "One at a time, from different directions"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 119,
+        "end": 173
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s2-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Scarecrow not understand?",
+      "options": [
+        "What Dorothy was doing as she spoke the charm",
+        "Why the mice had run away so quickly",
+        "How the Queen knew where the city was",
+        "Where Dorothy had found the Golden Cap"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 41,
+        "end": 76
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s2-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does anxiously convey about Dorothy's question?",
+      "options": [
+        "She asked out of worry for her own safety",
+        "She asked eagerly, hoping for good news",
+        "She asked without much caring about the answer",
+        "She asked to change the subject"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 22,
+        "end": 46
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s2-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A whistle brings help, and the help points to a better one",
+        "A whistle brings mice who refuse to answer any questions",
+        "Dorothy learns that the Emerald City has been destroyed",
+        "The Winged Monkeys arrive before the charm is finished"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 37
+      },
+      "pool": "retest"
+    }
+  ]
+}

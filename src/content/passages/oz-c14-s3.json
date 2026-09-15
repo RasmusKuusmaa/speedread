@@ -1,0 +1,333 @@
+{
+  "id": "oz-c14-s3",
+  "title": "The Winged Monkeys, part 3",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“Hil-lo, hol-lo, hel-lo!” Dorothy went on, standing this time on her right foot.",
+    "“Hello!” replied the Tin Woodman calmly.",
+    "“Ziz-zy, zuz-zy, zik!” said Dorothy, who was now standing on both feet. This ended the saying of the charm, and they heard a great chattering and flapping of wings, as the band of Winged Monkeys flew up to them.",
+    "The King bowed low before Dorothy, and asked, “What is your command?”",
+    "“We wish to go to the Emerald City,” said the child, “and we have lost our way.”",
+    "“We will carry you,” replied the King, and no sooner had he spoken than two of the Monkeys caught Dorothy in their arms and flew away with her. Others took the Scarecrow and the Woodman and the Lion, and one little Monkey seized Toto and flew after them, although the dog tried hard to bite him.",
+    "The Scarecrow and the Tin Woodman were rather frightened at first, for they remembered how badly the Winged Monkeys had treated them before; but they saw that no harm was intended, so they rode through the air quite cheerfully, and had a fine time looking at the pretty gardens and woods far below them.",
+    "Dorothy found herself riding easily between two of the biggest Monkeys, one of them the King himself. They had made a chair of their hands and were careful not to hurt her.",
+    "“Why do you have to obey the charm of the Golden Cap?” she asked.",
+    "“That is a long story,” answered the King, with a winged laugh; “but as we have a long journey before us, I will pass the time by telling you about it, if you wish.”",
+    "“I shall be glad to hear it,” she replied.",
+    "“Once,” began the leader, “we were a free people, living happily in the great forest, flying from tree to tree, eating nuts and fruit, and doing just as we pleased without calling anybody master. Perhaps some of us were rather too full of mischief at times, flying down to pull the tails of the animals that had no wings, chasing birds, and throwing nuts at the people who walked in the forest. But we were careless and happy and full of fun, and enjoyed every minute of the day. This was many years ago, long before Oz came out of the clouds to rule over this land."
+  ],
+  "questions": [
+    {
+      "id": "oz-c14-s3-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the King of the Monkeys ask?",
+      "options": [
+        "What her command was",
+        "Where she had found the Cap",
+        "Why she had woken them",
+        "Whether she was a witch"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 39,
+        "end": 69
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s3-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who carried Toto?",
+      "options": [
+        "One little Monkey",
+        "Two of the biggest Monkeys",
+        "The King himself",
+        "Dorothy, in her arms"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 204,
+        "end": 253
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s3-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did Dorothy travel?",
+      "options": [
+        "In a chair made of the hands of two big Monkeys",
+        "Clinging to the King's back",
+        "Carried by the arms, like the Scarecrow",
+        "Walking, while the others flew"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 102,
+        "end": 138
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s3-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what had the Monkeys once eaten in the forest?",
+      "options": [
+        "Nuts and fruit",
+        "Birds and eggs",
+        "Nothing but leaves",
+        "Whatever they stole"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 112,
+        "end": 133
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s3-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what mischief did the free Monkeys do?",
+      "options": [
+        "Pulled tails, chased birds, and threw nuts at people",
+        "Stole food from the villages at night",
+        "Frightened travellers off the forest roads",
+        "Nothing at all; they kept to themselves"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 258,
+        "end": 320
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s3-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why were the Scarecrow and Woodman frightened at first?",
+      "options": [
+        "They remembered how the Monkeys had treated them before",
+        "They had never been carried through the air",
+        "They thought Dorothy had lost control of the charm",
+        "They had been told the Monkeys served the Witch still"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 67,
+        "end": 139
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s3-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the ride turn out for them?",
+      "options": [
+        "They rode cheerfully and enjoyed the view below",
+        "They were dropped again on the sharp rocks",
+        "They were carried the wrong way entirely",
+        "They arrived too shaken to speak"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 181,
+        "end": 226
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s3-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, when did Oz come to rule the land?",
+      "options": [
+        "Long after the Monkeys' free years in the forest",
+        "Before the Monkeys ever lived in the forest",
+        "At the same time the Golden Cap was made",
+        "Only a few years before Dorothy arrived"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 505,
+        "end": 565
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s3-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does without calling anybody master mean?",
+      "options": [
+        "Owing obedience to no one",
+        "Living without any name",
+        "Speaking to nobody at all",
+        "Having no king of their own"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 135,
+        "end": 194
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s3-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A ride that turns into the story of how the Monkeys lost their freedom",
+        "A ride that ends badly for the Scarecrow and the Woodman",
+        "A quarrel between Dorothy and the King of the Monkeys",
+        "An account of how the Monkeys first learned to fly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 1,
+        "end": 53
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c14-s3-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who answered Dorothy's charm words with Hello?",
+      "options": [
+        "The Tin Woodman",
+        "The Scarecrow",
+        "The King of the Monkeys",
+        "Toto"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 40
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s3-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Dorothy tell the King they wished?",
+      "options": [
+        "To go to the Emerald City, having lost their way",
+        "To be carried back to the Yellow Castle",
+        "To be taken home to Kansas at once",
+        "To be shown where the field mice live"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 1,
+        "end": 34
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s3-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did Toto behave as he was carried?",
+      "options": [
+        "He tried hard to bite the Monkey",
+        "He slept the whole way",
+        "He barked with delight",
+        "He hid his head under his paws"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 255,
+        "end": 294
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s3-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the King agree to tell the story?",
+      "options": [
+        "The journey was long, and it would pass the time",
+        "Dorothy commanded him to tell it",
+        "He wanted her to pity the Monkeys",
+        "He hoped she would give up the Cap"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 65,
+        "end": 141
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s3-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does the King describe the Monkeys' old life?",
+      "options": [
+        "Careless, happy, and full of fun",
+        "Hard and full of danger",
+        "Quiet and strictly ordered",
+        "Spent in service to a master"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 395,
+        "end": 441
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s3-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does a winged laugh suggest?",
+      "options": [
+        "A laugh from a creature with wings",
+        "A laugh that flew away quickly",
+        "A laugh that was only pretended",
+        "A laugh heard high in the air"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 24,
+        "end": 62
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c14-s3-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "The charm works, the party is carried, and a history begins",
+        "The Monkeys refuse to obey a girl who is not a witch",
+        "The party is dropped again and must walk on",
+        "Dorothy uses the last of her three commands"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 72,
+        "end": 106
+      },
+      "pool": "retest"
+    }
+  ]
+}
