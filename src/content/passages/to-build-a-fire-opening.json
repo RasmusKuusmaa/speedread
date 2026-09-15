@@ -1,0 +1,324 @@
+{
+  "id": "to-build-a-fire-opening",
+  "title": "Without Imagination",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/2429",
+  "attribution": "Excerpted verbatim from \"To Build a Fire\" by Jack London (1908).",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "The man flung a look back along the way he had come. The Yukon lay a mile wide and hidden under three feet of ice. On top of this ice were as many feet of snow. It was all pure white, rolling in gentle undulations where the ice-jams of the freeze-up had formed. North and south, as far as his eye could see, it was unbroken white, save for a dark hair-line that curved and twisted from around the spruce-covered island to the south, and that curved and twisted away into the north, where it disappeared behind another spruce-covered island.",
+    "But all this—the mysterious, far-reaching hairline trail, the absence of sun from the sky, the tremendous cold, and the strangeness and weirdness of it all—made no impression on the man. It was not because he was long used to it. He was a new-comer in the land, a chechaquo, and this was his first winter. The trouble with him was that he was without imagination. He was quick and alert in the things of life, but only in the things, and not in the significances.",
+    "Fifty degrees below zero meant eighty odd degrees of frost. Such fact impressed him as being cold and uncomfortable, and that was all. It did not lead him to meditate upon his frailty as a creature of temperature, and upon man's frailty in general, able only to live within certain narrow limits of heat and cold. Fifty degrees below zero stood for a bite of frost that hurt and that must be guarded against by the use of mittens, ear-flaps, warm moccasins, and thick socks. Fifty degrees below zero was to him just precisely fifty degrees below zero. That there should be anything more to it than that was a thought that never entered his head."
+  ],
+  "questions": [
+    {
+      "id": "to-build-a-fire-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many feet of ice covered the Yukon?",
+      "options": [
+        "Three feet",
+        "One foot",
+        "Ten feet",
+        "Six feet"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 53,
+        "end": 113
+      },
+      "pool": "first"
+    },
+    {
+      "id": "to-build-a-fire-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what word does the narrator use for a newcomer to the land, like the man?",
+      "options": [
+        "Chechaquo",
+        "Voyageur",
+        "Sourdough",
+        "Pioneer"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 230,
+        "end": 304
+      },
+      "pool": "first"
+    },
+    {
+      "id": "to-build-a-fire-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the trouble with the man, according to the narrator?",
+      "options": [
+        "He was without imagination",
+        "He was physically weak",
+        "He had lost his map",
+        "He did not know how to build a fire"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 306,
+        "end": 362
+      },
+      "pool": "first"
+    },
+    {
+      "id": "to-build-a-fire-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how many degrees of frost did fifty degrees below zero mean?",
+      "options": [
+        "Eighty-odd degrees of frost",
+        "Fifty degrees of frost",
+        "One hundred degrees of frost",
+        "Twenty degrees of frost"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 58
+      },
+      "pool": "first"
+    },
+    {
+      "id": "to-build-a-fire-f5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the strangeness and weirdness of the landscape make no impression on the man?",
+      "options": [
+        "Not because he was used to it, but because he lacked the imagination to grasp its deeper significance",
+        "Because he had studied the landscape for many years",
+        "Because the landscape was actually quite ordinary",
+        "Because he was too tired to notice anything"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 156,
+        "end": 229
+      },
+      "pool": "first"
+    },
+    {
+      "id": "to-build-a-fire-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does it mean that the man was \"quick and alert in the things of life, but only in the things, and not in the significances\"?",
+      "options": [
+        "He could notice and react to physical facts but failed to reflect on their deeper meaning",
+        "He was slow to react to anything happening around him",
+        "He understood deep philosophical ideas but ignored practical matters",
+        "He was skilled at storytelling but poor at physical tasks"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 364,
+        "end": 462
+      },
+      "pool": "first"
+    },
+    {
+      "id": "to-build-a-fire-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why didn't the extreme cold lead the man to think about human mortality or \"man's frailty in general\"?",
+      "options": [
+        "He interpreted the cold only as a physical discomfort to guard against, never as something worth deeper reflection",
+        "He had already thought deeply about mortality before this journey",
+        "The cold was not actually severe enough to prompt such thoughts",
+        "He believed mortality was not affected by temperature"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 135,
+        "end": 247
+      },
+      "pool": "first"
+    },
+    {
+      "id": "to-build-a-fire-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the narrator emphasize that fifty degrees below zero was to the man \"just precisely fifty degrees below zero\"?",
+      "options": [
+        "To show how literally and narrowly the man understood his surroundings, missing any larger meaning",
+        "To prove that the man was an expert in measuring temperature",
+        "To suggest that the man was exaggerating the cold",
+        "To show that the man wanted to become a scientist"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 475,
+        "end": 550
+      },
+      "pool": "first"
+    },
+    {
+      "id": "to-build-a-fire-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "The man's lack of imagination kept him from grasping the deeper danger and meaning of the vast, cold wilderness around him",
+        "The man was an experienced traveler who understood every danger of the Yukon",
+        "The landscape held no real dangers for a careful traveler",
+        "The man was eager to learn about the natural world around him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 306,
+        "end": 362
+      },
+      "pool": "first"
+    },
+    {
+      "id": "to-build-a-fire-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the snow lay in \"gentle undulations\"?",
+      "options": [
+        "Smooth, wave-like rises and dips",
+        "Sharp, jagged peaks",
+        "Perfectly flat stretches",
+        "Deep, narrow trenches"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 184,
+        "end": 260
+      },
+      "pool": "first"
+    },
+    {
+      "id": "to-build-a-fire-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what shape did the trail form as it crossed the snow?",
+      "options": [
+        "A dark hair-line that curved and twisted",
+        "A straight, unbroken line",
+        "A wide, flattened path",
+        "A series of scattered dots"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 315,
+        "end": 380
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "to-build-a-fire-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, around what kind of landscape features did the trail curve?",
+      "options": [
+        "Spruce-covered islands",
+        "Frozen waterfalls",
+        "Rocky cliffs",
+        "Abandoned cabins"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 362,
+        "end": 431
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "to-build-a-fire-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what must be guarded against with mittens, ear-flaps, moccasins, and thick socks?",
+      "options": [
+        "The bite of frost from fifty degrees below zero",
+        "Wild animals in the forest",
+        "Sharp ice on the trail",
+        "Strong winds off the river"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 314,
+        "end": 473
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "to-build-a-fire-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, was this the man's first winter in the land?",
+      "options": [
+        "Yes",
+        "No, his second winter",
+        "No, his fifth winter",
+        "The passage does not say"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 275,
+        "end": 304
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "to-build-a-fire-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the narrator mention that the man was \"quick and alert\" at all, despite lacking imagination?",
+      "options": [
+        "To show his practical competence with immediate physical facts, even though he failed to grasp their larger meaning",
+        "To prove that imagination was not actually useful in the wilderness",
+        "To suggest that quickness always comes at the cost of imagination",
+        "To argue that the man was secretly very thoughtful"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 364,
+        "end": 462
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "to-build-a-fire-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes the passage's description of the landscape?",
+      "options": [
+        "A vast, white, frozen wilderness broken only by a faint trail stretching far to the north and south",
+        "A small, cramped valley surrounded by mountains",
+        "A busy trading post filled with other travelers",
+        "A landscape recently transformed by a forest fire"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 262,
+        "end": 329
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "to-build-a-fire-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the man failed to consider \"the significances\" of things?",
+      "options": [
+        "Their deeper meaning or importance beyond the immediate, physical fact",
+        "Their exact scientific measurements",
+        "Their monetary value",
+        "Their location on a map"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 410,
+        "end": 462
+      },
+      "pool": "retest"
+    }
+  ]
+}
