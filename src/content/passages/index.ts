@@ -29,6 +29,7 @@ import ozGreenRoom from "./oz-green-room.json";
 import mechanicalEngineeringAncientHistory from "./mechanical-engineering-ancient-history.json";
 import ozSilverShoes from "./oz-silver-shoes.json";
 import panamaCanalHistory from "./panama-canal-history.json";
+import photosynthesisLightIntoSugar from "./photosynthesis-light-into-sugar.json";
 import platoApologyDefense from "./plato-apology-defense.json";
 import poeBlackCatWalledUp from "./poe-black-cat-walled-up.json";
 import poePitAndPendulumDescent from "./poe-pit-and-pendulum-descent.json";
@@ -102,4 +103,5 @@ export const rawPassages: unknown[] = [
   prideAndPrejudiceOpening,
   wrightFlyerHistory,
   superconductivityZeroResistance,
+  photosynthesisLightIntoSugar,
 ];

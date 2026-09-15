@@ -1,0 +1,325 @@
+{
+  "id": "photosynthesis-light-into-sugar",
+  "title": "Light Into Sugar",
+  "language": "en",
+  "source": "https://en.wikipedia.org/wiki/Photosynthesis",
+  "attribution": "Adapted (trimmed) from the Wikipedia article “Photosynthesis,” available under CC BY-SA 4.0.",
+  "licence": "CC BY-SA 4.0",
+  "textType": "expository",
+  "domain": "biology",
+  "calibrationOnly": false,
+  "body": [
+    "Photosynthesis is a system of biological processes by which photopigment-bearing autotrophic organisms, such as most plants, algae and cyanobacteria, convert light energy—typically from sunlight—into the chemical energy necessary to fuel their metabolism. The term photosynthesis usually refers to oxygenic photosynthesis, a process that releases oxygen as a byproduct of water splitting. Photosynthetic organisms store the converted chemical energy within the bonds of intracellular organic compounds (complex compounds containing carbon), typically carbohydrates like sugars (mainly glucose, fructose and sucrose), starches, phytoglycogen and cellulose. When needing to use this stored energy, an organism's cells then metabolize the organic compounds through cellular respiration. Photosynthesis plays a critical role in producing and maintaining the oxygen content of the Earth's atmosphere, and it supplies most of the biological energy necessary for complex life on Earth.",
+    "While the details may differ between species, the process always begins when light energy is absorbed by the reaction centers, proteins that contain photosynthetic pigments or chromophores. In plants, these pigments are chlorophylls (a porphyrin derivative that absorbs the red and blue spectra of light, thus reflecting green) held inside chloroplasts, abundant in leaf cells. In cyanobacteria, they are embedded in the plasma membrane. In these light-dependent reactions, some energy is used to strip electrons from suitable substances, such as water, producing oxygen gas. The hydrogen freed by the splitting of water is used in the creation of two important molecules that participate in energetic processes: reduced nicotinamide adenine dinucleotide phosphate (NADPH) and ATP.",
+    "In plants, algae, and cyanobacteria, sugars are synthesized by a subsequent sequence of light-independent reactions called the Calvin cycle. In this process, atmospheric carbon dioxide is incorporated into already existing organic compounds, such as ribulose bisphosphate (RuBP). Using the ATP and NADPH produced by the light-dependent reactions, the resulting compounds are then reduced and removed to form further carbohydrates, such as glucose. In other bacteria, different mechanisms like the reverse Krebs cycle are used to achieve the same end.",
+    "The first photosynthetic organisms probably evolved early in the evolutionary history of life using reducing agents such as hydrogen or hydrogen sulfide, rather than water, as sources of electrons. Cyanobacteria appeared later; the excess oxygen they produced contributed directly to the oxygenation of the Earth, which rendered the evolution of complex life possible. The average rate of energy captured by global photosynthesis is approximately 130 terawatts, which is about eight times the total power consumption of human civilization. Photosynthetic organisms also convert around 100–115 billion tons (91–104 Pg petagrams, or billions of metric tons), of carbon into biomass per year. Photosynthesis was discovered in 1779 by Jan Ingenhousz who showed that plants need light, not just soil and water."
+  ],
+  "questions": [
+    {
+      "id": "photosynthesis-light-into-sugar-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do photosynthetic organisms convert light energy into?",
+      "options": [
+        "Chemical energy that fuels their metabolism",
+        "Heat that keeps the leaf above air temperature",
+        "Mechanical energy that drives growth directly",
+        "Electrical energy carried along the plant stem"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 150,
+        "end": 254
+      },
+      "pool": "first"
+    },
+    {
+      "id": "photosynthesis-light-into-sugar-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does oxygenic photosynthesis release as a byproduct, and from what?",
+      "options": [
+        "Oxygen, from the splitting of water",
+        "Oxygen, from the splitting of sugars",
+        "Carbon dioxide, from the splitting of water",
+        "Sulfur, from the splitting of hydrogen sulfide"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 323,
+        "end": 387
+      },
+      "pool": "first"
+    },
+    {
+      "id": "photosynthesis-light-into-sugar-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where in a plant are the chlorophylls held?",
+      "options": [
+        "Inside chloroplasts, which are abundant in leaf cells",
+        "Inside the plasma membrane, as they are in bacteria",
+        "Inside the reaction centers found only in the roots",
+        "Inside the sugars the plant has already synthesized"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 328,
+        "end": 376
+      },
+      "pool": "first"
+    },
+    {
+      "id": "photosynthesis-light-into-sugar-f4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses the term, what makes the Calvin cycle “light-independent”?",
+      "options": [
+        "It runs on the ATP and NADPH the earlier reactions produced",
+        "It runs only at night, once the light has gone from the leaf",
+        "It needs a far brighter light than the earlier reactions do",
+        "It happens in a part of the cell that light can never reach"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 280,
+        "end": 345
+      },
+      "pool": "first"
+    },
+    {
+      "id": "photosynthesis-light-into-sugar-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the sequence of light-independent reactions called?",
+      "options": [
+        "The Calvin cycle",
+        "The reverse Krebs cycle",
+        "The reaction center",
+        "The carbon cycle"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 88,
+        "end": 139
+      },
+      "pool": "first"
+    },
+    {
+      "id": "photosynthesis-light-into-sugar-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who discovered photosynthesis, and in what year?",
+      "options": [
+        "Jan Ingenhousz, in 1779",
+        "Jan Ingenhousz, in 1879",
+        "Melvin Calvin, in 1779",
+        "Hans Krebs, in 1879"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 709,
+        "end": 745
+      },
+      "pool": "first"
+    },
+    {
+      "id": "photosynthesis-light-into-sugar-f7",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the average rate of energy captured by global photosynthesis?",
+      "options": [
+        "About 130 terawatts",
+        "About 130 gigawatts",
+        "About 115 terawatts",
+        "About 100 megawatts"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 433,
+        "end": 460
+      },
+      "pool": "first"
+    },
+    {
+      "id": "photosynthesis-light-into-sugar-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the arrival of cyanobacteria matter so much for later life?",
+      "options": [
+        "The excess oxygen they produced made complex life possible",
+        "They were the first organisms to use water as an electron source",
+        "They removed the oxygen that earlier organisms could not tolerate",
+        "They fixed carbon far faster than any organism that followed them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 228,
+        "end": 367
+      },
+      "pool": "first"
+    },
+    {
+      "id": "photosynthesis-light-into-sugar-f9",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does comparing 130 terawatts with human power use convey?",
+      "options": [
+        "Photosynthesis captures several times what our civilization consumes",
+        "Photosynthesis captures a small fraction of what our civilization uses",
+        "Human power use and photosynthesis draw on the very same reserves",
+        "Human power consumption has been measured only since Ingenhousz"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 462,
+        "end": 538
+      },
+      "pool": "first"
+    },
+    {
+      "id": "photosynthesis-light-into-sugar-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "Light is captured by pigments and then used to build sugars from carbon dioxide",
+        "Sunlight warms plant leaves, and the warmth alone is what drives their growth",
+        "Plants draw everything they need from soil and water, with light a minor help",
+        "Carbon dioxide is released by plants in the same reactions that capture light"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 46,
+        "end": 125
+      },
+      "pool": "first"
+    },
+    {
+      "id": "photosynthesis-light-into-sugar-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, which two molecules are made using the hydrogen freed by splitting water?",
+      "options": [
+        "NADPH and ATP",
+        "Glucose and starch",
+        "RuBP and cellulose",
+        "Retinal and rhodopsin"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 713,
+        "end": 780
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "photosynthesis-light-into-sugar-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, where are the photosynthetic pigments of cyanobacteria found?",
+      "options": [
+        "Embedded in the plasma membrane",
+        "Held inside chloroplasts in the cell",
+        "Dissolved in the surrounding water",
+        "Bound to the ribulose bisphosphate"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 378,
+        "end": 436
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "photosynthesis-light-into-sugar-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how much carbon do photosynthetic organisms turn into biomass each year?",
+      "options": [
+        "Around 100–115 billion tons",
+        "Around 10–15 billion tons",
+        "Around 130 billion tons",
+        "Around 1–2 billion tons"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 570,
+        "end": 605
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "photosynthesis-light-into-sugar-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what is incorporated into existing organic compounds during the Calvin cycle?",
+      "options": [
+        "Atmospheric carbon dioxide",
+        "Oxygen gas from the air",
+        "Hydrogen sulfide from water",
+        "Nitrogen drawn from soil"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 158,
+        "end": 240
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "photosynthesis-light-into-sugar-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did Ingenhousz's demonstration establish about plants?",
+      "options": [
+        "That light is a requirement, not just soil and water",
+        "That soil and water alone are enough to sustain them",
+        "That they grow fastest when kept in complete darkness",
+        "That they take in oxygen rather than giving it off"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 750,
+        "end": 804
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "photosynthesis-light-into-sugar-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses the term, what are “reaction centers”?",
+      "options": [
+        "Proteins holding the pigments that absorb the light",
+        "Compartments where the finished sugars are stored",
+        "Openings in the leaf through which gases travel",
+        "Cycles of reactions that run without any light"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 93,
+        "end": 188
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "photosynthesis-light-into-sugar-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the two stages the passage describes?",
+      "options": [
+        "Light-dependent reactions free electrons, then light-independent ones build sugars",
+        "Light-independent reactions free electrons, then light-dependent ones store them",
+        "Both stages need light, and both of them produce oxygen as they run",
+        "Neither stage needs light once the plant has stored enough carbohydrate"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 280,
+        "end": 345
+      },
+      "pool": "retest"
+    }
+  ]
+}
