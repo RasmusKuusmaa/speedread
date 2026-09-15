@@ -1,0 +1,328 @@
+{
+  "id": "oz-c05-s3",
+  "title": "The Rescue of the Tin Woodman, part 3",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“I might have stood there always if you had not come along,” he said; “so you have certainly saved my life. How did you happen to be here?”",
+    "“We are on our way to the Emerald City to see the Great Oz,” she answered, “and we stopped at your cottage to pass the night.”",
+    "“Why do you wish to see Oz?” he asked.",
+    "“I want him to send me back to Kansas, and the Scarecrow wants him to put a few brains into his head,” she replied.",
+    "The Tin Woodman appeared to think deeply for a moment. Then he said:",
+    "“Do you suppose Oz could give me a heart?”",
+    "“Why, I guess so,” Dorothy answered. “It would be as easy as to give the Scarecrow brains.”",
+    "“True,” the Tin Woodman returned. “So, if you will allow me to join your party, I will also go to the Emerald City and ask Oz to help me.”",
+    "“Come along,” said the Scarecrow heartily, and Dorothy added that she would be pleased to have his company. So the Tin Woodman shouldered his axe and they all passed through the forest until they came to the road that was paved with yellow brick.",
+    "The Tin Woodman had asked Dorothy to put the oil-can in her basket. “For,” he said, “if I should get caught in the rain, and rust again, I would need the oil-can badly.”",
+    "It was a bit of good luck to have their new comrade join the party, for soon after they had begun their journey again they came to a place where the trees and branches grew so thick over the road that the travelers could not pass. But the Tin Woodman set to work with his axe and chopped so well that soon he cleared a passage for the entire party.",
+    "Dorothy was thinking so earnestly as they walked along that she did not notice when the Scarecrow stumbled into a hole and rolled over to the side of the road. Indeed he was obliged to call to her to help him up again."
+  ],
+  "questions": [
+    {
+      "id": "oz-c05-s3-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Tin Woodman ask Oz for?",
+      "options": ["A heart", "Brains", "Courage", "An oil-can"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 1,
+        "end": 41
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s3-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, where had the travellers spent the night?",
+      "options": [
+        "At the Tin Woodman's cottage",
+        "Beside the little spring",
+        "Under the chopped tree",
+        "On the yellow brick road"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 76,
+        "end": 124
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s3-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Tin Woodman ask Dorothy to carry?",
+      "options": [
+        "The oil-can, in her basket",
+        "His axe, over her shoulder",
+        "A loaf from his own cottage",
+        "The key to his cottage door"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 0,
+        "end": 67
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s3-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why would he need the oil-can badly?",
+      "options": [
+        "If he were caught in the rain and rusted again",
+        "If his axe slipped and cut through a joint",
+        "If the road grew too rough for his legs",
+        "If he had to chop through a thick forest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 85,
+        "end": 167
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s3-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what blocked the road soon after they set out?",
+      "options": [
+        "Trees and branches grown thick over it",
+        "A river with no bridge across",
+        "A wall built across the yellow brick",
+        "A field of flowers too deep to cross"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 118,
+        "end": 195
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s3-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Tin Woodman say they saved his life?",
+      "options": [
+        "He might have stood there always if they had not come",
+        "He had been attacked by beasts before they arrived",
+        "His cottage would have fallen in on him",
+        "The rain would have rusted him through"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 1,
+        "end": 58
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s3-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what makes Dorothy think Oz could give him a heart?",
+      "options": [
+        "It would be as easy as giving the Scarecrow brains",
+        "The Witch of the North had promised it already",
+        "The Tin Woodman had once had a heart before",
+        "Oz is said to grant whatever anyone asks"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 38,
+        "end": 90
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s3-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the new companion quickly prove useful?",
+      "options": [
+        "He chopped a passage through the blocked road",
+        "He carried Dorothy's basket for her",
+        "He knew the way to the Emerald City",
+        "He frightened the wild beasts away"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 231,
+        "end": 295
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s3-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does calling him their new comrade mean?",
+      "options": [
+        "A companion who has joined the party",
+        "A servant who carries their belongings",
+        "A guide who knows the road ahead",
+        "A stranger they have agreed to follow"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 0,
+        "end": 66
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s3-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A rescued man joins the party with a wish of his own",
+        "A rescued man warns the party not to go on",
+        "The travellers argue over who should carry the axe",
+        "The road ends and the party must find another way"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 39,
+        "end": 78
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s3-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Scarecrow answer the Tin Woodman's request?",
+      "options": [
+        "Heartily, telling him to come along",
+        "Doubtfully, asking Dorothy first",
+        "Coldly, saying the party was full",
+        "Sadly, warning him about Oz"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 0,
+        "end": 41
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s3-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Tin Woodman do with his axe as they set off?",
+      "options": [
+        "Shouldered it",
+        "Left it in the forest",
+        "Gave it to Dorothy",
+        "Buried it in the tree"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 108,
+        "end": 145
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s3-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to the Scarecrow while Dorothy was thinking?",
+      "options": [
+        "He stumbled into a hole and rolled to the roadside",
+        "He wandered off the road among the trees",
+        "He dropped the basket and spilled the bread",
+        "He was caught by a branch and torn open"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 60,
+        "end": 118
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s3-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the Scarecrow get back on his feet that time?",
+      "options": [
+        "He had to call out to Dorothy for help",
+        "He rolled upright again without help",
+        "The Tin Woodman lifted him at once",
+        "Toto dragged him back by the coat"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 160,
+        "end": 218
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s3-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Dorothy say the Scarecrow wants from Oz?",
+      "options": [
+        "A few brains put into his head",
+        "A new suit of Munchkin clothes",
+        "A pole to stand on in the cornfield",
+        "A heart like the Woodman's"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 43,
+        "end": 100
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s3-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Woodman appeared to think deeply?",
+      "options": [
+        "He considered it seriously before speaking",
+        "He fell silent because he was offended",
+        "He could not understand the question",
+        "He pretended to be thinking it over"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 54
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s3-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "The party gains a third member, and his axe at once earns its place",
+        "The party is delayed by a road that cannot be cleared",
+        "Dorothy explains the whole of her story to a stranger",
+        "The Tin Woodman refuses to leave his own cottage"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 301,
+        "end": 347
+      },
+      "pool": "retest"
+    }
+  ]
+}

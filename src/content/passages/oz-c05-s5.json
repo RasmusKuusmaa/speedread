@@ -1,0 +1,319 @@
+{
+  "id": "oz-c05-s5",
+  "title": "The Rescue of the Tin Woodman, part 5",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“This at first seemed a great misfortune, for I knew a one-legged man could not do very well as a wood-chopper. So I went to a tinsmith and had him make me a new leg out of tin. The leg worked very well, once I was used to it. But my action angered the Wicked Witch of the East, for she had promised the old woman I should not marry the pretty Munchkin girl. When I began chopping again, my axe slipped and cut off my right leg. Again I went to the tinsmith, and again he made me a leg out of tin. After this the enchanted axe cut off my arms, one after the other; but, nothing daunted, I had them replaced with tin ones. The Wicked Witch then made the axe slip and cut off my head, and at first I thought that was the end of me. But the tinsmith happened to come along, and he made me a new head out of tin.",
+    "“I thought I had beaten the Wicked Witch then, and I worked harder than ever; but I little knew how cruel my enemy could be. She thought of a new way to kill my love for the beautiful Munchkin maiden, and made my axe slip again, so that it cut right through my body, splitting me into two halves. Once more the tinsmith came to my help and made me a body of tin, fastening my tin arms and legs and head to it, by means of joints, so that I could move around as well as ever. But, alas! I had now no heart, so that I lost all my love for the Munchkin girl, and did not care whether I married her or not. I suppose she is still living with the old woman, waiting for me to come after her.",
+    "“My body shone so brightly in the sun that I felt very proud of it and it did not matter now if my axe slipped, for it could not cut me. There was only one danger—that my joints would rust; but I kept an oil-can in my cottage and took care to oil myself whenever I needed it. However, there came a day when I forgot to do this, and, being caught in a rainstorm, before I thought of the danger my joints had rusted, and I was left to stand in the woods until you came to help me. It was a terrible thing to undergo, but during the year I stood there I had time to think that the greatest loss I had known was the loss of my heart. While I was in love I was the happiest man on earth; but no one can love who has not a heart, and so I am resolved to ask Oz to give me one. If he does, I will go back to the Munchkin maiden and marry her.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c05-s5-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who made the Tin Woodman's replacement limbs?",
+      "options": [
+        "A tinsmith",
+        "The Wicked Witch",
+        "His own father",
+        "A Munchkin farmer"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 112,
+        "end": 176
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s5-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the axe cut through that split him in two?",
+      "options": ["His body", "His head", "Both his arms", "His left leg"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 229,
+        "end": 295
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s5-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the one danger left to him once he was all tin?",
+      "options": [
+        "That his joints would rust",
+        "That his axe would slip again",
+        "That the Witch would enchant him",
+        "That he would be melted down"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 137,
+        "end": 188
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s5-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what caused him to rust where the travellers found him?",
+      "options": [
+        "He forgot to oil himself and was caught in a rainstorm",
+        "He fell into the little spring beside the cottage",
+        "He left his oil-can behind at the tinsmith's",
+        "The Witch poured water over him as he slept"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 333,
+        "end": 413
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s5-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does he mean to do if Oz gives him a heart?",
+      "options": [
+        "Go back and marry the Munchkin maiden",
+        "Return to his old trade as a wood-chopper",
+        "Hunt down the Wicked Witch of the East",
+        "Build the better house he once promised"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 783,
+        "end": 834
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s5-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did losing his heart end his love?",
+      "options": [
+        "Without a heart he no longer cared whether he married",
+        "The Munchkin girl refused a man made of tin",
+        "The Witch replaced his love with hatred",
+        "He forgot the girl entirely once his head was tin"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 486,
+        "end": 554
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s5-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the slipping axe stop mattering to him?",
+      "options": [
+        "Being all tin, it could no longer cut him",
+        "He had learned to hold it more carefully",
+        "The Witch's enchantment had worn away",
+        "He gave up chopping wood altogether"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 71,
+        "end": 135
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s5-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the year of standing still give him?",
+      "options": [
+        "Time to work out that losing his heart was his greatest loss",
+        "A chance to rest after years of hard chopping",
+        "The idea of asking the Wizard for new legs",
+        "A hatred of the tinsmith who had rebuilt him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 519,
+        "end": 568
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s5-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does nothing daunted convey?",
+      "options": [
+        "He was not discouraged by it",
+        "He was badly frightened by it",
+        "He was puzzled by what happened",
+        "He was angry enough to fight"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 565,
+        "end": 620
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s5-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "Piece by piece a man is replaced, and loses the one part that mattered",
+        "A tinsmith builds a man who is stronger than any Munchkin",
+        "A witch fails to stop a marriage she was paid to prevent",
+        "A woodman learns that tin limbs work better than flesh"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 574,
+        "end": 628
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s5-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened after the axe cut off his head?",
+      "options": [
+        "The tinsmith made him a new head of tin",
+        "He lay in the forest until Dorothy came",
+        "The Witch carried his head away with her",
+        "His mother nursed him back to health"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 730,
+        "end": 808
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s5-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why was he proud of his tin body?",
+      "options": [
+        "It shone so brightly in the sun",
+        "It was stronger than any Munchkin's",
+        "It had cost him a year of wages",
+        "It could not be enchanted again"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 1,
+        "end": 66
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s5-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did he guard against rust before that day?",
+      "options": [
+        "He kept an oil-can and oiled himself when needed",
+        "He stayed indoors whenever it looked like rain",
+        "He had the tinsmith coat him in fresh tin each year",
+        "He never went out into the forest alone"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 190,
+        "end": 274
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s5-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Witch keep making the axe slip?",
+      "options": [
+        "Each time he replaced a limb, he could work and marry again",
+        "She enjoyed watching the tinsmith's work fail",
+        "She wanted the tinsmith paid for his trouble",
+        "She had been promised more sheep each time"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 227,
+        "end": 277
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s5-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does he suppose became of the Munchkin girl?",
+      "options": [
+        "That she is still with the old woman, waiting for him",
+        "That she married a Munchkin farmer instead",
+        "That the Witch carried her off to the East",
+        "That she went to the Emerald City to find him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 603,
+        "end": 685
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s5-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does undergo mean?",
+      "options": [
+        "To live through something hard",
+        "To understand something at last",
+        "To travel beneath something",
+        "To give way to someone else"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 479,
+        "end": 513
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s5-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A witch's long revenge leaves a man whole in body but without a heart",
+        "A tinsmith's skill defeats a witch's enchantment entirely",
+        "A woodman gives up his bride to become a man of tin",
+        "A year in the rain teaches a woodman to carry oil"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 687,
+        "end": 722
+      },
+      "pool": "retest"
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": "oz-c05-s4",
+  "title": "The Rescue of the Tin Woodman, part 4",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“Why didn’t you walk around the hole?” asked the Tin Woodman.",
+    "“I don’t know enough,” replied the Scarecrow cheerfully. “My head is stuffed with straw, you know, and that is why I am going to Oz to ask him for some brains.”",
+    "“Oh, I see,” said the Tin Woodman. “But, after all, brains are not the best things in the world.”",
+    "“Have you any?” inquired the Scarecrow.",
+    "“No, my head is quite empty,” answered the Woodman. “But once I had brains, and a heart also; so, having tried them both, I should much rather have a heart.”",
+    "“And why is that?” asked the Scarecrow.",
+    "“I will tell you my story, and then you will know.”",
+    "So, while they were walking through the forest, the Tin Woodman told the following story:",
+    "“I was born the son of a woodman who chopped down trees in the forest and sold the wood for a living. When I grew up, I too became a wood-chopper, and after my father died I took care of my old mother as long as she lived. Then I made up my mind that instead of living alone I would marry, so that I might not become lonely.",
+    "“There was one of the Munchkin girls who was so beautiful that I soon grew to love her with all my heart. She, on her part, promised to marry me as soon as I could earn enough money to build a better house for her; so I set to work harder than ever. But the girl lived with an old woman who did not want her to marry anyone, for she was so lazy she wished the girl to remain with her and do the cooking and the housework. So the old woman went to the Wicked Witch of the East, and promised her two sheep and a cow if she would prevent the marriage. Thereupon the Wicked Witch enchanted my axe, and when I was chopping away at my best one day, for I was anxious to get the new house and my wife as soon as possible, the axe slipped all at once and cut off my left leg."
+  ],
+  "questions": [
+    {
+      "id": "oz-c05-s4-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Tin Woodman's father?",
+      "options": [
+        "A woodman who chopped and sold wood",
+        "A tinsmith in a Munchkin village",
+        "A farmer who kept sheep and a cow",
+        "A servant of the Wicked Witch"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 1,
+        "end": 69
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s4-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, whom did the Tin Woodman care for after his father died?",
+      "options": [
+        "His old mother",
+        "His younger brother",
+        "The Munchkin girl",
+        "The old woman"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 172,
+        "end": 221
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s4-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Munchkin girl promise?",
+      "options": [
+        "To marry him once he could build a better house",
+        "To wait for him until the old woman died",
+        "To leave the old woman's house that same year",
+        "To ask the Wicked Witch to bless the marriage"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 124,
+        "end": 213
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s4-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the old woman promise the Wicked Witch?",
+      "options": [
+        "Two sheep and a cow",
+        "A house and a field",
+        "Her own silver shoes",
+        "A year of service"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 481,
+        "end": 547
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s4-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the enchanted axe cut off first?",
+      "options": ["His left leg", "His right leg", "His left arm", "His head"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 715,
+        "end": 766
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s4-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the old woman want to stop the marriage?",
+      "options": [
+        "She was lazy and wanted the girl's cooking and housework",
+        "She had promised the girl to a Munchkin farmer",
+        "She disliked woodmen and their trade",
+        "She feared the girl would be poor if she married"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 325,
+        "end": 383
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s4-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Tin Woodman say he would rather have a heart than brains?",
+      "options": [
+        "He has had both, and knows which he misses",
+        "He has been told brains are useless in Oz",
+        "The Scarecrow has already claimed the brains",
+        "A heart is the easier of the two to give"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 94,
+        "end": 155
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s4-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was the woodman working harder than ever?",
+      "options": [
+        "He was eager to earn the house and his bride",
+        "The Wicked Witch had set him a task",
+        "His mother had left him her debts",
+        "The old woman had hired him for wages"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 643,
+        "end": 713
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s4-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the axe was enchanted?",
+      "options": [
+        "Put under a spell so that it turned against him",
+        "Sharpened so well that it cut through anything",
+        "Made of tin instead of iron and steel",
+        "Blessed so that his work would go faster"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 549,
+        "end": 592
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s4-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A love match is attacked by a witch hired to prevent it",
+        "A woodman explains why he gave up his trade",
+        "A quarrel between two Munchkin families ends badly",
+        "A witch punishes a woodman for cutting her trees"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 422,
+        "end": 475
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s4-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Tin Woodman say is in his head now?",
+      "options": [
+        "Nothing; it is quite empty",
+        "Straw, like the Scarecrow's",
+        "Tin, poured in by the tinsmith",
+        "Brains he has never used"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 1,
+        "end": 27
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s4-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why did the Scarecrow fall into the hole this time?",
+      "options": [
+        "He did not know enough to walk around it",
+        "He was watching the Tin Woodman's axe",
+        "Toto ran between his legs on the road",
+        "The dead leaves had hidden it completely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 56
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s4-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the Tin Woodman decide to marry?",
+      "options": [
+        "So that he might not become lonely",
+        "Because his mother had asked him to",
+        "To gain a share of the old woman's farm",
+        "Because the Witch had advised it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 251,
+        "end": 323
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s4-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what claim of the Tin Woodman's would surprise the Scarecrow most?",
+      "options": [
+        "That brains are not the best things in the world",
+        "That he has never met the Wizard of Oz",
+        "That an axe can be put under a spell",
+        "That he was once an ordinary Munchkin"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 36,
+        "end": 96
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s4-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does the Scarecrow take his own tumble?",
+      "options": [
+        "Cheerfully, treating it as proof he needs brains",
+        "Bitterly, blaming the state of the road",
+        "Silently, refusing to explain himself",
+        "Angrily, accusing Dorothy of not watching"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 23,
+        "end": 55
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s4-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Witch would prevent the marriage?",
+      "options": [
+        "Stop it from ever taking place",
+        "Delay it for a year or two",
+        "Refuse to attend the wedding",
+        "Make the couple regret it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 514,
+        "end": 547
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s4-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A tin man begins the story of how he lost his heart",
+        "A tin man explains how to keep an axe from slipping",
+        "A scarecrow proves that brains are worth more than hearts",
+        "A witch is paid to arrange a marriage between Munchkins"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 1,
+        "end": 50
+      },
+      "pool": "retest"
+    }
+  ]
+}

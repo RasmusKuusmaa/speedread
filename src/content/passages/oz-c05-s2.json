@@ -1,0 +1,322 @@
+{
+  "id": "oz-c05-s2",
+  "title": "The Rescue of the Tin Woodman, part 2",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Dorothy looked at him in amazement, and so did the Scarecrow, while Toto barked sharply and made a snap at the tin legs, which hurt his teeth.",
+    "“Did you groan?” asked Dorothy.",
+    "“Yes,” answered the tin man, “I did. I’ve been groaning for more than a year, and no one has ever heard me before or come to help me.”",
+    "“What can I do for you?” she inquired softly, for she was moved by the sad voice in which the man spoke.",
+    "“Get an oil-can and oil my joints,” he answered. “They are rusted so badly that I cannot move them at all; if I am well oiled I shall soon be all right again. You will find an oil-can on a shelf in my cottage.”",
+    "Dorothy at once ran back to the cottage and found the oil-can, and then she returned and asked anxiously, “Where are your joints?”",
+    "“Oil my neck, first,” replied the Tin Woodman. So she oiled it, and as it was quite badly rusted the Scarecrow took hold of the tin head and moved it gently from side to side until it worked freely, and then the man could turn it himself.",
+    "“Now oil the joints in my arms,” he said. And Dorothy oiled them and the Scarecrow bent them carefully until they were quite free from rust and as good as new.",
+    "The Tin Woodman gave a sigh of satisfaction and lowered his axe, which he leaned against the tree.",
+    "“This is a great comfort,” he said. “I have been holding that axe in the air ever since I rusted, and I’m glad to be able to put it down at last. Now, if you will oil the joints of my legs, I shall be all right once more.”",
+    "So they oiled his legs until he could move them freely; and he thanked them again and again for his release, for he seemed a very polite creature, and very grateful."
+  ],
+  "questions": [
+    {
+      "id": "oz-c05-s2-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how long had the tin man been groaning?",
+      "options": [
+        "More than a year",
+        "Only a few days",
+        "Since the night before",
+        "Nearly ten years"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 37,
+        "end": 76
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s2-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the tin man ask Dorothy to fetch?",
+      "options": [
+        "An oil-can from a shelf in his cottage",
+        "An axe from beside the chopped tree",
+        "A pail of water from the little spring",
+        "A cloth to wipe the rust away"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 159,
+        "end": 209
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s2-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, which joint was oiled first?",
+      "options": ["His neck", "His arms", "His legs", "His jaw"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 0,
+        "end": 21
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s2-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Tin Woodman do with his axe once his arms worked?",
+      "options": [
+        "Lowered it and leaned it against the tree",
+        "Went straight back to chopping the tree",
+        "Handed it to the Scarecrow to carry",
+        "Threw it down into the dried leaves"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 48,
+        "end": 97
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s2-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened when Toto snapped at the tin legs?",
+      "options": [
+        "It hurt his teeth",
+        "He bent the tin",
+        "He was kicked away",
+        "He tore his mouth"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 92,
+        "end": 141
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s2-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why could the Tin Woodman not move at all?",
+      "options": [
+        "His joints had rusted too badly to work",
+        "His body had been fastened to the tree",
+        "He had been enchanted by a wicked witch",
+        "He had no heart to give him the will"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 50,
+        "end": 105
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s2-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did Dorothy speak to him softly?",
+      "options": [
+        "The sadness in his voice had moved her",
+        "She was afraid of waking the forest beasts",
+        "She thought loud noises might rust him further",
+        "The Scarecrow had told her to be gentle"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 46,
+        "end": 103
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s2-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what had the Tin Woodman been doing all that time with his axe?",
+      "options": [
+        "Holding it up in the air, unable to lower it",
+        "Chopping slowly at the same tree each day",
+        "Letting it rest on the ground beside him",
+        "Using it to prop himself upright"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 37,
+        "end": 96
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s2-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the Tin Woodman mean by his release?",
+      "options": [
+        "Being freed from standing helpless",
+        "Being let out of his own cottage",
+        "Being given permission to leave",
+        "Being cured of a long illness"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 60,
+        "end": 107
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s2-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A rusted man is oiled joint by joint and freed",
+        "A tin man is repaired after an accident with his axe",
+        "Dorothy and the Scarecrow argue over how to help",
+        "A stranger warns the travellers away from his cottage"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 107,
+        "end": 157
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s2-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what had the Tin Woodman noticed about being heard?",
+      "options": [
+        "No one had ever heard him or come to help",
+        "Travellers had passed but would not stop",
+        "The birds had answered him every morning",
+        "A Munchkin had promised to return with oil"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 82,
+        "end": 132
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s2-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who moved the tin head from side to side?",
+      "options": ["The Scarecrow", "Dorothy", "Toto", "The Woodman himself"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 97,
+        "end": 174
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s2-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Tin Woodman give once his arms were free?",
+      "options": [
+        "A sigh of satisfaction",
+        "A shout of anger",
+        "A long, deep groan",
+        "A burst of laughter"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 0,
+        "end": 43
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s2-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does the Tin Woodman behave towards his rescuers?",
+      "options": [
+        "Very politely, thanking them over and over",
+        "Impatiently, hurrying them through the work",
+        "Suspiciously, asking why they had come",
+        "Silently, until every joint was free"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 109,
+        "end": 164
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s2-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the oiling need besides the oil itself?",
+      "options": [
+        "Working each joint by hand until the rust let go",
+        "A fire to warm the tin before it would move",
+        "Several days of rest between each joint",
+        "Water from the spring to wash the rust off"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 69,
+        "end": 139
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s2-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does Dorothy's asking anxiously convey?",
+      "options": [
+        "She was eager and a little worried",
+        "She was annoyed at being sent about",
+        "She was doubtful that he was telling the truth",
+        "She was too frightened to come near"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 72,
+        "end": 104
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s2-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Patient work with an oil-can sets a helpless man free",
+        "A dog's attack on a tin man ends in hurt teeth",
+        "A tin man explains how his joints came to rust",
+        "Two travellers decide whether to help a stranger"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 0,
+        "end": 54
+      },
+      "pool": "retest"
+    }
+  ]
+}

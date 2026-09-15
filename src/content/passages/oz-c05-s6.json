@@ -1,0 +1,311 @@
+{
+  "id": "oz-c05-s6",
+  "title": "The Rescue of the Tin Woodman, part 6",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Both Dorothy and the Scarecrow had been greatly interested in the story of the Tin Woodman, and now they knew why he was so anxious to get a new heart.",
+    "“All the same,” said the Scarecrow, “I shall ask for brains instead of a heart; for a fool would not know what to do with a heart if he had one.”",
+    "“I shall take the heart,” returned the Tin Woodman; “for brains do not make one happy, and happiness is the best thing in the world.”",
+    "Dorothy did not say anything, for she was puzzled to know which of her two friends was right, and she decided if she could only get back to Kansas and Aunt Em, it did not matter so much whether the Woodman had no brains and the Scarecrow no heart, or each got what he wanted.",
+    "What worried her most was that the bread was nearly gone, and another meal for herself and Toto would empty the basket. To be sure, neither the Woodman nor the Scarecrow ever ate anything, but she was not made of tin nor straw, and could not live unless she was fed."
+  ],
+  "questions": [
+    {
+      "id": "oz-c05-s6-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what will the Scarecrow ask for instead of a heart?",
+      "options": ["Brains", "Courage", "A house", "A heart as well"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 37,
+        "end": 78
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s6-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the Tin Woodman say he will take?",
+      "options": ["The heart", "The brains", "Both of them", "Neither of them"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 50
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s6-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what worried Dorothy most?",
+      "options": [
+        "The bread was nearly gone",
+        "The forest was growing darker",
+        "Her friends had begun to quarrel",
+        "The road had disappeared"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 56
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s6-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, which of the party never ate anything?",
+      "options": [
+        "The Woodman and the Scarecrow",
+        "Toto and the Scarecrow",
+        "Only the Tin Woodman",
+        "Only the Scarecrow"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 132,
+        "end": 187
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s6-f5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is the Scarecrow's argument for brains?",
+      "options": [
+        "A fool would not know what to do with a heart",
+        "Brains are easier for a wizard to supply",
+        "A heart would only make him unhappy",
+        "Straw men cannot hold a heart in place"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 80,
+        "end": 143
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s6-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is the Tin Woodman's argument for a heart?",
+      "options": [
+        "Brains do not make one happy, and happiness is best",
+        "A heart would let him chop wood again",
+        "Brains would be wasted inside a tin head",
+        "The Munchkin girl would prefer him to have one"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 53,
+        "end": 131
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s6-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Dorothy say nothing in the argument?",
+      "options": [
+        "She cannot tell which of her friends is right",
+        "She thinks both of them are equally wrong",
+        "She is too hungry to follow the discussion",
+        "She has been asked not to take sides"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 30,
+        "end": 92
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s6-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what matters more to Dorothy than the argument?",
+      "options": [
+        "Getting back to Kansas and Aunt Em",
+        "Finding out which friend the Wizard prefers",
+        "Keeping the party from falling out",
+        "Learning whether Oz can be trusted"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 98,
+        "end": 158
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s6-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does Dorothy's being puzzled mean?",
+      "options": [
+        "Unable to decide the question",
+        "Annoyed at being asked",
+        "Amused by the disagreement",
+        "Certain that both were wrong"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 30,
+        "end": 92
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s6-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "Two companions choose opposite gifts, while a third faces an emptying basket",
+        "Three companions agree at last on what is worth asking for",
+        "A quarrel over brains and hearts breaks up the party",
+        "Dorothy decides she no longer wishes to return to Kansas"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 71
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s6-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what had Dorothy and the Scarecrow just learned?",
+      "options": [
+        "Why the Woodman was so anxious for a heart",
+        "Where the Wicked Witch of the East had lived",
+        "How far it was to the Emerald City",
+        "How the tinsmith had made his tin body"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 96,
+        "end": 150
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s6-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what would another meal do to the basket?",
+      "options": [
+        "Empty it",
+        "Fill it again",
+        "Spoil what was left",
+        "Leave enough for one more"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 62,
+        "end": 118
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s6-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Tin Woodman call the best thing in the world?",
+      "options": ["Happiness", "Brains", "Courage", "A good axe"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 91,
+        "end": 131
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s6-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why can Dorothy not solve her own problem as easily?",
+      "options": [
+        "She is made of neither tin nor straw and must eat",
+        "She has no wish of her own to ask the Wizard for",
+        "Her friends will not help her look for food",
+        "The Wizard grants only one wish to each party"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 193,
+        "end": 265
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s6-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how has Dorothy settled the dispute for herself?",
+      "options": [
+        "She decides it matters little beside getting home",
+        "She sides quietly with the Tin Woodman",
+        "She sides quietly with the Scarecrow",
+        "She resolves to ask the Wizard to decide"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 160,
+        "end": 246
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s6-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that they had been greatly interested?",
+      "options": [
+        "They had listened closely to the whole story",
+        "They had interrupted the story with questions",
+        "They had found the story hard to believe",
+        "They had heard the story once before"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 90
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s6-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A friendly disagreement about hearts and brains, and a real shortage of bread",
+        "A decision that the party will turn back before the food runs out",
+        "An agreement that the Wizard should be asked for food first",
+        "A quarrel that leaves Dorothy travelling on by herself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 28
+      },
+      "pool": "retest"
+    }
+  ]
+}

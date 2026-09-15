@@ -1,0 +1,327 @@
+{
+  "id": "oz-c05-s1",
+  "title": "The Rescue of the Tin Woodman, part 1",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "When Dorothy awoke the sun was shining through the trees and Toto had long been out chasing birds around him and squirrels. She sat up and looked around her. There was the Scarecrow, still standing patiently in his corner, waiting for her.",
+    "“We must go and search for water,” she said to him.",
+    "“Why do you want water?” he asked.",
+    "“To wash my face clean after the dust of the road, and to drink, so the dry bread will not stick in my throat.”",
+    "“It must be inconvenient to be made of flesh,” said the Scarecrow thoughtfully, “for you must sleep, and eat and drink. However, you have brains, and it is worth a lot of bother to be able to think properly.”",
+    "They left the cottage and walked through the trees until they found a little spring of clear water, where Dorothy drank and bathed and ate her breakfast. She saw there was not much bread left in the basket, and the girl was thankful the Scarecrow did not have to eat anything, for there was scarcely enough for herself and Toto for the day.",
+    "When she had finished her meal, and was about to go back to the road of yellow brick, she was startled to hear a deep groan near by.",
+    "“What was that?” she asked timidly.",
+    "“I cannot imagine,” replied the Scarecrow; “but we can go and see.”",
+    "Just then another groan reached their ears, and the sound seemed to come from behind them. They turned and walked through the forest a few steps, when Dorothy discovered something shining in a ray of sunshine that fell between the trees. She ran to the place and then stopped short, with a little cry of surprise.",
+    "One of the big trees had been partly chopped through, and standing beside it, with an uplifted axe in his hands, was a man made entirely of tin. His head and arms and legs were jointed upon his body, but he stood perfectly motionless, as if he could not stir at all."
+  ],
+  "questions": [
+    {
+      "id": "oz-c05-s1-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was Toto doing when Dorothy woke?",
+      "options": [
+        "Chasing birds and squirrels",
+        "Sleeping beside the leaves",
+        "Barking at the Scarecrow",
+        "Drinking from a little spring"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 61,
+        "end": 122
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s1-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why did Dorothy want to find water?",
+      "options": [
+        "To wash the dust off and to drink with her bread",
+        "To fill the oil-can she carried in her basket",
+        "To see whether the forest stream was safe",
+        "To wash the dried leaves out of her hair"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 1,
+        "end": 49
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s1-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what had happened to one of the big trees?",
+      "options": [
+        "It had been partly chopped through",
+        "It had fallen across the road",
+        "It had been split by lightning",
+        "It had grown over the yellow brick"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 0,
+        "end": 52
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s1-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was the man beside the tree made of?",
+      "options": ["Tin", "Straw", "Wood", "Silver"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 113,
+        "end": 143
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s1-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was in the tin man's hands?",
+      "options": [
+        "An uplifted axe",
+        "An empty oil-can",
+        "A woodman's saw",
+        "Nothing at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 78,
+        "end": 111
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s1-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was Dorothy thankful the Scarecrow could not eat?",
+      "options": [
+        "There was scarcely bread enough for herself and Toto",
+        "She disliked sharing her meals with a stuffed man",
+        "The Scarecrow would have eaten more than his share",
+        "Feeding him would have spoiled the shape of his head"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 211,
+        "end": 275
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s1-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Scarecrow think of being made of flesh?",
+      "options": [
+        "Inconvenient, but worth it for the power to think",
+        "Far better than being stuffed with straw",
+        "A misfortune with nothing to be said for it",
+        "Much the same as being made of tin"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 1,
+        "end": 44
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s1-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what first drew Dorothy towards the tin man?",
+      "options": [
+        "A deep groan, and then something shining among the trees",
+        "The sound of an axe striking against a tree trunk",
+        "Toto running ahead of her and barking loudly",
+        "The Scarecrow pointing out a path through the wood"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 86,
+        "end": 131
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s1-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that Dorothy asked timidly?",
+      "options": [
+        "Nervously, in a small voice",
+        "Sharply, in an angry voice",
+        "Loudly, so as to be heard",
+        "Slowly, as though half asleep"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 17,
+        "end": 34
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s1-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures what the passage does?",
+      "options": [
+        "An ordinary morning ends with the discovery of a motionless tin man",
+        "A search for water leads the travellers off the road for good",
+        "The Scarecrow persuades Dorothy that flesh is a burden",
+        "Dorothy discovers her food will not last another day"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 238,
+        "end": 313
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c05-s1-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where had the Scarecrow spent the night?",
+      "options": [
+        "Standing patiently in his corner",
+        "Lying on the bed of leaves",
+        "Out among the trees with Toto",
+        "Beside the little spring of water"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 158,
+        "end": 221
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s1-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Dorothy do at the spring?",
+      "options": [
+        "Drank, bathed, and ate her breakfast",
+        "Filled the oil-can to the brim",
+        "Washed the dust from the Scarecrow",
+        "Rested until the sun was high"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 100,
+        "end": 152
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s1-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how was the tin man's body put together?",
+      "options": [
+        "His head, arms, and legs were jointed upon it",
+        "His limbs were nailed straight onto it",
+        "He was made in one piece without joints",
+        "His head was tied on with wire"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 145,
+        "end": 198
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s1-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why could the tin man not move?",
+      "options": [
+        "He stood perfectly motionless, unable to stir at all",
+        "He had been tied to the tree he was chopping",
+        "His axe was buried too deep in the trunk",
+        "He was asleep on his feet among the trees"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 200,
+        "end": 265
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s1-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does the Scarecrow respond to the strange groan?",
+      "options": [
+        "Calmly, suggesting they go and see what it is",
+        "Fearfully, urging Dorothy back to the road",
+        "Angrily, blaming Toto for the noise",
+        "Sadly, saying it reminds him of the crows"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 0,
+        "end": 67
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s1-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that Dorothy stopped short?",
+      "options": [
+        "She stopped suddenly where she was",
+        "She stopped only for a moment",
+        "She stopped before she had gone far",
+        "She stopped and then turned back"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 238,
+        "end": 281
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c05-s1-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Breakfast in the forest is interrupted by a groan and a discovery",
+        "A morning search for water ends with the basket emptied",
+        "The Scarecrow and Dorothy argue about brains once more",
+        "A tin man chops his way out of the forest to meet them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 0,
+        "end": 42
+      },
+      "pool": "retest"
+    }
+  ]
+}
