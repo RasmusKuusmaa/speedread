@@ -1,0 +1,318 @@
+{
+  "id": "oz-c10-s1",
+  "title": "The Guardian of the Gate, part 1",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "It was some time before the Cowardly Lion awakened, for he had lain among the poppies a long while, breathing in their deadly fragrance; but when he did open his eyes and roll off the truck he was very glad to find himself still alive.",
+    "“I ran as fast as I could,” he said, sitting down and yawning, “but the flowers were too strong for me. How did you get me out?”",
+    "Then they told him of the field mice, and how they had generously saved him from death; and the Cowardly Lion laughed, and said:",
+    "“I have always thought myself very big and terrible; yet such little things as flowers came near to killing me, and such small animals as mice have saved my life. How strange it all is! But, comrades, what shall we do now?”",
+    "“We must journey on until we find the road of yellow brick again,” said Dorothy, “and then we can keep on to the Emerald City.”",
+    "So, the Lion being fully refreshed, and feeling quite himself again, they all started upon the journey, greatly enjoying the walk through the soft, fresh grass; and it was not long before they reached the road of yellow brick and turned again toward the Emerald City where the Great Oz dwelt.",
+    "The road was smooth and well paved, now, and the country about was beautiful, so that the travelers rejoiced in leaving the forest far behind, and with it the many dangers they had met in its gloomy shades. Once more they could see fences built beside the road; but these were painted green, and when they came to a small house, in which a farmer evidently lived, that also was painted green. They passed by several of these houses during the afternoon, and sometimes people came to the doors and looked at them as if they would like to ask questions; but no one came near them nor spoke to them because of the great Lion, of which they were very much afraid. The people were all dressed in clothing of a lovely emerald-green color and wore peaked hats like those of the Munchkins."
+  ],
+  "questions": [
+    {
+      "id": "oz-c10-s1-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Lion glad of when he woke?",
+      "options": [
+        "To find himself still alive",
+        "To find the road again",
+        "To see the mice around him",
+        "To be back in the forest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 190,
+        "end": 234
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s1-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what colour were the fences beyond the forest?",
+      "options": ["Green", "Blue", "Yellow", "White"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 262,
+        "end": 290
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s1-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the people of that country wear?",
+      "options": [
+        "Emerald-green clothing and peaked hats",
+        "Blue coats and well-polished boots",
+        "White gowns sprinkled with stars",
+        "Gray clothes like the Kansas farmers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 660,
+        "end": 731
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s1-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why did nobody come near the travellers?",
+      "options": [
+        "They were afraid of the great Lion",
+        "They had been forbidden by the Wizard",
+        "They could not understand their speech",
+        "They were too busy with the harvest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 552,
+        "end": 621
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s1-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the road like now?",
+      "options": [
+        "Smooth and well paved",
+        "Broken and full of holes",
+        "Covered with dead leaves",
+        "Overgrown with poppies"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 0,
+        "end": 39
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s1-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what strikes the Lion as strange about his rescue?",
+      "options": [
+        "Small flowers nearly killed him and small mice saved him",
+        "That he slept through the whole of the danger",
+        "That his friends did not simply carry him out",
+        "That the mice were not afraid of him at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 57,
+        "end": 110
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s1-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what were the travellers glad to leave behind?",
+      "options": [
+        "The forest and the dangers of its gloomy shades",
+        "The road of yellow brick and its broken bricks",
+        "The river that had carried them off course",
+        "The farms of the Munchkins and their questions"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 86,
+        "end": 141
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s1-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the country people behave towards them?",
+      "options": [
+        "They looked as though they wished to ask questions but kept away",
+        "They ran indoors and shut the doors behind them",
+        "They came out and offered the party food and shelter",
+        "They followed the party along the road at a distance"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 458,
+        "end": 550
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s1-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does deadly fragrance refer to?",
+      "options": [
+        "The scent of the poppies that had nearly killed him",
+        "The smell of the sweet grass in the green fields",
+        "A poison the Wicked Witch had left on the road",
+        "The odour of the truck's freshly cut wood"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 100,
+        "end": 135
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s1-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "The Lion wakes and the party reaches a kinder, greener country",
+        "The Lion refuses to travel any further after his sleep",
+        "The party loses the road and must search the fields for it",
+        "The people of the green country drive the travellers away"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 165,
+        "end": 225
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s1-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion do as he spoke of his running?",
+      "options": [
+        "Sat down and yawned",
+        "Paced up and down the road",
+        "Lay flat upon the grass",
+        "Shook out his shaggy mane"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 28,
+        "end": 61
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s1-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who had saved the Lion from death?",
+      "options": [
+        "The field mice",
+        "The Queen of the Storks",
+        "The green farmers",
+        "The Guardian of the Gates"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 86
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s1-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what colour was the farmer's small house?",
+      "options": ["Green", "Blue", "White", "Yellow"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 329,
+        "end": 391
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s1-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did Dorothy say they must do next?",
+      "options": [
+        "Journey on until they found the yellow road again",
+        "Follow the river until it reached the city",
+        "Ask the green farmers for a guide",
+        "Wait where they were until the Lion was strong"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 1,
+        "end": 64
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s1-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how had the Lion thought of himself before this?",
+      "options": [
+        "As very big and terrible",
+        "As the weakest of the party",
+        "As a friend to all small creatures",
+        "As the one who kept them safe"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 1,
+        "end": 51
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s1-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does refreshed describe about the Lion?",
+      "options": [
+        "Restored to his old strength",
+        "Washed clean in the river",
+        "Fed after a long hunger",
+        "Cooled after the hot sun"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 4,
+        "end": 34
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s1-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A rescued Lion, a found road, and a country that signals the city is near",
+        "A long argument about whether to go on to the Emerald City",
+        "A day spent among green farmers who take them in",
+        "A return to the forest by a different path"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 230,
+        "end": 291
+      },
+      "pool": "retest"
+    }
+  ]
+}

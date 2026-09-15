@@ -1,0 +1,330 @@
+{
+  "id": "oz-c10-s3",
+  "title": "The Guardian of the Gate, part 3",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“Why not?” she replied.",
+    "“Why, it is said that he never lets anyone come into his presence. I have been to the Emerald City many times, and it is a beautiful and wonderful place; but I have never been permitted to see the Great Oz, nor do I know of any living person who has seen him.”",
+    "“Does he never go out?” asked the Scarecrow.",
+    "“Never. He sits day after day in the great Throne Room of his Palace, and even those who wait upon him do not see him face to face.”",
+    "“What is he like?” asked the girl.",
+    "“That is hard to tell,” said the man thoughtfully. “You see, Oz is a Great Wizard, and can take on any form he wishes. So that some say he looks like a bird; and some say he looks like an elephant; and some say he looks like a cat. To others he appears as a beautiful fairy, or a brownie, or in any other form that pleases him. But who the real Oz is, when he is in his own form, no living person can tell.”",
+    "“That is very strange,” said Dorothy, “but we must try, in some way, to see him, or we shall have made our journey for nothing.”",
+    "“Why do you wish to see the terrible Oz?” asked the man.",
+    "“I want him to give me some brains,” said the Scarecrow eagerly.",
+    "“Oh, Oz could do that easily enough,” declared the man. “He has more brains than he needs.”",
+    "“And I want him to give me a heart,” said the Tin Woodman.",
+    "“That will not trouble him,” continued the man, “for Oz has a large collection of hearts, of all sizes and shapes.”",
+    "“And I want him to give me courage,” said the Cowardly Lion.",
+    "“Oz keeps a great pot of courage in his Throne Room,” said the man, “which he has covered with a golden plate, to keep it from running over. He will be glad to give you some.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c10-s3-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is said about Oz letting people see him?",
+      "options": [
+        "That he never lets anyone come into his presence",
+        "That he sees anyone who asks politely",
+        "That he sees only the people of the Emerald City",
+        "That he sees visitors once a year"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 6,
+        "end": 65
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s3-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, where does Oz spend his days?",
+      "options": [
+        "In the great Throne Room of his Palace",
+        "Walking the streets of the city",
+        "In a tower above the green wall",
+        "Travelling through the four countries"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 8,
+        "end": 68
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s3-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what forms is Oz said to take?",
+      "options": [
+        "A bird, an elephant, a cat, a fairy, or a brownie",
+        "Only a bird or a cat, and nothing else",
+        "A Munchkin, a Winkie, or a Quadling",
+        "A wizard in a green robe and peaked hat"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 127,
+        "end": 156
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s3-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the man say about Oz and brains?",
+      "options": [
+        "That he has more brains than he needs",
+        "That he has none of his own to spare",
+        "That he keeps them locked in a box",
+        "That he has never given any away"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 57,
+        "end": 89
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s3-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how is the pot of courage kept?",
+      "options": [
+        "Covered with a golden plate to stop it running over",
+        "Buried beneath the floor of the Throne Room",
+        "Guarded by the Guardian of the Gates",
+        "Locked in a green box behind the throne"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 69,
+        "end": 139
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s3-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why can nobody say what Oz really looks like?",
+      "options": [
+        "He can take any form he wishes, so his own is unknown",
+        "He has never once left the Throne Room",
+        "Everyone who sees him is destroyed at once",
+        "The people are forbidden to describe him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 328,
+        "end": 406
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s3-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the man's own experience prove?",
+      "options": [
+        "Even frequent visitors to the city have never seen Oz",
+        "Anyone who asks long enough is admitted in the end",
+        "The Wizard sees only those who bring him gifts",
+        "The Throne Room is open to all the green people"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 154,
+        "end": 205
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s3-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Dorothy insist they must try?",
+      "options": [
+        "Otherwise the whole journey will have been for nothing",
+        "Otherwise the Wizard will be angry at their delay",
+        "Because the Witch of the North ordered her to",
+        "Because the man has promised to guide them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 43,
+        "end": 126
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s3-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that even those who wait upon him do not see him face to face?",
+      "options": [
+        "Not even his own servants meet him directly",
+        "His servants see him only from a distance",
+        "His servants are chosen for their poor eyesight",
+        "He speaks to his servants through the Guardian"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 70,
+        "end": 130
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s3-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "Oz is described as able to grant anything, but almost impossible to reach",
+        "Oz is shown to be an ordinary man like any other",
+        "The man offers to lead the party into the Throne Room",
+        "The travellers decide the Wizard is not worth seeking"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 1,
+        "end": 40
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s3-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how often has the man been to the Emerald City?",
+      "options": [
+        "Many times",
+        "Only once, long ago",
+        "Never in his life",
+        "Every year since boyhood"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 67,
+        "end": 109
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s3-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the man say Oz has a large collection of?",
+      "options": [
+        "Hearts of all sizes and shapes",
+        "Pots of courage and brains",
+        "Spectacles with green glasses",
+        "Golden keys to the city gates"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 49,
+        "end": 113
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s3-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the man describe the Emerald City itself?",
+      "options": [
+        "A beautiful and wonderful place",
+        "A cold and frightening place",
+        "A city nobody may enter",
+        "A ruin behind a green wall"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 111,
+        "end": 152
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s3-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does the man answer each of the three requests?",
+      "options": [
+        "He treats every one of them as easy for Oz to grant",
+        "He warns that Oz has never granted any of them",
+        "He says only the brains could possibly be given",
+        "He refuses to discuss what Oz can and cannot do"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 0,
+        "end": 55
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s3-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what makes the difficulty the travellers face?",
+      "options": [
+        "Not what they ask for, but getting to ask it at all",
+        "That none of them knows the way to the palace",
+        "That the Wizard grants only one wish a year",
+        "That the Guardian of the Gates dislikes strangers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 1,
+        "end": 21
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s3-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does permitted mean?",
+      "options": ["Allowed", "Invited", "Forced", "Paid"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 154,
+        "end": 205
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s3-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A hopeful account of what Oz can give, set against how unreachable he is",
+        "A warning that Oz destroys everyone who dares approach him",
+        "A description of the four shapes the Wizard usually takes",
+        "An offer to take the travellers into the city the next day"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 44
+      },
+      "pool": "retest"
+    }
+  ]
+}

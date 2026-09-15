@@ -1,0 +1,316 @@
+{
+  "id": "oz-c10-s6",
+  "title": "The Guardian of the Gate, part 6",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“Why?” asked Dorothy.",
+    "“Because if you did not wear spectacles the brightness and glory of the Emerald City would blind you. Even those who live in the City must wear spectacles night and day. They are all locked on, for Oz so ordered it when the City was first built, and I have the only key that will unlock them.”",
+    "He opened the big box, and Dorothy saw that it was filled with spectacles of every size and shape. All of them had green glasses in them. The Guardian of the Gates found a pair that would just fit Dorothy and put them over her eyes. There were two golden bands fastened to them that passed around the back of her head, where they were locked together by a little key that was at the end of a chain the Guardian of the Gates wore around his neck. When they were on, Dorothy could not take them off had she wished, but of course she did not wish to be blinded by the glare of the Emerald City, so she said nothing.",
+    "Then the green man fitted spectacles for the Scarecrow and the Tin Woodman and the Lion, and even on little Toto; and all were locked fast with the key.",
+    "Then the Guardian of the Gates put on his own glasses and told them he was ready to show them to the Palace. Taking a big golden key from a peg on the wall, he opened another gate, and they all followed him through the portal into the streets of the Emerald City."
+  ],
+  "questions": [
+    {
+      "id": "oz-c10-s6-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why must visitors wear the spectacles?",
+      "options": [
+        "The city's brightness would otherwise blind them",
+        "The Wizard cannot be looked at with bare eyes",
+        "The green glass shows who is honest",
+        "It is the custom for all strangers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 40,
+        "end": 100
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s6-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who else must wear them?",
+      "options": [
+        "Even those who live in the City, night and day",
+        "Only strangers who come through the gate",
+        "Only those who wish to see the Wizard",
+        "Nobody but the Guardian of the Gates"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 102,
+        "end": 168
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s6-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what colour glass did every pair have?",
+      "options": ["Green", "Clear", "Smoked gray", "Gold"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 99,
+        "end": 137
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s6-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, where did the Guardian keep the key?",
+      "options": [
+        "On a chain around his neck",
+        "On a peg on the wall",
+        "In the big green box",
+        "In the lock of the gate"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 354,
+        "end": 444
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s6-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who else was fitted with spectacles?",
+      "options": [
+        "The Scarecrow, the Woodman, the Lion, and Toto",
+        "Only Dorothy, since the others could not be blinded",
+        "The Scarecrow and the Woodman alone",
+        "Everyone except the Cowardly Lion"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 87
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s6-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why could Dorothy not remove her spectacles?",
+      "options": [
+        "They were locked on with a key she did not have",
+        "They had been fastened to her hair",
+        "The Guardian was watching her too closely",
+        "Her hands were full with Toto and the basket"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 465,
+        "end": 511
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s6-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did Dorothy say nothing about being locked in?",
+      "options": [
+        "She had no wish to be blinded by the glare",
+        "She was too frightened of the Guardian",
+        "She did not notice the lock at all",
+        "The Scarecrow had told her to keep quiet"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 513,
+        "end": 590
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s6-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, who ordered the spectacles to be locked on?",
+      "options": [
+        "Oz, when the City was first built",
+        "The Guardian, to keep his office",
+        "The people of the City themselves",
+        "The Wicked Witch of the West"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 194,
+        "end": 244
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s6-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what is the portal the party passes through?",
+      "options": ["A gateway", "A corridor", "A courtyard", "A staircase"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 181,
+        "end": 225
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s6-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "Entry to the city comes with eyewear that is locked on and cannot be removed",
+        "The Guardian refuses to unlock the inner gate for strangers",
+        "The travellers are blinded by the brightness of the city",
+        "Dorothy objects to the spectacles and is sent away"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 170,
+        "end": 192
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s6-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy see when the box was opened?",
+      "options": [
+        "Spectacles of every size and shape",
+        "A great pot covered with gold",
+        "Rows of golden keys on hooks",
+        "Emeralds heaped to the brim"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 27,
+        "end": 97
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s6-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what held Dorothy's spectacles on?",
+      "options": [
+        "Two golden bands passing round her head",
+        "A leather strap under her chin",
+        "A chain fastened to her collar",
+        "Nothing; they rested on her nose"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 233,
+        "end": 277
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s6-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Guardian take from a peg on the wall?",
+      "options": [
+        "A big golden key",
+        "His own green spectacles",
+        "A lantern to light the way",
+        "A staff to lean upon"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 109,
+        "end": 155
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s6-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Guardian do before leading them off?",
+      "options": [
+        "Put on his own glasses",
+        "Locked the outer gate behind them",
+        "Sent word ahead to the Palace",
+        "Counted the party twice over"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 53
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s6-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does it suggest that even Toto was fitted with a pair?",
+      "options": [
+        "The rule was applied to every one of them without exception",
+        "The Guardian was making fun of the little dog",
+        "Dogs are more easily blinded than people",
+        "Toto had asked for a pair of his own"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 89,
+        "end": 151
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s6-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does glare refer to?",
+      "options": [
+        "The fierce brightness of the city",
+        "The stare of the Guardian",
+        "The green colour of the walls",
+        "The heat of the afternoon sun"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 544,
+        "end": 590
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s6-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Green glasses are locked onto every visitor before the city is entered",
+        "The party is shown the inside of the gate and then turned back",
+        "Dorothy refuses to wear the spectacles the Guardian offers",
+        "The Guardian explains why the Wizard built the city green"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 58,
+        "end": 107
+      },
+      "pool": "retest"
+    }
+  ]
+}

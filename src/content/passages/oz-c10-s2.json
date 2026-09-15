@@ -1,0 +1,334 @@
+{
+  "id": "oz-c10-s2",
+  "title": "The Guardian of the Gate, part 2",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“This must be the Land of Oz,” said Dorothy, “and we are surely getting near the Emerald City.”",
+    "“Yes,” answered the Scarecrow. “Everything is green here, while in the country of the Munchkins blue was the favorite color. But the people do not seem to be as friendly as the Munchkins, and I’m afraid we shall be unable to find a place to pass the night.”",
+    "“I should like something to eat besides fruit,” said the girl, “and I’m sure Toto is nearly starved. Let us stop at the next house and talk to the people.”",
+    "So, when they came to a good-sized farmhouse, Dorothy walked boldly up to the door and knocked.",
+    "A woman opened it just far enough to look out, and said, “What do you want, child, and why is that great Lion with you?”",
+    "“We wish to pass the night with you, if you will allow us,” answered Dorothy; “and the Lion is my friend and comrade, and would not hurt you for the world.”",
+    "“Is he tame?” asked the woman, opening the door a little wider.",
+    "“Oh, yes,” said the girl, “and he is a great coward, too. He will be more afraid of you than you are of him.”",
+    "“Well,” said the woman, after thinking it over and taking another peep at the Lion, “if that is the case you may come in, and I will give you some supper and a place to sleep.”",
+    "So they all entered the house, where there were, besides the woman, two children and a man. The man had hurt his leg, and was lying on the couch in a corner. They seemed greatly surprised to see so strange a company, and while the woman was busy laying the table the man asked:",
+    "“Where are you all going?”",
+    "“To the Emerald City,” said Dorothy, “to see the Great Oz.”",
+    "“Oh, indeed!” exclaimed the man. “Are you sure that Oz will see you?”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c10-s2-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy say she wanted besides fruit?",
+      "options": [
+        "Something else to eat",
+        "A bed for the night",
+        "A guide to the city",
+        "News of the Wizard"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 1,
+        "end": 45
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s2-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the woman first ask at the door?",
+      "options": [
+        "What Dorothy wanted, and why the Lion was with her",
+        "Whether they had come from the Emerald City",
+        "Whether the Wizard had sent them there",
+        "How many of them there were altogether"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 58,
+        "end": 119
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s2-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who else was in the house?",
+      "options": [
+        "A man and two children",
+        "Three children and a grandmother",
+        "A farmer and his two servants",
+        "Nobody but the woman"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 37,
+        "end": 90
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s2-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was wrong with the man?",
+      "options": [
+        "He had hurt his leg",
+        "He had lost his sight",
+        "He was very old and deaf",
+        "He had been enchanted"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 92,
+        "end": 116
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s2-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Scarecrow notice about the colours?",
+      "options": [
+        "Green here, as blue was the favourite in Munchkin country",
+        "Green here, as it had been in the country of the Munchkins",
+        "Yellow here, matching the bricks of the road",
+        "No colour at all, as in Dorothy's Kansas"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 58,
+        "end": 123
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s2-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did Dorothy persuade the woman to let them in?",
+      "options": [
+        "By telling her the Lion was tame and a great coward",
+        "By offering to pay for the supper and the beds",
+        "By showing her the mark of the Good Witch's kiss",
+        "By promising to leave again before dark"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 27,
+        "end": 56
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s2-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Scarecrow fear about these people?",
+      "options": [
+        "That they were less friendly than the Munchkins",
+        "That they would report the party to the Wizard",
+        "That they had never heard of the Emerald City",
+        "That they would refuse to speak any English"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 125,
+        "end": 186
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s2-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the woman do before deciding?",
+      "options": [
+        "Thought it over and took another peep at the Lion",
+        "Called the man to come to the door himself",
+        "Sent the two children to fetch a neighbour",
+        "Shut the door and left them waiting outside"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 24,
+        "end": 82
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s2-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does walking boldly up to the door mean?",
+      "options": [
+        "Going up to it without hesitating",
+        "Going up to it very quietly",
+        "Going up to it in a great temper",
+        "Going up to it uninvited"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 46,
+        "end": 94
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s2-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A cautious welcome is won by explaining what the Lion really is",
+        "A farmhouse door is shut against the travellers for good",
+        "A family begs the travellers to stay and help them",
+        "Dorothy decides the green people cannot be trusted"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 105,
+        "end": 174
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s2-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how far did the woman open the door at first?",
+      "options": [
+        "Just far enough to look out",
+        "Wide, at once",
+        "Only a crack, and then shut it",
+        "She spoke through the window instead"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 45
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s2-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Dorothy call the Lion?",
+      "options": [
+        "Her friend and comrade",
+        "Her faithful servant",
+        "A beast she had tamed herself",
+        "A gift from the Munchkins"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 79,
+        "end": 116
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s2-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the man ask them?",
+      "options": [
+        "Where they were all going",
+        "How they had crossed the river",
+        "Why the Lion was so quiet",
+        "Whether they had any news"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 0,
+        "end": 26
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s2-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did Dorothy say about Toto's hunger?",
+      "options": [
+        "That she was sure he was nearly starved",
+        "That he had eaten nothing but nuts for days",
+        "That he would not touch the fruit at all",
+        "That he had been fed by the field mice"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 68,
+        "end": 99
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s2-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the family react to their visitors?",
+      "options": [
+        "They seemed greatly surprised at so strange a company",
+        "They welcomed them as old friends of the house",
+        "They asked them to leave before nightfall",
+        "They took no notice of them at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 158,
+        "end": 215
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s2-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does asking whether the Lion is tame mean?",
+      "options": [
+        "Whether he is safe to have near people",
+        "Whether he is fully grown yet",
+        "Whether he belongs to anyone",
+        "Whether he can understand speech"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 0,
+        "end": 29
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s2-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A door opened warily becomes supper and a bed for the night",
+        "A family refuses shelter to anyone travelling with a lion",
+        "The travellers learn the Wizard will not see them",
+        "Dorothy decides to leave the Lion outside the house"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 44
+      },
+      "pool": "retest"
+    }
+  ]
+}

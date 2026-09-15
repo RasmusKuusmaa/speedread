@@ -1,0 +1,325 @@
+{
+  "id": "oz-c10-s5",
+  "title": "The Guardian of the Gate, part 5",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "In front of them, and at the end of the road of yellow brick, was a big gate, all studded with emeralds that glittered so in the sun that even the painted eyes of the Scarecrow were dazzled by their brilliancy.",
+    "There was a bell beside the gate, and Dorothy pushed the button and heard a silvery tinkle sound within. Then the big gate swung slowly open, and they all passed through and found themselves in a high arched room, the walls of which glistened with countless emeralds.",
+    "Before them stood a little man about the same size as the Munchkins. He was clothed all in green, from his head to his feet, and even his skin was of a greenish tint. At his side was a large green box.",
+    "When he saw Dorothy and her companions the man asked, “What do you wish in the Emerald City?”",
+    "“We came here to see the Great Oz,” said Dorothy.",
+    "The man was so surprised at this answer that he sat down to think it over.",
+    "“It has been many years since anyone asked me to see Oz,” he said, shaking his head in perplexity. “He is powerful and terrible, and if you come on an idle or foolish errand to bother the wise reflections of the Great Wizard, he might be angry and destroy you all in an instant.”",
+    "“But it is not a foolish errand, nor an idle one,” replied the Scarecrow; “it is important. And we have been told that Oz is a good Wizard.”",
+    "“So he is,” said the green man, “and he rules the Emerald City wisely and well. But to those who are not honest, or who approach him from curiosity, he is most terrible, and few have ever dared ask to see his face. I am the Guardian of the Gates, and since you demand to see the Great Oz I must take you to his Palace. But first you must put on the spectacles.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c10-s5-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the big gate studded with?",
+      "options": ["Emeralds", "Gold nails", "Green glass", "Silver bells"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 62,
+        "end": 103
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s5-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Dorothy hear when she pushed the button?",
+      "options": [
+        "A silvery tinkle within",
+        "A deep bell tolling",
+        "A voice asking her name",
+        "The gate creaking open"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 68,
+        "end": 103
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s5-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the little man like?",
+      "options": [
+        "Clothed all in green, with greenish skin",
+        "Dressed in blue, with a pointed hat",
+        "Dressed in gold, with a long white beard",
+        "Wearing nothing but a pair of spectacles"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 69,
+        "end": 123
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s5-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what stood at the little man's side?",
+      "options": [
+        "A large green box",
+        "A golden key on a peg",
+        "A great pot of courage",
+        "A chest of emeralds"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 167,
+        "end": 201
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s5-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who does the little man say he is?",
+      "options": [
+        "The Guardian of the Gates",
+        "The Wizard's own servant",
+        "The keeper of the Throne Room",
+        "The ruler of the Emerald City"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 215,
+        "end": 245
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s5-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Guardian sit down to think?",
+      "options": [
+        "He was astonished that anyone asked to see Oz",
+        "He was too tired to stand any longer",
+        "He was deciding whether they were honest",
+        "He was searching his memory for the key"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 0,
+        "end": 74
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s5-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Guardian warn might happen?",
+      "options": [
+        "Oz could be angry and destroy them in an instant",
+        "The gate would be locked against them for good",
+        "The city's brightness would blind them at once",
+        "They would be sent back the way they came"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 226,
+        "end": 277
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s5-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, whom is Oz said to be terrible towards?",
+      "options": [
+        "Those who are dishonest or merely curious",
+        "Everyone who has ever asked to see him",
+        "Those who come from outside the Land of Oz",
+        "Anyone who arrives without a gift for him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 80,
+        "end": 168
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s5-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does an idle errand mean?",
+      "options": [
+        "One with no serious purpose",
+        "One that takes a long time",
+        "One that has been forbidden",
+        "One undertaken for money"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 133,
+        "end": 173
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s5-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "The gate opens, and the party must satisfy a doubtful gatekeeper",
+        "The gate stays shut and the travellers are turned away",
+        "The Wizard himself comes out to meet the travellers",
+        "The Scarecrow argues the Wizard does not exist"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 251,
+        "end": 317
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c10-s5-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what were the walls of the arched room like?",
+      "options": [
+        "Glistening with countless emeralds",
+        "Bare green stone without ornament",
+        "Hung with green curtains",
+        "Lined with mirrors of glass"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 214,
+        "end": 266
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s5-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Guardian ask them at first?",
+      "options": [
+        "What they wished in the Emerald City",
+        "Where they had come from",
+        "Who had sent them to the gate",
+        "Whether they had spectacles"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 54,
+        "end": 93
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s5-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how long had it been since anyone asked to see Oz?",
+      "options": [
+        "Many years",
+        "A few months",
+        "Since the city was built",
+        "Only since spring"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 1,
+        "end": 55
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s5-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does the Scarecrow answer the Guardian's warning?",
+      "options": [
+        "He insists the errand is important, not idle or foolish",
+        "He admits they have only come out of curiosity",
+        "He threatens to break the gate down",
+        "He offers the Guardian a share of the brains"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 75,
+        "end": 90
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s5-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Guardian say about how Oz rules?",
+      "options": [
+        "Wisely and well over the Emerald City",
+        "Harshly, and the people fear him",
+        "Only through servants who never see him",
+        "Badly, though nobody dares say so"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 33,
+        "end": 78
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s5-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does perplexity describe?",
+      "options": [
+        "Being puzzled by what he has heard",
+        "Being angry at the interruption",
+        "Being frightened of the Wizard",
+        "Being pleased to have visitors"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 58,
+        "end": 97
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c10-s5-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A guarded gate is passed, but only after the errand is defended",
+        "A gatekeeper refuses to let the party into the city",
+        "A gate is opened at once to anyone who rings the bell",
+        "The party decides the Wizard is too dangerous to see"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 105,
+        "end": 140
+      },
+      "pool": "retest"
+    }
+  ]
+}
