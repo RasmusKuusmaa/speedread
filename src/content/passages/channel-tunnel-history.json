@@ -1,0 +1,309 @@
+{
+  "id": "channel-tunnel-history",
+  "title": "The Only Fixed Link",
+  "language": "en",
+  "source": "https://en.wikipedia.org/wiki/Channel_Tunnel",
+  "attribution": "Adapted (trimmed) from the Wikipedia article \"Channel Tunnel,\" available under CC BY-SA 4.0.",
+  "licence": "CC BY-SA 4.0",
+  "textType": "expository",
+  "domain": "engineering",
+  "calibrationOnly": false,
+  "body": [
+    "The Channel Tunnel, sometimes referred to as the Chunnel, is a 50.46-kilometre (31.35-mile) railway tunnel beneath the English Channel which connects Folkestone in the United Kingdom with Coquelles in northern France. Opened in 1994, it remains the only fixed link between Great Britain and the European mainland.",
+    "The tunnel has the longest underwater section of any tunnel in the world, at 37.9 km (23.5 miles), reaching a depth of 75 m (246 ft) below sea level and runs, on average, 45 m (148 ft) below the seabed. It is the third-longest railway tunnel in the world. Although the tunnel was designed for speeds up to 200 km/h (120 mph), trains are limited to a maximum speed of 160 km/h (99 mph) for safety reasons.",
+    "Proposals for a cross-Channel tunnel date back as early as 1802, but concerns over national security delayed development. The modern project was initiated by Eurotunnel in 1988 and completed in 1994, at a final cost of £4.65 billion. An engineering marvel, the Channel Tunnel was, at the time of its opening, by far the longest tunnel in Europe, and has only been surpassed by the Gotthard Base Tunnel in Switzerland."
+  ],
+  "questions": [
+    {
+      "id": "channel-tunnel-history-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how long is the Channel Tunnel?",
+      "options": [
+        "50.46 kilometres (31.35 miles)",
+        "10 kilometres (6.2 miles)",
+        "100 kilometres (62 miles)",
+        "37.9 kilometres (23.5 miles)"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 58,
+        "end": 134
+      },
+      "pool": "first"
+    },
+    {
+      "id": "channel-tunnel-history-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what two towns does the Channel Tunnel connect?",
+      "options": [
+        "Folkestone in the United Kingdom and Coquelles in France",
+        "Dover in the United Kingdom and Calais in northern France",
+        "London in the United Kingdom and Paris in northern France",
+        "Folkestone in the United Kingdom and Dover in England"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 141,
+        "end": 216
+      },
+      "pool": "first"
+    },
+    {
+      "id": "channel-tunnel-history-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in what year did the Channel Tunnel open?",
+      "options": ["1994", "1988", "1802", "2000"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 218,
+        "end": 312
+      },
+      "pool": "first"
+    },
+    {
+      "id": "channel-tunnel-history-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how long is the tunnel's underwater section?",
+      "options": [
+        "37.9 km (23.5 miles)",
+        "50.46 km (31.35 miles)",
+        "75 km (46.6 miles)",
+        "10 km (6.2 miles)"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 97
+      },
+      "pool": "first"
+    },
+    {
+      "id": "channel-tunnel-history-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the maximum speed trains are limited to for safety reasons?",
+      "options": [
+        "160 km/h (99 mph)",
+        "200 km/h (120 mph)",
+        "100 km/h (62 mph)",
+        "300 km/h (186 mph)"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 326,
+        "end": 403
+      },
+      "pool": "first"
+    },
+    {
+      "id": "channel-tunnel-history-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was the final cost of the modern Channel Tunnel project?",
+      "options": ["£4.65 billion", "£1 billion", "£10 billion", "£500 million"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 181,
+        "end": 232
+      },
+      "pool": "first"
+    },
+    {
+      "id": "channel-tunnel-history-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why are trains limited to 160 km/h even though the tunnel was designed for speeds up to 200 km/h?",
+      "options": [
+        "Safety concerns override the tunnel's full technical capability",
+        "The trains themselves are not capable of going any faster",
+        "Higher speeds are illegal everywhere in France and the UK",
+        "The tunnel's length makes higher speeds unnecessary"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 256,
+        "end": 403
+      },
+      "pool": "first"
+    },
+    {
+      "id": "channel-tunnel-history-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did early proposals for a cross-Channel tunnel, dating back to 1802, face delay?",
+      "options": [
+        "Concerns over national security",
+        "A lack of any technical proposals at the time",
+        "Disagreement over which company would operate it",
+        "The English Channel was too shallow to tunnel beneath"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 120
+      },
+      "pool": "first"
+    },
+    {
+      "id": "channel-tunnel-history-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "A long-delayed tunnel finally built, and still the only fixed link to the mainland",
+        "A tunnel proposed in 1802 and finished within a few years of that first proposal",
+        "A tunnel that carried trains for a few years and has since been closed to traffic",
+        "A tunnel that is still the longest of any kind anywhere in the world today"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 218,
+        "end": 312
+      },
+      "pool": "first"
+    },
+    {
+      "id": "channel-tunnel-history-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the tunnel is the \"only fixed link\" between Great Britain and mainland Europe?",
+      "options": [
+        "A permanent physical connection, unlike a ferry or a flight",
+        "The only way anyone has ever crossed between Britain and France",
+        "A temporary connection that is due to be removed before long",
+        "One of several permanent tunnels running beneath the Channel"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 234,
+        "end": 312
+      },
+      "pool": "first"
+    },
+    {
+      "id": "channel-tunnel-history-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in what year was the modern Channel Tunnel project initiated by Eurotunnel?",
+      "options": ["1988", "1994", "1802", "1975"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 122,
+        "end": 198
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "channel-tunnel-history-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, to what depth below sea level does the tunnel reach?",
+      "options": [
+        "75 m (246 ft)",
+        "37.9 m (124 ft)",
+        "160 m (525 ft)",
+        "10 m (33 ft)"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 99,
+        "end": 148
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "channel-tunnel-history-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what tunnel has surpassed the Channel Tunnel as the longest in Europe?",
+      "options": [
+        "The Gotthard Base Tunnel in Switzerland",
+        "A tunnel beneath the Strait of Gibraltar",
+        "A tunnel beneath the Bosphorus in Turkey",
+        "No tunnel has ever surpassed it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 350,
+        "end": 416
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "channel-tunnel-history-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how far back do proposals for a cross-Channel tunnel date?",
+      "options": [
+        "As early as 1802",
+        "As early as 1900",
+        "As early as 1950",
+        "As early as 1988"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 63
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "channel-tunnel-history-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author call the Channel Tunnel \"an engineering marvel\" despite noting it was later surpassed in length?",
+      "options": [
+        "It was by far the longest tunnel in Europe when it opened",
+        "It has never once been used for the purpose it was built for",
+        "It was built without the use of any modern engineering method",
+        "It was the first tunnel of any kind ever built anywhere"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 234,
+        "end": 344
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "channel-tunnel-history-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what the passage says about the tunnel's technical specifications?",
+      "options": [
+        "Record underwater length and depth, though trains run below the design speed",
+        "The shortest railway tunnel ever built, but also the fastest in Europe",
+        "No speed limit at all, because the tunnel was designed without one",
+        "A route that runs above the seabed rather than beneath it, to save cost"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 72
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "channel-tunnel-history-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the Gotthard Base Tunnel has \"surpassed\" the Channel Tunnel in length?",
+      "options": [
+        "It has exceeded the Channel Tunnel's length",
+        "It has been demolished by the Channel Tunnel's builders",
+        "It was built using the exact same design",
+        "It failed to reach the Channel Tunnel's length"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 350,
+        "end": 416
+      },
+      "pool": "retest"
+    }
+  ]
+}

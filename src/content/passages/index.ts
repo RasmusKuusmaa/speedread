@@ -5,6 +5,7 @@ import baconOfStudies from "./bacon-of-studies.json";
 import baconOfTruth from "./bacon-of-truth.json";
 import bostonTeaParty from "./boston-tea-party.json";
 import brooklynBridgeHistory from "./brooklyn-bridge-history.json";
+import channelTunnelHistory from "./channel-tunnel-history.json";
 import civilEngineeringAncientOrigins from "./civil-engineering-ancient-origins.json";
 import eiffelTowerHistory from "./eiffel-tower-history.json";
 import empireStateBuildingHistory from "./empire-state-building-history.json";
@@ -77,6 +78,7 @@ export const rawPassages: unknown[] = [
   toBuildAFireOpening,
   mechanicalEngineeringAncientHistory,
   civilEngineeringAncientOrigins,
+  channelTunnelHistory,
   electricalEngineering19thCentury,
   frankensteinCreationScene,
   eiffelTowerHistory,
