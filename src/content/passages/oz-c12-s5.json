@@ -1,0 +1,324 @@
+{
+  "id": "oz-c12-s5",
+  "title": "The Search for the Wicked Witch, part 5",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "When they returned to the castle the Wicked Witch beat them well with a strap, and sent them back to their work, after which she sat down to think what she should do next. She could not understand how all her plans to destroy these strangers had failed; but she was a powerful Witch, as well as a wicked one, and she soon made up her mind how to act.",
+    "There was, in her cupboard, a Golden Cap, with a circle of diamonds and rubies running round it. This Golden Cap had a charm. Whoever owned it could call three times upon the Winged Monkeys, who would obey any order they were given. But no person could command these strange creatures more than three times. Twice already the Wicked Witch had used the charm of the Cap. Once was when she had made the Winkies her slaves, and set herself to rule over their country. The Winged Monkeys had helped her do this. The second time was when she had fought against the Great Oz himself, and driven him out of the land of the West. The Winged Monkeys had also helped her in doing this. Only once more could she use this Golden Cap, for which reason she did not like to do so until all her other powers were exhausted. But now that her fierce wolves and her wild crows and her stinging bees were gone, and her slaves had been scared away by the Cowardly Lion, she saw there was only one way left to destroy Dorothy and her friends.",
+    "So the Wicked Witch took the Golden Cap from her cupboard and placed it upon her head. Then she stood upon her left foot and said, slowly:",
+    "“Ep-pe, pep-pe, kak-ke!”",
+    "Next she stood upon her right foot and said:",
+    "“Hil-lo, hol-lo, hel-lo!”",
+    "After this she stood upon both feet and cried in a loud voice:",
+    "“Ziz-zy, zuz-zy, zik!”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c12-s5-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was in the Witch's cupboard?",
+      "options": [
+        "A Golden Cap set with diamonds and rubies",
+        "A silver whistle on a chain",
+        "A bar of iron she could make invisible",
+        "The other of Dorothy's silver shoes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 40
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s5-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how many times may the Cap's owner call the Winged Monkeys?",
+      "options": ["Three", "Once", "Seven", "As often as they like"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 126,
+        "end": 189
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s5-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the first use the Witch made of the Cap?",
+      "options": [
+        "Making the Winkies her slaves and ruling their country",
+        "Driving the Great Oz out of the land of the West",
+        "Building her castle in a single night",
+        "Stealing the Silver Shoes from the East"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 370,
+        "end": 419
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s5-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was the second use?",
+      "options": [
+        "Driving the Great Oz out of the West",
+        "Making the Winkies her slaves",
+        "Destroying the Witch of the East",
+        "Calling up her wolves and crows"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 508,
+        "end": 576
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s5-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Witch do to the Winkies who ran away?",
+      "options": [
+        "Beat them with a strap and sent them back to work",
+        "Turned them into crows for their cowardice",
+        "Locked them in the courtyard with the Lion",
+        "Sent them out again with sharper spears"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 33,
+        "end": 77
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s5-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why had the Witch saved the Cap's last use?",
+      "options": [
+        "She did not want to spend it until everything else had failed",
+        "She could not remember the words of the charm",
+        "She feared the Monkeys would turn against her",
+        "The Cap only worked at certain times of year"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 722,
+        "end": 806
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s5-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did she use it now?",
+      "options": [
+        "Her wolves, crows, bees, and slaves had all failed",
+        "The travellers had reached the castle gate",
+        "The Wizard had ordered her to do it",
+        "She had lost her silver whistle"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 949,
+        "end": 1019
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s5-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Witch do with each part of the charm?",
+      "options": [
+        "Stood on one foot, then the other, then both",
+        "Turned round three times on her heel",
+        "Struck the floor with her umbrella",
+        "Blew her whistle between each word"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 87,
+        "end": 137
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s5-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does exhausted mean?",
+      "options": [
+        "Used up entirely",
+        "Worn out with tiredness",
+        "Given away to others",
+        "Kept back in reserve"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 765,
+        "end": 806
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s5-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "Out of ordinary weapons, the Witch spends her last charm",
+        "The Witch decides to leave the travellers alone",
+        "The Witch discovers the secret of the Silver Shoes",
+        "The Winkies rebel against the Witch's cruelty"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 57
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s5-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what ran around the Golden Cap?",
+      "options": [
+        "A circle of diamonds and rubies",
+        "A band of green emeralds",
+        "A row of small silver bells",
+        "A line of strange writing"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 42,
+        "end": 95
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s5-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what must the Winged Monkeys do when called?",
+      "options": [
+        "Obey any order they are given",
+        "Grant one wish and no more",
+        "Carry the caller wherever they wish",
+        "Fight whoever the caller names"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 191,
+        "end": 231
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s5-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what were the first words of the charm?",
+      "options": [
+        "Ep-pe, pep-pe, kak-ke!",
+        "Hil-lo, hol-lo, hel-lo!",
+        "Ziz-zy, zuz-zy, zik!",
+        "She said no words at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 24
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s5-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what could the Witch not understand?",
+      "options": [
+        "How all her plans against the strangers had failed",
+        "Why the Winkies had refused to fight",
+        "Where the strangers had come from",
+        "Why the Golden Cap no longer worked"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 172,
+        "end": 252
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s5-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what kind of witch is she shown to be?",
+      "options": [
+        "Powerful as well as wicked, and quick to decide",
+        "Wicked but weak, and easily discouraged",
+        "Kind to her slaves but cruel to strangers",
+        "Frightened of her own Winged Monkeys"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 254,
+        "end": 307
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s5-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does a charm mean?",
+      "options": [
+        "A magic power belonging to the Cap",
+        "A pretty ornament on the Cap",
+        "A song the Monkeys like to hear",
+        "A promise the Witch had made"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 97,
+        "end": 125
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s5-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A history of the Cap, and the decision to use its last call",
+        "A description of how the Winkies became slaves",
+        "A quarrel between the Witch and her Winged Monkeys",
+        "An account of how the Witch first came to the West"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 309,
+        "end": 349
+      },
+      "pool": "retest"
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "id": "oz-c12-s6",
+  "title": "The Search for the Wicked Witch, part 6",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Now the charm began to work. The sky was darkened, and a low rumbling sound was heard in the air. There was a rushing of many wings, a great chattering and laughing, and the sun came out of the dark sky to show the Wicked Witch surrounded by a crowd of monkeys, each with a pair of immense and powerful wings on his shoulders.",
+    "One, much bigger than the others, seemed to be their leader. He flew close to the Witch and said, “You have called us for the third and last time. What do you command?”",
+    "“Go to the strangers who are within my land and destroy them all except the Lion,” said the Wicked Witch. “Bring that beast to me, for I have a mind to harness him like a horse, and make him work.”",
+    "“Your commands shall be obeyed,” said the leader. Then, with a great deal of chattering and noise, the Winged Monkeys flew away to the place where Dorothy and her friends were walking.",
+    "Some of the Monkeys seized the Tin Woodman and carried him through the air until they were over a country thickly covered with sharp rocks. Here they dropped the poor Woodman, who fell a great distance to the rocks, where he lay so battered and dented that he could neither move nor groan.",
+    "Others of the Monkeys caught the Scarecrow, and with their long fingers pulled all of the straw out of his clothes and head. They made his hat and boots and clothes into a small bundle and threw it into the top branches of a tall tree.",
+    "The remaining Monkeys threw pieces of stout rope around the Lion and wound many coils about his body and head and legs, until he was unable to bite or scratch or struggle in any way. Then they lifted him up and flew away with him to the Witch’s castle, where he was placed in a small yard with a high iron fence around it, so that he could not escape."
+  ],
+  "questions": [
+    {
+      "id": "oz-c12-s6-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the leader of the Monkeys say?",
+      "options": [
+        "That she had called them for the third and last time",
+        "That they would not obey a wicked witch",
+        "That the Cap no longer had any power",
+        "That they had never been called before"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 99,
+        "end": 146
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s6-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Witch order done with the Lion?",
+      "options": [
+        "Brought to her, to be harnessed like a horse",
+        "Killed along with all of the others",
+        "Driven back towards the Emerald City",
+        "Left asleep among the daisies and grass"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 107,
+        "end": 176
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s6-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where was the Tin Woodman dropped?",
+      "options": [
+        "Over a country thickly covered with sharp rocks",
+        "Into the deep river that runs below the castle",
+        "In the middle of a field of scarlet poppies",
+        "At the gate of the Emerald City itself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 75,
+        "end": 138
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s6-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Monkeys do with the Scarecrow's clothes?",
+      "options": [
+        "Bundled them into the branches of a tall tree",
+        "Burned them on the sharp rocks below",
+        "Carried them back to the Witch's castle",
+        "Left them lying on the grass where he fell"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 125,
+        "end": 184
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s6-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where was the Lion put?",
+      "options": [
+        "In a small yard with a high iron fence",
+        "In the great kitchen of the castle",
+        "In a cage with bars of gold",
+        "On the flat roof of the castle"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 259,
+        "end": 321
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s6-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the sky do when the charm worked?",
+      "options": [
+        "Darkened, with a low rumbling in the air",
+        "Cleared to a bright and cloudless blue",
+        "Turned green as it does in the city",
+        "Filled with smoke from the castle"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 29,
+        "end": 97
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s6-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why could the Tin Woodman neither move nor groan?",
+      "options": [
+        "He was battered and dented by the fall",
+        "The Monkeys had tied his jaws shut",
+        "His joints had rusted in the rain",
+        "He had been emptied of his straw"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 216,
+        "end": 288
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s6-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why could the Lion not fight back?",
+      "options": [
+        "He was wound round with many coils of stout rope",
+        "He had been struck senseless by the fall",
+        "The Monkeys were far too many for him",
+        "He was too frightened to move at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 120,
+        "end": 181
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s6-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does immense describe?",
+      "options": [
+        "The great size of the monkeys' wings",
+        "The noise the monkeys made",
+        "The height they flew above the ground",
+        "The number of monkeys called"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 262,
+        "end": 325
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s6-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "The last call of the Cap scatters and destroys the party",
+        "The Winged Monkeys refuse the Witch's cruellest order",
+        "The Monkeys carry the whole party safely to the castle",
+        "The Witch changes her mind and spares the travellers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 49
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s6-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how was the leader of the Monkeys marked out?",
+      "options": [
+        "He was much bigger than the others",
+        "He alone had no wings",
+        "He wore the Golden Cap himself",
+        "He spoke in a woman's voice"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 60
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s6-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Monkeys pull out of the Scarecrow?",
+      "options": [
+        "All the straw from his clothes and head",
+        "The pole that held him upright",
+        "The paint from his painted eyes",
+        "The basket he was carrying"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 72,
+        "end": 123
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s6-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what sound came with the Monkeys?",
+      "options": [
+        "A rushing of wings, chattering and laughing",
+        "A silence so deep it frightened them",
+        "A roaring like a great fire",
+        "The ringing of many small bells"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 98,
+        "end": 164
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s6-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Witch want the Lion alive?",
+      "options": [
+        "To harness him and make him draw her about",
+        "To set him to guard her castle gate",
+        "To trade him to the Winkies for work",
+        "To frighten the Emerald City with him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 131,
+        "end": 195
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s6-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Monkeys do the moment they had their orders?",
+      "options": [
+        "Flew straight to where the travellers were walking",
+        "Argued with the Witch about the girl",
+        "Waited until nightfall to attack",
+        "Asked to be released from the charm"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 99,
+        "end": 183
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s6-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does stout describe about the rope?",
+      "options": [
+        "Thick and strong",
+        "Short and frayed",
+        "Wet and slippery",
+        "Woven out of straw"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 22,
+        "end": 64
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s6-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Three companions are broken, scattered, and caged in a single attack",
+        "The Monkeys carry the party to the Emerald City",
+        "The Witch's last charm fails to reach the travellers",
+        "The Lion fights the Monkeys and drives them off"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 42
+      },
+      "pool": "retest"
+    }
+  ]
+}

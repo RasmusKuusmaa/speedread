@@ -1,0 +1,327 @@
+{
+  "id": "oz-c12-s7",
+  "title": "The Search for the Wicked Witch, part 7",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "But Dorothy they did not harm at all. She stood, with Toto in her arms, watching the sad fate of her comrades and thinking it would soon be her turn. The leader of the Winged Monkeys flew up to her, his long, hairy arms stretched out and his ugly face grinning terribly; but he saw the mark of the Good Witch’s kiss upon her forehead and stopped short, motioning the others not to touch her.",
+    "“We dare not harm this little girl,” he said to them, “for she is protected by the Power of Good, and that is greater than the Power of Evil. All we can do is to carry her to the castle of the Wicked Witch and leave her there.”",
+    "So, carefully and gently, they lifted Dorothy in their arms and carried her swiftly through the air until they came to the castle, where they set her down upon the front doorstep. Then the leader said to the Witch:",
+    "“We have obeyed you as far as we were able. The Tin Woodman and the Scarecrow are destroyed, and the Lion is tied up in your yard. The little girl we dare not harm, nor the dog she carries in her arms. Your power over our band is now ended, and you will never see us again.”",
+    "Then all the Winged Monkeys, with much laughing and chattering and noise, flew into the air and were soon out of sight.",
+    "The Wicked Witch was both surprised and worried when she saw the mark on Dorothy’s forehead, for she knew well that neither the Winged Monkeys nor she, herself, dare hurt the girl in any way. She looked down at Dorothy’s feet, and seeing the Silver Shoes, began to tremble with fear, for she knew what a powerful charm belonged to them. At first the Witch was tempted to run away from Dorothy; but she happened to look into the child’s eyes and saw how simple the soul behind them was, and that the little girl did not know of the wonderful power the Silver Shoes gave her. So the Wicked Witch laughed to herself, and thought, “I can still make her my slave, for she does not know how to use her power.” Then she said to Dorothy, harshly and severely:"
+  ],
+  "questions": [
+    {
+      "id": "oz-c12-s7-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what stopped the leader of the Monkeys from harming Dorothy?",
+      "options": [
+        "The mark of the Good Witch's kiss on her forehead",
+        "The Silver Shoes she wore on her feet",
+        "The dog she was holding in her arms",
+        "An order shouted by the Witch herself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 271,
+        "end": 333
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s7-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Monkeys do with Dorothy instead?",
+      "options": [
+        "Carried her gently to the Witch's castle doorstep",
+        "Left her standing where she was",
+        "Took her back towards the Emerald City",
+        "Set her down among the sharp rocks"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 26,
+        "end": 99
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s7-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the leader tell the Witch?",
+      "options": [
+        "That her power over their band was now ended",
+        "That they would serve her once more if asked",
+        "That the girl had been destroyed with the rest",
+        "That the Golden Cap had been lost"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 202,
+        "end": 239
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s7-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what made the Witch begin to tremble?",
+      "options": [
+        "The sight of the Silver Shoes on Dorothy's feet",
+        "The laughter of the departing Monkeys",
+        "The roar of the Lion in the yard",
+        "The mark upon Dorothy's forehead"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 231,
+        "end": 282
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s7-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Witch finally speak to Dorothy?",
+      "options": [
+        "Harshly and severely",
+        "Kindly and sweetly",
+        "In a trembling whisper",
+        "Not at all, at first"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 704,
+        "end": 750
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s7-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the leader say they dare not harm her?",
+      "options": [
+        "She is protected by a Power of Good greater than Evil",
+        "She has done the Monkeys no injury at all",
+        "The Witch had forbidden it in her order",
+        "She is too small to be worth the trouble"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 55,
+        "end": 140
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s7-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Witch decide not to run away?",
+      "options": [
+        "She saw the girl did not know the Shoes' power",
+        "She remembered the Monkeys would defend her",
+        "She was too proud to flee from a child",
+        "The Lion in the yard blocked her escape"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 486,
+        "end": 572
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s7-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did Dorothy expect while she watched?",
+      "options": [
+        "That her own turn would come soon",
+        "That the Monkeys would set her friends free",
+        "That the Witch would come out to meet her",
+        "That the Wizard would send help"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 114,
+        "end": 148
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s7-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does motioning the others mean?",
+      "options": [
+        "Signalling to them with a gesture",
+        "Shouting an order to them",
+        "Pushing them away with his arms",
+        "Flying ahead to lead them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 353,
+        "end": 390
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s7-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A mark of protection saves Dorothy, but leaves her the Witch's prisoner",
+        "The Monkeys turn on the Witch and free the travellers",
+        "Dorothy uses the Silver Shoes to escape the Monkeys",
+        "The Witch is destroyed by the power of the kiss"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 628,
+        "end": 701
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s7-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Monkeys report about the Woodman and Scarecrow?",
+      "options": [
+        "That they were destroyed",
+        "That they had escaped",
+        "That they were tied in the yard",
+        "That they had joined the Winkies"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 44,
+        "end": 91
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s7-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, where did the Monkeys set Dorothy down?",
+      "options": [
+        "On the front doorstep of the castle",
+        "In the yard beside the Lion",
+        "In the castle kitchen",
+        "On the rocks where the Woodman fell"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 131,
+        "end": 178
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s7-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Monkeys leave?",
+      "options": [
+        "Laughing and chattering, into the air",
+        "Silently, one by one",
+        "Carrying the Golden Cap with them",
+        "Only after the Witch dismissed them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 74,
+        "end": 118
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s7-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the leader look like as he flew at Dorothy?",
+      "options": [
+        "Arms stretched out and his ugly face grinning",
+        "Small and frightened, hanging back",
+        "Wrapped in the coils of rope",
+        "Wearing the Witch's Golden Cap"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 199,
+        "end": 269
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s7-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Witch know about the Silver Shoes?",
+      "options": [
+        "That a powerful charm belonged to them",
+        "That they had been made for her",
+        "That they would melt in water",
+        "That only a witch could wear them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 284,
+        "end": 335
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s7-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that he stopped short?",
+      "options": [
+        "He checked himself suddenly",
+        "He stopped only briefly",
+        "He fell to the ground",
+        "He called out a warning"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 334,
+        "end": 390
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s7-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Two protections save Dorothy, but leave her in the Witch's hands",
+        "The Witch is defeated by the Winged Monkeys she called up",
+        "Dorothy is destroyed along with the rest of her companions",
+        "The Monkeys carry Dorothy safely home again to Kansas"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 37
+      },
+      "pool": "retest"
+    }
+  ]
+}

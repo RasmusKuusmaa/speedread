@@ -1,0 +1,323 @@
+{
+  "id": "oz-c12-s4",
+  "title": "The Search for the Wicked Witch, part 4",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Forthwith there was heard a great buzzing in the air, and a swarm of black bees came flying toward her.",
+    "“Go to the strangers and sting them to death!” commanded the Witch, and the bees turned and flew rapidly until they came to where Dorothy and her friends were walking. But the Woodman had seen them coming, and the Scarecrow had decided what to do.",
+    "“Take out my straw and scatter it over the little girl and the dog and the Lion,” he said to the Woodman, “and the bees cannot sting them.” This the Woodman did, and as Dorothy lay close beside the Lion and held Toto in her arms, the straw covered them entirely.",
+    "The bees came and found no one but the Woodman to sting, so they flew at him and broke off all their stings against the tin, without hurting the Woodman at all. And as bees cannot live when their stings are broken that was the end of the black bees, and they lay scattered thick about the Woodman, like little heaps of fine coal.",
+    "Then Dorothy and the Lion got up, and the girl helped the Tin Woodman put the straw back into the Scarecrow again, until he was as good as ever. So they started upon their journey once more.",
+    "The Wicked Witch was so angry when she saw her black bees in little heaps like fine coal that she stamped her foot and tore her hair and gnashed her teeth. And then she called a dozen of her slaves, who were the Winkies, and gave them sharp spears, telling them to go to the strangers and destroy them.",
+    "The Winkies were not a brave people, but they had to do as they were told. So they marched away until they came near to Dorothy. Then the Lion gave a great roar and sprang towards them, and the poor Winkies were so frightened that they ran back as fast as they could."
+  ],
+  "questions": [
+    {
+      "id": "oz-c12-s4-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what came buzzing through the air?",
+      "options": [
+        "A swarm of black bees",
+        "A flock of wild crows",
+        "A cloud of stinging flies",
+        "The Winged Monkeys"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 58,
+        "end": 102
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s4-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was the Scarecrow's plan against the bees?",
+      "options": [
+        "Scatter his straw over the others to hide them",
+        "Have the Woodman cut down a tree for shelter",
+        "Send the Lion roaring at the swarm",
+        "Have Dorothy cover them with her dress"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 1,
+        "end": 79
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s4-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to the bees that stung the Woodman?",
+      "options": [
+        "They broke their stings on the tin and died",
+        "They stung him and flew away again",
+        "They were crushed beneath his axe",
+        "They turned back to the Witch unharmed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 60,
+        "end": 123
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s4-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Witch give the Winkies?",
+      "options": [
+        "Sharp spears",
+        "Silver whistles",
+        "Golden caps",
+        "Nothing at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 221,
+        "end": 247
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s4-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the dead bees look like?",
+      "options": [
+        "Little heaps of fine coal",
+        "Drifts of black snow",
+        "Scattered grains of sand",
+        "A dark stain on the grass"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 298,
+        "end": 328
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s4-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why could the bees not hurt anyone?",
+      "options": [
+        "The only one they could reach was made of tin",
+        "The Lion's mane was too thick for them",
+        "They arrived after the party had gone",
+        "Dorothy's white dress frightened them off"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 55
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s4-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Winkies obey the Witch at all?",
+      "options": [
+        "They were not brave, but had to do as they were told",
+        "They hated the strangers as much as she did",
+        "They had been promised their freedom for it",
+        "They believed the strangers were wizards"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 0,
+        "end": 74
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s4-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how were the Winkies driven off?",
+      "options": [
+        "The Lion roared and sprang towards them",
+        "The Woodman killed their leader with his axe",
+        "The Scarecrow stretched out his arms",
+        "Dorothy threw water over them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 129,
+        "end": 184
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s4-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does gnashed her teeth describe?",
+      "options": [
+        "Grinding them together in fury",
+        "Losing them one by one",
+        "Chattering them with cold",
+        "Showing them in a wide grin"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 94,
+        "end": 154
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s4-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "Two more attacks fail, each undone by what the travellers are made of",
+        "The bees sting the Lion and the party is scattered",
+        "The Winkies join the travellers against the Witch",
+        "The Scarecrow is emptied of straw and left behind"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 32
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s4-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who put the straw back into the Scarecrow?",
+      "options": [
+        "Dorothy and the Tin Woodman",
+        "The Lion alone",
+        "The Winkies, out of pity",
+        "The Scarecrow himself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 38,
+        "end": 107
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s4-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how many Winkies were sent?",
+      "options": ["A dozen", "Forty", "A hundred", "Only two"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 156,
+        "end": 197
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s4-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Witch order the bees to do?",
+      "options": [
+        "Sting the strangers to death",
+        "Drive them back to the city",
+        "Steal the girl's silver shoes",
+        "Blind them and leave them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 1,
+        "end": 45
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s4-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did Dorothy and Toto escape the bees?",
+      "options": [
+        "The Scarecrow's straw covered them entirely",
+        "They ran ahead while the bees attacked",
+        "The Lion shielded them with his body",
+        "They hid in the Woodman's own shadow"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 230,
+        "end": 261
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s4-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what happens to bees whose stings are broken?",
+      "options": [
+        "They cannot live",
+        "They grow new ones",
+        "They return to the hive",
+        "They sting a second time"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 161,
+        "end": 213
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s4-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Woodman was as good as ever?",
+      "options": [
+        "He was fully restored to his usual state",
+        "He had never been in any danger",
+        "He was better than he had been before",
+        "He was only slightly damaged"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 115,
+        "end": 143
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s4-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Bees and spearmen both fail against a tin man and a roar",
+        "The Witch's bees prove the deadliest weapon yet",
+        "The Winkies capture the Scarecrow and carry him off",
+        "The travellers decide to hide until the Witch gives up"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 145,
+        "end": 190
+      },
+      "pool": "retest"
+    }
+  ]
+}

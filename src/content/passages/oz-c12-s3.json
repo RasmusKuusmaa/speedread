@@ -1,0 +1,311 @@
+{
+  "id": "oz-c12-s3",
+  "title": "The Search for the Wicked Witch, part 3",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "They waited until Dorothy awoke the next morning. The little girl was quite frightened when she saw the great pile of shaggy wolves, but the Tin Woodman told her all. She thanked him for saving them and sat down to breakfast, after which they started again upon their journey.",
+    "Now this same morning the Wicked Witch came to the door of her castle and looked out with her one eye that could see far off. She saw all her wolves lying dead, and the strangers still traveling through her country. This made her angrier than before, and she blew her silver whistle twice.",
+    "Straightway a great flock of wild crows came flying toward her, enough to darken the sky.",
+    "And the Wicked Witch said to the King Crow, “Fly at once to the strangers; peck out their eyes and tear them to pieces.”",
+    "The wild crows flew in one great flock toward Dorothy and her companions. When the little girl saw them coming she was afraid.",
+    "But the Scarecrow said, “This is my battle, so lie down beside me and you will not be harmed.”",
+    "So they all lay upon the ground except the Scarecrow, and he stood up and stretched out his arms. And when the crows saw him they were frightened, as these birds always are by scarecrows, and did not dare to come any nearer. But the King Crow said:",
+    "“It is only a stuffed man. I will peck his eyes out.”",
+    "The King Crow flew at the Scarecrow, who caught it by the head and twisted its neck until it died. And then another crow flew at him, and the Scarecrow twisted its neck also. There were forty crows, and forty times the Scarecrow twisted a neck, until at last all were lying dead beside him. Then he called to his companions to rise, and again they went upon their journey.",
+    "When the Wicked Witch looked out again and saw all her crows lying in a heap, she got into a terrible rage, and blew three times upon her silver whistle."
+  ],
+  "questions": [
+    {
+      "id": "oz-c12-s3-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many times did the Witch blow her whistle for the crows?",
+      "options": ["Twice", "Once", "Three times", "She did not blow it"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 251,
+        "end": 288
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s3-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Witch order the King Crow to do?",
+      "options": [
+        "Peck out their eyes and tear them to pieces",
+        "Carry them to her castle at once",
+        "Steal the silver shoes from the girl",
+        "Frighten them back towards the city"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 75,
+        "end": 118
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s3-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who stood up to face the crows?",
+      "options": ["The Scarecrow", "The Tin Woodman", "The Lion", "Dorothy"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 54,
+        "end": 96
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s3-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how many crows were there?",
+      "options": ["Forty", "Twenty", "A hundred", "Too many to count"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 175,
+        "end": 197
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s3-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy see that frightened her in the morning?",
+      "options": [
+        "The great pile of shaggy wolves",
+        "The flock of crows overhead",
+        "The Witch standing at her castle door",
+        "The Winkies marching with spears"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 50,
+        "end": 131
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s3-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the crows hesitate at first?",
+      "options": [
+        "Birds are always frightened by scarecrows",
+        "They had been told the Scarecrow was a wizard",
+        "The Tin Woodman's axe glittered in the sun",
+        "The Lion's roar had reached them on the wind"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 147,
+        "end": 186
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s3-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what emboldened the rest of the flock?",
+      "options": [
+        "The King Crow declared he was only a stuffed man",
+        "The Scarecrow did not move as they came near",
+        "The Witch flew out to lead them herself",
+        "Dorothy called out to them from the ground"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 1,
+        "end": 26
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s3-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the Scarecrow protect his friends?",
+      "options": [
+        "He told them to lie down beside him",
+        "He hid them under his own straw",
+        "He sent them running for the hills",
+        "He carried them into a hollow tree"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 44,
+        "end": 92
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s3-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does straightway mean?",
+      "options": ["At once", "Slowly", "In a straight line", "In secret"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 62
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s3-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A second attack is met, this time by the one made of straw",
+        "The crows peck out the Scarecrow's painted eyes",
+        "The Witch comes in person to attack the travellers",
+        "Dorothy drives off the crows with her basket"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 245,
+        "end": 289
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s3-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how thick was the flock of crows?",
+      "options": [
+        "Enough to darken the sky",
+        "No more than a dozen birds",
+        "Thin enough to see through",
+        "As many as there were wolves"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 64,
+        "end": 88
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s3-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how did the Scarecrow kill the crows?",
+      "options": [
+        "By catching them and twisting their necks",
+        "By striking them with the Woodman's axe",
+        "By frightening them into the Lion's jaws",
+        "By tearing out their feathers one by one"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 37,
+        "end": 97
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s3-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Witch do on seeing the dead crows?",
+      "options": [
+        "Got into a terrible rage and blew three times",
+        "Sat down quietly to think of a new plan",
+        "Sent the Winkies out with sharp spears",
+        "Called the Winged Monkeys at once"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 78,
+        "end": 152
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s3-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did Dorothy learn what had happened in the night?",
+      "options": [
+        "The Tin Woodman told her the whole of it",
+        "She had woken during the fight and watched",
+        "The Scarecrow showed her the wolves' bodies",
+        "She guessed it from the axe marks"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 133,
+        "end": 165
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s3-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Witch see from her door that morning?",
+      "options": [
+        "Her wolves dead and the strangers still travelling",
+        "The travellers turning back towards the city",
+        "Her crows already flying towards them",
+        "The Lion sleeping among the daisies"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 126,
+        "end": 194
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s3-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does rage mean?",
+      "options": [
+        "Violent anger",
+        "Sudden fear",
+        "Deep sorrow",
+        "Wild laughter"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 78,
+        "end": 106
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s3-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A second attack fails, and the Witch grows angrier still",
+        "The crows succeed in blinding the Scarecrow",
+        "The travellers decide to turn back from the West",
+        "The Witch gives up her attempts to stop them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 291,
+        "end": 331
+      },
+      "pool": "retest"
+    }
+  ]
+}

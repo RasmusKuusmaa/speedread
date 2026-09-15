@@ -1,0 +1,333 @@
+{
+  "id": "oz-c12-s10",
+  "title": "The Search for the Wicked Witch, part 10",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "The little girl, seeing she had lost one of her pretty shoes, grew angry, and said to the Witch, “Give me back my shoe!”",
+    "“I will not,” retorted the Witch, “for it is now my shoe, and not yours.”",
+    "“You are a wicked creature!” cried Dorothy. “You have no right to take my shoe from me.”",
+    "“I shall keep it, just the same,” said the Witch, laughing at her, “and someday I shall get the other one from you, too.”",
+    "This made Dorothy so very angry that she picked up the bucket of water that stood near and dashed it over the Witch, wetting her from head to foot.",
+    "Instantly the wicked woman gave a loud cry of fear, and then, as Dorothy looked at her in wonder, the Witch began to shrink and fall away.",
+    "“See what you have done!” she screamed. “In a minute I shall melt away.”",
+    "“I’m very sorry, indeed,” said Dorothy, who was truly frightened to see the Witch actually melting away like brown sugar before her very eyes.",
+    "“Didn’t you know water would be the end of me?” asked the Witch, in a wailing, despairing voice.",
+    "“Of course not,” answered Dorothy. “How should I?”",
+    "“Well, in a few minutes I shall be all melted, and you will have the castle to yourself. I have been wicked in my day, but I never thought a little girl like you would ever be able to melt me and end my wicked deeds. Look out—here I go!”",
+    "With these words the Witch fell down in a brown, melted, shapeless mass and began to spread over the clean boards of the kitchen floor. Seeing that she had really melted away to nothing, Dorothy drew another bucket of water and threw it over the mess. She then swept it all out the door. After picking out the silver shoe, which was all that was left of the old woman, she cleaned and dried it with a cloth, and put it on her foot again. Then, being at last free to do as she chose, she ran out to the courtyard to tell the Lion that the Wicked Witch of the West had come to an end, and that they were no longer prisoners in a strange land."
+  ],
+  "questions": [
+    {
+      "id": "oz-c12-s10-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy demand of the Witch?",
+      "options": [
+        "That she give back the shoe",
+        "That she free the Lion",
+        "That she send her to Kansas",
+        "That she leave Toto alone"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 98,
+        "end": 119
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s10-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Dorothy pick up and throw?",
+      "options": [
+        "The bucket of water standing near",
+        "The bar of iron from the floor",
+        "The Witch's own umbrella",
+        "A pot from the kitchen shelf"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 37,
+        "end": 86
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s10-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Witch say would happen in a minute?",
+      "options": [
+        "That she would melt away",
+        "That she would call the Monkeys",
+        "That she would take the other shoe",
+        "That she would freeze solid"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 41,
+        "end": 71
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s10-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Witch melt into?",
+      "options": [
+        "A brown, melted, shapeless mass",
+        "A puddle of clear water",
+        "A heap of fine black coal",
+        "A cloud of gray smoke"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 17,
+        "end": 71
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s10-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was left of the old woman?",
+      "options": [
+        "The silver shoe",
+        "The Golden Cap",
+        "Her umbrella",
+        "Nothing whatever"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 323,
+        "end": 367
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s10-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did Dorothy throw the water?",
+      "options": [
+        "She was made very angry by the Witch's mockery",
+        "She had guessed that water would destroy her",
+        "The Lion had shouted to her to do it",
+        "She was trying to wash the floor clean"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 31
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s10-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did Dorothy know about water and the Witch?",
+      "options": [
+        "Nothing at all, as she told the Witch herself",
+        "That it was the Witch's one weakness",
+        "That the Good Witch had warned her of it",
+        "That the Winkies had told her the secret"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 0,
+        "end": 34
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s10-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did Dorothy feel as the Witch melted?",
+      "options": [
+        "Truly frightened, and sorry for what she had done",
+        "Delighted at her own sudden victory over her",
+        "Indifferent to whatever became of the Witch",
+        "Afraid the Winkies would blame her for it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 40,
+        "end": 103
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s10-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does despairing describe about the Witch's voice?",
+      "options": [
+        "Without any hope left",
+        "Loud enough to fill the castle",
+        "Sweet and pleading",
+        "Sharp with anger"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 48,
+        "end": 95
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s10-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "An angry accident ends the Witch and frees her prisoners",
+        "A careful plan of Dorothy's destroys the Witch at last",
+        "The Witch takes both shoes and Dorothy gives up hope",
+        "The Lion breaks out of the yard and kills the Witch"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 438,
+        "end": 481
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s10-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Witch say she would do someday?",
+      "options": [
+        "Get the other shoe from Dorothy too",
+        "Melt Dorothy as she had the others",
+        "Call the Winged Monkeys once more",
+        "Set the Lion free to hunt"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 68,
+        "end": 119
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s10-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Dorothy do with the melted mess?",
+      "options": [
+        "Threw more water on it and swept it out the door",
+        "Left it where it lay and ran outside",
+        "Covered it over with the Witch's cloak",
+        "Called the Winkies in to clear it away"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 187,
+        "end": 250
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s10-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy do with the recovered shoe?",
+      "options": [
+        "Cleaned and dried it and put it on again",
+        "Threw it out of the door with the mess",
+        "Gave it to the Lion to keep safe",
+        "Left it lying on the kitchen floor"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 369,
+        "end": 436
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s10-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the Witch admit at the end?",
+      "options": [
+        "That she never thought a little girl could end her",
+        "That she had been good once, long ago",
+        "That the Silver Shoes had never been hers",
+        "That the Wizard had sent Dorothy to kill her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 89,
+        "end": 191
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s10-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, where did Dorothy run when it was over?",
+      "options": [
+        "To the courtyard, to tell the Lion",
+        "To the kitchen, to finish her work",
+        "Out of the castle and towards the East",
+        "To the cupboard, to find the Golden Cap"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 483,
+        "end": 528
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s10-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does retorted mean?",
+      "options": [
+        "Answered back sharply",
+        "Repeated herself slowly",
+        "Whispered in reply",
+        "Refused to answer"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 32
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s10-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A bucket of water thrown in temper ends a tyranny",
+        "A long battle in which Dorothy defeats a powerful witch",
+        "A bargain in which the Witch returns the stolen shoe",
+        "An escape made while the Witch is sleeping"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 136,
+        "end": 185
+      },
+      "pool": "retest"
+    }
+  ]
+}

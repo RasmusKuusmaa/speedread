@@ -1,0 +1,331 @@
+{
+  "id": "oz-c12-s1",
+  "title": "The Search for the Wicked Witch, part 1",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "The soldier with the green whiskers led them through the streets of the Emerald City until they reached the room where the Guardian of the Gates lived. This officer unlocked their spectacles to put them back in his great box, and then he politely opened the gate for our friends.",
+    "“Which road leads to the Wicked Witch of the West?” asked Dorothy.",
+    "“There is no road,” answered the Guardian of the Gates. “No one ever wishes to go that way.”",
+    "“How, then, are we to find her?” inquired the girl.",
+    "“That will be easy,” replied the man, “for when she knows you are in the country of the Winkies she will find you, and make you all her slaves.”",
+    "“Perhaps not,” said the Scarecrow, “for we mean to destroy her.”",
+    "“Oh, that is different,” said the Guardian of the Gates. “No one has ever destroyed her before, so I naturally thought she would make slaves of you, as she has of the rest. But take care; for she is wicked and fierce, and may not allow you to destroy her. Keep to the West, where the sun sets, and you cannot fail to find her.”",
+    "They thanked him and bade him good-bye, and turned toward the West, walking over fields of soft grass dotted here and there with daisies and buttercups. Dorothy still wore the pretty silk dress she had put on in the palace, but now, to her surprise, she found it was no longer green, but pure white. The ribbon around Toto’s neck had also lost its green color and was as white as Dorothy’s dress.",
+    "The Emerald City was soon left far behind. As they advanced the ground became rougher and hillier, for there were no farms nor houses in this country of the West, and the ground was untilled.",
+    "In the afternoon the sun shone hot in their faces, for there were no trees to offer them shade; so that before night Dorothy and Toto and the Lion were tired, and lay down upon the grass and fell asleep, with the Woodman and the Scarecrow keeping watch."
+  ],
+  "questions": [
+    {
+      "id": "oz-c12-s1-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Guardian do with their spectacles?",
+      "options": [
+        "Unlocked them and put them back in his box",
+        "Locked them on more tightly for the journey",
+        "Gave them a spare pair to carry with them",
+        "Let them keep the pairs they were wearing"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 152,
+        "end": 224
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s1-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Guardian say about a road to the Witch?",
+      "options": [
+        "There is none, because nobody wishes to go that way",
+        "There is one, but it has not been used for years",
+        "There are several, and all of them dangerous",
+        "The yellow road runs on all the way to her castle"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 55
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s1-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what direction were they told to keep?",
+      "options": [
+        "West, where the sun sets",
+        "East, where the sun rises",
+        "South, towards the Quadlings",
+        "North, towards the good Witch"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 256,
+        "end": 292
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s1-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what happened to Dorothy's green dress?",
+      "options": [
+        "It turned pure white",
+        "It turned back to blue gingham",
+        "It faded to a dull gray",
+        "It was torn on the rough ground"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 250,
+        "end": 298
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s1-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who kept watch while the others slept?",
+      "options": [
+        "The Woodman and the Scarecrow",
+        "The Cowardly Lion and Toto",
+        "Dorothy and Toto together",
+        "Nobody; they all slept soundly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 204,
+        "end": 252
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s1-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does the Guardian expect the Witch to be found?",
+      "options": [
+        "She will find them herself once she knows they are there",
+        "They must follow the setting sun for seven days",
+        "The Winkies will lead them to her castle",
+        "Her castle can be seen from the city wall"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 39,
+        "end": 113
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s1-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Guardian surprised by their plan?",
+      "options": [
+        "Nobody has ever destroyed the Witch before",
+        "Nobody has ever travelled west and returned",
+        "He thought the Wizard had forbidden it",
+        "He believed the Witch was dead already"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 58,
+        "end": 94
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s1-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what was the country of the West like?",
+      "options": [
+        "Rough and hilly, with no farms or houses",
+        "Rich farmland dotted with yellow houses",
+        "A desert of sand with no grass at all",
+        "A forest thicker than the one they crossed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 99,
+        "end": 161
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s1-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does untilled mean?",
+      "options": [
+        "Not farmed or worked",
+        "Not yet explored",
+        "Not fenced or walled",
+        "Not fit to live on"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 163,
+        "end": 190
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s1-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "They set out west with no road, and the country turns hard",
+        "They are refused permission to leave the Emerald City",
+        "The Guardian agrees to guide them to the Witch's castle",
+        "They lose their way and turn back towards the city"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 0,
+        "end": 42
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s1-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to the ribbon round Toto's neck?",
+      "options": [
+        "It turned as white as Dorothy's dress",
+        "It fell off along the road",
+        "It stayed as green as before",
+        "The Witch's crows tore it away"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 300,
+        "end": 359
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s1-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what dotted the fields of soft grass?",
+      "options": [
+        "Daisies and buttercups",
+        "Scarlet poppies",
+        "Green marble blocks",
+        "Wild rose bushes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 102,
+        "end": 151
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s1-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the three of them grow tired?",
+      "options": [
+        "The sun shone hot and there were no trees for shade",
+        "They had walked all night without stopping",
+        "The rough hills were too steep to climb",
+        "They had eaten nothing since morning"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 51,
+        "end": 94
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s1-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Guardian warn about the Witch?",
+      "options": [
+        "She is wicked and fierce and may not let them destroy her",
+        "She has already been warned that they are coming",
+        "She will offer them gifts to win them over",
+        "She cannot be harmed by any living creature"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 188,
+        "end": 254
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s1-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what had the Witch done to others who came?",
+      "options": [
+        "Made slaves of them",
+        "Turned them into crows",
+        "Driven them back to the city",
+        "Set them to build her castle"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 149,
+        "end": 171
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s1-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does hillier describe?",
+      "options": [
+        "Ground rising into more hills",
+        "Ground growing softer underfoot",
+        "Weather turning colder",
+        "A road winding more sharply"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 60,
+        "end": 97
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s1-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A departure west into country with no road and no shelter",
+        "A search for the Witch that ends at her castle gate",
+        "A refusal by the Guardian to let them leave",
+        "A day's walk through rich and friendly farmland"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 66
+      },
+      "pool": "retest"
+    }
+  ]
+}

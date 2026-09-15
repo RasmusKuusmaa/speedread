@@ -1,0 +1,326 @@
+{
+  "id": "oz-c12-s2",
+  "title": "The Search for the Wicked Witch, part 2",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Now the Wicked Witch of the West had but one eye, yet that was as powerful as a telescope, and could see everywhere. So, as she sat in the door of her castle, she happened to look around and saw Dorothy lying asleep, with her friends all about her. They were a long distance off, but the Wicked Witch was angry to find them in her country; so she blew upon a silver whistle that hung around her neck.",
+    "At once there came running to her from all directions a pack of great wolves. They had long legs and fierce eyes and sharp teeth.",
+    "“Go to those people,” said the Witch, “and tear them to pieces.”",
+    "“Are you not going to make them your slaves?” asked the leader of the wolves.",
+    "“No,” she answered, “one is of tin, and one of straw; one is a girl and another a Lion. None of them is fit to work, so you may tear them into small pieces.”",
+    "“Very well,” said the wolf, and he dashed away at full speed, followed by the others.",
+    "It was lucky the Scarecrow and the Woodman were wide awake and heard the wolves coming.",
+    "“This is my fight,” said the Woodman, “so get behind me and I will meet them as they come.”",
+    "He seized his axe, which he had made very sharp, and as the leader of the wolves came on the Tin Woodman swung his arm and chopped the wolf’s head from its body, so that it immediately died. As soon as he could raise his axe another wolf came up, and he also fell under the sharp edge of the Tin Woodman’s weapon. There were forty wolves, and forty times a wolf was killed, so that at last they all lay dead in a heap before the Woodman.",
+    "Then he put down his axe and sat beside the Scarecrow, who said, “It was a good fight, friend.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c12-s2-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was remarkable about the Witch's one eye?",
+      "options": [
+        "It was as powerful as a telescope",
+        "It could see through walls",
+        "It never closed, even in sleep",
+        "It shone in the dark like fire"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 50,
+        "end": 89
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s2-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what hung around the Witch's neck?",
+      "options": [
+        "A silver whistle",
+        "A golden cap",
+        "A chain of diamonds",
+        "A small iron bar"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 340,
+        "end": 399
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s2-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what came running when she blew it?",
+      "options": [
+        "A pack of great wolves",
+        "A flock of wild crows",
+        "A swarm of black bees",
+        "A dozen armed Winkies"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 8,
+        "end": 76
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s2-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how many wolves were there?",
+      "options": ["Forty", "Twenty", "A hundred", "Twelve"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 314,
+        "end": 337
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s2-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who fought the wolves?",
+      "options": [
+        "The Tin Woodman, with his axe",
+        "The Cowardly Lion, with his claws",
+        "The Scarecrow, with his arms spread",
+        "Dorothy, with the silver shoes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 36
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s2-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Witch not want the travellers enslaved?",
+      "options": [
+        "She judged that none of them was fit to work",
+        "She had slaves enough already in the Winkies",
+        "She feared what the Lion might do to her",
+        "The wolves refused to take prisoners"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 88,
+        "end": 115
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s2-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why were the wolves unable to surprise them?",
+      "options": [
+        "The Scarecrow and Woodman were awake and heard them",
+        "Toto barked a warning before they arrived at all",
+        "The Lion smelled them from a long way off",
+        "The wolves howled loudly as they came on"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 0,
+        "end": 58
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s2-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the Woodman meet the wolves?",
+      "options": [
+        "One at a time, as each came within reach of his axe",
+        "All together, swinging his axe in a circle",
+        "By climbing a tree and striking down at them",
+        "By letting them pass and taking them from behind"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 191,
+        "end": 245
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s2-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the Scarecrow mean by a good fight?",
+      "options": [
+        "One well fought and won",
+        "One that lasted a long time",
+        "One that nobody could have won",
+        "One that should not have happened"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 66,
+        "end": 94
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s2-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "The Witch's first attack is met and destroyed by one companion",
+        "The Witch captures the travellers while they sleep",
+        "The wolves refuse the Witch's order and run away",
+        "The party is scattered by an attack in the night"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 374,
+        "end": 436
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c12-s2-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what were the wolves like?",
+      "options": [
+        "Long-legged, with fierce eyes and sharp teeth",
+        "Small and gray, with white markings",
+        "Slow and heavy, like great bears",
+        "Winged, like the monkeys of the Witch"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 78,
+        "end": 129
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s2-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, where was the Witch when she saw them?",
+      "options": [
+        "Sitting in the door of her castle",
+        "Flying above the Winkie country",
+        "Walking among her wolves",
+        "Asleep in her own kitchen"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 121,
+        "end": 157
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s2-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Woodman tell the others to do?",
+      "options": [
+        "Get behind him",
+        "Climb the nearest tree",
+        "Run for the hills",
+        "Wake Dorothy at once"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 39,
+        "end": 89
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s2-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was the Witch angry at the sight of them?",
+      "options": [
+        "They were in her country without her leave",
+        "They had already destroyed her wolves",
+        "They were walking towards her castle",
+        "They wore the silver shoes she wanted"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 280,
+        "end": 338
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s2-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how had the Woodman prepared for such a fight?",
+      "options": [
+        "He had made his axe very sharp",
+        "He had oiled every joint that morning",
+        "He had practised with the Scarecrow",
+        "He had built a wall of stones"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 0,
+        "end": 47
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s2-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does at full speed mean?",
+      "options": [
+        "As fast as he could run",
+        "In a straight line",
+        "With the others close behind",
+        "Without stopping to rest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 28,
+        "end": 60
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c12-s2-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Forty wolves are sent and forty wolves are killed",
+        "A pack of wolves drives the travellers back east",
+        "The Witch decides to make the travellers her slaves",
+        "The Lion fights off the wolves while the others sleep"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 339,
+        "end": 372
+      },
+      "pool": "retest"
+    }
+  ]
+}
