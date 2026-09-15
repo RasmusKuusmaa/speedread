@@ -17,6 +17,7 @@ import descartesDiscourseGoodSense from "./descartes-discourse-good-sense.json";
 import giftOfTheMagiOpening from "./gift-of-the-magi-opening.json";
 import internationalSpaceStationHistory from "./international-space-station-history.json";
 import goldenGateBridgeHistory from "./golden-gate-bridge-history.json";
+import grapheneOneAtomThick from "./graphene-one-atom-thick.json";
 import hooverDamHistory from "./hoover-dam-history.json";
 import meditationsRusticusApollonius from "./meditations-rusticus-apollonius.json";
 import millOnLibertyThought from "./mill-on-liberty-thought.json";
@@ -106,4 +107,5 @@ export const rawPassages: unknown[] = [
   superconductivityZeroResistance,
   photosynthesisLightIntoSugar,
   comparativeAdvantageGainsFromTrade,
+  grapheneOneAtomThick,
 ];

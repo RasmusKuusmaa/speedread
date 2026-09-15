@@ -1,0 +1,310 @@
+{
+  "id": "graphene-one-atom-thick",
+  "title": "One Atom Thick",
+  "language": "en",
+  "source": "https://en.wikipedia.org/wiki/Graphene",
+  "attribution": "Adapted (trimmed) from the Wikipedia article “Graphene,” available under CC BY-SA 4.0.",
+  "licence": "CC BY-SA 4.0",
+  "textType": "expository",
+  "domain": "materials",
+  "calibrationOnly": false,
+  "body": [
+    "Graphene is a variety of the element carbon which occurs naturally in small amounts. In graphene, the carbon forms a sheet of interlocked atoms as hexagons one carbon atom thick. The result resembles the face of a honeycomb. When many hundreds of graphene layers build up, they are called graphite.",
+    "In technical terms, graphene is a carbon allotrope consisting of a single layer of atoms arranged in a honeycomb planar nanostructure. The name \"graphene\" is derived from \"graphite\" and the suffix -ene, indicating the presence of double bonds within the carbon structure.",
+    "Graphene is known for its exceptionally high tensile strength, electrical conductivity, transparency, and being the thinnest two-dimensional material in the world. Despite the nearly transparent nature of a single graphene sheet, graphite (formed from stacked layers of graphene) appears black because it absorbs all visible light wavelengths. On a microscopic scale, graphene is the strongest material ever measured.",
+    "The existence of graphene was first theorized in 1947 by Philip R. Wallace during his research on graphite's electronic properties, while the term graphene was first defined by Hanns-Peter Boehm in 1987, when he and coworkers isolated single sheets from graphite. In 2004, the material was isolated and characterized by Andre Geim and Konstantin Novoselov at the University of Manchester using a piece of graphite and adhesive tape. In 2010, Geim and Novoselov were awarded the Nobel Prize in Physics for their \"groundbreaking experiments regarding the two-dimensional material graphene\". While small amounts of graphene are easy to produce using the method by which it was originally isolated, attempts to scale and automate the manufacturing process for mass production have had limited success out of concern for cost-effectiveness and quality control. The global graphene market was $9 million in 2012, with most of the demand from research and development in semiconductors, electronics, electric batteries, and composites. In 2022, the graphene market reached an estimated global annual revenue of $380 million."
+  ],
+  "questions": [
+    {
+      "id": "graphene-one-atom-thick-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how are the carbon atoms in graphene arranged?",
+      "options": [
+        "As hexagons in a sheet one atom thick",
+        "As hexagons in a cube one atom wide",
+        "As squares stacked hundreds of layers deep",
+        "As triangles bonded into a solid block"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 98,
+        "end": 177
+      },
+      "pool": "first"
+    },
+    {
+      "id": "graphene-one-atom-thick-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what is the name for many hundreds of graphene layers built up together?",
+      "options": ["Graphite", "Diamond", "Charcoal", "Fullerene"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 225,
+        "end": 297
+      },
+      "pool": "first"
+    },
+    {
+      "id": "graphene-one-atom-thick-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who first theorized the existence of graphene, and in what year?",
+      "options": [
+        "Philip R. Wallace, in 1947",
+        "Hanns-Peter Boehm, in 1947",
+        "Philip R. Wallace, in 1987",
+        "Hanns-Peter Boehm, in 1987"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 30,
+        "end": 74
+      },
+      "pool": "first"
+    },
+    {
+      "id": "graphene-one-atom-thick-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who first defined the term graphene, and in what year?",
+      "options": [
+        "Hanns-Peter Boehm, in 1987",
+        "Hanns-Peter Boehm, in 1947",
+        "Andre Geim, in 1987",
+        "Konstantin Novoselov, in 2004"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 138,
+        "end": 202
+      },
+      "pool": "first"
+    },
+    {
+      "id": "graphene-one-atom-thick-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where was graphene isolated and characterized in 2004?",
+      "options": [
+        "At the University of Manchester",
+        "At the University of Cambridge",
+        "At a laboratory in Chernogolovka",
+        "At the Royal Institution in London"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 290,
+        "end": 387
+      },
+      "pool": "first"
+    },
+    {
+      "id": "graphene-one-atom-thick-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the 2004 isolation of graphene make use of?",
+      "options": [
+        "A piece of graphite and adhesive tape",
+        "A furnace heated to extreme temperature",
+        "A beam of electrons fired at a crystal",
+        "A bath of acid that dissolved the rest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 388,
+        "end": 431
+      },
+      "pool": "first"
+    },
+    {
+      "id": "graphene-one-atom-thick-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why has graphene manufacturing been hard to scale up?",
+      "options": [
+        "Cost-effectiveness and quality control have both proved difficult",
+        "The original isolation method was never published in any detail",
+        "No use for the material in industry has so far been identified",
+        "The raw graphite it is made from is rare and hard to obtain"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 772,
+        "end": 854
+      },
+      "pool": "first"
+    },
+    {
+      "id": "graphene-one-atom-thick-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses the term, what does calling graphene a carbon “allotrope” convey?",
+      "options": [
+        "It is one particular form the element carbon takes",
+        "It is a compound of carbon and another element",
+        "It is a mixture of carbon with trace impurities",
+        "It is carbon that has been artificially created"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 20,
+        "end": 88
+      },
+      "pool": "first"
+    },
+    {
+      "id": "graphene-one-atom-thick-f9",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does graphite look black when a single graphene sheet is nearly transparent?",
+      "options": [
+        "Its stacked layers together absorb all visible wavelengths",
+        "Its stacked layers reflect every wavelength that reaches them",
+        "A single sheet is too thin for anyone to be able to see it",
+        "The colour comes from impurities trapped between the layers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 230,
+        "end": 342
+      },
+      "pool": "first"
+    },
+    {
+      "id": "graphene-one-atom-thick-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "A single-atom sheet of carbon, theorized decades before it was ever isolated",
+        "A carbon compound discovered by accident and put to use straight away",
+        "A material whose properties were exaggerated and later found to be ordinary",
+        "A three-dimensional form of carbon that industry has produced for centuries"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 53
+      },
+      "pool": "first"
+    },
+    {
+      "id": "graphene-one-atom-thick-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Geim and Novoselov receive in 2010?",
+      "options": [
+        "The Nobel Prize in Physics",
+        "The Nobel Prize in Chemistry",
+        "A patent on the tape method",
+        "A materials science medal"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 442,
+        "end": 500
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "graphene-one-atom-thick-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was the global graphene market worth in 2012?",
+      "options": ["$9 million", "$380 million", "$90 million", "$9 billion"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 856,
+        "end": 905
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "graphene-one-atom-thick-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the estimated global graphene revenue in 2022?",
+      "options": ["$380 million", "$9 million", "$38 million", "$380 billion"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 1066,
+        "end": 1116
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "graphene-one-atom-thick-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, where did most of the 2012 demand for graphene come from?",
+      "options": [
+        "Research and development in semiconductors and electronics",
+        "Consumer products already being sold in large quantities",
+        "Construction firms using it in place of structural steel",
+        "Military programmes that funded most of the early work"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 907,
+        "end": 1027
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "graphene-one-atom-thick-r5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage explains it, what does the suffix “-ene” in graphene indicate?",
+      "options": [
+        "The presence of double bonds in the carbon structure",
+        "The presence of a single layer rather than many layers",
+        "The absence of any impurity in the carbon structure",
+        "The origin of the material in naturally formed graphite"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 186,
+        "end": 270
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "graphene-one-atom-thick-r6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, on what scale is graphene the strongest material ever measured?",
+      "options": [
+        "On a microscopic scale",
+        "On an industrial scale",
+        "On a geological scale",
+        "On a planetary scale"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 344,
+        "end": 416
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "graphene-one-atom-thick-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises what the passage says about graphene's commercial progress?",
+      "options": [
+        "A market that grew sharply, though production remains hard to scale",
+        "A market that collapsed once the manufacturing problems were solved",
+        "A material that has been mass-produced cheaply since it was isolated",
+        "A material still without any commercial market of any size at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 695,
+        "end": 796
+      },
+      "pool": "retest"
+    }
+  ]
+}
