@@ -128,10 +128,10 @@
       "taxonomy": "inference",
       "prompt": "Based on the passage, why did losing just one Silver Shoe still benefit the Witch?",
       "options": [
-        "Owning one shoe gave her half the power of their charm",
-        "She could sell the shoe for gold",
-        "It matched her own missing shoe",
-        "It let her fly instead of the other creatures"
+        "One shoe gave her half the power of the charm",
+        "She could sell the silver shoe for its gold",
+        "It matched a shoe she had lost long before",
+        "It let her fly as the Winged Monkeys do"
       ],
       "answerIndex": 0,
       "evidence": {
@@ -164,10 +164,10 @@
       "taxonomy": "main_idea",
       "prompt": "Which statement best captures the overall point of the passage?",
       "options": [
-        "The Witch tricked Dorothy with an invisible obstacle and gained power from the shoe she stole",
-        "Dorothy escaped the Witch's castle without incident",
-        "The Witch lost all her remaining power trying to steal the shoes",
-        "Toto distracted the Witch long enough for Dorothy to hide the shoes"
+        "An invisible trick wins the Witch one shoe and half its power",
+        "Dorothy escapes the Witch's castle without any incident",
+        "The Witch loses her remaining power trying to steal them",
+        "Toto distracts the Witch while Dorothy hides both shoes"
       ],
       "answerIndex": 0,
       "evidence": {
@@ -272,10 +272,10 @@
       "taxonomy": "inference",
       "prompt": "Based on the passage, why did the Witch watch Dorothy carefully day to day?",
       "options": [
-        "To see if she ever took off her shoes, so she could steal them",
-        "To make sure Dorothy did her chores",
+        "To see whether she ever took the shoes off",
+        "To make sure that Dorothy did her chores",
         "To learn how Dorothy had killed her sister",
-        "To find out if Toto could talk"
+        "To find out whether Toto was able to talk"
       ],
       "answerIndex": 0,
       "evidence": {
@@ -308,7 +308,7 @@
       "taxonomy": "vocabulary",
       "prompt": "As used in the passage, what does it mean that Dorothy was \"proud\" of her pretty shoes?",
       "options": [
-        "She took great satisfaction and delight in them",
+        "She took great satisfaction in them",
         "She was embarrassed to wear them",
         "She wanted to trade them away",
         "She had forgotten she owned them"

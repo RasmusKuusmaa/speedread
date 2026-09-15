@@ -33,9 +33,9 @@
       "prompt": "Per the passage, what furniture did the one-room house contain?",
       "options": [
         "A cookstove, a cupboard, a table, chairs, and beds",
-        "A piano, a bookshelf, and a writing desk",
-        "Only a bed and a chair",
-        "A cookstove and nothing else"
+        "A piano, a bookshelf, a writing desk, and a rug",
+        "Only a narrow bed and a single wooden chair",
+        "A cookstove, and no other furniture at all"
       ],
       "answerIndex": 0,
       "evidence": {
@@ -69,9 +69,9 @@
       "prompt": "Per the passage, what happened to the house's paint over time?",
       "options": [
         "The sun blistered it and the rains washed it away",
-        "It was repainted a bright green",
-        "It cracked from the cold winters",
-        "Aunt Em scrubbed it off herself"
+        "It was repainted a bright green every spring",
+        "It cracked and flaked off in the cold winters",
+        "Aunt Em scrubbed it away with soap and water"
       ],
       "answerIndex": 0,
       "evidence": {
@@ -104,10 +104,10 @@
       "taxonomy": "inference",
       "prompt": "Based on the passage, why did the family need a cyclone cellar?",
       "options": [
-        "To take shelter from whirlwinds strong enough to destroy buildings",
-        "To store food safely from animals",
-        "To hide from passing strangers",
-        "To keep cool during hot summers"
+        "To shelter from whirlwinds that could destroy buildings",
+        "To store food safely away from prairie animals",
+        "To hide from strangers passing along the road",
+        "To keep the family cool during the hot summers"
       ],
       "answerIndex": 0,
       "evidence": {
@@ -158,10 +158,10 @@
       "taxonomy": "main_idea",
       "prompt": "Which statement best captures the overall point of the passage?",
       "options": [
-        "Life on the gray Kansas prairie had worn down Dorothy's aunt and her surroundings alike",
-        "Dorothy's family was wealthy and lived comfortably",
-        "Aunt Em had recently moved to the prairie and was still adjusting happily",
-        "The house had just been rebuilt and looked new"
+        "Prairie life had worn down Dorothy's aunt and her surroundings alike",
+        "Dorothy's family was wealthy and lived in great comfort",
+        "Aunt Em had newly come to the prairie and was happy there",
+        "The house had just been rebuilt and looked quite new"
       ],
       "answerIndex": 0,
       "evidence": {
@@ -213,9 +213,9 @@
       "prompt": "According to the passage, where did Uncle Henry and Aunt Em sleep?",
       "options": [
         "In a big bed in one corner",
-        "In a room upstairs",
-        "In the barn",
-        "Beside the cookstove"
+        "In a room up in the garret",
+        "In the barn beside the stock",
+        "On the floor by the cookstove"
       ],
       "answerIndex": 0,
       "evidence": {
@@ -230,10 +230,10 @@
       "taxonomy": "literal",
       "prompt": "Per the passage, what had the sun done to the grass on the prairie?",
       "options": [
-        "Burned it until it was the same gray color as everything else",
+        "Burned it the same gray as everything else",
         "Turned it a brighter shade of green",
-        "Made it grow taller than usual",
-        "Had no effect on it at all"
+        "Made it grow taller than it should",
+        "Had no effect upon it at all"
       ],
       "answerIndex": 0,
       "evidence": {

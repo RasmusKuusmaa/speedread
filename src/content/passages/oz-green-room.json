@@ -105,10 +105,10 @@
       "taxonomy": "inference",
       "prompt": "Based on the passage, why was Dorothy shown to a room to rest before seeing Oz?",
       "options": [
-        "Each traveler had to wait and could only meet him one at a time, one per day",
-        "Oz was too busy to see anyone that day",
-        "The Palace required all visitors to sleep before entering",
-        "Dorothy asked to rest before continuing her journey"
+        "Each had to be admitted alone, one of them each day",
+        "Oz was too busy to see anyone at all that day",
+        "The Palace requires every visitor to sleep first",
+        "Dorothy asked to rest before going any further"
       ],
       "answerIndex": 0,
       "evidence": {
@@ -159,10 +159,10 @@
       "taxonomy": "main_idea",
       "prompt": "Which statement best captures the overall point of the passage?",
       "options": [
-        "Dorothy was led to a luxurious, entirely green room to rest before her audience with Oz",
-        "Dorothy refused to wait and demanded to see Oz at once",
-        "The soldier explained that Oz would never meet with Dorothy",
-        "Dorothy's friends were turned away from the Palace"
+        "Dorothy is led to a green room to rest before her audience",
+        "Dorothy refuses to wait and demands to see Oz at once",
+        "The soldier explains that Oz will never meet with Dorothy",
+        "Dorothy's friends are turned away from the Palace gates"
       ],
       "answerIndex": 0,
       "evidence": {
@@ -178,9 +178,9 @@
       "prompt": "As used in the passage, what is a \"counterpane\"?",
       "options": [
         "A decorative bedspread or cover",
-        "A type of curtain",
-        "A small cushion",
-        "A wall hanging"
+        "A curtain hung at a window",
+        "A small cushion for a chair",
+        "A hanging for the wall"
       ],
       "answerIndex": 0,
       "evidence": {
@@ -257,10 +257,10 @@
       "taxonomy": "inference",
       "prompt": "Based on the passage, what does Dorothy's reply \"that is very kind of Oz\" suggest about her feelings?",
       "options": [
-        "She felt grateful that Oz had agreed to see them",
-        "She was annoyed at having to wait",
-        "She doubted the soldier's message",
-        "She was afraid of meeting Oz"
+        "Grateful that Oz had agreed to see them",
+        "Annoyed at being made to wait so long",
+        "Doubtful about the soldier's message",
+        "Frightened at the thought of meeting Oz"
       ],
       "answerIndex": 0,
       "evidence": {
