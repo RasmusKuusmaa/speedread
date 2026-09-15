@@ -6,6 +6,7 @@ import brooklynBridgeHistory from "./brooklyn-bridge-history.json";
 import civilEngineeringAncientOrigins from "./civil-engineering-ancient-origins.json";
 import electricalEngineering19thCentury from "./electrical-engineering-19th-century.json";
 import covalentBonding from "./covalent-bonding.json";
+import giftOfTheMagiOpening from "./gift-of-the-magi-opening.json";
 import meditationsRusticusApollonius from "./meditations-rusticus-apollonius.json";
 import meditationsSeverusMaximus from "./meditations-severus-maximus.json";
 import meditationsSextusCatulus from "./meditations-sextus-catulus.json";
@@ -34,6 +35,7 @@ export const rawPassages: unknown[] = [
   baconOfAdversity,
   baconOfStudies,
   covalentBonding,
+  giftOfTheMagiOpening,
   bostonTeaParty,
   storyOfAnHour,
   stampAct1765,

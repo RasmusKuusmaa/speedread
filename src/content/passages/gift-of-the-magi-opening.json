@@ -1,0 +1,325 @@
+{
+  "id": "gift-of-the-magi-opening",
+  "title": "Life Is Made Up of Sobs, Sniffles, and Smiles",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/7256",
+  "attribution": "Excerpted verbatim from \"The Gift of the Magi\" by O. Henry (1905).",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "One dollar and eighty-seven cents. That was all. And sixty cents of it was in pennies. Pennies saved one and two at a time by bulldozing the grocer and the vegetable man and the butcher until one’s cheeks burned with the silent imputation of parsimony that such close dealing implied. Three times Della counted it. One dollar and eighty-seven cents. And the next day would be Christmas.",
+    "There was clearly nothing to do but flop down on the shabby little couch and howl. So Della did it. Which instigates the moral reflection that life is made up of sobs, sniffles, and smiles, with sniffles predominating.",
+    "While the mistress of the home is gradually subsiding from the first stage to the second, take a look at the home. A furnished flat at $8 per week. It did not exactly beggar description, but it certainly had that word on the lookout for the mendicancy squad.",
+    "Della finished her cry and attended to her cheeks with the powder rag. She stood by the window and looked out dully at a gray cat walking a gray fence in a gray backyard. Tomorrow would be Christmas Day, and she had only $1.87 with which to buy Jim a present. She had been saving every penny she could for months, with this result. Twenty dollars a week doesn’t go far. Expenses had been greater than she had calculated. They always are. Only $1.87 to buy a present for Jim. Her Jim. Many a happy hour she had spent planning for something nice for him. Something fine and rare and sterling—something just a little bit near to being worthy of the honor of being owned by Jim."
+  ],
+  "questions": [
+    {
+      "id": "gift-of-the-magi-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how much money did Della have in total?",
+      "options": [
+        "One dollar and eighty-seven cents",
+        "Two dollars exactly",
+        "Eighty-seven cents",
+        "One dollar and twenty cents"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 48
+      },
+      "pool": "first"
+    },
+    {
+      "id": "gift-of-the-magi-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how much of Della's money was in pennies?",
+      "options": [
+        "Sixty cents",
+        "Eighty-seven cents",
+        "One dollar",
+        "Twenty cents"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 49,
+        "end": 85
+      },
+      "pool": "first"
+    },
+    {
+      "id": "gift-of-the-magi-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Della do after counting her money three times?",
+      "options": [
+        "Flopped down on the couch and cried",
+        "Went out to the store immediately",
+        "Wrote a letter to Jim",
+        "Fell asleep on the couch"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 81
+      },
+      "pool": "first"
+    },
+    {
+      "id": "gift-of-the-magi-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how much did the furnished flat cost per week?",
+      "options": [
+        "$8",
+        "$20",
+        "$1.87",
+        "$30"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 115,
+        "end": 146
+      },
+      "pool": "first"
+    },
+    {
+      "id": "gift-of-the-magi-f5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did Della's cheeks burn while saving pennies from the grocer and butcher?",
+      "options": [
+        "She felt embarrassed, as if accused of being overly stingy while haggling",
+        "She had run outside in the cold weather",
+        "She was angry at the shopkeepers for overcharging her",
+        "She had been slapped by the grocer"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 186,
+        "end": 283
+      },
+      "pool": "first"
+    },
+    {
+      "id": "gift-of-the-magi-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author say the flat \"certainly had that word on the lookout for the mendicancy squad\"?",
+      "options": [
+        "The flat was so shabby it looked like it belonged to beggars",
+        "The flat was frequently visited by the police",
+        "The flat had a sign advertising it for beggars",
+        "The flat was located next to a homeless shelter"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 148,
+        "end": 257
+      },
+      "pool": "first"
+    },
+    {
+      "id": "gift-of-the-magi-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was Della especially upset about having only $1.87?",
+      "options": [
+        "She wanted to buy Jim a present worthy of him, and the small amount left her unable to afford anything special",
+        "She needed the money to pay overdue rent",
+        "She had promised to repay a debt to a friend",
+        "She wanted to buy herself new clothes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 553,
+        "end": 673
+      },
+      "pool": "first"
+    },
+    {
+      "id": "gift-of-the-magi-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the description of the gray cat and gray backyard suggest about Della's mood?",
+      "options": [
+        "It reflects her bleak, dispirited state of mind",
+        "It shows she was excited about Christmas",
+        "It shows she was distracted by the cat and forgot her troubles",
+        "It suggests the weather was about to change"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 71,
+        "end": 169
+      },
+      "pool": "first"
+    },
+    {
+      "id": "gift-of-the-magi-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "Della was distressed because she had almost no money to buy Jim a worthy Christmas present",
+        "Della was excited to go shopping for Christmas gifts",
+        "Della had just received unexpected money from a relative",
+        "Della was preparing to move out of her flat"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 171,
+        "end": 258
+      },
+      "pool": "first"
+    },
+    {
+      "id": "gift-of-the-magi-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that saving pennies implied a \"parsimony\" that made Della's cheeks burn?",
+      "options": [
+        "Excessive frugality or stinginess",
+        "Great generosity",
+        "Careless spending",
+        "Dishonesty in business"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 217,
+        "end": 283
+      },
+      "pool": "first"
+    },
+    {
+      "id": "gift-of-the-magi-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what day would the next day be?",
+      "options": [
+        "Christmas",
+        "New Year's Day",
+        "Della's birthday",
+        "Jim's birthday"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 350,
+        "end": 385
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "gift-of-the-magi-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Della use to attend to her cheeks after crying?",
+      "options": [
+        "The powder rag",
+        "A wet cloth",
+        "Her sleeve",
+        "Cold water"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 69
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "gift-of-the-magi-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how much was Della and Jim's weekly income?",
+      "options": [
+        "Twenty dollars a week",
+        "Eight dollars a week",
+        "Thirty dollars a week",
+        "One dollar and eighty-seven cents a week"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 332,
+        "end": 368
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "gift-of-the-magi-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the narrator say life is made up of, with one predominating?",
+      "options": [
+        "Sobs, sniffles, and smiles, with sniffles predominating",
+        "Joy, sorrow, and anger, with joy predominating",
+        "Work, rest, and play, with work predominating",
+        "Hope, fear, and doubt, with fear predominating"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 143,
+        "end": 217
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "gift-of-the-magi-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the narrator pause the story to describe the home while Della is still recovering from crying?",
+      "options": [
+        "To give the reader a clear sense of the poverty Della and Jim live in while she composes herself",
+        "To distract the reader from Della's sadness entirely",
+        "To explain why Della decided to move to a new flat",
+        "To introduce a new character living in the same building"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 113
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "gift-of-the-magi-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes Della's situation as described in the passage?",
+      "options": [
+        "She lives in a modest, shabby flat and has almost no money to spare for a Christmas gift",
+        "She lives in a wealthy home and is choosing between many gift options",
+        "She has decided not to buy Jim a gift this year",
+        "She is planning a large Christmas party for many guests"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 115,
+        "end": 146
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "gift-of-the-magi-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the flat did not \"exactly beggar description\"?",
+      "options": [
+        "It was almost, but not quite, too shabby to put into words",
+        "It was so grand that words could not do it justice",
+        "It had never been described by anyone before",
+        "It was described in exact, precise detail"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 148,
+        "end": 185
+      },
+      "pool": "retest"
+    }
+  ]
+}
