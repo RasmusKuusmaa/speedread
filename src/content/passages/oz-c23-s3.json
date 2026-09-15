@@ -1,0 +1,326 @@
+{
+  "id": "oz-c23-s3",
+  "title": "Glinda The Good Witch Grants Dorothy’s Wish, part 3",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "The Scarecrow and the Tin Woodman and the Lion now thanked the Good Witch earnestly for her kindness; and Dorothy exclaimed:",
+    "“You are certainly as good as you are beautiful! But you have not yet told me how to get back to Kansas.”",
+    "“Your Silver Shoes will carry you over the desert,” replied Glinda. “If you had known their power you could have gone back to your Aunt Em the very first day you came to this country.”",
+    "“But then I should not have had my wonderful brains!” cried the Scarecrow. “I might have passed my whole life in the farmer’s cornfield.”",
+    "“And I should not have had my lovely heart,” said the Tin Woodman. “I might have stood and rusted in the forest till the end of the world.”",
+    "“And I should have lived a coward forever,” declared the Lion, “and no beast in all the forest would have had a good word to say to me.”",
+    "“This is all true,” said Dorothy, “and I am glad I was of use to these good friends. But now that each of them has had what he most desired, and each is happy in having a kingdom to rule besides, I think I should like to go back to Kansas.”",
+    "“The Silver Shoes,” said the Good Witch, “have wonderful powers. And one of the most curious things about them is that they can carry you to any place in the world in three steps, and each step will be made in the wink of an eye. All you have to do is to knock the heels together three times and command the shoes to carry you wherever you wish to go.”",
+    "“If that is so,” said the child joyfully, “I will ask them to carry me back to Kansas at once.”",
+    "She threw her arms around the Lion’s neck and kissed him, patting his big head tenderly. Then she kissed the Tin Woodman, who was weeping in a way most dangerous to his joints. But she hugged the soft, stuffed body of the Scarecrow in her arms instead of kissing his painted face, and found she was crying herself at this sorrowful parting from her loving comrades."
+  ],
+  "questions": [
+    {
+      "id": "oz-c23-s3-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what will carry Dorothy over the desert?",
+      "options": [
+        "Her Silver Shoes",
+        "The Golden Cap",
+        "The Winged Monkeys",
+        "A balloon of green silk"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 1,
+        "end": 49
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s3-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how many steps do the Shoes take?",
+      "options": ["Three", "Seven", "One", "As many as are needed"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 119,
+        "end": 178
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s3-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what must Dorothy do to use them?",
+      "options": [
+        "Knock the heels together three times and command them",
+        "Say the words written inside the Golden Cap",
+        "Stand on each foot in turn and count aloud",
+        "Ask Glinda to speak the charm for her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 230,
+        "end": 291
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s3-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, when could Dorothy have gone home?",
+      "options": [
+        "The very first day she came to the country",
+        "Only after the Witch was melted",
+        "As soon as she reached the Emerald City",
+        "Not until Glinda told her the secret"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 98,
+        "end": 157
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s3-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did Dorothy say goodbye to the Scarecrow?",
+      "options": [
+        "She hugged his stuffed body in her arms",
+        "She kissed his painted face",
+        "She shook him by the hand",
+        "She could not bear to say it at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 181,
+        "end": 243
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s3-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Scarecrow glad she did not know sooner?",
+      "options": [
+        "He would never have had his wonderful brains",
+        "He would have been left on his pole forever",
+        "He would not have become ruler of the city",
+        "He would never have met the Tin Woodman"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 1,
+        "end": 52
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s3-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what would have become of the Tin Woodman?",
+      "options": [
+        "He might have rusted in the forest till the end of the world",
+        "He would have gone on chopping wood for the Munchkins",
+        "He would have married the Munchkin maiden long ago",
+        "He would have been broken up by the Winged Monkeys"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 68,
+        "end": 137
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s3-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why must Dorothy be careful kissing the Woodman?",
+      "options": [
+        "He was weeping in a way dangerous to his joints",
+        "His tin was too cold to touch with her lips",
+        "The patch on his breast had come loose",
+        "He had asked her not to touch his face"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 122,
+        "end": 175
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s3-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does in the wink of an eye mean?",
+      "options": [
+        "In an instant",
+        "With the eyes closed",
+        "Once in every three tries",
+        "Only while nobody watches"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 180,
+        "end": 228
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s3-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "The way home was on her feet all along, and the parting is a sad one",
+        "Glinda refuses to explain how the Silver Shoes work",
+        "Dorothy decides she would rather stay in Oz with her friends",
+        "The friends quarrel over who deserved the journey most"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 85,
+        "end": 139
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s3-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion say he would otherwise have been?",
+      "options": [
+        "A coward forever, with no beast's good word",
+        "King of a forest he had never seen",
+        "A prisoner in the Wicked Witch's yard",
+        "Content to stay in the Emerald City"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 1,
+        "end": 41
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c23-s3-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Dorothy say she was glad of?",
+      "options": [
+        "That she had been of use to her friends",
+        "That she had found the Silver Shoes",
+        "That the Wizard had proved a humbug",
+        "That the journey had been so long"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 35,
+        "end": 83
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c23-s3-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did Dorothy say goodbye to the Lion?",
+      "options": [
+        "Threw her arms round his neck and kissed him",
+        "Shook his great paw gravely",
+        "Patted him and walked away quickly",
+        "Left without saying anything"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 0,
+        "end": 56
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c23-s3-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Dorothy call Glinda?",
+      "options": [
+        "As good as she is beautiful",
+        "The greatest witch in the world",
+        "Kinder than the Wizard ever was",
+        "The only friend she has left"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 1,
+        "end": 48
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c23-s3-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does Dorothy feel at the parting?",
+      "options": [
+        "She finds herself crying over it",
+        "She is too excited to feel sad",
+        "She is impatient to be gone",
+        "She refuses to say goodbye at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 281,
+        "end": 339
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c23-s3-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does curious describe about the Shoes?",
+      "options": [
+        "Strange and remarkable",
+        "Eager to be used",
+        "Delicate and easily broken",
+        "Difficult to put on"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 69,
+        "end": 110
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c23-s3-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A secret revealed too late to matter, and a farewell in tears",
+        "A discovery that the Silver Shoes have lost their power",
+        "A decision that Dorothy will stay in the Land of Oz",
+        "A quarrel about who should have told Dorothy sooner"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 64
+      },
+      "pool": "retest"
+    }
+  ]
+}

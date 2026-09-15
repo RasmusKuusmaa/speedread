@@ -1,0 +1,322 @@
+{
+  "id": "oz-c23-s1",
+  "title": "Glinda The Good Witch Grants Dorothy’s Wish, part 1",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Before they went to see Glinda, however, they were taken to a room of the Castle, where Dorothy washed her face and combed her hair, and the Lion shook the dust out of his mane, and the Scarecrow patted himself into his best shape, and the Woodman polished his tin and oiled his joints.",
+    "When they were all quite presentable they followed the soldier girl into a big room where the Witch Glinda sat upon a throne of rubies.",
+    "She was both beautiful and young to their eyes. Her hair was a rich red in color and fell in flowing ringlets over her shoulders. Her dress was pure white but her eyes were blue, and they looked kindly upon the little girl.",
+    "“What can I do for you, my child?” she asked.",
+    "Dorothy told the Witch all her story: how the cyclone had brought her to the Land of Oz, how she had found her companions, and of the wonderful adventures they had met with.",
+    "“My greatest wish now,” she added, “is to get back to Kansas, for Aunt Em will surely think something dreadful has happened to me, and that will make her put on mourning; and unless the crops are better this year than they were last, I am sure Uncle Henry cannot afford it.”",
+    "Glinda leaned forward and kissed the sweet, upturned face of the loving little girl.",
+    "“Bless your dear heart,” she said, “I am sure I can tell you of a way to get back to Kansas.” Then she added, “But, if I do, you must give me the Golden Cap.”",
+    "“Willingly!” exclaimed Dorothy; “indeed, it is of no use to me now, and when you have it you can command the Winged Monkeys three times.”",
+    "“And I think I shall need their service just those three times,” answered Glinda, smiling.",
+    "Dorothy then gave her the Golden Cap, and the Witch said to the Scarecrow, “What will you do when Dorothy has left us?”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c23-s1-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Woodman do before the audience?",
+      "options": [
+        "Polished his tin and oiled his joints",
+        "Sharpened his axe on a red stone",
+        "Washed his face and combed his hair",
+        "Patted himself into his best shape"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 236,
+        "end": 285
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s1-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was Glinda's throne made of?",
+      "options": [
+        "Rubies",
+        "Green marble",
+        "Emeralds set closely",
+        "White china"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 84,
+        "end": 134
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s1-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what colour was Glinda's hair?",
+      "options": ["A rich red", "Pure white", "Golden yellow", "Deep green"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 48,
+        "end": 80
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s1-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Glinda ask for in exchange for her help?",
+      "options": [
+        "The Golden Cap",
+        "The Silver Shoes",
+        "The Witch's silver whistle",
+        "Nothing at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 125,
+        "end": 156
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s1-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy fear Aunt Em would do?",
+      "options": [
+        "Put on mourning for her",
+        "Sell the farm and move away",
+        "Come looking for her in Oz",
+        "Refuse to believe her story"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 131,
+        "end": 169
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s1-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Dorothy worry about the mourning?",
+      "options": [
+        "Uncle Henry cannot afford it unless the crops are better",
+        "Aunt Em has never worn black in her life",
+        "Mourning is forbidden in the Land of Oz",
+        "It would mean her aunt had given up hope"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 234,
+        "end": 272
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s1-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did Dorothy answer the request for the Cap?",
+      "options": [
+        "Willingly, saying it was of no use to her now",
+        "Reluctantly, after asking what it was worth",
+        "By refusing, since it had been a gift",
+        "By asking the Scarecrow's advice first"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 0,
+        "end": 30
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s1-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is Glinda pleased to have the Cap?",
+      "options": [
+        "She expects to need the Monkeys exactly three times",
+        "She has wanted it since the Witch of the West died",
+        "It is the only payment she ever accepts",
+        "It will make her the most powerful of the Witches"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 1,
+        "end": 62
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s1-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does presentable mean?",
+      "options": [
+        "Fit to be seen by someone",
+        "Ready to give a present",
+        "Able to speak for themselves",
+        "Willing to be introduced"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 36
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s1-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A kind welcome, a story told, and a simple bargain struck",
+        "A Good Witch who refuses to help a stranger",
+        "A quarrel over who should keep the Golden Cap",
+        "A Witch who demands the Silver Shoes as payment"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 36,
+        "end": 91
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s1-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion do to make himself presentable?",
+      "options": [
+        "Shook the dust out of his mane",
+        "Washed his face in a basin",
+        "Had the tinsmiths polish his claws",
+        "Put on a red uniform"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 137,
+        "end": 176
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c23-s1-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what colour was Glinda's dress?",
+      "options": ["Pure white", "Rich red", "Emerald green", "Silver and gold"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 130,
+        "end": 154
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c23-s1-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Glinda do before answering Dorothy?",
+      "options": [
+        "Leaned forward and kissed her upturned face",
+        "Rose and left the room a while",
+        "Called the girl soldiers back in",
+        "Asked to see the Silver Shoes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 0,
+        "end": 57
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c23-s1-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did Dorothy's story cover?",
+      "options": [
+        "The cyclone, her companions, and their adventures",
+        "Only the death of the Wicked Witch of the West",
+        "Her life in Kansas before the storm",
+        "The tricks the Wizard of Oz had played"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 38,
+        "end": 87
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c23-s1-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did Glinda strike the travellers?",
+      "options": [
+        "As both beautiful and young to their eyes",
+        "As older than any witch they had met",
+        "As stern and difficult to approach",
+        "As no different from the Wizard himself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 47
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c23-s1-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does ringlets describe?",
+      "options": [
+        "Curls of hair falling over her shoulders",
+        "Rings worn upon her fingers",
+        "A circle of rubies in her crown",
+        "The pattern woven in her dress"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 85,
+        "end": 128
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c23-s1-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Preparation, a welcome, and the Cap traded for a way home",
+        "A long wait outside the Castle of the Good Witch",
+        "A refusal that leaves Dorothy no nearer to Kansas",
+        "An argument about whether the Cap is Dorothy's to give"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 45
+      },
+      "pool": "retest"
+    }
+  ]
+}

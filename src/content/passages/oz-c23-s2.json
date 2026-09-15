@@ -1,0 +1,331 @@
+{
+  "id": "oz-c23-s2",
+  "title": "Glinda The Good Witch Grants Dorothy’s Wish, part 2",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“I will return to the Emerald City,” he replied, “for Oz has made me its ruler and the people like me. The only thing that worries me is how to cross the hill of the Hammer-Heads.”",
+    "“By means of the Golden Cap I shall command the Winged Monkeys to carry you to the gates of the Emerald City,” said Glinda, “for it would be a shame to deprive the people of so wonderful a ruler.”",
+    "“Am I really wonderful?” asked the Scarecrow.",
+    "“You are unusual,” replied Glinda.",
+    "Turning to the Tin Woodman, she asked, “What will become of you when Dorothy leaves this country?”",
+    "He leaned on his axe and thought a moment. Then he said, “The Winkies were very kind to me, and wanted me to rule over them after the Wicked Witch died. I am fond of the Winkies, and if I could get back again to the Country of the West, I should like nothing better than to rule over them forever.”",
+    "“My second command to the Winged Monkeys,” said Glinda “will be that they carry you safely to the land of the Winkies. Your brain may not be so large to look at as those of the Scarecrow, but you are really brighter than he is—when you are well polished—and I am sure you will rule the Winkies wisely and well.”",
+    "Then the Witch looked at the big, shaggy Lion and asked, “When Dorothy has returned to her own home, what will become of you?”",
+    "“Over the hill of the Hammer-Heads,” he answered, “lies a grand old forest, and all the beasts that live there have made me their King. If I could only get back to this forest, I would pass my life very happily there.”",
+    "“My third command to the Winged Monkeys,” said Glinda, “shall be to carry you to your forest. Then, having used up the powers of the Golden Cap, I shall give it to the King of the Monkeys, that he and his band may thereafter be free for evermore.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c23-s2-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what will the Scarecrow do when Dorothy leaves?",
+      "options": [
+        "Return to the Emerald City to rule",
+        "Go back to the farmer's cornfield",
+        "Travel west with the Tin Woodman",
+        "Stay in Glinda's Castle"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 1,
+        "end": 34
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s2-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what worries the Scarecrow about the journey back?",
+      "options": [
+        "How to cross the hill of the Hammer-Heads",
+        "Whether the people still want him",
+        "Whether the Wizard has returned",
+        "How to find his way without a road"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 103,
+        "end": 178
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s2-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Tin Woodman wish for?",
+      "options": [
+        "To rule over the Winkies forever",
+        "To go back to his own cottage",
+        "To live in the Emerald City",
+        "To travel with Dorothy to Kansas"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 237,
+        "end": 296
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s2-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the Lion want?",
+      "options": [
+        "To get back to the forest that made him King",
+        "To stay at Glinda's Castle as a guard",
+        "To return to the Emerald City with the Scarecrow",
+        "To hunt among the Quadlings' fields"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 136,
+        "end": 175
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s2-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what will Glinda do with the Cap at the end?",
+      "options": [
+        "Give it to the King of the Monkeys",
+        "Keep it in her own Castle",
+        "Return it to Dorothy for the journey",
+        "Break it so nobody can use it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 145,
+        "end": 187
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s2-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does Glinda answer the Scarecrow's question about himself?",
+      "options": [
+        "She calls him unusual rather than wonderful",
+        "She agrees that he is truly wonderful",
+        "She refuses to answer him at all",
+        "She says the people will decide that"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 34
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s2-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Glinda say about the Woodman's brain?",
+      "options": [
+        "Smaller to look at, but brighter when he is polished",
+        "Larger than the Scarecrow's has ever been",
+        "Of no use at all for ruling a country",
+        "Made of the same bran and needles"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 192,
+        "end": 226
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s2-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why will the Monkeys be free at last?",
+      "options": [
+        "Once the three commands are used, the Cap passes to their King",
+        "Glinda means to destroy the Cap after using it",
+        "Dorothy has released them from the charm",
+        "The Witch of the West's death ended their service"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 189,
+        "end": 245
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s2-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does deprive mean?",
+      "options": [
+        "Take away from them",
+        "Give as a gift to them",
+        "Warn them against something",
+        "Choose for them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 125,
+        "end": 194
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s2-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "Three commands are planned that send each friend where he belongs",
+        "Three friends decide to stay together in the Quadling country",
+        "Glinda refuses to help anyone but Dorothy herself",
+        "The Winged Monkeys are asked to serve Glinda forever"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 1,
+        "end": 39
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s2-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who wanted the Woodman to rule them?",
+      "options": [
+        "The Winkies",
+        "The Quadlings",
+        "The Munchkins",
+        "The beasts of the forest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 58,
+        "end": 90
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c23-s2-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Woodman do while he thought?",
+      "options": [
+        "Leaned on his axe",
+        "Polished his tin breast",
+        "Walked to the window",
+        "Oiled his jaw again"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 0,
+        "end": 42
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c23-s2-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who made the Lion their King?",
+      "options": [
+        "All the beasts of the grand old forest",
+        "The Quadlings of the South Country",
+        "The Winged Monkeys and their King",
+        "Glinda, the Good Witch herself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 80,
+        "end": 134
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c23-s2-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Glinda want the Scarecrow back in his city?",
+      "options": [
+        "It would be a shame to deprive the people of him",
+        "The Emerald City has no other ruler at all",
+        "She has promised the Guardian of the Gates",
+        "He is the only one who can keep the secret"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 125,
+        "end": 194
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c23-s2-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, where lies the forest the Lion speaks of?",
+      "options": [
+        "Over the hill of the Hammer-Heads",
+        "Beyond the country of the Winkies",
+        "On the far side of the great desert",
+        "Within sight of Glinda's Castle"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 1,
+        "end": 34
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c23-s2-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does for evermore mean?",
+      "options": [
+        "From then on, without end",
+        "For three more journeys",
+        "Until the Cap is lost",
+        "Only while Glinda lives"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 210,
+        "end": 245
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c23-s2-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Each companion names his home, and the Cap is spent getting him there",
+        "The companions cannot agree where any of them should go",
+        "Glinda decides to keep the Golden Cap for her own use",
+        "The Scarecrow refuses to return to the Emerald City"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 37
+      },
+      "pool": "retest"
+    }
+  ]
+}

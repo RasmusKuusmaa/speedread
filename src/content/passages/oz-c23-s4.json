@@ -1,0 +1,333 @@
+{
+  "id": "oz-c23-s4",
+  "title": "Glinda The Good Witch Grants Dorothy’s Wish, part 4",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Glinda the Good stepped down from her ruby throne to give the little girl a good-bye kiss, and Dorothy thanked her for all the kindness she had shown to her friends and herself.",
+    "Dorothy now took Toto up solemnly in her arms, and having said one last good-bye she clapped the heels of her shoes together three times, saying:",
+    "“Take me home to Aunt Em!”",
+    "Instantly she was whirling through the air, so swiftly that all she could see or feel was the wind whistling past her ears.",
+    "The Silver Shoes took but three steps, and then she stopped so suddenly that she rolled over upon the grass several times before she knew where she was.",
+    "At length, however, she sat up and looked about her.",
+    "“Good gracious!” she cried.",
+    "For she was sitting on the broad Kansas prairie, and just before her was the new farmhouse Uncle Henry built after the cyclone had carried away the old one. Uncle Henry was milking the cows in the barnyard, and Toto had jumped out of her arms and was running toward the barn, barking furiously.",
+    "Dorothy stood up and found she was in her stocking-feet. For the Silver Shoes had fallen off in her flight through the air, and were lost forever in the desert.",
+    "Aunt Em had just come out of the house to water the cabbages when she looked up and saw Dorothy running toward her.",
+    "“My darling child!” she cried, folding the little girl in her arms and covering her face with kisses. “Where in the world did you come from?”",
+    "“From the Land of Oz,” said Dorothy gravely. “And here is Toto, too. And oh, Aunt Em! I’m so glad to be at home again!”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c23-s4-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy say to the Shoes?",
+      "options": [
+        "Take me home to Aunt Em!",
+        "Carry me over the desert!",
+        "Three steps to Kansas!",
+        "Home, and be quick!"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 1,
+        "end": 25
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s4-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what could Dorothy see or feel as she flew?",
+      "options": [
+        "Only the wind whistling past her ears",
+        "The desert passing far below",
+        "Glinda's Castle growing smaller",
+        "Nothing at all; she had shut her eyes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 60,
+        "end": 122
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s4-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did she land?",
+      "options": [
+        "On the broad Kansas prairie",
+        "In the middle of the great desert",
+        "Beside the old farmhouse ruins",
+        "At the edge of the Munchkin country"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 47
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s4-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what had Uncle Henry built after the cyclone?",
+      "options": [
+        "A new farmhouse",
+        "A deeper cyclone cellar",
+        "A barn for the cows",
+        "A fence of blue"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 53,
+        "end": 108
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s4-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to the Silver Shoes?",
+      "options": [
+        "They fell off and were lost in the desert",
+        "They turned to plain leather",
+        "Glinda kept them at the Castle",
+        "Dorothy gave them to the Monkeys"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 57,
+        "end": 106
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s4-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what was Uncle Henry doing when she arrived?",
+      "options": [
+        "Milking the cows in the barnyard",
+        "Watering the cabbages by the house",
+        "Mending the roof of the new farmhouse",
+        "Searching the prairie for Dorothy"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 157,
+        "end": 205
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s4-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what was Aunt Em doing?",
+      "options": [
+        "Coming out of the house to water the cabbages",
+        "Sitting in the doorway watching the sky",
+        "Washing the dishes as she had before",
+        "Hiding in the cyclone cellar again"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 0,
+        "end": 60
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s4-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did Toto behave on arrival?",
+      "options": [
+        "Jumped from her arms and ran barking to the barn",
+        "Stayed close beside her, too frightened to move",
+        "Ran straight to Aunt Em to be petted",
+        "Was nowhere to be found at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 211,
+        "end": 274
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s4-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does solemnly describe about taking up Toto?",
+      "options": [
+        "Seriously, as befits the moment",
+        "Quickly, before he could escape",
+        "Sadly, as though sorry to go",
+        "Roughly, because she was in haste"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 45
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s4-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "Three steps end the journey, and the ordinary world is waiting",
+        "The Silver Shoes fail and leave Dorothy in the desert",
+        "Dorothy arrives to find the old farmhouse still standing",
+        "Aunt Em refuses to believe where Dorothy has been"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 86,
+        "end": 118
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c23-s4-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Glinda do before Dorothy left?",
+      "options": [
+        "Stepped down from her throne to kiss her",
+        "Gave her back the Golden Cap",
+        "Called the Winged Monkeys at once",
+        "Walked with her to the Castle gate"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 49
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c23-s4-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how did Dorothy stop at the end of the flight?",
+      "options": [
+        "So suddenly that she rolled over on the grass",
+        "Gently, setting down on her feet",
+        "In the air, and had to climb down",
+        "Not at all, until Aunt Em caught her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 39,
+        "end": 71
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c23-s4-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy find about her feet?",
+      "options": [
+        "She was in her stocking-feet",
+        "The Shoes had turned to silver dust",
+        "Her old leather shoes were back",
+        "Her feet were bare and sore"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 0,
+        "end": 55
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c23-s4-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did Aunt Em ask her?",
+      "options": [
+        "Where in the world she had come from",
+        "Whether she had been hurt in the storm",
+        "Why she had stayed away so long",
+        "What had become of her silver shoes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 103,
+        "end": 140
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c23-s4-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did Dorothy answer that question?",
+      "options": [
+        "Gravely, saying she came from the Land of Oz",
+        "By bursting into tears without a word",
+        "By telling the whole story at once",
+        "By pretending she could not remember"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 0,
+        "end": 44
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c23-s4-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does at length mean?",
+      "options": [
+        "After a while",
+        "In great detail",
+        "Lying full length",
+        "For a long time"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 0,
+        "end": 30
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c23-s4-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A journey of three steps ends in a kiss on the Kansas prairie",
+        "A journey that leaves Dorothy stranded far from home",
+        "A homecoming in which nobody recognises Dorothy",
+        "A last farewell that Dorothy cannot bring herself to make"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 31,
+        "end": 100
+      },
+      "pool": "retest"
+    }
+  ]
+}
