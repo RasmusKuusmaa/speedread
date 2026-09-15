@@ -1,0 +1,329 @@
+{
+  "id": "oz-c04-s1",
+  "title": "The Road Through the Forest, part 1",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "After a few hours the road began to be rough, and the walking grew so difficult that the Scarecrow often stumbled over the yellow bricks, which were here very uneven. Sometimes, indeed, they were broken or missing altogether, leaving holes that Toto jumped across and Dorothy walked around. As for the Scarecrow, having no brains, he walked straight ahead, and so stepped into the holes and fell at full length on the hard bricks. It never hurt him, however, and Dorothy would pick him up and set him upon his feet again, while he joined her in laughing merrily at his own mishap.",
+    "The farms were not nearly so well cared for here as they were farther back. There were fewer houses and fewer fruit trees, and the farther they went the more dismal and lonesome the country became.",
+    "At noon they sat down by the roadside, near a little brook, and Dorothy opened her basket and got out some bread. She offered a piece to the Scarecrow, but he refused.",
+    "“I am never hungry,” he said, “and it is a lucky thing I am not, for my mouth is only painted, and if I should cut a hole in it so I could eat, the straw I am stuffed with would come out, and that would spoil the shape of my head.”",
+    "Dorothy saw at once that this was true, so she only nodded and went on eating her bread.",
+    "“Tell me something about yourself and the country you came from,” said the Scarecrow, when she had finished her dinner. So she told him all about Kansas, and how gray everything was there, and how the cyclone had carried her to this queer Land of Oz.",
+    "The Scarecrow listened carefully, and said, “I cannot understand why you should wish to leave this beautiful country and go back to the dry, gray place you call Kansas.”",
+    "“That is because you have no brains” answered the girl. “No matter how dreary and gray our homes are, we people of flesh and blood would rather live there than in any other country, be it ever so beautiful. There is no place like home.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c04-s1-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to the yellow bricks after a few hours?",
+      "options": [
+        "They grew uneven, and some were broken or missing",
+        "They gave way entirely to a road of green stone",
+        "They were covered over by grass and wild flowers",
+        "They widened out into a smooth and level highway"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 167,
+        "end": 224
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s1-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how did Toto get past the holes in the road?",
+      "options": [
+        "He jumped across them",
+        "He walked around them",
+        "He fell into them like the Scarecrow",
+        "He was carried over them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 226,
+        "end": 263
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s1-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy do when the Scarecrow fell?",
+      "options": [
+        "Picked him up and set him on his feet again",
+        "Told him to watch the road more carefully",
+        "Waited for him to get up by himself",
+        "Tied his arm to hers so he could not fall"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 463,
+        "end": 520
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s1-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why does the Scarecrow refuse the bread?",
+      "options": [
+        "He is never hungry",
+        "He has already eaten",
+        "He dislikes the taste of it",
+        "He is saving it for later"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 20
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s1-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy tell the Scarecrow about?",
+      "options": [
+        "Kansas, and how the cyclone carried her here",
+        "The Munchkins she stayed with the night before",
+        "The witch her house had fallen on",
+        "The silver shoes and their hidden charm"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 120,
+        "end": 152
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s1-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Scarecrow fall into holes when Dorothy does not?",
+      "options": [
+        "Having no brains, he walks straight ahead without looking",
+        "His legs are too stiff for him to step around them",
+        "He cannot see the road through his painted eyes",
+        "He is carrying the basket and cannot watch his feet"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 313,
+        "end": 355
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s1-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why would eating be a problem for the Scarecrow?",
+      "options": [
+        "Cutting a mouth would let his straw out and spoil his head",
+        "Food would rot inside a body stuffed with straw",
+        "He has no way of tasting anything he swallows",
+        "The farmer forgot to paint him a mouth at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 144,
+        "end": 186
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s1-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what change does Dorothy notice in the country?",
+      "options": [
+        "It grows more dismal and lonesome as they go on",
+        "It grows richer and better farmed the farther they walk",
+        "It becomes crowded with Munchkins coming to see her",
+        "It turns from farmland into a stretch of bare desert"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 127,
+        "end": 196
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s1-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the Scarecrow's own mishap refer to?",
+      "options": [
+        "His tumble on the bricks",
+        "His missing brains",
+        "His painted mouth",
+        "His long stay on the pole"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 522,
+        "end": 579
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s1-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the argument in the passage?",
+      "options": [
+        "Dorothy holds that home is best however gray it is",
+        "The Scarecrow persuades Dorothy to stay in Oz",
+        "Dorothy explains why the Munchkins fear the forest",
+        "The Scarecrow argues that beauty matters most of all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 207,
+        "end": 235
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s1-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did they stop at noon?",
+      "options": [
+        "By the roadside, near a little brook",
+        "Inside a cottage of logs and branches",
+        "Under a fruit tree in a Munchkin field",
+        "At the gate of a blue farmhouse"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 58
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c04-s1-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why does the Scarecrow say it is lucky he is never hungry?",
+      "options": [
+        "His mouth is only painted on",
+        "There is little food on the road",
+        "Dorothy's basket is nearly empty",
+        "Straw men cannot taste anything"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 65,
+        "end": 93
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c04-s1-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Scarecrow ask Dorothy to tell him about?",
+      "options": [
+        "Herself and the country she came from",
+        "The Wizard who rules the city",
+        "The witch her house had killed",
+        "The road that lay ahead of them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 1,
+        "end": 63
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c04-s1-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why can the Scarecrow not understand wanting to leave Oz?",
+      "options": [
+        "He judges only by how beautiful a country looks",
+        "He has never been told where Kansas lies",
+        "He believes the Wizard will refuse to help",
+        "He thinks Dorothy is only pretending to go"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 45,
+        "end": 116
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c04-s1-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does Dorothy treat the Scarecrow's difficulties?",
+      "options": [
+        "She accepts his explanation and helps without fuss",
+        "She grows impatient at how often he falls",
+        "She insists he should try harder to keep up",
+        "She refuses to believe he cannot eat at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 38
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c04-s1-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does dismal mean?",
+      "options": [
+        "Dreary and cheerless",
+        "Steep and rocky",
+        "Crowded and noisy",
+        "Wet and muddy"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 149,
+        "end": 196
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c04-s1-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A harder road, a shared meal, and a difference over what home means",
+        "A quarrel that ends with the Scarecrow leaving the party",
+        "A day spent repairing the broken bricks of the road",
+        "A search for a Munchkin farm where they can spend the night"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 48
+      },
+      "pool": "retest"
+    }
+  ]
+}

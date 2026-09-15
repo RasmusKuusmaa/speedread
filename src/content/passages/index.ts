@@ -40,6 +40,10 @@ import ozC03S3 from "./oz-c03-s3.json";
 import ozC03S4 from "./oz-c03-s4.json";
 import ozC03S5 from "./oz-c03-s5.json";
 import ozC03S6 from "./oz-c03-s6.json";
+import ozC04S1 from "./oz-c04-s1.json";
+import ozC04S2 from "./oz-c04-s2.json";
+import ozC04S3 from "./oz-c04-s3.json";
+import ozC04S4 from "./oz-c04-s4.json";
 import ozGrayPrairie from "./oz-gray-prairie.json";
 import ozGreenRoom from "./oz-green-room.json";
 import ozSilverShoes from "./oz-silver-shoes.json";
@@ -132,6 +136,10 @@ export const rawPassages: unknown[] = [
   ozC03S4,
   ozC03S5,
   ozC03S6,
+  ozC04S1,
+  ozC04S2,
+  ozC04S3,
+  ozC04S4,
   ozGreenRoom,
   ozSilverShoes,
 ];

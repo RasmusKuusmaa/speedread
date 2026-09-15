@@ -1,0 +1,311 @@
+{
+  "id": "oz-c04-s3",
+  "title": "The Road Through the Forest, part 3",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“‘This fellow will scare the crows fast enough,’ said the farmer. ‘He looks just like a man.’",
+    "“‘Why, he is a man,’ said the other, and I quite agreed with him. The farmer carried me under his arm to the cornfield, and set me up on a tall stick, where you found me. He and his friend soon after walked away and left me alone.",
+    "“I did not like to be deserted this way. So I tried to walk after them. But my feet would not touch the ground, and I was forced to stay on that pole. It was a lonely life to lead, for I had nothing to think of, having been made such a little while before. Many crows and other birds flew into the cornfield, but as soon as they saw me they flew away again, thinking I was a Munchkin; and this pleased me and made me feel that I was quite an important person. By and by an old crow flew near me, and after looking at me carefully he perched upon my shoulder and said:",
+    "“‘I wonder if that farmer thought to fool me in this clumsy manner. Any crow of sense could see that you are only stuffed with straw.’ Then he hopped down at my feet and ate all the corn he wanted. The other birds, seeing he was not harmed by me, came to eat the corn too, so in a short time there was a great flock of them about me.",
+    "“I felt sad at this, for it showed I was not such a good Scarecrow after all; but the old crow comforted me, saying, ‘If you only had brains in your head you would be as good a man as any of them, and a better man than some of them. Brains are the only things worth having in this world, no matter whether one is a crow or a man.’"
+  ],
+  "questions": [
+    {
+      "id": "oz-c04-s3-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the farmer set the Scarecrow up?",
+      "options": [
+        "On a tall stick in the cornfield",
+        "On the roof of his own house",
+        "Beside the road of yellow brick",
+        "At the gate of the blue fence"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 124,
+        "end": 169
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s3-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why could the Scarecrow not follow the men?",
+      "options": [
+        "His feet would not touch the ground",
+        "His legs had not yet been stuffed",
+        "The farmer had tied him to the stick",
+        "He was afraid of leaving the corn"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 72,
+        "end": 110
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s3-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the birds think he was at first?",
+      "options": ["A Munchkin", "A crow", "A farmer", "A witch"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 358,
+        "end": 383
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s3-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the old crow do after looking him over?",
+      "options": [
+        "Perched on his shoulder and spoke to him",
+        "Flew off at once to warn the other birds",
+        "Pulled a handful of straw from his chest",
+        "Settled on his hat and went to sleep"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 530,
+        "end": 566
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s3-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the old crow say was worth having?",
+      "options": ["Brains", "Wings", "Corn", "Courage"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 233,
+        "end": 286
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s3-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the other birds come down to eat?",
+      "options": [
+        "They saw the old crow was not harmed",
+        "The old crow called them over to the field",
+        "The farmer had gone away for the day",
+        "The Scarecrow waved his arms at them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 198,
+        "end": 271
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s3-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the old crow see through the trick?",
+      "options": [
+        "Any crow of sense could tell he was only stuffed",
+        "He had watched the farmer building the figure",
+        "He had seen the same scarecrow the year before",
+        "The straw was coming out through the blue coat"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 68,
+        "end": 133
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s3-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Scarecrow first feel important?",
+      "options": [
+        "Birds fled the field as soon as they saw him",
+        "The farmer had called him as good as a man",
+        "He could see further from the tall stick",
+        "The corn grew better wherever he stood"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 389,
+        "end": 458
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s3-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Scarecrow was deserted?",
+      "options": [
+        "Left entirely alone",
+        "Praised by the farmer",
+        "Taken far from home",
+        "Set upright again"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 1,
+        "end": 40
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s3-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "The Scarecrow fails at his one job and learns to want brains",
+        "The Scarecrow drives a flock of crows out of the corn",
+        "The Scarecrow decides that being a man is not worth much",
+        "The Scarecrow is praised by everyone who passes the field"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 21,
+        "end": 76
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s3-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the farmer say the Scarecrow looked like?",
+      "options": ["A man", "A Munchkin", "A crow", "A witch"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 67,
+        "end": 92
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c04-s3-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how did the farmer carry him to the field?",
+      "options": [
+        "Under his arm",
+        "On a wagon",
+        "Over his shoulder",
+        "On the tall stick"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 66,
+        "end": 118
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c04-s3-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the old crow do after speaking?",
+      "options": [
+        "Hopped down and ate all the corn he wanted",
+        "Flew back to the trees at the field's edge",
+        "Pulled the hat from the Scarecrow's head",
+        "Perched there in silence until evening"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 135,
+        "end": 197
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c04-s3-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was the Scarecrow's life on the pole a lonely one?",
+      "options": [
+        "He had nothing to think about, being so newly made",
+        "No road passed close enough for him to see anyone",
+        "The birds all kept well away from the cornfield",
+        "The farmer had forbidden anyone to speak to him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 181,
+        "end": 255
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c04-s3-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what comfort did the old crow offer?",
+      "options": [
+        "With brains he would be as good a man as any",
+        "That no scarecrow ever frightens a wise bird",
+        "That the farmer would soon take him down",
+        "That crows do not need brains themselves"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 118,
+        "end": 195
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c04-s3-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the crow mean by this clumsy manner?",
+      "options": [
+        "A crude and badly made trick",
+        "A slow and careful plan",
+        "A cruel and frightening threat",
+        "A generous and open gift"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 2,
+        "end": 67
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c04-s3-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A brief success as a scarecrow ends in a lesson about brains",
+        "A crow and a scarecrow become friends and share the corn",
+        "A farmer sets up a scarecrow and returns to admire it",
+        "A scarecrow escapes his pole and follows the two men"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 1,
+        "end": 19
+      },
+      "pool": "retest"
+    }
+  ]
+}

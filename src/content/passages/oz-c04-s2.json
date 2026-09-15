@@ -1,0 +1,321 @@
+{
+  "id": "oz-c04-s2",
+  "title": "The Road Through the Forest, part 2",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "The Scarecrow sighed.",
+    "“Of course I cannot understand it,” he said. “If your heads were stuffed with straw, like mine, you would probably all live in the beautiful places, and then Kansas would have no people at all. It is fortunate for Kansas that you have brains.”",
+    "“Won’t you tell me a story, while we are resting?” asked the child.",
+    "The Scarecrow looked at her reproachfully, and answered:",
+    "“My life has been so short that I really know nothing whatever. I was only made day before yesterday. What happened in the world before that time is all unknown to me. Luckily, when the farmer made my head, one of the first things he did was to paint my ears, so that I heard what was going on. There was another Munchkin with him, and the first thing I heard was the farmer saying, ‘How do you like those ears?’",
+    "“‘They aren’t straight,’” answered the other.",
+    "“‘Never mind,’” said the farmer. “‘They are ears just the same,’” which was true enough.",
+    "“‘Now I’ll make the eyes,’” said the farmer. So he painted my right eye, and as soon as it was finished I found myself looking at him and at everything around me with a great deal of curiosity, for this was my first glimpse of the world.",
+    "“‘That’s a rather pretty eye,’” remarked the Munchkin who was watching the farmer. “‘Blue paint is just the color for eyes.’",
+    "“‘I think I’ll make the other a little bigger,’” said the farmer. And when the second eye was done I could see much better than before. Then he made my nose and my mouth. But I did not speak, because at that time I didn’t know what a mouth was for. I had the fun of watching them make my body and my arms and legs; and when they fastened on my head, at last, I felt very proud, for I thought I was just as good a man as anyone."
+  ],
+  "questions": [
+    {
+      "id": "oz-c04-s2-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when was the Scarecrow made?",
+      "options": [
+        "The day before yesterday",
+        "Earlier that same morning",
+        "Many years ago",
+        "He does not remember at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 64,
+        "end": 101
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s2-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, which part of him did the farmer paint first?",
+      "options": ["His ears", "His eyes", "His nose", "His mouth"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 207,
+        "end": 258
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s2-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what colour was used for his eyes?",
+      "options": ["Blue", "Black", "Green", "Brown"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 85,
+        "end": 122
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s2-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the farmer's companion say about the ears?",
+      "options": [
+        "That they were not straight",
+        "That they were far too large",
+        "That they were the best part of him",
+        "That they should have been painted blue"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 0,
+        "end": 45
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s2-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the Scarecrow not speak when his mouth was made?",
+      "options": [
+        "He did not yet know what a mouth was for",
+        "The paint was still too wet to move",
+        "He was afraid of what the farmer might do",
+        "He had nothing he wished to say to them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 192,
+        "end": 247
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s2-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why could the Scarecrow hear the farmer at work?",
+      "options": [
+        "His ears had been painted before the rest of him",
+        "The farmer spoke loudly enough to wake him",
+        "The other Munchkin had leaned close to his head",
+        "Straw carries sound better than flesh does"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 260,
+        "end": 293
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s2-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what happened as soon as his right eye was finished?",
+      "options": [
+        "He began looking about him with great curiosity",
+        "He tried at once to climb down from the bench",
+        "He found he could see only shapes and shadows",
+        "He shut it again because the light was too strong"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 104,
+        "end": 192
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s2-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Scarecrow feel he can tell no story?",
+      "options": [
+        "His life has been too short for him to know anything",
+        "He has been forbidden to speak of the farmer",
+        "He cannot remember anything that he has seen",
+        "He thinks Dorothy would not believe him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 1,
+        "end": 63
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s2-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does looking at her reproachfully suggest?",
+      "options": [
+        "A look of mild rebuke at the question",
+        "A look of real anger at being asked",
+        "A look of pleasure at being noticed",
+        "A look of fear at what she might say"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 41
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s2-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "The Scarecrow tells the whole of his very short life",
+        "The Scarecrow refuses to say anything about himself",
+        "The Scarecrow explains why Kansas is better than Oz",
+        "The Scarecrow describes how crows are kept from corn"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 249,
+        "end": 313
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s2-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the farmer say when told the ears were crooked?",
+      "options": [
+        "That they were ears just the same",
+        "That he would paint them again",
+        "That crows would not notice it",
+        "That the Munchkin should do better"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 33,
+        "end": 65
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c04-s2-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the farmer decide about the second eye?",
+      "options": [
+        "To make it a little bigger",
+        "To leave it out altogether",
+        "To paint it a different colour",
+        "To make it match the first exactly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 2,
+        "end": 45
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c04-s2-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Scarecrow feel when his head was fastened on?",
+      "options": [
+        "Very proud, and as good a man as anyone",
+        "Frightened of what would happen next",
+        "Sorry that the work was finished",
+        "Impatient to be carried to the field"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 359,
+        "end": 376
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c04-s2-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Scarecrow's joke about straw-stuffed heads suggest?",
+      "options": [
+        "That brains are what keep people in a dull home country",
+        "That Kansas would be a better place with more straw",
+        "That he would rather have been made in Kansas",
+        "That the farmer should have used straw for brains"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 194,
+        "end": 242
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c04-s2-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the Scarecrow's sight change as the work went on?",
+      "options": [
+        "It improved once the second eye was finished",
+        "It grew dimmer as the paint dried on his face",
+        "It stayed the same from the very first moment",
+        "It came only after his mouth had been painted"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 70,
+        "end": 134
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c04-s2-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does his first glimpse of the world mean?",
+      "options": [
+        "The first thing he ever saw",
+        "The first place he ever went",
+        "The first word he ever heard",
+        "The first thought he ever had"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 194,
+        "end": 236
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c04-s2-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A made thing recalls being made, piece by piece",
+        "A farmer explains why scarecrows need no brains",
+        "A girl asks for a story and is refused one",
+        "Two Munchkins argue over how to paint a face"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 1,
+        "end": 33
+      },
+      "pool": "retest"
+    }
+  ]
+}

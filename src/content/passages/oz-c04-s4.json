@@ -1,0 +1,330 @@
+{
+  "id": "oz-c04-s4",
+  "title": "The Road Through the Forest, part 4",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“After the crows had gone I thought this over, and decided I would try hard to get some brains. By good luck you came along and pulled me off the stake, and from what you say I am sure the Great Oz will give me brains as soon as we get to the Emerald City.”",
+    "“I hope so,” said Dorothy earnestly, “since you seem anxious to have them.”",
+    "“Oh, yes; I am anxious,” returned the Scarecrow. “It is such an uncomfortable feeling to know one is a fool.”",
+    "“Well,” said the girl, “let us go.” And she handed the basket to the Scarecrow.",
+    "There were no fences at all by the roadside now, and the land was rough and untilled. Toward evening they came to a great forest, where the trees grew so big and close together that their branches met over the road of yellow brick. It was almost dark under the trees, for the branches shut out the daylight; but the travelers did not stop, and went on into the forest.",
+    "“If this road goes in, it must come out,” said the Scarecrow, “and as the Emerald City is at the other end of the road, we must go wherever it leads us.”",
+    "“Anyone would know that,” said Dorothy.",
+    "“Certainly; that is why I know it,” returned the Scarecrow. “If it required brains to figure it out, I never should have said it.”",
+    "After an hour or so the light faded away, and they found themselves stumbling along in the darkness. Dorothy could not see at all, but Toto could, for some dogs see very well in the dark; and the Scarecrow declared he could see as well as by day. So she took hold of his arm and managed to get along fairly well.",
+    "“If you see any house, or any place where we can pass the night,” she said, “you must tell me; for it is very uncomfortable walking in the dark.”",
+    "Soon after the Scarecrow stopped.",
+    "“I see a little cottage at the right of us,” he said, “built of logs and branches. Shall we go there?”",
+    "“Yes, indeed,” answered the child. “I am all tired out.”",
+    "So the Scarecrow led her through the trees until they reached the cottage, and Dorothy entered and found a bed of dried leaves in one corner. She lay down at once, and with Toto beside her soon fell into a sound sleep. The Scarecrow, who was never tired, stood up in another corner and waited patiently until morning came."
+  ],
+  "questions": [
+    {
+      "id": "oz-c04-s4-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy hand to the Scarecrow before they set off?",
+      "options": [
+        "The basket",
+        "The key to the house",
+        "Her pink sunbonnet",
+        "A piece of bread"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 36,
+        "end": 79
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s4-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did they come to toward evening?",
+      "options": [
+        "A great forest",
+        "A wide river",
+        "A field of poppies",
+        "A gate of green"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 86,
+        "end": 128
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s4-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why was it almost dark under the trees?",
+      "options": [
+        "The branches shut out the daylight",
+        "A storm had covered the sky",
+        "The sun had already gone down",
+        "The road ran into a deep cutting"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 268,
+        "end": 306
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s4-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who could see in the dark besides the Scarecrow?",
+      "options": ["Toto", "Dorothy", "No one at all", "Both Dorothy and Toto"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 131,
+        "end": 186
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s4-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the little cottage built of?",
+      "options": [
+        "Logs and branches",
+        "Blue-painted brick",
+        "Straw and mud",
+        "Green glass"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 55,
+        "end": 81
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s4-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is the Scarecrow's reason for going on into the dark forest?",
+      "options": [
+        "A road that goes in must also come out",
+        "He can see in the dark better than Dorothy",
+        "There is no safe place behind them to return to",
+        "The Emerald City must be just beyond the trees"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 1,
+        "end": 39
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s4-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is the joke in the Scarecrow's reply to Dorothy?",
+      "options": [
+        "He says he could only have thought of something so obvious",
+        "He claims the Wizard has already given him brains",
+        "He pretends not to have understood her question",
+        "He insists that Dorothy is the one without brains"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 61,
+        "end": 129
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s4-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did Dorothy manage to walk once the light failed?",
+      "options": [
+        "She took hold of the Scarecrow's arm",
+        "She followed the sound of Toto ahead",
+        "She felt her way along the yellow bricks",
+        "She waited where she was until morning"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 247,
+        "end": 312
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s4-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the land was untilled?",
+      "options": [
+        "Nobody was farming it",
+        "Nobody had ever walked on it",
+        "It had no trees growing on it",
+        "It was covered in loose stones"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 53,
+        "end": 84
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s4-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "The road leads them into a dark forest and a shelter for the night",
+        "The travellers lose the yellow road among the trees",
+        "The Scarecrow is given the brains he has been hoping for",
+        "Dorothy decides the forest is too dark to enter at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 0,
+        "end": 73
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c04-s4-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy find in the corner of the cottage?",
+      "options": [
+        "A bed of dried leaves",
+        "A table laid for supper",
+        "A heap of yellow straw",
+        "A fire burning low"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 99,
+        "end": 140
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c04-s4-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Scarecrow do while Dorothy slept?",
+      "options": [
+        "Stood in another corner and waited patiently",
+        "Went back out to watch the road",
+        "Lay down on the leaves beside her",
+        "Searched the cottage for something to eat"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 255,
+        "end": 321
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c04-s4-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why is the Scarecrow anxious for brains?",
+      "options": [
+        "It is uncomfortable to know one is a fool",
+        "The crows will not fear him without them",
+        "Dorothy has said she prefers clever company",
+        "He cannot find his way home without them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 50,
+        "end": 108
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c04-s4-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what had changed about the roadside by this point?",
+      "options": [
+        "The fences had disappeared and the land was rough",
+        "The road had widened into a paved highway",
+        "The farms had grown richer the further they walked",
+        "The yellow bricks had given out altogether"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 47
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c04-s4-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Scarecrow claim about his own sight?",
+      "options": [
+        "That he can see as well by night as by day",
+        "That he sees only what is close in front of him",
+        "That his painted eyes are useless in the dark",
+        "That he can see further than Toto can"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 192,
+        "end": 245
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c04-s4-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does Dorothy mean by saying she is all tired out?",
+      "options": [
+        "Completely worn out",
+        "Slightly out of breath",
+        "Bored with walking",
+        "Frightened of the dark"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 36,
+        "end": 55
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c04-s4-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A day's walk ends in darkness, and a cottage gives them shelter",
+        "A night in the forest passes with nobody able to sleep",
+        "A quarrel about brains keeps the travellers from moving on",
+        "A search for the Emerald City ends at the edge of the trees"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 0,
+        "end": 40
+      },
+      "pool": "retest"
+    }
+  ]
+}
