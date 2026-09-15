@@ -1,0 +1,329 @@
+{
+  "id": "oz-c06-s4",
+  "title": "The Cowardly Lion, part 4",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“And I am going to ask him to send Toto and me back to Kansas,” added Dorothy.",
+    "“Do you think Oz could give me courage?” asked the Cowardly Lion.",
+    "“Just as easily as he could give me brains,” said the Scarecrow.",
+    "“Or give me a heart,” said the Tin Woodman.",
+    "“Or send me back to Kansas,” said Dorothy.",
+    "“Then, if you don’t mind, I’ll go with you,” said the Lion, “for my life is simply unbearable without a bit of courage.”",
+    "“You will be very welcome,” answered Dorothy, “for you will help to keep away the other wild beasts. It seems to me they must be more cowardly than you are if they allow you to scare them so easily.”",
+    "“They really are,” said the Lion, “but that doesn’t make me any braver, and as long as I know myself to be a coward I shall be unhappy.”",
+    "So once more the little company set off upon the journey, the Lion walking with stately strides at Dorothy’s side. Toto did not approve of this new comrade at first, for he could not forget how nearly he had been crushed between the Lion’s great jaws. But after a time he became more at ease, and presently Toto and the Cowardly Lion had grown to be good friends.",
+    "During the rest of that day there was no other adventure to mar the peace of their journey. Once, indeed, the Tin Woodman stepped upon a beetle that was crawling along the road, and killed the poor little thing. This made the Tin Woodman very unhappy, for he was always careful not to hurt any living creature; and as he walked along he wept several tears of sorrow and regret. These tears ran slowly down his face and over the hinges of his jaw, and there they rusted. When Dorothy presently asked him a question the Tin Woodman could not open his mouth, for his jaws were tightly rusted together. He became greatly frightened at this and made many motions to Dorothy to relieve him, but she could not understand. The Lion was also puzzled to know what was wrong. But the Scarecrow seized the oil-can from Dorothy’s basket and oiled the Woodman’s jaws, so that after a few moments he could talk as well as before.",
+    "“This will serve me a lesson,” said he, “to look where I step. For if I should kill another bug or beetle I should surely cry again, and crying rusts my jaws so that I cannot speak.”",
+    "Thereafter he walked very carefully, with his eyes on the road, and when he saw a tiny ant toiling by he would step over it, so as not to harm it. The Tin Woodman knew very well he had no heart, and therefore he took great care never to be cruel or unkind to anything.",
+    "“You people with hearts,” he said, “have something to guide you, and need never do wrong; but I have no heart, and so I must be very careful. When Oz gives me a heart of course I needn’t mind so much.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c06-s4-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Cowardly Lion decide to ask Oz for?",
+      "options": ["Courage", "Brains", "A heart", "A way home"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 1,
+        "end": 39
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s4-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does Dorothy say the Lion will be useful for?",
+      "options": [
+        "Keeping the other wild beasts away",
+        "Carrying the basket on his back",
+        "Finding the road when it is hidden",
+        "Frightening the Wizard into helping"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 47,
+        "end": 99
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s4-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Tin Woodman step on?",
+      "options": [
+        "A beetle crawling along the road",
+        "A nest of ants beside the bricks",
+        "A branch that cracked underfoot",
+        "A flower growing in the road"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 106,
+        "end": 176
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s4-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what happened to the tears that ran over his jaw?",
+      "options": [
+        "They rusted the hinges",
+        "They dried in the sun",
+        "They were wiped away by Dorothy",
+        "They fell onto the road"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 378,
+        "end": 469
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s4-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who fetched the oil-can to free his jaws?",
+      "options": [
+        "The Scarecrow",
+        "Dorothy",
+        "The Lion",
+        "The Woodman himself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 765,
+        "end": 823
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s4-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did Toto not approve of the Lion at first?",
+      "options": [
+        "He could not forget nearly being crushed in his jaws",
+        "He disliked sharing Dorothy's attention with him",
+        "The Lion had knocked over the Scarecrow",
+        "The Lion walked too fast for him to keep up"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 166,
+        "end": 250
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s4-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Lion still unhappy despite Dorothy's reasoning?",
+      "options": [
+        "Knowing himself to be a coward is enough to make him so",
+        "He does not believe the Wizard will help him",
+        "The other beasts have begun to suspect him",
+        "He would rather have brains than courage"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 76,
+        "end": 134
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s4-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Tin Woodman so careful where he steps?",
+      "options": [
+        "Having no heart, he must take care not to be cruel",
+        "His tin feet are easily damaged by stones",
+        "Dorothy has asked him to watch the road",
+        "He is afraid of rusting his leg joints again"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 147,
+        "end": 245
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s4-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that nothing marred the peace of their journey?",
+      "options": [
+        "Nothing spoiled it",
+        "Nothing delayed it",
+        "Nothing shortened it",
+        "Nothing explained it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 28,
+        "end": 90
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s4-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A fourth traveller joins, and a heartless man proves the most careful of all",
+        "A quarrel between the dog and the Lion divides the party",
+        "The Tin Woodman decides he no longer wants a heart",
+        "The travellers agree to ask the Wizard for one gift only"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 147,
+        "end": 245
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s4-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Lion walk beside Dorothy?",
+      "options": [
+        "With stately strides",
+        "With his head hanging down",
+        "Limping from her slap",
+        "Some way behind the others"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 58,
+        "end": 113
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c06-s4-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how did Toto and the Lion end up?",
+      "options": [
+        "Good friends",
+        "Bitter enemies",
+        "Wary strangers",
+        "Rivals for Dorothy"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 297,
+        "end": 362
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c06-s4-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what lesson does the Tin Woodman draw from the beetle?",
+      "options": [
+        "To look where he steps",
+        "To keep his oil-can with him",
+        "To walk behind the others",
+        "Never to weep again"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 1,
+        "end": 28
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c06-s4-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why could nobody understand the Woodman's signals?",
+      "options": [
+        "His jaws were rusted shut so he could not speak",
+        "He was standing too far behind the party",
+        "The Lion was roaring too loudly to hear",
+        "His arms had rusted along with his jaw"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 514,
+        "end": 597
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c06-s4-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Woodman say about people with hearts?",
+      "options": [
+        "They have something to guide them and need never do wrong",
+        "They are far more likely to be cruel than he is",
+        "They cannot understand what it is to be tin",
+        "They should be careful never to weep"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 12,
+        "start": 36,
+        "end": 88
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c06-s4-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Lion's life was unbearable?",
+      "options": [
+        "Too hard for him to put up with",
+        "Too dangerous for him to risk",
+        "Too dull for him to enjoy",
+        "Too short for him to waste"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 61,
+        "end": 118
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c06-s4-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "The party grows to four, and a small death teaches a large lesson",
+        "The Tin Woodman's tears leave him unable to speak for good",
+        "The Lion proves his courage by defending the party",
+        "Dorothy finds that her companions cannot agree on anything"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 0,
+        "end": 62
+      },
+      "pool": "retest"
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "id": "oz-c06-s1",
+  "title": "The Cowardly Lion, part 1",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "All this time Dorothy and her companions had been walking through the thick woods. The road was still paved with yellow brick, but these were much covered by dried branches and dead leaves from the trees, and the walking was not at all good.",
+    "There were few birds in this part of the forest, for birds love the open country where there is plenty of sunshine. But now and then there came a deep growl from some wild animal hidden among the trees. These sounds made the little girl’s heart beat fast, for she did not know what made them; but Toto knew, and he walked close to Dorothy’s side, and did not even bark in return.",
+    "“How long will it be,” the child asked of the Tin Woodman, “before we are out of the forest?”",
+    "“I cannot tell,” was the answer, “for I have never been to the Emerald City. But my father went there once, when I was a boy, and he said it was a long journey through a dangerous country, although nearer to the city where Oz dwells the country is beautiful. But I am not afraid so long as I have my oil-can, and nothing can hurt the Scarecrow, while you bear upon your forehead the mark of the Good Witch’s kiss, and that will protect you from harm.”",
+    "“But Toto!” said the girl anxiously. “What will protect him?”",
+    "“We must protect him ourselves if he is in danger,” replied the Tin Woodman.",
+    "Just as he spoke there came from the forest a terrible roar, and the next moment a great Lion bounded into the road. With one blow of his paw he sent the Scarecrow spinning over and over to the edge of the road, and then he struck at the Tin Woodman with his sharp claws. But, to the Lion’s surprise, he could make no impression on the tin, although the Woodman fell over in the road and lay still."
+  ],
+  "questions": [
+    {
+      "id": "oz-c06-s1-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what covered the yellow bricks in this part of the forest?",
+      "options": [
+        "Dried branches and dead leaves",
+        "Thick moss and creeping vines",
+        "Drifted sand from the desert",
+        "Snow that had not yet melted"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 131,
+        "end": 203
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s1-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why were there few birds in this part of the forest?",
+      "options": [
+        "Birds love the open country where there is sunshine",
+        "The wild beasts had driven them all away",
+        "The trees bore no fruit for them to eat",
+        "The Tin Woodman's axe had frightened them off"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 49,
+        "end": 114
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s1-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who had been to the Emerald City before?",
+      "options": [
+        "The Tin Woodman's father",
+        "The Tin Woodman himself",
+        "The Scarecrow's farmer",
+        "Nobody in the party"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 77,
+        "end": 124
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s1-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Lion do to the Scarecrow?",
+      "options": [
+        "Sent him spinning to the edge of the road",
+        "Tore the straw out of his chest",
+        "Carried him off among the trees",
+        "Knocked his painted hat into the road"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 142,
+        "end": 210
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s1-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened when the Lion struck the Tin Woodman?",
+      "options": [
+        "He could make no impression on the tin",
+        "He tore a long gash in the tin body",
+        "He knocked the axe out of his hands",
+        "He bent the tin legs out of shape"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 301,
+        "end": 339
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s1-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does Toto behave when the growls are heard?",
+      "options": [
+        "He keeps close to Dorothy and does not bark back",
+        "He runs ahead into the trees to investigate",
+        "He barks louder than the beasts themselves",
+        "He hides inside Dorothy's basket"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 312,
+        "end": 378
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s1-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Tin Woodman unafraid of the journey?",
+      "options": [
+        "He has his oil-can, and his companions are protected too",
+        "He has been along this road many times already",
+        "He believes the Wizard is watching over them",
+        "He is certain no beast can be found in the forest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 259,
+        "end": 307
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s1-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is said to protect Dorothy from harm?",
+      "options": [
+        "The mark of the Good Witch's kiss on her forehead",
+        "The silver shoes she took from the dead witch",
+        "The Tin Woodman's axe and the Scarecrow's strength",
+        "The basket she carries from the Munchkin house"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 351,
+        "end": 412
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s1-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that Dorothy asked anxiously about Toto?",
+      "options": [
+        "She asked out of worry for him",
+        "She asked without much interest",
+        "She asked to change the subject",
+        "She asked in order to boast"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 12,
+        "end": 35
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s1-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A talk about who is safe on the road is cut short by an attack",
+        "A quiet day's walk through a forest where nothing happens",
+        "A decision to leave the forest road and go around it",
+        "A warning from the Tin Woodman that they should turn back"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 17,
+        "end": 59
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s1-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what made Dorothy's heart beat fast?",
+      "options": [
+        "Deep growls from wild animals hidden among the trees",
+        "The darkness under the thickly grown branches",
+        "The sight of the Lion crossing the road ahead",
+        "The Tin Woodman's account of the journey"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 133,
+        "end": 201
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c06-s1-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Tin Woodman say about the country nearer the city?",
+      "options": [
+        "That it is beautiful",
+        "That it is a desert",
+        "That it is thickly forested",
+        "That nobody has ever seen it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 198,
+        "end": 257
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c06-s1-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Tin Woodman say must be done for Toto?",
+      "options": [
+        "They must protect him themselves",
+        "He must be carried in the basket",
+        "He must be sent back to the Munchkins",
+        "He must be given a mark of his own"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 1,
+        "end": 49
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c06-s1-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Toto's silence suggest he understands?",
+      "options": [
+        "What the growling animals are, unlike Dorothy",
+        "That the Scarecrow is about to be attacked",
+        "That the road has been lost among the leaves",
+        "That the Tin Woodman cannot be hurt"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 293,
+        "end": 306
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c06-s1-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Tin Woodman say nothing can hurt the Scarecrow?",
+      "options": [
+        "Being stuffed with straw, he cannot be injured",
+        "He is too tall for a beast to reach",
+        "He carries the axe when danger comes",
+        "The witch's kiss protects him as well"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 313,
+        "end": 343
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c06-s1-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Lion bounded into the road?",
+      "options": [
+        "He sprang into it in great leaps",
+        "He crept into it without a sound",
+        "He strolled into it at his leisure",
+        "He was driven into it by others"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 65,
+        "end": 115
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c06-s1-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Reassurance about the dangers ahead, then a sudden attack",
+        "A dispute about whether the party should keep to the road",
+        "A description of how the forest differs from Munchkin country",
+        "An account of the Tin Woodman's father and his travels"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 82
+      },
+      "pool": "retest"
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "id": "oz-c06-s2",
+  "title": "The Cowardly Lion, part 2",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Little Toto, now that he had an enemy to face, ran barking toward the Lion, and the great beast had opened his mouth to bite the dog, when Dorothy, fearing Toto would be killed, and heedless of danger, rushed forward and slapped the Lion upon his nose as hard as she could, while she cried out:",
+    "“Don’t you dare to bite Toto! You ought to be ashamed of yourself, a big beast like you, to bite a poor little dog!”",
+    "“I didn’t bite him,” said the Lion, as he rubbed his nose with his paw where Dorothy had hit it.",
+    "“No, but you tried to,” she retorted. “You are nothing but a big coward.”",
+    "“I know it,” said the Lion, hanging his head in shame. “I’ve always known it. But how can I help it?”",
+    "“I don’t know, I’m sure. To think of your striking a stuffed man, like the poor Scarecrow!”",
+    "“Is he stuffed?” asked the Lion in surprise, as he watched her pick up the Scarecrow and set him upon his feet, while she patted him into shape again.",
+    "“Of course he’s stuffed,” replied Dorothy, who was still angry.",
+    "“That’s why he went over so easily,” remarked the Lion. “It astonished me to see him whirl around so. Is the other one stuffed also?”",
+    "“No,” said Dorothy, “he’s made of tin.” And she helped the Woodman up again.",
+    "“That’s why he nearly blunted my claws,” said the Lion. “When they scratched against the tin it made a cold shiver run down my back. What is that little animal you are so tender of?”",
+    "“He is my dog, Toto,” answered Dorothy.",
+    "“Is he made of tin, or stuffed?” asked the Lion.",
+    "“Neither. He’s a—a—a meat dog,” said the girl.",
+    "“Oh! He’s a curious animal and seems remarkably small, now that I look at him. No one would think of biting such a little thing, except a coward like me,” continued the Lion sadly."
+  ],
+  "questions": [
+    {
+      "id": "oz-c06-s2-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy do to the Lion?",
+      "options": [
+        "Slapped him on the nose as hard as she could",
+        "Threw her basket at his head",
+        "Pulled Toto away by the collar",
+        "Ordered him back into the forest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 202,
+        "end": 272
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s2-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does Dorothy call the Lion?",
+      "options": [
+        "Nothing but a big coward",
+        "The King of Beasts",
+        "A wicked and cruel animal",
+        "A friend to little dogs"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 39,
+        "end": 72
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s2-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Lion answer that charge?",
+      "options": [
+        "He agrees, and hangs his head in shame",
+        "He denies it and roars at her again",
+        "He laughs and says she cannot know",
+        "He walks away without answering"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 54
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s2-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why did the Scarecrow go over so easily?",
+      "options": [
+        "He is stuffed",
+        "He is made of tin",
+        "He was standing on one leg",
+        "The road was slippery"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 1,
+        "end": 34
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s2-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened when the Lion's claws scratched the tin?",
+      "options": [
+        "A cold shiver ran down his back",
+        "His claws were torn out",
+        "The tin rang like a bell",
+        "The Woodman began to laugh"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 57,
+        "end": 132
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s2-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did Dorothy rush at a beast so much larger than herself?",
+      "options": [
+        "She was afraid Toto would be killed",
+        "She wanted to prove she was a sorceress",
+        "The Tin Woodman had told her to",
+        "She thought the Lion would not dare bite her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 148,
+        "end": 200
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s2-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Lion's curiosity about Toto reveal?",
+      "options": [
+        "He has never met a creature of flesh so small",
+        "He is planning to attack the dog again",
+        "He recognises Toto from somewhere before",
+        "He believes the dog must be made of tin"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 133,
+        "end": 181
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s2-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does the Lion judge his own attack on Toto?",
+      "options": [
+        "Only a coward would think of biting so small a thing",
+        "It was a fair fight between equals",
+        "Toto had started the quarrel himself",
+        "He had every right to defend his forest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 14,
+        "start": 79,
+        "end": 152
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s2-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that Dorothy was heedless of danger?",
+      "options": [
+        "She took no thought for her own safety",
+        "She had not yet noticed the Lion",
+        "She was warned but did not listen",
+        "She believed there was no danger"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 178,
+        "end": 200
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s2-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A slap on the nose reveals the great beast to be ashamed of himself",
+        "A fight between a girl and a lion ends with the lion driven off",
+        "A lion explains why he attacked the travellers on the road",
+        "Dorothy repairs her friends after a dangerous accident"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 34
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c06-s2-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Toto do when the Lion appeared?",
+      "options": [
+        "Ran barking towards him",
+        "Hid behind Dorothy's skirts",
+        "Jumped into the basket",
+        "Ran off into the trees"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 47,
+        "end": 74
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c06-s2-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does Dorothy say Toto is made of?",
+      "options": ["Meat", "Tin", "Straw", "Wool"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 10,
+        "end": 29
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c06-s2-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy do for the Scarecrow after the blow?",
+      "options": [
+        "Set him on his feet and patted him into shape",
+        "Stuffed him with fresh straw from the road",
+        "Carried him until he could walk again",
+        "Sewed up the tear in his blue coat"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 45,
+        "end": 110
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c06-s2-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Lion surprised by how the Scarecrow fell?",
+      "options": [
+        "He had not expected a man to whirl about so easily",
+        "He thought he had struck much harder than that",
+        "He had never knocked anyone down before",
+        "He expected the straw to catch in his claws"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 57,
+        "end": 101
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c06-s2-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is Dorothy's state of mind as she answers him?",
+      "options": [
+        "Still angry with him over the attack",
+        "Already forgiving and friendly",
+        "Frightened into silence by his size",
+        "Amused by his many questions"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 26,
+        "end": 62
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c06-s2-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the Lion mean by asking what Dorothy is so tender of?",
+      "options": [
+        "So protective and caring towards",
+        "So easily angered about",
+        "So curious to look at",
+        "So unwilling to explain"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 133,
+        "end": 181
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c06-s2-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A scolding turns a roaring beast into a creature admitting his own shame",
+        "A battle on the road leaves two of the travellers badly damaged",
+        "A lion is driven away from the road by a dog's barking",
+        "Dorothy discovers that the Lion is made of tin like the Woodman"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 30,
+        "end": 65
+      },
+      "pool": "retest"
+    }
+  ]
+}
