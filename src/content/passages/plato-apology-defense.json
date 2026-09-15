@@ -1,0 +1,324 @@
+{
+  "id": "plato-apology-defense",
+  "title": "The Force of Truth",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/1656",
+  "attribution": "Excerpted verbatim from Apology by Plato, translated by Benjamin Jowett (Project Gutenberg edition).",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "philosophy",
+  "calibrationOnly": false,
+  "body": [
+    "How you, O Athenians, have been affected by my accusers, I cannot tell; but I know that they almost made me forget who I was—so persuasively did they speak; and yet they have hardly uttered a word of truth. But of the many falsehoods told by them, there was one which quite amazed me—I mean when they said that you should be upon your guard and not allow yourselves to be deceived by the force of my eloquence. To say this, when they were certain to be detected as soon as I opened my lips and proved myself to be anything but a great speaker, did indeed appear to me most shameless—unless by the force of eloquence they mean the force of truth; for if such is their meaning, I admit that I am eloquent.",
+    "But in how different a way from theirs! Well, as I was saying, they have scarcely spoken the truth at all; but from me you shall hear the whole truth: not, however, delivered after their manner in a set oration duly ornamented with words and phrases. No, by heaven! but I shall use the words and arguments which occur to me at the moment; for I am confident in the justice of my cause: at my time of life I ought not to be appearing before you, O men of Athens, in the character of a juvenile orator—let no one expect it of me.",
+    "And first, I have to reply to the older charges and to my first accusers, and then I will go on to the later ones. For of old I have had many accusers, who have accused me falsely to you during many years; and I am more afraid of them than of Anytus and his associates, who are dangerous, too, in their own way. But far more dangerous are the others, who began when you were children, and took possession of your minds with their falsehoods, telling of one Socrates, a wise man, who speculated about the heaven above, and searched into the earth beneath, and made the worse appear the better cause."
+  ],
+  "questions": [
+    {
+      "id": "plato-apology-defense-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, does Socrates say his accusers spoke the truth?",
+      "options": [
+        "No, he says they hardly uttered a word of truth",
+        "Yes, he says they spoke entirely truthfully",
+        "He says only Anytus spoke truthfully",
+        "He says he cannot judge whether they spoke truthfully"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 157,
+        "end": 205
+      },
+      "pool": "first"
+    },
+    {
+      "id": "plato-apology-defense-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the accusers warn the jury to guard against?",
+      "options": [
+        "The force of Socrates' eloquence",
+        "The wealth of Socrates' family",
+        "The influence of foreign powers",
+        "The anger of the gods"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 311,
+        "end": 409
+      },
+      "pool": "first"
+    },
+    {
+      "id": "plato-apology-defense-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what kind of speech does Socrates say he will NOT deliver?",
+      "options": [
+        "A set oration duly ornamented with words and phrases",
+        "A short, silent gesture of apology",
+        "A speech written by Anytus",
+        "A speech delivered in a foreign language"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 151,
+        "end": 249
+      },
+      "pool": "first"
+    },
+    {
+      "id": "plato-apology-defense-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, in what order does Socrates say he will answer his accusers?",
+      "options": [
+        "He will reply to the older charges first, then the later ones",
+        "He will reply to the later charges first, then the older ones",
+        "He will answer only the charges brought by Anytus",
+        "He will refuse to answer any charges at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 11,
+        "end": 113
+      },
+      "pool": "first"
+    },
+    {
+      "id": "plato-apology-defense-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, whom does Socrates say he fears more than Anytus and his associates?",
+      "options": [
+        "His older, first accusers",
+        "The judges themselves",
+        "The citizens of Athens as a whole",
+        "His own former students"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 206,
+        "end": 268
+      },
+      "pool": "first"
+    },
+    {
+      "id": "plato-apology-defense-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Socrates' older accusers claim he did?",
+      "options": [
+        "Speculated about the heavens, searched into the earth, and made the worse argument appear the better",
+        "Stole money from the Athenian treasury",
+        "Plotted to overthrow the Athenian government",
+        "Refused to worship any gods at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 442,
+        "end": 597
+      },
+      "pool": "first"
+    },
+    {
+      "id": "plato-apology-defense-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Socrates say he admits to being eloquent, but \"in how different a way from theirs\"?",
+      "options": [
+        "He redefines eloquence as speaking the plain truth, distinguishing it from his accusers' persuasive rhetoric",
+        "He believes eloquence is only useful for entertaining an audience",
+        "He wants to prove he is a better public speaker than Anytus",
+        "He is mocking the jury's ability to understand fine speech"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 583,
+        "end": 702
+      },
+      "pool": "first"
+    },
+    {
+      "id": "plato-apology-defense-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Socrates say he will use \"the words and arguments which occur to me at the moment\" rather than a prepared oration?",
+      "options": [
+        "He wants his defense to appear unrehearsed and honest, unlike a polished, manipulative speech",
+        "He did not have enough time to prepare any kind of defense",
+        "He believes prepared speeches are illegal in Athenian courts",
+        "He hopes the jury will pity his lack of preparation"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 270,
+        "end": 384
+      },
+      "pool": "first"
+    },
+    {
+      "id": "plato-apology-defense-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "Socrates opens his defense by rejecting rehearsed rhetoric in favor of plain truth, and turns first to address his oldest and most dangerous accusers",
+        "Socrates begins his defense by praising the eloquence of his accusers",
+        "Socrates refuses to address any of the charges brought against him",
+        "Socrates argues that Anytus is his only accuser worth answering"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 312,
+        "end": 383
+      },
+      "pool": "first"
+    },
+    {
+      "id": "plato-apology-defense-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean for a speech to be a \"set oration\"?",
+      "options": [
+        "A formal, prepared speech rehearsed in advance",
+        "A speech given while seated",
+        "A brief, informal remark",
+        "A speech translated from another language"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 151,
+        "end": 249
+      },
+      "pool": "first"
+    },
+    {
+      "id": "plato-apology-defense-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the accusers almost cause Socrates to do?",
+      "options": [
+        "Forget who he was",
+        "Fall silent permanently",
+        "Leave the courtroom",
+        "Confess to the charges"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 88,
+        "end": 124
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "plato-apology-defense-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does Socrates say he shall use instead of a rehearsed oration?",
+      "options": [
+        "The words and arguments which occur to him at the moment",
+        "A written statement prepared by a lawyer",
+        "The exact words of his accusers",
+        "A song composed for the occasion"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 270,
+        "end": 337
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "plato-apology-defense-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in what character does Socrates say he ought not to appear, given his time of life?",
+      "options": [
+        "A juvenile orator",
+        "A wise philosopher",
+        "A humble student",
+        "A foreign visitor"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 386,
+        "end": 499
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "plato-apology-defense-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, whom does Socrates say he must reply to first?",
+      "options": [
+        "His older charges and first accusers",
+        "Anytus and his associates alone",
+        "The jury of judges",
+        "The citizens of Athens generally"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 11,
+        "end": 113
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "plato-apology-defense-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Socrates consider his older, unnamed accusers \"far more dangerous\" than Anytus?",
+      "options": [
+        "They shaped public opinion against him since the jurors' childhood, unopposed and unnamed, making them difficult to refute",
+        "They had more political power than Anytus in the Athenian government",
+        "They had personally threatened Socrates with violence",
+        "They were foreign agents working against Athens"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 312,
+        "end": 440
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "plato-apology-defense-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes Socrates' stated approach to his defense?",
+      "options": [
+        "He will speak plainly and truthfully rather than through rehearsed rhetoric, addressing the oldest accusations first",
+        "He will refuse to speak at all until Anytus is removed from the courtroom",
+        "He will rely entirely on witnesses rather than his own words",
+        "He will focus only on the most recent charges against him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 151,
+        "end": 249
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "plato-apology-defense-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, how does Socrates redefine \"eloquence\" when he admits to being eloquent?",
+      "options": [
+        "As the force of truth, rather than persuasive rhetorical skill",
+        "As the ability to speak many languages",
+        "As the loudness and confidence of one's voice",
+        "As the use of complex, difficult vocabulary"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 583,
+        "end": 702
+      },
+      "pool": "retest"
+    }
+  ]
+}
