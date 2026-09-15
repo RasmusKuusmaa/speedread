@@ -629,6 +629,7 @@ export function SessionReader({
   retestId,
   bookNavigation = null,
   chunkPassageIds = [],
+  onSessionComplete,
 }: {
   passage: PassageWithWordCounts;
   sessionContext: SessionContext;
@@ -636,6 +637,11 @@ export function SessionReader({
   retestId: string | null;
   bookNavigation?: BookNavigation | null;
   chunkPassageIds?: string[];
+  // Lets a book attribute one sitting's answers back to the sections it covered.
+  onSessionComplete?: (outcome: {
+    elapsedMs: number;
+    answers: number[];
+  }) => void;
 }) {
   const { store, update } = useStore();
   const [phase, setPhase] = useState<Phase>("start");
@@ -733,6 +739,7 @@ export function SessionReader({
           ? current.retests.filter((retest) => retest.id !== retestId)
           : [...current.retests, ...newRetests],
     }));
+    onSessionComplete?.({ elapsedMs, answers: answersRef.current });
   }
 
   useEffect(() => {
