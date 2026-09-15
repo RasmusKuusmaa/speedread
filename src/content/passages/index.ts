@@ -4,6 +4,7 @@ import bostonTeaParty from "./boston-tea-party.json";
 import civilEngineeringAncientOrigins from "./civil-engineering-ancient-origins.json";
 import covalentBonding from "./covalent-bonding.json";
 import meditationsRusticusApollonius from "./meditations-rusticus-apollonius.json";
+import meditationsSeverusMaximus from "./meditations-severus-maximus.json";
 import meditationsSextusCatulus from "./meditations-sextus-catulus.json";
 import meditationsTeachers from "./meditations-teachers.json";
 import ozGoldenCap from "./oz-golden-cap.json";
@@ -40,6 +41,7 @@ export const rawPassages: unknown[] = [
   meditationsTeachers,
   meditationsRusticusApollonius,
   meditationsSextusCatulus,
+  meditationsSeverusMaximus,
   structuralEngineeringHistory,
   mechanicalEngineeringAncientHistory,
   civilEngineeringAncientOrigins,

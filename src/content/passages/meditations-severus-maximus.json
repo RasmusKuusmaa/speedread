@@ -1,0 +1,323 @@
+{
+  "id": "meditations-severus-maximus",
+  "title": "Never to Wonder at Anything",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/2680",
+  "attribution": "Excerpted verbatim from Meditations by Marcus Aurelius, in the Jeremy Collier translation.",
+  "licence": "Public domain",
+  "textType": "expository",
+  "domain": "philosophy",
+  "calibrationOnly": false,
+  "body": [
+    "From my brother Severus, to be kind and loving to all them of my house and family; by whom also I came to the knowledge of Thrasea and Helvidius, and Cato, and Dio, and Brutus. He it was also that did put me in the first conceit and desire of an equal commonwealth, administered by justice and equality; and of a kingdom wherein should be regarded nothing more than the good and welfare of the subjects. Of him also, to observe a constant tenor, in the study and esteem of philosophy: to be bountiful and liberal in the largest measure; always to hope the best; and to be confident that my friends love me. In whom I moreover observed open dealing towards those whom he reproved at any time, and that his friends might without all doubt or much observation know what he would, or would not, so open and plain was he.",
+    "From Claudius Maximus, in all things to endeavour to have power of myself, and in nothing to be carried about; to be cheerful and courageous in all sudden chances and accidents, as in sicknesses: to love mildness, and moderation, and gravity: and to do my business, whatsoever it be, thoroughly, and without querulousness. Whatsoever he said, all men believed him that as he spake, so he thought, and whatsoever he did, that he did it with a good intent. His manner was, never to wonder at anything; never to be in haste, and yet never slow: nor to be perplexed, or dejected, or at any time unseemly, or excessively to laugh: nor to be angry, or suspicious, but ever ready to do good, and to forgive, and to speak truth."
+  ],
+  "questions": [
+    {
+      "id": "meditations-severus-maximus-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, through whom did the author come to know Thrasea, Helvidius, Cato, Dio, and Brutus?",
+      "options": [
+        "His brother Severus",
+        "Claudius Maximus",
+        "His father",
+        "Alexander the Platonic"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 83,
+        "end": 175
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-severus-maximus-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what kind of commonwealth did Severus inspire the author to desire?",
+      "options": [
+        "An equal commonwealth, administered by justice and equality",
+        "A commonwealth ruled by a single powerful family",
+        "A commonwealth governed entirely by soldiers",
+        "A commonwealth without any laws at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 197,
+        "end": 302
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-severus-maximus-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the author learn from Claudius Maximus about facing sudden accidents?",
+      "options": [
+        "To be cheerful and courageous",
+        "To seek help from others immediately",
+        "To avoid risk whenever possible",
+        "To plan carefully in advance for every outcome"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 111,
+        "end": 194
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-severus-maximus-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why did all men believe what Claudius Maximus said?",
+      "options": [
+        "Because as he spoke, so he thought",
+        "Because he held a position of great political power",
+        "Because he always cited other philosophers",
+        "Because he repeated himself often"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 323,
+        "end": 395
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-severus-maximus-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was Claudius Maximus never, per the author?",
+      "options": [
+        "Perplexed, dejected, or unseemly",
+        "Wealthy or well-known",
+        "Married or a father",
+        "Trained in rhetoric"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 542,
+        "end": 624
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-severus-maximus-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author say Severus's friends could know his intentions \"without all doubt or much observation\"?",
+      "options": [
+        "Severus was so open and plain in his dealings that his intentions were never hidden",
+        "Severus wrote down all his intentions for others to read",
+        "Severus rarely spoke to his friends at all",
+        "Severus's intentions were guessed rather than known"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 701,
+        "end": 815
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-severus-maximus-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author mention that no one ever felt undervalued by Claudius Maximus?",
+      "options": [
+        "Maximus treated everyone with genuine goodwill rather than condescension",
+        "Maximus avoided speaking to most people",
+        "Maximus rewarded people financially for their loyalty",
+        "Maximus was unaware of how others felt about him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 662,
+        "end": 719
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-severus-maximus-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does it suggest that Claudius Maximus's good conduct seemed entirely his own, natural manner?",
+      "options": [
+        "His good character seemed inborn rather than the result of correcting past faults",
+        "He had been trained since childhood by strict tutors",
+        "He often pretended to be better than he really was",
+        "He copied his behavior directly from Severus"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 455,
+        "end": 540
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-severus-maximus-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "The author credits Severus and Claudius Maximus with shaping his political ideals and his even, self-possessed character",
+        "The author criticizes Severus and Claudius Maximus for their flaws",
+        "The author describes a rivalry between Severus and Claudius Maximus",
+        "The author explains why he rejected the teachings of both men"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 81
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-severus-maximus-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that Claudius Maximus did his business \"without querulousness\"?",
+      "options": [
+        "Without complaining",
+        "Without any assistance",
+        "Without proper planning",
+        "Without informing others"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 247,
+        "end": 321
+      },
+      "pool": "first"
+    },
+    {
+      "id": "meditations-severus-maximus-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the author learn from Severus regarding the study of philosophy?",
+      "options": [
+        "To observe a constant, uninterrupted devotion to it",
+        "To study it only in his spare time",
+        "To avoid philosophy in favor of politics",
+        "To debate philosophers publicly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 417,
+        "end": 483
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "meditations-severus-maximus-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the author learn from Severus about his friends?",
+      "options": [
+        "To be confident that his friends love him",
+        "To always test his friends' loyalty",
+        "To keep his friends at a careful distance",
+        "To choose friends only from noble families"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 566,
+        "end": 605
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "meditations-severus-maximus-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what virtues did the author learn to love from Claudius Maximus?",
+      "options": [
+        "Mildness, moderation, and gravity",
+        "Ambition, wealth, and fame",
+        "Courage, cunning, and wit",
+        "Discipline, silence, and solitude"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 196,
+        "end": 241
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "meditations-severus-maximus-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was Claudius Maximus always ready to do?",
+      "options": [
+        "To do good, forgive, and speak truth",
+        "To punish wrongdoers severely",
+        "To avoid conflict at any cost",
+        "To seek advancement in rank"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 662,
+        "end": 719
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "meditations-severus-maximus-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author emphasize a kingdom that regards \"nothing more than the good and welfare of the subjects\"?",
+      "options": [
+        "To show that Severus shaped his belief that political power should serve the people rather than the ruler",
+        "To argue that all kingdoms are inherently unjust",
+        "To explain why Severus opposed all forms of government",
+        "To praise a specific king Severus had served"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 308,
+        "end": 402
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "meditations-severus-maximus-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what the author learned from Claudius Maximus?",
+      "options": [
+        "To remain self-possessed, courageous, and even-tempered no matter what happened",
+        "To seek constant praise from others",
+        "To avoid taking on any responsibility",
+        "To rely on Severus for guidance in all things"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 23,
+        "end": 109
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "meditations-severus-maximus-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that Claudius Maximus was never \"in haste\" yet never slow?",
+      "options": [
+        "He acted at a steady, well-timed pace, neither rushed nor sluggish",
+        "He refused to make decisions quickly under any circumstance",
+        "He was often late to important events",
+        "He changed his pace depending on his mood"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 500,
+        "end": 540
+      },
+      "pool": "retest"
+    }
+  ]
+}
