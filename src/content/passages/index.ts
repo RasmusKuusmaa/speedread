@@ -10,6 +10,7 @@ import electricalEngineering19thCentury from "./electrical-engineering-19th-cent
 import covalentBonding from "./covalent-bonding.json";
 import descartesDiscourseGoodSense from "./descartes-discourse-good-sense.json";
 import giftOfTheMagiOpening from "./gift-of-the-magi-opening.json";
+import goldenGateBridgeHistory from "./golden-gate-bridge-history.json";
 import hooverDamHistory from "./hoover-dam-history.json";
 import meditationsRusticusApollonius from "./meditations-rusticus-apollonius.json";
 import millOnLibertyThought from "./mill-on-liberty-thought.json";
@@ -48,6 +49,7 @@ export const rawPassages: unknown[] = [
   covalentBonding,
   descartesDiscourseGoodSense,
   giftOfTheMagiOpening,
+  goldenGateBridgeHistory,
   bostonTeaParty,
   storyOfAnHour,
   stampAct1765,

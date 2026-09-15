@@ -1,0 +1,324 @@
+{
+  "id": "golden-gate-bridge-history",
+  "title": "A Fixed Link Between San Francisco and Marin",
+  "language": "en",
+  "source": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge",
+  "attribution": "Adapted (trimmed) from the Wikipedia article \"Golden Gate Bridge,\" available under CC BY-SA 4.0.",
+  "licence": "CC BY-SA 4.0",
+  "textType": "expository",
+  "domain": "engineering",
+  "calibrationOnly": false,
+  "body": [
+    "The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide (1.6 km) strait connecting San Francisco Bay and the Pacific Ocean in California, United States. The structure links San Francisco to Marin County, carrying both U.S. Route 101 and California State Route 1 across the strait. Recognized by the American Society of Civil Engineers as one of the Wonders of the Modern World, the bridge is one of the most internationally recognized symbols of San Francisco and California.",
+    "The idea of a fixed link between San Francisco and Marin had gained increasing popularity during the late 19th century, but it was not until the early 20th century that such a link became feasible. Joseph Strauss served as chief engineer for the project, with Leon Moisseiff, Irving Morrow and Charles Ellis making significant contributions to its design. The bridge opened to the public on May 27, 1937, and has undergone various retrofits and other improvement projects in the decades since.",
+    "At the time of its opening in 1937, it was both the longest and the tallest suspension bridge in the world, titles it held until it was overtaken by the 1964 Verrazzano-Narrows Bridge and the 1998 Akashi Kaikyo Bridge, respectively. Its main span is 4,200 feet (1,280 m) and its total height is 746 feet (227 m)."
+  ],
+  "questions": [
+    {
+      "id": "golden-gate-bridge-history-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what type of bridge is the Golden Gate Bridge?",
+      "options": [
+        "A suspension bridge",
+        "A cantilever bridge",
+        "An arch bridge",
+        "A drawbridge"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 70
+      },
+      "pool": "first"
+    },
+    {
+      "id": "golden-gate-bridge-history-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what does the Golden Gate strait connect?",
+      "options": [
+        "San Francisco Bay and the Pacific Ocean",
+        "The Sacramento River and Lake Tahoe",
+        "Two separate bays within Marin County",
+        "The Pacific Ocean and the Gulf of Mexico"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 72,
+        "end": 170
+      },
+      "pool": "first"
+    },
+    {
+      "id": "golden-gate-bridge-history-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what two routes does the bridge carry across the strait?",
+      "options": [
+        "U.S. Route 101 and California State Route 1",
+        "Interstate 5 and U.S. Route 50",
+        "California State Route 99 and Route 66",
+        "U.S. Route 1 and Interstate 80"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 238,
+        "end": 313
+      },
+      "pool": "first"
+    },
+    {
+      "id": "golden-gate-bridge-history-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who served as chief engineer for the bridge project?",
+      "options": [
+        "Joseph Strauss",
+        "Leon Moisseiff",
+        "Irving Morrow",
+        "Charles Ellis"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 198,
+        "end": 253
+      },
+      "pool": "first"
+    },
+    {
+      "id": "golden-gate-bridge-history-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, on what date did the bridge open to the public?",
+      "options": [
+        "May 27, 1937",
+        "January 1, 1937",
+        "July 4, 1937",
+        "December 17, 1937"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 356,
+        "end": 403
+      },
+      "pool": "first"
+    },
+    {
+      "id": "golden-gate-bridge-history-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how long is the bridge's main span?",
+      "options": [
+        "4,200 feet (1,280 m)",
+        "746 feet (227 m)",
+        "1,000 feet (305 m)",
+        "10,000 feet (3,048 m)"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 233,
+        "end": 311
+      },
+      "pool": "first"
+    },
+    {
+      "id": "golden-gate-bridge-history-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author mention that the ASCE recognized the bridge as one of the Wonders of the Modern World?",
+      "options": [
+        "To underscore the bridge's status as a major engineering and cultural landmark",
+        "To argue that the bridge is unsafe for regular traffic",
+        "To suggest that the bridge was built entirely by volunteers",
+        "To prove that the bridge is the oldest one in California"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 315,
+        "end": 410
+      },
+      "pool": "first"
+    },
+    {
+      "id": "golden-gate-bridge-history-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why wasn't a fixed link between San Francisco and Marin built until the early 20th century, despite growing popularity for the idea since the late 19th century?",
+      "options": [
+        "Such a link only became technically feasible in the early 20th century",
+        "San Francisco residents opposed the idea until the 1930s",
+        "Marin County refused to allow construction for decades",
+        "The strait was too narrow to justify the project"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 120,
+        "end": 196
+      },
+      "pool": "first"
+    },
+    {
+      "id": "golden-gate-bridge-history-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "The Golden Gate Bridge was a groundbreaking engineering achievement that once held world records and remains an iconic symbol of the region",
+        "The Golden Gate Bridge was a minor local project with little lasting significance",
+        "The Golden Gate Bridge has never required any repairs since it opened",
+        "The Golden Gate Bridge still holds the record for the longest suspension bridge in the world"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 36,
+        "end": 106
+      },
+      "pool": "first"
+    },
+    {
+      "id": "golden-gate-bridge-history-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that a fixed link \"became feasible\"?",
+      "options": [
+        "It became possible or practical to achieve",
+        "It became illegal to attempt",
+        "It became unnecessary to build",
+        "It became a purely political issue"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 124,
+        "end": 196
+      },
+      "pool": "first"
+    },
+    {
+      "id": "golden-gate-bridge-history-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what county does the bridge link San Francisco to?",
+      "options": [
+        "Marin County",
+        "Sonoma County",
+        "Alameda County",
+        "Santa Clara County"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 187,
+        "end": 236
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "golden-gate-bridge-history-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, besides Joseph Strauss, who else made significant contributions to the bridge's design?",
+      "options": [
+        "Leon Moisseiff, Irving Morrow, and Charles Ellis",
+        "Franklin D. Roosevelt and Herbert Hoover",
+        "The Southern Pacific Railroad Company",
+        "The American Society of Civil Engineers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 255,
+        "end": 354
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "golden-gate-bridge-history-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what has the bridge undergone in the decades since it opened?",
+      "options": [
+        "Various retrofits and other improvement projects",
+        "A complete relocation to a new site",
+        "A change in ownership to a private company",
+        "A reduction in the number of traffic lanes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 409,
+        "end": 492
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "golden-gate-bridge-history-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what is the bridge's total height?",
+      "options": [
+        "746 feet (227 m)",
+        "4,200 feet (1,280 m)",
+        "300 feet (91 m)",
+        "1,937 feet (590 m)"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 275,
+        "end": 311
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "golden-gate-bridge-history-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the author mention the bridges that later overtook the Golden Gate Bridge's records?",
+      "options": [
+        "To show that its record-holding status, while historic, was not permanent",
+        "To argue that the Golden Gate Bridge was never truly the longest bridge",
+        "To suggest that the later bridges copied the Golden Gate Bridge's design exactly",
+        "To prove that suspension bridges are no longer built today"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 108,
+        "end": 231
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "golden-gate-bridge-history-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what the passage says about the bridge's place in engineering history?",
+      "options": [
+        "It was the longest and tallest suspension bridge in the world when it opened, records it later lost to newer bridges",
+        "It has always been the tallest suspension bridge in the world",
+        "It was the first suspension bridge ever built anywhere",
+        "It was surpassed in length within its first year of operation"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 106
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "golden-gate-bridge-history-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the Golden Gate Bridge's records were \"overtaken\" by later bridges?",
+      "options": [
+        "Its records were surpassed or exceeded by those later bridges",
+        "Its records were officially disputed in court",
+        "Its records were awarded jointly to both bridges",
+        "Its records were never verified in the first place"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 108,
+        "end": 231
+      },
+      "pool": "retest"
+    }
+  ]
+}
