@@ -1,0 +1,324 @@
+{
+  "id": "frankenstein-creation-scene",
+  "title": "The Beauty of the Dream Vanished",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/84",
+  "attribution": "Excerpted verbatim from Frankenstein by Mary Shelley (1818).",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "It was on a dreary night of November that I beheld the accomplishment of my toils. With an anxiety that almost amounted to agony, I collected the instruments of life around me, that I might infuse a spark of being into the lifeless thing that lay at my feet. It was already one in the morning; the rain pattered dismally against the panes, and my candle was nearly burnt out, when, by the glimmer of the half-extinguished light, I saw the dull yellow eye of the creature open; it breathed hard, and a convulsive motion agitated its limbs.",
+    "How can I describe my emotions at this catastrophe, or how delineate the wretch whom with such infinite pains and care I had endeavoured to form? His limbs were in proportion, and I had selected his features as beautiful. Beautiful! Great God! His yellow skin scarcely covered the work of muscles and arteries beneath; his hair was of a lustrous black, and flowing; his teeth of a pearly whiteness; but these luxuriances only formed a more horrid contrast with his watery eyes, that seemed almost of the same colour as the dun-white sockets in which they were set, his shrivelled complexion and straight black lips.",
+    "The different accidents of life are not so changeable as the feelings of human nature. I had worked hard for nearly two years, for the sole purpose of infusing life into an inanimate body. For this I had deprived myself of rest and health. I had desired it with an ardour that far exceeded moderation; but now that I had finished, the beauty of the dream vanished, and breathless horror and disgust filled my heart."
+  ],
+  "questions": [
+    {
+      "id": "frankenstein-creation-scene-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, on what kind of night did the narrator behold the accomplishment of his toils?",
+      "options": [
+        "A dreary night of November",
+        "A bright morning in June",
+        "A snowy evening in December",
+        "A calm afternoon in autumn"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 81
+      },
+      "pool": "first"
+    },
+    {
+      "id": "frankenstein-creation-scene-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what time was it when the creature's eye opened?",
+      "options": [
+        "One in the morning",
+        "Midnight exactly",
+        "Six in the evening",
+        "Noon"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 259,
+        "end": 292
+      },
+      "pool": "first"
+    },
+    {
+      "id": "frankenstein-creation-scene-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what color were the creature's eyes when they opened?",
+      "options": [
+        "Dull yellow",
+        "Bright blue",
+        "Deep green",
+        "Pale gray"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 429,
+        "end": 475
+      },
+      "pool": "first"
+    },
+    {
+      "id": "frankenstein-creation-scene-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how had the narrator selected the creature's features?",
+      "options": [
+        "As beautiful",
+        "As small and delicate",
+        "As identical to his own",
+        "As entirely mechanical"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 146,
+        "end": 220
+      },
+      "pool": "first"
+    },
+    {
+      "id": "frankenstein-creation-scene-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what color was the creature's hair?",
+      "options": [
+        "Lustrous black",
+        "Pale gold",
+        "Fiery red",
+        "Snow white"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 319,
+        "end": 364
+      },
+      "pool": "first"
+    },
+    {
+      "id": "frankenstein-creation-scene-f6",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how long had the narrator worked for the sole purpose of infusing life into an inanimate body?",
+      "options": [
+        "Nearly two years",
+        "About six months",
+        "Almost ten years",
+        "A single week"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 87,
+        "end": 187
+      },
+      "pool": "first"
+    },
+    {
+      "id": "frankenstein-creation-scene-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the narrator exclaim \"Beautiful! Great God!\" right after describing his choice of beautiful features?",
+      "options": [
+        "He is struck with horror at how wrong his expectations were, since the result is monstrous rather than beautiful",
+        "He is genuinely pleased and proud of how the creature turned out",
+        "He is mocking the creature's appearance for comic effect",
+        "He is praising God for helping him complete the work successfully"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 180,
+        "end": 243
+      },
+      "pool": "first"
+    },
+    {
+      "id": "frankenstein-creation-scene-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the narrator say \"the beauty of the dream vanished\" once he had finished his work?",
+      "options": [
+        "Now that the creation was real and complete, horror replaced the idealistic excitement he had felt while pursuing it",
+        "He realized the entire project had been a waste of money",
+        "He discovered that the creature could not actually move at all",
+        "He had lost interest in science entirely after the experiment"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 302,
+        "end": 414
+      },
+      "pool": "first"
+    },
+    {
+      "id": "frankenstein-creation-scene-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "The narrator's long-desired creation comes to life, but the reality horrifies him instead of fulfilling his dream",
+        "The narrator is delighted with his creation and celebrates his success",
+        "The narrator abandons his experiment before it can be completed",
+        "The narrator describes a peaceful, uneventful night with no unusual events"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 302,
+        "end": 414
+      },
+      "pool": "first"
+    },
+    {
+      "id": "frankenstein-creation-scene-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that \"a convulsive motion agitated its limbs\"?",
+      "options": [
+        "Its limbs jerked or twitched suddenly and uncontrollably",
+        "Its limbs moved slowly and gracefully",
+        "Its limbs remained perfectly still",
+        "Its limbs were bound tightly together"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 477,
+        "end": 537
+      },
+      "pool": "first"
+    },
+    {
+      "id": "frankenstein-creation-scene-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the narrator's emotional state as he collected the instruments of life?",
+      "options": [
+        "Anxiety that almost amounted to agony",
+        "Calm and steady confidence",
+        "Cheerful excitement and joy",
+        "Complete boredom and indifference"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 83,
+        "end": 175
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "frankenstein-creation-scene-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was happening to the narrator's candle as the creature came to life?",
+      "options": [
+        "It was nearly burnt out",
+        "It had just been freshly lit",
+        "It had already gone out completely",
+        "It was burning unusually bright"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 344,
+        "end": 374
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "frankenstein-creation-scene-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the narrator say scarcely covered the muscles and arteries beneath it?",
+      "options": [
+        "The creature's yellow skin",
+        "The creature's black hair",
+        "The creature's white teeth",
+        "The creature's clothing"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 244,
+        "end": 317
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "frankenstein-creation-scene-r4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the narrator deprive himself of during his two years of work?",
+      "options": [
+        "Rest and health",
+        "Food and water",
+        "Friends and family",
+        "Money and possessions"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 189,
+        "end": 238
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "frankenstein-creation-scene-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the narrator contrast the creature's \"lustrous black\" hair and \"pearly\" teeth with its watery eyes and shrivelled complexion?",
+      "options": [
+        "To show that individually beautiful features combined into an overall horrifying, unnatural appearance",
+        "To prove that the creature had no beautiful features at all",
+        "To argue that hair and teeth are more important than eyes",
+        "To suggest that the creature's appearance would improve over time"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 399,
+        "end": 476
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "frankenstein-creation-scene-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes the shift in the narrator's feelings described in the passage?",
+      "options": [
+        "His long pursuit of a beautiful dream turns to horror and disgust the moment it is actually realized",
+        "His feelings remain calm and unchanged from beginning to end",
+        "He feels growing pride and satisfaction as the passage continues",
+        "He becomes increasingly confused about what he has actually created"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 240,
+        "end": 363
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "frankenstein-creation-scene-r7",
+      "taxonomy": "vocabulary",
+      "prompt": "As used in the passage, what does it mean that the narrator had desired his creation with \"an ardour that far exceeded moderation\"?",
+      "options": [
+        "An intense passion or eagerness well beyond what was reasonable",
+        "A mild, casual interest that came and went",
+        "A fear so strong it prevented him from acting",
+        "A calm, carefully measured, and reasonable desire"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 240,
+        "end": 300
+      },
+      "pool": "retest"
+    }
+  ]
+}
