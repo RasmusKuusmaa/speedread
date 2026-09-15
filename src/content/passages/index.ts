@@ -7,28 +7,29 @@ import bostonTeaParty from "./boston-tea-party.json";
 import brooklynBridgeHistory from "./brooklyn-bridge-history.json";
 import channelTunnelHistory from "./channel-tunnel-history.json";
 import civilEngineeringAncientOrigins from "./civil-engineering-ancient-origins.json";
-import eiffelTowerHistory from "./eiffel-tower-history.json";
-import empireStateBuildingHistory from "./empire-state-building-history.json";
-import electricalEngineering19thCentury from "./electrical-engineering-19th-century.json";
-import frankensteinCreationScene from "./frankenstein-creation-scene.json";
 import comparativeAdvantageGainsFromTrade from "./comparative-advantage-gains-from-trade.json";
 import covalentBonding from "./covalent-bonding.json";
 import descartesDiscourseGoodSense from "./descartes-discourse-good-sense.json";
+import eiffelTowerHistory from "./eiffel-tower-history.json";
+import electricalEngineering19thCentury from "./electrical-engineering-19th-century.json";
+import empireStateBuildingHistory from "./empire-state-building-history.json";
+import frankensteinCreationScene from "./frankenstein-creation-scene.json";
 import giftOfTheMagiOpening from "./gift-of-the-magi-opening.json";
-import internationalSpaceStationHistory from "./international-space-station-history.json";
 import goldenGateBridgeHistory from "./golden-gate-bridge-history.json";
 import grapheneOneAtomThick from "./graphene-one-atom-thick.json";
 import hooverDamHistory from "./hoover-dam-history.json";
+import internationalSpaceStationHistory from "./international-space-station-history.json";
+import mechanicalEngineeringAncientHistory from "./mechanical-engineering-ancient-history.json";
 import meditationsRusticusApollonius from "./meditations-rusticus-apollonius.json";
-import millOnLibertyThought from "./mill-on-liberty-thought.json";
-import mobyDickOpening from "./moby-dick-opening.json";
 import meditationsSeverusMaximus from "./meditations-severus-maximus.json";
 import meditationsSextusCatulus from "./meditations-sextus-catulus.json";
 import meditationsTeachers from "./meditations-teachers.json";
-import ozGoldenCap from "./oz-golden-cap.json";
+import millOnLibertyThought from "./mill-on-liberty-thought.json";
+import mobyDickOpening from "./moby-dick-opening.json";
+import ozC01S2 from "./oz-c01-s2.json";
+import ozC01S3 from "./oz-c01-s3.json";
 import ozGrayPrairie from "./oz-gray-prairie.json";
 import ozGreenRoom from "./oz-green-room.json";
-import mechanicalEngineeringAncientHistory from "./mechanical-engineering-ancient-history.json";
 import ozSilverShoes from "./oz-silver-shoes.json";
 import panamaCanalHistory from "./panama-canal-history.json";
 import photosynthesisLightIntoSugar from "./photosynthesis-light-into-sugar.json";
@@ -68,10 +69,6 @@ export const rawPassages: unknown[] = [
   storyOfAnHour,
   stampAct1765,
   sonsAndDaughtersOfLiberty,
-  ozSilverShoes,
-  ozGoldenCap,
-  ozGreenRoom,
-  ozGrayPrairie,
   meditationsTeachers,
   meditationsRusticusApollonius,
   millOnLibertyThought,
@@ -108,4 +105,9 @@ export const rawPassages: unknown[] = [
   photosynthesisLightIntoSugar,
   comparativeAdvantageGainsFromTrade,
   grapheneOneAtomThick,
+  ozGrayPrairie,
+  ozC01S2,
+  ozC01S3,
+  ozGreenRoom,
+  ozSilverShoes,
 ];

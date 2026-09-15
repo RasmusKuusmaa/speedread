@@ -1,0 +1,329 @@
+{
+  "id": "oz-c01-s3",
+  "title": "The Cyclone, part 3",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Then a strange thing happened.",
+    "The house whirled around two or three times and rose slowly through the air. Dorothy felt as if she were going up in a balloon.",
+    "The north and south winds met where the house stood, and made it the exact center of the cyclone. In the middle of a cyclone the air is generally still, but the great pressure of the wind on every side of the house raised it up higher and higher, until it was at the very top of the cyclone; and there it remained and was carried miles and miles away as easily as you could carry a feather.",
+    "It was very dark, and the wind howled horribly around her, but Dorothy found she was riding quite easily. After the first few whirls around, and one other time when the house tipped badly, she felt as if she were being rocked gently, like a baby in a cradle.",
+    "Toto did not like it. He ran about the room, now here, now there, barking loudly; but Dorothy sat quite still on the floor and waited to see what would happen.",
+    "Once Toto got too near the open trap door, and fell in; and at first the little girl thought she had lost him. But soon she saw one of his ears sticking up through the hole, for the strong pressure of the air was keeping him up so that he could not fall. She crept to the hole, caught Toto by the ear, and dragged him into the room again, afterward closing the trap door so that no more accidents could happen.",
+    "Hour after hour passed away, and slowly Dorothy got over her fright; but she felt quite lonely, and the wind shrieked so loudly all about her that she nearly became deaf. At first she had wondered if she would be dashed to pieces when the house fell again; but as the hours passed and nothing terrible happened, she stopped worrying and resolved to wait calmly and see what the future would bring. At last she crawled over the swaying floor to her bed, and lay down upon it; and Toto followed and lay down beside her.",
+    "In spite of the swaying of the house and the wailing of the wind, Dorothy soon closed her eyes and fell fast asleep."
+  ],
+  "questions": [
+    {
+      "id": "oz-c01-s3-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Dorothy feel like as the house rose?",
+      "options": [
+        "As if she were going up in a balloon",
+        "As if she were falling down a deep well",
+        "As if she were being carried on a wagon",
+        "As if she were swimming in deep water"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 77,
+        "end": 126
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c01-s3-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, where did the north and south winds meet?",
+      "options": [
+        "Exactly where the house stood",
+        "Far off at the edge of the sky",
+        "Over the sheds behind the house",
+        "At the bottom of the cyclone cellar"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 51
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c01-s3-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened when Toto got too near the open trap door?",
+      "options": [
+        "He fell in",
+        "He barked at it",
+        "He shut it himself",
+        "He jumped over it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 0,
+        "end": 54
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c01-s3-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Dorothy do after dragging Toto back into the room?",
+      "options": [
+        "She closed the trap door",
+        "She tied him to the bed",
+        "She carried him to the door",
+        "She opened the cupboard"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 339,
+        "end": 409
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c01-s3-f5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did Toto not fall right through the hole?",
+      "options": [
+        "The pressure of the air below held him up",
+        "His paws had caught on the edge of the door",
+        "Dorothy had grabbed him before he went in",
+        "The hole was too narrow for him to pass"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 178,
+        "end": 253
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c01-s3-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what finally stopped Dorothy worrying?",
+      "options": [
+        "Hours went by and nothing terrible happened",
+        "She saw the ground coming up towards her",
+        "The wind died away and left the house still",
+        "Toto settled down and stopped his barking"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 257,
+        "end": 332
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c01-s3-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does being rocked like a baby in a cradle convey about the flight?",
+      "options": [
+        "After the first whirls it was gentle rather than violent",
+        "It was so rough that she could not stay on her feet",
+        "It sent her to sleep the moment the house left the ground",
+        "It felt exactly as it had when the house first lifted"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 189,
+        "end": 257
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c01-s3-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage explains it, what is the air like at the middle of a cyclone?",
+      "options": [
+        "Generally still",
+        "Fiercely hot",
+        "Bitterly cold",
+        "Thick with dust"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 98,
+        "end": 151
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c01-s3-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the overall point of the passage?",
+      "options": [
+        "The house is carried off, and its passenger settles into the ride",
+        "The house is torn apart by the wind while Dorothy shelters inside",
+        "Dorothy struggles to steer the house back towards the prairie",
+        "The storm passes over the house and leaves it where it stood"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 292,
+        "end": 389
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c01-s3-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best describes how Toto and Dorothy differ in the passage?",
+      "options": [
+        "He runs about barking while she sits still and waits",
+        "He sleeps through the flight while she stays wide awake",
+        "He watches from the window while she hides under the bed",
+        "He is calm from the start while she cries out in fright"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 22,
+        "end": 80
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c01-s3-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the wind do to Dorothy's hearing?",
+      "options": [
+        "It shrieked so loudly she nearly became deaf",
+        "It whistled so softly she could hardly hear it",
+        "It fell silent so completely that her ears rang",
+        "It made a wailing she soon stopped noticing"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 100,
+        "end": 169
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c01-s3-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, where did Dorothy finally lie down?",
+      "options": [
+        "On her own bed, with Toto beside her",
+        "On the floor beside the closed trap door",
+        "In the big bed in her aunt and uncle's corner",
+        "On the swaying boards by the open doorway"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 406,
+        "end": 451
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c01-s3-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what raised the house to the very top of the cyclone?",
+      "options": [
+        "The great pressure of the wind on every side",
+        "The stillness of the air at the storm's centre",
+        "The lightness of the lumber it was built from",
+        "A sudden updraught from the open trap door"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 157,
+        "end": 245
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c01-s3-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what had Dorothy feared at first?",
+      "options": [
+        "That she would be dashed to pieces when the house fell",
+        "That the house would never come down to earth again",
+        "That Toto would be thrown out through the trap door",
+        "That her aunt and uncle had been lost in the storm"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 171,
+        "end": 255
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c01-s3-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did Dorothy's feelings change over the hours?",
+      "options": [
+        "From fright to loneliness, and then to calm waiting",
+        "From calm to panic as the wind grew louder",
+        "From curiosity to boredom and then to anger",
+        "From grief at the loss of Toto to relief"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 0,
+        "end": 67
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c01-s3-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that Dorothy resolved to wait calmly?",
+      "options": [
+        "She made up her mind to do it",
+        "She was forced into it by the wind",
+        "She promised her dog she would",
+        "She managed it only for a while"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 312,
+        "end": 360
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c01-s3-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A terrifying flight becomes something a child can sleep through",
+        "A storm destroys a house and everything that was inside it",
+        "A girl fights the wind to keep her house on the ground",
+        "A dog and a girl are separated by the storm that carries them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 66,
+        "end": 115
+      },
+      "pool": "retest"
+    }
+  ]
+}

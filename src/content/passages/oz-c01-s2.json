@@ -1,0 +1,330 @@
+{
+  "id": "oz-c01-s2",
+  "title": "The Cyclone, part 2",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Uncle Henry never laughed. He worked hard from morning till night and did not know what joy was. He was gray also, from his long beard to his rough boots, and he looked stern and solemn, and rarely spoke.",
+    "It was Toto that made Dorothy laugh, and saved her from growing as gray as her other surroundings. Toto was not gray; he was a little black dog, with long silky hair and small black eyes that twinkled merrily on either side of his funny, wee nose. Toto played all day long, and Dorothy played with him, and loved him dearly.",
+    "Today, however, they were not playing. Uncle Henry sat upon the doorstep and looked anxiously at the sky, which was even grayer than usual. Dorothy stood in the door with Toto in her arms, and looked at the sky too. Aunt Em was washing the dishes.",
+    "From the far north they heard a low wail of the wind, and Uncle Henry and Dorothy could see where the long grass bowed in waves before the coming storm. There now came a sharp whistling in the air from the south, and as they turned their eyes that way they saw ripples in the grass coming from that direction also.",
+    "Suddenly Uncle Henry stood up.",
+    "“There’s a cyclone coming, Em,” he called to his wife. “I’ll go look after the stock.” Then he ran toward the sheds where the cows and horses were kept.",
+    "Aunt Em dropped her work and came to the door. One glance told her of the danger close at hand.",
+    "“Quick, Dorothy!” she screamed. “Run for the cellar!”",
+    "Toto jumped out of Dorothy’s arms and hid under the bed, and the girl started to get him. Aunt Em, badly frightened, threw open the trap door in the floor and climbed down the ladder into the small, dark hole. Dorothy caught Toto at last and started to follow her aunt. When she was halfway across the room there came a great shriek from the wind, and the house shook so hard that she lost her footing and sat down suddenly upon the floor."
+  ],
+  "questions": [
+    {
+      "id": "oz-c01-s2-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what kind of dog is Toto?",
+      "options": [
+        "A little black dog with long silky hair",
+        "A large gray dog with short rough hair",
+        "A little brown dog with a curled tail",
+        "A small white dog with black markings"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 118,
+        "end": 165
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c01-s2-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what was Aunt Em doing as the sky grew grayer?",
+      "options": [
+        "Washing the dishes",
+        "Feeding the horses",
+        "Mending the roof",
+        "Sweeping the floor"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 216,
+        "end": 247
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c01-s2-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did Uncle Henry go once he saw the storm coming?",
+      "options": [
+        "To the sheds where the cows and horses were kept",
+        "Down the ladder into the small dark cyclone cellar",
+        "Out to the long grass to watch the wind arrive",
+        "Into the house to fetch Dorothy and the dog"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 92,
+        "end": 151
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c01-s2-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, where did Toto hide when Dorothy was told to run?",
+      "options": [
+        "Under the bed",
+        "In the cupboard",
+        "Behind the stove",
+        "Down the trap door"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 0,
+        "end": 55
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c01-s2-f5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the narrator say Toto saved Dorothy from growing gray?",
+      "options": [
+        "He gave her something to laugh at in a joyless place",
+        "He was the only animal that the farm had left to keep",
+        "He kept watch on the sky so that she did not have to",
+        "He was the one creature there that had not been sunburned"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 97
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c01-s2-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did Dorothy not reach the cellar with her aunt?",
+      "options": [
+        "She turned back to catch Toto first",
+        "She could not lift the heavy trap door",
+        "She was watching the grass from the door",
+        "She had been sent out to help her uncle"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 210,
+        "end": 268
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c01-s2-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does it suggest that one glance told Aunt Em of the danger?",
+      "options": [
+        "She knew the signs of a cyclone at once",
+        "She had been warned by a neighbour already",
+        "She could see the sheds had been blown down",
+        "She had never seen such a sky in her life"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 47,
+        "end": 95
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c01-s2-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does calling Uncle Henry gray convey?",
+      "options": [
+        "The colour had gone out of the whole man, not just his beard",
+        "His clothes had faded from being washed too many times",
+        "He had turned pale from the fright the storm gave him",
+        "He wore gray because it was the only cloth they had"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 97,
+        "end": 153
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c01-s2-f9",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures what the passage shows about the household?",
+      "options": [
+        "Hard joyless work, with a small dog the only source of laughter",
+        "A cheerful family whose work on the prairie had made them rich",
+        "A household so frightened of storms that nobody dared go out",
+        "Three people who had run out of things to say to each other"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 27,
+        "end": 96
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c01-s2-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best describes the turn the passage takes?",
+      "options": [
+        "An anxious ordinary day breaks into sudden emergency",
+        "A long-expected storm arrives exactly as predicted",
+        "A quarrel between the family ends in the cellar",
+        "A day of play is interrupted by work on the farm"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 352,
+        "end": 401
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c01-s2-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Uncle Henry call out to his wife?",
+      "options": [
+        "That a cyclone was coming",
+        "That the sheds had blown over",
+        "That the cellar door was stuck",
+        "That the horses had bolted"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 1,
+        "end": 29
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c01-s2-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Aunt Em scream to Dorothy?",
+      "options": [
+        "To run for the cellar",
+        "To catch hold of Toto",
+        "To shut the trap door",
+        "To fetch her uncle back"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 33,
+        "end": 52
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c01-s2-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how are Toto's eyes described?",
+      "options": [
+        "Small and black, twinkling merrily",
+        "Large and brown, watching anxiously",
+        "Small and gray, like everything else",
+        "Bright and blue, set wide apart"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 170,
+        "end": 208
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c01-s2-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what first warned the family that the wind was rising?",
+      "options": [
+        "A low wail from the north and grass bowing in waves",
+        "A sudden darkness that fell across the whole prairie",
+        "The cows and horses growing restless in their sheds",
+        "A neighbour riding over to tell them what was coming"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 52
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c01-s2-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what do Uncle Henry's silence and solemn look suggest about his life?",
+      "options": [
+        "Years of hard labour had worn the pleasure out of it",
+        "He had quarrelled with his wife and would not speak",
+        "He was troubled by something he refused to explain",
+        "He had never learned to talk easily with children"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 26
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c01-s2-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does Uncle Henry mean by the stock?",
+      "options": [
+        "The farm animals in his care",
+        "The stores of food for the winter",
+        "The wooden posts of the fences",
+        "The goods he keeps to sell"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 56,
+        "end": 85
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c01-s2-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A gray household is overtaken by a storm before it can shelter",
+        "A family argues about whether the coming storm is dangerous",
+        "A girl and her dog are left alone on the farm for the day",
+        "A farmer works through a storm to save his cows and horses"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 39,
+        "end": 104
+      },
+      "pool": "retest"
+    }
+  ]
+}
