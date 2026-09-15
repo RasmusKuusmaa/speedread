@@ -1,0 +1,330 @@
+{
+  "id": "oz-c17-s2",
+  "title": "How the Balloon Was Launched, part 2",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "“If it won’t float,” remarked Dorothy, “it will be of no use to us.”",
+    "“True,” answered Oz. “But there is another way to make it float, which is to fill it with hot air. Hot air isn’t as good as gas, for if the air should get cold the balloon would come down in the desert, and we should be lost.”",
+    "“We!” exclaimed the girl. “Are you going with me?”",
+    "“Yes, of course,” replied Oz. “I am tired of being such a humbug. If I should go out of this Palace my people would soon discover I am not a Wizard, and then they would be vexed with me for having deceived them. So I have to stay shut up in these rooms all day, and it gets tiresome. I’d much rather go back to Kansas with you and be in a circus again.”",
+    "“I shall be glad to have your company,” said Dorothy.",
+    "“Thank you,” he answered. “Now, if you will help me sew the silk together, we will begin to work on our balloon.”",
+    "So Dorothy took a needle and thread, and as fast as Oz cut the strips of silk into proper shape the girl sewed them neatly together. First there was a strip of light green silk, then a strip of dark green and then a strip of emerald green; for Oz had a fancy to make the balloon in different shades of the color about them. It took three days to sew all the strips together, but when it was finished they had a big bag of green silk more than twenty feet long.",
+    "Then Oz painted it on the inside with a coat of thin glue, to make it airtight, after which he announced that the balloon was ready.",
+    "“But we must have a basket to ride in,” he said. So he sent the soldier with the green whiskers for a big clothes basket, which he fastened with many ropes to the bottom of the balloon."
+  ],
+  "questions": [
+    {
+      "id": "oz-c17-s2-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the other way to make a balloon float?",
+      "options": [
+        "Fill it with hot air",
+        "Coat it twice with glue",
+        "Make it out of lighter silk",
+        "Attach it to the Winged Monkeys"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 65,
+        "end": 97
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s2-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what is the danger with hot air?",
+      "options": [
+        "If the air cools the balloon comes down in the desert",
+        "The hot air may burn a hole in the silk",
+        "The balloon rises too fast to be steered",
+        "The glue melts and the seams come apart"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 129,
+        "end": 201
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s2-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who sewed the strips of silk together?",
+      "options": [
+        "Dorothy, with a needle and thread",
+        "Oz, with the tinsmith's shears",
+        "The green girl and her maids",
+        "The soldier with the green whiskers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 0,
+        "end": 35
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s2-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, how long did the sewing take?",
+      "options": [
+        "Three days",
+        "A single afternoon",
+        "A week and a day",
+        "Nearly a month"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 324,
+        "end": 373
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s2-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how long was the finished bag?",
+      "options": [
+        "More than twenty feet",
+        "About six feet",
+        "Nearly a hundred feet",
+        "Ten feet exactly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 409,
+        "end": 459
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s2-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Oz want to leave with Dorothy?",
+      "options": [
+        "He is tired of being a humbug shut up in the Palace",
+        "He is afraid the Witches will find him out",
+        "He wants to see the Winged Monkeys again",
+        "He has been ordered away by his own people"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 31,
+        "end": 64
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s2-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Oz fear if he goes out among his people?",
+      "options": [
+        "They would discover he is no Wizard and be vexed",
+        "They would follow him out into the desert",
+        "They would take away his green Palace",
+        "They would refuse to let him leave at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 100,
+        "end": 147
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s2-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why were the strips of different greens?",
+      "options": [
+        "Oz had a fancy to match the colour about them",
+        "The Palace had no two bolts of the same silk",
+        "Each shade marked a different day's work",
+        "Dorothy chose the colours as she sewed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 240,
+        "end": 298
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s2-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does airtight mean?",
+      "options": [
+        "Sealed so that air cannot escape",
+        "Light enough to float",
+        "Strong enough to carry two",
+        "Stitched with very small stitches"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 59,
+        "end": 78
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s2-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "A balloon is built by hand, and its maker decides to go too",
+        "A balloon is abandoned because no gas can be found",
+        "Dorothy refuses to travel with a humbug",
+        "The people of the city discover the Wizard's secret"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 27,
+        "end": 49
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s2-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Oz say he would rather do?",
+      "options": [
+        "Go back to Kansas and be in a circus again",
+        "Stay in the Palace and keep his secret",
+        "Fly to visit a brother Wizard in the clouds",
+        "Travel to the country of the Winkies"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 284,
+        "end": 351
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c17-s2-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Oz send the soldier for?",
+      "options": [
+        "A big clothes basket",
+        "More green silk",
+        "A pot of thin glue",
+        "A pile of firewood"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 49,
+        "end": 120
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c17-s2-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how was the basket fastened?",
+      "options": [
+        "With many ropes to the bottom of the balloon",
+        "With thin glue to the silk itself",
+        "With straps of tin soldered on",
+        "It was not fastened on at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 122,
+        "end": 184
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c17-s2-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did Dorothy say about the Wizard's company?",
+      "options": [
+        "That she would be glad to have it",
+        "That she would rather travel alone",
+        "That he must first tell his people",
+        "That he could not be trusted"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 1,
+        "end": 37
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c17-s2-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did Oz paint on the inside of the bag?",
+      "options": [
+        "A coat of thin glue",
+        "A layer of green paint",
+        "A pattern of emeralds",
+        "Nothing; he left it plain"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 57
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c17-s2-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it gets tiresome mean?",
+      "options": [
+        "It becomes wearisome to him",
+        "It grows dangerous over time",
+        "It takes up all his day",
+        "It makes his people suspicious"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 262,
+        "end": 282
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c17-s2-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Hot air will serve instead of gas, and two passengers are planned",
+        "The balloon cannot be made and the plan is given up",
+        "Oz admits the balloon is only another of his tricks",
+        "Dorothy sews the balloon alone while Oz keeps his secret"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 92,
+        "end": 131
+      },
+      "pool": "retest"
+    }
+  ]
+}

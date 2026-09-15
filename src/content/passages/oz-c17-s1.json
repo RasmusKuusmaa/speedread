@@ -1,0 +1,321 @@
+{
+  "id": "oz-c17-s1",
+  "title": "How the Balloon Was Launched, part 1",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "For three days Dorothy heard nothing from Oz. These were sad days for the little girl, although her friends were all quite happy and contented. The Scarecrow told them there were wonderful thoughts in his head; but he would not say what they were because he knew no one could understand them but himself. When the Tin Woodman walked about he felt his heart rattling around in his breast; and he told Dorothy he had discovered it to be a kinder and more tender heart than the one he had owned when he was made of flesh. The Lion declared he was afraid of nothing on earth, and would gladly face an army or a dozen of the fierce Kalidahs.",
+    "Thus each of the little party was satisfied except Dorothy, who longed more than ever to get back to Kansas.",
+    "On the fourth day, to her great joy, Oz sent for her, and when she entered the Throne Room he greeted her pleasantly:",
+    "“Sit down, my dear; I think I have found the way to get you out of this country.”",
+    "“And back to Kansas?” she asked eagerly.",
+    "“Well, I’m not sure about Kansas,” said Oz, “for I haven’t the faintest notion which way it lies. But the first thing to do is to cross the desert, and then it should be easy to find your way home.”",
+    "“How can I cross the desert?” she inquired.",
+    "“Well, I’ll tell you what I think,” said the little man. “You see, when I came to this country it was in a balloon. You also came through the air, being carried by a cyclone. So I believe the best way to get across the desert will be through the air. Now, it is quite beyond my powers to make a cyclone; but I’ve been thinking the matter over, and I believe I can make a balloon.”",
+    "“How?” asked Dorothy.",
+    "“A balloon,” said Oz, “is made of silk, which is coated with glue to keep the gas in it. I have plenty of silk in the Palace, so it will be no trouble to make the balloon. But in all this country there is no gas to fill the balloon with, to make it float.”"
+  ],
+  "questions": [
+    {
+      "id": "oz-c17-s1-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how long did Dorothy hear nothing from Oz?",
+      "options": ["Three days", "A single night", "A week", "Nearly a month"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 45
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s1-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why would the Scarecrow not repeat his thoughts?",
+      "options": [
+        "He believed nobody else could understand them",
+        "He had forgotten them almost at once",
+        "Oz had forbidden him to speak of them",
+        "They were too sad to be worth saying"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 247,
+        "end": 303
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s1-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Woodman say about his new heart?",
+      "options": [
+        "It was kinder and more tender than his old one",
+        "It rattled so much he could not sleep",
+        "It was smaller than the one he had lost",
+        "It made him sorry for every creature"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 408,
+        "end": 465
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s1-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Lion say he would gladly face?",
+      "options": [
+        "An army or a dozen fierce Kalidahs",
+        "The Wicked Witch of the West again",
+        "The Winged Monkeys in a body",
+        "A field of deadly poppies"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 576,
+        "end": 635
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s1-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is a balloon made of?",
+      "options": [
+        "Silk coated with glue to hold the gas in",
+        "Green paper stretched over wooden slats",
+        "Cotton soaked in oil and set alight",
+        "Thin tin beaten out and soldered"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 23,
+        "end": 87
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s1-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is Oz uncertain about Kansas itself?",
+      "options": [
+        "He has not the faintest notion which way it lies",
+        "He believes Kansas may not exist at all",
+        "He has promised the Witch not to go there",
+        "The balloon cannot travel that far"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 45,
+        "end": 96
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s1-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Oz decide on travel through the air?",
+      "options": [
+        "Both he and Dorothy came to Oz that way",
+        "The desert cannot be walked across in any season",
+        "The Winged Monkeys refused to carry her",
+        "It is the only thing his magic can manage"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 175,
+        "end": 249
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s1-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is the obstacle to the balloon plan?",
+      "options": [
+        "There is no gas in the country to fill it",
+        "There is no silk to be had in the Palace",
+        "Nobody knows how to sew the strips together",
+        "The desert is too wide for any balloon"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 172,
+        "end": 236
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s1-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does longed mean?",
+      "options": [
+        "Wished for it very deeply",
+        "Waited without much interest",
+        "Asked for it again and again",
+        "Grew tired of thinking about it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 60,
+        "end": 107
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s1-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "Three friends are content while the fourth is offered a plan at last",
+        "Three friends discover their gifts were worthless after all",
+        "The Wizard refuses to help Dorothy cross the desert",
+        "Dorothy decides to stay in the Emerald City for good"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 20,
+        "end": 79
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s1-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, on which day did Oz send for Dorothy?",
+      "options": ["The fourth", "The second", "The seventh", "The very next"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 52
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c17-s1-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did the Woodman feel as he walked about?",
+      "options": [
+        "His heart rattling in his breast",
+        "The patch pulling at his tin",
+        "His joints beginning to rust",
+        "Nothing whatever"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 339,
+        "end": 386
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c17-s1-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did Oz greet Dorothy?",
+      "options": [
+        "Pleasantly, and asked her to sit down",
+        "Coldly, without looking up",
+        "By pretending to be the great Head",
+        "With an apology for the delay"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 91,
+        "end": 116
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c17-s1-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Oz say must be done first?",
+      "options": [
+        "Cross the desert",
+        "Find which way Kansas lies",
+        "Make a cyclone like the first",
+        "Ask the Winged Monkeys for help"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 98,
+        "end": 146
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c17-s1-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Oz admit is beyond his powers?",
+      "options": [
+        "Making a cyclone",
+        "Making a balloon of silk",
+        "Sewing the strips together",
+        "Finding gas in the country"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 256,
+        "end": 302
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c17-s1-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does contented describe about the three friends?",
+      "options": [
+        "Satisfied with what they had been given",
+        "Quiet because they had nothing to say",
+        "Impatient to leave the city",
+        "Sorry for the way Oz had tricked them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 87,
+        "end": 142
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c17-s1-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "Contentment for three, and the first real hope for the fourth",
+        "A plan to cross the desert that everyone agrees is hopeless",
+        "A quarrel about whether the gifts were real",
+        "Dorothy's decision to walk across the desert alone"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 58
+      },
+      "pool": "retest"
+    }
+  ]
+}

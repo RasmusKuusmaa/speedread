@@ -1,0 +1,330 @@
+{
+  "id": "oz-c17-s3",
+  "title": "How the Balloon Was Launched, part 3",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/55",
+  "attribution": "From The Wonderful Wizard of Oz by L. Frank Baum (1900), via Project Gutenberg, in reading order.",
+  "licence": "Public domain (US)",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "When it was all ready, Oz sent word to his people that he was going to make a visit to a great brother Wizard who lived in the clouds. The news spread rapidly throughout the city and everyone came to see the wonderful sight.",
+    "Oz ordered the balloon carried out in front of the Palace, and the people gazed upon it with much curiosity. The Tin Woodman had chopped a big pile of wood, and now he made a fire of it, and Oz held the bottom of the balloon over the fire so that the hot air that arose from it would be caught in the silken bag. Gradually the balloon swelled out and rose into the air, until finally the basket just touched the ground.",
+    "Then Oz got into the basket and said to all the people in a loud voice:",
+    "“I am now going away to make a visit. While I am gone the Scarecrow will rule over you. I command you to obey him as you would me.”",
+    "The balloon was by this time tugging hard at the rope that held it to the ground, for the air within it was hot, and this made it so much lighter in weight than the air without that it pulled hard to rise into the sky.",
+    "“Come, Dorothy!” cried the Wizard. “Hurry up, or the balloon will fly away.”",
+    "“I can’t find Toto anywhere,” replied Dorothy, who did not wish to leave her little dog behind. Toto had run into the crowd to bark at a kitten, and Dorothy at last found him. She picked him up and ran towards the balloon.",
+    "She was within a few steps of it, and Oz was holding out his hands to help her into the basket, when, crack! went the ropes, and the balloon rose into the air without her.",
+    "“Come back!” she screamed. “I want to go, too!”",
+    "“I can’t come back, my dear,” called Oz from the basket. “Good-bye!”",
+    "“Good-bye!” shouted everyone, and all eyes were turned upward to where the Wizard was riding in the basket, rising every moment farther and farther into the sky.",
+    "And that was the last any of them ever saw of Oz, the Wonderful Wizard, though he may have reached Omaha safely, and be there now, for all we know. But the people remembered him lovingly, and said to one another:",
+    "“Oz was always our friend. When he was here he built for us this beautiful Emerald City, and now he is gone he has left the Wise Scarecrow to rule over us.”",
+    "Still, for many days they grieved over the loss of the Wonderful Wizard, and would not be comforted."
+  ],
+  "questions": [
+    {
+      "id": "oz-c17-s3-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Oz tell his people he was doing?",
+      "options": [
+        "Visiting a great brother Wizard in the clouds",
+        "Leaving the Emerald City for good",
+        "Testing a new kind of magic art",
+        "Going to find the last Wicked Witch"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 55,
+        "end": 133
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s3-f2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, who chopped the wood for the fire?",
+      "options": [
+        "The Tin Woodman",
+        "The Scarecrow",
+        "The soldier",
+        "The Winkies"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 109,
+        "end": 155
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s3-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who did Oz name to rule in his place?",
+      "options": [
+        "The Scarecrow",
+        "The Tin Woodman",
+        "The Guardian of the Gates",
+        "Dorothy"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 38,
+        "end": 87
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s3-f4",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, why could Dorothy not reach the balloon in time?",
+      "options": [
+        "She was looking for Toto, who had run into the crowd",
+        "The soldier held her back from the basket",
+        "She stopped to say goodbye to the green girl",
+        "The crowd pressed round and blocked her way"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 1,
+        "end": 27
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s3-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what had Toto run off to bark at?",
+      "options": ["A kitten", "A field mouse", "The green girl", "The fire"],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 96,
+        "end": 143
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s3-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the balloon tug at its rope?",
+      "options": [
+        "The hot air inside made it lighter than the air outside",
+        "The crowd was pulling on the other end",
+        "A strong wind had risen over the city",
+        "The Tin Woodman's fire had grown too hot"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 82,
+        "end": 111
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s3-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what parted Dorothy from the balloon?",
+      "options": [
+        "The ropes gave way before she could climb in",
+        "Oz refused at the last moment to take her",
+        "The basket was already too heavy to rise",
+        "The fire went out and the balloon sank"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 96,
+        "end": 123
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s3-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the people remember Oz afterwards?",
+      "options": [
+        "Lovingly, as the friend who built their city",
+        "Bitterly, as the humbug who deceived them",
+        "Fearfully, as a wizard who might return",
+        "Not at all, once the Scarecrow ruled"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 148,
+        "end": 186
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s3-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does grieved mean?",
+      "options": [
+        "Mourned his loss",
+        "Complained about him",
+        "Quarrelled over him",
+        "Searched for him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 13,
+        "start": 21,
+        "end": 71
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s3-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the passage?",
+      "options": [
+        "The balloon rises on time, and leaves the one passenger who needed it",
+        "The balloon fails to rise and the Wizard stays behind",
+        "The people discover the Wizard is only a humbug",
+        "Dorothy and Oz cross the desert together at last"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 125,
+        "end": 170
+      },
+      "pool": "first"
+    },
+    {
+      "id": "oz-c17-s3-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Oz command the people to do?",
+      "options": [
+        "Obey the Scarecrow as they would him",
+        "Follow the balloon to the desert",
+        "Keep the gates shut until he returned",
+        "Take off their green spectacles"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 88,
+        "end": 130
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c17-s3-r2",
+      "taxonomy": "literal",
+      "prompt": "Per the passage, what did Dorothy scream after the balloon?",
+      "options": [
+        "That she wanted to go too",
+        "That the ropes had broken",
+        "That Toto had been left behind",
+        "That Oz was a humbug"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 28,
+        "end": 46
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c17-s3-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Oz call back to her?",
+      "options": [
+        "That he could not come back",
+        "That he would return for her",
+        "That she should follow on foot",
+        "That the Scarecrow would help her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 1,
+        "end": 27
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c17-s3-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how was the balloon filled?",
+      "options": [
+        "Oz held it over a fire to catch the hot air",
+        "The Winged Monkeys blew into it",
+        "It was filled with gas found in the Palace",
+        "The wind filled it as it lay on the ground"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 191,
+        "end": 238
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c17-s3-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the narrator say may have become of Oz?",
+      "options": [
+        "He may have reached Omaha safely and be there still",
+        "He certainly came down somewhere in the desert",
+        "He was never heard of by anyone again",
+        "He returned to the city in secret"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 11,
+        "start": 72,
+        "end": 111
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c17-s3-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does curiosity describe in the crowd?",
+      "options": [
+        "Their eager interest in the strange sight",
+        "Their fear of the Wizard's magic",
+        "Their anger at being left behind",
+        "Their sorrow at the parting"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 59,
+        "end": 107
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "oz-c17-s3-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarises the passage?",
+      "options": [
+        "A departure that goes wrong for the one who needed it most",
+        "A departure that carries Dorothy home across the desert",
+        "A city that refuses to let its Wizard leave",
+        "A balloon that catches fire before it can rise"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 32
+      },
+      "pool": "retest"
+    }
+  ]
+}
