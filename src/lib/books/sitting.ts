@@ -39,10 +39,13 @@ const TAXONOMY_ROTATION: QuestionTaxonomy[] = [
 
 // Take one tag at a time rather than a slice of the pool. Pools are authored
 // literal first and vocabulary last, so any positional pick would hand back all
-// literal questions and leave the taxonomy breakdown lopsided.
+// literal questions and leave the taxonomy breakdown lopsided. The rotation
+// carries on from where the previous section left it, so a sitting that takes
+// only two or three questions per section still spans all four tags.
 function pickAcrossTaxonomies(
   questions: Question[],
   count: number,
+  startTurn: number,
 ): Question[] {
   if (count >= questions.length) {
     return questions;
@@ -56,8 +59,8 @@ function pickAcrossTaxonomies(
   }
 
   const picked = new Set<Question>();
-  const limit = questions.length * TAXONOMY_ROTATION.length;
-  for (let turn = 0; picked.size < count && turn < limit; turn += 1) {
+  const limit = startTurn + questions.length * TAXONOMY_ROTATION.length;
+  for (let turn = startTurn; picked.size < count && turn < limit; turn += 1) {
     const taxonomy = TAXONOMY_ROTATION[turn % TAXONOMY_ROTATION.length];
     const next =
       taxonomy === undefined ? undefined : remaining.get(taxonomy)?.shift();
@@ -153,6 +156,7 @@ export function composeSitting(
     for (const question of pickAcrossTaxonomies(
       pools[index] ?? [],
       counts[index] ?? 0,
+      questions.length,
     )) {
       questions.push({
         ...question,
