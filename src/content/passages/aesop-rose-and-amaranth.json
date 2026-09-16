@@ -1,0 +1,322 @@
+{
+  "id": "aesop-rose-and-amaranth",
+  "title": "The Rose and the Amaranth",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Rose and an Amaranth blossomed side by side in a garden, and the Amaranth said to her neighbour, \"How I envy you your beauty and your sweet scent! No wonder you are such a universal favourite.\" But the Rose replied with a shade of sadness in her voice, \"Ah, my dear friend, I bloom but for a time: my petals soon wither and fall, and then I die. But your flowers never fade, even if they are cut; for they are everlasting.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-rose-and-amaranth-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where do the Rose and the Amaranth blossom?",
+      "options": [
+        "On opposite ends of a large field",
+        "In separate pots on a windowsill",
+        "Side by side in a garden",
+        "Along a path leading into a forest"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 57
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rose-and-amaranth-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Amaranth envy about the Rose?",
+      "options": [
+        "Her beauty and her sweet scent",
+        "Her ability to grow taller",
+        "Her resistance to insects",
+        "Her deep red color"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 100,
+        "end": 148
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rose-and-amaranth-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Amaranth call the Rose?",
+      "options": [
+        "The rarest flower in the garden",
+        "A dangerous plant to touch",
+        "The oldest flower in the garden",
+        "A universal favourite"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 149,
+        "end": 193
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rose-and-amaranth-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Rose say happens to her petals?",
+      "options": [
+        "They grow more fragrant with time",
+        "They soon wither and fall, and then she dies",
+        "They never change no matter the season",
+        "They are picked and sold at market each year"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 300,
+        "end": 346
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rose-and-amaranth-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Rose say about the Amaranth's flowers?",
+      "options": [
+        "They fade just as quickly as her own petals do",
+        "They only bloom once every few years",
+        "They never fade, even if they are cut, for they are everlasting",
+        "They lose their scent after being cut"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 352,
+        "end": 423
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rose-and-amaranth-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Rose reply with \"a shade of sadness\" rather than pride?",
+      "options": [
+        "She recognizes that her admired beauty comes at the cost of a short life",
+        "She is embarrassed that the Amaranth noticed her scent",
+        "She wishes she smelled like the Amaranth instead",
+        "She is upset that the Amaranth is envious of her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 200,
+        "end": 253
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rose-and-amaranth-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what trade-off does the Rose point out between the two flowers?",
+      "options": [
+        "The Amaranth is actually more beautiful than the Rose in every way",
+        "Both flowers share exactly the same lifespan and qualities",
+        "The Rose believes the Amaranth's flowers are ultimately worthless",
+        "Striking, admired beauty in her case comes with a brief life, while plain endurance in the Amaranth's case lasts far longer"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 276,
+        "end": 375
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rose-and-amaranth-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"everlasting\" mean in \"they are everlasting\"?",
+      "options": [
+        "Blooming only once a year",
+        "Lasting forever, without fading",
+        "Growing larger over time",
+        "Changing color with the seasons"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 399,
+        "end": 423
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rose-and-amaranth-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"wither\" mean in \"my petals soon wither and fall\"?",
+      "options": [
+        "To grow larger and fuller",
+        "To change to a brighter color",
+        "To dry up and shrink",
+        "To spread out and multiply"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 300,
+        "end": 330
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rose-and-amaranth-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Beauty that is brief and lasting endurance are two different kinds of value, each with its own cost",
+        "Everlasting flowers are always better than beautiful ones",
+        "Being admired by others is more important than living a long life",
+        "Envy between two things of equal worth is always misplaced"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 276,
+        "end": 423
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rose-and-amaranth-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Amaranth address the Rose?",
+      "options": [
+        "As her rival",
+        "As her teacher",
+        "As a stranger",
+        "As her neighbour"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 63,
+        "end": 97
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-rose-and-amaranth-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Rose call the Amaranth when she replies?",
+      "options": [
+        "\"My rival\"",
+        "\"My dear friend\"",
+        "\"My teacher\"",
+        "\"My envious neighbour\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 256,
+        "end": 274
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-rose-and-amaranth-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the Amaranth's flowers even if they are cut?",
+      "options": [
+        "They wilt within a day",
+        "They change color slightly",
+        "They never fade",
+        "They lose their scent immediately"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 352,
+        "end": 397
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-rose-and-amaranth-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Amaranth's envy of the Rose seem misplaced by the end of the passage?",
+      "options": [
+        "The very quality she envies is tied to a short life the Amaranth does not have to face",
+        "The Amaranth actually has a sweeter scent than the Rose",
+        "The Rose admits she was never truly admired at all",
+        "The Amaranth's flowers are shown to fade just as quickly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 276,
+        "end": 346
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-rose-and-amaranth-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Rose seem to value about the Amaranth's lack of fragrance and showy beauty?",
+      "options": [
+        "Its ability to attract more admirers than her own petals do",
+        "Its ability to grow taller than any rose",
+        "Its ability to change color throughout the year",
+        "Its ability to endure, which her own beauty cannot match"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 352,
+        "end": 423
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-rose-and-amaranth-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"universal favourite\" mean in \"such a universal favourite\"?",
+      "options": [
+        "Someone chosen at random from a group",
+        "Someone or something admired by nearly everyone",
+        "Someone who dislikes being noticed",
+        "Someone rarely seen in public"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 149,
+        "end": 193
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-rose-and-amaranth-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Rose envies the Amaranth's everlasting flowers and wishes to trade places",
+        "The Rose and Amaranth agree they are equally beautiful and long-lasting",
+        "An Amaranth envies the Rose's beauty, but the Rose points out that her beauty is brief while the Amaranth's plainer flowers last forever",
+        "The Amaranth withers first, proving the Rose's claim wrong"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 276,
+        "end": 423
+      },
+      "pool": "retest"
+    }
+  ]
+}
