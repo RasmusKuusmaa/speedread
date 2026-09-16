@@ -1,0 +1,322 @@
+{
+  "id": "aesop-fox-and-stork",
+  "title": "The Fox and the Stork",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Fox invited a Stork to dinner, at which the only fare provided was a large flat dish of soup. The Fox lapped it up with great relish, but the Stork with her long bill tried in vain to partake of the savoury broth. Her evident distress caused the sly Fox much amusement. But not long after the Stork invited him in turn, and set before him a pitcher with a long and narrow neck, into which she could get her bill with ease. Thus, while she enjoyed her dinner, the Fox sat by hungry and helpless, for it was impossible for him to reach the tempting contents of the vessel."
+  ],
+  "questions": [
+    {
+      "id": "aesop-fox-and-stork-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox serve the Stork for dinner?",
+      "options": [
+        "A pitcher of fresh milk",
+        "A basket of small fish",
+        "A large flat dish of soup",
+        "A bowl of grain and seeds"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 42,
+        "end": 94
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-stork-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why can't the Stork eat the soup at the Fox's dinner?",
+      "options": [
+        "Her long bill cannot manage the flat, shallow dish",
+        "The soup is too hot for her to touch",
+        "The Fox eats it all before she arrives",
+        "She does not care for the taste of soup"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 140,
+        "end": 214
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-stork-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Fox react to the Stork's struggle with the soup?",
+      "options": [
+        "He offers to feed her himself",
+        "He apologizes and fetches a different dish",
+        "He refuses to eat until she is served properly",
+        "He is much amused by her distress"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 216,
+        "end": 270
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-stork-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Stork serve the Fox when she invites him to dinner?",
+      "options": [
+        "A large flat dish like the Fox used",
+        "A pitcher with a long and narrow neck",
+        "A basket woven from reeds",
+        "A wide, shallow bowl of broth"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 326,
+        "end": 378
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-stork-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Fox unable to do at the Stork's dinner?",
+      "options": [
+        "Find his way to the Stork's home",
+        "Finish eating before the Stork does",
+        "Reach the contents of the pitcher",
+        "Recognize the food that is served"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 501,
+        "end": 571
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-stork-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Stork choose a pitcher with a long, narrow neck for her dinner?",
+      "options": [
+        "It suits her own bill while shutting the Fox out, just as he had done to her",
+        "It is the only dish she owns",
+        "It keeps the food warmer for longer",
+        "It was a gift from the Fox himself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 380,
+        "end": 423
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-stork-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Stork's choice of dish suggest about her feelings toward the Fox's earlier trick?",
+      "options": [
+        "She has forgotten all about the first dinner",
+        "She wants to make peace by serving his favorite food",
+        "She is unaware that the Fox once mocked her",
+        "She is repaying him in kind for his amusement at her expense"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 461,
+        "end": 495
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-stork-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"fare\" mean in \"the only fare provided was a large flat dish of soup\"?",
+      "options": [
+        "The price charged for a meal",
+        "The food that is served",
+        "The distance travelled to arrive",
+        "The dishes used to serve a meal"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 42,
+        "end": 94
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-stork-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Fox lapped up the soup with \"relish\"?",
+      "options": [
+        "With great caution",
+        "With visible embarrassment",
+        "With obvious enjoyment",
+        "With noisy complaint"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 96,
+        "end": 134
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-stork-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "A trick played on someone else may well be played back on you",
+        "Foxes and Storks should never share a meal together",
+        "Only the cleverest animal at a dinner can ever eat well",
+        "Soup is a poor choice of food for any dinner party"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 461,
+        "end": 571
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-stork-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who invites whom to dinner first?",
+      "options": [
+        "The Stork invites the Fox",
+        "They arrange the first dinner together",
+        "Neither one issues an invitation",
+        "The Fox invites the Stork"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 31
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-stork-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Fox eat the soup at his own dinner?",
+      "options": [
+        "He pours it into a smaller cup",
+        "He laps it up with great relish",
+        "He waits until it cools before eating",
+        "He shares it evenly with the Stork"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 96,
+        "end": 134
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-stork-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the Stork while the Fox goes hungry at her dinner?",
+      "options": [
+        "She also fails to eat anything",
+        "She offers to share her food with him",
+        "She enjoys her dinner with ease",
+        "She apologizes for the narrow pitcher"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 431,
+        "end": 495
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-stork-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Stork wait until her own dinner to respond to the Fox's trick?",
+      "options": [
+        "She needs the chance to serve a dish suited to her own bill instead of his",
+        "She is too polite to say anything at the first dinner",
+        "She does not realize the Fox has tricked her until much later",
+        "She wants to give the Fox a second chance to be kind"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 276,
+        "end": 320
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-stork-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the outcome of the second dinner suggest about the Fox's earlier amusement?",
+      "options": [
+        "It permanently ends his friendship with the Stork",
+        "It teaches the Stork to avoid dinners altogether",
+        "It has no real consequence for him at all",
+        "It comes back to cost him a meal of his own"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 501,
+        "end": 571
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-stork-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Stork tried \"in vain\" to eat the soup?",
+      "options": [
+        "She tried without being noticed",
+        "She tried without success",
+        "She tried eagerly and quickly",
+        "She tried only once before giving up"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 169,
+        "end": 214
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-stork-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "The Fox and the Stork share a meal that satisfies them both",
+        "The Stork refuses to ever dine with the Fox again",
+        "The Stork repays the Fox's trick with a dinner he cannot eat either",
+        "The Fox teaches the Stork how to eat from a flat dish"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 326,
+        "end": 378
+      },
+      "pool": "retest"
+    }
+  ]
+}
