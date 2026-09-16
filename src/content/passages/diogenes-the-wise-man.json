@@ -1,0 +1,331 @@
+{
+  "id": "diogenes-the-wise-man",
+  "title": "Diogenes the Wise Man",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/18442",
+  "attribution": "Excerpted (trimmed) from \"Diogenes the Wise Man\" in Fifty Famous Stories Retold by James Baldwin (1896), via Project Gutenberg. Syllable-break hyphens from the original edition's typesetting (e.g., \"Di-og'e-nes,\" \"Cor-inth\") have been corrected, and two short paragraphs have been merged.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "philosophy",
+  "calibrationOnly": false,
+  "body": [
+    "At Corinth, in Greece, there lived a very wise man whose name was Diogenes. Men came from all parts of the land to see him and hear him talk.",
+    "But wise as he was, he had some very queer ways. He did not believe that any man ought to have more things than he really needed; and he said that no man needed much. And so he did not live in a house, but slept in a tub or barrel, which he rolled about from place to place.",
+    "At noon one day, Diogenes was seen walking through the streets with a lighted lantern, and looking all around as if in search of something.",
+    "\"Why do you carry a lantern when the sun is shining?\" some one said.",
+    "\"I am looking for an honest man,\" answered Diogenes.",
+    "When Alexander the Great went to Corinth, all the foremost men in the city came out to see him and to praise him. But Diogenes did not come; and he was the only man for whose opinions Alexander cared.",
+    "And so, since the wise man would not come to see the king, the king went to see the wise man. He found Diogenes in an out-of-the-way place, lying on the ground by his tub. He was enjoying the heat and the light of the sun.",
+    "When he saw the king and a great many people coming, he sat up and looked at Alexander. Alexander greeted him and said, \"Diogenes, I have heard a great deal about your wisdom. Is there anything that I can do for you?\"",
+    "\"Yes,\" said Diogenes. \"You can stand a little on one side, so as not to keep the sunshine from me.\"",
+    "This answer was so different from what he expected, that the king was much surprised. But it did not make him angry; it only made him admire the strange man all the more. When he turned to ride back, he said to his officers, \"Say what you will; if I were not Alexander, I would like to be Diogenes.\""
+  ],
+  "questions": [
+    {
+      "id": "diogenes-the-wise-man-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in what city did Diogenes live?",
+      "options": [
+        "Athens",
+        "Sparta",
+        "Corinth",
+        "Thebes"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 50
+      },
+      "pool": "first"
+    },
+    {
+      "id": "diogenes-the-wise-man-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did Diogenes sleep instead of in a house?",
+      "options": [
+        "In a tub or barrel",
+        "Under a bridge",
+        "In a cave outside the city",
+        "In the marketplace"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 174,
+        "end": 230
+      },
+      "pool": "first"
+    },
+    {
+      "id": "diogenes-the-wise-man-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was Diogenes carrying as he walked through the streets at noon?",
+      "options": [
+        "A wooden staff",
+        "A bundle of scrolls",
+        "A jug of water",
+        "A lighted lantern"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 26,
+        "end": 85
+      },
+      "pool": "first"
+    },
+    {
+      "id": "diogenes-the-wise-man-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Diogenes say he is looking for with his lantern?",
+      "options": [
+        "A missing coin",
+        "An honest man",
+        "A place to sleep",
+        "His pet dog"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 1,
+        "end": 31
+      },
+      "pool": "first"
+    },
+    {
+      "id": "diogenes-the-wise-man-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does Alexander go to see Diogenes instead of the other way around?",
+      "options": [
+        "Diogenes was too old to travel to the palace",
+        "Alexander wanted to see the famous tub for himself",
+        "Diogenes did not come to see Alexander, so Alexander went to him",
+        "Diogenes had sent Alexander a written invitation"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 8,
+        "end": 92
+      },
+      "pool": "first"
+    },
+    {
+      "id": "diogenes-the-wise-man-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Diogenes ask Alexander to do for him?",
+      "options": [
+        "Stand a little on one side so as not to block the sunshine",
+        "Give him a warmer cloak for the winter",
+        "Build him a proper house in Corinth",
+        "Send him food from the royal kitchen"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 23,
+        "end": 97
+      },
+      "pool": "first"
+    },
+    {
+      "id": "diogenes-the-wise-man-f7",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Alexander say to his officers as he rides back?",
+      "options": [
+        "\"That man should be thrown out of Corinth\"",
+        "\"Bring him a proper house at once\"",
+        "\"He has insulted me before my own men\"",
+        "\"If I were not Alexander, I would like to be Diogenes\""
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 245,
+        "end": 297
+      },
+      "pool": "first"
+    },
+    {
+      "id": "diogenes-the-wise-man-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Diogenes search for an honest man in broad daylight with a lantern?",
+      "options": [
+        "Because he cannot see well without extra light",
+        "To make the point that honest men are rare enough to need searching for",
+        "Because he has lost something valuable nearby",
+        "Because it is a custom among the wise men of Corinth"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 1,
+        "end": 51
+      },
+      "pool": "first"
+    },
+    {
+      "id": "diogenes-the-wise-man-f9",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is Alexander surprised rather than angry at Diogenes's request?",
+      "options": [
+        "He did not expect Diogenes to speak to him at all",
+        "He believed Diogenes did not know who he was",
+        "He expected Diogenes to ask for wealth or favor, not simply for sunlight",
+        "He thought Diogenes would ask to join his army"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 0,
+        "end": 50
+      },
+      "pool": "first"
+    },
+    {
+      "id": "diogenes-the-wise-man-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that Diogenes had some \"queer\" ways?",
+      "options": [
+        "Unusual or strange habits",
+        "Dishonest or deceitful habits",
+        "Cruel or unkind habits",
+        "Careless or lazy habits"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 20,
+        "end": 47
+      },
+      "pool": "first"
+    },
+    {
+      "id": "diogenes-the-wise-man-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Diogenes believe about how many things a man needs?",
+      "options": [
+        "That every man needs a house of his own",
+        "That wealth is the true mark of wisdom",
+        "That a man needs as much as a king",
+        "That no man needs very much"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 134,
+        "end": 165
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "diogenes-the-wise-man-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the foremost men of Corinth treat Alexander when he arrived?",
+      "options": [
+        "They refused to leave their homes",
+        "They came out to see him and to praise him",
+        "They asked him to leave the city at once",
+        "They sent Diogenes to greet him instead"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 42,
+        "end": 112
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "diogenes-the-wise-man-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does Alexander find Diogenes?",
+      "options": [
+        "Sitting in the city's marketplace",
+        "Standing at the gates of Corinth",
+        "Lying on the ground by his tub, in an out-of-the-way place",
+        "Walking along the seashore"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 94,
+        "end": 170
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "diogenes-the-wise-man-r4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Alexander offer to do for Diogenes when they meet?",
+      "options": [
+        "Anything Diogenes might ask of him",
+        "Build him a marble tub to replace the old one",
+        "Appoint him as an adviser to the army",
+        "Grant him a place among the foremost men"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 176,
+        "end": 215
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "diogenes-the-wise-man-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Diogenes choose to live in a tub rather than a house?",
+      "options": [
+        "He cannot afford to build himself a house",
+        "The city of Corinth forbids him from owning property",
+        "He wants to travel and a tub is easy to roll about",
+        "It fits his belief that no one truly needs more than very little"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 49,
+        "end": 128
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "diogenes-the-wise-man-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that Diogenes lived in an \"out-of-the-way\" place?",
+      "options": [
+        "A place at the very center of the city",
+        "A spot away from where most people usually went",
+        "A place forbidden to ordinary citizens",
+        "A place known only to kings"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 115,
+        "end": 138
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "diogenes-the-wise-man-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A philosopher begs a king for a proper house to live in",
+        "A king punishes a philosopher for refusing to greet him",
+        "A king offers a poor philosopher anything, and the philosopher asks only to be left alone in the sun",
+        "A philosopher joins Alexander's army after their meeting"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 245,
+        "end": 297
+      },
+      "pool": "retest"
+    }
+  ]
+}

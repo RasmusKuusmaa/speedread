@@ -24,6 +24,7 @@ import civilEngineeringAncientOrigins from "./civil-engineering-ancient-origins.
 import comparativeAdvantageGainsFromTrade from "./comparative-advantage-gains-from-trade.json";
 import covalentBonding from "./covalent-bonding.json";
 import descartesDiscourseGoodSense from "./descartes-discourse-good-sense.json";
+import diogenesTheWiseMan from "./diogenes-the-wise-man.json";
 import eiffelTowerHistory from "./eiffel-tower-history.json";
 import electricalEngineering19thCentury from "./electrical-engineering-19th-century.json";
 import empireStateBuildingHistory from "./empire-state-building-history.json";
@@ -198,6 +199,7 @@ export const rawPassages: unknown[] = [
   baconOfStudies,
   covalentBonding,
   descartesDiscourseGoodSense,
+  diogenesTheWiseMan,
   giftOfTheMagiOpening,
   goldenGateBridgeHistory,
   internationalSpaceStationHistory,
