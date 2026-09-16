@@ -96,6 +96,7 @@ import frankensteinCreationScene from "./frankenstein-creation-scene.json";
 import giftOfTheMagiOpening from "./gift-of-the-magi-opening.json";
 import goldenGateBridgeHistory from "./golden-gate-bridge-history.json";
 import grapheneOneAtomThick from "./graphene-one-atom-thick.json";
+import herculesAndWaggoner from "./hercules-and-waggoner.json";
 import hooverDamHistory from "./hoover-dam-history.json";
 import internationalSpaceStationHistory from "./international-space-station-history.json";
 import jupiterAndTortoise from "./jupiter-and-tortoise.json";
@@ -381,6 +382,7 @@ export const rawPassages: unknown[] = [
   photosynthesisLightIntoSugar,
   comparativeAdvantageGainsFromTrade,
   grapheneOneAtomThick,
+  herculesAndWaggoner,
   ozGrayPrairie,
   ozC01S2,
   ozC01S3,

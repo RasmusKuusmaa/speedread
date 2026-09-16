@@ -1,0 +1,323 @@
+{
+  "id": "hercules-and-waggoner",
+  "title": "Hercules and the Waggoner",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Waggoner was driving his team along a muddy lane with a full load behind them, when the wheels of his waggon sank so deep in the mire that no efforts of his horses could move them. As he stood there, looking helplessly on, and calling loudly at intervals upon Hercules for assistance, the god himself appeared, and said to him, \"Put your shoulder to the wheel, man, and goad on your horses, and then you may call on Hercules to assist you. If you won't lift a finger to help yourself, you can't expect Hercules or any one else to come to your aid.\"",
+    "Heaven helps those who help themselves."
+  ],
+  "questions": [
+    {
+      "id": "hercules-and-waggoner-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the Waggoner's wheels?",
+      "options": [
+        "They break apart on a rocky path",
+        "They are stolen while he rests",
+        "They sink so deep in the mire that his horses cannot move them",
+        "They freeze solid in cold weather"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 86,
+        "end": 181
+      },
+      "pool": "first"
+    },
+    {
+      "id": "hercules-and-waggoner-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Waggoner do while standing looking on helplessly?",
+      "options": [
+        "He calls loudly upon Hercules for assistance",
+        "He unloads the waggon by himself",
+        "He unhitches the horses and walks away",
+        "He asks a passing stranger for help"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 229,
+        "end": 285
+      },
+      "pool": "first"
+    },
+    {
+      "id": "hercules-and-waggoner-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who appears in answer to the Waggoner's calls?",
+      "options": [
+        "A passing farmer",
+        "Another waggoner",
+        "A group of villagers",
+        "Hercules himself"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 287,
+        "end": 311
+      },
+      "pool": "first"
+    },
+    {
+      "id": "hercules-and-waggoner-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Hercules tell the Waggoner to do first?",
+      "options": [
+        "Wait patiently until the mud dries",
+        "Put his shoulder to the wheel and goad on his horses",
+        "Remove some of the load from the waggon",
+        "Pray again more sincerely for help"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 331,
+        "end": 391
+      },
+      "pool": "first"
+    },
+    {
+      "id": "hercules-and-waggoner-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Hercules say the Waggoner can do once he has tried himself?",
+      "options": [
+        "Give up and leave the waggon behind",
+        "Ask a different god for help",
+        "Call on Hercules to assist him",
+        "Sell the horses and walk home"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 393,
+        "end": 440
+      },
+      "pool": "first"
+    },
+    {
+      "id": "hercules-and-waggoner-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Hercules say will happen if the Waggoner won't lift a finger to help himself?",
+      "options": [
+        "He can't expect Hercules or anyone else to come to his aid",
+        "Hercules will still help him out of pity",
+        "The horses will eventually free the wheels alone",
+        "The gods will punish him for his laziness"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 442,
+        "end": 548
+      },
+      "pool": "first"
+    },
+    {
+      "id": "hercules-and-waggoner-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Hercules refuse to simply free the wheels himself?",
+      "options": [
+        "He is unable to move the waggon himself",
+        "He is testing whether the Waggoner truly worships him",
+        "He believes the horses alone should solve the problem",
+        "He wants the Waggoner to make an effort before expecting outside help"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 442,
+        "end": 548
+      },
+      "pool": "first"
+    },
+    {
+      "id": "hercules-and-waggoner-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Waggoner's behavior before Hercules arrives suggest about his approach to the problem?",
+      "options": [
+        "He has already tried everything possible before calling for help",
+        "He expects help to arrive without making any effort of his own",
+        "He believes Hercules will punish him for asking at all",
+        "He does not actually believe Hercules will respond"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 183,
+        "end": 285
+      },
+      "pool": "first"
+    },
+    {
+      "id": "hercules-and-waggoner-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"goad\" mean in \"goad on your horses\"?",
+      "options": [
+        "To feed or water",
+        "To untie or release",
+        "To urge or prompt into action",
+        "To praise or encourage gently"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 372,
+        "end": 391
+      },
+      "pool": "first"
+    },
+    {
+      "id": "hercules-and-waggoner-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "Real help comes to those who first make an honest effort on their own behalf",
+        "Gods only assist those who never ask for their help",
+        "Waggoners should never travel on muddy roads",
+        "Calling loudly for help is the fastest way to solve a problem"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 39
+      },
+      "pool": "first"
+    },
+    {
+      "id": "hercules-and-waggoner-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what kind of load is the Waggoner carrying?",
+      "options": [
+        "An empty waggon",
+        "A load of firewood only",
+        "A load too light to matter",
+        "A full load"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 51,
+        "end": 79
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "hercules-and-waggoner-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the Waggoner get stuck?",
+      "options": [
+        "On a steep hill",
+        "In a muddy lane",
+        "At a narrow bridge",
+        "In a rocky pass"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 15,
+        "end": 50
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "hercules-and-waggoner-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Hercules call the Waggoner while speaking to him?",
+      "options": [
+        "\"Friend\"",
+        "\"Fool\"",
+        "\"Man\"",
+        "\"Traveller\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 331,
+        "end": 366
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "hercules-and-waggoner-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might Hercules's response be seen as fair rather than harsh?",
+      "options": [
+        "He is not refusing to help, only asking for effort before assistance is given",
+        "He never actually appears to speak to the Waggoner at all",
+        "He offers to do all the work if the Waggoner simply watches",
+        "He blames the Waggoner for choosing to travel that day"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 393,
+        "end": 440
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "hercules-and-waggoner-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what specific action does Hercules expect before he will help?",
+      "options": [
+        "A formal prayer recited in the proper way",
+        "A sacrifice offered at a temple",
+        "A promise to travel only in dry weather from then on",
+        "Physical effort from the Waggoner himself, pushing and urging the horses on"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 331,
+        "end": 391
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "hercules-and-waggoner-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"mire\" mean in \"sank so deep in the mire\"?",
+      "options": [
+        "Loose gravel or stones",
+        "Deep mud or wet ground",
+        "Thick ice or frost",
+        "Dry sand or dust"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 111,
+        "end": 135
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "hercules-and-waggoner-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "Hercules frees the Waggoner's wheels without saying a word",
+        "The Waggoner refuses to accept help even when it is offered",
+        "Hercules tells a Waggoner calling for help that he must first try to free the wheels himself",
+        "The horses free the wheels before Hercules arrives"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 442,
+        "end": 548
+      },
+      "pool": "retest"
+    }
+  ]
+}
