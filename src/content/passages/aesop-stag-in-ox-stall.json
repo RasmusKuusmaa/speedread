@@ -1,0 +1,325 @@
+{
+  "id": "aesop-stag-in-ox-stall",
+  "title": "The Stag in the Ox-Stall",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Stag, chased from his lair by the hounds, took refuge in a farmyard, and, entering a stable where a number of oxen were stalled, thrust himself under a pile of hay in a vacant stall, where he lay concealed, all but the tips of his horns.",
+    "Presently one of the Oxen said to him, \"What has induced you to come in here? Aren't you aware of the risk you are running of being captured by the herdsmen?\" To which he replied, \"Pray let me stay for the present. When night comes I shall easily escape under cover of the dark.\"",
+    "In the course of the afternoon more than one of the farm-hands came in, to attend to the wants of the cattle, but not one of them noticed the presence of the Stag, who accordingly began to congratulate himself on his escape and to express his gratitude to the Oxen. \"We wish you well,\" said the one who had spoken before, \"but you are not out of danger yet. If the master comes, you will certainly be found out, for nothing ever escapes his keen eyes.\"",
+    "Presently, sure enough, in he came, and made a great to-do about the way the Oxen were kept. \"The beasts are starving,\" he cried; \"here, give them more hay, and put plenty of litter under them.\" As he spoke, he seized an armful himself from the pile where the Stag lay concealed, and at once detected him. Calling his men, he had him seized at once and killed for the table."
+  ],
+  "questions": [
+    {
+      "id": "aesop-stag-in-ox-stall-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is chasing the Stag at the start?",
+      "options": [
+        "Wolves",
+        "Farmhands with torches",
+        "Hounds",
+        "A hunter on horseback"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 8,
+        "end": 42
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-in-ox-stall-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the Stag hide himself?",
+      "options": [
+        "Under a pile of hay in a vacant stall",
+        "Behind a stack of firewood",
+        "Inside an empty grain sack",
+        "Beneath a wagon in the yard"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 131,
+        "end": 183
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-in-ox-stall-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what part of the Stag remains visible in his hiding place?",
+      "options": [
+        "One of his hooves",
+        "His tail",
+        "His nose",
+        "The tips of his horns"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 209,
+        "end": 238
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-in-ox-stall-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Stag plan to do when night comes?",
+      "options": [
+        "Ask the Oxen to hide him further",
+        "Escape under cover of the dark",
+        "Fight his way past the herdsmen",
+        "Wait for the farmhands to free him"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 215,
+        "end": 277
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-in-ox-stall-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who does the Ox warn the Stag about, even after the farm-hands miss him?",
+      "options": [
+        "A pack of hounds",
+        "A neighboring farmer",
+        "The master",
+        "The herdsmen's dogs"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 358,
+        "end": 410
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-in-ox-stall-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the master do that leads him to find the Stag?",
+      "options": [
+        "He seizes an armful of hay from the very pile where the Stag is hidden",
+        "He counts the oxen and notices one extra shape",
+        "He orders the stable searched from top to bottom",
+        "He smells something unusual in the stall"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 208,
+        "end": 278
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-in-ox-stall-f7",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the Stag once the master detects him?",
+      "options": [
+        "He is allowed to leave the farm unharmed",
+        "He is sold to a passing merchant",
+        "He escapes before the master can call his men",
+        "He is seized at once and killed for the table"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 323,
+        "end": 373
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-in-ox-stall-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Ox warn the Stag even though the farm-hands failed to notice him?",
+      "options": [
+        "He wants the Stag to leave the stall immediately",
+        "He knows the master is far more observant than the ordinary workers",
+        "He is jealous of the attention the Stag is receiving",
+        "He believes the farm-hands will return and search again"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 416,
+        "end": 450
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-in-ox-stall-f9",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is it especially unlucky that the master reaches for hay from that exact pile?",
+      "options": [
+        "The master had been specifically told where to look",
+        "The Stag accidentally makes a sound at that moment",
+        "An ordinary task the master performs anyway is what exposes the Stag's hiding place",
+        "The Oxen point toward the pile without meaning to"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 208,
+        "end": 278
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-in-ox-stall-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Escaping notice from careless eyes is no guarantee of safety from a careful one",
+        "Farmyards are always more dangerous than open forests for a hunted animal",
+        "Oxen cannot be trusted to keep a secret for long",
+        "Hiding in plain sight is always the safest strategy"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 416,
+        "end": 450
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-in-ox-stall-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the Stag take refuge after fleeing the hounds?",
+      "options": [
+        "A dense forest",
+        "A rocky cave",
+        "A riverbank",
+        "A farmyard"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 44,
+        "end": 69
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-stag-in-ox-stall-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Ox ask the Stag when he first notices him?",
+      "options": [
+        "Where he came from originally",
+        "What induced him to come in there",
+        "How long he plans to stay",
+        "Whether he is hurt from the chase"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 40,
+        "end": 77
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-stag-in-ox-stall-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who comes into the stable during the afternoon without noticing the Stag?",
+      "options": [
+        "The master's children",
+        "A group of hunters",
+        "The farm-hands",
+        "The village blacksmith"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 31,
+        "end": 108
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-stag-in-ox-stall-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Stag begin to congratulate himself too soon?",
+      "options": [
+        "He mistakes the farm-hands missing him for being fully safe",
+        "He has already made it safely out of the farmyard",
+        "He believes the Oxen have promised to protect him",
+        "He no longer hears the hounds anywhere nearby"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 180,
+        "end": 223
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-stag-in-ox-stall-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the master's complaint that \"the beasts are starving\" lead directly to?",
+      "options": [
+        "The farm-hands being sent away in disgrace",
+        "The Oxen being moved to a different stall",
+        "The Stag being fed alongside the Oxen",
+        "His own hands search through the very hay concealing the Stag"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 137,
+        "end": 192
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-stag-in-ox-stall-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"concealed\" mean in \"where he lay concealed\"?",
+      "options": [
+        "Injured and unable to move",
+        "Hidden from view",
+        "Sleeping soundly",
+        "Tied down with rope"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 185,
+        "end": 207
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-stag-in-ox-stall-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Stag is discovered immediately upon entering the stable",
+        "The Oxen help the Stag escape before the master arrives",
+        "A Stag hides successfully from careless farm-hands but is found by the sharp-eyed master",
+        "The master welcomes the Stag and lets him live among the cattle"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 323,
+        "end": 373
+      },
+      "pool": "retest"
+    }
+  ]
+}
