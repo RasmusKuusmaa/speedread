@@ -9,6 +9,7 @@ import baconOfStudies from "./bacon-of-studies.json";
 import baconOfTruth from "./bacon-of-truth.json";
 import bostonTeaParty from "./boston-tea-party.json";
 import brooklynBridgeHistory from "./brooklyn-bridge-history.json";
+import bruceAndTheSpider from "./bruce-and-the-spider.json";
 import channelTunnelHistory from "./channel-tunnel-history.json";
 import civilEngineeringAncientOrigins from "./civil-engineering-ancient-origins.json";
 import comparativeAdvantageGainsFromTrade from "./comparative-advantage-gains-from-trade.json";
@@ -171,6 +172,7 @@ export const rawPassages: unknown[] = [
   aesopHareAndTortoise,
   aesopLionAndMouse,
   aesopNorthWindAndSun,
+  bruceAndTheSpider,
   aliceDownTheRabbitHole,
   aristotleNicomacheanVirtueHabit,
   baconOfTruth,

@@ -1,0 +1,329 @@
+{
+  "id": "bruce-and-the-spider",
+  "title": "Bruce and the Spider",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/18442",
+  "attribution": "Excerpted (trimmed) from \"Bruce and the Spider\" in Fifty Famous Stories Retold by James Baldwin (1896), via Project Gutenberg. Syllable-break hyphens from the original edition's typesetting (e.g., \"Scot-land,\" \"scat-tered\") have been corrected, and the closing paragraph has been trimmed.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "history",
+  "calibrationOnly": false,
+  "body": [
+    "There was once a king of Scotland whose name was Robert Bruce. He had need to be both brave and wise, for the times in which he lived were wild and rude. The King of England was at war with him, and had led a great army into Scotland to drive him out of the land.",
+    "Battle after battle had been fought. Six times had Bruce led his brave little army against his foes; and six times had his men been beaten, and driven into flight. At last his army was scattered, and he was forced to hide himself in the woods and in lonely places among the mountains.",
+    "One rainy day, Bruce lay on the ground under a rude shed, listening to the patter of the drops on the roof above him. He was tired and sick at heart, and ready to give up all hope. It seemed to him that there was no use for him to try to do anything more.",
+    "As he lay thinking, he saw a spider over his head, making ready to weave her web. He watched her as she toiled slowly and with great care. Six times she tried to throw her frail thread from one beam to another, and six times it fell short.",
+    "\"Poor thing!\" said Bruce: \"you, too, know what it is to fail.\"",
+    "But the spider did not lose hope with the sixth failure. With still more care, she made ready to try for the seventh time. Bruce almost forgot his own troubles as he watched her swing herself out upon the slender line. Would she fail again? No! The thread was carried safely to the beam, and fastened there.",
+    "\"I, too, will try a seventh time!\" cried Bruce.",
+    "He arose and called his men together. He told them of his plans, and sent them out with messages of cheer to his disheartened people. Soon there was an army of brave Scotchmen around him. Another battle was fought, and the King of England was glad to go back into his own country."
+  ],
+  "questions": [
+    {
+      "id": "bruce-and-the-spider-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the name of the king of Scotland in the story?",
+      "options": [
+        "Black Douglas",
+        "Alfred the Great",
+        "Robert Bruce",
+        "William Tell"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 15,
+        "end": 61
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bruce-and-the-spider-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many times had Bruce's men been beaten before his army was scattered?",
+      "options": [
+        "Six times",
+        "Two times",
+        "Ten times",
+        "Once only"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 105,
+        "end": 138
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bruce-and-the-spider-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does Bruce take shelter on the rainy day?",
+      "options": [
+        "Inside a stone castle",
+        "Beneath a wagon",
+        "In a shepherd's hut",
+        "Under a rude shed"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 15,
+        "end": 56
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bruce-and-the-spider-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the spider trying to do over Bruce's head?",
+      "options": [
+        "Climb down to the floor of the shed",
+        "Throw her thread from one beam to another to weave her web",
+        "Catch a fly that is buzzing nearby",
+        "Hide from the rain dripping through the roof"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 139,
+        "end": 209
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bruce-and-the-spider-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, on which attempt does the spider finally succeed?",
+      "options": [
+        "The second",
+        "The fourth",
+        "The seventh",
+        "The tenth"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 79,
+        "end": 121
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bruce-and-the-spider-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Bruce cry out once the spider succeeds?",
+      "options": [
+        "\"I, too, will try a seventh time!\"",
+        "\"At last, my luck has turned!\"",
+        "\"Now I shall surely win the war!\"",
+        "\"Poor thing, you have failed again!\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 1,
+        "end": 33
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bruce-and-the-spider-f7",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Bruce do after deciding to try again?",
+      "options": [
+        "He writes a letter to the King of England",
+        "He hides more deeply in the mountains",
+        "He asks the spider to show him her web",
+        "He calls his men together and sends out messages of cheer"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 0,
+        "end": 36
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bruce-and-the-spider-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Bruce say to the spider, \"you, too, know what it is to fail\"?",
+      "options": [
+        "He is annoyed that the spider is disturbing his rest",
+        "He recognizes that he has failed just as many times as the spider",
+        "He believes the spider is mocking his own failures",
+        "He wants to warn the spider that the shed is unsafe"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 27,
+        "end": 60
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bruce-and-the-spider-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that Bruce sent messages of cheer to his \"disheartened\" people?",
+      "options": [
+        "People who were angry at their king",
+        "People who had already won the war",
+        "People who had lost courage and hope",
+        "People who lived far from Scotland"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 109,
+        "end": 132
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bruce-and-the-spider-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the passage?",
+      "options": [
+        "Watching a small creature persist inspires a defeated king to try once more",
+        "A king learns that spiders are more dangerous than they look",
+        "A king decides that fighting further is pointless",
+        "A spider and a king agree to share the same shed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 245,
+        "end": 306
+      },
+      "pool": "first"
+    },
+    {
+      "id": "bruce-and-the-spider-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what had the King of England done at the start of the war?",
+      "options": [
+        "Sent Bruce a message asking for peace",
+        "Hidden his own army among the mountains",
+        "Refused to send any soldiers to Scotland",
+        "Led a great army into Scotland to drive Bruce out"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 199,
+        "end": 262
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "bruce-and-the-spider-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does Bruce feel as he lies under the shed?",
+      "options": [
+        "Confident that his men will soon return",
+        "Tired and sick at heart, ready to give up all hope",
+        "Angry at the spider for waking him",
+        "Eager to fight another battle at once"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 118,
+        "end": 179
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "bruce-and-the-spider-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the spider's thread on her sixth attempt?",
+      "options": [
+        "It caught fire",
+        "It wrapped around Bruce's hand",
+        "It fell short",
+        "It reached the beam successfully"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 215,
+        "end": 238
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "bruce-and-the-spider-r4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the final result of the battle Bruce fought after gathering his men?",
+      "options": [
+        "The King of England was glad to go back into his own country",
+        "The King of England captured Bruce and his men",
+        "Neither side won, and the war continued for years",
+        "Bruce's men refused to fight again"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 219,
+        "end": 279
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "bruce-and-the-spider-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Bruce almost forget his own troubles while watching the spider's seventh try?",
+      "options": [
+        "He falls asleep before the spider finishes",
+        "He is distracted by the sound of the rain",
+        "He hears his men approaching the shed",
+        "He becomes absorbed in whether the spider will finally succeed"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 123,
+        "end": 217
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "bruce-and-the-spider-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that Bruce's army was \"scattered\"?",
+      "options": [
+        "It was reorganized into a stronger formation",
+        "It was broken apart and driven in different directions",
+        "It was hidden safely inside a castle",
+        "It had grown larger after the battle"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 172,
+        "end": 194
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "bruce-and-the-spider-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A king abandons his throne after watching a spider fail",
+        "A spider convinces a king to make peace with his enemy",
+        "A defeated king finds new resolve to try again after watching a spider succeed",
+        "A king trains a spider to help him escape the mountains"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 1,
+        "end": 33
+      },
+      "pool": "retest"
+    }
+  ]
+}
