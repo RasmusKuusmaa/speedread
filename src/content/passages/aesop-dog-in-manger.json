@@ -1,0 +1,322 @@
+{
+  "id": "aesop-dog-in-manger",
+  "title": "The Dog in the Manger",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Dog was lying in a Manger on the hay which had been put there for the cattle, and when they came and tried to eat, he growled and snapped at them and wouldn't let them get at their food. \"What a selfish beast,\" said one of them to his companions; \"he can't eat himself and yet he won't let those eat who can.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-dog-in-manger-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where is the Dog lying?",
+      "options": [
+        "Beside the cattle's water trough",
+        "Under a nearby tree",
+        "In a Manger on the hay",
+        "Inside the farmhouse"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 38
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-in-manger-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who was the hay in the Manger meant for?",
+      "options": [
+        "The cattle",
+        "The Dog himself",
+        "The farmer's horses",
+        "A different farm entirely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 31,
+        "end": 78
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-in-manger-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Dog do when the cattle try to eat?",
+      "options": [
+        "He shares the hay willingly",
+        "He runs away and hides",
+        "He barks to call the farmer",
+        "He growls and snaps at them"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 117,
+        "end": 187
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-in-manger-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the cattle call the Dog?",
+      "options": [
+        "A clever trickster",
+        "A selfish beast",
+        "A dangerous animal",
+        "A lazy creature"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 190,
+        "end": 210
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-in-manger-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the cattle point out about the Dog and the hay?",
+      "options": [
+        "He eats it slowly to make it last longer",
+        "He hides it from the other dogs on the farm",
+        "He can't eat it himself, yet won't let those who can eat it",
+        "He only eats it when no one is watching"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 250,
+        "end": 309
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-in-manger-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the cattle's comment call the Dog's behavior senseless rather than merely unkind?",
+      "options": [
+        "He denies others something he has no actual use for himself",
+        "He is punished for his actions by the farmer",
+        "He eventually realizes his mistake and shares the hay",
+        "He is unaware that hay is not food for dogs"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 250,
+        "end": 309
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-in-manger-f7",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"Manger\" refer to in the passage?",
+      "options": [
+        "A small barn for storing tools",
+        "A fenced field for grazing",
+        "A wooden cart for hauling hay",
+        "A feeding trough for animals"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 38
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-in-manger-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"companions\" mean in \"said one of them to his companions\"?",
+      "options": [
+        "Strangers passing by",
+        "Fellow members of the same group",
+        "The Dog's owners",
+        "Workers on the farm"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 213,
+        "end": 247
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-in-manger-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"selfish\" mean in \"What a selfish beast\"?",
+      "options": [
+        "Extremely hungry and desperate",
+        "Confused about what is happening",
+        "Concerned only with one's own wants, without regard for others",
+        "Frightened of the surrounding cattle"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 190,
+        "end": 210
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-in-manger-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Denying others a benefit you cannot use yourself is a pointless kind of selfishness",
+        "Dogs should never be allowed near cattle feed",
+        "Cattle are wiser than dogs about sharing resources",
+        "Selfishness always leads to eventual punishment"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 250,
+        "end": 309
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-in-manger-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what were the cattle trying to do?",
+      "options": [
+        "Escape from their pen",
+        "Find fresh water nearby",
+        "Sleep in the Manger themselves",
+        "Eat the hay in the Manger"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 84,
+        "end": 115
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-in-manger-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who speaks the complaint about the Dog?",
+      "options": [
+        "The farmer who owns the Manger",
+        "One of the cattle, to his companions",
+        "Another dog passing by",
+        "A bird watching from a nearby tree"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 213,
+        "end": 247
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-in-manger-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, does the Dog actually eat the hay himself?",
+      "options": [
+        "Yes, he eats a small amount of it",
+        "Yes, he eats all of it eventually",
+        "No, the passage says he can't eat it himself",
+        "The passage does not say either way"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 250,
+        "end": 270
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-in-manger-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the cattle feel their complaint is especially justified?",
+      "options": [
+        "The Dog gains nothing from keeping them away, making his behavior pure spite",
+        "The Dog has promised to share the hay later",
+        "The cattle believe the hay actually belongs to the Dog",
+        "The cattle are the ones who put the hay there originally"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 250,
+        "end": 309
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-in-manger-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Dog's growling and snapping suggest about his reason for guarding the hay?",
+      "options": [
+        "It is meant to protect the hay from spoiling",
+        "It is meant to train the cattle to be more careful",
+        "It is meant to warn the cattle of a hidden danger",
+        "It seems driven by simple possessiveness rather than any real need"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 117,
+        "end": 187
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-in-manger-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Dog \"snapped at\" the cattle?",
+      "options": [
+        "He spoke sharply in words to them",
+        "He tried to bite at them threateningly",
+        "He jumped quickly away from them",
+        "He offered them a small portion of hay"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 117,
+        "end": 147
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-in-manger-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Dog shares the Manger's hay evenly with the cattle",
+        "A Dog eats all the hay before the cattle arrive",
+        "A Dog refuses to let cattle eat hay he himself has no use for, and they call him selfish for it",
+        "The cattle drive the Dog away from the Manger"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 250,
+        "end": 309
+      },
+      "pool": "retest"
+    }
+  ]
+}
