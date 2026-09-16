@@ -1,0 +1,323 @@
+{
+  "id": "aesop-two-pots",
+  "title": "The Two Pots",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Two Pots, one of earthenware and the other of brass, were carried away down a river in flood. The Brazen Pot urged his companion to keep close by his side, and he would protect him. The other thanked him, but begged him not to come near him on any account: \"For that,\" he said, \"is just what I am most afraid of. One touch from you and I should be broken in pieces.\"",
+    "Equals make the best friends."
+  ],
+  "questions": [
+    {
+      "id": "aesop-two-pots-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what are the two Pots made of?",
+      "options": [
+        "Wood and iron",
+        "Clay and glass",
+        "Earthenware and brass",
+        "Silver and copper"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 10,
+        "end": 51
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-two-pots-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how do the two Pots come to be carried down the river?",
+      "options": [
+        "The river was in flood",
+        "A boat carrying them capsized",
+        "A storm blew them off a shelf into the water",
+        "A merchant dropped them from a bridge"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 53,
+        "end": 92
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-two-pots-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Brazen Pot urge his companion to do?",
+      "options": [
+        "Float ahead of him to check for danger",
+        "Call out for help from the riverbank",
+        "Hold on tightly to a passing branch",
+        "Keep close by his side, so he can protect him"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 109,
+        "end": 180
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-two-pots-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Earthenware Pot beg the Brazen Pot not to do?",
+      "options": [
+        "Speak so loudly in the water",
+        "Come near him on any account",
+        "Leave him alone in the current",
+        "Reach the shore before he does"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 209,
+        "end": 255
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-two-pots-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Earthenware Pot say he is most afraid of?",
+      "options": [
+        "Sinking to the bottom of the river",
+        "Being swept too far from home",
+        "Being touched by the Brazen Pot and broken in pieces",
+        "Losing sight of the Brazen Pot"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 262,
+        "end": 364
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-two-pots-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Brazen Pot's offer of protection actually risky for the Earthenware Pot?",
+      "options": [
+        "The very closeness meant to protect him could shatter his fragile material instead",
+        "The Brazen Pot secretly wants to sink the Earthenware Pot",
+        "The river current would push them apart no matter what",
+        "The Earthenware Pot cannot swim as well as the Brazen Pot"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 313,
+        "end": 364
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-two-pots-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Earthenware Pot understand about his own nature that the Brazen Pot may not fully consider?",
+      "options": [
+        "That he is actually the stronger of the two",
+        "That he does not need any protection at all",
+        "That he was made by a different craftsman",
+        "That he is far more fragile than his companion"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 336,
+        "end": 364
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-two-pots-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"Brazen\" mean in \"The Brazen Pot\"?",
+      "options": [
+        "Extremely bold or shameless",
+        "Made of brass",
+        "Painted a bright color",
+        "Very old and cracked"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 94,
+        "end": 128
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-two-pots-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Pots were carried away \"in flood\"?",
+      "options": [
+        "The river had frozen over completely",
+        "The river was unusually calm and still",
+        "The river was swollen and overflowing with water",
+        "The river had run dry in places"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 53,
+        "end": 92
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-two-pots-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "A partnership between very different kinds of things can put the weaker one at risk",
+        "Rivers in flood are too dangerous for any pot to survive",
+        "Brass is always a better material than earthenware",
+        "True friends should always stay as close as possible"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 29
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-two-pots-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Earthenware Pot respond to the offer of protection?",
+      "options": [
+        "He gladly accepts and moves closer at once",
+        "He ignores the offer and drifts silently away",
+        "He asks for a different kind of help instead",
+        "He thanks the Brazen Pot but declines the offer"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 182,
+        "end": 255
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-two-pots-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Brazen Pot promise to do if the other stays close?",
+      "options": [
+        "Guide him to the shore",
+        "Protect him",
+        "Warn him of rocks ahead",
+        "Carry him out of the water"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 160,
+        "end": 180
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-two-pots-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the immediate cause of the two Pots being swept away together?",
+      "options": [
+        "A sudden storm at sea",
+        "A boat that overturned",
+        "A river in flood",
+        "A bridge that collapsed"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 58,
+        "end": 92
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-two-pots-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Earthenware Pot's caution seem wiser than it might first appear?",
+      "options": [
+        "It protects him from a danger the well-meaning Brazen Pot does not fully grasp",
+        "It shows he does not trust the Brazen Pot's intentions at all",
+        "It proves he wants to be swept away alone",
+        "It reveals that he secretly dislikes the Brazen Pot"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 279,
+        "end": 311
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-two-pots-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what mismatch between the two Pots creates the danger in the first place?",
+      "options": [
+        "One floats while the other tends to sink",
+        "One is much larger than the other",
+        "One belongs to a different owner than the other",
+        "One is fragile and the other is hard enough to break it on contact"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 10,
+        "end": 51
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-two-pots-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"on any account\" mean in \"not to come near him on any account\"?",
+      "options": [
+        "Only during the daytime",
+        "Under no circumstances at all",
+        "As often as possible",
+        "Only if truly necessary"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 220,
+        "end": 255
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-two-pots-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "Two Pots work together and safely reach the shore",
+        "A Pot made of brass is broken by the river current",
+        "A fragile Pot refuses a sturdier Pot's offer of closeness, fearing it would be destroyed",
+        "Two Pots argue over which material is stronger"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 313,
+        "end": 364
+      },
+      "pool": "retest"
+    }
+  ]
+}
