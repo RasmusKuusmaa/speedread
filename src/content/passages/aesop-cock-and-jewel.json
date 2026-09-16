@@ -1,0 +1,322 @@
+{
+  "id": "aesop-cock-and-jewel",
+  "title": "The Cock and the Jewel",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Cock, scratching the ground for something to eat, turned up a Jewel that had by chance been dropped there. \"Ho!\" said he, \"a fine thing you are, no doubt, and, had your owner found you, great would his joy have been. But for me! give me a single grain of corn before all the jewels in the world.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-cock-and-jewel-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Cock doing when he finds the Jewel?",
+      "options": [
+        "Building a nest for the night",
+        "Chasing another bird across the yard",
+        "Scratching the ground for something to eat",
+        "Resting quietly under a tree"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 50
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cock-and-jewel-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Jewel come to be in the ground?",
+      "options": [
+        "It had by chance been dropped there",
+        "It was buried there on purpose by its owner",
+        "It fell from a passing cart",
+        "It was left behind by another bird"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 62,
+        "end": 107
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cock-and-jewel-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Cock say the Jewel's owner would have felt upon finding it?",
+      "options": [
+        "Deep suspicion",
+        "Mild curiosity",
+        "Total indifference",
+        "Great joy"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 162,
+        "end": 217
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cock-and-jewel-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Cock say he would prefer over all the jewels in the world?",
+      "options": [
+        "A warm place to sleep",
+        "A single grain of corn",
+        "A quiet corner of the yard",
+        "A companion to talk to"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 231,
+        "end": 296
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cock-and-jewel-f5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Jewel have no real value to the Cock?",
+      "options": [
+        "He does not recognize what a jewel actually is",
+        "He believes it is fake and not a real gem",
+        "It cannot satisfy his immediate need for food",
+        "He is afraid it might belong to someone dangerous"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 231,
+        "end": 296
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cock-and-jewel-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Cock's comment about the Jewel's owner suggest about how value depends on who possesses something?",
+      "options": [
+        "The same object can be treasured by one and worthless to another, depending on their needs",
+        "Jewels are always more valuable to birds than to people",
+        "Every owner would react to losing a jewel in the same way",
+        "The Cock wishes he could sell the Jewel to its rightful owner"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 162,
+        "end": 230
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cock-and-jewel-f7",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"turned up\" mean in \"turned up a Jewel\"?",
+      "options": [
+        "Polished until it shone brightly",
+        "Buried more deeply in the soil",
+        "Traded for something more useful",
+        "Uncovered or brought to the surface"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 52,
+        "end": 107
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cock-and-jewel-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"by chance\" mean in \"by chance been dropped there\"?",
+      "options": [
+        "Deliberately, on purpose",
+        "Accidentally, without intention",
+        "Frequently, as a habit",
+        "Secretly, to hide it well"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 75,
+        "end": 107
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cock-and-jewel-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the Cock mean by calling the Jewel \"a fine thing\"?",
+      "options": [
+        "A dangerous or harmful object",
+        "A common or ordinary object",
+        "An impressive or valuable object",
+        "A broken or damaged object"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 125,
+        "end": 155
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cock-and-jewel-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "The worth of something depends on whether it actually meets one's own needs",
+        "Jewels are worthless to every creature except humans",
+        "Cocks are wiser than most other animals about value",
+        "Anyone who finds a lost jewel should return it immediately"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 231,
+        "end": 296
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cock-and-jewel-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exclamation does the Cock make upon finding the Jewel?",
+      "options": [
+        "\"Well!\"",
+        "\"My!\"",
+        "\"Ah!\"",
+        "\"Ho!\""
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 110,
+        "end": 113
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cock-and-jewel-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Cock call the Jewel when he first sees it?",
+      "options": [
+        "A useless stone",
+        "A fine thing",
+        "A shiny toy",
+        "A dangerous object"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 125,
+        "end": 155
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cock-and-jewel-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what phrase does the Cock use to introduce his own preference?",
+      "options": [
+        "\"As for you!\"",
+        "\"Nevertheless!\"",
+        "\"But for me!\"",
+        "\"After all!\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 219,
+        "end": 230
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cock-and-jewel-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Cock's attitude be considered practical rather than foolish?",
+      "options": [
+        "He judges the Jewel by what it can actually do for him, not by its general reputation",
+        "He simply does not understand what jewels are worth",
+        "He is trying to trick someone into giving him corn instead",
+        "He believes all jewels are actually fake imitations"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 231,
+        "end": 296
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cock-and-jewel-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what contrast does the Cock draw between himself and the Jewel's original owner?",
+      "options": [
+        "The owner would also prefer corn over the jewel",
+        "Both the Cock and the owner value the jewel equally",
+        "The owner never truly wanted the jewel in the first place",
+        "What would delight the owner leaves the Cock unmoved, since it cannot feed him"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 188,
+        "end": 230
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cock-and-jewel-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"grain\" mean in \"a single grain of corn\"?",
+      "options": [
+        "A unit of weight",
+        "A small seed or kernel",
+        "A type of coarse fabric",
+        "A small drop of liquid"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 231,
+        "end": 261
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cock-and-jewel-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Cock trades the Jewel for a bag of corn from a passing merchant",
+        "A Cock buries the Jewel again so no one else can find it",
+        "A Cock finds a Jewel but declares it worthless to him compared to a single grain of corn",
+        "A Cock returns the Jewel to its rightful owner"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 231,
+        "end": 296
+      },
+      "pool": "retest"
+    }
+  ]
+}
