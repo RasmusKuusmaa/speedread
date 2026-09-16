@@ -1,0 +1,323 @@
+{
+  "id": "aesop-ass-in-lions-skin",
+  "title": "The Ass in the Lion's Skin",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "An Ass found a Lion's Skin, and dressed himself up in it. Then he went about frightening every one he met, for they all took him to be a lion, men and beasts alike, and took to their heels when they saw him coming.",
+    "Elated by the success of his trick, he loudly brayed in triumph. The Fox heard him, and recognised him at once for the Ass he was, and said to him, \"Oho, my friend, it's you, is it? I, too, should have been afraid if I hadn't heard your voice.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-ass-in-lions-skin-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Ass find at the start?",
+      "options": [
+        "A hunter's cloak",
+        "A pile of animal bones",
+        "A Lion's Skin",
+        "A discarded shield"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 26
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-in-lions-skin-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Ass do with the Lion's Skin?",
+      "options": [
+        "He dresses himself up in it",
+        "He hides it away for later",
+        "He gives it to another animal",
+        "He tears it apart out of curiosity"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 28,
+        "end": 56
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-in-lions-skin-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how do the men and beasts react to the disguised Ass?",
+      "options": [
+        "They approach him to get a closer look",
+        "They laugh at his obvious disguise",
+        "They ask him where he found the skin",
+        "They take to their heels when they see him coming"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 169,
+        "end": 213
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-in-lions-skin-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Ass do once he sees his trick succeeding?",
+      "options": [
+        "He chases after the fleeing animals",
+        "He loudly brays in triumph",
+        "He removes the disguise to celebrate",
+        "He searches for a bigger disguise"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 63
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-in-lions-skin-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who recognizes the Ass despite his disguise?",
+      "options": [
+        "A passing lion",
+        "The Ass's own owner",
+        "The Fox",
+        "A frightened villager"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 65,
+        "end": 129
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-in-lions-skin-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox say would have frightened him too?",
+      "options": [
+        "Everything, if he hadn't heard the Ass's voice",
+        "The sight of the Lion's Skin alone",
+        "The size of the Ass's shadow",
+        "The other animals' reaction to the Ass"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 182,
+        "end": 242
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-in-lions-skin-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what ultimately gives away the Ass's true identity?",
+      "options": [
+        "His unusually small size compared to a real lion",
+        "His slow way of walking",
+        "His inability to stand still while wearing the skin",
+        "His bray, a sound the Lion's Skin could not disguise"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 36,
+        "end": 129
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-in-lions-skin-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Ass's triumphant bray undo his own success?",
+      "options": [
+        "It attracts more animals to come and see him",
+        "His excitement leads him to reveal the very trait his disguise could not hide",
+        "It scares away the Fox before he can be recognized",
+        "It causes the lion skin to fall off completely"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 63
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-in-lions-skin-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"elated\" mean in \"Elated by the success of his trick\"?",
+      "options": [
+        "Filled with sudden fear",
+        "Filled with deep confusion",
+        "Filled with great joy or pride",
+        "Filled with quiet regret"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 34
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-in-lions-skin-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "A disguise can only hide your true nature until you reveal yourself through your own behavior",
+        "Lions are easily fooled by any convincing disguise",
+        "Foxes are the only animals clever enough to see through tricks",
+        "It is impossible to frighten others without real strength"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 182,
+        "end": 242
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-in-lions-skin-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who does everyone believe the disguised Ass to be?",
+      "options": [
+        "A wolf",
+        "A bear",
+        "A wild bull",
+        "A lion"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 107,
+        "end": 141
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-in-lions-skin-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Ass do as he goes about in his disguise?",
+      "options": [
+        "He searches quietly for food",
+        "He goes about frightening every one he met",
+        "He looks for the Lion who owned the skin",
+        "He avoids being seen by anyone at all"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 63,
+        "end": 105
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-in-lions-skin-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Fox address the Ass once he recognizes him?",
+      "options": [
+        "\"Stop right there, imposter!\"",
+        "\"You've fooled no one, fool!\"",
+        "\"Oho, my friend, it's you, is it?\"",
+        "\"Take off that skin at once!\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 149,
+        "end": 181
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-in-lions-skin-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Fox remain calm rather than fleeing like the others?",
+      "options": [
+        "He has enough knowledge to recognize the truth behind the disguise",
+        "He is too far away to be frightened by the sound",
+        "He has already seen the Ass without the skin earlier that day",
+        "He does not believe in lions at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 65,
+        "end": 129
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-in-lions-skin-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Fox's remark suggest about how convincing the disguise truly was?",
+      "options": [
+        "The disguise never worked on anyone, including the fleeing animals",
+        "The Fox saw through the disguise immediately without any doubt",
+        "The disguise only fooled animals, never any humans",
+        "The disguise was convincing enough that even the Fox would have been fooled without hearing the voice"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 182,
+        "end": 242
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-in-lions-skin-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the animals \"took to their heels\"?",
+      "options": [
+        "They stood their ground bravely",
+        "They ran away quickly",
+        "They fell down in fear",
+        "They called out for help"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 169,
+        "end": 213
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-in-lions-skin-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "An Ass is caught wearing a lion's skin by a real lion",
+        "A Fox helps the Ass improve his disguise",
+        "An Ass successfully frightens others in a lion's disguise until his own bray gives him away to the Fox",
+        "An Ass frightens the Fox successfully and is never discovered"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 65,
+        "end": 129
+      },
+      "pool": "retest"
+    }
+  ]
+}
