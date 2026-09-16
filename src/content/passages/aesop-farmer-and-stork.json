@@ -1,0 +1,323 @@
+{
+  "id": "aesop-farmer-and-stork",
+  "title": "The Farmer and the Stork",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Farmer set some traps in a field which he had lately sown with corn, in order to catch the cranes which came to pick up the seed. When he returned to look at his traps he found several cranes caught, and among them a Stork, which begged to be let go, and said, \"You ought not to kill me: I am not a crane, but a Stork, as you can easily see by my feathers, and I am the most honest and harmless of birds.\" But the Farmer replied, \"It's nothing to me what you are: I find you among these cranes, who ruin my crops, and, like them, you shall suffer.\"",
+    "If you choose bad companions no one will believe that you are anything but bad yourself."
+  ],
+  "questions": [
+    {
+      "id": "aesop-farmer-and-stork-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Farmer set traps in his field?",
+      "options": [
+        "To keep foxes away from his crops",
+        "To catch rabbits digging in the soil",
+        "To catch the cranes which came to pick up the seed",
+        "To trap wolves that threaten his livestock"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 71,
+        "end": 130
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-stork-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Farmer find in his traps besides cranes?",
+      "options": [
+        "A Stork",
+        "A Goose",
+        "A Heron",
+        "A Duck"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 170,
+        "end": 224
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-stork-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Stork say about its own feathers?",
+      "options": [
+        "That they are the same as a crane's feathers",
+        "That they had been damaged in the trap",
+        "That they were dyed to look like a crane's",
+        "That they show it is a Stork and not a crane"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 321,
+        "end": 357
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-stork-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Stork describe itself?",
+      "options": [
+        "As the fastest bird in the field",
+        "As the most honest and harmless of birds",
+        "As a bird that never eats corn or seed",
+        "As a bird known for stealing from farmers"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 363,
+        "end": 405
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-stork-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Farmer say it doesn't matter to him?",
+      "options": [
+        "How long the Stork has been trapped",
+        "Whether the Stork is hungry or not",
+        "What kind of bird the Stork actually is",
+        "How many crops the Stork has eaten"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 433,
+        "end": 464
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-stork-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Farmer decide will happen to the Stork?",
+      "options": [
+        "That it shall suffer like the cranes",
+        "That it will be released at once",
+        "That it will be kept as a pet",
+        "That it will be sold at the market"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 521,
+        "end": 548
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-stork-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Farmer refuse to release the Stork despite its explanation?",
+      "options": [
+        "He does not believe storks and cranes look any different",
+        "He wants to punish the Stork for a separate offense",
+        "He is simply too busy to check its feathers closely",
+        "He judges the Stork by the company it was found with, not by its own claims"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 466,
+        "end": 548
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-stork-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Stork's situation suggest about being found among wrongdoers?",
+      "options": [
+        "Innocence is always recognized eventually, regardless of circumstances",
+        "Being associated with those doing harm can bring the same punishment even if you are innocent",
+        "Farmers are generally more forgiving toward honest animals",
+        "Cranes and storks are treated identically under every circumstance"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 88
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-stork-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"harmless\" mean in \"the most honest and harmless of birds\"?",
+      "options": [
+        "Extremely rare to find",
+        "Difficult to catch in traps",
+        "Causing no injury or damage",
+        "Known for loud calls"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 363,
+        "end": 405
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-stork-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "The company you keep can determine how others judge your character",
+        "Farmers should always listen carefully before punishing any animal",
+        "Storks and cranes are impossible to tell apart in a trap",
+        "Traps are an unreliable way to protect a field of corn"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 88
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-stork-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what had the Farmer recently sown in the field?",
+      "options": [
+        "Wheat",
+        "Barley",
+        "Rice",
+        "Corn"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 27,
+        "end": 69
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-stork-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Stork beg the Farmer to do?",
+      "options": [
+        "Feed it before releasing the cranes",
+        "Let it go",
+        "Explain why the traps were set",
+        "Release all the birds equally"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 226,
+        "end": 251
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-stork-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the cranes do to the Farmer's field?",
+      "options": [
+        "They help fertilize the soil",
+        "They scare away other pests",
+        "They ruin his crops",
+        "They eat only weeds, not corn"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 483,
+        "end": 514
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-stork-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Farmer's reasoning seem unfair from the Stork's point of view?",
+      "options": [
+        "The Stork is punished for the cranes' actions rather than its own",
+        "The Stork is actually guilty of ruining the crops too",
+        "The Farmer never explains his reasoning to the Stork at all",
+        "The Farmer admits he cannot tell the birds apart"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 433,
+        "end": 495
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-stork-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what practical lesson does the Stork's fate offer about choosing where to spend one's time?",
+      "options": [
+        "It is always safe to feed alongside any other bird",
+        "Farmers can always distinguish honest animals from dishonest ones",
+        "Traps are equally dangerous for every kind of bird",
+        "Being found in the presence of wrongdoers can lead to being treated as one of them"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 88
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-stork-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"ruin\" mean in \"who ruin my crops\"?",
+      "options": [
+        "Improve or enhance",
+        "Destroy or spoil",
+        "Ignore or ridicule",
+        "Measure or count"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 497,
+        "end": 514
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-stork-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Stork successfully convinces the Farmer to release it",
+        "A Farmer releases all the birds after hearing the Stork's plea",
+        "A Stork's claim of innocence fails to save it because it was caught among crop-destroying cranes",
+        "A Stork is punished for eating the Farmer's seed directly"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 521,
+        "end": 548
+      },
+      "pool": "retest"
+    }
+  ]
+}
