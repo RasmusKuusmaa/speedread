@@ -1,0 +1,326 @@
+{
+  "id": "aesop-dog-and-cook",
+  "title": "The Dog and the Cook",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A rich man once invited a number of his friends and acquaintances to a banquet. His dog thought it would be a good opportunity to invite another Dog, a friend of his; so he went to him and said, \"My master is giving a feast: there'll be a fine spread, so come and dine with me to-night.\"",
+    "The Dog thus invited came, and when he saw the preparations being made in the kitchen he said to himself, \"My word, I'm in luck: I'll take care to eat enough to-night to last me two or three days.\" At the same time he wagged his tail briskly, by way of showing his friend how delighted he was to have been asked.",
+    "But just then the Cook caught sight of him, and, in his annoyance at seeing a strange Dog in the kitchen, caught him up by the hind legs and threw him out of the window. He had a nasty fall, and limped away as quickly as he could, howling dismally.",
+    "Presently some other dogs met him, and said, \"Well, what sort of a dinner did you get?\" To which he replied, \"I had a splendid time: the wine was so good, and I drank so much of it, that I really don't remember how I got out of the house!\"",
+    "Be shy of favours bestowed at the expense of others."
+  ],
+  "questions": [
+    {
+      "id": "aesop-dog-and-cook-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the rich man's dog invite another Dog?",
+      "options": [
+        "Because his master asked him to find a companion",
+        "Because the other Dog had helped him earlier that day",
+        "Because his master is giving a feast with a fine spread",
+        "Because he wanted company on a long walk"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 196,
+        "end": 285
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-cook-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the invited Dog plan to do once he sees the kitchen preparations?",
+      "options": [
+        "Eat enough to last him two or three days",
+        "Bring some food home for his own family",
+        "Share his portion with the other dogs outside",
+        "Ask the Cook for a private serving"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 129,
+        "end": 195
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-cook-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the invited Dog show he is pleased to be there?",
+      "options": [
+        "He barks loudly with excitement",
+        "He rolls over on the kitchen floor",
+        "He runs in circles around his friend",
+        "He wags his tail briskly"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 215,
+        "end": 241
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-cook-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Cook do upon noticing the strange Dog?",
+      "options": [
+        "He offers him a small scrap of food and sends him away gently",
+        "He catches him by the hind legs and throws him out of the window",
+        "He scolds him but allows him to stay",
+        "He locks him in the pantry until the feast ends"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 106,
+        "end": 168
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-cook-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the Dog after he is thrown from the window?",
+      "options": [
+        "He climbs back in through another window",
+        "He waits outside for his friend to bring him food",
+        "He limps away quickly, howling dismally",
+        "He runs straight home without stopping"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 170,
+        "end": 247
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-cook-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the other dogs ask him when they meet him?",
+      "options": [
+        "What sort of a dinner he got",
+        "Why he is limping so badly",
+        "Where his friend has gone",
+        "Whether he plans to return to the feast"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 52,
+        "end": 86
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-cook-f7",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Dog describe his experience to the other dogs?",
+      "options": [
+        "As a disaster, admitting he was thrown out at once",
+        "As disappointing, since there was no food left",
+        "As frightening, describing the Cook's anger in detail",
+        "As a splendid time, claiming he drank so much wine he doesn't remember leaving"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 110,
+        "end": 238
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-cook-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Dog lie to the other dogs about what really happened?",
+      "options": [
+        "He genuinely cannot remember the true events of the evening",
+        "He is too embarrassed to admit he was thrown out for being unwelcome",
+        "He wants the other dogs to attend the same feast",
+        "He is trying to protect his friend from blame"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 187,
+        "end": 237
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-cook-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"dismally\" mean in \"howling dismally\"?",
+      "options": [
+        "In a loud, cheerful way",
+        "In a quiet, restrained way",
+        "In a sad or miserable way",
+        "In a proud, boastful way"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 231,
+        "end": 247
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-cook-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "A favor gained through someone else's connections, rather than earned honestly, can easily backfire",
+        "Cooks should always welcome any dog that enters the kitchen",
+        "Wine at a feast is often more trouble than it is worth",
+        "Friends should never invite one another to another's home"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 52
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-cook-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who does the rich man invite to his banquet?",
+      "options": [
+        "Only his closest family members",
+        "Strangers from a nearby village",
+        "Only other wealthy men like himself",
+        "A number of his friends and acquaintances"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 16,
+        "end": 78
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-and-cook-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the invited Dog say to himself upon seeing the kitchen?",
+      "options": [
+        "\"This seems too good to be true\"",
+        "\"My word, I'm in luck\"",
+        "\"I should have brought a gift\"",
+        "\"I hope the Cook does not notice me\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 107,
+        "end": 127
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-and-cook-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what part of the Dog does the Cook grab?",
+      "options": [
+        "His front paws",
+        "His tail",
+        "His hind legs",
+        "His collar"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 106,
+        "end": 136
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-and-cook-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Cook react so harshly to the strange Dog?",
+      "options": [
+        "He is annoyed at finding an uninvited animal in his kitchen",
+        "He mistakes the Dog for one that had stolen food before",
+        "He is under orders to remove any dog he sees",
+        "He is frightened by the size of the Dog"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 49,
+        "end": 104
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-and-cook-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the invited Dog's confident plan to \"eat enough to last two or three days\" ironically foreshadow?",
+      "options": [
+        "His plan actually succeeding beyond his expectations",
+        "His decision to share food with the other dogs later",
+        "His realization that the feast would be canceled",
+        "His overconfidence right before being thrown out with nothing at all"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 129,
+        "end": 195
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-and-cook-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"bestowed\" mean in the closing line \"favours bestowed at the expense of others\"?",
+      "options": [
+        "Withheld or refused",
+        "Given or granted",
+        "Sold for a price",
+        "Forgotten over time"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 0,
+        "end": 52
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-and-cook-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Dog enjoys a full feast and returns home satisfied",
+        "A Cook welcomes the invited Dog and feeds him generously",
+        "A Dog invited by a friend is thrown out by the Cook, then lies to save face with other dogs",
+        "Two dogs share a feast equally without any trouble"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 110,
+        "end": 131
+      },
+      "pool": "retest"
+    }
+  ]
+}
