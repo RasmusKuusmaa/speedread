@@ -234,6 +234,7 @@ export const rawPassages: unknown[] = [
   aesopDogAndShadow,
   aesopDogCockAndFox,
   aesopFarmerAndHisSons,
+  aesopFirTreeAndBramble,
   aesopFishermanAndSprat,
   aesopFleaAndMan,
   aesopFoxAndCrow,

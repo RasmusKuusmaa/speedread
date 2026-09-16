@@ -1,0 +1,323 @@
+{
+  "id": "aesop-fir-tree-and-bramble",
+  "title": "The Fir-Tree and the Bramble",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Fir-tree was boasting to a Bramble, and said, somewhat contemptuously, \"You poor creature, you are of no use whatever. Now, look at me: I am useful for all sorts of things, particularly when men build houses; they can't do without me then.\" But the Bramble replied, \"Ah, that's all very well: but you wait till they come with axes and saws to cut you down, and then you'll wish you were a Bramble and not a Fir.\"",
+    "Better poverty without a care than wealth with its many obligations."
+  ],
+  "questions": [
+    {
+      "id": "aesop-fir-tree-and-bramble-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who is the Fir-tree boasting to?",
+      "options": [
+        "A nearby Oak",
+        "A group of travellers",
+        "A Bramble",
+        "A flock of birds"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 36
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fir-tree-and-bramble-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fir-tree call the Bramble?",
+      "options": [
+        "A poor creature of no use whatever",
+        "A dangerous plant to be avoided",
+        "A rival not worth noticing",
+        "A useful friend to the forest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 74,
+        "end": 119
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fir-tree-and-bramble-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fir-tree say it is useful for?",
+      "options": [
+        "Shading travellers from the sun",
+        "Feeding animals with its needles",
+        "Marking the boundary of the forest",
+        "All sorts of things, particularly when men build houses"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 138,
+        "end": 209
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fir-tree-and-bramble-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fir-tree say men can't do without it?",
+      "options": [
+        "Making fires",
+        "Building houses",
+        "Crossing rivers",
+        "Growing crops"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 211,
+        "end": 240
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fir-tree-and-bramble-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Bramble say will eventually come for the Fir-tree?",
+      "options": [
+        "A storm strong enough to uproot it",
+        "Insects that will eat away its bark",
+        "Axes and saws to cut it down",
+        "A drought that will dry it out"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 299,
+        "end": 357
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fir-tree-and-bramble-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Bramble predict the Fir-tree will wish for?",
+      "options": [
+        "That it were a Bramble and not a Fir",
+        "That it had grown somewhere safer",
+        "That it had never boasted at all",
+        "That it could be replanted elsewhere"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 368,
+        "end": 412
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fir-tree-and-bramble-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Bramble mention the axes and saws?",
+      "options": [
+        "To warn the Fir-tree about a fire spreading nearby",
+        "To boast about its own usefulness in comparison",
+        "To ask the Fir-tree for help defending itself",
+        "To point out that the Fir-tree's very usefulness is what puts it in danger"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 299,
+        "end": 357
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fir-tree-and-bramble-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Bramble's safety from being cut down depend on?",
+      "options": [
+        "Growing in a place no one can reach",
+        "Being seen as having little value worth harvesting",
+        "Being protected by nearby trees like the Fir",
+        "Having thorns that keep people away entirely"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 93,
+        "end": 119
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fir-tree-and-bramble-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"contemptuously\" mean in \"said, somewhat contemptuously\"?",
+      "options": [
+        "In a way that shows fear or worry",
+        "In a way that shows deep sadness",
+        "In a way that shows scorn or disrespect",
+        "In a way that shows confusion"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 48,
+        "end": 71
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fir-tree-and-bramble-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "Being valuable to others can come at the cost of one's own safety",
+        "Brambles are more useful than most people realize",
+        "Boasting always leads to a swift punishment",
+        "Trees that build houses are safer than those left in the wild"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 68
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fir-tree-and-bramble-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what tone does the Fir-tree use when it speaks to the Bramble?",
+      "options": [
+        "Warm and friendly",
+        "Nervous and uncertain",
+        "Playful and joking",
+        "Somewhat contemptuous"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 42,
+        "end": 71
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fir-tree-and-bramble-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Bramble respond to being called useless?",
+      "options": [
+        "By agreeing entirely with the Fir-tree",
+        "By pointing out a future danger the Fir-tree will face",
+        "By asking the Fir-tree to apologize",
+        "By boasting about its own thorns"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 269,
+        "end": 357
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fir-tree-and-bramble-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what two tools does the Bramble mention?",
+      "options": [
+        "Hammers and nails",
+        "Ropes and pulleys",
+        "Axes and saws",
+        "Shovels and rakes"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 328,
+        "end": 357
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fir-tree-and-bramble-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Fir-tree's confidence be short-sighted?",
+      "options": [
+        "It overlooks that being valued for a purpose means eventually being used up for it",
+        "It fails to notice that the Bramble is actually stronger than it appears",
+        "It assumes houses will never need repairs in the future",
+        "It ignores that other trees are just as useful as it is"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 299,
+        "end": 412
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fir-tree-and-bramble-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Bramble seem to value more than being praised for usefulness?",
+      "options": [
+        "Being admired by other plants",
+        "Being useful to builders as well",
+        "Being taller than the Fir-tree",
+        "Being left alone and safe from harm"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 68
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fir-tree-and-bramble-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"obligations\" mean in the closing line \"wealth with its many obligations\"?",
+      "options": [
+        "Rewards earned through hard work",
+        "Burdens or responsibilities that come with something",
+        "Debts owed to another person",
+        "Compliments given by others"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 35,
+        "end": 67
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fir-tree-and-bramble-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Fir-tree and a Bramble become close friends after their argument",
+        "A Bramble is cut down while the Fir-tree remains safe",
+        "A boastful Fir-tree is warned that its very usefulness will one day lead to its downfall",
+        "A Fir-tree apologizes for insulting the Bramble"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 299,
+        "end": 412
+      },
+      "pool": "retest"
+    }
+  ]
+}
