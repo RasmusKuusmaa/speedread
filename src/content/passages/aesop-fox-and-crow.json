@@ -1,0 +1,322 @@
+{
+  "id": "aesop-fox-and-crow",
+  "title": "The Fox and the Crow",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Crow was sitting on a branch of a tree with a piece of cheese in her beak when a Fox observed her and set his wits to work to discover some way of getting the cheese. Coming and standing under the tree he looked up and said, \"What a noble bird I see above me! Her beauty is without equal, the hue of her plumage exquisite. If only her voice is as sweet as her looks are fair, she ought without doubt to be Queen of the Birds.\" The Crow was hugely flattered by this, and just to show the Fox that she could sing she gave a loud caw. Down came the cheese, of course, and the Fox, snatching it up, said, \"You have a voice, madam, I see: what you want is wits.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-fox-and-crow-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Crow holding in her beak?",
+      "options": [
+        "A twig for her nest",
+        "A shiny coin",
+        "A piece of cheese",
+        "A small fish"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 46,
+        "end": 75
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-crow-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where was the Crow sitting when the Fox first saw her?",
+      "options": [
+        "On a branch of a tree",
+        "On top of a fence post",
+        "Beside a stream",
+        "On a stone wall"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 11,
+        "end": 40
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-crow-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox say the Crow ought to be, if her voice is as sweet as her looks?",
+      "options": [
+        "The fastest bird alive",
+        "A friend to every fox",
+        "The wisest bird in the forest",
+        "Queen of the Birds"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 378,
+        "end": 426
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-crow-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Crow do to show the Fox that she could sing?",
+      "options": [
+        "She flew down to the ground",
+        "She gave a loud caw",
+        "She hopped along the branch",
+        "She dropped the cheese at once"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 513,
+        "end": 532
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-crow-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the cheese the moment the Crow caws?",
+      "options": [
+        "The Crow swallows it quickly",
+        "It rolls into a nearby stream",
+        "Down it comes, and the Fox snatches it up",
+        "The Fox climbs the tree to reach it"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 534,
+        "end": 595
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-crow-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox say to the Crow after he picks up the cheese?",
+      "options": [
+        "\"You have a voice, madam, I see: what you want is wits.\"",
+        "\"Thank you for such a fine meal.\"",
+        "\"I am sorry to have troubled you.\"",
+        "\"Sing again, and I will return it.\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 604,
+        "end": 658
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-crow-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Fox praise the Crow's beauty and voice?",
+      "options": [
+        "Because he truly admires how she sings",
+        "To distract her while another fox climbs the tree",
+        "Because he wants her to teach him to fly",
+        "To flatter her into singing so she drops the cheese"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 104,
+        "end": 167
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-crow-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Fox's closing remark suggest about the Crow?",
+      "options": [
+        "She is a better singer than the Fox expected",
+        "She has a fine voice but lacked the sense to see through flattery",
+        "She deliberately gave up the cheese out of kindness",
+        "She did not understand what the Fox had said to her"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 636,
+        "end": 657
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-crow-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Crow was \"hugely flattered\"?",
+      "options": [
+        "She was deeply frightened by the Fox",
+        "She was confused by what the Fox said",
+        "She was greatly pleased by the praise",
+        "She was annoyed at being interrupted"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 442,
+        "end": 458
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-crow-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Flattery can trick even a proud listener into a costly mistake",
+        "Birds should never speak to foxes under any circumstances",
+        "A crow's voice is always more valuable than its meal",
+        "Foxes are unable to climb trees to reach their food"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 104,
+        "end": 124
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-crow-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox call the Crow at the start of his praise?",
+      "options": [
+        "A clever thief",
+        "A silent stranger",
+        "A tired traveller",
+        "A noble bird"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 228,
+        "end": 260
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-crow-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox praise about the Crow's appearance?",
+      "options": [
+        "The size of her wings",
+        "The hue of her plumage",
+        "The color of her eyes",
+        "The shape of her beak"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 291,
+        "end": 323
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-crow-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the Fox stand while he speaks to the Crow?",
+      "options": [
+        "On a branch beside her",
+        "Beside a nearby stream",
+        "Under the tree",
+        "Behind a large rock"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 169,
+        "end": 203
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-crow-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Crow choose to caw so loudly for the Fox?",
+      "options": [
+        "She wants to prove that her voice is as fine as her looks",
+        "She is warning the Fox to leave the tree",
+        "She is calling to other crows for help",
+        "She is trying to frighten the Fox away"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 472,
+        "end": 512
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-crow-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what lesson does the Crow's loss of the cheese suggest?",
+      "options": [
+        "Singing loudly always frightens away hungry foxes",
+        "Cheese is too heavy for any bird to carry safely",
+        "Foxes never bother to speak to the birds they meet",
+        "Believing extravagant praise can cost you something valuable"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 534,
+        "end": 595
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-crow-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"snatching\" describe about how the Fox takes the cheese?",
+      "options": [
+        "Picking it up slowly and carefully",
+        "Grabbing it quickly and eagerly",
+        "Refusing to touch it at first",
+        "Sharing it evenly with the Crow"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 571,
+        "end": 595
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-crow-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A crow outwits a fox and keeps her cheese",
+        "Two foxes argue over which one saw the crow first",
+        "A fox flatters a vain crow and tricks her out of her cheese",
+        "A crow teaches a fox how to sing"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 63
+      },
+      "pool": "retest"
+    }
+  ]
+}

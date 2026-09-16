@@ -1,3 +1,4 @@
+import aesopFoxAndCrow from "./aesop-fox-and-crow.json";
 import aliceDownTheRabbitHole from "./alice-down-the-rabbit-hole.json";
 import aristotleNicomacheanVirtueHabit from "./aristotle-nicomachean-virtue-habit.json";
 import baconOfAdversity from "./bacon-of-adversity.json";
@@ -163,6 +164,7 @@ import toBuildAFireOpening from "./to-build-a-fire-opening.json";
 import wrightFlyerHistory from "./wright-flyer-history.json";
 
 export const rawPassages: unknown[] = [
+  aesopFoxAndCrow,
   aliceDownTheRabbitHole,
   aristotleNicomacheanVirtueHabit,
   baconOfTruth,
