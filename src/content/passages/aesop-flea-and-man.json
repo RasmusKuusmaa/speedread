@@ -1,0 +1,323 @@
+{
+  "id": "aesop-flea-and-man",
+  "title": "The Flea and the Man",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Flea bit a Man, and bit him again, and again, till he could stand it no longer, but made a thorough search for it, and at last succeeded in catching it. Holding it between his finger and thumb, he said--or rather shouted, so angry was he--\"Who are you, pray, you wretched little creature, that you make so free with my person?\" The Flea, terrified, whimpered in a weak little voice, \"Oh, sir! pray let me go; don't kill me! I am such a little thing that I can't do you much harm.\" But the Man laughed and said, \"I am going to kill you now, at once: whatever is bad has got to be destroyed, no matter how slight the harm it does.\"",
+    "Do not waste your pity on a scamp."
+  ],
+  "questions": [
+    {
+      "id": "aesop-flea-and-man-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Flea do to the Man again and again?",
+      "options": [
+        "Fly around his head",
+        "Steal small crumbs from his table",
+        "Bite him",
+        "Hide inside his coat"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 46
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-flea-and-man-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Man finally succeed in doing?",
+      "options": [
+        "Catching the Flea",
+        "Chasing the Flea outside",
+        "Trapping the Flea in a jar",
+        "Convincing the Flea to leave"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 121,
+        "end": 153
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-flea-and-man-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Man demand to know from the Flea?",
+      "options": [
+        "Where the Flea came from originally",
+        "How many other fleas are hiding nearby",
+        "Why the Flea chose him instead of someone else",
+        "Who the Flea is, that it makes so free with his person"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 242,
+        "end": 328
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-flea-and-man-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Flea beg the Man to do?",
+      "options": [
+        "Give it back its freedom tomorrow",
+        "Let it go and not kill it",
+        "Trade it for a different flea",
+        "Hand it over to someone kinder"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 395,
+        "end": 424
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-flea-and-man-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what reason does the Flea give for why it should be spared?",
+      "options": [
+        "It promises never to bite anyone again",
+        "It claims to have bitten him by accident",
+        "It is such a little thing that it can't do much harm",
+        "It offers to repay him for the trouble"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 426,
+        "end": 480
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-flea-and-man-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Man decide to do with the Flea?",
+      "options": [
+        "Kill it now, at once",
+        "Release it far from his home",
+        "Keep it as a curiosity",
+        "Give it to a neighbor's child"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 514,
+        "end": 549
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-flea-and-man-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Man unmoved by the Flea's plea about its small size?",
+      "options": [
+        "He does not believe the Flea is really so small",
+        "He is too angry to listen to any argument at all",
+        "He thinks the Flea is lying about its own size",
+        "He believes something harmful should be destroyed regardless of how little harm it does"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 551,
+        "end": 629
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-flea-and-man-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Man's shouting suggest about how he feels before catching the Flea?",
+      "options": [
+        "He is only mildly annoyed by the whole situation",
+        "He has been provoked to real anger by the repeated bites",
+        "He is trying to frighten off other insects nearby",
+        "He is amused rather than upset by what happened"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 205,
+        "end": 239
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-flea-and-man-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Flea \"whimpered\" its plea?",
+      "options": [
+        "It shouted as loudly as it could",
+        "It laughed nervously while speaking",
+        "It spoke in a weak, frightened voice",
+        "It refused to speak at all"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 351,
+        "end": 383
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-flea-and-man-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "Something harmful does not deserve mercy just because it seems small",
+        "Small creatures should always be forgiven for their mistakes",
+        "Anger is never a good reason to punish anyone",
+        "It is wrong to search too hard for something that bit you"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 34
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-flea-and-man-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Man do before catching the Flea?",
+      "options": [
+        "He calls for help from a neighbor",
+        "He waits quietly until it bites again",
+        "He examines his skin for marks",
+        "He makes a thorough search for it"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 86,
+        "end": 115
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-flea-and-man-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Man hold the Flea once he catches it?",
+      "options": [
+        "Inside a small glass jar",
+        "Between his finger and thumb",
+        "Wrapped in a handkerchief",
+        "Pinned beneath his boot"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 155,
+        "end": 194
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-flea-and-man-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Flea feel once it is caught?",
+      "options": [
+        "Confident",
+        "Amused",
+        "Terrified",
+        "Indifferent"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 330,
+        "end": 349
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-flea-and-man-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Man ask the Flea who it is before deciding its fate?",
+      "options": [
+        "He wants to express his anger before delivering his judgment",
+        "He genuinely does not know what kind of creature bit him",
+        "He is hoping the Flea will name an accomplice",
+        "He plans to let it go if it answers politely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 196,
+        "end": 239
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-flea-and-man-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what principle does the Man apply that goes beyond just this one Flea?",
+      "options": [
+        "That every creature deserves a chance to explain itself",
+        "That mercy should always be shown to the weak",
+        "That anger should never guide an important decision",
+        "That harmful things deserve destruction regardless of their size"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 551,
+        "end": 629
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-flea-and-man-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Flea made \"so free\" with the Man's person?",
+      "options": [
+        "It moved very quickly across his skin",
+        "It took liberties without any right to do so",
+        "It asked politely before biting him",
+        "It stayed in one place without moving"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 291,
+        "end": 327
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-flea-and-man-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Man decides to let the Flea go after it apologizes",
+        "A Flea convinces the Man that it never bit him",
+        "A Man refuses to spare a Flea despite its plea that it is harmless",
+        "A Man and a Flea agree to leave each other alone"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 514,
+        "end": 549
+      },
+      "pool": "retest"
+    }
+  ]
+}
