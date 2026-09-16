@@ -1,0 +1,322 @@
+{
+  "id": "aesop-fly-and-draught-mule",
+  "title": "The Fly and the Draught-Mule",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Fly sat on one of the shafts of a cart and said to the Mule who was pulling it, \"How slow you are! Do mend your pace, or I shall have to use my sting as a goad.\" The Mule was not in the least disturbed. \"Behind me, in the cart,\" said he, \"sits my master. He holds the reins, and flicks me with his whip, and him I obey, but I don't want any of your impertinence. I know when I may dawdle and when I may not.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-fly-and-draught-mule-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where is the Fly sitting?",
+      "options": [
+        "On the Mule's back",
+        "On the cart's wheel",
+        "On one of the shafts of a cart",
+        "On a nearby fence post"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 40
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fly-and-draught-mule-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fly complain about?",
+      "options": [
+        "That the Mule is too slow",
+        "That the cart is too heavy",
+        "That the road is too rough",
+        "That the sun is too hot"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 83,
+        "end": 100
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fly-and-draught-mule-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fly threaten to use as a goad?",
+      "options": [
+        "Its wings",
+        "Its legs",
+        "Its voice",
+        "Its sting"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 123,
+        "end": 161
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fly-and-draught-mule-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who sits behind the Mule in the cart?",
+      "options": [
+        "A second mule",
+        "His master",
+        "A group of travellers",
+        "No one at all"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 206,
+        "end": 255
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fly-and-draught-mule-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the master control the Mule?",
+      "options": [
+        "He calls out commands loudly",
+        "He walks beside the Mule and guides him by hand",
+        "He holds the reins and flicks him with his whip",
+        "He rings a small bell to signal directions"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 257,
+        "end": 304
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fly-and-draught-mule-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, whom does the Mule say he obeys?",
+      "options": [
+        "His master",
+        "The Fly",
+        "Whoever speaks first",
+        "No one at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 310,
+        "end": 320
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fly-and-draught-mule-f7",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Mule call the Fly's demand?",
+      "options": [
+        "Good advice",
+        "A fair warning",
+        "A harmless joke",
+        "Impertinence"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 326,
+        "end": 363
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fly-and-draught-mule-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Mule \"not in the least disturbed\" by the Fly's threat?",
+      "options": [
+        "He cannot feel the Fly's sting at all",
+        "He recognizes that the Fly has no real authority over his pace",
+        "He has already agreed to speed up before the Fly spoke",
+        "He believes the Fly is joking rather than serious"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 164,
+        "end": 203
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fly-and-draught-mule-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"dawdle\" mean in \"I know when I may dawdle and when I may not\"?",
+      "options": [
+        "To rest completely and stop moving",
+        "To run at full speed",
+        "To move slowly or waste time",
+        "To change direction suddenly"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 365,
+        "end": 408
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fly-and-draught-mule-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Only those with real authority over you can rightfully expect to be obeyed",
+        "Flies are more dangerous to mules than most people realize",
+        "Speed is always more important than following instructions",
+        "Masters should never trust their mules to set their own pace"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 310,
+        "end": 363
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fly-and-draught-mule-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fly tell the Mule to do?",
+      "options": [
+        "Turn down a different road",
+        "Stop and rest",
+        "Wait for the master's signal",
+        "Mend his pace"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 101,
+        "end": 118
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fly-and-draught-mule-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what two things does the master use to control the Mule?",
+      "options": [
+        "A rope and a bell",
+        "The reins and a whip",
+        "His voice and a stick",
+        "A saddle and spurs"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 257,
+        "end": 304
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fly-and-draught-mule-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Mule say he knows about his own pace?",
+      "options": [
+        "That he should always move as fast as possible",
+        "That only the Fly can decide his speed",
+        "When he may dawdle and when he may not",
+        "That the cart is too heavy to go any faster"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 365,
+        "end": 408
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fly-and-draught-mule-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Mule distinguish between the master's whip and the Fly's sting?",
+      "options": [
+        "One comes from someone with real authority over him, and the other does not",
+        "The whip hurts less than the sting would",
+        "The Fly has never actually touched him before",
+        "The master has forbidden the Mule from responding to insects"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 310,
+        "end": 363
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fly-and-draught-mule-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Fly seem to misunderstand about its own position?",
+      "options": [
+        "It assumes the Mule cannot hear its warning",
+        "It assumes the cart is going the wrong direction",
+        "It assumes the master will side with the Mule regardless",
+        "It assumes its threat carries the same weight as the master's authority"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 123,
+        "end": 161
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fly-and-draught-mule-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"goad\" mean in \"use my sting as a goad\"?",
+      "options": [
+        "Something used to measure distance",
+        "Something used to prod or urge into action",
+        "Something used to signal danger",
+        "Something used to attract attention"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 123,
+        "end": 161
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fly-and-draught-mule-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Fly successfully makes the Mule move faster",
+        "A Mule throws the Fly off the cart in anger",
+        "A Fly's threat to speed up the Mule is calmly dismissed, since only the master has real control over him",
+        "The master sides with the Fly against the Mule"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 310,
+        "end": 363
+      },
+      "pool": "retest"
+    }
+  ]
+}
