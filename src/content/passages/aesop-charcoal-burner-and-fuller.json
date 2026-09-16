@@ -1,0 +1,322 @@
+{
+  "id": "aesop-charcoal-burner-and-fuller",
+  "title": "The Charcoal-Burner and the Fuller",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "There was once a Charcoal-burner who lived and worked by himself. A Fuller, however, happened to come and settle in the same neighbourhood; and the Charcoal-burner, having made his acquaintance and finding he was an agreeable sort of fellow, asked him if he would come and share his house: \"We shall get to know one another better that way,\" he said, \"and, beside, our household expenses will be diminished.\" The Fuller thanked him, but replied, \"I couldn't think of it, sir: why, everything I take such pains to whiten would be blackened in no time by your charcoal.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-charcoal-burner-and-fuller-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Charcoal-burner live before the Fuller arrives?",
+      "options": [
+        "With several other workers",
+        "With his large family",
+        "By himself",
+        "In the center of a busy town"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 33,
+        "end": 64
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-charcoal-burner-and-fuller-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fuller do that brings the two men together?",
+      "options": [
+        "He comes and settles in the same neighbourhood",
+        "He asks the Charcoal-burner for work",
+        "He buys charcoal from him regularly",
+        "He builds his house right next door by accident"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 66,
+        "end": 138
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-charcoal-burner-and-fuller-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Charcoal-burner ask the Fuller to do?",
+      "options": [
+        "Teach him how to whiten cloth",
+        "Trade some charcoal for cloth",
+        "Move to a different neighbourhood",
+        "Come and share his house"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 242,
+        "end": 288
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-charcoal-burner-and-fuller-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what two reasons does the Charcoal-burner give for sharing a house?",
+      "options": [
+        "They would work faster, and earn more money",
+        "They would know each other better, and expenses would be lower",
+        "They would be safer, and warmer in winter",
+        "They would attract more customers, and sell more goods"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 291,
+        "end": 339
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-charcoal-burner-and-fuller-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fuller say would happen to his work if he agreed?",
+      "options": [
+        "He would have no room left to work",
+        "He would have to pay for his own charcoal",
+        "Everything he whitens would be blackened by the charcoal",
+        "He would lose his customers to the Charcoal-burner"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 481,
+        "end": 566
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-charcoal-burner-and-fuller-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Fuller respond to the invitation overall?",
+      "options": [
+        "He thanks the Charcoal-burner but declines",
+        "He accepts at once, delighted by the offer",
+        "He asks for time to think it over",
+        "He suggests sharing a house with someone else instead"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 409,
+        "end": 444
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-charcoal-burner-and-fuller-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Charcoal-burner think sharing a house is a good idea?",
+      "options": [
+        "He has run out of money to live alone any longer",
+        "He wants the Fuller to teach him a new trade",
+        "He plans to give up charcoal-burning for good",
+        "He values the Fuller's company and the savings it would bring, without considering their trades conflict"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 198,
+        "end": 288
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-charcoal-burner-and-fuller-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Fuller's trade fundamentally incompatible with the Charcoal-burner's?",
+      "options": [
+        "The two men need completely different tools that cannot be stored together",
+        "One trade's work relies on making things white, and the other's leaves soot and black dust everywhere",
+        "The two trades require working at opposite times of day",
+        "The two men would compete for the same customers"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 481,
+        "end": 566
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-charcoal-burner-and-fuller-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"diminished\" mean in \"our household expenses will be diminished\"?",
+      "options": [
+        "Increased",
+        "Recorded",
+        "Reduced",
+        "Shared equally"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 365,
+        "end": 406
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-charcoal-burner-and-fuller-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Friendship alone is not enough reason to combine two incompatible trades",
+        "Living alone is always better than sharing a home",
+        "Charcoal-burners and Fullers should never live in the same town",
+        "Saving money is more important than any other concern"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 481,
+        "end": 566
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-charcoal-burner-and-fuller-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Charcoal-burner think of the Fuller once he meets him?",
+      "options": [
+        "That he is too proud to be a good neighbor",
+        "That he talks too much about his own trade",
+        "That he seems untrustworthy at first",
+        "That he is an agreeable sort of fellow"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 198,
+        "end": 240
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-charcoal-burner-and-fuller-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what trade does a Fuller practice, based on how he describes his own work?",
+      "options": [
+        "Burning charcoal",
+        "Whitening cloth",
+        "Selling firewood",
+        "Dyeing wool black"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 481,
+        "end": 519
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-charcoal-burner-and-fuller-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Fuller address the Charcoal-burner when declining?",
+      "options": [
+        "\"Friend\"",
+        "\"Neighbor\"",
+        "\"Sir\"",
+        "\"Stranger\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 447,
+        "end": 474
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-charcoal-burner-and-fuller-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Fuller phrase his refusal so firmly, saying he \"couldn't think of it\"?",
+      "options": [
+        "He recognizes the arrangement would ruin his work no matter how friendly they are",
+        "He does not actually like the Charcoal-burner very much",
+        "He has already agreed to live somewhere else",
+        "He believes the Charcoal-burner cannot afford to share expenses"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 447,
+        "end": 474
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-charcoal-burner-and-fuller-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the phrase \"in no time\" suggest about how quickly the Fuller's work would be ruined?",
+      "options": [
+        "Only after many months",
+        "Gradually, over several years",
+        "Only during certain seasons",
+        "Very quickly, almost immediately"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 520,
+        "end": 566
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-charcoal-burner-and-fuller-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"acquaintance\" mean in \"having made his acquaintance\"?",
+      "options": [
+        "A close and lifelong friend",
+        "A person one has come to know a little",
+        "A business partner with a signed contract",
+        "A rival competing for the same customers"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 165,
+        "end": 193
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-charcoal-burner-and-fuller-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Charcoal-burner refuses to let the Fuller move into the neighbourhood",
+        "Two men successfully share a house and split their expenses",
+        "A Fuller politely refuses to share a house because the two trades would ruin each other",
+        "A Fuller teaches the Charcoal-burner how to whiten cloth"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 481,
+        "end": 566
+      },
+      "pool": "retest"
+    }
+  ]
+}
