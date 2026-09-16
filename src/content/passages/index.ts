@@ -177,6 +177,7 @@ import secretGardenMistressContrary from "./secret-garden-mistress-contrary.json
 import secretGardenSilentBungalow from "./secret-garden-silent-bungalow.json";
 import senecaBenefitsInGeneral from "./seneca-benefits-in-general.json";
 import sherlockHolmesObservation from "./sherlock-holmes-observation.json";
+import socratesAndHisHouse from "./socrates-and-his-house.json";
 import sonsAndDaughtersOfLiberty from "./sons-and-daughters-of-liberty.json";
 import stampAct1765 from "./stamp-act-1765.json";
 import storyOfAnHour from "./story-of-an-hour.json";
@@ -249,6 +250,7 @@ export const rawPassages: unknown[] = [
   secretGardenHundredRooms,
   senecaBenefitsInGeneral,
   sherlockHolmesObservation,
+  socratesAndHisHouse,
   poeBlackCatWalledUp,
   poeWilliamWilsonSchool,
   poeTellTaleHeartOpening,

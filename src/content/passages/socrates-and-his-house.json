@@ -1,0 +1,325 @@
+{
+  "id": "socrates-and-his-house",
+  "title": "Socrates and His House",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/18442",
+  "attribution": "Excerpted verbatim from \"Socrates and His House\" in Fifty Famous Stories Retold by James Baldwin (1896), via Project Gutenberg. The syllable-break hyphen in the original edition's \"Soc'ra-tes\" has been corrected.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "philosophy",
+  "calibrationOnly": false,
+  "body": [
+    "There once lived in Greece a very wise man whose name was Socrates. Young men from all parts of the land went to him to learn wisdom from him; and he said so many pleasant things, and said them in so delightful a way, that no one ever grew tired of listening to him.",
+    "One summer he built himself a house, but it was so small that his neighbors wondered how he could be content with it.",
+    "\"What is the reason,\" said they, \"that you, who are so great a man, should build such a little box as this for your dwelling house?\"",
+    "\"Indeed, there may be little reason,\" said he; \"but, small as the place is, I shall think myself happy if I can fill even it with true friends.\""
+  ],
+  "questions": [
+    {
+      "id": "socrates-and-his-house-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who came from all parts of the land to see Socrates?",
+      "options": [
+        "Merchants wanting to trade with him",
+        "Soldiers wanting him to lead their army",
+        "Young men wanting to learn wisdom from him",
+        "Kings wanting his advice on war"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 68,
+        "end": 141
+      },
+      "pool": "first"
+    },
+    {
+      "id": "socrates-and-his-house-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did no one ever grow tired of listening to Socrates?",
+      "options": [
+        "He said pleasant things in a delightful way",
+        "He spoke only for a few minutes at a time",
+        "He paid his listeners for their attention",
+        "He always agreed with whatever they said"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 147,
+        "end": 216
+      },
+      "pool": "first"
+    },
+    {
+      "id": "socrates-and-his-house-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Socrates build for himself one summer?",
+      "options": [
+        "A garden wall",
+        "A small boat",
+        "A schoolroom",
+        "A house"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 11,
+        "end": 35
+      },
+      "pool": "first"
+    },
+    {
+      "id": "socrates-and-his-house-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the neighbors wonder about the house?",
+      "options": [
+        "Why he built it so far from the city",
+        "How he could be content with something so small",
+        "Why it took him so long to finish it",
+        "How he afforded to build it at all"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 62,
+        "end": 116
+      },
+      "pool": "first"
+    },
+    {
+      "id": "socrates-and-his-house-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the neighbors call the house when they question him?",
+      "options": [
+        "\"A house fit for a king\"",
+        "\"The strangest house in Greece\"",
+        "\"Such a little box as this\"",
+        "\"A house without a proper roof\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 81,
+        "end": 106
+      },
+      "pool": "first"
+    },
+    {
+      "id": "socrates-and-his-house-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Socrates say he hopes to fill his house with?",
+      "options": [
+        "True friends",
+        "Fine furniture",
+        "Books and scrolls",
+        "Gold and silver"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 76,
+        "end": 142
+      },
+      "pool": "first"
+    },
+    {
+      "id": "socrates-and-his-house-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why do the neighbors find the small house surprising?",
+      "options": [
+        "They believe small houses are against the law in Greece",
+        "They think Socrates cannot afford anything larger",
+        "They assume he plans to move away soon",
+        "They expect a man of his reputation to live in something grander"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 34,
+        "end": 130
+      },
+      "pool": "first"
+    },
+    {
+      "id": "socrates-and-his-house-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Socrates's answer suggest he values more than the size of his home?",
+      "options": [
+        "The cost of the materials used to build it",
+        "The true friendship of the people who might fill it",
+        "The number of rooms it can hold",
+        "The opinion his neighbors have of him"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 76,
+        "end": 142
+      },
+      "pool": "first"
+    },
+    {
+      "id": "socrates-and-his-house-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"content\" mean in \"how he could be content with it\"?",
+      "options": [
+        "Wealthy",
+        "Proud",
+        "Satisfied",
+        "Ashamed"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 85,
+        "end": 116
+      },
+      "pool": "first"
+    },
+    {
+      "id": "socrates-and-his-house-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the passage?",
+      "options": [
+        "True friendship matters more to Socrates than the size of his house",
+        "Wise men should always live in the grandest houses available",
+        "Neighbors should never question how others choose to live",
+        "A small house is always a sign of poverty"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 48,
+        "end": 142
+      },
+      "pool": "first"
+    },
+    {
+      "id": "socrates-and-his-house-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in what country did Socrates live?",
+      "options": [
+        "Rome",
+        "Egypt",
+        "Persia",
+        "Greece"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 42
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "socrates-and-his-house-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did young men go to Socrates to learn?",
+      "options": [
+        "Farming",
+        "Wisdom",
+        "Swordsmanship",
+        "Shipbuilding"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 105,
+        "end": 141
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "socrates-and-his-house-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what season does Socrates build his house?",
+      "options": [
+        "Winter",
+        "Spring",
+        "Summer",
+        "Autumn"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 35
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "socrates-and-his-house-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Socrates's phrase \"there may be little reason\" suggest about his own view of the house's size?",
+      "options": [
+        "He does not consider the house's small size worth arguing about",
+        "He secretly agrees the house is too small for him",
+        "He regrets not building a larger house",
+        "He believes his neighbors are right to criticize him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 1,
+        "end": 35
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "socrates-and-his-house-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might Socrates be untroubled by owning such a small house?",
+      "options": [
+        "He plans to build a larger house very soon",
+        "He does not expect to live there for very long",
+        "He believes all houses in Greece are the same size",
+        "He measures a home's worth by the friendships within it, not its size"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 53,
+        "end": 142
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "socrates-and-his-house-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"dwelling house\" mean in the neighbors' question?",
+      "options": [
+        "A house used only for storage",
+        "A house where someone lives",
+        "A house built for guests only",
+        "A house no longer in use"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 107,
+        "end": 130
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "socrates-and-his-house-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "Socrates asks his neighbors to help him build a bigger house",
+        "Socrates is forced to sell his house due to its small size",
+        "Socrates explains that true friendship matters more to him than a grand house",
+        "Socrates argues with his neighbors over the cost of his house"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 76,
+        "end": 142
+      },
+      "pool": "retest"
+    }
+  ]
+}
