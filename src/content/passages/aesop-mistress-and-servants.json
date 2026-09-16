@@ -1,0 +1,322 @@
+{
+  "id": "aesop-mistress-and-servants",
+  "title": "The Mistress and Her Servants",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Widow, thrifty and industrious, had two servants, whom she kept pretty hard at work. They were not allowed to lie long abed in the mornings, but the old lady had them up and doing as soon as the cock crew. They disliked intensely having to get up at such an hour, especially in winter-time: and they thought that if it were not for the cock waking up their Mistress so horribly early, they could sleep longer. So they caught it and wrung its neck. But they weren't prepared for the consequences. For what happened was that their Mistress, not hearing the cock crow as usual, waked them up earlier than ever, and set them to work in the middle of the night."
+  ],
+  "questions": [
+    {
+      "id": "aesop-mistress-and-servants-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what kind of Mistress do the two servants work for?",
+      "options": [
+        "A wealthy and careless merchant",
+        "A retired soldier who lives alone",
+        "A thrifty and industrious Widow",
+        "A young couple new to the village"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 32
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mistress-and-servants-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what wakes the servants and their Mistress each morning?",
+      "options": [
+        "The cock crowing",
+        "A bell rung by the Mistress",
+        "The sound of the town clock",
+        "A neighbor calling out to them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 147,
+        "end": 206
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mistress-and-servants-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the servants believe would let them sleep longer?",
+      "options": [
+        "If their Mistress went to bed later herself",
+        "If they moved their beds farther from the yard",
+        "If winter turned to summer sooner",
+        "If the cock did not wake their Mistress so early"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 315,
+        "end": 410
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mistress-and-servants-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the servants do to the cock?",
+      "options": [
+        "They sell it at the market",
+        "They catch it and wring its neck",
+        "They hide it in the barn",
+        "They set it free in the woods"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 412,
+        "end": 448
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mistress-and-servants-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Mistress do once she can no longer hear the cock crow?",
+      "options": [
+        "She lets the servants sleep in as they wished",
+        "She buys a new cock the very next day",
+        "She wakes the servants earlier than ever",
+        "She blames the servants and dismisses them"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 525,
+        "end": 608
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mistress-and-servants-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when does the Mistress now set the servants to work?",
+      "options": [
+        "In the middle of the night",
+        "At noon instead of dawn",
+        "Only on weekends",
+        "Whenever the sun sets"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 614,
+        "end": 657
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mistress-and-servants-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Mistress start waking the servants even earlier after the cock is gone?",
+      "options": [
+        "She suspects the servants killed the cock and wants to punish them",
+        "She has hired a new rooster that crows earlier",
+        "She decides she no longer needs to sleep at all",
+        "Without the cock's crow to tell the time, she wakes at any uncertain hour, sometimes far too soon"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 541,
+        "end": 608
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mistress-and-servants-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is ironic about the servants' plan to kill the cock?",
+      "options": [
+        "It succeeds exactly as they had hoped",
+        "It backfires and leaves them worse off than before",
+        "It has no effect on their daily routine at all",
+        "It causes the Mistress to sleep even later than before"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 454,
+        "end": 496
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mistress-and-servants-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"thrifty\" mean in describing the Widow?",
+      "options": [
+        "Wealthy beyond ordinary means",
+        "Kind and generous to strangers",
+        "Careful and economical with resources",
+        "Strict and quick to anger"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 32
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mistress-and-servants-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Removing one problem can create a worse one in its place",
+        "Servants should never be given hard work to do",
+        "Roosters are unreliable ways to measure the time",
+        "Widows are always stricter employers than other masters"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 614,
+        "end": 657
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mistress-and-servants-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many servants does the Widow have?",
+      "options": [
+        "One",
+        "Three",
+        "Four",
+        "Two"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 34,
+        "end": 50
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mistress-and-servants-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in what season do the servants dislike getting up most?",
+      "options": [
+        "Summer",
+        "Winter-time",
+        "Early autumn",
+        "Late spring"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 266,
+        "end": 291
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mistress-and-servants-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, were the servants allowed to lie long in bed before this?",
+      "options": [
+        "Yes, whenever they wished",
+        "Only on Sundays",
+        "No, they were not allowed to",
+        "Only during the winter months"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 87,
+        "end": 141
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mistress-and-servants-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what did the servants fail to consider before acting against the cock?",
+      "options": [
+        "That the cock's crowing was actually helping regulate when their Mistress woke them",
+        "That their Mistress liked the cock as a pet",
+        "That killing the cock was against the law",
+        "That the cock might belong to a neighbor"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 541,
+        "end": 608
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mistress-and-servants-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the story describe the Widow as thrifty and industrious at the very start?",
+      "options": [
+        "It explains why she could not afford to buy a cock in the first place",
+        "It shows that she later regretted hiring any servants at all",
+        "It suggests she secretly wanted the cock destroyed herself",
+        "It sets up why she already kept the servants working hard, before the cock is even mentioned"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 34,
+        "end": 85
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mistress-and-servants-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the servants \"wrung\" the cock's neck?",
+      "options": [
+        "Tied it gently with a rope",
+        "Twisted it forcefully to kill it",
+        "Washed it carefully with water",
+        "Measured it with their hands"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 415,
+        "end": 448
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mistress-and-servants-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "Servants successfully trick their Mistress into letting them sleep in",
+        "A Widow decides to buy her servants a second cock",
+        "Servants kill the cock to sleep later, but end up waking even earlier than before",
+        "A cock's crowing is silenced permanently with no consequences"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 614,
+        "end": 657
+      },
+      "pool": "retest"
+    }
+  ]
+}

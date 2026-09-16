@@ -21,6 +21,7 @@ import aesopLionAndMouse from "./aesop-lion-and-mouse.json";
 import aesopMiceInCouncil from "./aesop-mice-in-council.json";
 import aesopMilkmaidAndHerPail from "./aesop-milkmaid-and-her-pail.json";
 import aesopMischievousDog from "./aesop-mischievous-dog.json";
+import aesopMistressAndServants from "./aesop-mistress-and-servants.json";
 import aesopNorthWindAndSun from "./aesop-north-wind-and-sun.json";
 import aesopOakAndReeds from "./aesop-oak-and-reeds.json";
 import aesopOldWomanAndDoctor from "./aesop-old-woman-and-doctor.json";
@@ -219,6 +220,7 @@ export const rawPassages: unknown[] = [
   aesopMiceInCouncil,
   aesopMilkmaidAndHerPail,
   aesopMischievousDog,
+  aesopMistressAndServants,
   aesopNorthWindAndSun,
   aesopOakAndReeds,
   aesopOldWomanAndDoctor,
