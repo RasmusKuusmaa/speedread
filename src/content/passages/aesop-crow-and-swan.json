@@ -1,0 +1,323 @@
+{
+  "id": "aesop-crow-and-swan",
+  "title": "The Crow and the Swan",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Crow was filled with envy on seeing the beautiful white plumage of a Swan, and thought it was due to the water in which the Swan constantly bathed and swam. So he left the neighbourhood of the altars, where he got his living by picking up bits of the meat offered in sacrifice, and went and lived among the pools and streams. But though he bathed and washed his feathers many times a day, he didn't make them any whiter, and at last died of hunger into the bargain.",
+    "You may change your habits, but not your nature."
+  ],
+  "questions": [
+    {
+      "id": "aesop-crow-and-swan-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Crow envy about the Swan?",
+      "options": [
+        "Her graceful way of swimming",
+        "Her loud, clear call",
+        "Her beautiful white plumage",
+        "Her large size compared to other birds"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 75
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-swan-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Crow think causes the Swan's white feathers?",
+      "options": [
+        "The water in which the Swan constantly bathed and swam",
+        "A special diet of certain plants",
+        "The Swan's habit of resting in the sun",
+        "A gift given to the Swan by the gods"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 81,
+        "end": 157
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-swan-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Crow used to get his living?",
+      "options": [
+        "By stealing eggs from other birds' nests",
+        "By following farmers as they plowed their fields",
+        "By fishing for small creatures in shallow water",
+        "By picking up bits of meat offered in sacrifice near the altars"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 203,
+        "end": 278
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-swan-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the Crow go to live instead?",
+      "options": [
+        "Deep within a quiet forest",
+        "Among the pools and streams",
+        "Near a busy marketplace",
+        "Along a rocky mountainside"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 284,
+        "end": 326
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-swan-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Crow do many times a day in his new home?",
+      "options": [
+        "Searches for meat near the altars",
+        "Calls out to other crows nearby",
+        "Bathes and washes his feathers",
+        "Watches the Swan swim in the distance"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 339,
+        "end": 389
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-swan-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the Crow in the end?",
+      "options": [
+        "He dies of hunger, and his feathers never turn white",
+        "He becomes just as white as the Swan",
+        "He returns to the altars and lives happily",
+        "He befriends the Swan and learns to swim well"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 391,
+        "end": 466
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-swan-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what mistake does the Crow make about the source of the Swan's whiteness?",
+      "options": [
+        "He assumes the Swan bathes far more often than she actually does",
+        "He assumes the water near the altars was too dirty for white feathers",
+        "He assumes the Swan was born gray and slowly became white",
+        "He assumes a surface habit, like bathing, could change something that is actually part of the Swan's nature"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 81,
+        "end": 157
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-swan-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Crow end up dying of hunger?",
+      "options": [
+        "He is too weak from constant bathing to search for food",
+        "He gives up his reliable source of food near the altars for a place that could not feed him",
+        "He is chased away from the pools by the Swan",
+        "He refuses to eat anything but meat from sacrifices"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 162,
+        "end": 278
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-swan-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"plumage\" mean in \"the beautiful white plumage of a Swan\"?",
+      "options": [
+        "A bird's call or song",
+        "A bird's nest",
+        "A bird's feathers",
+        "A bird's wingspan"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 38,
+        "end": 75
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-swan-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "Changing your surface habits cannot change what you fundamentally are",
+        "Swans are naturally more graceful than crows in every way",
+        "Living near water always improves an animal's appearance",
+        "Envy is a harmless emotion as long as it inspires change"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 48
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-swan-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what feeling does the Crow experience upon seeing the Swan?",
+      "options": [
+        "Fear",
+        "Curiosity",
+        "Admiration without envy",
+        "Envy"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 27
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crow-and-swan-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Crow leave behind when he moved to the pools and streams?",
+      "options": [
+        "A nest he had built for years",
+        "The neighbourhood of the altars",
+        "A group of other crows",
+        "A steady supply of clean water"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 162,
+        "end": 201
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crow-and-swan-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how often does the Crow bathe in his new home?",
+      "options": [
+        "Once a week",
+        "Only at night",
+        "Many times a day",
+        "Only during the summer"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 339,
+        "end": 389
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crow-and-swan-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the phrase \"into the bargain\" suggest about the Crow's death by hunger?",
+      "options": [
+        "It was an additional loss on top of never achieving the white feathers he wanted",
+        "It was the only outcome the Crow had hoped for",
+        "It happened before he even reached the pools and streams",
+        "It was caused directly by the Swan's actions"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 435,
+        "end": 466
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crow-and-swan-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Crow's failure suggest about trying to imitate another creature's traits?",
+      "options": [
+        "Any animal can achieve any appearance with enough effort",
+        "Water is the only requirement for white feathers",
+        "Imitating another creature always leads to social rejection",
+        "Copying surface behavior cannot grant qualities that come from a different underlying nature"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 48
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crow-and-swan-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"neighbourhood\" mean in \"the neighbourhood of the altars\"?",
+      "options": [
+        "A group of people living together",
+        "The surrounding area near a place",
+        "A formal religious ceremony",
+        "A type of stone building"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 162,
+        "end": 201
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crow-and-swan-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Crow successfully becomes as white as a Swan after much bathing",
+        "A Swan teaches a Crow how to find food near the altars",
+        "A Crow abandons his reliable food source trying to turn white like a Swan, and starves without ever changing color",
+        "A Crow and a Swan become companions by the pools and streams"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 391,
+        "end": 466
+      },
+      "pool": "retest"
+    }
+  ]
+}
