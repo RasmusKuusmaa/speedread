@@ -1,0 +1,323 @@
+{
+  "id": "aesop-old-man-and-death",
+  "title": "The Old Man and Death",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "An Old Man cut himself a bundle of faggots in a wood and started to carry them home. He had a long way to go, and was tired out before he had got much more than half-way. Casting his burden on the ground, he called upon Death to come and release him from his life of toil.",
+    "The words were scarcely out of his mouth when, much to his dismay, Death stood before him and professed his readiness to serve him. He was almost frightened out of his wits, but he had enough presence of mind to stammer out, \"Good sir, if you'd be so kind, pray help me up with my burden again.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-old-man-and-death-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Old Man cut in the wood?",
+      "options": [
+        "A load of firewood logs",
+        "A basket of fruit",
+        "A bundle of faggots",
+        "A pile of stones"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 52
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-man-and-death-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how far does the Old Man get before growing tired?",
+      "options": [
+        "Much more than half-way",
+        "Only a few steps from the wood",
+        "All the way to his home",
+        "Less than a quarter of the way"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 114,
+        "end": 169
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-man-and-death-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Old Man do with his burden when he grows tired?",
+      "options": [
+        "He hides it behind a tree",
+        "He gives it to a passerby",
+        "He sets it on fire",
+        "He casts it on the ground"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 171,
+        "end": 203
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-man-and-death-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, whom does the Old Man call upon for release from his toil?",
+      "options": [
+        "A passing traveller",
+        "Death",
+        "The gods of the forest",
+        "His own family"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 205,
+        "end": 271
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-man-and-death-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does Death respond to being called?",
+      "options": [
+        "Death ignores the call entirely",
+        "Death sends a messenger instead of appearing",
+        "Death stands before him and professes readiness to serve him",
+        "Death laughs and disappears"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 67,
+        "end": 130
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-man-and-death-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Old Man ask Death to do instead?",
+      "options": [
+        "Help him up with his burden again",
+        "Carry him the rest of the way home",
+        "Explain why he appeared so suddenly",
+        "Wait until he finishes his journey"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 257,
+        "end": 293
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-man-and-death-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Old Man change his mind so quickly once Death actually appears?",
+      "options": [
+        "He realizes Death has come to the wrong person by mistake",
+        "He wants to bargain with Death for more time",
+        "He is angry that Death took so long to arrive",
+        "His wish for death was only a passing complaint, not something he truly meant"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 178,
+        "end": 293
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-man-and-death-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Old Man's reaction reveal about complaints made in a moment of exhaustion?",
+      "options": [
+        "Such complaints always reflect a person's deepest true wishes",
+        "Such complaints may not reflect what a person truly wants when tested",
+        "Such complaints are usually taken literally by those who hear them",
+        "Such complaints have no real consequences at all"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 132,
+        "end": 172
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-man-and-death-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"toil\" mean in \"his life of toil\"?",
+      "options": [
+        "Peaceful rest",
+        "Sudden danger",
+        "Hard, wearying work",
+        "Quiet celebration"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 238,
+        "end": 271
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-man-and-death-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "People often wish for an escape from hardship without truly meaning it, as they discover when the wish nearly comes true",
+        "Old age always brings a genuine wish to die",
+        "Death responds instantly to anyone who calls for it",
+        "Carrying heavy burdens should always be avoided"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 257,
+        "end": 293
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-man-and-death-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the Old Man cut the bundle of faggots?",
+      "options": [
+        "Beside a river",
+        "In his own garden",
+        "On a rocky hillside",
+        "In a wood"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 52
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-old-man-and-death-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how quickly does Death appear after being called?",
+      "options": [
+        "After a long delay of several hours",
+        "The words were scarcely out of the Old Man's mouth",
+        "Only after the Old Man called several times",
+        "The next morning"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 89
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-old-man-and-death-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Old Man address Death in his request?",
+      "options": [
+        "\"Dear friend\"",
+        "\"Mighty one\"",
+        "\"Good sir\"",
+        "\"Kind stranger\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 226,
+        "end": 255
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-old-man-and-death-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is it significant that Death \"professed his readiness to serve\" the Old Man?",
+      "options": [
+        "It takes the Old Man's earlier wish literally and offers to grant it at once",
+        "It shows that Death was already planning to visit him regardless",
+        "It suggests Death was reluctant to answer the call",
+        "It proves the Old Man had summoned Death many times before"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 67,
+        "end": 130
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-old-man-and-death-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the phrase \"enough presence of mind\" suggest about the Old Man's state when he replies?",
+      "options": [
+        "He is completely calm and unaffected by Death's appearance",
+        "He has lost all ability to think or speak clearly",
+        "He had planned his reply well before Death ever appeared",
+        "Despite his fear, he manages to think clearly enough to redirect the request"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 178,
+        "end": 223
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-old-man-and-death-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"stammer\" mean in \"stammer out\"?",
+      "options": [
+        "To shout loudly and clearly",
+        "To speak with hesitation or difficulty",
+        "To whisper very softly",
+        "To remain completely silent"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 178,
+        "end": 223
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-old-man-and-death-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "An Old Man successfully asks Death to end his life",
+        "Death refuses to appear when the Old Man calls for him",
+        "An exhausted Old Man calls for Death out of frustration, then quickly asks for help with his load instead once Death appears",
+        "An Old Man is punished by Death for complaining about his burden"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 257,
+        "end": 293
+      },
+      "pool": "retest"
+    }
+  ]
+}
