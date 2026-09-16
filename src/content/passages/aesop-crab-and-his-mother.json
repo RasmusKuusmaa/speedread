@@ -1,0 +1,323 @@
+{
+  "id": "aesop-crab-and-his-mother",
+  "title": "The Crab and His Mother",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "An Old Crab said to her son, \"Why do you walk sideways like that, my son? You ought to walk straight.\" The Young Crab replied, \"Show me how, dear mother, and I'll follow your example.\" The Old Crab tried, but tried in vain, and then saw how foolish she had been to find fault with her child.",
+    "Example is better than precept."
+  ],
+  "questions": [
+    {
+      "id": "aesop-crab-and-his-mother-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Old Crab criticize her son for?",
+      "options": [
+        "Eating too slowly",
+        "Wandering too far from home",
+        "Walking sideways",
+        "Hiding under rocks all day"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 30,
+        "end": 73
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crab-and-his-mother-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Old Crab tell her son he ought to do?",
+      "options": [
+        "Walk straight",
+        "Walk more slowly",
+        "Walk only at night",
+        "Walk alongside her at all times"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 74,
+        "end": 100
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crab-and-his-mother-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Young Crab ask his mother to do?",
+      "options": [
+        "Explain why walking straight matters",
+        "Ask another crab to teach him instead",
+        "Wait until he is older to learn",
+        "Show him how to walk straight so he can follow her example"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 128,
+        "end": 182
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crab-and-his-mother-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens when the Old Crab tries to walk straight herself?",
+      "options": [
+        "She succeeds easily on her first attempt",
+        "She tries, but tries in vain",
+        "She refuses to try at all",
+        "She asks the Young Crab to try first instead"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 185,
+        "end": 222
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crab-and-his-mother-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Old Crab realize after her failed attempt?",
+      "options": [
+        "That her son was actually walking correctly all along",
+        "That crabs cannot be taught to walk differently",
+        "That she had been foolish to find fault with her child",
+        "That she needed more practice before trying again"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 228,
+        "end": 290
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crab-and-his-mother-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Young Crab's request expose a problem with his mother's criticism?",
+      "options": [
+        "It reveals that she is asking him to do something she herself cannot do",
+        "It shows that he does not actually want to learn to walk straight",
+        "It proves that he already knows how to walk straight",
+        "It suggests that walking straight is not actually possible for crabs"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 185,
+        "end": 222
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crab-and-his-mother-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Old Crab's realization suggest about giving advice to others?",
+      "options": [
+        "Advice should never be given to one's own children",
+        "Advice about walking is different from advice about other habits",
+        "Advice is only useful if it comes from someone older",
+        "Advice carries less weight when the one giving it cannot follow it themselves"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 233,
+        "end": 290
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crab-and-his-mother-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Old Crab tried \"in vain\"?",
+      "options": [
+        "Without being noticed",
+        "Without success",
+        "Without much effort",
+        "Without any pain"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 185,
+        "end": 222
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crab-and-his-mother-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean to \"find fault with\" someone, as the Old Crab did with her child?",
+      "options": [
+        "To praise them warmly for something",
+        "To ask them a simple question",
+        "To criticize or point out flaws in them",
+        "To ignore them entirely"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 265,
+        "end": 290
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crab-and-his-mother-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "Setting an example works better than merely telling others what to do",
+        "Children should never question their parents' advice",
+        "Crabs are physically unable to walk in a straight line",
+        "Mothers should avoid criticizing their children at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 31
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crab-and-his-mother-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who speaks first in the conversation?",
+      "options": [
+        "The Young Crab",
+        "Neither; they speak at the same time",
+        "A third crab observing them",
+        "The Old Crab"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 27
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crab-and-his-mother-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Young Crab call his mother when he answers her?",
+      "options": [
+        "\"Old Crab\"",
+        "\"Dear mother\"",
+        "\"Teacher\"",
+        "\"Wise one\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 141,
+        "end": 152
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crab-and-his-mother-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Young Crab promise to do if shown how to walk straight?",
+      "options": [
+        "Teach the other young crabs too",
+        "Practice every day until he succeeds",
+        "Follow his mother's example",
+        "Never walk sideways again regardless"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 158,
+        "end": 182
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crab-and-his-mother-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Young Crab ask to be shown rather than simply agreeing to try?",
+      "options": [
+        "He wants his mother to demonstrate the very thing she is asking of him",
+        "He does not believe walking straight is possible at all",
+        "He is stalling so he does not have to obey her",
+        "He wants to compare her walk to his own first"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 128,
+        "end": 182
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crab-and-his-mother-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Old Crab's failed attempt reveal about crabs in general?",
+      "options": [
+        "Only young crabs are able to walk sideways",
+        "The Old Crab was simply out of practice",
+        "Walking straight is easy but rarely attempted",
+        "Walking sideways may simply be how crabs are built to move"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 185,
+        "end": 222
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crab-and-his-mother-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"precept\" mean in the closing line \"Example is better than precept\"?",
+      "options": [
+        "A reward given for good behavior",
+        "A rule or instruction telling someone what to do",
+        "A story told to entertain children",
+        "A tool used for measuring distance"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 31
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crab-and-his-mother-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A son teaches his mother a new way of walking",
+        "A mother and son agree that walking sideways is best",
+        "A mother's criticism of her son backfires when she cannot do what she demands of him",
+        "A mother punishes her son for walking incorrectly"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 228,
+        "end": 290
+      },
+      "pool": "retest"
+    }
+  ]
+}
