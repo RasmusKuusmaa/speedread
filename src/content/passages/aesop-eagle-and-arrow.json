@@ -1,0 +1,323 @@
+{
+  "id": "aesop-eagle-and-arrow",
+  "title": "The Eagle and the Arrow",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "An Eagle sat perched on a lofty rock, keeping a sharp look-out for prey. A huntsman, concealed in a cleft of the mountain and on the watch for game, spied him there and shot an Arrow at him. The shaft struck him full in the breast and pierced him through and through.",
+    "As he lay in the agonies of death, he turned his eyes upon the Arrow. \"Ah! cruel fate!\" he cried, \"that I should perish thus: but oh! fate more cruel still, that the Arrow which kills me should be winged with an Eagle's feathers!\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-eagle-and-arrow-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where is the Eagle perched at the start?",
+      "options": [
+        "In the branches of a tree",
+        "On a cliff by the sea",
+        "On a lofty rock",
+        "On a fence post near a farm"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 36
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-eagle-and-arrow-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Eagle doing while perched there?",
+      "options": [
+        "Keeping a sharp look-out for prey",
+        "Resting after a long flight",
+        "Feeding a group of young eaglets",
+        "Watching for approaching storms"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 38,
+        "end": 71
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-eagle-and-arrow-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where is the huntsman hiding?",
+      "options": [
+        "Behind a fallen tree",
+        "Inside a small cave",
+        "Beneath a pile of leaves",
+        "In a cleft of the mountain"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 85,
+        "end": 121
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-eagle-and-arrow-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the Arrow strike the Eagle?",
+      "options": [
+        "In one of his wings",
+        "Full in the breast",
+        "Along his tail feathers",
+        "In his leg"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 191,
+        "end": 266
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-eagle-and-arrow-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Eagle do as he lies dying?",
+      "options": [
+        "He tries to fly one last time",
+        "He calls out to other eagles nearby",
+        "He turns his eyes upon the Arrow",
+        "He watches the huntsman walk away"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 35,
+        "end": 68
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-eagle-and-arrow-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Eagle notice about the Arrow that kills him?",
+      "options": [
+        "It is winged with an Eagle's feathers",
+        "It is unusually large for a hunting arrow",
+        "It is marked with the huntsman's name",
+        "It is broken in two after striking him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 157,
+        "end": 228
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-eagle-and-arrow-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Eagle call his fate \"more cruel still\" upon seeing the feathers?",
+      "options": [
+        "He realizes the huntsman stole the feathers from his own nest",
+        "He believes another eagle deliberately betrayed him",
+        "He is surprised that arrows can be made from feathers at all",
+        "He realizes that a feather from his own kind helped bring about his death"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 134,
+        "end": 228
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-eagle-and-arrow-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the huntsman able to strike the Eagle successfully?",
+      "options": [
+        "He challenges the Eagle openly before shooting",
+        "He remains hidden and watches patiently before taking his shot",
+        "He is guided to the spot by another animal",
+        "He waits until the Eagle is asleep to shoot"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 73,
+        "end": 189
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-eagle-and-arrow-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"lofty\" mean in \"a lofty rock\"?",
+      "options": [
+        "Smooth and flat",
+        "Covered in moss",
+        "Very high up",
+        "Narrow and pointed"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 13,
+        "end": 36
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-eagle-and-arrow-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "There is a bitter irony in being harmed by something drawn from your very own nature",
+        "Huntsmen are always more skilled than the animals they hunt",
+        "Eagles should never rest on exposed, high places",
+        "Feathers make arrows less deadly than other materials"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 134,
+        "end": 228
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-eagle-and-arrow-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the huntsman on the watch for?",
+      "options": [
+        "Firewood",
+        "Fresh water",
+        "A place to camp",
+        "Game"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 126,
+        "end": 147
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-eagle-and-arrow-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how completely does the Arrow pass through the Eagle?",
+      "options": [
+        "It only grazes his feathers",
+        "It pierces him through and through",
+        "It lodges just beneath his skin",
+        "It strikes his wing rather than his breast"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 235,
+        "end": 266
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-eagle-and-arrow-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Eagle exclaim as he lies dying?",
+      "options": [
+        "\"Farewell, sky!\"",
+        "\"Beware, huntsman!\"",
+        "\"Ah! cruel fate!\"",
+        "\"My kingdom is lost!\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 71,
+        "end": 86
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-eagle-and-arrow-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Eagle's death be considered especially bitter compared to an ordinary death by hunting?",
+      "options": [
+        "The very feathers that once let him rule the sky now speed the weapon that kills him",
+        "He is killed by another eagle rather than by a human huntsman",
+        "He dies far from his nest, unable to return home",
+        "He is struck down before he can catch any prey that day"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 99,
+        "end": 228
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-eagle-and-arrow-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Eagle's final words suggest he now understands about the arrow's construction?",
+      "options": [
+        "The huntsman had personally raised eagles to obtain feathers",
+        "The arrow was specially made just to kill him",
+        "Feathers make an arrow lighter but less accurate",
+        "Arrows were commonly fitted with feathers from birds like himself"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 162,
+        "end": 228
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-eagle-and-arrow-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"perish\" mean in \"that I should perish thus\"?",
+      "options": [
+        "Escape",
+        "Die",
+        "Suffer briefly",
+        "Recover slowly"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 99,
+        "end": 124
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-eagle-and-arrow-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "An Eagle escapes a huntsman's arrow at the last moment",
+        "A huntsman spares the Eagle after admiring its feathers",
+        "An Eagle is fatally shot and realizes, as he dies, that the arrow bears his own kind's feathers",
+        "An Eagle is wounded but survives to fly away"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 157,
+        "end": 228
+      },
+      "pool": "retest"
+    }
+  ]
+}
