@@ -1,0 +1,324 @@
+{
+  "id": "mercury-and-the-sculptor",
+  "title": "Mercury and the Sculptor",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Mercury was very anxious to know in what estimation he was held by mankind; so he disguised himself as a man and walked into a Sculptor's studio, where there were a number of statues finished and ready for sale.",
+    "Seeing a statue of Jupiter among the rest, he inquired the price of it. \"A crown,\" said the Sculptor. \"Is that all?\" said he, laughing; \"and\" (pointing to one of Juno) \"how much is that one?\" \"That,\" was the reply, \"is half a crown.\"",
+    "\"And how much might you be wanting for that one over there, now?\" he continued, pointing to a statue of himself. \"That one?\" said the Sculptor; \"Oh, I'll throw him in for nothing if you'll buy the other two.\""
+  ],
+  "questions": [
+    {
+      "id": "mercury-and-the-sculptor-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does Mercury disguise himself as a man?",
+      "options": [
+        "He wants to buy a statue without being recognized as a god",
+        "He wants to test the Sculptor's honesty",
+        "He is anxious to know in what estimation he was held by mankind",
+        "He is hiding from another god"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 74
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mercury-and-the-sculptor-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does Mercury walk into?",
+      "options": [
+        "A Sculptor's studio",
+        "A crowded marketplace",
+        "A temple dedicated to Jupiter",
+        "A blacksmith's forge"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 79,
+        "end": 144
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mercury-and-the-sculptor-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the price of the statue of Jupiter?",
+      "options": [
+        "Half a crown",
+        "Two crowns",
+        "Nothing at all",
+        "A crown"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 73,
+        "end": 80
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mercury-and-the-sculptor-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the price of the statue of Juno?",
+      "options": [
+        "A full crown",
+        "Half a crown",
+        "Two crowns",
+        "Three times the price of Jupiter's statue"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 216,
+        "end": 231
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mercury-and-the-sculptor-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Mercury do when he hears the price of Jupiter's statue?",
+      "options": [
+        "He immediately buys it",
+        "He argues that the price is too high",
+        "He laughs and asks about another statue",
+        "He walks away without saying anything"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 103,
+        "end": 134
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mercury-and-the-sculptor-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Sculptor say about the statue of Mercury himself?",
+      "options": [
+        "That he'll throw it in for nothing if the buyer takes the other two",
+        "That it is the most expensive of the three",
+        "That it is not yet finished",
+        "That it is reserved for someone else"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 145,
+        "end": 206
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mercury-and-the-sculptor-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Mercury ask about his own statue last?",
+      "options": [
+        "He genuinely does not recognize the statue as himself",
+        "He wants to negotiate a discount on all three statues",
+        "He plans to buy only his own statue",
+        "He is building up to find out how mankind values him specifically"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 5,
+        "end": 64
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mercury-and-the-sculptor-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Sculptor's answer reveal about how mankind values Mercury compared to Jupiter and Juno?",
+      "options": [
+        "Mercury is seen as more valuable than either Jupiter or Juno",
+        "Mercury is seen as having little to no value on his own",
+        "Mercury is valued equally with Jupiter",
+        "Mercury's statue is too rare to be sold at all"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 149,
+        "end": 206
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mercury-and-the-sculptor-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"estimation\" mean in \"in what estimation he was held by mankind\"?",
+      "options": [
+        "The exact price of an object",
+        "A formal written judgment",
+        "The regard or opinion others have of someone",
+        "A method of measuring height"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 33,
+        "end": 74
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mercury-and-the-sculptor-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Vanity can lead someone to discover that they are valued less than they had hoped",
+        "Sculptors always undercharge for their best work",
+        "Mercury was the most respected of all the gods",
+        "Statues of gods should never be sold for money"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 149,
+        "end": 206
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mercury-and-the-sculptor-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Mercury find in the Sculptor's studio?",
+      "options": [
+        "A single unfinished statue of himself",
+        "Tools used for carving stone",
+        "A crowd of customers already bargaining",
+        "A number of statues finished and ready for sale"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 152,
+        "end": 210
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "mercury-and-the-sculptor-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, whose statue does Mercury ask about first?",
+      "options": [
+        "Juno's",
+        "Jupiter's",
+        "His own",
+        "The Sculptor's"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 70
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "mercury-and-the-sculptor-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does Mercury react upon hearing Jupiter's statue costs only a crown?",
+      "options": [
+        "He immediately demands a lower price",
+        "He refuses to believe the Sculptor",
+        "He is surprised and asks, \"Is that all?\"",
+        "He asks to see a more expensive statue"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 103,
+        "end": 115
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "mercury-and-the-sculptor-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might Mercury have expected a higher price for Jupiter's statue?",
+      "options": [
+        "Jupiter was considered the king of the gods, so a higher value might seem natural",
+        "He had seen similar statues sell for much more elsewhere",
+        "The Sculptor had a reputation for overpricing his work",
+        "He was told in advance what the statue should cost"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 103,
+        "end": 134
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "mercury-and-the-sculptor-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Sculptor's casual offer to \"throw in\" Mercury's statue sting more than a simple low price would?",
+      "options": [
+        "It shows the Sculptor dislikes Mercury personally",
+        "It implies the statue is broken or damaged",
+        "It reveals that the Sculptor forgot to price it earlier",
+        "It suggests Mercury's statue has no value of its own at all, unlike the other two"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 149,
+        "end": 206
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "mercury-and-the-sculptor-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Sculptor would \"throw in\" the statue of Mercury?",
+      "options": [
+        "Discard it as worthless and unsellable",
+        "Include it for free with another purchase",
+        "Sell it separately at a discount",
+        "Hide it from other customers"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 149,
+        "end": 206
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "mercury-and-the-sculptor-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "Mercury buys all three statues at a fair price",
+        "The Sculptor refuses to sell any of the statues to Mercury",
+        "Mercury disguises himself to learn his worth to mankind, and finds his own statue is valued at nothing",
+        "Mercury reveals his true identity to the Sculptor at the end"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 149,
+        "end": 206
+      },
+      "pool": "retest"
+    }
+  ]
+}
