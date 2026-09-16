@@ -89,6 +89,7 @@ import goldenGateBridgeHistory from "./golden-gate-bridge-history.json";
 import grapheneOneAtomThick from "./graphene-one-atom-thick.json";
 import hooverDamHistory from "./hoover-dam-history.json";
 import internationalSpaceStationHistory from "./international-space-station-history.json";
+import jupiterAndTortoise from "./jupiter-and-tortoise.json";
 import mechanicalEngineeringAncientHistory from "./mechanical-engineering-ancient-history.json";
 import meditationsRusticusApollonius from "./meditations-rusticus-apollonius.json";
 import meditationsSeverusMaximus from "./meditations-severus-maximus.json";
@@ -317,6 +318,7 @@ export const rawPassages: unknown[] = [
   giftOfTheMagiOpening,
   goldenGateBridgeHistory,
   internationalSpaceStationHistory,
+  jupiterAndTortoise,
   bostonTeaParty,
   storyOfAnHour,
   stampAct1765,

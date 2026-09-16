@@ -1,0 +1,322 @@
+{
+  "id": "jupiter-and-tortoise",
+  "title": "Jupiter and the Tortoise",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Jupiter was about to marry a wife, and determined to celebrate the event by inviting all the animals to a banquet. They all came except the Tortoise, who did not put in an appearance, much to Jupiter's surprise. So when he next saw the Tortoise he asked him why he had not been at the banquet. \"I don't care for going out,\" said the Tortoise; \"there's no place like home.\" Jupiter was so much annoyed by this reply that he decreed that from that time forth the Tortoise should carry his house upon his back, and never be able to get away from home even if he wished to."
+  ],
+  "questions": [
+    {
+      "id": "jupiter-and-tortoise-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what event does Jupiter celebrate with a banquet?",
+      "options": [
+        "The birth of a new god",
+        "The end of a long war",
+        "His marriage to a wife",
+        "The founding of a new city"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 113
+      },
+      "pool": "first"
+    },
+    {
+      "id": "jupiter-and-tortoise-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who is invited to the banquet?",
+      "options": [
+        "All the animals",
+        "Only the gods of Olympus",
+        "Only the birds and fish",
+        "Only the animals who had helped Jupiter before"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 39,
+        "end": 113
+      },
+      "pool": "first"
+    },
+    {
+      "id": "jupiter-and-tortoise-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, which animal fails to attend the banquet?",
+      "options": [
+        "The Fox",
+        "The Eagle",
+        "The Lion",
+        "The Tortoise"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 115,
+        "end": 148
+      },
+      "pool": "first"
+    },
+    {
+      "id": "jupiter-and-tortoise-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Jupiter ask the Tortoise when he next sees him?",
+      "options": [
+        "Where he had been hiding all this time",
+        "Why he had not been at the banquet",
+        "Whether he was feeling unwell",
+        "Why he never speaks at gatherings"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 245,
+        "end": 292
+      },
+      "pool": "first"
+    },
+    {
+      "id": "jupiter-and-tortoise-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what reason does the Tortoise give for not attending?",
+      "options": [
+        "\"I was too slow to arrive in time.\"",
+        "\"I was never told about the banquet.\"",
+        "\"There's no place like home.\"",
+        "\"I do not eat the food served at banquets.\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 295,
+        "end": 370
+      },
+      "pool": "first"
+    },
+    {
+      "id": "jupiter-and-tortoise-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does Jupiter react to the Tortoise's reply?",
+      "options": [
+        "He is so annoyed that he decrees a permanent punishment",
+        "He laughs and forgives the Tortoise at once",
+        "He invites the Tortoise to a second banquet",
+        "He asks the other animals to explain the Tortoise's absence"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 373,
+        "end": 430
+      },
+      "pool": "first"
+    },
+    {
+      "id": "jupiter-and-tortoise-f7",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Jupiter decree the Tortoise must do from then on?",
+      "options": [
+        "Live apart from all the other animals",
+        "Attend every future banquet without exception",
+        "Give up his home entirely",
+        "Carry his house upon his back"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 457,
+        "end": 506
+      },
+      "pool": "first"
+    },
+    {
+      "id": "jupiter-and-tortoise-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Jupiter's punishment fit the Tortoise's own words so precisely?",
+      "options": [
+        "It forces the Tortoise to attend every banquet Jupiter holds from then on",
+        "It ensures the Tortoise is never without his home, even though he can no longer be truly free of the world outside it",
+        "It removes the Tortoise's home entirely as a punishment",
+        "It gives the Tortoise a new home better than his old one"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 457,
+        "end": 568
+      },
+      "pool": "first"
+    },
+    {
+      "id": "jupiter-and-tortoise-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"decreed\" mean in \"he decreed that from that time forth\"?",
+      "options": [
+        "Quietly suggested",
+        "Politely requested",
+        "Officially ordered or declared",
+        "Secretly planned"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 420,
+        "end": 456
+      },
+      "pool": "first"
+    },
+    {
+      "id": "jupiter-and-tortoise-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "A preference taken to an extreme can be turned into a permanent condition",
+        "Jupiter is always fair in how he punishes those who offend him",
+        "Tortoises are naturally suited to carrying heavy loads",
+        "Banquets are the best way to test loyalty among animals"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 457,
+        "end": 568
+      },
+      "pool": "first"
+    },
+    {
+      "id": "jupiter-and-tortoise-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does Jupiter feel about the Tortoise's absence at first?",
+      "options": [
+        "Angry",
+        "Indifferent",
+        "Amused",
+        "Surprised"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 184,
+        "end": 210
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "jupiter-and-tortoise-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Tortoise say he does not care for?",
+      "options": [
+        "Eating at large gatherings",
+        "Going out",
+        "Talking to strangers",
+        "Traveling long distances"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 295,
+        "end": 321
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "jupiter-and-tortoise-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when does the Tortoise's punishment begin?",
+      "options": [
+        "Only during the next banquet",
+        "After a full year had passed",
+        "From that time forth",
+        "Once the Tortoise apologized"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 420,
+        "end": 456
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "jupiter-and-tortoise-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might Jupiter view the Tortoise's absence as a personal insult?",
+      "options": [
+        "The Tortoise was the only animal who chose not to celebrate his marriage",
+        "The Tortoise had promised in advance to attend",
+        "The Tortoise had insulted Jupiter's wife directly",
+        "The Tortoise had convinced other animals to stay home too"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 115,
+        "end": 148
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "jupiter-and-tortoise-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what irony lies in the Tortoise now always carrying his home with him?",
+      "options": [
+        "He no longer has any home to return to",
+        "He must now share his home with every other animal",
+        "He can no longer enter his home at all",
+        "He wanted to stay home, but now he can never truly leave it behind even when he travels"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 457,
+        "end": 568
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "jupiter-and-tortoise-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Tortoise did not \"put in an appearance\"?",
+      "options": [
+        "He did not speak during the event",
+        "He did not show up at the event",
+        "He arrived late to the event",
+        "He left the event early"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 150,
+        "end": 182
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "jupiter-and-tortoise-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Tortoise is forgiven after explaining why he missed the banquet",
+        "A Tortoise is invited to a second banquet as an apology",
+        "A Tortoise's preference for staying home earns him a permanent punishment of carrying his house forever",
+        "A Tortoise loses his home as punishment for missing the banquet"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 457,
+        "end": 506
+      },
+      "pool": "retest"
+    }
+  ]
+}
