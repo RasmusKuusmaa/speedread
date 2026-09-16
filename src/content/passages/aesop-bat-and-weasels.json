@@ -1,0 +1,323 @@
+{
+  "id": "aesop-bat-and-weasels",
+  "title": "The Bat and the Weasels",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Bat fell to the ground and was caught by a Weasel, and was just going to be killed and eaten when it begged to be let go. The Weasel said he couldn't do that because he was an enemy of all birds on principle. \"Oh, but,\" said the Bat, \"I'm not a bird at all: I'm a mouse.\" \"So you are,\" said the Weasel, \"now I come to look at you\"; and he let it go. Some time after this the Bat was caught in just the same way by another Weasel, and, as before, begged for its life. \"No,\" said the Weasel, \"I never let a mouse go by any chance.\" \"But I'm not a mouse,\" said the Bat; \"I'm a bird.\" \"Why, so you are,\" said the Weasel; and he too let the Bat go.",
+    "Look and see which way the wind blows before you commit yourself."
+  ],
+  "questions": [
+    {
+      "id": "aesop-bat-and-weasels-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the Bat right at the start?",
+      "options": [
+        "He is chased out of his cave by an owl",
+        "He is trapped in a hunter's net",
+        "He falls to the ground and is caught by a Weasel",
+        "He collides with a tree branch at night"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 51
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bat-and-weasels-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the first Weasel say he must kill the Bat?",
+      "options": [
+        "He is an enemy of all birds on principle",
+        "He is very hungry and needs food",
+        "He was ordered to by another animal",
+        "He caught the Bat stealing from him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 168,
+        "end": 209
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bat-and-weasels-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Bat claim to be when caught by the first Weasel?",
+      "options": [
+        "A bird",
+        "A small owl",
+        "A moth",
+        "A mouse"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 237,
+        "end": 271
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bat-and-weasels-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the second Weasel say he never does?",
+      "options": [
+        "Let a bird go by any chance",
+        "Let a mouse go by any chance",
+        "Hunt after the sun has set",
+        "Share his catch with another weasel"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 493,
+        "end": 529
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bat-and-weasels-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Bat claim to be when caught by the second Weasel?",
+      "options": [
+        "A mouse",
+        "A butterfly",
+        "A bird",
+        "A small snake"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 537,
+        "end": 580
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bat-and-weasels-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how do both encounters end for the Bat?",
+      "options": [
+        "He is let go both times",
+        "He is eaten by the second Weasel",
+        "He escapes without speaking either time",
+        "He is kept as a pet by both Weasels"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 623,
+        "end": 644
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bat-and-weasels-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Bat claim to be a different creature each time he is caught?",
+      "options": [
+        "He genuinely forgets what kind of creature he is",
+        "He wants to trick the Weasels into fighting each other",
+        "He believes both Weasels are actually the same animal",
+        "He notices what each Weasel refuses to harm and claims to be that instead"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 212,
+        "end": 271
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bat-and-weasels-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Bat's success both times reveal about his approach to danger?",
+      "options": [
+        "Physical strength ultimately saves him from both Weasels",
+        "Adapting his claim to fit each captor's stated enemy keeps him safe",
+        "Speed alone allows him to slip away unnoticed",
+        "Loyalty to his true identity wins him mercy"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 619,
+        "end": 644
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bat-and-weasels-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Weasel was an enemy of birds \"on principle\"?",
+      "options": [
+        "Only when a bird had personally wronged him",
+        "As a joke rather than something he truly believed",
+        "As a firm rule he holds, not because of anything one bird did",
+        "Because a law required him to act that way"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 168,
+        "end": 209
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bat-and-weasels-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "Reading the situation and adapting to it can help you survive danger",
+        "Telling the truth is always the safest course of action",
+        "Weasels are more easily fooled than most other animals",
+        "Bats should avoid the ground at all costs"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 65
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bat-and-weasels-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Bat do the moment he is about to be killed?",
+      "options": [
+        "He bites the Weasel to escape",
+        "He pretends to already be dead",
+        "He offers the Weasel food instead",
+        "He begs to be let go"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 100,
+        "end": 122
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bat-and-weasels-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the first Weasel say once the Bat claims to be a mouse?",
+      "options": [
+        "\"I don't believe you,\" and refuses",
+        "\"So you are,\" and lets him go",
+        "\"Prove it,\" and demands evidence",
+        "\"It makes no difference,\" and attacks anyway"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 275,
+        "end": 285
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bat-and-weasels-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when is the Bat caught by the second Weasel?",
+      "options": [
+        "The very next morning",
+        "While he was still speaking to the first Weasel",
+        "Some time after the first encounter",
+        "Many years after the first encounter"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 352,
+        "end": 430
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bat-and-weasels-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why doesn't the Bat repeat his first claim of being a mouse to the second Weasel?",
+      "options": [
+        "This Weasel has said he never lets a mouse go, so that claim would fail",
+        "He has forgotten that claim worked before",
+        "The second Weasel already knows he is a bat",
+        "He prefers to be honest with the second Weasel"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 493,
+        "end": 529
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bat-and-weasels-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what do the two Weasels have in common despite reaching opposite decisions?",
+      "options": [
+        "Each one is easily distracted from finishing the job",
+        "Each one is more forgiving than most weasels",
+        "Each one secretly wants to keep the Bat as a pet",
+        "Each one refuses to harm a creature it does not consider its enemy"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 168,
+        "end": 209
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bat-and-weasels-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean to \"commit yourself\" in the closing line?",
+      "options": [
+        "To promise something to a stranger",
+        "To settle firmly on one choice or side",
+        "To admit a mistake openly",
+        "To ask for someone else's opinion first"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 38,
+        "end": 64
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bat-and-weasels-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Bat is caught once and never escapes again",
+        "Two Weasels argue over which of them may eat the Bat",
+        "A Bat twice talks his way free by claiming to be whatever each captor won't harm",
+        "A Bat convinces two Weasels to become friends"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 619,
+        "end": 644
+      },
+      "pool": "retest"
+    }
+  ]
+}
