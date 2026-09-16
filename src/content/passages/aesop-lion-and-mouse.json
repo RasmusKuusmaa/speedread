@@ -1,0 +1,322 @@
+{
+  "id": "aesop-lion-and-mouse",
+  "title": "The Lion and the Mouse",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Lion asleep in his lair was waked up by a Mouse running over his face. Losing his temper he seized it with his paw and was about to kill it. The Mouse, terrified, piteously entreated him to spare its life. \"Please let me go,\" it cried, \"and one day I will repay you for your kindness.\" The idea of so insignificant a creature ever being able to do anything for him amused the Lion so much that he laughed aloud, and good-humouredly let it go. But the Mouse's chance came, after all. One day the Lion got entangled in a net which had been spread for game by some hunters, and the Mouse heard and recognised his roars of anger and ran to the spot. Without more ado it set to work to gnaw the ropes with its teeth, and succeeded before long in setting the Lion free. \"There!\" said the Mouse, \"you laughed at me when I promised I would repay you: but now you see, even a Mouse can help a Lion.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-lion-and-mouse-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what wakes the Lion up at the start?",
+      "options": [
+        "A loud roar from another lion",
+        "Hunters approaching his lair",
+        "A Mouse running over his face",
+        "The sound of a net being spread"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 30,
+        "end": 71
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-mouse-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Lion do the moment he wakes?",
+      "options": [
+        "He seizes the Mouse with his paw",
+        "He runs out of the lair in fear",
+        "He calls out to the hunters",
+        "He falls back asleep at once"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 73,
+        "end": 116
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-mouse-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Mouse promise the Lion if he is let go?",
+      "options": [
+        "That he will never enter the lair again",
+        "That he will bring the Lion some food",
+        "That he will warn the Lion about the hunters",
+        "That he will repay the Lion's kindness one day"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 243,
+        "end": 285
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-mouse-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Lion react to the Mouse's promise?",
+      "options": [
+        "He grows angrier and refuses",
+        "He laughs aloud and lets it go",
+        "He asks the Mouse to prove it first",
+        "He ignores the Mouse and falls asleep"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 396,
+        "end": 443
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-mouse-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Lion later get trapped?",
+      "options": [
+        "He falls into a deep pit",
+        "He is chased into a river",
+        "He gets entangled in a net spread by hunters",
+        "He is caught in a storm"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 493,
+        "end": 571
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-mouse-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Mouse free the Lion from the net?",
+      "options": [
+        "By gnawing through the ropes with its teeth",
+        "By untying the knots with its paws",
+        "By calling other mice to help pull the net",
+        "By biting through the hunters' spears"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 665,
+        "end": 712
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-mouse-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Lion find the Mouse's promise so amusing?",
+      "options": [
+        "He believes the Mouse is joking about the hunters",
+        "He does not understand what a promise is",
+        "He thinks the Mouse wants to trade places with him",
+        "He thinks a creature so small could never truly help him"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 288,
+        "end": 382
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-mouse-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Mouse run to the spot when it hears the Lion's roars?",
+      "options": [
+        "It is curious about the sound of hunters",
+        "It recognizes the Lion and comes to help him",
+        "It is fleeing from a predator of its own",
+        "It wants to see the net for itself"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 577,
+        "end": 646
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-mouse-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Mouse \"piteously entreated\" the Lion?",
+      "options": [
+        "It threatened him if he did not comply",
+        "It bargained with him over a price",
+        "It begged him in a way meant to stir pity",
+        "It ignored him and tried to run away"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 165,
+        "end": 206
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-mouse-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Even a small creature can prove capable of a great kindness",
+        "Lions should never sleep in open lairs",
+        "Hunters are always able to outwit the animals they trap",
+        "Mice are more dangerous to lions than they appear"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 862,
+        "end": 890
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-mouse-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Lion about to do to the Mouse right after he catches it?",
+      "options": [
+        "Question it",
+        "Release it at once",
+        "Carry it outside the lair",
+        "Kill it"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 121,
+        "end": 141
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lion-and-mouse-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Mouse say as it begs to be let go?",
+      "options": [
+        "\"I was only passing through\"",
+        "\"Please let me go\"",
+        "\"Take me to the hunters instead\"",
+        "\"I will fetch you some food\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 209,
+        "end": 225
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lion-and-mouse-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Mouse say to the Lion once it has freed him?",
+      "options": [
+        "\"I hope you have learned your lesson\"",
+        "\"Do not thank me, thank the hunters\"",
+        "\"Even a Mouse can help a Lion\"",
+        "\"Now we are even, and nothing more\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 862,
+        "end": 890
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lion-and-mouse-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Lion's decision to release the Mouse make possible later on?",
+      "options": [
+        "The Mouse is free to come to his rescue when he is trapped",
+        "The Mouse warns other animals to avoid the Lion's lair",
+        "The Mouse leads hunters away from the Lion's territory",
+        "The Mouse teaches the Lion how to avoid nets"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 418,
+        "end": 443
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lion-and-mouse-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Mouse remind the Lion that he once laughed at its promise?",
+      "options": [
+        "To ask the Lion to laugh again",
+        "To warn the Lion not to trust hunters",
+        "To apologize for waking the Lion earlier",
+        "To point out that the Lion misjudged what the Mouse could do"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 792,
+        "end": 843
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lion-and-mouse-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Mouse acted \"without more ado\"?",
+      "options": [
+        "It waited quietly before doing anything",
+        "It got straight to work without delay",
+        "It asked the Lion for instructions first",
+        "It hesitated out of fear"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 648,
+        "end": 679
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lion-and-mouse-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Lion traps a Mouse to test its courage",
+        "A Mouse tricks a Lion into freeing it from a net",
+        "A Lion spares a Mouse, and the Mouse later returns the favor",
+        "A Lion and a Mouse compete to escape from hunters"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 743,
+        "end": 764
+      },
+      "pool": "retest"
+    }
+  ]
+}
