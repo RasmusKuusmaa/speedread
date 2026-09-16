@@ -1,0 +1,324 @@
+{
+  "id": "aesop-cat-and-cock",
+  "title": "The Cat and the Cock",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Cat pounced on a Cock, and cast about for some good excuse for making a meal off him, for Cats don't as a rule eat Cocks, and she knew she ought not to. At last she said, \"You make a great nuisance of yourself at night by crowing and keeping people awake: so I am going to make an end of you.\"",
+    "But the Cock defended himself by saying that he crowed in order that men might wake up and set about the day's work in good time, and that they really couldn't very well do without him. \"That may be,\" said the Cat, \"but whether they can or not, I'm not going without my dinner\"; and she killed and ate him.",
+    "The want of a good excuse never kept a villain from crime."
+  ],
+  "questions": [
+    {
+      "id": "aesop-cat-and-cock-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Cat do to the Cock at the start?",
+      "options": [
+        "She warns him to leave",
+        "She invites him to dinner",
+        "She pounces on him",
+        "She ignores him completely"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 23
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-cock-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Cat need to think of an excuse?",
+      "options": [
+        "Because Cats don't as a rule eat Cocks, and she knew she ought not to",
+        "Because the Cock belonged to someone else",
+        "Because she had already eaten earlier that day",
+        "Because the Cock was too large for her to catch alone"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 88,
+        "end": 153
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-cock-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what excuse does the Cat first give?",
+      "options": [
+        "That the Cock stole food from her",
+        "That the Cock woke her from an important nap",
+        "That the Cock refused to obey her orders",
+        "That the Cock is a nuisance at night with his crowing"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 174,
+        "end": 256
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-cock-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Cock defend himself?",
+      "options": [
+        "He says he only crows once a year",
+        "He says his crowing wakes men so they can start their work on time",
+        "He says the Cat misunderstood his crowing",
+        "He says he will stop crowing if she lets him go"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 45,
+        "end": 128
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-cock-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Cat say despite hearing the Cock's defence?",
+      "options": [
+        "That she now agrees the Cock should be spared",
+        "That she will ask another cat to decide",
+        "That she is not going without her dinner regardless",
+        "That she needs more time to think it over"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 245,
+        "end": 276
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-cock-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the Cock at the end?",
+      "options": [
+        "The Cat kills and eats him",
+        "The Cat lets him go free",
+        "The Cock escapes at the last moment",
+        "The Cock convinces the Cat to spare him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 283,
+        "end": 305
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-cock-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Cat abandon her first excuse so easily once the Cock answers it?",
+      "options": [
+        "She realizes the Cock is telling the truth and feels guilty",
+        "She wants to test whether the Cock can argue well",
+        "She was ordered by someone else to let the Cock go",
+        "Her true motive was hunger all along, not any real concern about the crowing"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 187,
+        "end": 276
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-cock-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Cat's final remark reveal about the real reason for the attack?",
+      "options": [
+        "The Cat genuinely believed the excuse mattered more than her hunger",
+        "Hunger, not the Cock's supposed nuisance, was the actual reason for the attack all along",
+        "The Cat was following the orders of a human master",
+        "The Cat had never actually been hungry in the first place"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 245,
+        "end": 276
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-cock-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"nuisance\" mean in \"You make a great nuisance of yourself\"?",
+      "options": [
+        "A source of danger or fear",
+        "A source of pride or honor",
+        "A source of annoyance or trouble",
+        "A source of confusion or doubt"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 174,
+        "end": 211
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-cock-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "Someone determined to do wrong will act on that intention regardless of whether a good reason exists",
+        "Roosters should never crow at night under any circumstances",
+        "Cats are naturally more reasonable than most predators",
+        "A convincing argument will always change a determined mind"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 58
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-cock-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Cock say men couldn't very well do without?",
+      "options": [
+        "Their own farm animals",
+        "The sound of a bell instead",
+        "A different kind of alarm",
+        "Him and his crowing"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 134,
+        "end": 184
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cat-and-cock-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Cat's very first task before speaking to the Cock?",
+      "options": [
+        "To ask another animal for advice",
+        "To cast about for some good excuse",
+        "To check whether anyone was watching",
+        "To decide whether she was truly hungry"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 29,
+        "end": 86
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cat-and-cock-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Cat say she is going to do to the Cock after her first accusation?",
+      "options": [
+        "Let him go with a warning",
+        "Report him to the farmer",
+        "Make an end of him",
+        "Ask him to stop crowing first"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 261,
+        "end": 293
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cat-and-cock-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Cat need an excuse at all if she ultimately doesn't act on the Cock's answer?",
+      "options": [
+        "She wants to appear justified even though her true motive is simply hunger",
+        "She genuinely intends to let the Cock go if he answers well",
+        "She is required by law to give a reason before eating anything",
+        "She is testing her own ability to reason logically"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 29,
+        "end": 86
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cat-and-cock-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the phrase \"that may be\" suggest about how the Cat treats the Cock's argument?",
+      "options": [
+        "She is genuinely persuaded and changes her mind completely",
+        "She does not understand what the Cock has said",
+        "She agrees so strongly that she apologizes to him",
+        "She concedes the point without letting it change her actual decision"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 187,
+        "end": 198
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cat-and-cock-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"defended himself\" mean in \"the Cock defended himself\"?",
+      "options": [
+        "He physically fought back against the Cat",
+        "He offered reasons to argue against the accusation",
+        "He ran away to escape the accusation",
+        "He asked another animal to speak for him"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 4,
+        "end": 39
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cat-and-cock-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Cock convinces the Cat to spare his life",
+        "A Cat decides not to eat the Cock after hearing his explanation",
+        "A Cat invents an excuse to eat a Cock, and kills him anyway once his defence fails to matter",
+        "A Cock is punished by the Cat for a crime he did not commit"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 283,
+        "end": 305
+      },
+      "pool": "retest"
+    }
+  ]
+}
