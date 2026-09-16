@@ -1,0 +1,322 @@
+{
+  "id": "aesop-bull-and-calf",
+  "title": "The Bull and the Calf",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A full-grown Bull was struggling to force his huge bulk through the narrow entrance to a cow-house where his stall was, when a young Calf came up and said to him, \"If you'll step aside a moment, I'll show you the way to get through.\" The Bull turned upon him an amused look. \"I knew that way,\" said he, \"before you were born.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-bull-and-calf-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Bull struggling to do?",
+      "options": [
+        "Break free from a rope tied around his neck",
+        "Climb over a low fence into the pasture",
+        "Force his huge bulk through the narrow entrance to the cow-house",
+        "Push a cart stuck in the mud"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 118
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bull-and-calf-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who offers to help the Bull?",
+      "options": [
+        "A young Calf",
+        "An older Bull",
+        "A farmer nearby",
+        "A passing sheep"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 125,
+        "end": 161
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bull-and-calf-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Calf offer to show the Bull?",
+      "options": [
+        "A different, wider entrance nearby",
+        "How to make himself appear smaller",
+        "Where the farmer keeps the food",
+        "The way to get through the entrance"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 195,
+        "end": 231
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bull-and-calf-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Bull react to the Calf's offer?",
+      "options": [
+        "He becomes angry and charges at the Calf",
+        "He turns upon him an amused look",
+        "He accepts the help gratefully",
+        "He ignores the Calf completely"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 234,
+        "end": 273
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bull-and-calf-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Bull say he knew before the Calf was born?",
+      "options": [
+        "How to grow to full size",
+        "How to behave around farmers",
+        "That way, referring to how to get through the entrance",
+        "How to find his own stall"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 276,
+        "end": 324
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bull-and-calf-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Bull find the Calf's offer amusing rather than helpful?",
+      "options": [
+        "The much younger Calf is offering advice about something the Bull has long since mastered",
+        "The Calf's suggestion is factually incorrect about the entrance",
+        "The Bull cannot understand what the Calf is trying to say",
+        "The Calf is offering to do something physically impossible"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 276,
+        "end": 324
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bull-and-calf-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what point does the Bull's reply make about experience and advice?",
+      "options": [
+        "Younger animals are always wrong about practical matters",
+        "Calves should never speak to bulls under any circumstances",
+        "The entrance was never actually difficult to pass through",
+        "Advice can seem out of place when it comes from someone with far less experience than the one receiving it"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 276,
+        "end": 324
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bull-and-calf-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"bulk\" mean in \"his huge bulk\"?",
+      "options": [
+        "His strength in a fight",
+        "His large size or mass",
+        "His speed while running",
+        "His stubborn attitude"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 36,
+        "end": 83
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bull-and-calf-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Bull gave the Calf \"an amused look\"?",
+      "options": [
+        "A look showing he was deeply offended",
+        "A look showing he was confused by the Calf's words",
+        "A look showing he found the offer mildly funny",
+        "A look showing he was too tired to respond"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 234,
+        "end": 273
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bull-and-calf-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "It can be amusing when the inexperienced try to teach the experienced something they already know well",
+        "Young animals should never offer help to older ones",
+        "Cow-houses should always have wider entrances",
+        "Experience matters less than good intentions when offering help"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 276,
+        "end": 324
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bull-and-calf-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where is the Bull trying to go?",
+      "options": [
+        "To the pasture for the night",
+        "To a watering hole nearby",
+        "To join the other bulls in the field",
+        "To his stall in the cow-house"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 87,
+        "end": 118
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bull-and-calf-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Calf ask the Bull to do for a moment?",
+      "options": [
+        "Wait quietly",
+        "Step aside",
+        "Turn around",
+        "Lower his head"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 164,
+        "end": 193
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bull-and-calf-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the very first word of the Bull's reply to the Calf?",
+      "options": [
+        "\"Well\"",
+        "\"No\"",
+        "\"I\"",
+        "\"Ha\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 276,
+        "end": 291
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bull-and-calf-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why doesn't the Bull actually need the Calf's help to get through the entrance?",
+      "options": [
+        "He has passed through that same entrance many times over the course of his life",
+        "The entrance is not actually narrow at all",
+        "The Calf's suggested method would not have worked anyway",
+        "The Bull has already found another way through by himself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 276,
+        "end": 324
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bull-and-calf-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Bull's calm, amused reaction suggest about how he takes the Calf's offer?",
+      "options": [
+        "He is deeply insulted by such a young animal offering advice",
+        "He is worried the Calf might actually know something he doesn't",
+        "He is embarrassed to be seen struggling by a Calf",
+        "He is not offended, simply finding it lightly funny given his own experience"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 234,
+        "end": 273
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bull-and-calf-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"narrow\" describe about the entrance?",
+      "options": [
+        "Being unusually tall",
+        "Having very little width",
+        "Being made of stone",
+        "Being newly built"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 64,
+        "end": 98
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bull-and-calf-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Calf successfully guides a lost Bull to safety",
+        "A Bull refuses ever to enter the cow-house again",
+        "A young Calf offers to help a struggling Bull, who points out he has known the way for far longer than the Calf has been alive",
+        "A Calf and a Bull argue over who owns the stall"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 276,
+        "end": 324
+      },
+      "pool": "retest"
+    }
+  ]
+}
