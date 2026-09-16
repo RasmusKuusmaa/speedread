@@ -1,0 +1,323 @@
+{
+  "id": "aesop-crab-and-fox",
+  "title": "The Crab and the Fox",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Crab once left the sea-shore and went and settled in a meadow some way inland, which looked very nice and green and seemed likely to be a good place to feed in. But a hungry Fox came along and spied the Crab and caught him. Just as he was going to be eaten up, the Crab said, \"This is just what I deserve; for I had no business to leave my natural home by the sea and settle here as though I belonged to the land.\"",
+    "Be content with your lot."
+  ],
+  "questions": [
+    {
+      "id": "aesop-crab-and-fox-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the Crab originally live?",
+      "options": [
+        "In a shaded forest",
+        "Beside a quiet river",
+        "By the sea-shore",
+        "In a rocky cave"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 30
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crab-and-fox-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Crab settle in the meadow?",
+      "options": [
+        "It looked very nice and green and seemed a good place to feed",
+        "It was closer to his family",
+        "It offered better protection from predators",
+        "He was chased there by another Crab"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 81,
+        "end": 161
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crab-and-fox-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who catches the Crab in the meadow?",
+      "options": [
+        "A passing hawk",
+        "A farmer working the field",
+        "Another Crab from the shore",
+        "A hungry Fox"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 167,
+        "end": 224
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crab-and-fox-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Crab say just before being eaten?",
+      "options": [
+        "That the Fox should let him go",
+        "That this is just what he deserves",
+        "That he will never make this mistake again",
+        "That the meadow was not worth the risk"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 279,
+        "end": 306
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crab-and-fox-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Crab say he had no business doing?",
+      "options": [
+        "Wandering so far from his family",
+        "Trusting a stranger he had just met",
+        "Leaving his natural home by the sea to settle on land",
+        "Ignoring the warnings of other crabs"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 312,
+        "end": 414
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crab-and-fox-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Crab believe his fate is deserved?",
+      "options": [
+        "He recognizes that leaving his natural environment put him in danger he could have avoided",
+        "He believes the Fox has more right to eat him than any other animal",
+        "He thinks all crabs are eventually caught no matter where they live",
+        "He believes he provoked the Fox somehow before being caught"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 308,
+        "end": 414
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crab-and-fox-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what made the meadow seem like a good choice at first?",
+      "options": [
+        "It was recommended by another crab who lived there",
+        "It was closer to fresh water than the shore",
+        "It had fewer foxes than the area near the sea",
+        "Its pleasant, green appearance suggested it would be safe and full of food"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 81,
+        "end": 161
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crab-and-fox-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"spied\" mean in \"spied the Crab\"?",
+      "options": [
+        "Warned about",
+        "Caught sight of",
+        "Chased away",
+        "Befriended quietly"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 167,
+        "end": 209
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crab-and-fox-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Crab had \"no business\" doing something?",
+      "options": [
+        "He had no financial means to do it",
+        "He had no time available to do it",
+        "He had no good reason or right to do it",
+        "He had no one to help him do it"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 312,
+        "end": 354
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crab-and-fox-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "Straying from what suits your own nature can bring trouble upon you",
+        "Foxes are always more dangerous than they appear",
+        "Meadows are unsafe for any creature that lives near the sea",
+        "Crabs should never trust the appearance of a new place"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 25
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crab-and-fox-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how far from the sea does the Crab settle?",
+      "options": [
+        "Just a few steps from the shore",
+        "Across a wide river",
+        "At the edge of a cliff",
+        "Some way inland"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 35,
+        "end": 79
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crab-and-fox-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Crab say about where he truly belongs?",
+      "options": [
+        "That he belongs wherever food is plentiful",
+        "That he belongs by the sea, not on the land",
+        "That he belongs with other crabs of his kind",
+        "That he no longer knows where he belongs"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 382,
+        "end": 414
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crab-and-fox-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what condition is the Fox in when he finds the Crab?",
+      "options": [
+        "Injured",
+        "Lost",
+        "Hungry",
+        "Frightened"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 167,
+        "end": 190
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crab-and-fox-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why doesn't the Crab blame the Fox for what happens to him?",
+      "options": [
+        "He accepts that his own choice to leave his natural home led to his misfortune",
+        "He does not realize the Fox is responsible for catching him",
+        "He believes the Fox was simply following orders from another animal",
+        "He thinks all foxes act the same way regardless of the situation"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 279,
+        "end": 306
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crab-and-fox-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what warning does the Crab's fate offer to other creatures?",
+      "options": [
+        "Meadows are always more dangerous than the sea-shore",
+        "Foxes only hunt creatures that do not belong in their territory",
+        "Crabs should always travel with a companion for safety",
+        "Leaving the environment suited to your nature can expose you to unexpected danger"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 25
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crab-and-fox-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"lot\" mean in the closing line \"Be content with your lot\"?",
+      "options": [
+        "A piece of land for building",
+        "One's own circumstances or situation in life",
+        "A large quantity of something",
+        "A game of chance"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 25
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crab-and-fox-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Crab outwits a Fox and escapes back to the sea",
+        "A Fox warns the Crab to return to the sea before it is too late",
+        "A Crab is caught by a Fox after leaving the sea for a meadow, and accepts the outcome as his own fault",
+        "A Crab convinces the Fox to spare his life"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 279,
+        "end": 306
+      },
+      "pool": "retest"
+    }
+  ]
+}
