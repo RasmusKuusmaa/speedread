@@ -1,0 +1,323 @@
+{
+  "id": "aesop-ass-and-his-burdens",
+  "title": "The Ass and His Burdens",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Pedlar who owned an Ass one day bought a quantity of salt, and loaded up his beast with as much as he could bear. On the way home the Ass stumbled as he was crossing a stream and fell into the water. The salt got thoroughly wetted and much of it melted and drained away, so that, when he got on his legs again, the Ass found his load had become much less heavy. His master, however, drove him back to town and bought more salt, which he added to what remained in the panniers, and started out again. No sooner had they reached a stream than the Ass lay down in it, and rose, as before, with a much lighter load. But his master detected the trick, and turning back once more, bought a large number of sponges, and piled them on the back of the Ass. When they came to the stream the Ass again lay down: but this time, as the sponges soaked up large quantities of water, he found, when he got up on his legs, that he had a bigger burden to carry than ever.",
+    "You may play a good card once too often."
+  ],
+  "questions": [
+    {
+      "id": "aesop-ass-and-his-burdens-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Pedlar load onto the Ass at the start?",
+      "options": [
+        "A load of firewood",
+        "Bags of grain",
+        "A quantity of salt",
+        "Bundles of cloth"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 34,
+        "end": 84
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-burdens-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the Ass while crossing the stream the first time?",
+      "options": [
+        "He stumbles and falls into the water",
+        "He is stopped by his master to rest",
+        "He refuses to cross and turns back",
+        "He is startled by a passing fish"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 132,
+        "end": 200
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-burdens-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Ass's load become lighter after his first fall?",
+      "options": [
+        "The Pedlar removed some of the salt himself",
+        "Part of the salt was stolen along the road",
+        "The panniers broke and spilled some salt out",
+        "The salt got wetted and much of it melted away"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 202,
+        "end": 271
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-burdens-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Ass do at the next stream, once loaded with more salt?",
+      "options": [
+        "He refuses to enter the water at all",
+        "He lies down in it on purpose",
+        "He walks around the stream instead",
+        "He waits for his master to carry the salt across"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 543,
+        "end": 612
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-burdens-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the master load onto the Ass after detecting the trick?",
+      "options": [
+        "An even heavier load of salt",
+        "Bags of sand instead of salt",
+        "A large number of sponges",
+        "Nothing at all, to punish him"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 677,
+        "end": 748
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-burdens-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the Ass's load after he lies down with the sponges?",
+      "options": [
+        "It becomes a bigger burden than ever",
+        "It becomes lighter, just as before",
+        "It stays exactly the same weight",
+        "It is completely destroyed by the water"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 908,
+        "end": 954
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-burdens-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Ass lie down in the stream a second time on purpose?",
+      "options": [
+        "He is trying to clean the sponges before delivery",
+        "He is too tired to keep walking any farther",
+        "He wants to frighten his master into stopping",
+        "He has learned that lying down lightens his load"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 502,
+        "end": 565
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-burdens-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the master choose sponges for the third load?",
+      "options": [
+        "He believes sponges are worth more money than salt",
+        "He expects the sponges to soak up water and punish the same trick",
+        "He wants to test whether the Ass can swim",
+        "He has run out of salt to sell in town"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 618,
+        "end": 647
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-burdens-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"panniers\" refer to?",
+      "options": [
+        "The shoes worn to protect the Ass's feet",
+        "The ropes used to tie down the load",
+        "The baskets carried on the Ass's back",
+        "The stalls where the Ass slept at night"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 448,
+        "end": 477
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-burdens-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "A trick that works once may backfire if it is tried again in the wrong situation",
+        "Salt is always a poor choice of cargo for an Ass",
+        "Masters should never trust the animals that carry their goods",
+        "Sponges are more valuable to carry than salt"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 40
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-burdens-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the master do right after the Ass's load is lightened the first time?",
+      "options": [
+        "He sells the Ass to a different pedlar",
+        "He decides to carry the load himself instead",
+        "He gives up and returns home empty-handed",
+        "He drives the Ass back to town and buys more salt"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 364,
+        "end": 428
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-and-his-burdens-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many times does the Ass end up crossing a stream in the story?",
+      "options": [
+        "Once only",
+        "Three times",
+        "Five times",
+        "Twice, but never with a load"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 181,
+        "end": 200
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-and-his-burdens-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what soaks up large quantities of water at the final stream?",
+      "options": [
+        "The salt",
+        "The panniers themselves",
+        "The sponges",
+        "The Ass's coat"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 821,
+        "end": 868
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-and-his-burdens-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the phrase \"detected the trick\" suggest about the master?",
+      "options": [
+        "He notices the pattern and changes his strategy in response",
+        "He is fooled a second time without realizing it",
+        "He blames the stream rather than the Ass",
+        "He decides to stop buying salt altogether"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 618,
+        "end": 647
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-and-his-burdens-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why doesn't lying down in the water help the Ass on the third trip?",
+      "options": [
+        "The stream had dried up by the time he reached it",
+        "His master forbids him from lying down this time",
+        "The sponges were tied down too tightly to shift",
+        "The material he carries gets heavier with water instead of lighter"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 821,
+        "end": 868
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-and-his-burdens-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"burden\" mean in \"a bigger burden to carry than ever\"?",
+      "options": [
+        "A short distance to travel",
+        "A heavy load to bear",
+        "A price to be paid",
+        "A promise to be kept"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 920,
+        "end": 954
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-and-his-burdens-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "An Ass refuses to carry any load across a stream",
+        "A Pedlar loses all his salt to a flooding stream",
+        "An Ass's trick for lightening his load backfires once his master changes the cargo",
+        "An Ass is rewarded with a lighter load for his cleverness"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 908,
+        "end": 954
+      },
+      "pool": "retest"
+    }
+  ]
+}
