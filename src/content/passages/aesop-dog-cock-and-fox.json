@@ -1,0 +1,323 @@
+{
+  "id": "aesop-dog-cock-and-fox",
+  "title": "The Dog, the Cock, and the Fox",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Dog and a Cock became great friends, and agreed to travel together. At nightfall the Cock flew up into the branches of a tree to roost, while the Dog curled himself up inside the trunk, which was hollow. At break of day the Cock woke up and crew, as usual.",
+    "A Fox heard, and, wishing to make a breakfast of him, came and stood under the tree and begged him to come down. \"I should so like,\" said he, \"to make the acquaintance of one who has such a beautiful voice.\" The Cock replied, \"Would you just wake my porter who sleeps at the foot of the tree? He'll open the door and let you in.\" The Fox accordingly rapped on the trunk, when out rushed the Dog and tore him in pieces."
+  ],
+  "questions": [
+    {
+      "id": "aesop-dog-cock-and-fox-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Dog and Cock agree to do?",
+      "options": [
+        "Build a shared home",
+        "Guard a farmer's field",
+        "Travel together",
+        "Compete in a race"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 68
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-cock-and-fox-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the Cock roost at nightfall?",
+      "options": [
+        "In the branches of a tree",
+        "Inside the hollow trunk with the Dog",
+        "On top of a nearby rock",
+        "Beside a running stream"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 83,
+        "end": 136
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-cock-and-fox-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the Dog sleep for the night?",
+      "options": [
+        "Beneath the lowest branches",
+        "Outside, guarding the base of the tree",
+        "In a den some distance away",
+        "Curled up inside the hollow trunk"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 144,
+        "end": 204
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-cock-and-fox-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Fox come and stand under the tree?",
+      "options": [
+        "He wants to warn the Cock of danger",
+        "He wishes to make a breakfast of the Cock",
+        "He is looking for a place to rest",
+        "He is chasing another animal past the tree"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 18,
+        "end": 83
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-cock-and-fox-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what excuse does the Fox give for wanting the Cock to come down?",
+      "options": [
+        "To share breakfast together as new friends",
+        "To help him find his way through the forest",
+        "To make the acquaintance of one who has such a beautiful voice",
+        "To settle a dispute with another fox"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 143,
+        "end": 205
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-cock-and-fox-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Cock tell the Fox to do first?",
+      "options": [
+        "Wake his porter who sleeps at the foot of the tree",
+        "Climb the tree himself to greet him",
+        "Wait quietly until the Dog wakes on his own",
+        "Bring him some food as a gift first"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 227,
+        "end": 292
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-cock-and-fox-f7",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens when the Fox raps on the trunk?",
+      "options": [
+        "The Cock flies down to greet him",
+        "The trunk splits open and the Dog escapes",
+        "Nothing happens, since the Dog was not really inside",
+        "The Dog rushes out and tears him in pieces"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 376,
+        "end": 417
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-cock-and-fox-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Cock call the Dog his \"porter\"?",
+      "options": [
+        "He genuinely believes the Dog serves as a doorkeeper",
+        "He is playing along with the Fox's disguise while secretly setting a trap",
+        "He wants to distract the Fox from noticing the Dog at all",
+        "He is confused about which animal is inside the tree"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 227,
+        "end": 327
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-cock-and-fox-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"roost\" mean in \"flew up into the branches of a tree to roost\"?",
+      "options": [
+        "To search for food at night",
+        "To build a nest for eggs",
+        "To settle somewhere to rest or sleep",
+        "To call out loudly before sunset"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 92,
+        "end": 136
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-cock-and-fox-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "A clever partner can turn a predator's own trick back against him",
+        "Foxes should never approach a tree without checking it first",
+        "Dogs and roosters make poor traveling companions",
+        "Flattery always succeeds no matter who is targeted by it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 376,
+        "end": 417
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-cock-and-fox-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Cock do at break of day, as usual?",
+      "options": [
+        "He flies down to find food",
+        "He wakes the Dog first",
+        "He waits silently for the Fox",
+        "He wakes up and crows"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 222,
+        "end": 257
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-cock-and-fox-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox say he would like about the Cock?",
+      "options": [
+        "That he is unusually large for a bird",
+        "That he has such a beautiful voice",
+        "That he travels with such a loyal companion",
+        "That he wakes so early every morning"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 183,
+        "end": 205
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-cock-and-fox-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Cock claim the porter will do for the Fox?",
+      "options": [
+        "Bring him something to eat",
+        "Carry a message to the Cock",
+        "Open the door and let him in",
+        "Guide him around to the front"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 293,
+        "end": 327
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-cock-and-fox-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Fox's flattering request end up being fatal for him?",
+      "options": [
+        "It leads him to knock on the very spot where the Dog is hidden",
+        "It causes the Cock to fly down within his reach",
+        "It wakes up other foxes nearby who chase him off",
+        "It draws the attention of the tree's actual owner"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 330,
+        "end": 417
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-cock-and-fox-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Cock's calm reply to the Fox reveal about his state of mind?",
+      "options": [
+        "He is genuinely flattered and eager to meet the Fox",
+        "He is frightened and stalling desperately for time",
+        "He does not realize the Fox intends him any harm",
+        "He is not fooled by the flattery and is already thinking a step ahead"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 227,
+        "end": 292
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-cock-and-fox-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"acquaintance\" mean in \"to make the acquaintance of one who has such a beautiful voice\"?",
+      "options": [
+        "A gift exchanged between strangers",
+        "A person one has come to know",
+        "A song performed at a gathering",
+        "A formal written introduction"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 143,
+        "end": 205
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-cock-and-fox-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Fox and a Cock become traveling companions after a chance meeting",
+        "A Dog abandons the Cock after the Fox approaches",
+        "A Fox tries to lure a Cock down with flattery but is instead caught by the Cock's hidden companion",
+        "A Cock is caught and eaten by the Fox at the base of the tree"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 376,
+        "end": 417
+      },
+      "pool": "retest"
+    }
+  ]
+}
