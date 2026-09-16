@@ -1,0 +1,324 @@
+{
+  "id": "aesop-labourer-and-snake",
+  "title": "The Labourer and the Snake",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Labourer's little son was bitten by a Snake and died of the wound. The father was beside himself with grief, and in his anger against the Snake he caught up an axe and went and stood close to the Snake's hole, and watched for a chance of killing it.",
+    "Presently the Snake came out, and the man aimed a blow at it, but only succeeded in cutting off the tip of its tail before it wriggled in again. He then tried to get it to come out a second time, pretending that he wished to make up the quarrel. But the Snake said, \"I can never be your friend because of my lost tail, nor you mine because of your lost child.\"",
+    "Injuries are never forgotten in the presence of those who caused them."
+  ],
+  "questions": [
+    {
+      "id": "aesop-labourer-and-snake-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the Labourer's little son?",
+      "options": [
+        "He falls ill from a fever and recovers slowly",
+        "He is lost in the woods for several days",
+        "He is bitten by a Snake and dies of the wound",
+        "He is injured while helping his father work"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 67
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-labourer-and-snake-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Labourer do in his anger against the Snake?",
+      "options": [
+        "He catches up an axe and waits by the Snake's hole",
+        "He sets a trap near his own house",
+        "He asks his neighbors to help him hunt the Snake",
+        "He burns the grass around the Snake's hole"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 115,
+        "end": 210
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-labourer-and-snake-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens when the Snake first comes out?",
+      "options": [
+        "The man kills the Snake immediately",
+        "The Snake bites the man before he can strike",
+        "The Snake escapes without being touched at all",
+        "The man's blow only cuts off the tip of its tail"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 34,
+        "end": 143
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-labourer-and-snake-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the man pretend when trying to lure the Snake out again?",
+      "options": [
+        "That he had food to offer the Snake",
+        "That he wished to make up the quarrel",
+        "That he was leaving the area for good",
+        "That another animal was threatening the Snake's hole"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 196,
+        "end": 244
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-labourer-and-snake-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Snake say about becoming the man's friend?",
+      "options": [
+        "That he is willing to forgive the man completely",
+        "That he will only be friends if the man apologizes first",
+        "That he can never be the man's friend because of his lost tail",
+        "That he no longer cares about what happened"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 267,
+        "end": 317
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-labourer-and-snake-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Snake say about the man's ability to be his friend?",
+      "options": [
+        "The man cannot be his friend either, because of his lost child",
+        "The man could be his friend if he apologized properly",
+        "The man was never truly his enemy in the first place",
+        "The man's loss was not as serious as the Snake's own"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 319,
+        "end": 358
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-labourer-and-snake-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Snake refuse to trust the man's offer of peace?",
+      "options": [
+        "The Snake does not understand what the man is offering",
+        "The Snake believes the man is planning another attack regardless",
+        "The Snake wants a different kind of apology before agreeing",
+        "The injury the man caused is still fresh and cannot simply be set aside by words"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 267,
+        "end": 358
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-labourer-and-snake-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Snake's reply suggest is true for both sides of the conflict?",
+      "options": [
+        "Only the Snake has any real reason to remain angry",
+        "Each has suffered a loss that makes real friendship between them impossible now",
+        "Only the man has any real reason to remain angry",
+        "Neither side actually lost anything of true importance"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 267,
+        "end": 358
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-labourer-and-snake-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"wriggled\" mean in \"it wriggled in again\"?",
+      "options": [
+        "Jumped suddenly upward",
+        "Crawled very slowly and carefully",
+        "Moved with a twisting, snake-like motion",
+        "Stopped moving entirely"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 116,
+        "end": 143
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-labourer-and-snake-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "Serious harm done between two parties leaves a lasting mark that easy words cannot erase",
+        "Snakes should never be trusted under any circumstances",
+        "Revenge always succeeds if attempted quickly enough",
+        "Apologies are always effective at repairing broken trust"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 70
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-labourer-and-snake-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the father feel after his son's death?",
+      "options": [
+        "Calm and accepting",
+        "Confused about what happened",
+        "Determined to move away",
+        "Beside himself with grief"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 69,
+        "end": 109
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-labourer-and-snake-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the man watch for near the Snake's hole?",
+      "options": [
+        "A chance to trap the Snake alive",
+        "A chance of killing the Snake",
+        "A chance to seal the hole shut",
+        "A chance to warn other villagers"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 216,
+        "end": 250
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-labourer-and-snake-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what part of the Snake does the man's blow actually strike?",
+      "options": [
+        "Its head",
+        "Its middle body",
+        "The tip of its tail",
+        "Nothing at all"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 66,
+        "end": 115
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-labourer-and-snake-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Snake see through the man's pretended peace offering?",
+      "options": [
+        "Given what has already happened between them, its motive still seems suspect despite the kind words",
+        "The Snake has no way of understanding human speech at all",
+        "The man openly admits his true intentions before the Snake responds",
+        "The Snake was warned by another animal beforehand"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 196,
+        "end": 244
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-labourer-and-snake-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Snake's final statement suggest about whether reconciliation is possible here?",
+      "options": [
+        "It suggests that reconciliation is likely if they wait long enough",
+        "It suggests that only the man needs to change his attitude",
+        "It suggests that the Snake has already forgiven the man privately",
+        "It suggests that some losses are too significant for either side to simply move past"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 267,
+        "end": 358
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-labourer-and-snake-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"quarrel\" mean in \"make up the quarrel\"?",
+      "options": [
+        "A formal agreement or contract",
+        "A dispute or conflict between two parties",
+        "A physical injury or wound",
+        "A type of weapon used in a fight"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 196,
+        "end": 244
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-labourer-and-snake-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A father successfully befriends the Snake that killed his son",
+        "A Snake apologizes to the father and is forgiven completely",
+        "A grieving father tries to make peace with a Snake he wounded, but it explains that their mutual losses make true friendship impossible",
+        "A father gives up trying to kill the Snake without any further conversation"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 267,
+        "end": 358
+      },
+      "pool": "retest"
+    }
+  ]
+}
