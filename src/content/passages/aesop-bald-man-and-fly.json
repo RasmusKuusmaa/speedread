@@ -1,0 +1,323 @@
+{
+  "id": "aesop-bald-man-and-fly",
+  "title": "The Bald Man and the Fly",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Fly settled on the head of a Bald Man and bit him. In his eagerness to kill it, he hit himself a smart slap. But the Fly escaped, and said to him in derision, \"You tried to kill me for just one little bite; what will you do to yourself now, for the heavy smack you have just given yourself?\"",
+    "\"Oh, for that blow I bear no grudge,\" he replied, \"for I never intended myself any harm; but as for you, you contemptible insect, who live by sucking human blood, I'd have borne a good deal more than that for the satisfaction of dashing the life out of you!\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-bald-man-and-fly-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the Fly settle at the start?",
+      "options": [
+        "On a windowsill nearby",
+        "On a piece of fruit",
+        "On the head of a Bald Man",
+        "On the Bald Man's hand"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 51
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bald-man-and-fly-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Bald Man do in his eagerness to kill the Fly?",
+      "options": [
+        "He hits himself a smart slap",
+        "He swats at the air repeatedly",
+        "He runs to find a fly swatter",
+        "He calls out for someone to help him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 82,
+        "end": 109
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bald-man-and-fly-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the Fly after the Bald Man slaps himself?",
+      "options": [
+        "The Fly is killed instantly",
+        "The Fly is badly injured but survives",
+        "The Fly is trapped under the Man's hand",
+        "The Fly escapes"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 115,
+        "end": 130
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bald-man-and-fly-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fly say in derision to the Man?",
+      "options": [
+        "That he should give up trying to catch flies",
+        "That he hurt himself worse than the Fly's bite",
+        "That he will never catch the Fly now",
+        "That bald men always miss their targets"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 162,
+        "end": 292
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bald-man-and-fly-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Man feel about the blow he gave himself?",
+      "options": [
+        "He is furious with himself for missing the Fly",
+        "He regrets it deeply and vows never to try again",
+        "He bears no grudge, since he never intended himself any harm",
+        "He blames the Fly entirely for the pain"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 5,
+        "end": 35
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bald-man-and-fly-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Man call the Fly?",
+      "options": [
+        "\"You contemptible insect\"",
+        "\"You clever creature\"",
+        "\"You foolish pest\"",
+        "\"You tiny nuisance\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 105,
+        "end": 128
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bald-man-and-fly-f7",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what would the Man have been willing to endure for the satisfaction of killing the Fly?",
+      "options": [
+        "Nothing at all, since it isn't worth the trouble",
+        "Only the same amount of pain, no more",
+        "A much smaller amount of pain than he felt",
+        "A good deal more than the smack he gave himself"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 163,
+        "end": 257
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bald-man-and-fly-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Man not mind hitting himself, but still wants to kill the Fly?",
+      "options": [
+        "He believes the Fly deserves punishment regardless of consequences",
+        "He distinguishes between accidental self-inflicted pain and the Fly's deliberate harm to him",
+        "He thinks his own actions never really hurt him at all",
+        "He assumes the Fly caused him to hit himself on purpose"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 51,
+        "end": 103
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bald-man-and-fly-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"derision\" mean in \"said to him in derision\"?",
+      "options": [
+        "Fear or worry",
+        "Gratitude or thanks",
+        "Mockery or scorn",
+        "Confusion or doubt"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 136,
+        "end": 159
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bald-man-and-fly-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Harm done by oneself and harm done by an enemy are judged very differently, even if the pain is the same",
+        "Bald men are more vulnerable to insect bites than others",
+        "Flies are cleverer than most people give them credit for",
+        "Self-inflicted pain is always worse than pain caused by others"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 51,
+        "end": 128
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bald-man-and-fly-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fly do to the Man before he reacts?",
+      "options": [
+        "It buzzes loudly near his ear",
+        "It lands on his hand",
+        "It flies in circles around his head",
+        "It bites him"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 51
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bald-man-and-fly-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Fly describe the Man's own blow to himself?",
+      "options": [
+        "A gentle tap",
+        "A heavy smack",
+        "A clumsy miss",
+        "A painful bruise"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 209,
+        "end": 292
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bald-man-and-fly-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Man accuse the Fly of doing for a living?",
+      "options": [
+        "Spreading disease among animals",
+        "Stealing food from houses",
+        "Sucking human blood",
+        "Waking people up at night"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 130,
+        "end": 161
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bald-man-and-fly-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Man's calm reply undercut the Fly's attempt at mockery?",
+      "options": [
+        "He shows that the pain of the slap does not bother him nearly as much as the Fly assumed",
+        "He proves that the slap never actually happened",
+        "He admits that he regrets hitting himself after all",
+        "He reveals that he was aiming at something else entirely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 1,
+        "end": 35
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bald-man-and-fly-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Man's willingness to \"bear a good deal more\" reveal about his priorities?",
+      "options": [
+        "He no longer cares whether the Fly escapes or not",
+        "He believes the Fly will eventually apologize to him",
+        "He wants to prove he can withstand more pain than the Fly can",
+        "He values punishing the Fly more than avoiding pain to himself"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 163,
+        "end": 257
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bald-man-and-fly-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"grudge\" mean in \"I bear no grudge\"?",
+      "options": [
+        "A sudden burst of laughter",
+        "A lasting feeling of resentment",
+        "A quiet moment of reflection",
+        "A formal apology"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 19,
+        "end": 35
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bald-man-and-fly-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Man successfully kills the Fly after several attempts",
+        "A Fly convinces the Man to stop trying to kill insects",
+        "A Man who hits himself trying to kill a biting Fly explains that hurting himself matters far less than punishing his tormentor",
+        "A Man decides the Fly's bite was not worth reacting to at all"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 163,
+        "end": 257
+      },
+      "pool": "retest"
+    }
+  ]
+}
