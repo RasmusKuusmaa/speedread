@@ -1,0 +1,325 @@
+{
+  "id": "aesop-bear-and-travellers",
+  "title": "The Bear and the Travellers",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Two Travellers were on the road together, when a Bear suddenly appeared on the scene. Before he observed them, one made for a tree at the side of the road, and climbed up into the branches and hid there. The other was not so nimble as his companion; and, as he could not escape, he threw himself on the ground and pretended to be dead.",
+    "The Bear came up and sniffed all round him, but he kept perfectly still and held his breath: for they say that a bear will not touch a dead body. The Bear took him for a corpse, and went away.",
+    "When the coast was clear, the Traveller in the tree came down, and asked the other what it was the Bear had whispered to him when he put his mouth to his ear. The other replied, \"He told me never again to travel with a friend who deserts you at the first sign of danger.\"",
+    "Misfortune tests the sincerity of friendship."
+  ],
+  "questions": [
+    {
+      "id": "aesop-bear-and-travellers-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what suddenly appears while the two Travellers are on the road?",
+      "options": [
+        "A pack of wolves",
+        "A sudden storm",
+        "A Bear",
+        "A group of bandits"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 47,
+        "end": 84
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bear-and-travellers-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the first Traveller do when he sees the Bear?",
+      "options": [
+        "He climbs up into the branches of a tree",
+        "He runs down the road as fast as he can",
+        "He throws a stone at the Bear",
+        "He calls out for help from nearby villagers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 160,
+        "end": 202
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bear-and-travellers-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the second Traveller do since he cannot escape?",
+      "options": [
+        "He hides behind the same tree as his companion",
+        "He offers the Bear some food to distract it",
+        "He stands still and shouts loudly at the Bear",
+        "He throws himself on the ground and pretends to be dead"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 279,
+        "end": 334
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bear-and-travellers-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Bear do to the Traveller lying on the ground?",
+      "options": [
+        "It drags him off into the woods",
+        "It sniffs all round him and then goes away",
+        "It paws at him until he moves",
+        "It roars loudly and circles him twice"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 42
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bear-and-travellers-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Traveller in the tree ask once the Bear is gone?",
+      "options": [
+        "How long the other man had been lying there",
+        "Whether the other man was seriously hurt",
+        "What the Bear had whispered to the other man's ear",
+        "Why the Bear did not climb the tree after him"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 67,
+        "end": 157
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bear-and-travellers-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the second Traveller say the Bear told him?",
+      "options": [
+        "Never again to travel with a friend who deserts you at the first sign of danger",
+        "To always carry a weapon when travelling",
+        "To avoid this road at all costs from now on",
+        "To thank his companion for climbing the tree"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 179,
+        "end": 269
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bear-and-travellers-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Bear leave the second Traveller alone?",
+      "options": [
+        "It is frightened away by the man in the tree",
+        "It has already eaten and is not hungry",
+        "It is startled by a noise farther down the road",
+        "It mistakes his stillness for death and loses interest"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 146,
+        "end": 191
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bear-and-travellers-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is the second Traveller really saying with his answer about the whisper?",
+      "options": [
+        "He is repeating a joke the Bear actually made",
+        "He is criticizing his companion for abandoning him instead of helping",
+        "He genuinely believes the Bear can whisper messages",
+        "He is warning his companion about a different danger ahead"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 179,
+        "end": 269
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bear-and-travellers-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"nimble\" mean in \"not so nimble as his companion\"?",
+      "options": [
+        "Loud and easily startled",
+        "Brave and unafraid of danger",
+        "Quick and agile in movement",
+        "Careless and easily distracted"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 218,
+        "end": 248
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bear-and-travellers-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "A time of danger reveals who your true friends really are",
+        "Bears are less dangerous than most travellers assume",
+        "Climbing a tree is always the safest response to danger",
+        "Pretending to be dead never actually works in real danger"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 45
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bear-and-travellers-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many Travellers are on the road together at the start?",
+      "options": [
+        "Three",
+        "Just one",
+        "A whole group",
+        "Two"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 40
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bear-and-travellers-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the second Traveller do while the Bear sniffs at him?",
+      "options": [
+        "He whispers quietly for the Bear to leave",
+        "He keeps perfectly still and holds his breath",
+        "He crawls slowly away while unnoticed",
+        "He grips a stick in case the Bear attacks"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 48,
+        "end": 91
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bear-and-travellers-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when does the first Traveller come down from the tree?",
+      "options": [
+        "As soon as the Bear appeared",
+        "Before the Bear had even left",
+        "When the coast was clear",
+        "Only after his companion called for him"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 61
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bear-and-travellers-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the passage mention that \"a bear will not touch a dead body\"?",
+      "options": [
+        "It explains why playing dead succeeds in saving the second Traveller",
+        "It explains why the Bear left the first Traveller alone in the tree",
+        "It shows that the Bear was already unwell before it arrived",
+        "It proves the Bear had encountered this trick before"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 93,
+        "end": 144
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bear-and-travellers-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the first Traveller feel uneasy asking what the Bear whispered?",
+      "options": [
+        "He genuinely believes the Bear left a hidden message",
+        "He wants to know if the Bear will return later",
+        "He is worried the Bear injured his companion somehow",
+        "He senses his own actions during the danger may be about to be judged"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 67,
+        "end": 124
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bear-and-travellers-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"deserts\" mean in \"a friend who deserts you at the first sign of danger\"?",
+      "options": [
+        "Protects",
+        "Abandons",
+        "Follows",
+        "Warns"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 217,
+        "end": 269
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bear-and-travellers-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "Both Travellers work together to frighten the Bear away",
+        "The Bear chases both Travellers up the same tree",
+        "One Traveller abandons the other to danger, and is quietly rebuked for it afterward",
+        "The Travellers thank the Bear for leaving them unharmed"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 179,
+        "end": 269
+      },
+      "pool": "retest"
+    }
+  ]
+}
