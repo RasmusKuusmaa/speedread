@@ -1,0 +1,322 @@
+{
+  "id": "aesop-fox-and-grapes",
+  "title": "The Fox and the Grapes",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A hungry Fox saw some fine bunches of Grapes hanging from a vine that was trained along a high trellis, and did his best to reach them by jumping as high as he could into the air. But it was all in vain, for they were just out of reach: so he gave up trying, and walked away with an air of dignity and unconcern, remarking, \"I thought those Grapes were ripe, but I see now they are quite sour.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-fox-and-grapes-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the hungry Fox see hanging from the vine?",
+      "options": [
+        "A cluster of ripe apples",
+        "A basket left by a farmer",
+        "Fine bunches of Grapes",
+        "A nest of small birds"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 64
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-grapes-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Fox try to reach the Grapes?",
+      "options": [
+        "By jumping as high as he could into the air",
+        "By climbing up the trellis itself",
+        "By asking another animal for help",
+        "By waiting for the grapes to fall"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 108,
+        "end": 178
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-grapes-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Fox fail to reach the Grapes?",
+      "options": [
+        "The vine collapsed before he could jump",
+        "A gust of wind blew them higher",
+        "Another fox had already eaten them",
+        "They were just out of reach"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 208,
+        "end": 235
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-grapes-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Fox walk away after giving up?",
+      "options": [
+        "Sulking and muttering to himself",
+        "With an air of dignity and unconcern",
+        "Running as fast as he could",
+        "Limping from the effort of jumping"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 263,
+        "end": 311
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-grapes-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox say about the Grapes as he leaves?",
+      "options": [
+        "That they were too high for any animal to reach",
+        "That he will come back for them tomorrow",
+        "That he now sees they are quite sour",
+        "That the vine was not worth the trouble"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 325,
+        "end": 392
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-grapes-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Fox suddenly decide the Grapes are sour?",
+      "options": [
+        "He is making an excuse to avoid admitting he simply couldn't reach them",
+        "He actually tastes one and finds it bitter",
+        "Another animal warns him the grapes are unripe",
+        "He notices they have begun to rot on the vine"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 240,
+        "end": 311
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-grapes-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Fox's calm exit suggest about how he wants to appear?",
+      "options": [
+        "As though he is furious at his own weakness",
+        "As though he plans to return with a ladder",
+        "As though he never wanted the grapes to begin with",
+        "As though the failure did not bother him at all"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 275,
+        "end": 311
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-grapes-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"in vain\" mean in \"it was all in vain\"?",
+      "options": [
+        "Without warning",
+        "Without success",
+        "Without effort",
+        "Without witnesses"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 184,
+        "end": 202
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-grapes-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"unconcern\" mean in \"an air of dignity and unconcern\"?",
+      "options": [
+        "A deep sense of pride",
+        "A feeling of great hunger",
+        "A lack of worry or care",
+        "A wish to try again later"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 280,
+        "end": 311
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-grapes-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "People sometimes claim not to want what they cannot actually get",
+        "Foxes are naturally less agile than most other animals",
+        "Grapes grown on high trellises are rarely worth eating",
+        "Persistence always eventually leads to success"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 325,
+        "end": 392
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-grapes-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how is the vine described as being trained?",
+      "options": [
+        "Around a wooden fence",
+        "Over a low stone wall",
+        "Beside a running stream",
+        "Along a high trellis"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 45,
+        "end": 102
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-grapes-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what condition is the Fox in at the start of the story?",
+      "options": [
+        "Injured",
+        "Hungry",
+        "Sleepy",
+        "Frightened"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 44
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-grapes-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what word does the Fox use to describe the Grapes he originally hoped to eat?",
+      "options": [
+        "\"Sweet\"",
+        "\"Plentiful\"",
+        "\"Ripe\"",
+        "\"Fresh\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 325,
+        "end": 357
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-grapes-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Fox's remark about the Grapes be considered unconvincing?",
+      "options": [
+        "He never actually tasted them, so he has no real basis for the claim",
+        "He had eaten similar grapes before and knew their taste well",
+        "He asked another fox to confirm they were sour first",
+        "The Grapes had visibly begun to rot on the vine"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 208,
+        "end": 235
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-grapes-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Fox's changed opinion of the Grapes help him avoid feeling?",
+      "options": [
+        "Fear of being caught near the vine",
+        "Guilt over damaging the vine while jumping",
+        "Embarrassment at being seen by another animal",
+        "Disappointment at failing to reach something he wanted"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 240,
+        "end": 257
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-grapes-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"trellis\" refer to in the passage?",
+      "options": [
+        "A tool used to pick fruit",
+        "A frame that supports climbing plants",
+        "A type of woven basket",
+        "A path through a garden"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 74,
+        "end": 102
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-grapes-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Fox successfully reaches the grapes after several attempts",
+        "A Fox shares the grapes with another hungry animal",
+        "A Fox fails to reach some grapes and then claims he never wanted them",
+        "A Fox is warned away from the grapes by their owner"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 325,
+        "end": 392
+      },
+      "pool": "retest"
+    }
+  ]
+}
