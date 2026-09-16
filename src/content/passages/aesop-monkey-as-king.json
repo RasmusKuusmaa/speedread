@@ -1,0 +1,323 @@
+{
+  "id": "aesop-monkey-as-king",
+  "title": "The Monkey as King",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "At a gathering of all the animals the Monkey danced and delighted them so much that they made him their King. The Fox, however, was very much disgusted at the promotion of the Monkey: so having one day found a trap with a piece of meat in it, he took the Monkey there and said to him, \"Here is a dainty morsel I have found, sire; I did not take it myself, because I thought it ought to be reserved for you, our King. Will you be pleased to accept it?\"",
+    "The Monkey made at once for the meat and got caught in the trap. Then he bitterly reproached the Fox for leading him into danger; but the Fox only laughed and said, \"O Monkey, you call yourself King of the Beasts and haven't more sense than to be taken in like that!\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-monkey-as-king-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why is the Monkey made King of the animals?",
+      "options": [
+        "He won a contest of strength",
+        "He was the oldest animal present",
+        "He danced and delighted them all",
+        "He offered the best gift at the gathering"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 34,
+        "end": 108
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-monkey-as-king-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Fox feel about the Monkey's promotion?",
+      "options": [
+        "Very much disgusted",
+        "Genuinely pleased",
+        "Completely indifferent",
+        "Secretly hopeful for his own turn"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 110,
+        "end": 182
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-monkey-as-king-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox find one day?",
+      "options": [
+        "A cave filled with treasure",
+        "A lost crown belonging to another king",
+        "A group of hunters setting up camp",
+        "A trap with a piece of meat in it"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 187,
+        "end": 241
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-monkey-as-king-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox say about why he didn't take the meat himself?",
+      "options": [
+        "He was too full to eat any more",
+        "He thought it ought to be reserved for the King",
+        "He was afraid of getting caught in the trap",
+        "He wanted to share it with the other animals first"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 330,
+        "end": 415
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-monkey-as-king-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens when the Monkey goes for the meat?",
+      "options": [
+        "He successfully eats the meat and escapes",
+        "He shares the meat with the Fox",
+        "He gets caught in the trap",
+        "He realizes it is a trap and refuses it"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 63
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-monkey-as-king-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Monkey do once he is caught?",
+      "options": [
+        "He bitterly reproaches the Fox for leading him into danger",
+        "He laughs along with the Fox",
+        "He orders the Fox to free him at once",
+        "He blames himself for being careless"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 70,
+        "end": 128
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-monkey-as-king-f7",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox say about the Monkey calling himself \"King of the Beasts\"?",
+      "options": [
+        "That the title suits him perfectly well",
+        "That the other animals will soon regret their choice",
+        "That he deserves the title more than any other animal",
+        "That he hasn't more sense than to be taken in like that"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 176,
+        "end": 266
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-monkey-as-king-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Fox offer the meat to the Monkey instead of simply setting the trap for him another way?",
+      "options": [
+        "The Fox wants to prove his loyalty to the new King",
+        "Flattering the Monkey as King makes him more likely to walk straight into the trap",
+        "The Fox is afraid to touch the trap himself",
+        "The Fox genuinely wants to reward the Monkey for his dancing"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 364,
+        "end": 450
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-monkey-as-king-f9",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what point is the Fox making about the qualities that make a good ruler?",
+      "options": [
+        "Foxes make better kings than monkeys in every situation",
+        "Traps are the best way to test a ruler's wisdom",
+        "Being entertaining does not necessarily mean having the good judgment a ruler needs",
+        "Kings should never accept gifts from their subjects"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 176,
+        "end": 266
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-monkey-as-king-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Charm and talent alone do not guarantee the wisdom needed to lead well",
+        "Foxes are always jealous of any animal chosen as King",
+        "Traps are impossible to detect no matter how careful one is",
+        "Animals should never elect a leader based on a single talent"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 176,
+        "end": 266
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-monkey-as-king-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox call the meat when he speaks to the Monkey?",
+      "options": [
+        "A rare treasure",
+        "A tasty reward",
+        "A royal feast",
+        "A dainty morsel"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 286,
+        "end": 328
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-monkey-as-king-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Fox address the Monkey when offering the meat?",
+      "options": [
+        "\"Friend\"",
+        "\"Sire\"",
+        "\"Your Majesty\"",
+        "\"Old fellow\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 286,
+        "end": 328
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-monkey-as-king-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Fox react to the Monkey's complaints after he is trapped?",
+      "options": [
+        "He apologizes sincerely",
+        "He rushes to free the Monkey",
+        "He only laughs",
+        "He calls for the other animals to help"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 134,
+        "end": 154
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-monkey-as-king-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Fox present the meat as something reserved specially for the King?",
+      "options": [
+        "It appeals to the Monkey's pride, making the trap harder for him to resist",
+        "It is simply a factual description of how the Fox found the trap",
+        "It is meant to warn the Monkey away from danger",
+        "It is meant to test whether the Monkey trusts the Fox"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 364,
+        "end": 415
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-monkey-as-king-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Fox's laughter suggest about his true feelings toward the Monkey's new title?",
+      "options": [
+        "He feels genuine sympathy for the Monkey's misfortune",
+        "He is embarrassed that his trick worked so easily",
+        "He regrets tricking an animal he actually admired",
+        "He never respected the Monkey's rule and is satisfied to see him humbled"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 110,
+        "end": 182
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-monkey-as-king-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"reproached\" mean in \"he bitterly reproached the Fox\"?",
+      "options": [
+        "Thanked warmly",
+        "Blamed or criticized",
+        "Questioned calmly",
+        "Ignored completely"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 70,
+        "end": 128
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-monkey-as-king-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "The Fox helps the Monkey become a wiser King",
+        "The Monkey outsmarts the Fox's trick and avoids the trap",
+        "A jealous Fox tricks the newly crowned Monkey King into a trap using flattery",
+        "The other animals punish the Fox for disrespecting the King"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 63
+      },
+      "pool": "retest"
+    }
+  ]
+}
