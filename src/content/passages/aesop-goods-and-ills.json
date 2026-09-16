@@ -1,0 +1,324 @@
+{
+  "id": "aesop-goods-and-ills",
+  "title": "The Goods and the Ills",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "philosophy",
+  "calibrationOnly": false,
+  "body": [
+    "There was a time in the youth of the world when Goods and Ills entered equally into the concerns of men, so that the Goods did not prevail to make them altogether blessed, nor the Ills to make them wholly miserable. But owing to the foolishness of mankind the Ills multiplied greatly in number and increased in strength, until it seemed as though they would deprive the Goods of all share in human affairs, and banish them from the earth.",
+    "The latter, therefore, betook themselves to heaven and complained to Jupiter of the treatment they had received, at the same time praying him to grant them protection from the Ills, and to advise them concerning the manner of their intercourse with men. Jupiter granted their request for protection, and decreed that for the future they should not go among men openly in a body, and so be liable to attack from the hostile Ills, but singly and unobserved, and at infrequent and unexpected intervals.",
+    "Hence it is that the earth is full of Ills, for they come and go as they please and are never far away; while Goods, alas! come one by one only, and have to travel all the way from heaven, so that they are very seldom seen."
+  ],
+  "questions": [
+    {
+      "id": "aesop-goods-and-ills-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did Goods and Ills first affect the concerns of men?",
+      "options": [
+        "Not at all, since men were untouched by either",
+        "Only through dreams sent by Jupiter",
+        "Equally, so that neither made men altogether blessed or wholly miserable",
+        "Only during certain seasons of the year"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 48,
+        "end": 103
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goods-and-ills-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what causes the Ills to multiply and grow stronger?",
+      "options": [
+        "The foolishness of mankind",
+        "A curse placed by Jupiter",
+        "A war among the gods",
+        "The disappearance of the Goods"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 220,
+        "end": 319
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goods-and-ills-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where do the Goods go to complain about their treatment?",
+      "options": [
+        "To the depths of the sea",
+        "To a council of mortal kings",
+        "To the underworld",
+        "To heaven, to Jupiter"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 76
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goods-and-ills-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Goods ask Jupiter to grant them?",
+      "options": [
+        "A permanent home away from mankind entirely",
+        "Protection from the Ills and advice on dealing with men",
+        "The power to destroy the Ills outright",
+        "A new leader to guide them on earth"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 130,
+        "end": 252
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goods-and-ills-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does Jupiter decree that the Goods should approach men from now on?",
+      "options": [
+        "Openly and all together, as before",
+        "Only through dreams and visions",
+        "Singly and unobserved, at infrequent and unexpected intervals",
+        "Only once every hundred years"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 332,
+        "end": 498
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goods-and-ills-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why is the earth described as full of Ills?",
+      "options": [
+        "Because they come and go as they please and are never far away",
+        "Because Jupiter banished the Goods entirely",
+        "Because men invited the Ills into their homes",
+        "Because the Ills refused Jupiter's protection order"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 17,
+        "end": 102
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goods-and-ills-f7",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why are Goods seen so seldom compared to Ills?",
+      "options": [
+        "They are afraid of being seen by mankind",
+        "They only appear to those who pray to Jupiter directly",
+        "They have been permanently banished from the earth",
+        "They come one by one and must travel all the way from heaven"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 110,
+        "end": 222
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goods-and-ills-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Jupiter's decree end up favoring the Ills over the Goods in daily life?",
+      "options": [
+        "Jupiter secretly favors the Ills over the Goods",
+        "The Ills, already native to earth, are unaffected by a rule that only limits how the Goods may travel there",
+        "The Ills successfully appeal the decree afterward",
+        "The Goods refuse to follow Jupiter's new rule"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 17,
+        "end": 187
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goods-and-ills-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"intervals\" mean in \"at infrequent and unexpected intervals\"?",
+      "options": [
+        "Places along a journey",
+        "Formal agreements between parties",
+        "Gaps of time between occurrences",
+        "Loud announcements before an event"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 460,
+        "end": 498
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goods-and-ills-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the passage?",
+      "options": [
+        "Hardships are common and constant in life, while good fortune arrives rarely and one at a time",
+        "Mankind is equally responsible for both good and bad fortune",
+        "Jupiter is unfair in how he treats the Goods compared to the Ills",
+        "The Ills were created specifically to punish foolish behavior"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 17,
+        "end": 222
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goods-and-ills-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Ills seem about to do to the Goods before Jupiter's decree?",
+      "options": [
+        "Destroy them completely so that none remained anywhere",
+        "Force them to live permanently among mankind",
+        "Trade places with them entirely",
+        "Deprive them of all share in human affairs and banish them from the earth"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 327,
+        "end": 437
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-goods-and-ills-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Goods do in addition to asking for protection?",
+      "options": [
+        "They asked to be allowed to punish the Ills directly",
+        "They asked Jupiter's advice on how to deal with men",
+        "They asked to remain in heaven permanently",
+        "They asked for a new ruler over mankind"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 186,
+        "end": 252
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-goods-and-ills-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in what way had the Goods previously gone among men, before the new decree?",
+      "options": [
+        "Only in secret, one at a time",
+        "Only through dreams",
+        "Openly, in a body",
+        "Only when specifically summoned"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 332,
+        "end": 377
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-goods-and-ills-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Jupiter choose to make the Goods travel singly rather than in a group?",
+      "options": [
+        "To protect them from being overwhelmed by the more numerous and aggressive Ills",
+        "To make the Goods harder for mankind to recognize",
+        "To punish the Goods for complaining to him",
+        "To match how the Ills already traveled among men"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 383,
+        "end": 427
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-goods-and-ills-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the phrase \"in the youth of the world\" suggest about when this balance existed?",
+      "options": [
+        "The present day, as things still stand",
+        "A brief moment lasting only a single day",
+        "A time that exists only in the future",
+        "A distant, earlier time before things changed"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 42
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-goods-and-ills-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"prevail\" mean in \"the Goods did not prevail to make them altogether blessed\"?",
+      "options": [
+        "Speak loudly to be heard",
+        "Succeed in achieving an effect",
+        "Travel a long distance",
+        "Wait patiently for a result"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 113,
+        "end": 170
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-goods-and-ills-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "Jupiter banishes both Goods and Ills from the earth entirely",
+        "The Goods defeat the Ills and take permanent control of human affairs",
+        "Jupiter's decree ends up making misfortune common on earth while good fortune stays rare",
+        "Mankind asks Jupiter to remove both Goods and Ills from their lives"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 17,
+        "end": 143
+      },
+      "pool": "retest"
+    }
+  ]
+}
