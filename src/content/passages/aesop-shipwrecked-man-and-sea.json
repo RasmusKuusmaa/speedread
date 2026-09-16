@@ -1,0 +1,323 @@
+{
+  "id": "aesop-shipwrecked-man-and-sea",
+  "title": "The Shipwrecked Man and the Sea",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Shipwrecked Man cast up on the beach fell asleep after his struggle with the waves. When he woke up, he bitterly reproached the Sea for its treachery in enticing men with its smooth and smiling surface, and then, when they were well embarked, turning in fury upon them and sending both ship and sailors to destruction.",
+    "The Sea arose in the form of a woman, and replied, \"Lay not the blame on me, O sailor, but on the Winds. By nature I am as calm and safe as the land itself: but the Winds fall upon me with their gusts and gales, and lash me into a fury that is not natural to me.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-shipwrecked-man-and-sea-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Shipwrecked Man do after his struggle with the waves?",
+      "options": [
+        "He immediately searches for other survivors",
+        "He builds a fire to signal for help",
+        "He falls asleep on the beach",
+        "He begins swimming back out to sea"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 84
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-shipwrecked-man-and-sea-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the man do when he wakes up?",
+      "options": [
+        "He bitterly reproaches the Sea for its treachery",
+        "He thanks the Sea for sparing his life",
+        "He asks a passing traveller where he is",
+        "He falls asleep again from exhaustion"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 103,
+        "end": 151
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-shipwrecked-man-and-sea-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the man accuse the Sea of doing to sailors?",
+      "options": [
+        "Refusing to let any ship pass safely at all",
+        "Warning sailors away before a storm arrives",
+        "Freezing over so suddenly that ships become trapped",
+        "Enticing them with a smooth surface, then turning on them in fury"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 155,
+        "end": 270
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-shipwrecked-man-and-sea-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in what form does the Sea appear to answer the man?",
+      "options": [
+        "As a great wave",
+        "As a woman",
+        "As an old sailor",
+        "As a seabird"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 36
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-shipwrecked-man-and-sea-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who does the Sea say is really to blame for the storms?",
+      "options": [
+        "The sailors themselves",
+        "The moon and the tides",
+        "The Winds",
+        "The ships' captains"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 52,
+        "end": 103
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-shipwrecked-man-and-sea-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Sea describe her own nature?",
+      "options": [
+        "As calm and safe as the land itself",
+        "As unpredictable as the weather",
+        "As dangerous as any storm",
+        "As mysterious as the deepest night"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 105,
+        "end": 155
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-shipwrecked-man-and-sea-f7",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Sea say the Winds do to her?",
+      "options": [
+        "They calm her whenever a storm begins",
+        "They avoid her entirely during the summer months",
+        "They ask her permission before a voyage begins",
+        "They fall upon her with gusts and gales, and lash her into a fury"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 161,
+        "end": 261
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-shipwrecked-man-and-sea-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the man blame the Sea rather than the weather in general?",
+      "options": [
+        "He does not believe the Winds have any real power",
+        "He experienced the Sea directly as the force that destroyed his ship",
+        "He was told by other sailors that the Sea alone was at fault",
+        "He has never heard of storms being caused by wind"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 103,
+        "end": 151
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-shipwrecked-man-and-sea-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"treachery\" mean in \"reproached the Sea for its treachery\"?",
+      "options": [
+        "A show of great strength",
+        "A sudden change in weather",
+        "A betrayal of trust",
+        "A generous act of kindness"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 103,
+        "end": 151
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-shipwrecked-man-and-sea-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "What appears to be the true cause of harm may really be driven by another, hidden force",
+        "The sea is always dangerous no matter how calm it looks",
+        "Sailors should never trust any body of water",
+        "Storms are entirely unpredictable and cannot be explained"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 52,
+        "end": 103
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-shipwrecked-man-and-sea-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the man wash up after the shipwreck?",
+      "options": [
+        "On a rocky cliff",
+        "On a small island",
+        "Near a fishing village",
+        "On the beach"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 18,
+        "end": 38
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-shipwrecked-man-and-sea-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the man describe the Sea's surface before a storm?",
+      "options": [
+        "Dark and churning",
+        "Smooth and smiling",
+        "Cold and grey",
+        "Loud and roaring"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 173,
+        "end": 203
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-shipwrecked-man-and-sea-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the man say happens to ship and sailors once the Sea turns in fury?",
+      "options": [
+        "They are guided safely to shore",
+        "They are delayed but ultimately saved",
+        "They are sent to destruction",
+        "They are warned in time to turn back"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 275,
+        "end": 319
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-shipwrecked-man-and-sea-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Sea's defense be considered a reasonable explanation rather than a mere excuse?",
+      "options": [
+        "She describes a natural state disturbed by an outside force, rather than denying the danger occurred",
+        "She provides no explanation at all, only an apology",
+        "She proves that no storm has ever truly happened",
+        "She blames the sailors for sailing during bad weather"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 161,
+        "end": 261
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-shipwrecked-man-and-sea-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the phrase \"not natural to me\" suggest about how the Sea views her stormy behavior?",
+      "options": [
+        "It is something she deliberately chooses to do to sailors",
+        "It happens only once every few years by chance",
+        "It is a trait she shares equally with the Winds",
+        "It is an exception caused by outside forces, not her true character"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 216,
+        "end": 261
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-shipwrecked-man-and-sea-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"embarked\" mean in \"when they were well embarked\"?",
+      "options": [
+        "Having returned safely to shore",
+        "Having boarded a ship and set out",
+        "Having repaired a damaged vessel",
+        "Having sold their cargo at port"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 215,
+        "end": 243
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-shipwrecked-man-and-sea-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A shipwrecked man is rescued by a kind sea spirit",
+        "A shipwrecked man refuses to ever sail again after hearing the Sea's reply",
+        "A shipwrecked man blames the Sea for his misfortune, but she points instead to the Winds",
+        "A shipwrecked man argues that the Winds are blameless"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 52,
+        "end": 103
+      },
+      "pool": "retest"
+    }
+  ]
+}
