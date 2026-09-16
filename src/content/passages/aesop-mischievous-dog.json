@@ -1,0 +1,323 @@
+{
+  "id": "aesop-mischievous-dog",
+  "title": "The Mischievous Dog",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "There was once a Dog who used to snap at people and bite them without any provocation, and who was a great nuisance to every one who came to his master's house. So his master fastened a bell round his neck to warn people of his presence. The Dog was very proud of the bell, and strutted about tinkling it with immense satisfaction. But an old dog came up to him and said, \"The fewer airs you give yourself the better, my friend. You don't think, do you, that your bell was given you as a reward of merit? On the contrary, it is a badge of disgrace.\"",
+    "Notoriety is often mistaken for fame."
+  ],
+  "questions": [
+    {
+      "id": "aesop-mischievous-dog-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Dog use to do to people?",
+      "options": [
+        "Follow them quietly wherever they went",
+        "Bark loudly but never come close",
+        "Snap at them and bite them without any provocation",
+        "Hide from them whenever they arrived"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 25,
+        "end": 85
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mischievous-dog-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Dog's master fasten a bell round his neck?",
+      "options": [
+        "To warn people of the Dog's presence",
+        "To help him find the Dog if it wanders off",
+        "To reward the Dog for guarding the house",
+        "To keep other dogs away from him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 175,
+        "end": 236
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mischievous-dog-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Dog feel about wearing the bell?",
+      "options": [
+        "Embarrassed by it",
+        "Frightened of its sound",
+        "Annoyed by its weight",
+        "Very proud of it"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 238,
+        "end": 272
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mischievous-dog-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Dog behave once he has the bell?",
+      "options": [
+        "He tries to remove it with his paws",
+        "He struts about tinkling it with immense satisfaction",
+        "He hides indoors to avoid the noise",
+        "He barks constantly to drown out the sound"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 278,
+        "end": 330
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mischievous-dog-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who corrects the Dog's understanding of the bell?",
+      "options": [
+        "His master",
+        "A passing stranger",
+        "An old dog",
+        "Another young dog"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 336,
+        "end": 370
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mischievous-dog-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the old dog say the bell really is?",
+      "options": [
+        "A badge of disgrace",
+        "A reward of merit",
+        "A sign of good breeding",
+        "A gift from his master's friends"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 522,
+        "end": 547
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mischievous-dog-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Dog mistakenly believe the bell is something to be proud of?",
+      "options": [
+        "He was told directly by his master that it was an honor",
+        "He has seen other dogs praised for wearing similar bells",
+        "He does not know that the bell makes any sound at all",
+        "He assumes any attention drawn to him must mean he has done something admirable"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 429,
+        "end": 503
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mischievous-dog-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is the old dog trying to teach the Dog with his remark?",
+      "options": [
+        "That bells should never be worn by any dog",
+        "That being noticed is not the same as being respected",
+        "That his master no longer wants him in the house",
+        "That biting people is sometimes an acceptable habit"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 373,
+        "end": 416
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mischievous-dog-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Dog was a \"nuisance\" to visitors?",
+      "options": [
+        "A source of amusement and delight",
+        "A source of comfort and safety",
+        "A source of annoyance or trouble",
+        "A source of pride for the household"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 91,
+        "end": 159
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mischievous-dog-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "Being talked about is not the same as being admired",
+        "A bell is always a sign of a dog's good behavior",
+        "Old dogs are wiser than young dogs in every case",
+        "Masters should never punish a mischievous dog"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 37
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mischievous-dog-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what problem does the Dog cause at his master's house?",
+      "options": [
+        "He refuses to eat the food he is given",
+        "He frightens away the other dogs in the yard",
+        "He digs holes throughout the garden",
+        "He is a great nuisance to everyone who visits"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 99,
+        "end": 159
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mischievous-dog-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the old dog call the Dog as he speaks to him?",
+      "options": [
+        "\"Young master\"",
+        "\"My friend\"",
+        "\"Poor fellow\"",
+        "\"Little brother\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 418,
+        "end": 427
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mischievous-dog-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what question does the old dog ask about the bell?",
+      "options": [
+        "Whether the Dog knows how much the bell cost",
+        "Whether the Dog wants to trade it for food",
+        "Whether the Dog thinks it was given as a reward of merit",
+        "Whether the Dog can hear it ringing at all"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 454,
+        "end": 503
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mischievous-dog-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the master choose a bell rather than some other way to control the Dog?",
+      "options": [
+        "Its sound gives people a warning before the Dog can reach them",
+        "It is the cheapest way to identify the Dog if it wanders off",
+        "It matches the color of the Dog's collar",
+        "It was recommended to him by the old dog"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 175,
+        "end": 236
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mischievous-dog-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Dog's strutting suggest about how he sees himself after getting the bell?",
+      "options": [
+        "He is trying to hide the fact that he is ashamed",
+        "He is imitating another dog he admires",
+        "He no longer wants to bite visitors at all",
+        "He believes the attention it brings makes him important"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 278,
+        "end": 330
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mischievous-dog-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean to \"give yourself airs\"?",
+      "options": [
+        "To breathe more heavily than usual",
+        "To act as though you are more important than you are",
+        "To speak too softly to be heard",
+        "To avoid the company of other dogs"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 373,
+        "end": 416
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mischievous-dog-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A dog loses his bell after a fight with an older dog",
+        "A dog is praised by his master for wearing a new bell",
+        "A dog mistakes a mark of shame for a badge of honor, until an older dog corrects him",
+        "A dog stops biting visitors after hearing the old dog's words"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 522,
+        "end": 547
+      },
+      "pool": "retest"
+    }
+  ]
+}
