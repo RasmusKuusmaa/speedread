@@ -1,0 +1,322 @@
+{
+  "id": "aesop-rich-man-and-tanner",
+  "title": "The Rich Man and the Tanner",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Rich Man took up his residence next door to a Tanner, and found the smell of the tan-yard so extremely unpleasant that he told him he must go. The Tanner delayed his departure, and the Rich Man had to speak to him several times about it; and every time the Tanner said he was making arrangements to move very shortly. This went on for some time, till at last the Rich Man got so used to the smell that he ceased to mind it, and troubled the Tanner with his objections no more."
+  ],
+  "questions": [
+    {
+      "id": "aesop-rich-man-and-tanner-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who moves in next door to the Tanner?",
+      "options": [
+        "A young farmer",
+        "A traveling merchant",
+        "A Rich Man",
+        "A retired soldier"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 54
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rich-man-and-tanner-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Rich Man find unpleasant?",
+      "options": [
+        "The smell of the tan-yard",
+        "The noise from the Tanner's workshop",
+        "The Tanner's rude manner",
+        "The state of the Tanner's fence"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 60,
+        "end": 115
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rich-man-and-tanner-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Rich Man tell the Tanner he must do?",
+      "options": [
+        "Cover the smell with perfume",
+        "Pay a fine for the smell",
+        "Work only at certain hours",
+        "Go, meaning leave the area"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 121,
+        "end": 143
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rich-man-and-tanner-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Tanner say each time the Rich Man complains?",
+      "options": [
+        "That he had no intention of ever moving",
+        "That he was making arrangements to move very shortly",
+        "That the smell would go away on its own",
+        "That the Rich Man should move instead"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 244,
+        "end": 318
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rich-man-and-tanner-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what eventually happens to the Rich Man's reaction to the smell?",
+      "options": [
+        "He becomes seriously ill because of it",
+        "He moves away himself to escape it",
+        "He gets so used to it that he ceases to mind it",
+        "He starts to enjoy the smell over time"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 353,
+        "end": 424
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rich-man-and-tanner-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Rich Man stop doing once he grows used to the smell?",
+      "options": [
+        "Troubling the Tanner with his objections",
+        "Visiting the Tanner's shop",
+        "Paying his rent on time",
+        "Speaking to any of his neighbors"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 430,
+        "end": 477
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rich-man-and-tanner-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Tanner keep delaying his move rather than simply refusing outright?",
+      "options": [
+        "He genuinely intends to move as soon as possible",
+        "He is waiting for a better property to become available",
+        "He does not understand why the smell bothers the Rich Man",
+        "Promising to move soon lets him avoid conflict while never actually needing to act"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 145,
+        "end": 177
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rich-man-and-tanner-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Rich Man's changed reaction reveal about how people respond to constant exposure to something unpleasant?",
+      "options": [
+        "People never truly get used to unpleasant smells over time",
+        "Repeated exposure can wear down a strong initial objection until it no longer bothers a person",
+        "The Rich Man secretly enjoyed the smell from the beginning",
+        "The Tanner must have improved the smell without saying so"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 353,
+        "end": 424
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rich-man-and-tanner-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"departure\" mean in \"The Tanner delayed his departure\"?",
+      "options": [
+        "His work each day",
+        "His payment of rent",
+        "His act of leaving",
+        "His conversation with neighbors"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 145,
+        "end": 177
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rich-man-and-tanner-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Given enough time, people can grow accustomed to almost anything, even what once seemed intolerable",
+        "Rich men are always more sensitive to smells than working people",
+        "Tanners should be required to live far from other neighborhoods",
+        "Complaining repeatedly is the best way to force someone to change"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 353,
+        "end": 424
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rich-man-and-tanner-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many times does the Rich Man have to speak to the Tanner about moving?",
+      "options": [
+        "Only once",
+        "Every single day",
+        "Only after a year had passed",
+        "Several times"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 183,
+        "end": 238
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-rich-man-and-tanner-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how long does this situation continue before the Rich Man stops minding the smell?",
+      "options": [
+        "For a single week",
+        "For some time",
+        "For only a few hours",
+        "Until the Tanner apologized"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 320,
+        "end": 346
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-rich-man-and-tanner-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, does the Tanner ever actually move away?",
+      "options": [
+        "Yes, he moves within a few days",
+        "Yes, but only after the Rich Man moved first",
+        "No, the passage never describes him actually moving",
+        "No, because the Rich Man forced him to stay"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 271,
+        "end": 318
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-rich-man-and-tanner-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Tanner have felt no urgency to actually follow through on his promise?",
+      "options": [
+        "The Rich Man's complaints eventually stopped entirely, removing any pressure to act",
+        "The smell of the tan-yard had genuinely improved over time",
+        "The Rich Man offered to pay for the Tanner's moving costs",
+        "The Tanner had already found a buyer for his property"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 430,
+        "end": 477
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-rich-man-and-tanner-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the outcome suggest about the Rich Man's original demand that the Tanner \"must go\"?",
+      "options": [
+        "It was eventually enforced by local authorities",
+        "It caused a lasting conflict between the two neighbors",
+        "It was withdrawn immediately after being made",
+        "It turned out not to be as urgent or necessary as he first believed"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 404,
+        "end": 424
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-rich-man-and-tanner-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Rich Man \"ceased to mind\" the smell?",
+      "options": [
+        "He stopped noticing anything at all",
+        "He stopped being bothered by it",
+        "He stopped living in his house",
+        "He stopped speaking to his neighbors"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 404,
+        "end": 424
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-rich-man-and-tanner-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Tanner is forced by law to close his business",
+        "A Rich Man moves away rather than tolerate the smell",
+        "A Rich Man demands his neighbor move away from an unpleasant smell, but eventually grows used to it and stops complaining",
+        "A Tanner successfully improves the smell of his tan-yard"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 430,
+        "end": 477
+      },
+      "pool": "retest"
+    }
+  ]
+}
