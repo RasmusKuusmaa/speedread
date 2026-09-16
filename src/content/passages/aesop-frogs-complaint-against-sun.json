@@ -1,0 +1,322 @@
+{
+  "id": "aesop-frogs-complaint-against-sun",
+  "title": "The Frogs' Complaint Against the Sun",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Once upon a time the Sun was about to take to himself a wife. The Frogs in terror all raised their voices to the skies, and Jupiter, disturbed by the noise, asked them what they were croaking about. They replied, \"The Sun is bad enough even while he is single, drying up our marshes with his heat as he does. But what will become of us if he marries and begets other Suns?\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-frogs-complaint-against-sun-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Sun about to do?",
+      "options": [
+        "Set the marshes on fire",
+        "Punish the Frogs for croaking",
+        "Take to himself a wife",
+        "Leave the sky forever"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 17,
+        "end": 60
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-frogs-complaint-against-sun-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how do the Frogs react to the news?",
+      "options": [
+        "They raise their voices to the skies in terror",
+        "They celebrate with loud songs",
+        "They hide silently beneath the water",
+        "They ask the Sun for a wedding gift"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 62,
+        "end": 118
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-frogs-complaint-against-sun-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who is disturbed by the noise the Frogs make?",
+      "options": [
+        "The Sun himself",
+        "A nearby farmer",
+        "The Moon",
+        "Jupiter"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 124,
+        "end": 197
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-frogs-complaint-against-sun-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Jupiter ask the Frogs?",
+      "options": [
+        "Why they live in marshes",
+        "What they were croaking about",
+        "Whether they support the marriage",
+        "How long they have lived there"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 157,
+        "end": 197
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-frogs-complaint-against-sun-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Sun already do to the Frogs' home, even while single?",
+      "options": [
+        "Floods their marshes with rain",
+        "Freezes their marshes overnight",
+        "Dries up their marshes with his heat",
+        "Fills their marshes with fish"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 261,
+        "end": 307
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-frogs-complaint-against-sun-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Frogs fear will happen if the Sun marries?",
+      "options": [
+        "He might beget other Suns",
+        "He might grow twice as hot alone",
+        "He might abandon the sky entirely",
+        "He might move closer to the marshes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 313,
+        "end": 372
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-frogs-complaint-against-sun-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why do the Frogs consider the Sun's marriage such alarming news?",
+      "options": [
+        "They believe the Sun will forget about them once he is married",
+        "They think a wife will make the Sun kinder to them",
+        "They fear the wedding celebration will disturb their marshes",
+        "More suns like him would multiply the very harm he already causes them"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 313,
+        "end": 372
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-frogs-complaint-against-sun-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Frogs' outcry to Jupiter suggest about how they view their own situation?",
+      "options": [
+        "They believe Jupiter caused the Sun's decision to marry",
+        "They see themselves as already suffering, with worse to come from something out of their control",
+        "They think the marriage will have no effect on them at all",
+        "They are indifferent to the Sun's actions in general"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 214,
+        "end": 259
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-frogs-complaint-against-sun-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"begets\" mean in \"if he marries and begets other Suns\"?",
+      "options": [
+        "Travels far away",
+        "Grows brighter",
+        "Produces offspring",
+        "Argues loudly"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 336,
+        "end": 371
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-frogs-complaint-against-sun-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "An event that seems small to others can threaten to make an existing hardship far worse",
+        "Marriages between powerful figures should always be celebrated",
+        "Jupiter is indifferent to the suffering of small creatures",
+        "The Sun's heat is not actually harmful to the marshes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 313,
+        "end": 372
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-frogs-complaint-against-sun-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where do the Frogs raise their voices?",
+      "options": [
+        "Across the marshes",
+        "Toward the Sun directly",
+        "Into the depths of the water",
+        "To the skies"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 82,
+        "end": 118
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-frogs-complaint-against-sun-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what word describes how the Frogs feel when they hear the news?",
+      "options": [
+        "Joy",
+        "Terror",
+        "Curiosity",
+        "Indifference"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 62,
+        "end": 118
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-frogs-complaint-against-sun-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Frogs call the Sun's current effect on their home?",
+      "options": [
+        "Barely noticeable most days",
+        "Something they have grown used to",
+        "Bad enough even while he is single",
+        "Something only other animals mind"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 214,
+        "end": 259
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-frogs-complaint-against-sun-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why do the Frogs address their complaint to Jupiter rather than to the Sun directly?",
+      "options": [
+        "Jupiter is the one who notices their noise and asks them to explain it",
+        "The Sun has already refused to listen to them once before",
+        "Jupiter is known to control the Sun's marriage plans",
+        "The Frogs believe only Jupiter can grant them rain"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 124,
+        "end": 197
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-frogs-complaint-against-sun-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what assumption underlies the Frogs' fear about \"other Suns\"?",
+      "options": [
+        "That the Sun's children would be kinder than he is",
+        "That new suns would appear only at night",
+        "That new suns would live far away from their marshes",
+        "That any offspring of the Sun would share his harmful heat"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 313,
+        "end": 372
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-frogs-complaint-against-sun-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"croaking\" refer to in Jupiter's question?",
+      "options": [
+        "A type of dance the Frogs performed",
+        "The sound the Frogs were making",
+        "A ritual complaint filed in writing",
+        "A song sung only at weddings"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 157,
+        "end": 197
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-frogs-complaint-against-sun-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "Frogs ask Jupiter to arrange a marriage for the Sun",
+        "Frogs celebrate the Sun's wedding with the rest of the sky",
+        "Frogs cry out to Jupiter, fearing that the Sun's marriage will multiply the harm he already causes them",
+        "Jupiter punishes the Frogs for complaining about the Sun"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 313,
+        "end": 372
+      },
+      "pool": "retest"
+    }
+  ]
+}
