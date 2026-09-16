@@ -1,0 +1,324 @@
+{
+  "id": "aesop-hares-and-frogs",
+  "title": "The Hares and the Frogs",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "The Hares once gathered together and lamented the unhappiness of their lot, exposed as they were to dangers on all sides and lacking the strength and the courage to hold their own. Men, dogs, birds and beasts of prey were all their enemies, and killed and devoured them daily: and sooner than endure such persecution any longer, they one and all determined to end their miserable lives.",
+    "Thus resolved and desperate, they rushed in a body towards a neighbouring pool, intending to drown themselves. On the bank were sitting a number of Frogs, who, when they heard the noise of the Hares as they ran, with one accord leaped into the water and hid themselves in the depths.",
+    "Then one of the older Hares who was wiser than the rest cried out to his companions, \"Stop, my friends, take heart; don't let us destroy ourselves after all: see, here are creatures who are afraid of us, and who must, therefore, be still more timid than ourselves.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-hares-and-frogs-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Hares lament about their lot?",
+      "options": [
+        "Their lack of food during the winter months",
+        "Their small numbers compared to other animals",
+        "Their unhappiness, exposed to danger and lacking strength and courage",
+        "Their inability to find a safe place to sleep"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 37,
+        "end": 120
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hares-and-frogs-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, which creatures are named as the Hares' enemies?",
+      "options": [
+        "Men, dogs, birds and beasts of prey",
+        "Foxes, wolves, and eagles alone",
+        "Only the birds that hunt by day",
+        "Snakes, spiders, and other small creatures"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 181,
+        "end": 239
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hares-and-frogs-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Hares decide to do rather than endure persecution any longer?",
+      "options": [
+        "Move far away to a new land",
+        "Ask the other animals for mercy",
+        "Build a shelter to hide in",
+        "End their miserable lives"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 329,
+        "end": 385
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hares-and-frogs-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Frogs do when they hear the Hares approaching?",
+      "options": [
+        "They freeze in place, too frightened to move",
+        "They leap into the water and hide in the depths",
+        "They call out a warning to other frogs",
+        "They hop away into the tall grass"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 212,
+        "end": 282
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hares-and-frogs-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the older Hare tell his companions to do?",
+      "options": [
+        "Keep running until they reach the pool",
+        "Choose a new leader among themselves",
+        "Stop and take heart, rather than destroy themselves",
+        "Search for a safer pool farther away"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 86,
+        "end": 156
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hares-and-frogs-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what reason does the older Hare give for his companions to stop?",
+      "options": [
+        "The Frogs are afraid of them, so the Hares must not be the most timid creatures",
+        "The pool is too shallow to drown in safely",
+        "Another group of Hares has already been saved",
+        "The Frogs have offered to help them instead"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 163,
+        "end": 263
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hares-and-frogs-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why do the Hares originally head toward the pool?",
+      "options": [
+        "They want to drink before continuing their journey",
+        "They are chasing the Frogs away from the bank",
+        "They hope to find safety from their enemies in the water",
+        "They intend to drown themselves there"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 80,
+        "end": 109
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hares-and-frogs-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the sight of the fleeing Frogs teach the older Hare?",
+      "options": [
+        "That the Frogs are secretly working with their enemies",
+        "That the Hares are not as powerless as they believed, since something fears them too",
+        "That the pool is too dangerous to enter at all",
+        "That the Hares should ask the Frogs for advice"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 163,
+        "end": 202
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hares-and-frogs-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"lamented\" mean in \"lamented the unhappiness of their lot\"?",
+      "options": [
+        "Celebrated happily",
+        "Argued fiercely about",
+        "Expressed sorrow over",
+        "Forgot completely about"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 37,
+        "end": 74
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hares-and-frogs-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "However bad your own situation seems, someone else may be worse off still",
+        "Frogs are naturally braver than hares in every situation",
+        "Giving up is always the wisest response to danger",
+        "Only the oldest members of a group can offer good advice"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 163,
+        "end": 263
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hares-and-frogs-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how often are the Hares killed and devoured by their enemies?",
+      "options": [
+        "Once a year",
+        "Only in winter",
+        "Rarely, but without warning",
+        "Daily"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 245,
+        "end": 275
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hares-and-frogs-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where are the Frogs sitting before the Hares arrive?",
+      "options": [
+        "Deep beneath the water",
+        "On the bank of the pool",
+        "Among the tall reeds nearby",
+        "On a fallen log by the water"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 111,
+        "end": 153
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hares-and-frogs-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many of the Hares agree to end their lives?",
+      "options": [
+        "Only a small group of the youngest Hares",
+        "Just the older Hares among them",
+        "They one and all determined to do so",
+        "None; they only discussed the idea"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 329,
+        "end": 385
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hares-and-frogs-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the noise of the running Hares cause the Frogs to flee?",
+      "options": [
+        "The Frogs mistake the approaching Hares for a threat to themselves",
+        "The Frogs recognize the Hares and want to greet them",
+        "The Frogs are fleeing from a separate predator nearby",
+        "The Frogs are following a signal from the older Hare"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 160,
+        "end": 249
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hares-and-frogs-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the older Hare described as \"wiser than the rest\"?",
+      "options": [
+        "He is the only one who knows the way to the pool",
+        "He has survived more attacks than any other Hare",
+        "He alone refuses to run toward the pool at all",
+        "He notices something the others overlook and uses it to change their minds"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 5,
+        "end": 55
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hares-and-frogs-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"timid\" mean in the older Hare's remark?",
+      "options": [
+        "Quick to anger",
+        "Easily frightened",
+        "Physically weak",
+        "Unable to see well"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 212,
+        "end": 263
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hares-and-frogs-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "The Hares successfully drown themselves in the pool",
+        "The Frogs teach the Hares how to defend themselves",
+        "Despairing Hares abandon their plan to drown themselves after seeing creatures more fearful than they are",
+        "The Hares and Frogs agree to share the pool peacefully"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 116,
+        "end": 156
+      },
+      "pool": "retest"
+    }
+  ]
+}
