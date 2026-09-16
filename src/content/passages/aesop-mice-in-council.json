@@ -1,0 +1,322 @@
+{
+  "id": "aesop-mice-in-council",
+  "title": "The Mice in Council",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Once upon a time all the Mice met together in Council, and discussed the best means of securing themselves against the attacks of the cat. After several suggestions had been debated, a Mouse of some standing and experience got up and said, \"I think I have hit upon a plan which will ensure our safety in the future, provided you approve and carry it out. It is that we should fasten a bell round the neck of our enemy the cat, which will by its tinkling warn us of her approach.\" This proposal was warmly applauded, and it had been already decided to adopt it, when an old Mouse got upon his feet and said, \"I agree with you all that the plan before us is an admirable one: but may I ask who is going to bell the cat?\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-mice-in-council-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why do all the Mice meet together in Council?",
+      "options": [
+        "To choose a new leader for their community",
+        "To divide up a store of food for winter",
+        "To discuss how to secure themselves against the cat's attacks",
+        "To decide where to build a new home"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 59,
+        "end": 137
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mice-in-council-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who proposes the plan involving a bell?",
+      "options": [
+        "A Mouse of some standing and experience",
+        "The oldest Mouse in the Council",
+        "A young Mouse new to the group",
+        "A Mouse sent by a neighboring colony"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 183,
+        "end": 238
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mice-in-council-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the proposed plan involve fastening around the cat's neck?",
+      "options": [
+        "A collar of beads",
+        "A ribbon of cloth",
+        "A small chain",
+        "A bell"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 366,
+        "end": 425
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mice-in-council-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how is the bell supposed to help the Mice?",
+      "options": [
+        "It will frighten the cat away permanently",
+        "Its tinkling will warn them of the cat's approach",
+        "It will help them identify the cat in the dark",
+        "It will keep the cat from wanting to hunt at all"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 427,
+        "end": 477
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mice-in-council-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how do the Mice react to the proposal at first?",
+      "options": [
+        "They argue against it immediately",
+        "They ask for more suggestions",
+        "They applaud it warmly",
+        "They ignore it and move to another topic"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 480,
+        "end": 514
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mice-in-council-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what question does the old Mouse ask before the plan is adopted?",
+      "options": [
+        "Who is going to bell the cat?",
+        "How much will the bell cost?",
+        "Where will they find a bell?",
+        "When should the plan be carried out?"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 674,
+        "end": 717
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mice-in-council-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the old Mouse's question undercut the whole plan?",
+      "options": [
+        "He believes the bell will not make any sound at all",
+        "He thinks the cat already knows about the plan",
+        "He wants a different animal to be targeted instead of the cat",
+        "No one has considered who would actually risk approaching the cat to attach the bell"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 678,
+        "end": 717
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mice-in-council-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Mice's warm applause before the old Mouse speaks suggest about their thinking?",
+      "options": [
+        "They had already found a Mouse willing to do the dangerous task",
+        "They approved of the idea without considering how it could actually be carried out",
+        "They doubted the plan would work even in theory",
+        "They wanted to reward the young Mouse for speaking well"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 520,
+        "end": 596
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mice-in-council-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"applauded\" mean in \"This proposal was warmly applauded\"?",
+      "options": [
+        "Rejected with complaints",
+        "Discussed at length",
+        "Praised with approval",
+        "Forgotten soon after"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 480,
+        "end": 514
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mice-in-council-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "A clever idea is worthless if no one can actually carry it out",
+        "Cats are always too clever to be outwitted by mice",
+        "Councils should never accept a plan from an inexperienced member",
+        "Bells are useless as warning devices for small animals"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 674,
+        "end": 717
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mice-in-council-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens before the Mouse of standing and experience speaks?",
+      "options": [
+        "The Council had already voted twice",
+        "The cat had already been seen nearby",
+        "The Mice had already tried and failed once before",
+        "Several suggestions had already been debated"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 139,
+        "end": 181
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mice-in-council-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what condition does the Mouse attach to his plan working?",
+      "options": [
+        "That the cat agrees to wear the bell",
+        "That the others approve and carry it out",
+        "That the bell is made of pure silver",
+        "That every Mouse in the colony is present"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 316,
+        "end": 353
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mice-in-council-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the old Mouse say about the plan before asking his question?",
+      "options": [
+        "That it is far too dangerous to attempt",
+        "That it has already failed once before",
+        "That it is an admirable one",
+        "That it needs to be completely redesigned"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 634,
+        "end": 672
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mice-in-council-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Mice have overlooked the plan's key problem for so long?",
+      "options": [
+        "The appeal of a clear warning system distracted them from the practical danger involved",
+        "They did not understand what a bell was for",
+        "They believed the cat would agree to wear it willingly",
+        "They assumed the young Mouse would do the job himself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 520,
+        "end": 559
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mice-in-council-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what role does the old Mouse play in the Council's discussion?",
+      "options": [
+        "He proposes an entirely different plan of his own",
+        "He argues that the cat is not truly a threat",
+        "He insists that a younger Mouse should lead the Council",
+        "He raises the practical difficulty no one else had addressed"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 566,
+        "end": 605
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mice-in-council-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"tinkling\" describe about the bell's sound?",
+      "options": [
+        "A deep, booming sound",
+        "A light, ringing sound",
+        "A harsh, grating sound",
+        "A muffled, silent sound"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 427,
+        "end": 477
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mice-in-council-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "The Mice successfully attach a bell to the cat's neck",
+        "The cat overhears the Mice's plan and attacks the Council",
+        "The Mice praise a clever plan until one asks who will actually carry it out",
+        "The Mice vote to abandon all plans against the cat"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 678,
+        "end": 717
+      },
+      "pool": "retest"
+    }
+  ]
+}
