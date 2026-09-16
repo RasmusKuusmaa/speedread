@@ -1,0 +1,322 @@
+{
+  "id": "aesop-oak-and-reeds",
+  "title": "The Oak and the Reeds",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "An Oak that grew on the bank of a river was uprooted by a severe gale of wind, and thrown across the stream. It fell among some Reeds growing by the water, and said to them, \"How is it that you, who are so frail and slender, have managed to weather the storm, whereas I, with all my strength, have been torn up by the roots and hurled into the river?\" \"You were stubborn,\" came the reply, \"and fought against the storm, which proved stronger than you: but we bow and yield to every breeze, and thus the gale passed harmlessly over our heads.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-oak-and-reeds-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what uproots the Oak?",
+      "options": [
+        "A passing flood",
+        "A lightning strike",
+        "A severe gale of wind",
+        "A group of woodcutters"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 40,
+        "end": 77
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-oak-and-reeds-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the Oak fall after being uprooted?",
+      "options": [
+        "Among some Reeds growing by the water",
+        "Onto the far bank of the river",
+        "Across a narrow forest path",
+        "Into a deep ravine nearby"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 109,
+        "end": 154
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-oak-and-reeds-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Oak ask the Reeds?",
+      "options": [
+        "Why they grow so close to the riverbank",
+        "Whether they saw the storm coming",
+        "How long they have lived by the river",
+        "How they managed to survive the storm despite being frail"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 175,
+        "end": 258
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-oak-and-reeds-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Reeds say the Oak did during the storm?",
+      "options": [
+        "It bent low just as the Reeds did",
+        "It was stubborn and fought against the storm",
+        "It called out for help too late",
+        "It tried to shield the Reeds from the wind"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 353,
+        "end": 370
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-oak-and-reeds-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Reeds do instead of resisting the wind?",
+      "options": [
+        "They grow taller each time the wind blows",
+        "They cling tightly to the riverbank",
+        "They bow and yield to every breeze",
+        "They spread their roots deeper into the soil"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 456,
+        "end": 488
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-oak-and-reeds-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Oak's great strength fail to save it?",
+      "options": [
+        "Its rigid resistance to the storm is exactly what breaks it",
+        "It was already weakened by disease before the storm",
+        "It was struck at its weakest point by chance",
+        "It had grown too close to the water to be stable"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 394,
+        "end": 450
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-oak-and-reeds-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does bending in the wind help the Reeds survive?",
+      "options": [
+        "It hides them from the worst of the wind entirely",
+        "It allows them to grow taller than the Oak",
+        "It lets them take root somewhere safer nearby",
+        "It lets the force of the storm pass over them instead of breaking them"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 499,
+        "end": 540
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-oak-and-reeds-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Reeds are \"frail and slender\"?",
+      "options": [
+        "Tall and thickly rooted",
+        "Thin and delicate in appearance",
+        "Bright and colorful to look at",
+        "Ancient and slow to grow"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 195,
+        "end": 223
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-oak-and-reeds-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"yield\" mean in \"we bow and yield to every breeze\"?",
+      "options": [
+        "To grow rapidly in size",
+        "To break apart completely",
+        "To give way or bend rather than resist",
+        "To call out loudly for help"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 456,
+        "end": 488
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-oak-and-reeds-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Flexibility can survive hardship that rigid strength cannot",
+        "Trees are always weaker than the plants that grow near them",
+        "Storms are more dangerous near rivers than anywhere else",
+        "Only stubborn things are worth admiring"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 456,
+        "end": 540
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-oak-and-reeds-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the Oak originally grow?",
+      "options": [
+        "At the top of a hill",
+        "Beside a stone wall",
+        "In the middle of a field",
+        "On the bank of a river"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 39
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-oak-and-reeds-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the Oak after it is uprooted?",
+      "options": [
+        "It is carried far downstream by the current",
+        "It is thrown across the stream",
+        "It is left standing but leaning sideways",
+        "It is buried under fallen branches"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 83,
+        "end": 107
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-oak-and-reeds-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Oak say about its own strength?",
+      "options": [
+        "That it never felt strong even before the storm",
+        "That its strength came from growing near the water",
+        "That it had all its strength, yet was still torn up by the roots",
+        "That it lost its strength slowly over many years"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 271,
+        "end": 323
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-oak-and-reeds-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is implied by the Reeds saying the storm \"proved stronger than you\"?",
+      "options": [
+        "The Oak overestimated its ability to resist the storm",
+        "The storm was unusually powerful compared to past storms",
+        "The Reeds also nearly failed to survive the storm",
+        "The Oak had been weak for a long time before the storm"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 420,
+        "end": 450
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-oak-and-reeds-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Reeds' answer be considered a lesson for the Oak?",
+      "options": [
+        "It proves that the Reeds are physically stronger than the Oak",
+        "It shows that the Reeds do not respect the Oak's strength",
+        "It suggests the Oak should have grown somewhere else entirely",
+        "It explains a different way of facing hardship that the Oak did not consider"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 353,
+        "end": 370
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-oak-and-reeds-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the gale passed \"harmlessly\" over the Reeds?",
+      "options": [
+        "Without making any sound",
+        "Without causing any damage",
+        "Without being noticed at all",
+        "Without lasting very long"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 499,
+        "end": 540
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-oak-and-reeds-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A group of Reeds is uprooted while a nearby Oak survives unharmed",
+        "An Oak and some Reeds work together to withstand a storm",
+        "A mighty Oak is destroyed by a storm that the yielding Reeds survive",
+        "A storm passes without affecting either the Oak or the Reeds"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 77
+      },
+      "pool": "retest"
+    }
+  ]
+}
