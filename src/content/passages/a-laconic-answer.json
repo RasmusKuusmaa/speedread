@@ -1,0 +1,329 @@
+{
+  "id": "a-laconic-answer",
+  "title": "A Laconic Answer",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/18442",
+  "attribution": "Excerpted verbatim from \"A Laconic Answer\" in Fifty Famous Stories Retold by James Baldwin (1896), via Project Gutenberg. Syllable-break hyphens from the original edition's typesetting (e.g., \"Spar-tans,\" \"Mac-e-don\") have been corrected.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "history",
+  "calibrationOnly": false,
+  "body": [
+    "Many miles beyond Rome there was a famous country which we call Greece. The people of Greece were not united like the Romans; but instead there were several states, each of which had its own rulers.",
+    "Some of the people in the southern part of the country were called Spartans, and they were noted for their simple habits and their bravery. The name of their land was Laconia, and so they were sometimes called Lacons.",
+    "One of the strange rules which the Spartans had, was that they should speak briefly, and never use more words than were needed. And so a short answer is often spoken of as being laconic; that is, as being such an answer as a Lacon would be likely to give.",
+    "There was in the northern part of Greece a land called Macedon; and this land was at one time ruled over by a warlike king named Philip.",
+    "Philip of Macedon wanted to become the master of all Greece. So he raised a great army, and made war upon the other states, until nearly all of them were forced to call him their king. Then he sent a letter to the Spartans in Laconia, and said, \"If I go down into your country, I will level your great city to the ground.\"",
+    "In a few days, an answer was brought back to him. When he opened the letter, he found only one word written there.",
+    "That word was \"IF.\"",
+    "It was as much as to say, \"We are not afraid of you so long as the little word 'if' stands in your way.\""
+  ],
+  "questions": [
+    {
+      "id": "a-laconic-answer-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what were the Spartans noted for?",
+      "options": [
+        "Their skill at building ships",
+        "Their wealth and fine palaces",
+        "Their simple habits and their bravery",
+        "Their large trading fleet"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 81,
+        "end": 138
+      },
+      "pool": "first"
+    },
+    {
+      "id": "a-laconic-answer-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the name of the Spartans' own land?",
+      "options": [
+        "Laconia",
+        "Macedon",
+        "Attica",
+        "Thessaly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 140,
+        "end": 174
+      },
+      "pool": "first"
+    },
+    {
+      "id": "a-laconic-answer-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what strange rule did the Spartans have about speaking?",
+      "options": [
+        "They should never speak to strangers at all",
+        "They should always speak in rhyme",
+        "They should let their king speak for them",
+        "They should speak briefly and never use more words than needed"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 58,
+        "end": 126
+      },
+      "pool": "first"
+    },
+    {
+      "id": "a-laconic-answer-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the name of the warlike king of Macedon?",
+      "options": [
+        "Alexander",
+        "Philip",
+        "Leonidas",
+        "Pericles"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 94,
+        "end": 135
+      },
+      "pool": "first"
+    },
+    {
+      "id": "a-laconic-answer-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to nearly all the other Greek states because of Philip's wars?",
+      "options": [
+        "They formed an alliance against Macedon",
+        "They fled across the sea to safety",
+        "They were forced to call him their king",
+        "They were left completely untouched"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 124,
+        "end": 183
+      },
+      "pool": "first"
+    },
+    {
+      "id": "a-laconic-answer-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Philip threaten to do in his letter to the Spartans?",
+      "options": [
+        "Level their great city to the ground",
+        "Take all their ships and soldiers",
+        "Force their king to serve in his army",
+        "Burn their fields before winter"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 278,
+        "end": 320
+      },
+      "pool": "first"
+    },
+    {
+      "id": "a-laconic-answer-f7",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what single word did the Spartans write back to Philip?",
+      "options": [
+        "\"NEVER\"",
+        "\"COME\"",
+        "\"NO\"",
+        "\"IF\""
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 15,
+        "end": 17
+      },
+      "pool": "first"
+    },
+    {
+      "id": "a-laconic-answer-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Spartans' one-word reply count as a truly \"laconic\" answer?",
+      "options": [
+        "It repeats Philip's own words back to him",
+        "It uses no more words than are needed, exactly as their custom demanded",
+        "It is written in a foreign language Philip cannot read",
+        "It takes several days to compose"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 89,
+        "end": 126
+      },
+      "pool": "first"
+    },
+    {
+      "id": "a-laconic-answer-f9",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the single word \"IF\" communicate to Philip?",
+      "options": [
+        "That they agree to surrender the city at once",
+        "That they do not understand his letter",
+        "That his threat depends on an uncertainty they are not afraid of",
+        "That they want more time before answering"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 27,
+        "end": 102
+      },
+      "pool": "first"
+    },
+    {
+      "id": "a-laconic-answer-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the passage?",
+      "options": [
+        "A brief, pointed reply can answer a threat as well as a long one",
+        "Only a large army can ever answer a king's threat",
+        "Sparta eventually surrendered its city to Philip",
+        "Greece was united under a single ruler before Philip's wars"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 0,
+        "end": 13
+      },
+      "pool": "first"
+    },
+    {
+      "id": "a-laconic-answer-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how was Greece different from Rome?",
+      "options": [
+        "It had no cities of its own",
+        "It was ruled entirely by Sparta",
+        "It had no name for itself at the time",
+        "It was not united; it had several states with their own rulers"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 72,
+        "end": 124
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "a-laconic-answer-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in which part of Greece was Macedon located?",
+      "options": [
+        "The southern part",
+        "The northern part",
+        "The eastern coast",
+        "An island offshore"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 10,
+        "end": 62
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "a-laconic-answer-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Philip do before sending his letter to the Spartans?",
+      "options": [
+        "He asked the Spartans to join his army",
+        "He gave up his plan to rule all of Greece",
+        "He raised a great army and made war on the other states",
+        "He built a new capital city in Laconia"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 64,
+        "end": 122
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "a-laconic-answer-r4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Spartans do a few days after receiving Philip's letter?",
+      "options": [
+        "They sent back an answer of a single word",
+        "They sent Philip a formal declaration of war",
+        "They asked other states to help them decide",
+        "They ignored the letter completely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 15,
+        "end": 48
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "a-laconic-answer-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might Philip's letter have seemed especially threatening?",
+      "options": [
+        "He had never won a single battle before",
+        "He offered to share power with the Spartans",
+        "He asked the Spartans to name their own price for peace",
+        "He had already forced nearly every other Greek state to call him king"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 130,
+        "end": 183
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "a-laconic-answer-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage explains it, what does \"laconic\" mean?",
+      "options": [
+        "Speaking loudly enough to be heard from far away",
+        "Using as few words as possible to say something",
+        "Refusing to answer a question at all",
+        "Writing in a foreign alphabet"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 135,
+        "end": 185
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "a-laconic-answer-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "Philip of Macedon is defeated in battle by the Spartans",
+        "Greece unites under Philip without any resistance",
+        "Sparta answers a Macedonian king's threat with a single, defiant word",
+        "The Spartans send Philip a long letter of surrender"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 7,
+        "start": 27,
+        "end": 51
+      },
+      "pool": "retest"
+    }
+  ]
+}

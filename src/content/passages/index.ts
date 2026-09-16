@@ -1,3 +1,4 @@
+import aLaconicAnswer from "./a-laconic-answer.json";
 import aesopFoxAndCrow from "./aesop-fox-and-crow.json";
 import aesopHareAndTortoise from "./aesop-hare-and-tortoise.json";
 import aesopLionAndMouse from "./aesop-lion-and-mouse.json";
@@ -168,6 +169,7 @@ import toBuildAFireOpening from "./to-build-a-fire-opening.json";
 import wrightFlyerHistory from "./wright-flyer-history.json";
 
 export const rawPassages: unknown[] = [
+  aLaconicAnswer,
   aesopFoxAndCrow,
   aesopHareAndTortoise,
   aesopLionAndMouse,
