@@ -1,0 +1,322 @@
+{
+  "id": "aesop-dolphins-whales-and-sprat",
+  "title": "The Dolphins, the Whales, and the Sprat",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "The Dolphins quarrelled with the Whales, and before very long they began fighting with one another. The battle was very fierce, and had lasted some time without any sign of coming to an end, when a Sprat thought that perhaps he could stop it; so he stepped in and tried to persuade them to give up fighting and make friends. But one of the Dolphins said to him contemptuously, \"We would rather go on fighting till we're all killed than be reconciled by a Sprat like you!\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-dolphins-whales-and-sprat-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who does the Dolphins quarrel with?",
+      "options": [
+        "The Sharks",
+        "A group of fishermen",
+        "The Whales",
+        "A school of Sprats"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 39
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dolphins-whales-and-sprat-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the battle between the Dolphins and Whales develop over time?",
+      "options": [
+        "It becomes very fierce and lasts a long time with no end in sight",
+        "It ends quickly once both sides grow tired",
+        "It is interrupted almost immediately by a storm",
+        "It never actually turns into real fighting"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 100,
+        "end": 189
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dolphins-whales-and-sprat-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who steps in to try to stop the fighting?",
+      "options": [
+        "A larger fish from another sea",
+        "One of the older Dolphins",
+        "A passing group of sailors",
+        "A Sprat"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 196,
+        "end": 241
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dolphins-whales-and-sprat-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Sprat try to persuade the Dolphins and Whales to do?",
+      "options": [
+        "Divide the sea between them peacefully",
+        "Give up fighting and make friends",
+        "Wait until a judge could settle the matter",
+        "Fight only during certain hours of the day"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 264,
+        "end": 323
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dolphins-whales-and-sprat-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Dolphin respond to the Sprat's offer?",
+      "options": [
+        "With gratitude, agreeing to stop at once",
+        "With confusion, asking who sent him",
+        "With contempt, saying they would rather fight till they're all killed",
+        "With laughter, thinking it was a joke"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 329,
+        "end": 375
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dolphins-whales-and-sprat-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Dolphin say he would prefer over being reconciled by the Sprat?",
+      "options": [
+        "To go on fighting till they're all killed",
+        "To ask a bigger fish to mediate instead",
+        "To leave the sea entirely",
+        "To fight only the Whales he respects"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 378,
+        "end": 470
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dolphins-whales-and-sprat-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Dolphin reject the Sprat's help so scornfully?",
+      "options": [
+        "He believes the Sprat is secretly allied with the Whales",
+        "He thinks the Sprat is trying to steal credit for ending the war",
+        "He does not understand what the Sprat is offering to do",
+        "He considers the Sprat too small and insignificant to have any standing to intervene"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 436,
+        "end": 470
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dolphins-whales-and-sprat-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Dolphin's reply suggest about how pride can affect a conflict?",
+      "options": [
+        "It always leads to a quick and decisive victory",
+        "It can make combatants reject a reasonable peace simply because of who is offering it",
+        "It has no real effect on how long a conflict lasts",
+        "It only matters when the mediator is powerful"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 378,
+        "end": 470
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dolphins-whales-and-sprat-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"contemptuously\" mean in \"said to him contemptuously\"?",
+      "options": [
+        "In a fearful, hesitant way",
+        "In a friendly, welcoming way",
+        "In a scornful, dismissive way",
+        "In a confused, uncertain way"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 349,
+        "end": 375
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dolphins-whales-and-sprat-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Those caught up in a fierce quarrel may reject peace simply because it is offered by someone they consider beneath them",
+        "Small creatures should never attempt to resolve conflicts between larger ones",
+        "Wars between sea creatures are impossible to end peacefully",
+        "Sprats are wiser than both Dolphins and Whales"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 436,
+        "end": 470
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dolphins-whales-and-sprat-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the ongoing battle eventually turn into?",
+      "options": [
+        "A truce negotiated by a third party",
+        "A race across the open sea",
+        "A contest judged by the Sprat",
+        "Fighting between the two groups"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 62,
+        "end": 98
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dolphins-whales-and-sprat-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Sprat do besides simply speaking to them?",
+      "options": [
+        "He swims away to find reinforcements",
+        "He steps in between the two sides",
+        "He waits until the fighting ends on its own",
+        "He reports the fight to a higher authority"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 246,
+        "end": 286
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dolphins-whales-and-sprat-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Dolphin call the Sprat while refusing his help?",
+      "options": [
+        "\"A foolish little fish\"",
+        "\"An unwanted stranger\"",
+        "\"A Sprat like you\"",
+        "\"A coward from the shallows\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 453,
+        "end": 470
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dolphins-whales-and-sprat-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the length and ferocity of the battle suggest about the two sides' willingness to compromise?",
+      "options": [
+        "Neither side seems inclined to stop, even before the Sprat's offer is refused",
+        "Both sides were already close to reaching a peaceful agreement",
+        "One side had clearly already won by the time the Sprat arrived",
+        "The battle had actually ended before the Sprat intervened"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 100,
+        "end": 189
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dolphins-whales-and-sprat-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the size difference between the Sprat and the fighting animals matter to the story's point?",
+      "options": [
+        "It shows that only large animals can ever end a war",
+        "It proves that small creatures are always ignored in any dispute",
+        "It suggests the Sprat was too weak to physically separate the fighters",
+        "It shows that the value of an offer of peace should not depend on the size of the one offering it"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 436,
+        "end": 470
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dolphins-whales-and-sprat-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"reconciled\" mean in \"be reconciled by a Sprat like you\"?",
+      "options": [
+        "Defeated in open battle",
+        "Brought back into friendly terms",
+        "Separated permanently",
+        "Placed under new leadership"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 436,
+        "end": 470
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dolphins-whales-and-sprat-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Sprat successfully makes peace between the Dolphins and the Whales",
+        "The Dolphins and Whales end their battle before the Sprat arrives",
+        "A small Sprat's offer to end a fierce battle between Dolphins and Whales is scornfully refused",
+        "The Sprat joins the battle on the side of the Whales"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 378,
+        "end": 470
+      },
+      "pool": "retest"
+    }
+  ]
+}
