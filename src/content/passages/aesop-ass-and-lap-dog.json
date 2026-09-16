@@ -1,0 +1,325 @@
+{
+  "id": "aesop-ass-and-lap-dog",
+  "title": "The Ass and the Lap-Dog",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "There was once a man who had an Ass and a Lap-dog. The Ass was housed in the stable with plenty of oats and hay to eat and was as well off as an ass could be. The little Dog was made a great pet of by his master, who fondled him and often let him lie in his lap; and if he went out to dinner, he would bring back a tit-bit or two to give him when he ran to meet him on his return.",
+    "The Ass had, it is true, a good deal of work to do, carting or grinding the corn, or carrying the burdens of the farm: and ere long he became very jealous, contrasting his own life of labour with the ease and idleness of the Lap-dog.",
+    "At last one day he broke his halter, and frisking into the house just as his master sat down to dinner, he pranced and capered about, mimicking the frolics of the little favourite, upsetting the table and smashing the crockery with his clumsy efforts. Not content with that, he even tried to jump on his master's lap, as he had so often seen the dog allowed to do.",
+    "At that the servants, seeing the danger their master was in, belaboured the silly Ass with sticks and cudgels, and drove him back to his stable half dead with his beating. \"Alas!\" he cried, \"all this I have brought on myself. Why could I not be satisfied with my natural and honourable position, without wishing to imitate the ridiculous antics of that useless little Lap-dog?\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-ass-and-lap-dog-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where is the Ass housed?",
+      "options": [
+        "In the house, beside his master's bed",
+        "In a small pen behind the barn",
+        "In the stable, with plenty of oats and hay",
+        "In an open field with other animals"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 51,
+        "end": 118
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-lap-dog-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the master often let the Lap-dog do?",
+      "options": [
+        "Lie in his lap",
+        "Sleep in the stable",
+        "Eat before the family does",
+        "Travel with him on long journeys"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 233,
+        "end": 261
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-lap-dog-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what kind of work does the Ass have to do?",
+      "options": [
+        "Guarding the house at night",
+        "Herding the master's sheep",
+        "Fetching water from the well",
+        "Carting, grinding corn, and carrying the burdens of the farm"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 52,
+        "end": 117
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-lap-dog-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Ass do once he breaks his halter?",
+      "options": [
+        "He runs away from the farm entirely",
+        "He pranced and capered about, mimicking the little favourite",
+        "He quietly lies down beside the Lap-dog",
+        "He goes looking for his master in the fields"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 104,
+        "end": 179
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-lap-dog-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the table and crockery during the Ass's antics?",
+      "options": [
+        "They are carefully avoided by the Ass",
+        "They are moved outside before he arrives",
+        "They are upset and smashed by his clumsy efforts",
+        "They are broken by the servants trying to stop him"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 181,
+        "end": 250
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-lap-dog-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the servants do when they see the danger to their master?",
+      "options": [
+        "They beat the Ass with sticks and cudgels and drive him back to the stable",
+        "They calmly lead the Ass back outside",
+        "They call for the master to intervene himself",
+        "They tie the Ass to a post until he calms down"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 8,
+        "end": 109
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-lap-dog-f7",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Ass say he should have been satisfied with?",
+      "options": [
+        "A larger portion of oats and hay",
+        "A place inside the house at night",
+        "More frequent visits from his master",
+        "His natural and honourable position"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 226,
+        "end": 294
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-lap-dog-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Ass become jealous of the Lap-dog?",
+      "options": [
+        "He wants to be fed the same food as the Lap-dog",
+        "He contrasts his own hard labour with the Lap-dog's easy, idle life",
+        "He believes the Lap-dog is treated poorly and pities it",
+        "He wants to sleep in the house during the winter"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 156,
+        "end": 232
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-lap-dog-f9",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Ass's attempt to imitate the Lap-dog end so badly?",
+      "options": [
+        "The servants have always disliked the Ass, regardless of his behavior",
+        "The master had specifically forbidden the Ass from entering the house",
+        "Behavior that suits a small dog becomes dangerous and destructive coming from a large animal",
+        "The Lap-dog provokes the Ass into acting this way"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 181,
+        "end": 250
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-lap-dog-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given the Ass's final words?",
+      "options": [
+        "Trying to imitate a role that does not suit your own nature can bring trouble on yourself",
+        "Masters should treat all their animals with perfect equality",
+        "Lap-dogs live easier lives than working animals in every case",
+        "Servants are too quick to punish animals for minor mistakes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 226,
+        "end": 376
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-lap-dog-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the master bring the Lap-dog when he returns from dinner out?",
+      "options": [
+        "A small toy",
+        "A new collar",
+        "Nothing at all",
+        "A tit-bit or two"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 293,
+        "end": 379
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-and-lap-dog-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when does the Ass burst into the house?",
+      "options": [
+        "Early in the morning before anyone woke",
+        "Just as his master sat down to dinner",
+        "While the master was away traveling",
+        "During a thunderstorm that frightened him"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 41,
+        "end": 102
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-and-lap-dog-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Ass try to do besides prancing and capering?",
+      "options": [
+        "Eat food directly from the table",
+        "Chase the Lap-dog out of the room",
+        "Jump on his master's lap",
+        "Knock down the door of the house"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 275,
+        "end": 316
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-and-lap-dog-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Ass describe the Lap-dog's antics as \"ridiculous\" only after his beating?",
+      "options": [
+        "His painful experience finally teaches him what he could not see through envy alone",
+        "He always thought the antics were ridiculous, even from the start",
+        "The Lap-dog admits the antics were foolish first",
+        "His master explains why the antics were inappropriate for an ass"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 191,
+        "end": 224
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-and-lap-dog-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Ass's phrase \"natural and honourable position\" suggest he has come to accept?",
+      "options": [
+        "That he should ask his master for lighter work",
+        "That the Lap-dog's life is not actually as easy as it seemed",
+        "That he should try to befriend the Lap-dog instead of envying it",
+        "That his own role, however hard, has a dignity the Lap-dog's idle life does not carry for him"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 260,
+        "end": 294
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-and-lap-dog-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"belaboured\" mean in \"belaboured the silly Ass with sticks and cudgels\"?",
+      "options": [
+        "Praised warmly",
+        "Struck repeatedly",
+        "Questioned gently",
+        "Warned quietly"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 61,
+        "end": 109
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-and-lap-dog-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "An Ass and a Lap-dog become close friends after sharing a meal",
+        "A Lap-dog is punished for teaching the Ass bad habits",
+        "A jealous Ass imitates a pampered Lap-dog and is beaten for the chaos he causes",
+        "A master decides to treat the Ass exactly like the Lap-dog from then on"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 191,
+        "end": 224
+      },
+      "pool": "retest"
+    }
+  ]
+}
