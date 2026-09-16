@@ -1,0 +1,323 @@
+{
+  "id": "aesop-wolf-and-shepherd",
+  "title": "The Wolf and the Shepherd",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Wolf hung about near a flock of sheep for a long time, but made no attempt to molest them. The Shepherd at first kept a sharp eye on him, for he naturally thought he meant mischief: but as time went by and the Wolf showed no inclination to meddle with the flock, he began to look upon him more as a protector than as an enemy.",
+    "And when one day some errand took him to the city, he felt no uneasiness at leaving the Wolf with the sheep. But as soon as his back was turned the Wolf attacked them and killed the greater number. When the Shepherd returned and saw the havoc he had wrought, he cried, \"It serves me right for trusting my flock to a Wolf.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-wolf-and-shepherd-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Wolf do near the flock of sheep at first?",
+      "options": [
+        "He circles the flock every night howling loudly",
+        "He kills a few sheep right away",
+        "He hangs about for a long time without attempting to molest them",
+        "He tries to lead the sheep away from the Shepherd"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 91
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-shepherd-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Shepherd behave toward the Wolf at first?",
+      "options": [
+        "He keeps a sharp eye on him, thinking he means mischief",
+        "He welcomes him warmly as a new companion",
+        "He ignores him completely from the very start",
+        "He drives him away with a stick"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 93,
+        "end": 182
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-shepherd-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Shepherd's view of the Wolf change over time?",
+      "options": [
+        "He begins to fear him even more than before",
+        "He decides to sell the flock and leave the area",
+        "He starts training the Wolf to herd the sheep",
+        "He begins to see him more as a protector than an enemy"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 265,
+        "end": 327
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-shepherd-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Shepherd leave the flock alone with the Wolf?",
+      "options": [
+        "He wants to test the Wolf's loyalty",
+        "Some errand takes him to the city",
+        "He falls ill and cannot tend the sheep",
+        "He is called away by another shepherd"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 4,
+        "end": 107
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-shepherd-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Wolf do as soon as the Shepherd's back is turned?",
+      "options": [
+        "He runs away from the flock entirely",
+        "He guards the flock even more closely",
+        "He attacks the sheep and kills the greater number",
+        "He waits patiently for the Shepherd's return"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 113,
+        "end": 196
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-shepherd-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Shepherd say when he returns and sees the damage?",
+      "options": [
+        "\"It serves me right for trusting my flock to a Wolf.\"",
+        "\"I should have never left the city.\"",
+        "\"The Wolf must have been provoked by something.\"",
+        "\"I will find a new flock tomorrow.\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 270,
+        "end": 320
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-shepherd-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Shepherd's caution fade away over time?",
+      "options": [
+        "The Shepherd forgets that wolves are naturally dangerous",
+        "The Wolf explicitly promises never to harm the sheep",
+        "The Shepherd is told by others that the Wolf is harmless",
+        "The Wolf's long period of good behavior convinces him the danger has passed"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 188,
+        "end": 327
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-shepherd-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Wolf's patient waiting suggest about his true intentions all along?",
+      "options": [
+        "He genuinely intended to protect the flock forever",
+        "He was waiting for an opportunity when no one could stop him",
+        "He was testing whether the sheep trusted him first",
+        "He had no interest in the sheep until the Shepherd left"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 113,
+        "end": 196
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-shepherd-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"molest\" mean in \"made no attempt to molest them\"?",
+      "options": [
+        "To count or track",
+        "To feed or nourish",
+        "To harm or bother",
+        "To herd or guide"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 61,
+        "end": 91
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-shepherd-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "A period of good behavior does not guarantee that a natural danger has truly disappeared",
+        "Wolves can be trained to protect sheep if given enough time",
+        "Shepherds should never leave their flocks unattended for any reason",
+        "Trusting others always leads to betrayal in the end"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 270,
+        "end": 320
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-shepherd-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Shepherd originally think the Wolf meant by staying near the flock?",
+      "options": [
+        "Friendship",
+        "Curiosity",
+        "Hunger for grass",
+        "Mischief"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 144,
+        "end": 182
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-shepherd-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the Shepherd's errand take him?",
+      "options": [
+        "To a neighboring farm",
+        "To the city",
+        "To a nearby market",
+        "To visit his family"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 17,
+        "end": 49
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-shepherd-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Shepherd feel about leaving the flock with the Wolf?",
+      "options": [
+        "He feels great anxiety",
+        "He feels regret before even leaving",
+        "He feels no uneasiness",
+        "He feels confident only for the first hour"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 51,
+        "end": 107
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-shepherd-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Shepherd blame himself rather than only the Wolf when he returns?",
+      "options": [
+        "He recognizes that he was the one who chose to trust a natural predator",
+        "He believes the Wolf could not have known any better",
+        "He believes another shepherd is actually responsible",
+        "He blames himself for choosing to raise sheep at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 270,
+        "end": 320
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-shepherd-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the timing of the Wolf's attack reveal about his behavior the whole time?",
+      "options": [
+        "His attack was a sudden, uncharacteristic loss of control",
+        "His attack happened before the Shepherd actually left",
+        "His attack was provoked by the sheep themselves",
+        "His earlier calm was patience, not a genuine change in nature"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 113,
+        "end": 166
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-shepherd-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"havoc\" mean in \"saw the havoc he had wrought\"?",
+      "options": [
+        "A pleasant surprise",
+        "Widespread destruction or damage",
+        "A minor inconvenience",
+        "A carefully planned arrangement"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 229,
+        "end": 257
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-shepherd-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Wolf protects a flock of sheep for many years without incident",
+        "A Shepherd trains a Wolf to guard his sheep successfully",
+        "A Shepherd's growing trust in a Wolf is betrayed the moment he leaves the flock unguarded",
+        "A Wolf and a Shepherd become lifelong friends"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 113,
+        "end": 196
+      },
+      "pool": "retest"
+    }
+  ]
+}
