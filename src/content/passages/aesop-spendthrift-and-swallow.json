@@ -1,0 +1,323 @@
+{
+  "id": "aesop-spendthrift-and-swallow",
+  "title": "The Spendthrift and the Swallow",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Spendthrift, who had wasted his fortune, and had nothing left but the clothes in which he stood, saw a Swallow one fine day in early spring. Thinking that summer had come, and that he could now do without his coat, he went and sold it for what it would fetch. A change, however, took place in the weather, and there came a sharp frost which killed the unfortunate Swallow. When the Spendthrift saw its dead body he cried, \"Miserable bird! Thanks to you I am perishing of cold myself.\"",
+    "One swallow does not make summer."
+  ],
+  "questions": [
+    {
+      "id": "aesop-spendthrift-and-swallow-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what has the Spendthrift already done before the story begins?",
+      "options": [
+        "Built a small fortune",
+        "Given away his coat to a friend",
+        "Wasted his fortune",
+        "Traveled far from home"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 41
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-spendthrift-and-swallow-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Spendthrift see one fine day in early spring?",
+      "options": [
+        "A Swallow",
+        "A rainbow",
+        "A market full of coats",
+        "A flock of geese"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 99,
+        "end": 141
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-spendthrift-and-swallow-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Spendthrift do with his coat?",
+      "options": [
+        "He gives it away to a stranger",
+        "He trades it for a new Swallow",
+        "He stores it away until autumn",
+        "He sells it for what it would fetch"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 217,
+        "end": 260
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-spendthrift-and-swallow-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the Swallow after the weather changes?",
+      "options": [
+        "It flies south for safety",
+        "A sharp frost kills it",
+        "It is caught and sold at market",
+        "It builds a nest to survive the cold"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 312,
+        "end": 373
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-spendthrift-and-swallow-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Spendthrift cry out when he sees the dead Swallow?",
+      "options": [
+        "\"Poor bird, I wish I could have saved you.\"",
+        "\"At least my coat is still warm somewhere.\"",
+        "\"Miserable bird! Thanks to you I am perishing of cold myself.\"",
+        "\"I should never have trusted the weather.\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 425,
+        "end": 485
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-spendthrift-and-swallow-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Spendthrift decide he no longer needs his coat?",
+      "options": [
+        "He mistakes the sight of one Swallow as proof that summer has arrived",
+        "He has found a warmer coat to replace it",
+        "He plans to leave the country before winter",
+        "He no longer feels the cold as he once did"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 143,
+        "end": 215
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-spendthrift-and-swallow-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, whom does the Spendthrift really have to blame for his cold?",
+      "options": [
+        "The Swallow, for arriving too early in the year",
+        "The person who bought his coat from him",
+        "The frost, for arriving without warning",
+        "Himself, for acting on a single sign rather than waiting to be sure"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 441,
+        "end": 484
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-spendthrift-and-swallow-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"Spendthrift\" mean?",
+      "options": [
+        "Someone who saves money carefully",
+        "Someone who wastes money carelessly",
+        "Someone who lends money to others",
+        "Someone who counts money for a living"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 41
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-spendthrift-and-swallow-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the coat was sold \"for what it would fetch\"?",
+      "options": [
+        "For an unusually high price",
+        "For nothing at all",
+        "For whatever price it could bring",
+        "For a fixed price set in advance"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 217,
+        "end": 260
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-spendthrift-and-swallow-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "A single early sign is not proof that a whole season has changed",
+        "Swallows should never be trusted as messengers of spring",
+        "Wasting money always leads to freezing weather",
+        "Selling your coat is never a wise decision"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 33
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-spendthrift-and-swallow-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was left to the Spendthrift before he sold his coat?",
+      "options": [
+        "A small sum of money in savings",
+        "A house he had inherited",
+        "A collection of fine garments",
+        "Nothing but the clothes in which he stood"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 47,
+        "end": 97
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-spendthrift-and-swallow-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in what season does the Spendthrift first see the Swallow?",
+      "options": [
+        "Late summer",
+        "Early spring",
+        "Midwinter",
+        "Early autumn"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 99,
+        "end": 141
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-spendthrift-and-swallow-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what kind of change takes place in the weather?",
+      "options": [
+        "A heavy rain begins",
+        "A warm wind blows in",
+        "A sharp frost comes",
+        "A thick fog settles"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 312,
+        "end": 336
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-spendthrift-and-swallow-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Spendthrift's earlier waste of his fortune suggest about this new decision?",
+      "options": [
+        "It fits a pattern of acting hastily without enough thought",
+        "It shows he has finally learned to plan carefully",
+        "It proves he never owned a coat in the first place",
+        "It shows he was forced to sell the coat by his creditors"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 41
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-spendthrift-and-swallow-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Spendthrift call the Swallow \"miserable\" rather than blame himself directly?",
+      "options": [
+        "He believes the Swallow deliberately misled him",
+        "He is genuinely more upset about the bird's death than his own coat",
+        "He thinks the Swallow could have survived if it had warned him",
+        "He shifts the blame onto the bird instead of admitting his own mistake"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 425,
+        "end": 484
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-spendthrift-and-swallow-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"perishing\" mean in \"I am perishing of cold myself\"?",
+      "options": [
+        "Feeling only mildly uncomfortable",
+        "Suffering severely, close to dying",
+        "Recovering quickly from illness",
+        "Growing warmer by the moment"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 455,
+        "end": 484
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-spendthrift-and-swallow-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A man buys a new coat after seeing a Swallow",
+        "A Swallow warns a man that winter is coming",
+        "A man sells his coat too soon after mistaking one early sign for a change of season",
+        "A man saves a freezing Swallow with his own coat"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 143,
+        "end": 215
+      },
+      "pool": "retest"
+    }
+  ]
+}
