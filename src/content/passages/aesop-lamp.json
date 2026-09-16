@@ -1,0 +1,322 @@
+{
+  "id": "aesop-lamp",
+  "title": "The Lamp",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Lamp, well filled with oil, burned with a clear and steady light, and began to swell with pride and boast that it shone more brightly than the sun himself. Just then a puff of wind came and blew it out. Some one struck a match and lit it again, and said, \"You just keep alight, and never mind the sun. Why, even the stars never need to be relit as you had to be just now.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-lamp-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what kind of light does the well-filled Lamp burn with?",
+      "options": [
+        "A dim and flickering light",
+        "A bright but uneven light",
+        "A clear and steady light",
+        "A colorful, changing light"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 30,
+        "end": 66
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lamp-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Lamp boast about itself?",
+      "options": [
+        "That it shone more brightly than the sun himself",
+        "That it never needed to be refilled with oil",
+        "That it could burn forever without going out",
+        "That it was more beautiful than any star"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 102,
+        "end": 156
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lamp-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the Lamp right after its boast?",
+      "options": [
+        "It runs out of oil suddenly",
+        "It grows even brighter than before",
+        "It is knocked over by someone passing by",
+        "A puff of wind blows it out"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 168,
+        "end": 203
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lamp-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does someone do after the Lamp goes out?",
+      "options": [
+        "They throw the Lamp away",
+        "They strike a match and light it again",
+        "They add more oil before relighting it",
+        "They leave it dark for the rest of the night"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 205,
+        "end": 245
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lamp-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the person say the Lamp should never mind?",
+      "options": [
+        "The wind",
+        "The stars",
+        "The sun",
+        "The match"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 284,
+        "end": 302
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lamp-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the person point out about the stars?",
+      "options": [
+        "They never need to be relit",
+        "They shine brighter than the Lamp",
+        "They go out every single night",
+        "They are jealous of the Lamp's light"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 309,
+        "end": 372
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lamp-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Lamp's boast shown to be foolish so quickly?",
+      "options": [
+        "The sun immediately grows brighter to prove the Lamp wrong",
+        "The Lamp runs out of oil moments after boasting",
+        "Another lamp nearby challenges its claim directly",
+        "A single puff of wind is enough to extinguish it entirely, unlike the sun or stars"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 158,
+        "end": 203
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lamp-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what point does comparing the Lamp to the stars make about its claim to outshine the sun?",
+      "options": [
+        "The stars are actually dimmer than the Lamp in every way",
+        "Even ordinary stars are more reliable and enduring than the boastful Lamp",
+        "The Lamp is more valuable than the stars because it can be relit",
+        "The comparison to stars has nothing to do with the Lamp's boast"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 309,
+        "end": 372
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lamp-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"swell with pride\" mean in the passage?",
+      "options": [
+        "To physically grow larger in size",
+        "To become suddenly dim and weak",
+        "To become filled with an excessive sense of one's own importance",
+        "To make a loud, boastful noise"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 72,
+        "end": 97
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lamp-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Boasting about your own brilliance can be quickly undone by how easily you can be extinguished",
+        "Lamps are more reliable sources of light than the sun",
+        "Wind is the greatest danger any light source can face",
+        "Stars are inferior to any light made by humans"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 309,
+        "end": 372
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lamp-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what condition is the Lamp in at the very start?",
+      "options": [
+        "Nearly empty of oil",
+        "Freshly cleaned and polished",
+        "Recently repaired after breaking",
+        "Well filled with oil"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 28
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lamp-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what tool does someone use to relight the Lamp?",
+      "options": [
+        "A candle",
+        "A match",
+        "Another lamp",
+        "A piece of flint"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 205,
+        "end": 245
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lamp-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the person tell the Lamp to keep doing?",
+      "options": [
+        "Shine brighter each night",
+        "Compare itself to the stars",
+        "Stay alight",
+        "Warn others about the wind"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 258,
+        "end": 278
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lamp-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the timing of the wind gust be considered ironic?",
+      "options": [
+        "It extinguishes the Lamp at the very moment it claims to outshine the sun",
+        "It happens long after the Lamp has stopped boasting",
+        "It only affects the sun, not the Lamp itself",
+        "It causes the Lamp to burn even brighter than before"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 158,
+        "end": 203
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lamp-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does needing to be relit reveal about the Lamp's true strength compared to its boast?",
+      "options": [
+        "Its light is actually stronger than the sun's after being relit",
+        "Its light needs no outside help at all to keep burning",
+        "Its light was never really extinguished in the first place",
+        "Its light is fragile and dependent on outside help, unlike what it claimed"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 205,
+        "end": 245
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lamp-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"relit\" mean in \"never need to be relit\"?",
+      "options": [
+        "Cleaned and polished",
+        "Lit again after going out",
+        "Moved to a new location",
+        "Replaced with a new one"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 314,
+        "end": 346
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lamp-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Lamp successfully outshines the sun for one night",
+        "A Lamp is replaced permanently after going out",
+        "A boastful Lamp is blown out by the wind and reminded that even the stars outlast it",
+        "The wind and the Lamp become rivals for the rest of the story"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 158,
+        "end": 203
+      },
+      "pool": "retest"
+    }
+  ]
+}
