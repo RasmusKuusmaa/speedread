@@ -1,0 +1,327 @@
+{
+  "id": "aesop-slave-and-lion",
+  "title": "The Slave and the Lion",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Slave ran away from his master, by whom he had been most cruelly treated, and, in order to avoid capture, betook himself into the desert. As he wandered about in search of food and shelter, he came to a cave, which he entered and found to be unoccupied. Really, however, it was a Lion's den, and almost immediately, to the horror of the wretched fugitive, the Lion himself appeared.",
+    "The man gave himself up for lost: but, to his utter astonishment, the Lion, instead of springing upon him and devouring him, came and fawned upon him, at the same time whining and lifting up his paw. Observing it to be much swollen and inflamed, he examined it and found a large thorn embedded in the ball of the foot. He accordingly removed it and dressed the wound as well as he could: and in course of time it healed up completely.",
+    "The Lion's gratitude was unbounded; he looked upon the man as his friend, and they shared the cave for some time together. A day came, however, when the Slave began to long for the society of his fellow-men, and he bade farewell to the Lion and returned to the town.",
+    "Here he was presently recognised and carried off in chains to his former master, who resolved to make an example of him, and ordered that he should be thrown to the beasts at the next public spectacle in the theatre.",
+    "On the fatal day the beasts were loosed into the arena, and among the rest a Lion of huge bulk and ferocious aspect; and then the wretched Slave was cast in among them. What was the amazement of the spectators, when the Lion after one glance bounded up to him and lay down at his feet with every expression of affection and delight! It was his old friend of the cave!",
+    "The audience clamoured that the Slave's life should be spared: and the governor of the town, marvelling at such gratitude and fidelity in a beast, decreed that both should receive their liberty."
+  ],
+  "questions": [
+    {
+      "id": "aesop-slave-and-lion-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Slave run away from his master?",
+      "options": [
+        "Because his master could no longer feed him",
+        "Because he was sold to a new owner",
+        "Because he had been most cruelly treated",
+        "Because he wanted to explore the desert"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 34,
+        "end": 74
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-slave-and-lion-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Slave find inside the cave he enters?",
+      "options": [
+        "A Lion",
+        "A store of food left by hunters",
+        "Nothing at all, just empty rock",
+        "Another fugitive hiding there"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 256,
+        "end": 292
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-slave-and-lion-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Slave discover wrong with the Lion's paw?",
+      "options": [
+        "A deep cut from a hunter's trap",
+        "A broken claw causing pain",
+        "A snake bite near the toes",
+        "A large thorn embedded in the ball of the foot"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 246,
+        "end": 317
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-slave-and-lion-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Slave eventually leave the cave and the Lion?",
+      "options": [
+        "The Lion asks him to leave",
+        "He begins to long for the society of his fellow-men",
+        "The cave becomes too small for them both",
+        "He runs out of food to share with the Lion"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 149,
+        "end": 206
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-slave-and-lion-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the Slave once he returns to the town?",
+      "options": [
+        "He is welcomed and given a new home",
+        "He is arrested for a crime he did not commit",
+        "He is recognised and carried off in chains to his former master",
+        "He is mistaken for someone else entirely"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 5,
+        "end": 79
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-slave-and-lion-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what punishment does the master order for the Slave?",
+      "options": [
+        "To be thrown to the beasts at a public spectacle",
+        "To be whipped in front of the town",
+        "To be sold to a distant land",
+        "To be locked away for the rest of his life"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 125,
+        "end": 215
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-slave-and-lion-f7",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Lion in the arena do when he sees the Slave?",
+      "options": [
+        "He roars and charges at the crowd instead",
+        "He ignores the Slave and attacks another animal",
+        "He waits quietly at the edge of the arena",
+        "He bounds up to him and lies down at his feet with affection"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 216,
+        "end": 331
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-slave-and-lion-f8",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the governor decree at the end?",
+      "options": [
+        "That the Slave should be freed but the Lion killed",
+        "That both the Slave and the Lion should receive their liberty",
+        "That the Slave should serve a new master instead",
+        "That the fight should continue the following day"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 147,
+        "end": 193
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-slave-and-lion-f9",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Lion behave so gently toward the Slave in the cave despite being a wild animal?",
+      "options": [
+        "He mistakes the Slave for another lion",
+        "He has been tamed by hunters before this meeting",
+        "He is in pain from the thorn and seeking help rather than looking for prey",
+        "He recognizes the Slave from an earlier encounter"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 200,
+        "end": 244
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-slave-and-lion-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the passage?",
+      "options": [
+        "A kindness shown to a suffering creature can be repaid when least expected",
+        "Wild animals can never truly be trusted, even after help is given",
+        "Masters are always right to punish a runaway slave severely",
+        "Public spectacles were the safest way to test a criminal's guilt"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 333,
+        "end": 367
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-slave-and-lion-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the Slave go to avoid capture after running away?",
+      "options": [
+        "Across the sea",
+        "Into a nearby forest",
+        "Up into the mountains",
+        "Into the desert"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 108,
+        "end": 138
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-slave-and-lion-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Lion first approach the Slave in the cave?",
+      "options": [
+        "By roaring loudly to frighten him",
+        "By fawning upon him and lifting up his paw",
+        "By circling him slowly at a distance",
+        "By blocking the entrance to the cave"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 125,
+        "end": 198
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-slave-and-lion-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how do the spectators react when they see the Lion approach the Slave gently?",
+      "options": [
+        "With cheers of celebration",
+        "With complete silence",
+        "With amazement",
+        "With anger at the Lion's behavior"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 169,
+        "end": 209
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-slave-and-lion-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the audience call for the Slave's life to be spared?",
+      "options": [
+        "They are moved by the loyalty the Lion shows toward him",
+        "They believe the master's original punishment was unjust from the start",
+        "They want to see the Lion fight a different opponent instead",
+        "They recognize the Slave as an innocent man wrongly accused"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 93,
+        "end": 145
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-slave-and-lion-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the years the Slave and Lion spent sharing the cave matter later in the arena?",
+      "options": [
+        "The Lion had already forgotten the Slave by the time of the spectacle",
+        "The governor learns about their friendship beforehand and stages the scene",
+        "The Lion in the arena turns out to be a different lion entirely",
+        "That earlier bond is what makes the Lion recognize and spare him among the beasts"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 4,
+        "start": 333,
+        "end": 367
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-slave-and-lion-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"unbounded\" mean in \"The Lion's gratitude was unbounded\"?",
+      "options": [
+        "Quickly forgotten",
+        "Without limit",
+        "Difficult to notice",
+        "Shared unequally"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 34
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-slave-and-lion-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A slave is killed by a lion he had never met before",
+        "A lion helps a slave escape from his cruel master entirely",
+        "A slave who once helped a wounded lion is spared when that same lion recognizes him in the arena",
+        "A governor orders both the slave and the lion to be executed"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 147,
+        "end": 193
+      },
+      "pool": "retest"
+    }
+  ]
+}
