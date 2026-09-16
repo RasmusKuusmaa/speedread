@@ -1,0 +1,323 @@
+{
+  "id": "aesop-belly-and-members",
+  "title": "The Belly and the Members",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "The Members of the Body once rebelled against the Belly. \"You,\" they said to the Belly, \"live in luxury and sloth, and never do a stroke of work; while we not only have to do all the hard work there is to be done, but are actually your slaves and have to minister to all your wants. Now, we will do so no longer, and you can shift for yourself for the future.\"",
+    "They were as good as their word, and left the Belly to starve. The result was just what might have been expected: the whole Body soon began to fail, and the Members and all shared in the general collapse. And then they saw too late how foolish they had been."
+  ],
+  "questions": [
+    {
+      "id": "aesop-belly-and-members-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who rebels against the Belly?",
+      "options": [
+        "The other organs of the head",
+        "A group of neighboring bodies",
+        "The Members of the Body",
+        "The Belly's own servants"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 55
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-belly-and-members-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Members accuse the Belly of doing?",
+      "options": [
+        "Living in luxury and sloth without doing any work",
+        "Eating more than its fair share of food",
+        "Refusing to grow along with the rest of the body",
+        "Complaining constantly about the Members' efforts"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 89,
+        "end": 144
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-belly-and-members-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Members say they are forced to be?",
+      "options": [
+        "The Belly's equals in every respect",
+        "The Belly's masters from now on",
+        "The Belly's teachers in hard work",
+        "The Belly's slaves, ministering to all its wants"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 218,
+        "end": 281
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-belly-and-members-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Members decide the Belly must do from now on?",
+      "options": [
+        "Do all the work alone",
+        "Shift for itself",
+        "Apologize to each Member individually",
+        "Share its food equally with everyone"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 317,
+        "end": 358
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-belly-and-members-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens once the Members stop serving the Belly?",
+      "options": [
+        "The Belly quickly finds another way to eat",
+        "The Members grow stronger without the Belly",
+        "The whole Body begins to fail",
+        "Nothing changes for either the Belly or the Members"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 114,
+        "end": 147
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-belly-and-members-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who suffers in the general collapse of the Body?",
+      "options": [
+        "The Members and all",
+        "Only the Belly itself",
+        "Only the hands and feet",
+        "No one, since the Belly recovered quickly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 153,
+        "end": 203
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-belly-and-members-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does starving the Belly end up harming the Members as well?",
+      "options": [
+        "The Members are punished separately by an outside force",
+        "The Belly secretly withholds food even after being fed again",
+        "The Members misunderstood the Belly's true function from the start",
+        "The Members depend on the Belly's role even though its work is less visible than theirs"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 114,
+        "end": 203
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-belly-and-members-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what mistaken assumption do the Members make about the Belly's role?",
+      "options": [
+        "They assume the Belly wants to take over control of the Body",
+        "They assume the Belly contributes nothing of real value to the whole Body",
+        "They assume the Belly is trying to starve them on purpose",
+        "They assume the Belly can survive without any of the Members"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 89,
+        "end": 144
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-belly-and-members-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"sloth\" mean in \"live in luxury and sloth\"?",
+      "options": [
+        "Wealth",
+        "Illness",
+        "Laziness",
+        "Anger"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 89,
+        "end": 113
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-belly-and-members-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Every part of a working whole depends on the others, even when one part's contribution is less visible",
+        "Hard workers should always be rewarded more than those who seem idle",
+        "Bodies function best when every part works completely independently",
+        "It is wise to refuse cooperation with anyone who seems unproductive"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 214,
+        "end": 257
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-belly-and-members-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Members say they must do that the Belly does not?",
+      "options": [
+        "All the resting there is to be done",
+        "All the growing there is to be done",
+        "All the deciding there is to be done",
+        "All the hard work there is to be done"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 152,
+        "end": 212
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-belly-and-members-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, do the Members actually follow through on their threat?",
+      "options": [
+        "No, they quickly changed their minds",
+        "Yes, they were as good as their word",
+        "Yes, but only for a single day",
+        "No, the Belly convinced them not to"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 31
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-belly-and-members-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Members leave the Belly to do?",
+      "options": [
+        "Rest quietly",
+        "Find its own food elsewhere",
+        "Starve",
+        "Apologize on its own"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 37,
+        "end": 61
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-belly-and-members-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the outcome described as \"just what might have been expected\"?",
+      "options": [
+        "Starving the Belly was always going to weaken the entire Body it feeds",
+        "The Members had been warned in advance by someone wiser",
+        "The Belly had threatened this outcome from the beginning",
+        "No one could have predicted such a result at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 63,
+        "end": 112
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-belly-and-members-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what do the Members finally realize \"too late\"?",
+      "options": [
+        "That the Belly had been secretly helping them all along in another way",
+        "That another Member was truly to blame for the rebellion",
+        "That the Belly had never actually stopped working",
+        "That the Belly's role was necessary for their own survival too"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 214,
+        "end": 257
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-belly-and-members-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"minister to\" mean in \"minister to all your wants\"?",
+      "options": [
+        "To argue against someone's wishes",
+        "To attend to or provide for someone's needs",
+        "To ignore someone's requests",
+        "To report someone to an authority"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 247,
+        "end": 281
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-belly-and-members-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "The Belly and the Members work out a fair division of labor",
+        "The Members successfully replace the Belly's function on their own",
+        "The Members starve the Belly to punish its apparent idleness, and the whole Body suffers as a result",
+        "The Belly apologizes and begins doing more visible work"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 114,
+        "end": 203
+      },
+      "pool": "retest"
+    }
+  ]
+}
