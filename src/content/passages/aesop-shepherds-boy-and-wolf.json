@@ -1,0 +1,323 @@
+{
+  "id": "aesop-shepherds-boy-and-wolf",
+  "title": "The Shepherd's Boy and the Wolf",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Shepherd's Boy was tending his flock near a village, and thought it would be great fun to hoax the villagers by pretending that a Wolf was attacking the sheep: so he shouted out, \"Wolf! wolf!\" and when the people came running up he laughed at them for their pains. He did this more than once, and every time the villagers found they had been hoaxed, for there was no Wolf at all. At last a Wolf really did come, and the Boy cried, \"Wolf! wolf!\" as loud as he could: but the people were so used to hearing him call that they took no notice of his cries for help. And so the Wolf had it all his own way, and killed off sheep after sheep at his leisure.",
+    "You cannot believe a liar even when he tells the truth."
+  ],
+  "questions": [
+    {
+      "id": "aesop-shepherds-boy-and-wolf-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Boy doing near the village?",
+      "options": [
+        "Selling wool at the market",
+        "Building a new sheepfold",
+        "Tending his flock",
+        "Waiting for the shepherd to return"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 17,
+        "end": 53
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-shepherds-boy-and-wolf-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Boy shout out to hoax the villagers?",
+      "options": [
+        "\"Wolf! wolf!\"",
+        "\"Help! Fire!\"",
+        "\"Run for your lives!\"",
+        "\"The sheep are lost!\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 165,
+        "end": 194
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-shepherds-boy-and-wolf-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Boy do when the villagers come running up?",
+      "options": [
+        "He thanks them for their help",
+        "He hides so they cannot find him",
+        "He asks them to stay and watch the flock",
+        "He laughs at them for their pains"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 231,
+        "end": 265
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-shepherds-boy-and-wolf-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the villagers discover each time they come running?",
+      "options": [
+        "That the Boy had already driven the Wolf away",
+        "That they had been hoaxed, for there was no Wolf at all",
+        "That the flock had wandered off on its own",
+        "That the Boy had fallen asleep in the field"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 310,
+        "end": 380
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-shepherds-boy-and-wolf-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens when a Wolf really does come at last?",
+      "options": [
+        "The Boy runs to the village for help himself",
+        "The Boy chases the Wolf away alone",
+        "The Boy cries \"Wolf! wolf!\" as loud as he could",
+        "The Boy stays silent so the villagers rest"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 418,
+        "end": 466
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-shepherds-boy-and-wolf-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how do the villagers react to the Boy's final, real cries for help?",
+      "options": [
+        "They take no notice of his cries",
+        "They come running faster than ever before",
+        "They send for the Boy's parents instead",
+        "They arrive too late to save any sheep"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 472,
+        "end": 562
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-shepherds-boy-and-wolf-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why do the villagers ignore the Boy's cries when the Wolf finally comes?",
+      "options": [
+        "They cannot hear him from that distance",
+        "They believe the Boy is a poor shepherd",
+        "They think the flock belongs to someone else",
+        "His past false alarms have taught them not to trust his warnings"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 267,
+        "end": 293
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-shepherds-boy-and-wolf-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what allows the Wolf to kill the sheep \"at his leisure\"?",
+      "options": [
+        "The Boy invites the Wolf closer to the flock",
+        "No one comes to drive him off, since the villagers ignore the warning",
+        "The sheep are too weak to run from him",
+        "The village has no one left to guard the flock"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 571,
+        "end": 651
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-shepherds-boy-and-wolf-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Boy wanted to \"hoax\" the villagers?",
+      "options": [
+        "To warn them honestly of real danger",
+        "To help them find the missing sheep",
+        "To trick them into believing something false",
+        "To teach them how to watch a flock"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 89,
+        "end": 110
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-shepherds-boy-and-wolf-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "A habit of lying destroys trust, even once the truth is being told",
+        "Villagers should always come running at the first cry for help",
+        "Wolves are cleverer than the shepherds who guard against them",
+        "A shepherd's boy should never be left alone with a flock"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 55
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-shepherds-boy-and-wolf-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Boy first shout \"Wolf! wolf!\"?",
+      "options": [
+        "He truly sees a Wolf approaching the flock",
+        "He is testing whether the villagers can hear him",
+        "He wants the villagers to bring him food",
+        "He thinks it would be great fun to hoax the villagers"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 59,
+        "end": 110
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-shepherds-boy-and-wolf-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many times does the Boy play this trick on the villagers?",
+      "options": [
+        "Exactly one time",
+        "More than once",
+        "Every single day",
+        "Only after dark"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 267,
+        "end": 293
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-shepherds-boy-and-wolf-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the real Wolf do to the flock once it arrives?",
+      "options": [
+        "It scatters the flock without harming them",
+        "It is frightened away by the Boy's cries",
+        "It kills off sheep after sheep",
+        "It is driven off by the villagers at last"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 608,
+        "end": 651
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-shepherds-boy-and-wolf-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Boy's laughter at the villagers reveal about how he views his trick?",
+      "options": [
+        "He finds it amusing rather than something to feel guilty about",
+        "He is embarrassed and wants to apologize",
+        "He is afraid the villagers will punish him",
+        "He regrets bothering them so many times"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 231,
+        "end": 265
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-shepherds-boy-and-wolf-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the phrase \"took no notice\" suggest about how seriously the villagers treat the final cry?",
+      "options": [
+        "They discuss it carefully before deciding to ignore it",
+        "They believe the Boy but arrive too slowly to help",
+        "They send only a few villagers to check, just in case",
+        "They dismiss it immediately, expecting another false alarm"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 526,
+        "end": 562
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-shepherds-boy-and-wolf-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Wolf killed sheep \"at his leisure\"?",
+      "options": [
+        "Very quickly, before anyone could notice",
+        "Without hurry, since nothing stopped him",
+        "Only after the villagers gave permission",
+        "While the Boy watched and cheered him on"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 637,
+        "end": 651
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-shepherds-boy-and-wolf-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A boy successfully warns the village about a real Wolf",
+        "A wolf is driven away before it can harm any sheep",
+        "A boy's false alarms leave him unheard when a real threat finally arrives",
+        "A village decides to stop keeping sheep altogether"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 571,
+        "end": 602
+      },
+      "pool": "retest"
+    }
+  ]
+}
