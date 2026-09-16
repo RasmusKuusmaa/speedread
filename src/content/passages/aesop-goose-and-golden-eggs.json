@@ -1,0 +1,323 @@
+{
+  "id": "aesop-goose-and-golden-eggs",
+  "title": "The Goose That Laid the Golden Eggs",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Man and his Wife had the good fortune to possess a Goose which laid a Golden Egg every day. Lucky though they were, they soon began to think they were not getting rich fast enough, and, imagining the bird must be made of gold inside, they decided to kill it in order to secure the whole store of precious metal at once. But when they cut it open they found it was just like any other goose. Thus, they neither got rich all at once, as they had hoped, nor enjoyed any longer the daily addition to their wealth.",
+    "Much wants more and loses all."
+  ],
+  "questions": [
+    {
+      "id": "aesop-goose-and-golden-eggs-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Goose lay every day?",
+      "options": [
+        "A silver coin",
+        "A pair of ordinary eggs",
+        "A Golden Egg",
+        "A jeweled feather"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 51,
+        "end": 92
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goose-and-golden-eggs-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Man and his Wife imagine about the Goose?",
+      "options": [
+        "That the bird must be made of gold inside",
+        "That the bird will soon stop laying eggs",
+        "That the bird belongs to someone else",
+        "That the bird can lay two eggs a day"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 188,
+        "end": 234
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goose-and-golden-eggs-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why do the Man and his Wife decide to kill the Goose?",
+      "options": [
+        "Because the Goose has stopped laying eggs",
+        "Because the Goose has become too costly to feed",
+        "Because a neighbor warns them the Goose is unwell",
+        "To secure the whole store of gold at once"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 236,
+        "end": 320
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goose-and-golden-eggs-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do they find when they cut the Goose open?",
+      "options": [
+        "A small store of golden eggs inside",
+        "It was just like any other goose",
+        "Nothing at all inside its body",
+        "A second, smaller goose inside"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 348,
+        "end": 391
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goose-and-golden-eggs-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Man and his Wife lose by killing the Goose?",
+      "options": [
+        "Their reputation among the neighbors",
+        "Their farm and all its land",
+        "The daily addition to their wealth",
+        "Their right to sell eggs at market"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 453,
+        "end": 510
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goose-and-golden-eggs-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why do the Man and his Wife feel they are \"not getting rich fast enough\"?",
+      "options": [
+        "A single golden egg a day feels too slow compared to owning all the gold at once",
+        "The Goose has begun laying smaller eggs than before",
+        "They must share the eggs with other family members",
+        "The price of gold has recently fallen"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 118,
+        "end": 181
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goose-and-golden-eggs-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the couple's mistake reveal about their understanding of the Goose?",
+      "options": [
+        "They understand the Goose perfectly but act out of spite",
+        "They know the Goose is ordinary but want to test it anyway",
+        "They believe another animal is responsible for the gold",
+        "They misunderstand where the gold actually comes from"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 348,
+        "end": 391
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goose-and-golden-eggs-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"secure\" mean in \"secure the whole store of precious metal at once\"?",
+      "options": [
+        "To protect from being stolen",
+        "To obtain and gain possession of",
+        "To lock safely away for later",
+        "To insure against loss or damage"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 272,
+        "end": 320
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goose-and-golden-eggs-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"fortune\" mean in \"had the good fortune to possess a Goose\"?",
+      "options": [
+        "Wealth already saved",
+        "A prediction of the future",
+        "Luck",
+        "A large sum of borrowed money"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 19,
+        "end": 58
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goose-and-golden-eggs-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "Greed for more can destroy the steady good you already have",
+        "Geese are more valuable than any amount of gold",
+        "Wealth should always be divided between two people",
+        "Patience is rewarded with even greater fortune"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 30
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goose-and-golden-eggs-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who owns the Goose that lays the Golden Egg?",
+      "options": [
+        "A farmer and his son",
+        "A merchant and his daughter",
+        "A king and his court",
+        "A Man and his Wife"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 58
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-goose-and-golden-eggs-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how had the Man and his Wife been doing before they killed the Goose?",
+      "options": [
+        "They were struggling to pay their debts",
+        "They were already lucky and getting richer daily",
+        "They had never before owned any gold",
+        "They were planning to sell the Goose to a neighbor"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 94,
+        "end": 116
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-goose-and-golden-eggs-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to their hope of getting rich all at once?",
+      "options": [
+        "It succeeds better than they expected",
+        "It is delayed until the following year",
+        "It fails, since the Goose held no gold inside",
+        "It is granted by a passing stranger"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 399,
+        "end": 451
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-goose-and-golden-eggs-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the outcome suggest about trying to force a good thing to happen faster?",
+      "options": [
+        "It can destroy the very source of the good thing",
+        "It always works if enough effort is applied",
+        "It only fails when animals are involved",
+        "It succeeds as long as one is patient enough"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 236,
+        "end": 320
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-goose-and-golden-eggs-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the couple have been better off leaving the Goose alone?",
+      "options": [
+        "The Goose would have eventually laid two eggs a day",
+        "The gold inside the Goose would have grown over time",
+        "Other geese would have been drawn to join it",
+        "They would have kept receiving one golden egg every day"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 51,
+        "end": 92
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-goose-and-golden-eggs-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"precious\" mean in \"the whole store of precious metal\"?",
+      "options": [
+        "Very heavy to carry",
+        "Of great value",
+        "Difficult to melt down",
+        "Hidden from view"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 279,
+        "end": 312
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-goose-and-golden-eggs-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A couple discovers their Goose can lay two eggs a day",
+        "A couple sells their Goose for a large sum of gold",
+        "A couple kills their golden-egg-laying Goose out of greed and loses everything",
+        "A couple shares their Goose's eggs with the whole village"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 322,
+        "end": 391
+      },
+      "pool": "retest"
+    }
+  ]
+}
