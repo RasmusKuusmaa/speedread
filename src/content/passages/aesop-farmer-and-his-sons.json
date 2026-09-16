@@ -1,0 +1,322 @@
+{
+  "id": "aesop-farmer-and-his-sons",
+  "title": "The Farmer and His Sons",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Farmer, being at death's door, and desiring to impart to his Sons a secret of much moment, called them round him and said, \"My sons, I am shortly about to die; I would have you know, therefore, that in my vineyard there lies a hidden treasure. Dig, and you will find it.\" As soon as their father was dead, the Sons took spade and fork and turned up the soil of the vineyard over and over again, in their search for the treasure which they supposed to lie buried there. They found none, however: but the vines, after so thorough a digging, produced a crop such as had never before been seen."
+  ],
+  "questions": [
+    {
+      "id": "aesop-farmer-and-his-sons-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Farmer call his Sons round him?",
+      "options": [
+        "To divide his land among them",
+        "To ask them to fetch a doctor",
+        "To share with them a secret of much moment",
+        "To settle a quarrel between them"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 37,
+        "end": 91
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-his-sons-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Farmer tell his Sons lies in the vineyard?",
+      "options": [
+        "A hidden treasure",
+        "A buried spring of water",
+        "An old family heirloom",
+        "A chest of ancient tools"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 201,
+        "end": 244
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-his-sons-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Farmer tell his Sons to do to find the treasure?",
+      "options": [
+        "Sell the vineyard at once",
+        "Wait until spring",
+        "Ask a neighbor for help",
+        "Dig"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 246,
+        "end": 271
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-his-sons-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Sons use to search the vineyard?",
+      "options": [
+        "Shovels and buckets",
+        "Spade and fork",
+        "Their bare hands",
+        "Plows pulled by oxen"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 308,
+        "end": 336
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-his-sons-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Sons find when they search for the treasure?",
+      "options": [
+        "A small chest of coins",
+        "Nothing but empty soil and rocks",
+        "They found none",
+        "A note explaining their father's joke"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 471,
+        "end": 495
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-his-sons-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the vines after all the digging?",
+      "options": [
+        "They produced a crop such as had never before been seen",
+        "They withered and died from the disturbed soil",
+        "They needed to be replanted the following year",
+        "They were sold along with the rest of the vineyard"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 501,
+        "end": 591
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-his-sons-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what was the Farmer's real purpose in speaking of a hidden treasure?",
+      "options": [
+        "To test whether his Sons believed everything he said",
+        "To hide the location of real buried gold from strangers",
+        "To punish his Sons for being lazy in the past",
+        "To make sure his Sons would thoroughly work and improve the vineyard's soil"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 501,
+        "end": 591
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-his-sons-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how did the Sons actually benefit, even though there was no literal treasure?",
+      "options": [
+        "They inherited more land than they expected",
+        "Their thorough digging made the vineyard far more productive than before",
+        "They discovered valuable tools buried nearby",
+        "They were praised by their neighbors for their effort"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 541,
+        "end": 591
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-his-sons-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"impart\" mean in \"desiring to impart to his Sons a secret\"?",
+      "options": [
+        "To hide or conceal something",
+        "To sell something for a price",
+        "To share or pass on information",
+        "To forget something over time"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 37,
+        "end": 91
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-his-sons-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Hard work itself can be the real treasure, even when the promised reward turns out to be untrue",
+        "Farmers should never leave secrets for their children to discover",
+        "Vineyards are more valuable than any buried treasure",
+        "Sons should never trust their father's dying words"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 501,
+        "end": 591
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-his-sons-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what condition is the Farmer in when he speaks to his Sons?",
+      "options": [
+        "Recovering from a long illness",
+        "Preparing to leave on a journey",
+        "Celebrating a good harvest",
+        "Being at death's door"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 31
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-his-sons-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when do the Sons begin searching for the treasure?",
+      "options": [
+        "Many years after their father's death",
+        "As soon as their father was dead",
+        "While their father was still alive",
+        "Only after they ran out of money"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 274,
+        "end": 306
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-his-sons-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how thoroughly do the Sons dig up the vineyard?",
+      "options": [
+        "Only in a few scattered spots",
+        "Just once, quickly",
+        "Over and over again",
+        "Only around the edges"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 341,
+        "end": 395
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-his-sons-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Farmer have chosen not to simply tell his Sons to work the land harder?",
+      "options": [
+        "A promise of treasure motivates the thorough effort that direct instruction might not have achieved",
+        "He genuinely did not know how to phrase the instruction clearly",
+        "He wanted to keep the real reason for digging a secret forever",
+        "He believed his Sons would refuse to work without a reward"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 201,
+        "end": 271
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-his-sons-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the phrase \"so thorough a digging\" suggest about the effort the Sons put in?",
+      "options": [
+        "It was actually quite minimal and careless",
+        "It was done unwillingly and resentfully",
+        "It was completed in a single afternoon",
+        "It was far more extensive than ordinary farming would have required"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 501,
+        "end": 539
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-his-sons-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"moment\" mean in \"a secret of much moment\"?",
+      "options": [
+        "Speed",
+        "Importance",
+        "Danger",
+        "Mystery"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 68,
+        "end": 91
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-his-sons-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A father hides real gold in his vineyard for his sons to find",
+        "The sons refuse to believe their father's story and never dig at all",
+        "A father's tale of hidden treasure leads his sons to dig so thoroughly that the vineyard flourishes",
+        "The sons find a treasure chest exactly as their father described"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 541,
+        "end": 591
+      },
+      "pool": "retest"
+    }
+  ]
+}
