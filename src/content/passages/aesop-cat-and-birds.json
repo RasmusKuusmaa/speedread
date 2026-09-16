@@ -1,0 +1,323 @@
+{
+  "id": "aesop-cat-and-birds",
+  "title": "The Cat and the Birds",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Cat heard that the Birds in an aviary were ailing. So he got himself up as a doctor, and, taking with him a set of the instruments proper to his profession, presented himself at the door, and inquired after the health of the Birds. \"We shall do very well,\" they replied, without letting him in, \"when we've seen the last of you.\"",
+    "A villain may disguise himself, but he will not deceive the wise."
+  ],
+  "questions": [
+    {
+      "id": "aesop-cat-and-birds-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Cat hear about the Birds in the aviary?",
+      "options": [
+        "That they were about to be sold",
+        "That they had escaped their cage",
+        "That they were ailing",
+        "That they were being fed too much"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 51
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-birds-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Cat disguise himself?",
+      "options": [
+        "As a doctor",
+        "As a birdkeeper",
+        "As a merchant selling seed",
+        "As another bird"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 56,
+        "end": 85
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-birds-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Cat bring with him to seem convincing?",
+      "options": [
+        "A basket of medicine and herbs",
+        "A letter of introduction",
+        "A cage to carry the sick birds",
+        "A set of instruments proper to his profession"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 92,
+        "end": 157
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-birds-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Cat do once he reaches the door?",
+      "options": [
+        "He knocks loudly and demands to be let in",
+        "He inquires after the health of the Birds",
+        "He begins treating the Birds through the bars",
+        "He leaves a note and departs at once"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 194,
+        "end": 232
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-birds-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Birds say they need to \"do very well\"?",
+      "options": [
+        "To be given proper medicine",
+        "To be moved to a larger aviary",
+        "To see the last of the Cat",
+        "To have the doctor return tomorrow"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 235,
+        "end": 256
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-birds-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, do the Birds let the Cat inside?",
+      "options": [
+        "No, they answer without letting him in",
+        "Yes, they open the door at once",
+        "Yes, but only after questioning him first",
+        "No, because they had already flown away"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 273,
+        "end": 295
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-birds-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Cat disguise himself as a doctor in the first place?",
+      "options": [
+        "He genuinely wants to help cure the Birds' illness",
+        "He is being paid by the aviary's owner to check on them",
+        "He wants to learn more about medicine from the Birds",
+        "He hopes the disguise will let him get close enough to harm the Birds"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 56,
+        "end": 85
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-birds-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Birds' reply reveal about whether the disguise worked?",
+      "options": [
+        "They were fully convinced he was a real doctor",
+        "They saw through it and knew the Cat was still a danger to them",
+        "They were unsure but let him in out of caution",
+        "They believed him but were too weak to respond"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 298,
+        "end": 329
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-birds-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"ailing\" mean in \"the Birds in an aviary were ailing\"?",
+      "options": [
+        "Singing loudly",
+        "Multiplying quickly",
+        "Sick or unwell",
+        "Fighting each other"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 17,
+        "end": 51
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-birds-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "A disguise cannot fool those who already know your true nature",
+        "Doctors should never visit birds without an invitation",
+        "Birds are always too weak to protect themselves from cats",
+        "It is wise to let strangers in no matter their appearance"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 65
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-birds-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where do the Birds that the Cat visits live?",
+      "options": [
+        "In a barn loft",
+        "In a garden hedge",
+        "In a hollow tree",
+        "In an aviary"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 17,
+        "end": 51
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cat-and-birds-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Cat ask about when he arrives?",
+      "options": [
+        "The price of the aviary",
+        "The health of the Birds",
+        "The number of Birds inside",
+        "The owner of the aviary"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 194,
+        "end": 232
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cat-and-birds-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Birds say will happen once they've \"seen the last\" of the Cat?",
+      "options": [
+        "They shall call for a real doctor",
+        "They shall finally recover their strength",
+        "They shall do very well",
+        "They shall be moved somewhere safer"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 235,
+        "end": 256
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cat-and-birds-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why do the instruments the Cat carries matter to his plan?",
+      "options": [
+        "They are meant to make his disguise as a doctor look convincing",
+        "They are the tools he actually plans to use to cure the Birds",
+        "They are gifts he intends to give to the Birds",
+        "They belong to a real doctor he is imitating exactly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 92,
+        "end": 157
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cat-and-birds-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what makes the Birds' brief reply an effective way to refuse the Cat?",
+      "options": [
+        "It invites him in while warning him to behave",
+        "It admits they are too sick to argue with him",
+        "It asks him to come back with real medicine instead",
+        "It politely but firmly turns him away without ever opening the door"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 273,
+        "end": 295
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cat-and-birds-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Cat \"got himself up\" as a doctor?",
+      "options": [
+        "He argued loudly that he was one",
+        "He dressed and equipped himself to look like one",
+        "He studied for years to become one",
+        "He was hired officially to act as one"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 56,
+        "end": 85
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cat-and-birds-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Cat successfully cures the Birds of their illness",
+        "A Cat is invited in and shares a meal with the Birds",
+        "A Cat disguises himself as a doctor, but the Birds refuse to let him in",
+        "A Cat gives up his disguise before reaching the aviary"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 273,
+        "end": 295
+      },
+      "pool": "retest"
+    }
+  ]
+}
