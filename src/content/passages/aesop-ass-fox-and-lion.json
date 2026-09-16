@@ -1,0 +1,323 @@
+{
+  "id": "aesop-ass-fox-and-lion",
+  "title": "The Ass, the Fox, and the Lion",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "An Ass and a Fox went into partnership and sallied out to forage for food together. They hadn't gone far before they saw a Lion coming their way, at which they were both dreadfully frightened. But the Fox thought he saw a way of saving his own skin, and went boldly up to the Lion and whispered in his ear, \"I'll manage that you shall get hold of the Ass without the trouble of stalking him, if you'll promise to let me go free.\" The Lion agreed to this, and the Fox then rejoined his companion and contrived before long to lead him by a hidden pit, which some hunter had dug as a trap for wild animals, and into which he fell. When the Lion saw that the Ass was safely caught and couldn't get away, it was to the Fox that he first turned his attention, and he soon finished him off, and then at his leisure proceeded to feast upon the Ass.",
+    "Betray a friend, and you'll often find you have ruined yourself."
+  ],
+  "questions": [
+    {
+      "id": "aesop-ass-fox-and-lion-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why do the Ass and the Fox go out together?",
+      "options": [
+        "To search for a new home",
+        "To settle a dispute between them",
+        "To forage for food as partners",
+        "To escape from a nearby farm"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 43,
+        "end": 82
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-fox-and-lion-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Ass and the Fox see coming their way?",
+      "options": [
+        "A Lion",
+        "A pack of wolves",
+        "A group of hunters",
+        "A herd of other asses"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 112,
+        "end": 144
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-fox-and-lion-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox whisper to the Lion?",
+      "options": [
+        "That the Ass is dangerous and should be avoided",
+        "That he wants to join the Lion's hunting pack",
+        "That the Ass has already spotted the Lion",
+        "That he can help the Lion catch the Ass in exchange for his own freedom"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 308,
+        "end": 427
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-fox-and-lion-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Fox lead the Ass into danger?",
+      "options": [
+        "By pushing him off a steep cliff",
+        "By leading him to a hidden pit dug as a trap for wild animals",
+        "By tricking him into a locked cage",
+        "By leaving him alone in the Lion's path"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 499,
+        "end": 626
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-fox-and-lion-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, whom does the Lion attack first once the Ass is trapped?",
+      "options": [
+        "The Ass",
+        "Neither; he waits for both to weaken",
+        "The Fox",
+        "A different animal that happened to pass by"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 700,
+        "end": 782
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-fox-and-lion-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Lion do after dealing with the Fox?",
+      "options": [
+        "He proceeds at his leisure to feast upon the Ass",
+        "He releases the Ass as promised",
+        "He leaves both animals and walks away",
+        "He shares his catch with the Fox's family"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 788,
+        "end": 839
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-fox-and-lion-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Lion have no reason to keep his promise to the Fox?",
+      "options": [
+        "The Fox never actually delivered on his part of the bargain",
+        "The Lion never truly agreed to the Fox's plan in the first place",
+        "The Fox demanded a reward the Lion could not provide",
+        "Once the Ass is trapped, the Lion no longer needs the Fox's help at all"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 628,
+        "end": 752
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-fox-and-lion-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Fox fail to consider when striking his bargain with the Lion?",
+      "options": [
+        "That the Ass might overhear his whispered plan",
+        "That betraying his partner leaves him with nothing to stop the Lion from turning on him next",
+        "That the pit might not be strong enough to hold the Ass",
+        "That the Lion might refuse the deal outright"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 64
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-fox-and-lion-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Ass and Fox \"went into partnership\"?",
+      "options": [
+        "They competed against each other for food",
+        "They belonged to the same owner",
+        "They agreed to work together toward a shared goal",
+        "They had known each other since birth"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 38
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-fox-and-lion-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "Betraying someone who trusts you can end up destroying you as well",
+        "Lions are always more dangerous than they first appear",
+        "Foxes are naturally more cunning than any other animal",
+        "Partnerships between different kinds of animals never last long"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 64
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-fox-and-lion-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how do the Ass and Fox feel when they first see the Lion?",
+      "options": [
+        "Curious but calm",
+        "Angry and ready to fight",
+        "Confident they can outrun him",
+        "Dreadfully frightened"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 146,
+        "end": 191
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-fox-and-lion-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox ask the Lion to promise in return for his help?",
+      "options": [
+        "To share the meal equally",
+        "To let him go free",
+        "To spare the Ass as well",
+        "To protect him from hunters"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 392,
+        "end": 427
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-fox-and-lion-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who originally dug the pit that traps the Ass?",
+      "options": [
+        "The Fox himself",
+        "A group of farmers",
+        "Some hunter",
+        "The Lion, long before this story"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 550,
+        "end": 602
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-fox-and-lion-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Fox go \"boldly up to the Lion\" rather than fleeing?",
+      "options": [
+        "He believes striking a private bargain is his best chance of surviving the encounter",
+        "He is confident he can defeat the Lion in a fight",
+        "He wants to warn the Lion about the hidden pit",
+        "He hopes the Ass will protect him from the Lion"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 197,
+        "end": 280
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-fox-and-lion-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the order of the Lion's attacks (Fox first, then Ass) suggest about the value of the Fox's bargain?",
+      "options": [
+        "The Lion always intended to spare the Fox completely",
+        "The Fox's bargain was honored in full by the Lion",
+        "The Ass had somehow bargained for the Fox's safety too",
+        "The bargain protected the Fox for only as long as he was still useful to the Lion"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 700,
+        "end": 782
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-fox-and-lion-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Fox \"contrived\" to lead the Ass to the pit?",
+      "options": [
+        "He stumbled upon it by pure accident",
+        "He planned and managed it deliberately",
+        "He was ordered to do it by the Lion",
+        "He warned the Ass about it beforehand"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 499,
+        "end": 548
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-fox-and-lion-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Fox and an Ass work together to escape a Lion",
+        "An Ass tricks a Lion into freeing the Fox",
+        "A Fox betrays his partner to a Lion, then is killed by the Lion himself",
+        "A Lion spares both the Ass and the Fox out of gratitude"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 758,
+        "end": 839
+      },
+      "pool": "retest"
+    }
+  ]
+}
