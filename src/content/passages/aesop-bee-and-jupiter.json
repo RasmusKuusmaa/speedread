@@ -1,0 +1,323 @@
+{
+  "id": "aesop-bee-and-jupiter",
+  "title": "The Bee and Jupiter",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Queen Bee from Hymettus flew up to Olympus with some fresh honey from the hive as a present to Jupiter, who was so pleased with the gift that he promised to give her anything she liked to ask for. She said she would be very grateful if he would give stings to the bees, to kill people who robbed them of their honey. Jupiter was greatly displeased with this request, for he loved mankind: but he had given his word, so he said that stings they should have. The stings he gave them, however, were of such a kind that whenever a bee stings a man the sting is left in the wound and the bee dies.",
+    "Evil wishes, like fowls, come home to roost."
+  ],
+  "questions": [
+    {
+      "id": "aesop-bee-and-jupiter-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Queen Bee bring to Jupiter?",
+      "options": [
+        "A newly built honeycomb",
+        "A gift of golden pollen",
+        "Some fresh honey from the hive",
+        "A swarm of young bees"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 26,
+        "end": 104
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bee-and-jupiter-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Jupiter promise the Queen Bee because he is so pleased?",
+      "options": [
+        "To give her anything she likes to ask for",
+        "To visit the hive himself one day",
+        "To protect the hive from all storms",
+        "To make her honey taste even sweeter"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 144,
+        "end": 197
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bee-and-jupiter-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Queen Bee ask Jupiter for?",
+      "options": [
+        "A larger hive to house more bees",
+        "Protection from birds that eat bees",
+        "The power to make honey more quickly",
+        "Stings for the bees, to kill people who steal their honey"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 208,
+        "end": 317
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bee-and-jupiter-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does Jupiter feel about the Queen Bee's request?",
+      "options": [
+        "Delighted, since he disliked honey thieves",
+        "Greatly displeased, since he loved mankind",
+        "Indifferent, since it did not concern him",
+        "Amused, since he thought it a harmless wish"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 319,
+        "end": 389
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bee-and-jupiter-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does Jupiter grant the request despite his displeasure?",
+      "options": [
+        "Because the other gods urged him to agree",
+        "Because he wanted more honey for himself",
+        "Because he had already given his word",
+        "Because the bees threatened to stop working"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 395,
+        "end": 457
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bee-and-jupiter-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to a bee after it stings a man?",
+      "options": [
+        "The sting is left in the wound and the bee dies",
+        "The bee loses its ability to fly",
+        "The bee returns safely to the hive",
+        "The bee's sting grows back within a day"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 518,
+        "end": 593
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bee-and-jupiter-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Jupiter design the sting to cost the bee its own life?",
+      "options": [
+        "He wants to make sure the bees cannot misuse the sting again",
+        "He is testing whether the bees will still want the gift",
+        "He hopes the bees will refuse the sting altogether",
+        "He shapes his reluctant gift so that the harmful wish also punishes the one who made it"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 459,
+        "end": 593
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bee-and-jupiter-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Jupiter's reluctant promise-keeping reveal about how he views his own word?",
+      "options": [
+        "He breaks his promise once he realizes the request is harmful",
+        "He honors a promise even when he disapproves of what was asked",
+        "He asks the Queen Bee to choose a different gift instead",
+        "He delays his answer until the Queen Bee gives up asking"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 395,
+        "end": 457
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bee-and-jupiter-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"displeased\" mean in \"Jupiter was greatly displeased with this request\"?",
+      "options": [
+        "Delighted or thrilled",
+        "Confused or puzzled",
+        "Unhappy or dissatisfied",
+        "Indifferent or unmoved"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 319,
+        "end": 367
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bee-and-jupiter-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "A wish for harm against others can end up bringing harm upon yourself",
+        "Gods should never grant requests they personally disagree with",
+        "Bees are naturally more vengeful than other creatures",
+        "Honey is valuable enough to justify any means of defending it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 44
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bee-and-jupiter-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the Queen Bee travel from to bring her gift?",
+      "options": [
+        "Olympus itself",
+        "A distant island",
+        "The banks of a river",
+        "Hymettus"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 25
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bee-and-jupiter-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Queen Bee want the stings used for?",
+      "options": [
+        "To defend the hive from other insects",
+        "To kill people who steal the bees' honey",
+        "To help the bees gather pollen faster",
+        "To frighten away birds that hunt bees"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 272,
+        "end": 317
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bee-and-jupiter-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Jupiter feel toward mankind that explains his reaction?",
+      "options": [
+        "Fear",
+        "Indifference",
+        "Love",
+        "Suspicion"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 369,
+        "end": 389
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bee-and-jupiter-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might Jupiter be seen as fair to both sides in how he grants the wish?",
+      "options": [
+        "He gives the bees a weapon, but makes it cost them their own lives when used",
+        "He refuses the Queen Bee's request outright to protect mankind",
+        "He gives mankind a way to remove the bees' new stings",
+        "He asks the Queen Bee to apologize before granting anything"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 518,
+        "end": 593
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bee-and-jupiter-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Queen Bee fail to anticipate when making her request?",
+      "options": [
+        "That Jupiter would refuse to grant any request at all",
+        "That mankind would stop stealing honey once warned",
+        "That the other gods would object to her wish",
+        "That the very gift she wanted could end up harming her own kind as well"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 459,
+        "end": 593
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bee-and-jupiter-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"robbed\" mean in \"people who robbed them of their honey\"?",
+      "options": [
+        "Warned",
+        "Stole",
+        "Shared",
+        "Sold"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 280,
+        "end": 317
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bee-and-jupiter-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "Jupiter refuses the Queen Bee's request and sends her away empty-handed",
+        "The Queen Bee changes her mind and asks for something harmless instead",
+        "A wish for a weapon against others is granted in a form that punishes its user as well",
+        "Mankind negotiates directly with Jupiter to stop the bees' stings"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 518,
+        "end": 593
+      },
+      "pool": "retest"
+    }
+  ]
+}
