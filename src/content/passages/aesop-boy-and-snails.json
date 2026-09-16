@@ -1,0 +1,322 @@
+{
+  "id": "aesop-boy-and-snails",
+  "title": "The Boy and the Snails",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Farmer's Boy went looking for Snails, and, when he had picked up both his hands full, he set about making a fire at which to roast them; for he meant to eat them. When it got well alight and the Snails began to feel the heat, they gradually withdrew more and more into their shells with the hissing noise they always make when they do so. When the Boy heard it, he said, \"You abandoned creatures, how can you find heart to whistle when your houses are burning?\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-boy-and-snails-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Boy looking for at the start?",
+      "options": [
+        "Firewood",
+        "Berries",
+        "Snails",
+        "A lost sheep"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 38
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-and-snails-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Boy build a fire?",
+      "options": [
+        "To roast the Snails, since he means to eat them",
+        "To keep himself warm in the cold",
+        "To signal to his father in the fields",
+        "To scare away birds from the crop"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 88,
+        "end": 163
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-and-snails-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Snails do as they feel the heat?",
+      "options": [
+        "They crawl quickly away from the fire",
+        "They stop making any sound at all",
+        "They cling tightly to one another",
+        "They withdraw more and more into their shells"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 228,
+        "end": 283
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-and-snails-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what noise do the Snails make as they withdraw?",
+      "options": [
+        "A soft clicking noise",
+        "A hissing noise",
+        "A low humming noise",
+        "A sharp cracking noise"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 289,
+        "end": 339
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-and-snails-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Boy call the Snails when he hears the noise?",
+      "options": [
+        "\"Foolish creatures\"",
+        "\"Frightened creatures\"",
+        "\"Abandoned creatures\"",
+        "\"Stubborn creatures\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 374,
+        "end": 397
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-and-snails-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Boy mistake the hissing sound for?",
+      "options": [
+        "A cheerful whistling, as if the Snails were untroubled",
+        "A cry for help from the Snails",
+        "A warning that the fire is too hot",
+        "A sign that the Snails are already dead"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 399,
+        "end": 461
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-and-snails-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Boy call the Snails' shells their \"houses\"?",
+      "options": [
+        "The Snails have built their shells recently out of mud",
+        "The shells were given to the Snails by the Boy himself",
+        "The Snails only enter their shells when it rains",
+        "The shells are the shelter each Snail withdraws into, much like a home"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 433,
+        "end": 461
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-and-snails-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Snails \"withdrew\" into their shells?",
+      "options": [
+        "They pushed themselves out and forward",
+        "They pulled themselves back and inward",
+        "They rolled over onto their backs",
+        "They split open along one side"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 228,
+        "end": 283
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-and-snails-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"alight\" mean in \"when it got well alight\"?",
+      "options": [
+        "Extinguished completely",
+        "Smoking heavily",
+        "Burning steadily",
+        "Freshly built"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 165,
+        "end": 188
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-and-snails-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "A sound of distress can be mistaken for cheerfulness by someone careless",
+        "Snails are more dangerous to cook than most other creatures",
+        "Farmers' boys should never build fires outdoors",
+        "Every creature deserves to be treated with equal kindness"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 399,
+        "end": 461
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-and-snails-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many Snails had the Boy picked up?",
+      "options": [
+        "Only a single small snail",
+        "A whole basketful of snails",
+        "As many as he could carry in a sack",
+        "Enough to fill both his hands"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 45,
+        "end": 86
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boy-and-snails-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Boy intend to do with the Snails once roasted?",
+      "options": [
+        "Sell them at market",
+        "Eat them",
+        "Feed them to his dog",
+        "Give them to his sister"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 139,
+        "end": 163
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boy-and-snails-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when do the Snails begin making the hissing noise?",
+      "options": [
+        "Before the Boy has even lit the fire",
+        "Only after the fire has gone out",
+        "As they begin to feel the heat of the fire",
+        "As soon as the Boy first picks them up"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 193,
+        "end": 226
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boy-and-snails-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is actually happening to the Snails as the Boy hears their \"whistling\"?",
+      "options": [
+        "They are suffering in the fire that the Boy himself has lit",
+        "They are singing happily inside their shells",
+        "They are calling out to other snails nearby",
+        "They are trying to warn the Boy of danger"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 193,
+        "end": 226
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boy-and-snails-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Boy's remark reveal about his understanding of the Snails' situation?",
+      "options": [
+        "He fully understands their pain but does not care",
+        "He believes the Snails are actually enjoying the fire",
+        "He thinks the hissing means they want to be freed",
+        "He fails to see that he himself is the cause of their suffering"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 374,
+        "end": 461
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boy-and-snails-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the Boy mean by asking how the Snails \"find heart\" to whistle?",
+      "options": [
+        "How they manage to breathe inside their shells",
+        "How they manage to seem cheerful under the circumstances",
+        "How they manage to move at all without legs",
+        "How they manage to survive without water"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 399,
+        "end": 432
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boy-and-snails-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Boy rescues Snails from a wildfire in the field",
+        "A Boy releases his Snails after hearing them hiss",
+        "A Boy roasts Snails over a fire and misreads their hissing as cheerful whistling",
+        "A Boy trades his Snails for firewood with another farmer"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 88,
+        "end": 137
+      },
+      "pool": "retest"
+    }
+  ]
+}
