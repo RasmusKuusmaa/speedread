@@ -1,0 +1,323 @@
+{
+  "id": "aesop-swollen-fox",
+  "title": "The Swollen Fox",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A hungry Fox found in a hollow tree a quantity of bread and meat, which some shepherds had placed there against their return. Delighted with his find he slipped in through the narrow aperture and greedily devoured it all.",
+    "But when he tried to get out again he found himself so swollen after his big meal that he could not squeeze through the hole, and fell to whining and groaning over his misfortune. Another Fox, happening to pass that way, came and asked him what the matter was; and, on learning the state of the case, said, \"Well, my friend, I see nothing for it but for you to stay where you are till you shrink to your former size; you'll get out then easily enough.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-swollen-fox-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the hungry Fox find in the hollow tree?",
+      "options": [
+        "A store of dried fruit",
+        "A hidden nest of eggs",
+        "A quantity of bread and meat",
+        "A pile of grain and corn"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 13,
+        "end": 64
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-swollen-fox-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who had placed the food in the tree?",
+      "options": [
+        "Some shepherds, against their return",
+        "A group of travelling merchants",
+        "The Fox's own family",
+        "A farmer storing food for winter"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 66,
+        "end": 124
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-swollen-fox-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Fox get into the tree?",
+      "options": [
+        "He digs a new hole at the base",
+        "He climbs in from the top of the tree",
+        "He is helped in by another fox",
+        "He slips in through the narrow aperture"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 150,
+        "end": 191
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-swollen-fox-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why can't the Fox get back out of the tree?",
+      "options": [
+        "The hole has been blocked by falling branches",
+        "He is too swollen after his big meal to squeeze through the hole",
+        "He is too weak from hunger to climb out",
+        "The shepherds have returned and are blocking the exit"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 35,
+        "end": 124
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-swollen-fox-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who comes across the trapped Fox?",
+      "options": [
+        "A curious shepherd",
+        "A passing wolf",
+        "Another Fox",
+        "A group of hunters"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 180,
+        "end": 259
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-swollen-fox-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what advice does the other Fox give?",
+      "options": [
+        "To stay where he is until he shrinks to his former size",
+        "To break down the tree with his own strength",
+        "To call out for the shepherds to help him",
+        "To eat even more so he can push through the hole"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 325,
+        "end": 415
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-swollen-fox-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Fox end up trapped after such a satisfying meal?",
+      "options": [
+        "The hole shrank in size while he was eating",
+        "The shepherds sealed the opening while he was inside",
+        "He was too full to remember which way was out",
+        "His greed led him to eat far more than the narrow opening could later allow him to pass through"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 150,
+        "end": 220
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-swollen-fox-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the other Fox's advice ultimately the only real solution?",
+      "options": [
+        "The other Fox has a secret way to widen the hole",
+        "Only time and digestion, not effort, can undo the effect of overeating",
+        "The shepherds are expected to return and help free him",
+        "Whining loudly will eventually attract help from someone else"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 417,
+        "end": 450
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-swollen-fox-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"aperture\" mean in \"the narrow aperture\"?",
+      "options": [
+        "A type of tool",
+        "A hidden passage underground",
+        "An opening or gap",
+        "A large branch of a tree"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 150,
+        "end": 191
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-swollen-fox-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Overindulging can trap you in the very situation your greed created",
+        "Foxes should never eat food left behind by shepherds",
+        "Asking for help is always more effective than waiting",
+        "Hollow trees make unsafe hiding places for any animal"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 325,
+        "end": 415
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-swollen-fox-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox do to the food once he finds it?",
+      "options": [
+        "He saves some for later",
+        "He shares it with a passing Fox",
+        "He carries it away to a safer spot",
+        "He greedily devours it all"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 196,
+        "end": 220
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-swollen-fox-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the trapped Fox do while stuck in the tree?",
+      "options": [
+        "He remains completely silent, hoping not to be noticed",
+        "He falls to whining and groaning over his misfortune",
+        "He tries repeatedly to break through the wood",
+        "He calls out for the shepherds to return quickly"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 130,
+        "end": 178
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-swollen-fox-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the second Fox address the trapped Fox?",
+      "options": [
+        "\"Poor fellow\"",
+        "\"Foolish one\"",
+        "\"My friend\"",
+        "\"Stranger\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 308,
+        "end": 323
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-swollen-fox-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the second Fox seem calm rather than alarmed by the situation?",
+      "options": [
+        "He recognizes the problem will resolve itself naturally over time",
+        "He does not believe the first Fox is truly trapped",
+        "He plans to free the Fox himself using tools",
+        "He is indifferent to what happens to the trapped Fox"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 325,
+        "end": 415
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-swollen-fox-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the trapped Fox's \"misfortune\" ultimately stem from?",
+      "options": [
+        "The shepherds returning too early to catch him",
+        "The tree's hole being smaller than usual",
+        "Bad luck that had nothing to do with his own actions",
+        "His own choice to eat greedily rather than moderately"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 126,
+        "end": 220
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-swollen-fox-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"devoured\" mean in \"greedily devoured it all\"?",
+      "options": [
+        "Hid away carefully",
+        "Ate quickly and completely",
+        "Shared generously with others",
+        "Wasted or spilled"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 196,
+        "end": 220
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-swollen-fox-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Fox is freed immediately by another passing fox",
+        "A Fox shares his food with the shepherds who own it",
+        "A Fox eats so much that he becomes trapped, and is told he must simply wait to shrink back down",
+        "A Fox escapes the tree by digging a new hole"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 325,
+        "end": 415
+      },
+      "pool": "retest"
+    }
+  ]
+}
