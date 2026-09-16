@@ -1,0 +1,332 @@
+{
+  "id": "the-ungrateful-guest",
+  "title": "The Ungrateful Guest",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/18442",
+  "attribution": "Excerpted (trimmed) from \"The Ungrateful Guest\" in Fifty Famous Stories Retold by James Baldwin (1896), via Project Gutenberg. One sentence of background has been trimmed, and the syllable-break hyphen in the original edition's \"treat-ment\" has been corrected.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "history",
+  "calibrationOnly": false,
+  "body": [
+    "Among the soldiers of King Philip there was a poor man who had done some brave deeds.",
+    "One day this soldier was on board of a ship at sea when a great storm came up. The winds drove the ship upon the rocks, and it was wrecked. The soldier was cast half-drowned upon the shore; and he would have died there, had it not been for the kind care of a farmer who lived close by.",
+    "When the soldier was well enough to go home, he thanked the farmer for what he had done, and promised that he would repay him for his kindness.",
+    "But he did not mean to keep his promise. He did not tell King Philip about the man who had saved his life. He only said that there was a fine farm by the seashore, and that he would like very much to have it for his own. Would the king give it to him?",
+    "\"Who owns the farm now?\" asked Philip.",
+    "\"Only a churlish farmer, who has never done anything for his country,\" said the soldier.",
+    "\"Very well, then,\" said Philip. \"You have served me for a long time, and you shall have your wish. Go and take the farm for yourself.\"",
+    "And so the soldier made haste to drive the farmer from his house and home. He took the farm for his own.",
+    "The poor farmer was stung to the heart by such treatment. He went boldly to the king, and told the whole story from beginning to end. King Philip was very angry when he learned that the man whom he had trusted had done so base a deed. He sent for the soldier in great haste; and when he had come, he caused these words to be burned in his forehead:",
+    "\"THE UNGRATEFUL GUEST.\"",
+    "Thus all the world was made to know of the mean act by which the soldier had tried to enrich himself; and from that day until he died all men shunned and hated him."
+  ],
+  "questions": [
+    {
+      "id": "the-ungrateful-guest-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the soldier's ship at sea?",
+      "options": [
+        "It is captured by enemy sailors",
+        "It runs out of food before reaching shore",
+        "A storm drives it onto the rocks and wrecks it",
+        "It is sold by the soldier for gold"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 79,
+        "end": 138
+      },
+      "pool": "first"
+    },
+    {
+      "id": "the-ungrateful-guest-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who saves the soldier's life after the shipwreck?",
+      "options": [
+        "A farmer who lived close by",
+        "Another soldier from his unit",
+        "A fisherman passing in his boat",
+        "King Philip's own guards"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 240,
+        "end": 284
+      },
+      "pool": "first"
+    },
+    {
+      "id": "the-ungrateful-guest-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the soldier promise the farmer once he recovers?",
+      "options": [
+        "That he would send his son to help on the farm",
+        "That he would introduce him to King Philip",
+        "That he would give him a share of his pay",
+        "That he would repay him for his kindness"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 93,
+        "end": 142
+      },
+      "pool": "first"
+    },
+    {
+      "id": "the-ungrateful-guest-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the soldier actually ask King Philip for?",
+      "options": [
+        "A ship to replace the one he lost",
+        "The fine farm by the seashore, for his own",
+        "A reward of gold for his service",
+        "Permission to retire from the army"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 173,
+        "end": 219
+      },
+      "pool": "first"
+    },
+    {
+      "id": "the-ungrateful-guest-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the soldier describe the farmer to King Philip?",
+      "options": [
+        "As a brave man who saved his life at sea",
+        "As an old friend from before the war",
+        "As a churlish man who has never done anything for his country",
+        "As a dishonest man who cheats his neighbors"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 1,
+        "end": 68
+      },
+      "pool": "first"
+    },
+    {
+      "id": "the-ungrateful-guest-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does King Philip do once he learns the whole story?",
+      "options": [
+        "He has the words \"The Ungrateful Guest\" burned into the soldier's forehead",
+        "He orders the soldier to return the farm quietly",
+        "He exiles the soldier from the kingdom",
+        "He forgives the soldier and asks him to repay the farmer"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 297,
+        "end": 347
+      },
+      "pool": "first"
+    },
+    {
+      "id": "the-ungrateful-guest-f7",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how do people treat the soldier for the rest of his life?",
+      "options": [
+        "They pitied him and forgave his mistake",
+        "They admired his cleverness in gaining the farm",
+        "They forgot the story within a few years",
+        "All men shunned and hated him"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 134,
+        "end": 163
+      },
+      "pool": "first"
+    },
+    {
+      "id": "the-ungrateful-guest-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the soldier hide the farmer's identity from King Philip?",
+      "options": [
+        "He has genuinely forgotten who saved his life",
+        "He knows the truth would prevent the king from giving him the farm",
+        "He wants to protect the farmer from unwanted attention",
+        "He believes the king already knows the whole story"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 41,
+        "end": 105
+      },
+      "pool": "first"
+    },
+    {
+      "id": "the-ungrateful-guest-f9",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is King Philip especially angry when he learns the truth?",
+      "options": [
+        "He had wanted the farm for himself all along",
+        "He disliked the farmer even before hearing the story",
+        "He had trusted the soldier and been deceived into wronging his rescuer",
+        "He had already given the farm to someone else"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 182,
+        "end": 233
+      },
+      "pool": "first"
+    },
+    {
+      "id": "the-ungrateful-guest-f10",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"churlish\" mean, as the soldier falsely applies it to the farmer?",
+      "options": [
+        "Rude and unhelpful",
+        "Wealthy and generous",
+        "Young and inexperienced",
+        "Brave and loyal"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 5,
+        "start": 1,
+        "end": 23
+      },
+      "pool": "first"
+    },
+    {
+      "id": "the-ungrateful-guest-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what kind of man was the soldier before the shipwreck?",
+      "options": [
+        "A wealthy landowner near the coast",
+        "A stranger newly arrived in the kingdom",
+        "A farmer who later joined the army",
+        "A poor man who had done some brave deeds"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 44,
+        "end": 84
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "the-ungrateful-guest-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the soldier do once he is well enough to go home?",
+      "options": [
+        "He leaves without saying a word to the farmer",
+        "He thanks the farmer and promises to repay him",
+        "He asks the farmer to join him in the army",
+        "He pays the farmer immediately in coin"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 45,
+        "end": 87
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "the-ungrateful-guest-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the farmer do once he is driven from his home?",
+      "options": [
+        "He quietly moves to a new farm elsewhere",
+        "He asks the soldier's family for help",
+        "He goes boldly to the king and tells the whole story",
+        "He gives up and lives without a home"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 8,
+        "start": 58,
+        "end": 132
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "the-ungrateful-guest-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does King Philip grant the soldier's request so easily at first?",
+      "options": [
+        "He believes the soldier's false description of the farmer and trusts his long service",
+        "He had already decided to give away that farm before the soldier asked",
+        "He owed the farmer a debt and wanted to settle it",
+        "He wanted to test whether the soldier was being honest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 6,
+        "start": 33,
+        "end": 97
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "the-ungrateful-guest-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the burned inscription on the soldier's forehead accomplish?",
+      "options": [
+        "It cures him of his desire for land and wealth",
+        "It warns other soldiers never to go to sea again",
+        "It restores the farm to the farmer immediately",
+        "It makes his shameful act known to everyone he meets afterward"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 5,
+        "end": 51
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "the-ungrateful-guest-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that people \"shunned\" the soldier afterward?",
+      "options": [
+        "They frequently visited him",
+        "They deliberately avoided him",
+        "They admired him from a distance",
+        "They forgot who he was"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 10,
+        "start": 134,
+        "end": 163
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "the-ungrateful-guest-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A soldier is shipwrecked and never recovers from his injuries",
+        "A farmer steals land from the soldier who once saved him",
+        "A soldier repays his rescuer's kindness with betrayal, and is publicly shamed for it",
+        "A king refuses to believe a farmer's complaint against a soldier"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 9,
+        "start": 1,
+        "end": 21
+      },
+      "pool": "retest"
+    }
+  ]
+}
