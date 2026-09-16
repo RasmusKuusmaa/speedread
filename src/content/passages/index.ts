@@ -46,6 +46,7 @@ import meditationsRusticusApollonius from "./meditations-rusticus-apollonius.jso
 import meditationsSeverusMaximus from "./meditations-severus-maximus.json";
 import meditationsSextusCatulus from "./meditations-sextus-catulus.json";
 import meditationsTeachers from "./meditations-teachers.json";
+import mercuryAndTheWoodman from "./mercury-and-the-woodman.json";
 import millOnLibertyThought from "./mill-on-liberty-thought.json";
 import mobyDickOpening from "./moby-dick-opening.json";
 import ozC01S2 from "./oz-c01-s2.json";
@@ -223,6 +224,7 @@ export const rawPassages: unknown[] = [
   stampAct1765,
   sonsAndDaughtersOfLiberty,
   meditationsTeachers,
+  mercuryAndTheWoodman,
   meditationsRusticusApollonius,
   millOnLibertyThought,
   mobyDickOpening,

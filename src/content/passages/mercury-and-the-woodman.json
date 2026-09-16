@@ -1,0 +1,325 @@
+{
+  "id": "mercury-and-the-woodman",
+  "title": "Mercury and the Woodman",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Woodman was felling a tree on the bank of a river, when his axe, glancing off the trunk, flew out of his hands and fell into the water. As he stood by the water's edge lamenting his loss, Mercury appeared and asked him the reason for his grief; and on learning what had happened, out of pity for his distress he dived into the river and, bringing up a golden axe, asked him if that was the one he had lost.",
+    "The Woodman replied that it was not, and Mercury then dived a second time, and, bringing up a silver axe, asked if that was his. \"No, that is not mine either,\" said the Woodman. Once more Mercury dived into the river, and brought up the missing axe. The Woodman was overjoyed at recovering his property, and thanked his benefactor warmly; and the latter was so pleased with his honesty that he made him a present of the other two axes.",
+    "When the Woodman told the story to his companions, one of these was filled with envy of his good fortune and determined to try his luck for himself. So he went and began to fell a tree at the edge of the river, and presently contrived to let his axe drop into the water. Mercury appeared as before, and, on learning that his axe had fallen in, he dived and brought up a golden axe, as he had done on the previous occasion. Without waiting to be asked whether it was his or not the fellow cried, \"That's mine, that's mine,\" and stretched out his hand eagerly for the prize: but Mercury was so disgusted at his dishonesty that he not only declined to give him the golden axe, but also refused to recover for him the one he had let fall into the stream.",
+    "Honesty is the best policy."
+  ],
+  "questions": [
+    {
+      "id": "mercury-and-the-woodman-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Woodman lose his axe?",
+      "options": [
+        "It slips from his grip while he is resting",
+        "It is stolen by a passing traveller",
+        "It glances off the trunk and flies into the water",
+        "It breaks in half while he is chopping"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 58,
+        "end": 136
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mercury-and-the-woodman-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Mercury first bring up from the river?",
+      "options": [
+        "A golden axe",
+        "A silver axe",
+        "The Woodman's own axe",
+        "A bronze axe"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 340,
+        "end": 364
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mercury-and-the-woodman-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Woodman say about the golden axe?",
+      "options": [
+        "That it was exactly the one he had lost",
+        "That he did not want any axe at all",
+        "That he wanted to keep it regardless",
+        "That it was not the one he had lost"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 35
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mercury-and-the-woodman-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Mercury do once the Woodman is honest about both axes?",
+      "options": [
+        "He gives him only his own axe back",
+        "He gives him all three axes as a present",
+        "He asks the Woodman to work for him",
+        "He takes all three axes away with him"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 391,
+        "end": 434
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mercury-and-the-woodman-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the envious companion do to try his luck?",
+      "options": [
+        "He borrows the Woodman's axe to use himself",
+        "He waits by the river for Mercury to appear",
+        "He lets his own axe drop into the water on purpose",
+        "He asks the Woodman to introduce him to Mercury"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 215,
+        "end": 269
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mercury-and-the-woodman-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the companion cry out when Mercury brings up the golden axe?",
+      "options": [
+        "\"That's mine, that's mine\"",
+        "\"Is that truly mine?\"",
+        "\"I am not sure that is mine\"",
+        "\"Please, keep it for yourself\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 496,
+        "end": 520
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mercury-and-the-woodman-f7",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Mercury refuse to do for the dishonest companion?",
+      "options": [
+        "Speak to him again for the rest of his life",
+        "Allow him to fell any more trees by the river",
+        "Tell him where the golden axe came from",
+        "Give him the golden axe or recover his own lost axe"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 625,
+        "end": 749
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mercury-and-the-woodman-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Mercury reward the first Woodman with all three axes?",
+      "options": [
+        "He wants the Woodman to have a spare axe for emergencies",
+        "He is pleased by the Woodman's honesty in refusing axes that were not his",
+        "He feels sorry that the Woodman works so hard for so little",
+        "He is testing whether the Woodman can carry all three at once"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 343,
+        "end": 434
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mercury-and-the-woodman-f9",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the companion's plan fail so completely?",
+      "options": [
+        "Mercury does not appear for him at all",
+        "He drops his axe in the wrong part of the river",
+        "His eagerness to claim an axe that wasn't his reveals his dishonesty",
+        "He forgets to ask Mercury for help in time"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 577,
+        "end": 619
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mercury-and-the-woodman-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "Telling the truth, even against your own interest, is rewarded in the end",
+        "Rivers are dangerous places to work with sharp tools",
+        "Mercury only helps those who ask him directly for gold",
+        "Working with a friend is safer than working alone"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 27
+      },
+      "pool": "first"
+    },
+    {
+      "id": "mercury-and-the-woodman-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Woodman doing when he loses his axe?",
+      "options": [
+        "Building a small boat by the water",
+        "Chopping wood already lying on the ground",
+        "Repairing a fence near the riverbank",
+        "Felling a tree on the bank of a river"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 51
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "mercury-and-the-woodman-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Mercury bring up on his second dive?",
+      "options": [
+        "A golden axe",
+        "A silver axe",
+        "The Woodman's own axe",
+        "An empty net"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 80,
+        "end": 104
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "mercury-and-the-woodman-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who does the Woodman tell about his good fortune?",
+      "options": [
+        "The local king",
+        "A group of strangers",
+        "His companions",
+        "No one at all"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 49
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "mercury-and-the-woodman-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the companion deliberately drop his axe in the river?",
+      "options": [
+        "He hopes to repeat the first Woodman's good fortune",
+        "He wants to test whether Mercury actually exists",
+        "He is trying to retrieve something else from the river",
+        "He accidentally drops it while imitating the Woodman's work"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 51,
+        "end": 147
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "mercury-and-the-woodman-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the companion's instant claim on the golden axe reveal about him?",
+      "options": [
+        "He recognizes the axe immediately as his own",
+        "He is more honest than the first Woodman",
+        "He does not understand what Mercury is offering him",
+        "He is willing to claim something that he knows is not truly his"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 423,
+        "end": 493
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "mercury-and-the-woodman-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Woodman was \"lamenting\" his loss?",
+      "options": [
+        "Celebrating an unexpected gain",
+        "Expressing sorrow over it",
+        "Ignoring it completely",
+        "Explaining it calmly to a friend"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 170,
+        "end": 188
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "mercury-and-the-woodman-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "Two Woodmen share the same three axes equally",
+        "Mercury refuses to help either Woodman who loses an axe",
+        "An honest Woodman is rewarded, while a dishonest imitator loses even what he had",
+        "A Woodman tricks Mercury into giving him extra axes"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 625,
+        "end": 749
+      },
+      "pool": "retest"
+    }
+  ]
+}
