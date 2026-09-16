@@ -1,0 +1,322 @@
+{
+  "id": "aesop-old-hound",
+  "title": "The Old Hound",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Hound who had served his master well for years, and had run down many a quarry in his time, began to lose his strength and speed owing to age. One day, when out hunting, his master started a powerful wild boar and set the Hound at him. The latter seized the beast by the ear, but his teeth were gone and he could not retain his hold; so the boar escaped. His master began to scold him severely, but the Hound interrupted him with these words: \"My will is as strong as ever, master, but my body is old and feeble. You ought to honour me for what I have been instead of abusing me for what I am.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-old-hound-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what has the Hound done for his master over the years?",
+      "options": [
+        "Guarded the house through every night",
+        "Herded the sheep across the farm",
+        "Served him well and run down many a quarry",
+        "Carried heavy loads on long journeys"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 16,
+        "end": 92
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-hound-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what has begun to happen to the Hound because of his age?",
+      "options": [
+        "He has begun to lose his strength and speed",
+        "He has begun to lose his sense of smell",
+        "He has begun to refuse hunting altogether",
+        "He has begun to sleep through the daylight hours"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 94,
+        "end": 143
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-hound-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the master's Hound seize during the hunt?",
+      "options": [
+        "The boar's hind leg",
+        "A smaller animal fleeing nearby",
+        "The master's fallen weapon",
+        "The wild boar by the ear"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 238,
+        "end": 276
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-hound-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Hound lose his grip on the boar?",
+      "options": [
+        "He is distracted by a noise nearby",
+        "His teeth were gone and he could not retain his hold",
+        "The boar is far larger than any he had faced before",
+        "His master calls him away too soon"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 282,
+        "end": 334
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-hound-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the master react when the boar escapes?",
+      "options": [
+        "He comforts the Hound gently",
+        "He blames himself for the failure",
+        "He scolds the Hound severely",
+        "He decides to retire the Hound at once"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 357,
+        "end": 395
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-hound-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Hound say about his will compared to his body?",
+      "options": [
+        "His will is as strong as ever, but his body is old and feeble",
+        "Both his will and his body have grown weak together",
+        "His will has weakened faster than his body",
+        "Neither his will nor his body have changed at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 446,
+        "end": 513
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-hound-f7",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Hound ask his master to honour him for?",
+      "options": [
+        "The size of the boar he almost caught",
+        "The number of years he has left to serve",
+        "The training his master once gave him",
+        "What he has been, rather than what he is now"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 515,
+        "end": 594
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-hound-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Hound's failure with the boar not really a matter of unwillingness?",
+      "options": [
+        "He deliberately let the boar go to avoid injury",
+        "His effort was genuine, but his aging body could no longer carry it out",
+        "He was never actually trained to hunt boars",
+        "He was distracted by another animal during the chase"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 446,
+        "end": 513
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-hound-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"quarry\" mean in \"had run down many a quarry in his time\"?",
+      "options": [
+        "A stone pit used for building",
+        "A type of hunting weapon",
+        "An animal being hunted",
+        "A place where dogs are trained"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 54,
+        "end": 92
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-hound-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Past service deserves recognition even when age limits present performance",
+        "Hunting dogs should be replaced as soon as they grow old",
+        "Willpower alone is always enough to overcome physical decline",
+        "Masters should never scold their animals under any circumstances"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 515,
+        "end": 594
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-hound-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the master hunting on the day of the story?",
+      "options": [
+        "A fleeing stag",
+        "A pack of wolves",
+        "A large bear",
+        "A powerful wild boar"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 172,
+        "end": 236
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-old-hound-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what part of the Hound's body specifically fails him during the chase?",
+      "options": [
+        "His legs",
+        "His teeth",
+        "His eyesight",
+        "His hearing"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 282,
+        "end": 334
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-old-hound-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Hound respond to his master's scolding?",
+      "options": [
+        "By running away in shame",
+        "By staying silent and accepting the blame",
+        "By interrupting him with an explanation",
+        "By attacking the boar again immediately"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 401,
+        "end": 443
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-old-hound-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Hound want his master to remember about their relationship?",
+      "options": [
+        "The years of loyal, successful service before his decline",
+        "That he was never truly a skilled hunter",
+        "That the master trained him poorly from the start",
+        "That the boar was simply too fast for any dog"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 16,
+        "end": 92
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-old-hound-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the master's scolding be seen as unfair?",
+      "options": [
+        "It comes from a master who has never hunted himself",
+        "It happens in front of other hunting dogs",
+        "It follows a mistake the Hound made deliberately",
+        "It ignores the natural limits of age after years of loyal service"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 488,
+        "end": 513
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-old-hound-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"feeble\" mean in \"my body is old and feeble\"?",
+      "options": [
+        "Injured",
+        "Weak",
+        "Untrained",
+        "Impatient"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 488,
+        "end": 513
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-old-hound-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A young Hound is praised for catching a boar with ease",
+        "A Hound refuses to hunt and is punished by his master",
+        "An aging Hound defends his years of service after failing to hold a boar",
+        "A master retires his Hound before any hunt takes place"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 515,
+        "end": 594
+      },
+      "pool": "retest"
+    }
+  ]
+}
