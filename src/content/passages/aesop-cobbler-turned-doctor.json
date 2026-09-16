@@ -1,0 +1,324 @@
+{
+  "id": "aesop-cobbler-turned-doctor",
+  "title": "The Cobbler Turned Doctor",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A very unskilful Cobbler, finding himself unable to make a living at his trade, gave up mending boots and took to doctoring instead. He gave out that he had the secret of a universal antidote against all poisons, and acquired no small reputation, thanks to his talent for puffing himself.",
+    "One day, however, he fell very ill; and the King of the country bethought him that he would test the value of his remedy. Calling, therefore, for a cup, he poured out a dose of the antidote, and, under pretence of mixing poison with it, added a little water, and commanded him to drink it.",
+    "Terrified by the fear of being poisoned, the Cobbler confessed that he knew nothing about medicine, and that his antidote was worthless. Then the King summoned his subjects and addressed them as follows: \"What folly could be greater than yours? Here is this Cobbler to whom no one will send his boots to be mended, and yet you have not hesitated to entrust him with your lives!\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-cobbler-turned-doctor-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Cobbler give up mending boots?",
+      "options": [
+        "He is injured and can no longer work with his hands",
+        "He decides doctoring pays much better regardless of skill",
+        "He finds himself unable to make a living at his trade",
+        "He is ordered by the King to change professions"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 26,
+        "end": 78
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cobbler-turned-doctor-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Cobbler claim to have?",
+      "options": [
+        "The secret of a universal antidote against all poisons",
+        "A rare cure passed down from his family",
+        "A license granted by the royal court",
+        "A collection of ancient medical texts"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 150,
+        "end": 211
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cobbler-turned-doctor-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Cobbler gain his reputation?",
+      "options": [
+        "Thanks to curing several sick villagers",
+        "Thanks to a recommendation from a real doctor",
+        "Thanks to inheriting his father's practice",
+        "Thanks to his talent for puffing himself"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 247,
+        "end": 287
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cobbler-turned-doctor-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the King do to test the Cobbler's remedy?",
+      "options": [
+        "He asks another doctor to examine the antidote first",
+        "He mixes water into the antidote under the pretence of adding poison",
+        "He orders the Cobbler to drink real poison directly",
+        "He has the antidote tested on an animal first"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 196,
+        "end": 257
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cobbler-turned-doctor-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Cobbler confess when he is afraid of being poisoned?",
+      "options": [
+        "That he had stolen the antidote recipe from a real doctor",
+        "That the King had misunderstood his true intentions",
+        "That he knew nothing about medicine and his antidote was worthless",
+        "That he had already cured himself once before"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 41,
+        "end": 135
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cobbler-turned-doctor-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the King say about the people entrusting their lives to the Cobbler?",
+      "options": [
+        "That no one sent him boots to mend, yet they trusted him with their lives",
+        "That the Cobbler had earned their trust through years of service",
+        "That the people should have tested him earlier themselves",
+        "That the Cobbler deserved a second chance despite his failure"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 245,
+        "end": 376
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cobbler-turned-doctor-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the King's trick with the water succeed in exposing the Cobbler?",
+      "options": [
+        "The water itself was somehow toxic to the Cobbler",
+        "The King secretly told the Cobbler what was in the cup beforehand",
+        "The antidote changed color when mixed with water",
+        "The Cobbler's fear reveals that he does not actually trust his own remedy"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 153,
+        "end": 288
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cobbler-turned-doctor-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what point is the King making by comparing the Cobbler's bootmaking reputation to his medical reputation?",
+      "options": [
+        "The Cobbler was actually skilled at both trades equally",
+        "People trusted him with something far more important than what they never trusted him with in the first place",
+        "The King wanted to give the Cobbler a chance to prove himself as a bootmaker again",
+        "The people had always trusted the Cobbler with both boots and medicine"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 245,
+        "end": 376
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cobbler-turned-doctor-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"puffing himself\" mean in \"his talent for puffing himself\"?",
+      "options": [
+        "Working extremely hard without rest",
+        "Studying medicine in secret",
+        "Exaggerating his own abilities to impress others",
+        "Avoiding attention from the public"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 247,
+        "end": 287
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cobbler-turned-doctor-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "A confident claim is not the same as real skill, and a clever test can expose the difference",
+        "Cobblers should never be allowed to change professions",
+        "Kings are always wiser than the common people they rule",
+        "Medicine is a profession too dangerous for self-taught practitioners"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 205,
+        "end": 244
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cobbler-turned-doctor-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the Cobbler one day?",
+      "options": [
+        "He is arrested for fraud",
+        "He loses all his money",
+        "He is challenged by a rival doctor",
+        "He falls very ill"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 34
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cobbler-turned-doctor-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the King call for in order to test the remedy?",
+      "options": [
+        "A written contract",
+        "A cup",
+        "A group of witnesses",
+        "A second doctor's opinion"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 122,
+        "end": 151
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cobbler-turned-doctor-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, whom does the King address after the Cobbler's confession?",
+      "options": [
+        "His personal guards",
+        "The Cobbler's family",
+        "His subjects",
+        "The other doctors in the kingdom"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 142,
+        "end": 202
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cobbler-turned-doctor-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the King choose to test the Cobbler personally rather than simply trusting the popular opinion of him?",
+      "options": [
+        "He wants concrete proof rather than relying on a reputation built on self-promotion",
+        "He is personally afraid of being poisoned by someone else",
+        "He has never met the Cobbler in person before",
+        "He wants to publicly reward the Cobbler for his fame"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 40,
+        "end": 120
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cobbler-turned-doctor-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the phrase \"no small reputation\" suggest about how widely the Cobbler was believed?",
+      "options": [
+        "Only a few people in the kingdom had ever heard of him",
+        "His reputation was mostly negative among the townspeople",
+        "His reputation was limited only to the royal court",
+        "A large number of people had come to trust his false claims"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 217,
+        "end": 287
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cobbler-turned-doctor-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"folly\" mean in \"What folly could be greater than yours\"?",
+      "options": [
+        "Bravery or courage",
+        "Foolishness or poor judgment",
+        "Wealth or prosperity",
+        "Curiosity or wonder"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 205,
+        "end": 244
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cobbler-turned-doctor-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Cobbler becomes a genuinely skilled doctor over time",
+        "A King punishes a Cobbler for practicing medicine without permission",
+        "A failed Cobbler poses as a doctor until the King's clever test exposes his fraud",
+        "A Cobbler cures the King of a real illness"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 41,
+        "end": 135
+      },
+      "pool": "retest"
+    }
+  ]
+}
