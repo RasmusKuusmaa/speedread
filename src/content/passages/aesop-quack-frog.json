@@ -1,0 +1,323 @@
+{
+  "id": "aesop-quack-frog",
+  "title": "The Quack Frog",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Once upon a time a Frog came forth from his home in the marshes and proclaimed to all the world that he was a learned physician, skilled in drugs and able to cure all diseases. Among the crowd was a Fox, who called out, \"You a doctor! Why, how can you set up to heal others when you cannot even cure your own lame legs and blotched and wrinkled skin?\"",
+    "Physician, heal thyself."
+  ],
+  "questions": [
+    {
+      "id": "aesop-quack-frog-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the Frog come from?",
+      "options": [
+        "A distant kingdom across the sea",
+        "A cave in the mountains",
+        "His home in the marshes",
+        "A village of other frogs"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 17,
+        "end": 63
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-quack-frog-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Frog claim to be?",
+      "options": [
+        "A learned physician, skilled in drugs and able to cure all diseases",
+        "A wise judge who settles disputes fairly",
+        "A famous singer known throughout the marshes",
+        "A skilled builder of bridges and dams"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 101,
+        "end": 175
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-quack-frog-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who challenges the Frog's claim?",
+      "options": [
+        "Another Frog",
+        "A passing traveller",
+        "A group of villagers",
+        "A Fox"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 177,
+        "end": 218
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-quack-frog-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox say the Frog cannot cure in himself?",
+      "options": [
+        "His fear of larger animals",
+        "His own lame legs and blotched, wrinkled skin",
+        "His inability to leave the marshes",
+        "His weak and croaking voice"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 279,
+        "end": 349
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-quack-frog-f5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what point is the Fox making by mentioning the Frog's own condition?",
+      "options": [
+        "The Frog is too old to be a real physician",
+        "The Frog's remedies are simply too expensive for most people",
+        "A claim to heal others rings hollow if you cannot even help yourself",
+        "The Frog should treat foxes before treating frogs"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 240,
+        "end": 350
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-quack-frog-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the crowd have been inclined to believe the Frog before the Fox spoke up?",
+      "options": [
+        "The Frog proclaimed his skill boldly and publicly, with no one yet questioning it",
+        "The crowd had already seen the Frog cure someone",
+        "The Fox was known to be an unreliable source of doubt",
+        "The Frog offered his services for free"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 68,
+        "end": 127
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-quack-frog-f7",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"proclaimed\" mean in \"proclaimed to all the world\"?",
+      "options": [
+        "Whispered secretly to a few",
+        "Denied quietly to himself",
+        "Wrote down in a private letter",
+        "Announced publicly and boldly"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 68,
+        "end": 127
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-quack-frog-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"blotched\" describe about the Frog's skin?",
+      "options": [
+        "Smooth and evenly colored",
+        "Marked with discolored patches",
+        "Covered in soft fur",
+        "Shiny and freshly washed"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 323,
+        "end": 349
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-quack-frog-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Frog wanted to \"set up\" as a healer?",
+      "options": [
+        "To pack up his belongings and leave",
+        "To repair something that was broken",
+        "To establish himself in that role publicly",
+        "To arrange a meeting with the crowd"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 240,
+        "end": 273
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-quack-frog-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "Someone claiming to fix others' problems should first be able to fix their own",
+        "Frogs make poor doctors compared to other animals",
+        "Foxes are always more honest than frogs",
+        "Marshes are unsuitable places to practice medicine"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 24
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-quack-frog-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Frog claim he is able to do?",
+      "options": [
+        "Predict the weather",
+        "Speak every language",
+        "Live forever without aging",
+        "Cure all diseases"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 150,
+        "end": 175
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-quack-frog-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Fox address the Frog directly?",
+      "options": [
+        "\"You a fraud!\"",
+        "\"You a doctor!\"",
+        "\"You a fool!\"",
+        "\"You a liar!\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 221,
+        "end": 234
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-quack-frog-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what two physical problems does the Fox point out?",
+      "options": [
+        "A weak voice and poor eyesight",
+        "A missing leg and a broken tail",
+        "Lame legs and blotched, wrinkled skin",
+        "Slow movement and constant hunger"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 300,
+        "end": 349
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-quack-frog-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Fox's challenge especially damaging to the Frog's claim?",
+      "options": [
+        "It uses visible evidence anyone in the crowd could also observe",
+        "It comes from an animal known for practicing medicine himself",
+        "It is delivered privately, so the Frog cannot respond publicly",
+        "It focuses on something unrelated to the Frog's medical claim"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 240,
+        "end": 350
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-quack-frog-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the story suggest about judging someone's claimed expertise?",
+      "options": [
+        "Trust anyone who speaks confidently in front of a crowd",
+        "Assume all public claims of skill are automatically false",
+        "Rely only on how long someone has practiced their claimed skill",
+        "Look at whether their own condition matches what they claim to be able to fix"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 24
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-quack-frog-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"learned\" mean in \"he was a learned physician\"?",
+      "options": [
+        "Elderly and experienced",
+        "Educated and knowledgeable",
+        "Wealthy and well-connected",
+        "Feared and respected"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 101,
+        "end": 127
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-quack-frog-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Frog successfully cures a sick Fox in front of a crowd",
+        "A Fox asks the Frog to teach him medicine",
+        "A Frog claims to cure all diseases, but a Fox points out he cannot even heal himself",
+        "A crowd chases the Frog away before he can speak"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 240,
+        "end": 350
+      },
+      "pool": "retest"
+    }
+  ]
+}
