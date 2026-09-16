@@ -1,0 +1,323 @@
+{
+  "id": "aesop-grasshopper-and-ants",
+  "title": "The Grasshopper and the Ants",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "One fine day in winter some Ants were busy drying their store of corn, which had got rather damp during a long spell of rain. Presently up came a Grasshopper and begged them to spare her a few grains, \"For,\" she said, \"I'm simply starving.\"",
+    "The Ants stopped work for a moment, though this was against their principles. \"May we ask,\" said they, \"what you were doing with yourself all last summer? Why didn't you collect a store of food for the winter?\" \"The fact is,\" replied the Grasshopper, \"I was so busy singing that I hadn't the time.\" \"If you spent the summer singing,\" replied the Ants, \"you can't do better than spend the winter dancing.\" And they chuckled and went on with their work."
+  ],
+  "questions": [
+    {
+      "id": "aesop-grasshopper-and-ants-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what are the Ants doing on a fine winter day?",
+      "options": [
+        "Building a new nest for the coming spring",
+        "Searching for a Grasshopper to help them",
+        "Drying their store of corn, which had gotten damp",
+        "Repairing damage from a recent storm"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 23,
+        "end": 124
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-grasshopper-and-ants-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Grasshopper beg the Ants for?",
+      "options": [
+        "A few grains of corn",
+        "A place to sleep for the winter",
+        "Directions to a warmer place",
+        "Help building her own store of food"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 162,
+        "end": 199
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-grasshopper-and-ants-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Grasshopper say she needs the corn?",
+      "options": [
+        "Because she promised it to another grasshopper",
+        "Because she wants to store it for next winter",
+        "Because she is preparing a meal for guests",
+        "Because she is simply starving"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 219,
+        "end": 238
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-grasshopper-and-ants-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Ants ask the Grasshopper?",
+      "options": [
+        "Where she planned to spend the winter",
+        "What she was doing with herself all last summer",
+        "How much corn she actually needed",
+        "Who told her where to find their store"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 104,
+        "end": 154
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-grasshopper-and-ants-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Grasshopper explain how she spent the summer?",
+      "options": [
+        "She was searching for a better place to live",
+        "She was helping other grasshoppers with their own stores",
+        "She was so busy singing that she hadn't the time to collect food",
+        "She was resting after a long illness"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 252,
+        "end": 296
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-grasshopper-and-ants-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Ants suggest the Grasshopper do for the winter?",
+      "options": [
+        "Spend the winter dancing",
+        "Spend the winter helping them dry corn",
+        "Spend the winter searching harder for food",
+        "Spend the winter apologizing to other ants"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 353,
+        "end": 402
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-grasshopper-and-ants-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why do the Ants bring up what the Grasshopper did last summer?",
+      "options": [
+        "To find out if she has any useful skills to offer them",
+        "To decide whether she deserves a larger share than usual",
+        "To learn where she has been hiding all winter",
+        "To point out that her own choices led directly to her present hunger"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 104,
+        "end": 209
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-grasshopper-and-ants-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Ants' remark about \"dancing\" in winter suggest about their attitude toward the Grasshopper's request?",
+      "options": [
+        "They genuinely believe dancing will keep her warm through winter",
+        "They are pointing out, with some amusement, that her past choices leave her with no one to blame but herself",
+        "They are planning to teach her how to dance in exchange for food",
+        "They feel guilty and are looking for a way to help her indirectly"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 405,
+        "end": 450
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-grasshopper-and-ants-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"principles\" mean in \"this was against their principles\"?",
+      "options": [
+        "Small tools used for measuring",
+        "Songs they typically sing while working",
+        "Firm rules or standards they normally follow",
+        "Debts they owed to other ants"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 36,
+        "end": 76
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-grasshopper-and-ants-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Failing to prepare during a time of plenty can leave you without help when hard times come",
+        "Singing is a waste of time in every season",
+        "Ants are always unwilling to share what they have",
+        "Grasshoppers are naturally lazier than ants"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 300,
+        "end": 331
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-grasshopper-and-ants-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why had the Ants' corn gotten damp?",
+      "options": [
+        "A leak in their storage hole",
+        "Melting snow from the roof",
+        "Water spilled by another animal",
+        "A long spell of rain"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 71,
+        "end": 124
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-grasshopper-and-ants-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Ants do briefly when the Grasshopper arrives?",
+      "options": [
+        "They hide their store of corn",
+        "They stop work for a moment",
+        "They call other ants for a meeting",
+        "They offer her a place to sleep"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 34
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-grasshopper-and-ants-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Ants do after giving their reply to the Grasshopper?",
+      "options": [
+        "They invite her to join them permanently",
+        "They give her a portion of the corn anyway",
+        "They chuckle and go on with their work",
+        "They argue among themselves about what to do"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 409,
+        "end": 450
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-grasshopper-and-ants-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might stopping work be described as \"against their principles\"?",
+      "options": [
+        "The Ants generally value steady, uninterrupted labor and rarely pause for anything",
+        "The Ants have a strict rule against speaking to grasshoppers",
+        "The Ants believe stopping work brings bad luck",
+        "The Ants are forbidden from helping any insect during winter"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 36,
+        "end": 76
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-grasshopper-and-ants-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what contrast does the fable draw between the Ants and the Grasshopper across the seasons?",
+      "options": [
+        "The Ants sang through summer while the Grasshopper worked quietly",
+        "Both the Ants and the Grasshopper spent the summer working equally hard",
+        "Neither the Ants nor the Grasshopper made any preparations for winter",
+        "The Ants worked to prepare for winter while the Grasshopper spent the same time on leisure"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 252,
+        "end": 296
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-grasshopper-and-ants-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"spare\" mean in \"begged them to spare her a few grains\"?",
+      "options": [
+        "To measure out precisely",
+        "To give up or part with something for another's use",
+        "To hide away safely",
+        "To refuse to share at all"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 162,
+        "end": 199
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-grasshopper-and-ants-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Grasshopper and Ants share their winter stores equally",
+        "The Ants ask the Grasshopper to sing for them in exchange for corn",
+        "A Grasshopper who sang all summer instead of working is denied help by Ants who prepared ahead of time",
+        "The Grasshopper teaches the Ants a valuable lesson about enjoying life"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 300,
+        "end": 331
+      },
+      "pool": "retest"
+    }
+  ]
+}
