@@ -1,0 +1,323 @@
+{
+  "id": "aesop-milkmaid-and-her-pail",
+  "title": "The Milkmaid and Her Pail",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A farmer's daughter had been out to milk the cows, and was returning to the dairy carrying her pail of milk upon her head. As she walked along, she fell a-musing after this fashion: \"The milk in this pail will provide me with cream, which I will make into butter and take to market to sell. With the money I will buy a number of eggs, and these, when hatched, will produce chickens, and by and by I shall have quite a large poultry-yard. Then I shall sell some of my fowls, and with the money which they will bring in I will buy myself a new gown, which I shall wear when I go to the fair; and all the young fellows will admire it, and come and make love to me, but I shall toss my head and have nothing to say to them.\" Forgetting all about the pail, and suiting the action to the word, she tossed her head. Down went the pail, all the milk was spilled, and all her fine castles in the air vanished in a moment!",
+    "Do not count your chickens before they are hatched."
+  ],
+  "questions": [
+    {
+      "id": "aesop-milkmaid-and-her-pail-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how is the Milkmaid carrying her pail as she walks?",
+      "options": [
+        "Under one arm",
+        "In both hands before her",
+        "Upon her head",
+        "Balanced on her shoulder"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 82,
+        "end": 121
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-milkmaid-and-her-pail-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Milkmaid plan to make from the cream in her pail?",
+      "options": [
+        "Butter to take to market",
+        "Cheese to sell at the fair",
+        "A pudding for her family",
+        "A gift for the farmer"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 210,
+        "end": 289
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-milkmaid-and-her-pail-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Milkmaid plan to buy with the money from selling butter?",
+      "options": [
+        "A new pail",
+        "A ticket to the fair",
+        "A flock of sheep",
+        "A number of eggs"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 291,
+        "end": 333
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-milkmaid-and-her-pail-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Milkmaid plan to buy once she sells her fowls?",
+      "options": [
+        "A larger poultry-yard",
+        "A new gown to wear to the fair",
+        "A second pail for milking",
+        "A basket for carrying eggs"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 518,
+        "end": 588
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-milkmaid-and-her-pail-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Milkmaid imagine doing when young fellows admire her new gown?",
+      "options": [
+        "Thanking each one of them warmly",
+        "Inviting them all to her poultry-yard",
+        "Tossing her head and having nothing to say to them",
+        "Asking them to help her sell more fowls"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 666,
+        "end": 718
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-milkmaid-and-her-pail-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens the moment the Milkmaid actually tosses her head?",
+      "options": [
+        "Down goes the pail, and all the milk is spilled",
+        "She trips over a stone in the road",
+        "The cows begin to follow her home",
+        "She drops her basket of eggs"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 809,
+        "end": 853
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-milkmaid-and-her-pail-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Milkmaid end up spilling her milk?",
+      "options": [
+        "The road is too uneven for her to walk safely",
+        "Another villager bumps into her without meaning to",
+        "The pail was already cracked before she set out",
+        "She acts out her daydream and forgets the pail balanced on her head"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 721,
+        "end": 807
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-milkmaid-and-her-pail-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the phrase \"castles in the air\" suggest about the Milkmaid's plans?",
+      "options": [
+        "They were carefully written down before she set out",
+        "They were imaginary hopes that depended on nothing yet real",
+        "They were plans she had already carried out once before",
+        "They were promises made to her by the farmer"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 859,
+        "end": 911
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-milkmaid-and-her-pail-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Milkmaid \"fell a-musing\"?",
+      "options": [
+        "She began singing a merry tune",
+        "She began arguing with herself",
+        "She began daydreaming to herself",
+        "She began walking more quickly"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 144,
+        "end": 180
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-milkmaid-and-her-pail-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "Don't count on rewards from a plan before it has actually succeeded",
+        "Milkmaids should never daydream while carrying a full pail",
+        "Selling butter is more profitable than selling eggs",
+        "New gowns are not worth saving money to buy"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 51
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-milkmaid-and-her-pail-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where had the Milkmaid been just before the story begins?",
+      "options": [
+        "Selling eggs at the market",
+        "Visiting the poultry-yard",
+        "Buying a new gown at the fair",
+        "Out milking the cows"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 20,
+        "end": 49
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-milkmaid-and-her-pail-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Milkmaid imagine her eggs will eventually produce?",
+      "options": [
+        "A second pail of milk",
+        "Chickens, leading to a large poultry-yard",
+        "Enough cream for a whole season",
+        "A new flock of sheep"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 339,
+        "end": 436
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-milkmaid-and-her-pail-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Milkmaid plan to do with some of her fowls?",
+      "options": [
+        "Give them away to neighbors",
+        "Keep them all for herself",
+        "Sell them for money",
+        "Trade them for a new pail"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 438,
+        "end": 472
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-milkmaid-and-her-pail-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Milkmaid's long chain of plans, from milk to gown, depend on the whole time?",
+      "options": [
+        "A pail of milk that she has not yet even delivered",
+        "A promise already made to her by the farmer",
+        "Money she has already earned from selling eggs",
+        "A gown she has already bought at the fair"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 183,
+        "end": 231
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-milkmaid-and-her-pail-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Milkmaid's toss of the head matter so much to the story?",
+      "options": [
+        "It is a signal to the young fellows that she admires them",
+        "It is meant to wake her from a nap",
+        "It causes the cows to wander off",
+        "It is the very action that spills the milk her whole plan relied on"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 756,
+        "end": 807
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-milkmaid-and-her-pail-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"vanished\" mean in \"her fine castles in the air vanished in a moment\"?",
+      "options": [
+        "Grew larger and clearer",
+        "Disappeared completely",
+        "Were written down for later",
+        "Were shared with someone else"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 891,
+        "end": 911
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-milkmaid-and-her-pail-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Milkmaid sells her milk and buys a new gown",
+        "A Milkmaid trades her pail for a basket of eggs",
+        "A Milkmaid loses her milk by acting out a daydream built on it",
+        "A Milkmaid's poultry-yard grows larger than she expected"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 809,
+        "end": 853
+      },
+      "pool": "retest"
+    }
+  ]
+}
