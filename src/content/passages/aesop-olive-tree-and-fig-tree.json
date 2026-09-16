@@ -1,0 +1,323 @@
+{
+  "id": "aesop-olive-tree-and-fig-tree",
+  "title": "The Olive-Tree and the Fig-Tree",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "An Olive-tree taunted a Fig-tree with the loss of her leaves at a certain season of the year. \"You,\" she said, \"lose your leaves every autumn, and are bare till the spring: whereas I, as you see, remain green and flourishing all the year round.\"",
+    "Soon afterwards there came a heavy fall of snow, which settled on the leaves of the Olive so that she bent and broke under the weight; but the flakes fell harmlessly through the bare branches of the Fig, which survived to bear many another crop."
+  ],
+  "questions": [
+    {
+      "id": "aesop-olive-tree-and-fig-tree-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Olive-tree taunt the Fig-tree about?",
+      "options": [
+        "Her small and unimpressive fruit",
+        "Her slow rate of growth",
+        "The loss of her leaves at a certain season",
+        "Her thin, weak branches"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 92
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-olive-tree-and-fig-tree-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when does the Fig-tree lose her leaves?",
+      "options": [
+        "Every autumn",
+        "Every spring",
+        "Only in years of drought",
+        "Only when attacked by insects"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 95,
+        "end": 141
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-olive-tree-and-fig-tree-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Olive-tree claim about herself?",
+      "options": [
+        "That she grows taller than any other tree",
+        "That her fruit is the sweetest in the orchard",
+        "That she never needs water to survive",
+        "That she remains green and flourishing all the year round"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 181,
+        "end": 243
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-olive-tree-and-fig-tree-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens soon after the Olive-tree's boast?",
+      "options": [
+        "A drought strikes the region",
+        "A heavy fall of snow comes",
+        "A strong wind uproots several trees",
+        "A swarm of insects attacks the leaves"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 47
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-olive-tree-and-fig-tree-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the Olive-tree because of the snow?",
+      "options": [
+        "She sheds her leaves early to survive",
+        "She grows even more vigorously afterward",
+        "She bends and breaks under the weight of it",
+        "She is unaffected because of her thick trunk"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 49,
+        "end": 133
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-olive-tree-and-fig-tree-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the Fig-tree during the snowfall?",
+      "options": [
+        "The snow falls harmlessly through her bare branches",
+        "She is also damaged, though less severely",
+        "She loses the last of her leaves permanently",
+        "She is protected by the nearby Olive-tree"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 139,
+        "end": 202
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-olive-tree-and-fig-tree-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the very feature the Olive-tree mocked end up saving the Fig-tree?",
+      "options": [
+        "The Fig-tree secretly grew stronger branches over the winter",
+        "The snow avoided the Fig-tree entirely by chance",
+        "The Fig-tree was planted in a more sheltered spot",
+        "Having no leaves means the snow has nothing to gather on and weigh the branches down"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 139,
+        "end": 202
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-olive-tree-and-fig-tree-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the outcome suggest about the Olive-tree's boast?",
+      "options": [
+        "The boast turned out to be completely accurate in every way",
+        "What seemed like an advantage turned out to make her vulnerable in a way the Fig-tree was not",
+        "The Fig-tree's loss of leaves was ultimately a greater weakness",
+        "Neither tree was actually affected by the season at all"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 139,
+        "end": 244
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-olive-tree-and-fig-tree-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"taunted\" mean in \"An Olive-tree taunted a Fig-tree\"?",
+      "options": [
+        "Helped or supported",
+        "Warned or cautioned",
+        "Mocked or teased",
+        "Praised or admired"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 60
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-olive-tree-and-fig-tree-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "A trait that seems like a weakness in one season can turn into a real advantage in another",
+        "Trees that keep their leaves year-round are always the strongest",
+        "Snowfall is more dangerous to fruit trees than any other weather",
+        "Boasting about one's strengths always leads to misfortune"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 139,
+        "end": 244
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-olive-tree-and-fig-tree-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, until when does the Fig-tree remain bare?",
+      "options": [
+        "Until midsummer",
+        "Until the following autumn",
+        "Until a new tree is planted",
+        "Until the spring"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 147,
+        "end": 171
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-olive-tree-and-fig-tree-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what settles on the Olive-tree's leaves?",
+      "options": [
+        "A layer of morning frost",
+        "A heavy fall of snow",
+        "A swarm of insects",
+        "A coating of dust"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 27,
+        "end": 89
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-olive-tree-and-fig-tree-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fig-tree go on to do after surviving the snow?",
+      "options": [
+        "She stops producing fruit for several years",
+        "She grows taller than the Olive-tree",
+        "She survives to bear many another crop",
+        "She is transplanted to a safer location"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 204,
+        "end": 244
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-olive-tree-and-fig-tree-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Olive-tree's constant green leaves be seen as a disadvantage in this particular situation?",
+      "options": [
+        "They give the snow something to collect on, adding weight the tree cannot bear",
+        "They attract more insects than the Fig-tree's leaves",
+        "They make the tree easier to spot and damage by storms",
+        "They require more water than the tree can find in winter"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 49,
+        "end": 133
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-olive-tree-and-fig-tree-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what broader lesson about comparing strengths and weaknesses does the story suggest?",
+      "options": [
+        "The tree with the most leaves is always the strongest overall",
+        "Weaknesses can never become strengths under any circumstances",
+        "Comparing two different trees is never a fair or useful exercise",
+        "An apparent weakness in one situation may become a hidden strength in another"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 139,
+        "end": 244
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-olive-tree-and-fig-tree-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"flourishing\" mean in \"green and flourishing all the year round\"?",
+      "options": [
+        "Withering and dying slowly",
+        "Thriving and growing vigorously",
+        "Standing perfectly still",
+        "Changing color repeatedly"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 181,
+        "end": 243
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-olive-tree-and-fig-tree-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Fig-tree mocks an Olive-tree for keeping her leaves too long",
+        "Both trees are equally damaged by a heavy snowfall",
+        "An Olive-tree mocks a Fig-tree for losing her leaves, but a snowfall breaks the Olive while the bare Fig survives unharmed",
+        "The Olive-tree and Fig-tree agree to share the same soil peacefully"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 139,
+        "end": 244
+      },
+      "pool": "retest"
+    }
+  ]
+}
