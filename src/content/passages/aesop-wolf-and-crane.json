@@ -1,0 +1,323 @@
+{
+  "id": "aesop-wolf-and-crane",
+  "title": "The Wolf and the Crane",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Wolf once got a bone stuck in his throat. So he went to a Crane and begged her to put her long bill down his throat and pull it out. \"I'll make it worth your while,\" he added. The Crane did as she was asked, and got the bone out quite easily.",
+    "The Wolf thanked her warmly, and was just turning away, when she cried, \"What about that fee of mine?\" \"Well, what about it?\" snapped the Wolf, baring his teeth as he spoke; \"you can go about boasting that you once put your head into a Wolf's mouth and didn't get it bitten off. What more do you want?\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-wolf-and-crane-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what problem does the Wolf have at the start?",
+      "options": [
+        "He has lost his way in the forest",
+        "He is trapped in a hunter's snare",
+        "A bone is stuck in his throat",
+        "He has injured his leg badly"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 42
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-crane-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Wolf ask the Crane to do?",
+      "options": [
+        "Put her long bill down his throat and pull the bone out",
+        "Find him something soft to eat instead",
+        "Carry a message to another wolf",
+        "Warn him if hunters are nearby"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 70,
+        "end": 133
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-crane-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Wolf promise the Crane before she helps him?",
+      "options": [
+        "\"I will never bother you again.\"",
+        "\"I will protect you from other wolves.\"",
+        "\"I will tell everyone of your kindness.\"",
+        "\"I'll make it worth your while.\""
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 136,
+        "end": 165
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-crane-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how easily does the Crane remove the bone?",
+      "options": [
+        "Only after several attempts",
+        "Quite easily",
+        "With great difficulty",
+        "Only with the Wolf's help"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 214,
+        "end": 243
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-crane-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Crane ask for once the Wolf turns to leave?",
+      "options": [
+        "A meal in return",
+        "An apology for his manners",
+        "Her fee",
+        "Safe passage home"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 73,
+        "end": 101
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-crane-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Wolf say the Crane should be satisfied with?",
+      "options": [
+        "That she put her head in a Wolf's mouth and wasn't bitten",
+        "That she received his warm thanks",
+        "That she gained a new friend",
+        "That she earned a good reputation among birds"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 175,
+        "end": 277
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-crane-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Wolf's reaction reveal about his earlier promise?",
+      "options": [
+        "He genuinely forgot that he had made a promise at all",
+        "He believes the Crane never actually helped him",
+        "He is only joking and plans to pay her afterward",
+        "He never truly intended to reward the Crane once his own need was met"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 104,
+        "end": 172
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-crane-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Crane have been foolish to trust the Wolf's promise?",
+      "options": [
+        "She did not actually know how to remove the bone properly",
+        "She placed herself in a position of danger for a reward that was never guaranteed",
+        "She had never dealt with wolves before this encounter",
+        "She was tricked into believing the Wolf was a different animal"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 70,
+        "end": 133
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-crane-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"snapped\" mean in \"snapped the Wolf, baring his teeth\"?",
+      "options": [
+        "Whispered gently",
+        "Laughed loudly",
+        "Spoke sharply and abruptly",
+        "Sang cheerfully"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 126,
+        "end": 172
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-crane-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Doing a dangerous favor for an ungrateful creature may bring no reward beyond having survived it",
+        "Cranes should never help wolves under any circumstances",
+        "Wolves are always willing to reward those who help them",
+        "Removing a bone from a wolf's throat is impossible without injury"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 175,
+        "end": 301
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-crane-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what part of the Crane does the Wolf need to use?",
+      "options": [
+        "Her sharp claws",
+        "Her strong wings",
+        "Her keen eyesight",
+        "Her long bill"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 84,
+        "end": 117
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-crane-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Wolf thank the Crane right after she helps him?",
+      "options": [
+        "He offers her food immediately",
+        "He thanks her warmly",
+        "He remains silent and walks away",
+        "He promises to visit her again soon"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 27
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-crane-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Wolf do with his teeth as he replies to the Crane?",
+      "options": [
+        "He grinds them together",
+        "He hides them from view",
+        "He bares them",
+        "He chatters them nervously"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 144,
+        "end": 172
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-crane-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Wolf frame surviving the encounter as the Crane's true reward?",
+      "options": [
+        "It lets him avoid paying anything while making it sound like she still benefited",
+        "He genuinely believes that surviving is the greatest reward of all",
+        "He has nothing else of value to offer the Crane",
+        "He wants the Crane to feel proud rather than angry"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 279,
+        "end": 301
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-crane-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Wolf's sudden change in tone after the surgery suggest about his character?",
+      "options": [
+        "He genuinely changes his mind out of fairness",
+        "He was always hostile, even before asking for help",
+        "He becomes friendlier the more he is thanked",
+        "He was cooperative only while he needed something from the Crane"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 126,
+        "end": 172
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-crane-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Wolf would \"make it worth your while\"?",
+      "options": [
+        "He would take a long time to repay her",
+        "He would give a reward in exchange for the help",
+        "He would ask her to wait patiently",
+        "He would apologize for the inconvenience"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 136,
+        "end": 165
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-crane-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Crane refuses to help the Wolf and he chokes on the bone",
+        "A Wolf and a Crane become close friends after the rescue",
+        "A Wolf promises the Crane a reward for helping him, then refuses to pay once the danger has passed",
+        "A Crane demands payment before agreeing to help the Wolf"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 104,
+        "end": 142
+      },
+      "pool": "retest"
+    }
+  ]
+}
