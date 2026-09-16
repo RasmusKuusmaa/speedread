@@ -1,0 +1,323 @@
+{
+  "id": "aesop-fox-and-monkey",
+  "title": "The Fox and the Monkey",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Fox and a Monkey were on the road together, and fell into a dispute as to which of the two was the better born. They kept it up for some time, till they came to a place where the road passed through a cemetery full of monuments, when the Monkey stopped and looked about him and gave a great sigh. \"Why do you sigh?\" said the Fox. The Monkey pointed to the tombs and replied, \"All the monuments that you see here were put up in honour of my forefathers, who in their day were eminent men.\" The Fox was speechless for a moment, but quickly recovering he said, \"Oh! don't stop at any lie, sir; you're quite safe: I'm sure none of your ancestors will rise up and expose you.\"",
+    "Boasters brag most when they cannot be detected."
+  ],
+  "questions": [
+    {
+      "id": "aesop-fox-and-monkey-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Fox and Monkey argue about on the road?",
+      "options": [
+        "Which of the two could run faster",
+        "Which of the two deserved more food",
+        "Which of the two was the better born",
+        "Which of the two knew the road better"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 50,
+        "end": 112
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-monkey-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the road pass that makes the Monkey stop?",
+      "options": [
+        "Through a cemetery full of monuments",
+        "Across a narrow wooden bridge",
+        "Beside a grand old palace",
+        "Through a busy marketplace"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 150,
+        "end": 229
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-monkey-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Monkey do when he sees the monuments?",
+      "options": [
+        "He laughs loudly at their appearance",
+        "He runs ahead without stopping",
+        "He asks the Fox to read the inscriptions aloud",
+        "He stops, looks about, and gives a great sigh"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 236,
+        "end": 297
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-monkey-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Monkey claim about the monuments?",
+      "options": [
+        "That they mark the graves of famous foxes",
+        "That they were put up in honour of his forefathers",
+        "That his family built them long ago",
+        "That they were stolen from a rival family"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 378,
+        "end": 453
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-monkey-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Monkey describe his forefathers?",
+      "options": [
+        "As humble farmers and traders",
+        "As wandering monkeys with no fixed home",
+        "As eminent men in their day",
+        "As soldiers who died in battle"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 455,
+        "end": 488
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-monkey-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox say the Monkey is quite safe from?",
+      "options": [
+        "His ancestors rising up to expose his lie",
+        "Being caught lying by other travellers",
+        "Being punished for entering the cemetery",
+        "Losing the argument about noble birth"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 612,
+        "end": 671
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-monkey-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Fox call the Monkey's claim a lie without directly proving it false?",
+      "options": [
+        "He has personally researched the Monkey's family history",
+        "He has visited this cemetery many times before",
+        "He recognizes the names carved on the monuments",
+        "He recognizes that no dead ancestor can contradict a false claim about them"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 621,
+        "end": 671
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-monkey-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Monkey choose this particular moment to make his claim?",
+      "options": [
+        "He genuinely recognizes his family's names on the tombs",
+        "The cemetery gives him a convenient, unverifiable backdrop for his boast",
+        "He wants to end the argument by changing the subject entirely",
+        "He is asked directly by the Fox to prove his noble birth"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 150,
+        "end": 229
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-monkey-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"eminent\" mean in \"who in their day were eminent men\"?",
+      "options": [
+        "Wealthy beyond measure",
+        "Feared by their enemies",
+        "Distinguished or well-known",
+        "Related to royalty"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 455,
+        "end": 488
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-monkey-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "People often exaggerate most freely when no one can check what they claim",
+        "Monuments are the most reliable proof of a family's noble birth",
+        "Foxes are always more honest than monkeys in an argument",
+        "Arguments about ancestry are rarely worth having at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 48
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-monkey-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how long do the Fox and Monkey keep up their dispute?",
+      "options": [
+        "Only a few moments",
+        "For the entire journey without pause",
+        "Until they reached their destination",
+        "For some time"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 114,
+        "end": 143
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-monkey-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what question does the Fox ask when the Monkey sighs?",
+      "options": [
+        "\"What troubles you?\"",
+        "\"Why do you sigh?\"",
+        "\"Are you unwell?\"",
+        "\"What do you see there?\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 300,
+        "end": 316
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-monkey-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Fox react just before making his reply?",
+      "options": [
+        "He laughs out loud immediately",
+        "He walks away without answering",
+        "He is speechless for a moment",
+        "He asks the Monkey to repeat himself"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 491,
+        "end": 526
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-monkey-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Fox's brief silence before responding be significant?",
+      "options": [
+        "It shows he is caught off guard by such a bold, unprovable claim",
+        "It shows he genuinely believes the Monkey's story",
+        "It shows he is trying to remember his own family history",
+        "It shows he is afraid to challenge the Monkey directly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 491,
+        "end": 558
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-monkey-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Fox's remark about the Monkey's ancestors imply about the reliability of the Monkey's story?",
+      "options": [
+        "It has already been proven true by the monuments themselves",
+        "It has been confirmed by other animals along the road",
+        "It was written down somewhere the Fox has read before",
+        "It cannot be checked, since the dead cannot speak up to deny it"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 621,
+        "end": 671
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-monkey-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"expose\" mean in \"none of your ancestors will rise up and expose you\"?",
+      "options": [
+        "Physically harm someone",
+        "Reveal the truth about someone",
+        "Praise someone publicly",
+        "Introduce someone to a stranger"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 621,
+        "end": 671
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-monkey-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Fox and a Monkey discover their true family history together",
+        "A Monkey proves his noble birth using the cemetery's monuments",
+        "A Monkey boasts of noble ancestors buried nearby, and the Fox mocks the unprovable claim",
+        "A Fox apologizes for doubting the Monkey's ancestry"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 612,
+        "end": 671
+      },
+      "pool": "retest"
+    }
+  ]
+}
