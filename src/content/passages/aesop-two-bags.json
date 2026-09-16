@@ -1,0 +1,322 @@
+{
+  "id": "aesop-two-bags",
+  "title": "The Two Bags",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "expository",
+  "domain": "philosophy",
+  "calibrationOnly": false,
+  "body": [
+    "Every man carries Two Bags about with him, one in front and one behind, and both are packed full of faults. The Bag in front contains his neighbours' faults, the one behind his own. Hence it is that men do not see their own faults, but never fail to see those of others."
+  ],
+  "questions": [
+    {
+      "id": "aesop-two-bags-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many bags does every man carry?",
+      "options": [
+        "One",
+        "Three",
+        "Two",
+        "None"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 41
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-two-bags-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where is one of the bags positioned?",
+      "options": [
+        "In front",
+        "On top of the head",
+        "Tied to the waist",
+        "Hidden underground"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 43,
+        "end": 70
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-two-bags-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do both bags contain?",
+      "options": [
+        "Coins",
+        "Letters",
+        "Tools",
+        "Faults"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 76,
+        "end": 106
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-two-bags-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, whose faults are in the bag in front?",
+      "options": [
+        "His own faults",
+        "His neighbours' faults",
+        "His parents' faults",
+        "No one's faults in particular"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 108,
+        "end": 156
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-two-bags-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, whose faults are in the bag behind?",
+      "options": [
+        "His neighbours' faults",
+        "A stranger's faults",
+        "His own faults",
+        "His enemies' faults"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 158,
+        "end": 180
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-two-bags-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do men fail to see about themselves?",
+      "options": [
+        "Their own faults",
+        "Their own strengths",
+        "Their own age",
+        "Their own history"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 199,
+        "end": 230
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-two-bags-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why can't a man easily see the bag behind him?",
+      "options": [
+        "It is much smaller than the bag in front",
+        "It is locked shut so no one can see inside",
+        "It is only visible to other people, not the man himself",
+        "It is positioned out of his own line of sight, unlike the one he can see in front"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 43,
+        "end": 70
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-two-bags-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the placement of the two bags explain about human behavior?",
+      "options": [
+        "Why people always carry more belongings than they need",
+        "Why people notice others' flaws so easily while overlooking their own",
+        "Why people prefer walking in pairs rather than alone",
+        "Why people trust strangers more than their neighbors"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 182,
+        "end": 269
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-two-bags-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"faults\" mean in \"both are packed full of faults\"?",
+      "options": [
+        "Coins or valuables",
+        "Memories or thoughts",
+        "Flaws or shortcomings",
+        "Tools or instruments"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 76,
+        "end": 106
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-two-bags-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "People are quick to notice others' flaws while remaining blind to their own",
+        "Everyone should examine their neighbours' faults before judging their own",
+        "Carrying too many belongings makes people forgetful",
+        "Faults are equally visible to everyone who has them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 199,
+        "end": 269
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-two-bags-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who is said to carry these two bags?",
+      "options": [
+        "Only wealthy men",
+        "Only travelers",
+        "Only the young",
+        "Every man"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 41
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-two-bags-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what word describes how full the bags are?",
+      "options": [
+        "\"Empty\"",
+        "\"Packed\"",
+        "\"Half-filled\"",
+        "\"Overflowing\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 76,
+        "end": 106
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-two-bags-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do men \"never fail\" to do?",
+      "options": [
+        "Forget their own mistakes",
+        "Carry both bags with care",
+        "See the faults of others",
+        "Avoid discussing their faults"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 236,
+        "end": 269
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-two-bags-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what would likely happen if the two bags were swapped in position?",
+      "options": [
+        "A man might become more aware of his own faults and less focused on others'",
+        "Nothing would change, since the bags contain the same things regardless",
+        "The bags would become impossible to carry at all",
+        "Neighbours would no longer have any faults to notice"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 43,
+        "end": 70
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-two-bags-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the image of carrying bags suggest about how faults are treated?",
+      "options": [
+        "Faults are rare and only a few people actually have them",
+        "Faults can be permanently discarded once noticed",
+        "Faults only exist in the imagination of others",
+        "Faults are something everyone carries as a natural, unavoidable part of life"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 41
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-two-bags-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"Hence\" mean in \"Hence it is that men do not see their own faults\"?",
+      "options": [
+        "In spite of this",
+        "For this reason",
+        "At the same time",
+        "Long before this"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 182,
+        "end": 230
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-two-bags-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what the passage describes?",
+      "options": [
+        "A story about a man who loses one of his two bags",
+        "A warning against carrying too many belongings while travelling",
+        "An image of two bags explaining why people notice others' faults but not their own",
+        "An argument that faults should never be discussed openly"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 199,
+        "end": 269
+      },
+      "pool": "retest"
+    }
+  ]
+}
