@@ -1,0 +1,322 @@
+{
+  "id": "aesop-boys-and-frogs",
+  "title": "The Boys and the Frogs",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Some mischievous Boys were playing on the edge of a pond, and, catching sight of some Frogs swimming about in the shallow water, they began to amuse themselves by pelting them with stones, and they killed several of them. At last one of the Frogs put his head out of the water and said, \"Oh, stop! stop! I beg of you: what is sport to you is death to us.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-boys-and-frogs-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where are the Boys playing at the start?",
+      "options": [
+        "Beside a river bridge",
+        "In a meadow near their homes",
+        "On the edge of a pond",
+        "Along a dusty road"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 56
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boys-and-frogs-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Boys catch sight of in the shallow water?",
+      "options": [
+        "Some Frogs swimming about",
+        "A school of small fish",
+        "A family of ducks",
+        "A turtle sunning itself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 63,
+        "end": 127
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boys-and-frogs-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how do the Boys amuse themselves?",
+      "options": [
+        "By splashing water at each other",
+        "By racing along the pond's edge",
+        "By trying to catch the Frogs with their hands",
+        "By pelting the Frogs with stones"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 129,
+        "end": 187
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boys-and-frogs-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the result of the Boys' game?",
+      "options": [
+        "The Frogs all escaped unharmed",
+        "They killed several of the Frogs",
+        "The Boys grew tired and stopped quickly",
+        "The Frogs chased the Boys away"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 193,
+        "end": 220
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boys-and-frogs-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Frog say when it puts its head out of the water?",
+      "options": [
+        "\"Please share your stones with us instead.\"",
+        "\"We will leave this pond if you stop.\"",
+        "\"What is sport to you is death to us.\"",
+        "\"You will be punished for this someday.\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 318,
+        "end": 353
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boys-and-frogs-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Frog beg the Boys to do?",
+      "options": [
+        "Stop throwing the stones",
+        "Come closer to see them better",
+        "Return tomorrow with food instead",
+        "Move to a different pond"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 288,
+        "end": 316
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boys-and-frogs-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why do the Boys likely see stone-throwing as harmless fun?",
+      "options": [
+        "They believe the Frogs cannot actually be harmed by stones",
+        "They are trying to chase the Frogs to a safer pond",
+        "They think the Frogs enjoy the splashing water",
+        "They do not consider what the game means for the creatures being hit"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 129,
+        "end": 187
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boys-and-frogs-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what point is the Frog making with its remark about \"sport\" and \"death\"?",
+      "options": [
+        "Frogs are actually stronger than they appear to be",
+        "Something one side finds entertaining can be devastating for the other",
+        "The Boys should be playing a different game entirely",
+        "The pond is too shallow for the game to be fair"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 318,
+        "end": 353
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boys-and-frogs-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"mischievous\" mean in describing the Boys?",
+      "options": [
+        "Extremely tired and sleepy",
+        "Careful and well-behaved",
+        "Inclined to cause playful trouble",
+        "Frightened of the water"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 56
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boys-and-frogs-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "What feels like harmless fun to one side can be a matter of life and death to another",
+        "Frogs should never swim near the edge of a pond",
+        "Boys are naturally crueler than other children",
+        "Games involving stones should always be supervised"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 318,
+        "end": 353
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boys-and-frogs-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what were the Frogs doing before the Boys noticed them?",
+      "options": [
+        "Resting on lily pads",
+        "Croaking loudly along the bank",
+        "Hiding beneath the surface",
+        "Swimming about in the shallow water"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 81,
+        "end": 127
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boys-and-frogs-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, which Frog is the one who finally speaks up?",
+      "options": [
+        "The largest Frog in the pond",
+        "One of the Frogs, who puts his head out of the water",
+        "A Frog sitting safely on the bank",
+        "A Frog that had already been hit"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 230,
+        "end": 276
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boys-and-frogs-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many times does the Frog repeat the word \"stop\"?",
+      "options": [
+        "Once",
+        "Three times",
+        "Twice",
+        "It does not say the word at all"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 288,
+        "end": 303
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boys-and-frogs-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does it take until several Frogs are killed before one speaks up?",
+      "options": [
+        "The Frogs have no way to communicate with the Boys until one is desperate enough to try",
+        "The Frogs are plotting a group escape before responding",
+        "The Boys ignore the Frogs' cries until this moment",
+        "The first Frog to speak is the leader of the group"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 193,
+        "end": 276
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boys-and-frogs-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Frog's plea reveal about how differently the two sides experience the same act?",
+      "options": [
+        "The Boys and Frogs actually want the same outcome",
+        "The Frogs enjoy the game as much as the Boys do",
+        "The stones cause no real harm to either side",
+        "The same action can be trivial for one side and devastating for the other"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 318,
+        "end": 353
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boys-and-frogs-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"pelting\" mean in \"pelting them with stones\"?",
+      "options": [
+        "Gently placing something down",
+        "Throwing repeatedly at something",
+        "Collecting something from the ground",
+        "Sorting something into groups"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 163,
+        "end": 187
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boys-and-frogs-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "Boys and Frogs play a game together at the pond",
+        "Frogs throw stones back at the Boys in retaliation",
+        "Boys throw stones at Frogs for fun until one Frog protests that it is deadly to them",
+        "Boys stop playing before any Frogs are harmed"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 193,
+        "end": 220
+      },
+      "pool": "retest"
+    }
+  ]
+}
