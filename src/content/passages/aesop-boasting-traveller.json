@@ -1,0 +1,323 @@
+{
+  "id": "aesop-boasting-traveller",
+  "title": "The Boasting Traveller",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Man once went abroad on his travels, and when he came home he had wonderful tales to tell of the things he had done in foreign countries. Among other things, he said he had taken part in a jumping-match at Rhodes, and had done a wonderful jump which no one could beat. \"Just go to Rhodes and ask them,\" he said; \"every one will tell you it's true.\" But one of those who were listening said, \"If you can jump as well as all that, we needn't go to Rhodes to prove it. Let's just imagine this is Rhodes for a minute: and now--jump!\"",
+    "Deeds, not words."
+  ],
+  "questions": [
+    {
+      "id": "aesop-boasting-traveller-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Man have to tell when he comes home?",
+      "options": [
+        "News of a war he had witnessed abroad",
+        "Complaints about the hardships of travel",
+        "Wonderful tales of what he did in foreign countries",
+        "A list of goods he had traded overseas"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 61,
+        "end": 138
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boasting-traveller-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Man claim to have done at Rhodes?",
+      "options": [
+        "A wonderful jump which no one could beat",
+        "Won a wrestling match against a champion",
+        "Built a bridge admired by the whole city",
+        "Sailed a ship through a great storm"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 220,
+        "end": 269
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boasting-traveller-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Man say people in Rhodes will tell you?",
+      "options": [
+        "That they don't remember him",
+        "That the match never happened",
+        "That someone else jumped farther",
+        "That it's true"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 315,
+        "end": 348
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boasting-traveller-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the listener suggest instead of going to Rhodes?",
+      "options": [
+        "Writing to someone in Rhodes to confirm the story",
+        "Imagining the spot they are standing in is Rhodes, and jumping right there",
+        "Waiting for someone from Rhodes to visit and confirm it",
+        "Finding an old newspaper report of the match"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 468,
+        "end": 530
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boasting-traveller-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what single word does the listener use to challenge the Man directly?",
+      "options": [
+        "\"Prove it!\"",
+        "\"Liar!\"",
+        "\"Jump!\"",
+        "\"Really?\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 516,
+        "end": 530
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boasting-traveller-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the listener propose imagining the spot as Rhodes?",
+      "options": [
+        "To test the Man's claim immediately instead of relying on distant witnesses",
+        "To make the game more entertaining for the crowd",
+        "To help the Man remember exactly how he jumped",
+        "To give the Man a fair second chance at Rhodes itself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 431,
+        "end": 466
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boasting-traveller-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Man's claim rely so heavily on people far away in Rhodes?",
+      "options": [
+        "He genuinely believes someone will travel there to confirm it",
+        "He wants his listeners to visit Rhodes for their own enjoyment",
+        "He forgot the exact details of the jump himself",
+        "Distant witnesses cannot be easily checked, making the boast harder to disprove"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 272,
+        "end": 302
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boasting-traveller-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"abroad\" mean in \"went abroad on his travels\"?",
+      "options": [
+        "To a nearby village",
+        "To a foreign country",
+        "To a mountain retreat",
+        "To a family gathering"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 37
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boasting-traveller-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that no one \"could beat\" the Man's jump?",
+      "options": [
+        "No one could see it happen",
+        "No one could describe it accurately",
+        "No one could match or surpass it",
+        "No one could attempt it safely"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 220,
+        "end": 269
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boasting-traveller-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "Actions can be tested here and now, while boasts about the past cannot",
+        "Travelling to foreign countries always leads to exaggeration",
+        "Jumping contests are an unreliable measure of skill",
+        "It is rude to challenge someone's stories in public"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 17
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boasting-traveller-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the Man claim his famous jump took place?",
+      "options": [
+        "Athens",
+        "Sparta",
+        "Corinth",
+        "Rhodes"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 189,
+        "end": 214
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boasting-traveller-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what kind of tales does the Man bring back from his travels?",
+      "options": [
+        "Frightening ones",
+        "Wonderful ones",
+        "Sad ones",
+        "Short and simple ones"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 61,
+        "end": 91
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boasting-traveller-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the listener say about needing to travel to Rhodes?",
+      "options": [
+        "That they must go there at once",
+        "That Rhodes is too far to ever visit",
+        "That they needn't go there to prove it",
+        "That Rhodes no longer holds such contests"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 431,
+        "end": 466
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boasting-traveller-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is the listener really asking the Man to do with the challenge to jump?",
+      "options": [
+        "Demonstrate the skill immediately rather than merely describe it",
+        "Travel back to Rhodes to repeat the jump properly",
+        "Apologize for exaggerating his travels",
+        "Teach the listener how to jump as well as he claims to"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 468,
+        "end": 530
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boasting-traveller-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the story end right at the moment of the challenge rather than showing the jump itself?",
+      "options": [
+        "The Man is given time to travel back to Rhodes first",
+        "The listener changes his mind before the jump happens",
+        "The passage simply ran out of space to describe more",
+        "The unanswered challenge itself is enough to expose the boast as empty"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 17
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boasting-traveller-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"deeds\" mean in the closing line \"Deeds, not words\"?",
+      "options": [
+        "Legal documents of ownership",
+        "Actual actions performed",
+        "Spoken promises to others",
+        "Stories told for entertainment"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 17
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boasting-traveller-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A man successfully repeats his famous jump for a cheering crowd",
+        "A man is praised for his honesty about his travels",
+        "A man who boasts about a distant feat is challenged to prove it on the spot",
+        "A group of listeners travel to Rhodes to confirm the story"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 468,
+        "end": 530
+      },
+      "pool": "retest"
+    }
+  ]
+}
