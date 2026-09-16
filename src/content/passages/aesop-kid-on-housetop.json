@@ -1,0 +1,322 @@
+{
+  "id": "aesop-kid-on-housetop",
+  "title": "The Kid on the Housetop",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Kid climbed up on to the roof of an outhouse, attracted by the grass and other things that grew in the thatch; and as he stood there browsing away, he caught sight of a Wolf passing below, and jeered at him because he couldn't reach him. The Wolf only looked up and said, \"I hear you, my young friend; but it is not you who mock me, but the roof on which you are standing.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-kid-on-housetop-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the Kid climb?",
+      "options": [
+        "Onto a nearby wall",
+        "Up a tall tree",
+        "Up onto the roof of an outhouse",
+        "Onto a haystack in the yard"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 46
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-kid-on-housetop-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what attracts the Kid to the roof?",
+      "options": [
+        "The grass and other things growing in the thatch",
+        "The view of the surrounding fields",
+        "The shade it provides from the sun",
+        "A nest of birds he wanted to see"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 48,
+        "end": 111
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-kid-on-housetop-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Kid see while browsing on the roof?",
+      "options": [
+        "A farmer walking by",
+        "Another kid climbing nearby",
+        "A flock of birds flying overhead",
+        "A Wolf passing below"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 150,
+        "end": 189
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-kid-on-housetop-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Kid jeer at the Wolf?",
+      "options": [
+        "Because the Wolf looked frightened",
+        "Because the Wolf couldn't reach him",
+        "Because the Wolf had tried to climb up earlier",
+        "Because the Wolf was chasing another animal"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 195,
+        "end": 238
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-kid-on-housetop-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Wolf say when he hears the Kid?",
+      "options": [
+        "That he will remember the Kid's insult forever",
+        "That he is too tired to respond properly",
+        "That it is not the Kid who mocks him, but the roof he is standing on",
+        "That he will wait for the Kid to come down"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 308,
+        "end": 373
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-kid-on-housetop-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what point is the Wolf making about the source of the Kid's boldness?",
+      "options": [
+        "The Kid's safety, not any real courage or advantage, is what allows him to mock the Wolf",
+        "The Kid genuinely believes he could defeat the Wolf in a fight",
+        "The roof itself is somehow insulting the Wolf on its own",
+        "The Wolf secretly agrees that the Kid is superior to him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 308,
+        "end": 373
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-kid-on-housetop-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Wolf remain calm rather than angry at being mocked?",
+      "options": [
+        "He does not actually hear what the Kid is saying",
+        "He is too hungry to react to anything else",
+        "He believes the Kid will eventually come down and apologize",
+        "He recognizes that the Kid's taunt means nothing once he is no longer in a safe position"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 240,
+        "end": 272
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-kid-on-housetop-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"jeered\" mean in \"jeered at him\"?",
+      "options": [
+        "Warned or cautioned",
+        "Mocked or taunted",
+        "Waved or signaled",
+        "Questioned or interrogated"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 195,
+        "end": 238
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-kid-on-housetop-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"thatch\" refer to in the passage?",
+      "options": [
+        "A wooden fence around a yard",
+        "A type of tall grass in a field",
+        "Straw or plant material used to cover a roof",
+        "A small tool used for climbing"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 61,
+        "end": 111
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-kid-on-housetop-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Courage that depends entirely on a safe position is not real courage at all",
+        "Wolves are always calm no matter how they are treated",
+        "Kids should never climb onto rooftops for any reason",
+        "Mocking someone is always harmless if you are out of reach"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 308,
+        "end": 373
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-kid-on-housetop-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Kid doing while standing on the roof?",
+      "options": [
+        "Watching for other wolves nearby",
+        "Calling out to other kids for help",
+        "Resting after a long climb",
+        "Browsing on the grass and plants there"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 117,
+        "end": 148
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-kid-on-housetop-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Wolf address the Kid?",
+      "options": [
+        "\"Little fool\"",
+        "\"My young friend\"",
+        "\"Small creature\"",
+        "\"Foolish Kid\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 275,
+        "end": 302
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-kid-on-housetop-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Wolf say he does hear from the Kid?",
+      "options": [
+        "He hears nothing at all from him",
+        "He hears him but pretends not to",
+        "He hears him, meaning the taunt itself",
+        "He hears him singing rather than mocking"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 275,
+        "end": 302
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-kid-on-housetop-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what would likely happen if the Kid were on the ground instead of the roof?",
+      "options": [
+        "He would probably not dare to mock the Wolf at all",
+        "He would mock the Wolf just as boldly as before",
+        "The Wolf would still ignore him completely",
+        "Nothing would change about the situation"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 308,
+        "end": 373
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-kid-on-housetop-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Wolf's reply be considered a wise response rather than a defeat?",
+      "options": [
+        "It proves the Wolf could climb the roof if he wanted to",
+        "It shows the Wolf plans to wait until nightfall to attack",
+        "It convinces the Kid to come down from the roof at once",
+        "It correctly identifies that the insult carries no real weight given the circumstances"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 308,
+        "end": 373
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-kid-on-housetop-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"mock\" mean in \"it is not you who mock me\"?",
+      "options": [
+        "To warn or alert",
+        "To make fun of or ridicule",
+        "To follow closely behind",
+        "To imitate exactly"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 308,
+        "end": 333
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-kid-on-housetop-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Wolf climbs onto the roof to confront the Kid directly",
+        "A Kid is frightened into silence by the Wolf's reply",
+        "A Kid safely mocks a Wolf from a rooftop, and the Wolf points out that only his position, not real bravery, allows it",
+        "A Wolf chases the Kid off the roof successfully"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 308,
+        "end": 373
+      },
+      "pool": "retest"
+    }
+  ]
+}
