@@ -1,0 +1,322 @@
+{
+  "id": "aesop-wild-boar-and-fox",
+  "title": "The Wild Boar and the Fox",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Wild Boar was engaged in whetting his tusks upon the trunk of a tree in the forest when a Fox came by and, seeing what he was at, said to him, \"Why are you doing that, pray? The huntsmen are not out to-day, and there are no other dangers at hand that I can see.\" \"True, my friend,\" replied the Boar, \"but the instant my life is in danger I shall need to use my tusks. There'll be no time to sharpen them then.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-wild-boar-and-fox-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Wild Boar doing at the start?",
+      "options": [
+        "Digging for roots beneath the tree",
+        "Resting in the shade of the forest",
+        "Whetting his tusks upon the trunk of a tree",
+        "Chasing a smaller animal through the trees"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 70
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wild-boar-and-fox-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox point out about the day?",
+      "options": [
+        "That the huntsmen are not out and no other dangers are at hand",
+        "That a storm is approaching from the north",
+        "That other boars have already been seen sharpening their tusks",
+        "That the forest is unusually quiet today"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 176,
+        "end": 262
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wild-boar-and-fox-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Boar say he will need his tusks for?",
+      "options": [
+        "Digging up food during the winter",
+        "Marking his territory in the forest",
+        "Defending his young from other boars",
+        "The instant his life is in danger"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 307,
+        "end": 368
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wild-boar-and-fox-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Boar say there will be no time for once danger arrives?",
+      "options": [
+        "To find a place to hide",
+        "To sharpen his tusks",
+        "To call for help from other boars",
+        "To finish whetting the tree"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 370,
+        "end": 410
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wild-boar-and-fox-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Boar address the Fox in his reply?",
+      "options": [
+        "\"Stranger\"",
+        "\"Neighbor\"",
+        "\"My friend\"",
+        "\"Sir Fox\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 266,
+        "end": 281
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wild-boar-and-fox-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Boar sharpen his tusks even though no danger is currently present?",
+      "options": [
+        "He prepares in advance, knowing there will be no time once danger actually arrives",
+        "He enjoys the activity regardless of any practical use",
+        "He is trying to impress the Fox with his strength",
+        "He misunderstood the Fox's warning about huntsmen"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 307,
+        "end": 410
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wild-boar-and-fox-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Fox's question reveal about his own way of thinking?",
+      "options": [
+        "He believes the Boar is wasting time on an impossible task",
+        "He is trying to warn the Boar of danger he has already seen",
+        "He wants to learn how to sharpen his own teeth",
+        "He only sees the value of an action if the danger is immediate and visible"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 146,
+        "end": 262
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wild-boar-and-fox-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"whetting\" mean in \"whetting his tusks\"?",
+      "options": [
+        "Cleaning",
+        "Sharpening",
+        "Measuring",
+        "Hiding"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 27,
+        "end": 70
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wild-boar-and-fox-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"at hand\" mean in \"no other dangers at hand\"?",
+      "options": [
+        "Forgotten or ignored",
+        "Expected soon",
+        "Nearby or present",
+        "Discussed openly"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 213,
+        "end": 262
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wild-boar-and-fox-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "It is wise to prepare for danger before it actually arrives",
+        "Wild boars are naturally more cautious than foxes",
+        "Sharpening tusks is only useful during a hunt",
+        "Danger always comes with plenty of warning"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 307,
+        "end": 410
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wild-boar-and-fox-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who comes upon the Boar while he is sharpening his tusks?",
+      "options": [
+        "A group of huntsmen",
+        "Another Boar",
+        "A passing deer",
+        "A Fox"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 90,
+        "end": 103
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wild-boar-and-fox-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox ask the Boar?",
+      "options": [
+        "Where he plans to travel next",
+        "Why he is sharpening his tusks",
+        "How old his tusks are",
+        "Whether he has seen any huntsmen"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 146,
+        "end": 175
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wild-boar-and-fox-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what single word does the Boar use to agree with the Fox's observation?",
+      "options": [
+        "\"Yes\"",
+        "\"Indeed\"",
+        "\"True\"",
+        "\"Perhaps\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 266,
+        "end": 281
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wild-boar-and-fox-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why doesn't the Boar wait until danger actually appears before sharpening his tusks?",
+      "options": [
+        "He knows that sharpening takes time he would not have in a real emergency",
+        "He believes sharpening only works if done well in advance of any threat",
+        "He is simply bored and looking for something to do",
+        "He wants to frighten the Fox into leaving him alone"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 370,
+        "end": 410
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wild-boar-and-fox-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what assumption does the Fox make that the Boar's answer corrects?",
+      "options": [
+        "That tusks are not actually useful for self-defense",
+        "That huntsmen never hunt boars in this forest",
+        "That the Boar is not strong enough to need tusks at all",
+        "That preparation is only worthwhile when a threat is already visible"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 176,
+        "end": 262
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wild-boar-and-fox-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"the instant\" mean in \"the instant my life is in danger\"?",
+      "options": [
+        "Sometime later",
+        "The very moment",
+        "Once a year",
+        "Only rarely"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 307,
+        "end": 339
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wild-boar-and-fox-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Fox teaches a Boar how to sharpen his tusks properly",
+        "A Boar and a Fox flee together from approaching huntsmen",
+        "A Boar explains to a puzzled Fox why he prepares for danger before it arrives",
+        "A Fox convinces the Boar to stop sharpening his tusks"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 307,
+        "end": 410
+      },
+      "pool": "retest"
+    }
+  ]
+}
