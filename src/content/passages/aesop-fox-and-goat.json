@@ -1,0 +1,323 @@
+{
+  "id": "aesop-fox-and-goat",
+  "title": "The Fox and the Goat",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Fox fell into a well and was unable to get out again. By and by a thirsty Goat came by, and seeing the Fox in the well asked him if the water was good. \"Good?\" said the Fox, \"it's the best water I ever tasted in all my life. Come down and try it yourself.\" The Goat thought of nothing but the prospect of quenching his thirst, and jumped in at once. When he had had enough to drink, he looked about, like the Fox, for some way of getting out, but could find none. Presently the Fox said, \"I have an idea. You stand on your hind legs, and plant your forelegs firmly against the side of the well, and then I'll climb on to your back, and, from there, by stepping on your horns, I can get out. And when I'm out, I'll help you out too.\" The Goat did as he was requested, and the Fox climbed on to his back and so out of the well; and then he coolly walked away. The Goat called loudly after him and reminded him of his promise to help him out: but the Fox merely turned and said, \"If you had as much sense in your head as you have hair in your beard you wouldn't have got into the well without making certain that you could get out again.\"",
+    "Look before your leap."
+  ],
+  "questions": [
+    {
+      "id": "aesop-fox-and-goat-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the Fox at the very start?",
+      "options": [
+        "He is chased into a well by hunters",
+        "He climbs into a well to hide from a Goat",
+        "He falls into a well and cannot get out",
+        "He is pushed into a well by another fox"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 54
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-goat-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Goat ask the Fox when he first arrives?",
+      "options": [
+        "If the water was good",
+        "How deep the well was",
+        "How the Fox fell in",
+        "Whether the Fox was hurt"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 121,
+        "end": 152
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-goat-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox tell the Goat about the water?",
+      "options": [
+        "That it is too cold to drink",
+        "That it is nearly gone",
+        "That it tastes strange and bitter",
+        "That it is the best water he ever tasted"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 177,
+        "end": 225
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-goat-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Fox's plan for getting out of the well?",
+      "options": [
+        "To dig a tunnel out from the bottom",
+        "To climb on the Goat's back and then his horns",
+        "To wait until someone lowers a rope",
+        "To call loudly until a farmer hears them"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 606,
+        "end": 691
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-goat-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox do once he is out of the well?",
+      "options": [
+        "He pulls the Goat out as promised",
+        "He goes to fetch a rope for the Goat",
+        "He coolly walks away",
+        "He apologizes for tricking the Goat"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 837,
+        "end": 858
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-goat-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox say about the Goat's \"sense\" at the end?",
+      "options": [
+        "That the Goat lacks as much sense as he has hair in his beard",
+        "That the Goat is wiser than most animals in the forest",
+        "That the Goat should have jumped in sooner",
+        "That the Goat's horns are not strong enough to climb on"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 979,
+        "end": 1047
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-goat-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Fox praise the water so highly when the Goat arrives?",
+      "options": [
+        "He genuinely wants the Goat to enjoy a good drink",
+        "He is trying to warn the Goat away from danger",
+        "He hopes the Goat will bring him food afterward",
+        "He wants to lure the Goat into the well so he can use it to escape"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 227,
+        "end": 256
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-goat-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Goat's leap into the well reveal about his decision?",
+      "options": [
+        "He knows exactly how he will escape before jumping in",
+        "He acts on his thirst without first checking whether he can get back out",
+        "He is tricked by a promise the Fox never actually makes",
+        "He jumps in only after the Fox promises him food"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 259,
+        "end": 350
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-goat-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Fox walked away \"coolly\"?",
+      "options": [
+        "Quickly, as if in a panic",
+        "Sadly, feeling guilty about it",
+        "Calmly and without any shame",
+        "Loudly, boasting to every animal nearby"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 837,
+        "end": 858
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-goat-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "Think through the consequences before acting on a sudden urge",
+        "Goats should never trust foxes under any circumstances",
+        "Wells are more dangerous than they appear to be",
+        "It is always wise to help a stranger in trouble"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 22
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-goat-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Goat want when he first comes upon the well?",
+      "options": [
+        "To rest in the shade",
+        "To find the Fox some food",
+        "To warn the Fox of danger",
+        "To quench his thirst"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 66,
+        "end": 88
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-goat-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Goat do once he has had enough to drink?",
+      "options": [
+        "He climbs straight out on his own",
+        "He looks about for some way of getting out, but finds none",
+        "He asks the Fox to leave first",
+        "He falls asleep beside the Fox"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 385,
+        "end": 464
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-goat-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Goat do after the Fox escapes and walks away?",
+      "options": [
+        "He climbs out using the same method on his own",
+        "He refuses to speak to the Fox ever again",
+        "He calls loudly after him and reminds him of his promise",
+        "He begins digging at the bottom of the well"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 860,
+        "end": 940
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-goat-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Fox's plan require the Goat's cooperation in the first place?",
+      "options": [
+        "The Fox needs something to stand on that he cannot reach on his own",
+        "The Fox cannot see the way out without the Goat's help",
+        "The Goat is the only one who knows the well has a bottom",
+        "The Fox promised the Goat's owner he would return safely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 507,
+        "end": 595
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-goat-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Fox's final remark suggest about who is really to blame for the Goat's situation?",
+      "options": [
+        "The Fox admits the trick was entirely his own fault",
+        "The Fox blames the well's owner for the whole misfortune",
+        "The Fox insists no one is at fault at all",
+        "The Fox blames the Goat's own lack of foresight, not his trick"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 1048,
+        "end": 1135
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-goat-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"prospect\" mean in \"the prospect of quenching his thirst\"?",
+      "options": [
+        "A written record of a past event",
+        "The expectation or possibility of something happening",
+        "A formal agreement between two parties",
+        "A location marked for future use"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 291,
+        "end": 327
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-goat-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Fox and a Goat work together and both escape the well safely",
+        "A Goat rescues a Fox and refuses any thanks in return",
+        "A Fox tricks a thirsty Goat into helping him escape, then abandons him",
+        "A Fox and a Goat argue over who fell into the well first"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 837,
+        "end": 858
+      },
+      "pool": "retest"
+    }
+  ]
+}
