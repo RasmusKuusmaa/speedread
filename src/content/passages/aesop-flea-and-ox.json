@@ -1,0 +1,322 @@
+{
+  "id": "aesop-flea-and-ox",
+  "title": "The Flea and the Ox",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Flea once said to an Ox, \"How comes it that a big strong fellow like you is content to serve mankind, and do all their hard work for them, while I, who am no bigger than you see, live on their bodies and drink my fill of their blood, and never do a stroke for it all?\" To which the Ox replied, \"Men are very kind to me, and so I am grateful to them: they feed and house me well, and every now and then they show their fondness for me by patting me on the head and neck.\" \"They'd pat me, too,\" said the Flea, \"if I let them: but I take good care they don't, or there would be nothing left of me.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-flea-and-ox-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Flea ask the Ox about?",
+      "options": [
+        "Why the Ox never runs away from the farm",
+        "Why the Ox eats so much grass every day",
+        "Why the Ox is content to serve mankind and do their hard work",
+        "Why the Ox allows itself to be milked"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 28,
+        "end": 139
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-flea-and-ox-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Flea say it does instead of working?",
+      "options": [
+        "Lives on their bodies and drinks its fill of their blood",
+        "Hides quietly in the corners of their homes",
+        "Follows the Ox around all day watching it work",
+        "Steals scraps of food left on the table"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 181,
+        "end": 268
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-flea-and-ox-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Ox say it is grateful to men?",
+      "options": [
+        "Because they never ask him to work very hard",
+        "Because they let him roam freely without any fence",
+        "Because they protect him from other animals",
+        "Because they feed and house him well, and show fondness for him"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 297,
+        "end": 379
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-flea-and-ox-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how do men show their fondness for the Ox?",
+      "options": [
+        "By giving him a special name",
+        "By patting him on the head and neck",
+        "By decorating him with ribbons",
+        "By letting him lead the other animals"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 404,
+        "end": 470
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-flea-and-ox-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Flea say men would do to it if it let them?",
+      "options": [
+        "Feed it well, too",
+        "House it, too",
+        "Pat it, too",
+        "Protect it, too"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 474,
+        "end": 492
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-flea-and-ox-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Flea take care that men don't touch it?",
+      "options": [
+        "Because there would be nothing left of it",
+        "Because it dislikes being praised",
+        "Because it fears men will keep it as a pet",
+        "Because it wants to remain hidden from other fleas"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 559,
+        "end": 595
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-flea-and-ox-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Flea's closing remark reveal a flaw in its own way of living?",
+      "options": [
+        "It shows that the Flea secretly wants to be patted more than the Ox",
+        "It proves that men actually dislike the Flea more than the Ox",
+        "It suggests that the Flea plans to change its behavior soon",
+        "It admits that the same closeness to men that benefits the Ox would be fatal to it"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 511,
+        "end": 557
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-flea-and-ox-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Ox's answer suggest about how it views its own hard work?",
+      "options": [
+        "As an unfair burden it wishes it could escape",
+        "As a fair exchange for the care and affection it receives",
+        "As something forced upon it against its will",
+        "As a punishment for some past mistake"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 297,
+        "end": 350
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-flea-and-ox-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Flea never does \"a stroke\" of work?",
+      "options": [
+        "It works only a small amount",
+        "It works only at night",
+        "It does no work at all",
+        "It works only when forced to"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 240,
+        "end": 268
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-flea-and-ox-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Closeness to those in power benefits the useful and endangers the merely parasitic",
+        "Fleas are always smarter than the animals they live on",
+        "Oxen should refuse to work no matter how well they are treated",
+        "Being small is always safer than being large"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 559,
+        "end": 595
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-flea-and-ox-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Flea describe its own size compared to the Ox?",
+      "options": [
+        "Almost as large as the Ox",
+        "Invisible to the naked eye",
+        "Larger than most other insects",
+        "No bigger than you see"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 147,
+        "end": 179
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-flea-and-ox-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Ox say men do for it besides feeding it?",
+      "options": [
+        "Groom its coat daily",
+        "House it well",
+        "Decorate its stall with flowers",
+        "Give it a special name"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 352,
+        "end": 379
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-flea-and-ox-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Flea say would happen if it let men pat it?",
+      "options": [
+        "It would become tame like the Ox",
+        "It would be given food in return",
+        "There would be nothing left of it",
+        "It would lose its ability to jump"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 562,
+        "end": 595
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-flea-and-ox-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Ox's relationship with men be considered fundamentally different from the Flea's?",
+      "options": [
+        "The Ox offers something valuable in return, while the Flea only takes without giving anything",
+        "The Ox is treated worse than the Flea despite working harder",
+        "The Flea provides more value to men than the Ox realizes",
+        "The Ox and the Flea are treated identically by men"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 108,
+        "end": 139
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-flea-and-ox-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Flea seem to value most about its way of life?",
+      "options": [
+        "Being praised and patted just like the Ox",
+        "Working hard to earn the trust of men",
+        "Living openly and honestly among men",
+        "Avoiding detection so it can continue taking without consequence"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 530,
+        "end": 557
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-flea-and-ox-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"fondness\" mean in \"show their fondness for me\"?",
+      "options": [
+        "Anger or irritation",
+        "Affection or warm liking",
+        "Curiosity or interest",
+        "Fear or nervousness"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 409,
+        "end": 435
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-flea-and-ox-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "An Ox convinces a Flea to start working for men as well",
+        "A Flea and an Ox agree that men treat them both unfairly",
+        "A Flea questions why an Ox works for men, and the Ox explains that its labor is repaid with kindness the Flea could never safely receive",
+        "An Ox complains to the Flea about being overworked"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 559,
+        "end": 595
+      },
+      "pool": "retest"
+    }
+  ]
+}
