@@ -1,0 +1,322 @@
+{
+  "id": "aesop-old-woman-and-wine-jar",
+  "title": "The Old Woman and the Wine-Jar",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "An old Woman picked up an empty Wine-jar which had once contained a rare and costly wine, and which still retained some traces of its exquisite bouquet. She raised it to her nose and sniffed at it again and again. \"Ah,\" she cried, \"how delicious must have been the liquid which has left behind so ravishing a smell.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-old-woman-and-wine-jar-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the old Woman pick up?",
+      "options": [
+        "A jar full of fresh wine",
+        "A basket of grapes",
+        "An empty Wine-jar",
+        "A broken clay pot"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 40
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-woman-and-wine-jar-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what had the Wine-jar once contained?",
+      "options": [
+        "A rare and costly wine",
+        "A common, everyday wine",
+        "Water used for cooking",
+        "Oil used for cooking and lamps"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 41,
+        "end": 88
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-woman-and-wine-jar-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Wine-jar still retain?",
+      "options": [
+        "A small amount of the actual wine",
+        "A label naming its origin",
+        "A crack from being dropped",
+        "Some traces of its exquisite bouquet"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 100,
+        "end": 151
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-woman-and-wine-jar-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Woman do with the jar?",
+      "options": [
+        "She fills it with fresh water to drink",
+        "She raises it to her nose and sniffs at it again and again",
+        "She sells it at the local market",
+        "She breaks it open to check inside"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 153,
+        "end": 212
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-woman-and-wine-jar-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Woman exclaim about the wine that once filled the jar?",
+      "options": [
+        "That it must have been very cheap to produce",
+        "That it must have spoiled a long time ago",
+        "That it must have been delicious, given the smell it left behind",
+        "That she wishes she could find more like it nearby"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 232,
+        "end": 314
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-woman-and-wine-jar-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, how does the Woman judge the quality of the original wine?",
+      "options": [
+        "By reasoning from the lingering scent left in the empty jar",
+        "By tasting a few remaining drops inside",
+        "By reading a label attached to the jar",
+        "By asking someone who had tasted it before"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 94,
+        "end": 151
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-woman-and-wine-jar-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Woman's repeated sniffing suggest about her reaction to the smell?",
+      "options": [
+        "She is trying to determine if the jar is actually empty",
+        "She is checking whether the jar is safe to drink from",
+        "She is confused about what kind of jar it is",
+        "She finds the lingering scent so pleasant that she wants to experience it fully"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 153,
+        "end": 212
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-woman-and-wine-jar-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"bouquet\" mean in \"its exquisite bouquet\"?",
+      "options": [
+        "A bundle of fresh flowers",
+        "A pleasant, distinctive smell, especially of wine",
+        "A formal announcement or toast",
+        "A collection of old pottery"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 100,
+        "end": 151
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-woman-and-wine-jar-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"ravishing\" mean in \"so ravishing a smell\"?",
+      "options": [
+        "Faint and barely noticeable",
+        "Sour and unpleasant",
+        "Extremely delightful or captivating",
+        "Ordinary and unremarkable"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 294,
+        "end": 314
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-woman-and-wine-jar-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "The lingering trace of something excellent can hint at how wonderful the thing itself must have been",
+        "Empty containers are always more valuable than full ones",
+        "Old women are especially skilled at judging the quality of wine",
+        "Smell is a more reliable sense than taste for judging wine"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 232,
+        "end": 314
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-woman-and-wine-jar-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what condition is the Wine-jar in when the Woman finds it?",
+      "options": [
+        "Still half full",
+        "Cracked and leaking",
+        "Sealed shut",
+        "Empty"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 40
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-old-woman-and-wine-jar-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many times does the Woman sniff the jar?",
+      "options": [
+        "Only once",
+        "Again and again",
+        "Exactly twice",
+        "She does not sniff it at all"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 183,
+        "end": 212
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-old-woman-and-wine-jar-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what single word does the Woman use to begin her exclamation?",
+      "options": [
+        "\"Oh\"",
+        "\"My\"",
+        "\"Ah\"",
+        "\"Well\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 215,
+        "end": 229
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-old-woman-and-wine-jar-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Woman describe the wine as delicious even though she never tasted it?",
+      "options": [
+        "She infers its quality from the powerful impression its scent still makes",
+        "She had tasted the exact same wine once before, long ago",
+        "She read a description of the wine written on the jar",
+        "She is simply guessing without any real basis for her claim"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 232,
+        "end": 314
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-old-woman-and-wine-jar-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the phrase \"rare and costly wine\" suggest about the drink that once filled the jar?",
+      "options": [
+        "It was cheap and easy to find in most markets",
+        "It was made specifically for the old Woman",
+        "It was no longer produced anywhere in the region",
+        "It was unusual and expensive, not an everyday sort of wine"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 41,
+        "end": 88
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-old-woman-and-wine-jar-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"retained\" mean in \"still retained some traces\"?",
+      "options": [
+        "Completely lost",
+        "Kept or held onto",
+        "Replaced with something new",
+        "Hidden from view"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 94,
+        "end": 151
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-old-woman-and-wine-jar-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "An old Woman finds a jar still full of rare wine",
+        "An old Woman is disappointed to find the jar completely empty and scentless",
+        "An old Woman marvels at the delicious wine she imagines once filled a jar, based only on its lingering scent",
+        "An old Woman sells the empty jar at the market"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 232,
+        "end": 314
+      },
+      "pool": "retest"
+    }
+  ]
+}
