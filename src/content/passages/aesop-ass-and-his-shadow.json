@@ -1,0 +1,322 @@
+{
+  "id": "aesop-ass-and-his-shadow",
+  "title": "The Ass and His Shadow",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A certain man hired an Ass for a journey in summertime, and started out with the owner following behind to drive the beast. By and by, in the heat of the day, they stopped to rest, and the traveller wanted to lie down in the Ass's Shadow; but the owner, who himself wished to be out of the sun, wouldn't let him do that; for he said he had hired the Ass only, and not his Shadow: the other maintained that his bargain secured him complete control of the Ass for the time being. From words they came to blows; and while they were belabouring each other the Ass took to his heels and was soon out of sight."
+  ],
+  "questions": [
+    {
+      "id": "aesop-ass-and-his-shadow-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the man hire the Ass?",
+      "options": [
+        "To carry goods to a distant market",
+        "To help plow a field",
+        "For a journey in summertime",
+        "To race against other travellers"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 54
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-shadow-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who follows behind to drive the Ass?",
+      "options": [
+        "The owner",
+        "A hired servant",
+        "The traveller's son",
+        "A passing stranger"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 60,
+        "end": 122
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-shadow-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the traveller want to lie down when they stop to rest?",
+      "options": [
+        "Beneath a nearby tree",
+        "Inside a roadside inn",
+        "On the Ass's back",
+        "In the Ass's Shadow"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 185,
+        "end": 237
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-shadow-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the owner refuse to let the traveller use the shadow?",
+      "options": [
+        "He believed the shadow belonged to someone else",
+        "He himself wished to be out of the sun",
+        "He thought the Ass needed the shade to rest",
+        "He wanted to charge an extra fee for its use"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 243,
+        "end": 319
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-shadow-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the owner say his bargain with the traveller covered?",
+      "options": [
+        "The Ass and everything it carried",
+        "The Ass for the entire summer season",
+        "The Ass only, and not his Shadow",
+        "The Ass, but only for half of the journey"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 333,
+        "end": 378
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-shadow-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Ass do while the two men are fighting?",
+      "options": [
+        "He takes to his heels and is soon out of sight",
+        "He lies down calmly between them",
+        "He kicks at both men to stop the fight",
+        "He wanders back toward his owner's home"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 552,
+        "end": 603
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-shadow-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the traveller believe he has a right to the shadow as well as the Ass?",
+      "options": [
+        "He believes the owner promised him the shadow separately",
+        "He believes the shadow belongs to whoever reaches it first",
+        "He believes the owner no longer has any claim on the Ass",
+        "He believes hiring the Ass gives him complete control over everything connected to it"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 380,
+        "end": 476
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-shadow-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is ironic about the outcome of the two men's argument?",
+      "options": [
+        "The Ass turns out to belong to neither of them",
+        "While they fight over the Ass, they lose the Ass itself entirely",
+        "The shadow disappears before either man can use it",
+        "The argument is settled peacefully in the end"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 513,
+        "end": 603
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-shadow-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the men \"came to blows\"?",
+      "options": [
+        "They agreed to end their argument peacefully",
+        "They asked a judge to settle their dispute",
+        "They began physically fighting each other",
+        "They decided to share the shadow equally"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 478,
+        "end": 507
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-shadow-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Arguing over a minor gain can cause you to lose something far more valuable",
+        "Hired animals always belong entirely to whoever pays for them",
+        "Shadows are more valuable than the animals that cast them",
+        "Travelling in summer is always more dangerous than in other seasons"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 513,
+        "end": 603
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-shadow-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when do the two men stop to rest?",
+      "options": [
+        "Early in the morning",
+        "Just before nightfall",
+        "During a sudden rainstorm",
+        "In the heat of the day"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 135,
+        "end": 179
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-and-his-shadow-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the owner want just as much as the traveller does?",
+      "options": [
+        "To finish the journey quickly",
+        "To be out of the sun",
+        "To be paid more money",
+        "To rest inside a nearby building"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 243,
+        "end": 293
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-and-his-shadow-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the disagreement between the two men begin?",
+      "options": [
+        "With a sudden physical fight, with no words first",
+        "With the owner walking away silently",
+        "With words, before turning into blows",
+        "With the Ass refusing to move at all"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 478,
+        "end": 507
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-and-his-shadow-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does neither man notice the Ass slipping away?",
+      "options": [
+        "They are too absorbed in fighting each other to pay attention to it",
+        "The Ass is tied up securely the whole time",
+        "The Ass moves too slowly to be noticed leaving",
+        "A third person distracts them at the same moment"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 513,
+        "end": 577
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-and-his-shadow-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the dispute over the shadow reveal about how the men value the actual point of their bargain?",
+      "options": [
+        "They both agree the shadow matters more than the Ass",
+        "They both realize the argument is pointless from the start",
+        "They both believe the Ass is not worth arguing over at all",
+        "They lose sight of the Ass itself while quarreling over a lesser, secondary claim"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 333,
+        "end": 378
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-and-his-shadow-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"belabouring\" mean in \"while they were belabouring each other\"?",
+      "options": [
+        "Speaking calmly",
+        "Striking repeatedly",
+        "Walking slowly",
+        "Resting quietly"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 513,
+        "end": 551
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-and-his-shadow-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "Two men share the Ass's shadow peacefully during their rest",
+        "An Ass refuses to continue the journey in the summer heat",
+        "Two men fight over an Ass's shadow and lose the Ass itself in the process",
+        "A traveller returns the Ass to its owner before the journey ends"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 552,
+        "end": 603
+      },
+      "pool": "retest"
+    }
+  ]
+}
