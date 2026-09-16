@@ -1,0 +1,286 @@
+{
+  "id": "aesop-fox-and-lion",
+  "title": "The Fox and the Lion",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Fox who had never seen a Lion one day met one, and was so terrified at the sight of him that he was ready to die with fear. After a time he met him again, and was still rather frightened, but not nearly so much as he had been when he met him first. But when he saw him for the third time he was so far from being afraid that he went up to him and began to talk to him as if he had known him all his life."
+  ],
+  "questions": [
+    {
+      "id": "aesop-fox-and-lion-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, had the Fox ever seen a Lion before their first meeting?",
+      "options": [
+        "Yes, he had seen many lions before",
+        "Yes, but only from a great distance",
+        "No, he had never seen a Lion",
+        "The passage does not say"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 31
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-lion-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Fox feel at the first meeting?",
+      "options": [
+        "So terrified that he was ready to die with fear",
+        "Mildly curious but calm",
+        "Confident and unafraid",
+        "Angry at being disturbed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 53,
+        "end": 124
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-lion-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Fox feel during the second meeting compared to the first?",
+      "options": [
+        "Just as terrified as the first time",
+        "Completely unafraid already",
+        "More frightened than the first time",
+        "Still frightened, but not nearly as much as before"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 139,
+        "end": 249
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-lion-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Fox behave during the third meeting?",
+      "options": [
+        "He runs away as fast as he can",
+        "He goes up to the Lion and talks to him as if he had known him all his life",
+        "He hides until the Lion leaves",
+        "He remains cautious but does not flee"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 327,
+        "end": 405
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-lion-f5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Fox's fear decrease with each meeting?",
+      "options": [
+        "The Lion becomes physically smaller each time they meet",
+        "The Fox is told by other animals that the Lion is harmless",
+        "Repeated exposure to the Lion makes the once-unfamiliar creature feel less threatening",
+        "The Lion promises the Fox he will not attack him"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 161,
+        "end": 249
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-lion-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Fox's behavior by the third meeting suggest about the nature of fear itself?",
+      "options": [
+        "Familiarity can wear away a fear that once felt overwhelming",
+        "Fear only disappears once the feared thing is defeated",
+        "Fear always returns to its original intensity eventually",
+        "Fear cannot be reduced no matter how often it is faced"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 290,
+        "end": 405
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-lion-f7",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"terrified\" mean in \"so terrified at the sight of him\"?",
+      "options": [
+        "Mildly curious",
+        "Deeply confused",
+        "Slightly annoyed",
+        "Extremely frightened"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 53,
+        "end": 89
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-lion-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Lions are naturally less dangerous than most animals believe",
+        "Growing used to something frightening can gradually take away the fear it once caused",
+        "Fear should always be trusted no matter how many times it is felt",
+        "Foxes are braver than most other animals in the forest"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 290,
+        "end": 405
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-lion-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many times does the Fox meet the Lion in total?",
+      "options": [
+        "Two times",
+        "Once only",
+        "Three times",
+        "Four times"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 255,
+        "end": 289
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-lion-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox do at the third meeting that he had not done before?",
+      "options": [
+        "He approaches and talks to the Lion",
+        "He offers the Lion a gift",
+        "He asks the Lion for help",
+        "He warns the Lion of danger"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 327,
+        "end": 369
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-lion-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how is the Fox's fear at the second meeting described?",
+      "options": [
+        "Completely gone already",
+        "Worse than the first meeting",
+        "Unchanged from the first meeting",
+        "Still rather frightened, but less so than before"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 161,
+        "end": 249
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-lion-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the phrase \"as if he had known him all his life\" suggest about how quickly the Fox's attitude changed?",
+      "options": [
+        "He genuinely believed he had met the Lion before as a child",
+        "His comfort became so complete that it seemed like a lifelong familiarity rather than a recent change",
+        "He was pretending to be unafraid while still secretly terrified",
+        "He had actually known the Lion's family for many years"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 349,
+        "end": 405
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-lion-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what general truth about first encounters does the Fox's experience illustrate?",
+      "options": [
+        "First encounters with any animal are always dangerous",
+        "Lions are more dangerous the more times you meet them",
+        "The unfamiliar often seems more frightening than it truly is once you become accustomed to it",
+        "Fear is a permanent and unchangeable reaction"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 31
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-lion-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Fox was \"ready to die with fear\"?",
+      "options": [
+        "He was overwhelmed by an extreme level of fright",
+        "He was willing to fight the Lion to the death",
+        "He was calmly accepting of any danger",
+        "He was only slightly nervous about the encounter"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 95,
+        "end": 124
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-lion-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Fox remains equally terrified of the Lion at every meeting",
+        "A Fox and a Lion become enemies after their first encounter",
+        "A Lion teaches the Fox not to be afraid of him",
+        "A Fox's terror of a Lion fades with repeated meetings until he feels completely at ease"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 290,
+        "end": 405
+      },
+      "pool": "retest"
+    }
+  ]
+}
