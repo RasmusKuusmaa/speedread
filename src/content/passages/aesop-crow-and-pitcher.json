@@ -1,0 +1,323 @@
+{
+  "id": "aesop-crow-and-pitcher",
+  "title": "The Crow and the Pitcher",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A thirsty Crow found a Pitcher with some water in it, but so little was there that, try as she might, she could not reach it with her beak, and it seemed as though she would die of thirst within sight of the remedy. At last she hit upon a clever plan. She began dropping pebbles into the Pitcher, and with each pebble the water rose a little higher until at last it reached the brim, and the knowing bird was enabled to quench her thirst.",
+    "Necessity is the mother of invention."
+  ],
+  "questions": [
+    {
+      "id": "aesop-crow-and-pitcher-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the thirsty Crow find?",
+      "options": [
+        "A stream running through a field",
+        "A bowl of pebbles beside a road",
+        "A Pitcher with some water in it",
+        "A well with a broken rope"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 52
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-pitcher-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why can't the Crow drink the water at first?",
+      "options": [
+        "There is too little water for her beak to reach",
+        "The Pitcher is sealed with a lid",
+        "The water is too hot to drink",
+        "Another bird is guarding the Pitcher"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 58,
+        "end": 138
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-pitcher-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Crow begin dropping into the Pitcher?",
+      "options": [
+        "Twigs",
+        "Leaves",
+        "Seeds",
+        "Pebbles"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 252,
+        "end": 295
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-pitcher-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the water level with each pebble dropped in?",
+      "options": [
+        "It stays exactly the same",
+        "It rises a little higher",
+        "It splashes out of the Pitcher",
+        "It turns cloudy and undrinkable"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 301,
+        "end": 348
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-pitcher-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Crow finally able to do once the water reaches the brim?",
+      "options": [
+        "Fly away with the Pitcher",
+        "Wash the pebbles clean",
+        "Quench her thirst",
+        "Share the water with other birds"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 388,
+        "end": 437
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-pitcher-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Crow choose to drop pebbles into the Pitcher rather than give up?",
+      "options": [
+        "She works out that raising the water level will let her reach it",
+        "She hopes the pebbles will break the Pitcher open",
+        "She is trying to hide the water from other birds",
+        "She wants to test how deep the Pitcher is"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 224,
+        "end": 250
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-pitcher-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Crow's success suggest about facing a difficult problem?",
+      "options": [
+        "Only the strongest creatures can solve difficult problems",
+        "Waiting patiently is always the safest solution",
+        "Asking for help is faster than working alone",
+        "Careful thinking can find a way around an obstacle that brute force cannot"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 216,
+        "end": 250
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-pitcher-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the water rose to the \"brim\"?",
+      "options": [
+        "The bottom of the Pitcher",
+        "The very top edge of the Pitcher",
+        "A crack along the side of the Pitcher",
+        "The narrow part of the Pitcher's neck"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 349,
+        "end": 382
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-pitcher-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the bird was \"enabled\" to quench her thirst?",
+      "options": [
+        "She was forbidden from doing it",
+        "She was forced to do it quickly",
+        "She was made able to do it",
+        "She was reminded to do it later"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 388,
+        "end": 437
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-pitcher-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "A real need can push someone to invent a clever solution",
+        "Birds are cleverer than most other animals",
+        "Pebbles are more useful than most people realize",
+        "Patience alone is enough to solve any problem"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 37
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-pitcher-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Crow risk if she cannot reach the water?",
+      "options": [
+        "Losing the Pitcher to another bird",
+        "Being unable to fly any farther",
+        "Breaking her beak against the Pitcher",
+        "Dying of thirst within sight of the remedy"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 144,
+        "end": 214
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crow-and-pitcher-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what part of the Crow's body cannot reach the water at first?",
+      "options": [
+        "Her wing",
+        "Her beak",
+        "Her foot",
+        "Her tail"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 102,
+        "end": 138
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crow-and-pitcher-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Crow described as once she solves the problem?",
+      "options": [
+        "The frightened bird",
+        "The wandering bird",
+        "The knowing bird",
+        "The sleeping bird"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 388,
+        "end": 437
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crow-and-pitcher-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does dropping in pebbles work as a solution at all?",
+      "options": [
+        "Each pebble takes up space and pushes the water level upward",
+        "The pebbles dissolve and thicken the water",
+        "The pebbles frighten the water to the surface",
+        "The pebbles crack the Pitcher so water leaks out"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 301,
+        "end": 348
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crow-and-pitcher-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Crow's persistence with the pebbles show about her character?",
+      "options": [
+        "She is easily distracted from her goal",
+        "She prefers to rely on luck rather than effort",
+        "She is unwilling to try anything unfamiliar",
+        "She keeps working at the problem instead of giving up"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 252,
+        "end": 295
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crow-and-pitcher-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"quench\" mean in \"quench her thirst\"?",
+      "options": [
+        "To increase or make stronger",
+        "To satisfy or put an end to",
+        "To hide or cover up",
+        "To measure or count exactly"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 420,
+        "end": 437
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crow-and-pitcher-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Crow spills a Pitcher of water by accident",
+        "A Crow gives up trying to reach water in a Pitcher",
+        "A thirsty Crow raises the water level with pebbles until she can drink",
+        "A Crow shares her water with a passing traveller"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 52
+      },
+      "pool": "retest"
+    }
+  ]
+}
