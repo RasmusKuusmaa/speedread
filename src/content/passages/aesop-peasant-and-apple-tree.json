@@ -1,0 +1,325 @@
+{
+  "id": "aesop-peasant-and-apple-tree",
+  "title": "The Peasant and the Apple-Tree",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Peasant had an Apple-tree growing in his garden, which bore no fruit, but merely served to provide a shelter from the heat for the sparrows and grasshoppers which sat and chirped in its branches. Disappointed at its barrenness he determined to cut it down, and went and fetched his axe for the purpose.",
+    "But when the sparrows and the grasshoppers saw what he was about to do, they begged him to spare it, and said to him, \"If you destroy the tree we shall have to seek shelter elsewhere, and you will no longer have our merry chirping to enliven your work in the garden.\" He, however, refused to listen to them, and set to work with a will to cut through the trunk.",
+    "A few strokes showed that it was hollow inside and contained a swarm of bees and a large store of honey. Delighted with his find he threw down his axe, saying, \"The old tree is worth keeping after all.\"",
+    "Utility is most men's test of worth."
+  ],
+  "questions": [
+    {
+      "id": "aesop-peasant-and-apple-tree-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what problem does the Peasant have with his Apple-tree?",
+      "options": [
+        "It grew too tall for the garden",
+        "It attracted too many insects",
+        "It bore no fruit",
+        "It blocked the sunlight from other plants"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 51,
+        "end": 70
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-peasant-and-apple-tree-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the tree provide for the sparrows and grasshoppers?",
+      "options": [
+        "A shelter from the heat",
+        "A source of food to eat",
+        "A safe place to lay eggs",
+        "Protection from other birds"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 76,
+        "end": 158
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-peasant-and-apple-tree-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Peasant decide to do about the barren tree?",
+      "options": [
+        "Sell it to a neighbor",
+        "Replant it elsewhere",
+        "Wait another year to see if it bears fruit",
+        "Cut it down"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 229,
+        "end": 257
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-peasant-and-apple-tree-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the sparrows and grasshoppers beg the Peasant to do?",
+      "options": [
+        "Plant a new tree nearby",
+        "Spare the tree",
+        "Water the tree more often",
+        "Wait until winter to decide"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 72,
+        "end": 99
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-peasant-and-apple-tree-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the creatures say they will lose if the tree is cut down?",
+      "options": [
+        "Their only source of food in the garden",
+        "Their nesting grounds for the whole year",
+        "Their shelter and a place to enliven his work with their chirping",
+        "Their protection from predators nearby"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 143,
+        "end": 265
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-peasant-and-apple-tree-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Peasant discover once he strikes a few blows with his axe?",
+      "options": [
+        "That the tree is hollow and contains bees and a store of honey",
+        "That the tree's roots are far deeper than expected",
+        "That another animal is living inside the trunk",
+        "That the wood is too hard to cut through easily"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 26,
+        "end": 103
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-peasant-and-apple-tree-f7",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Peasant say once he finds the honey?",
+      "options": [
+        "\"I should have listened to the sparrows.\"",
+        "\"This changes nothing about my plan.\"",
+        "\"I will share this honey with the birds.\"",
+        "\"The old tree is worth keeping after all.\""
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 161,
+        "end": 200
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-peasant-and-apple-tree-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Peasant ignore the pleas of the sparrows and grasshoppers?",
+      "options": [
+        "He believes the animals are lying about needing shelter",
+        "He does not value shelter and chirping as a real benefit worth keeping the tree for",
+        "He plans to replant a better tree in its place immediately",
+        "He has already found a buyer for the wood"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 268,
+        "end": 306
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-peasant-and-apple-tree-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"barrenness\" mean in \"Disappointed at its barrenness\"?",
+      "options": [
+        "The tree's unusually small size",
+        "The tree's location in a shaded spot",
+        "The tree's failure to produce fruit",
+        "The tree's damaged and diseased bark"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 198,
+        "end": 228
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-peasant-and-apple-tree-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "People often judge something's worth only by the practical benefit it brings them",
+        "Trees should always be judged by the fruit they bear",
+        "Animals are better judges of a tree's true value than people",
+        "Honey is more valuable than any fruit a tree could produce"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 0,
+        "end": 36
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-peasant-and-apple-tree-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what tool does the Peasant fetch to cut down the tree?",
+      "options": [
+        "A saw",
+        "A hatchet",
+        "A large knife",
+        "His axe"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 263,
+        "end": 303
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-peasant-and-apple-tree-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what two kinds of creatures beg the Peasant to spare the tree?",
+      "options": [
+        "Bees and butterflies",
+        "Sparrows and grasshoppers",
+        "Squirrels and rabbits",
+        "Crickets and beetles"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 4,
+        "end": 70
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-peasant-and-apple-tree-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Peasant do with his axe after finding the honey?",
+      "options": [
+        "He sharpens it further",
+        "He gives it to a neighbor",
+        "He throws it down",
+        "He hides it in the garden"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 129,
+        "end": 150
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-peasant-and-apple-tree-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what changes the Peasant's mind about the tree so suddenly?",
+      "options": [
+        "Discovering a valuable, practical benefit hidden inside it",
+        "Feeling guilty after hearing the animals' plea",
+        "Noticing that the tree had begun to grow fruit",
+        "Being warned by a neighbor not to cut it down"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 103
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-peasant-and-apple-tree-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is ironic about the reason the Peasant ultimately decides to keep the tree?",
+      "options": [
+        "It is exactly the reason the sparrows and grasshoppers had originally given",
+        "It requires him to replant the tree somewhere else",
+        "It means he must now cut down a different tree instead",
+        "It has nothing to do with the shelter and chirping the animals had pleaded for"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 161,
+        "end": 200
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-peasant-and-apple-tree-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"enliven\" mean in \"enliven your work in the garden\"?",
+      "options": [
+        "To make more difficult or tiring",
+        "To make more lively or cheerful",
+        "To make more expensive to complete",
+        "To make quieter and less noticeable"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 234,
+        "end": 265
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-peasant-and-apple-tree-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Peasant cuts down the tree despite the animals' pleas and regrets it afterward",
+        "A Peasant plants a new apple tree after removing the old one",
+        "A Peasant plans to cut down a fruitless tree but spares it once he discovers honey hidden inside",
+        "A Peasant shares the tree's shelter equally with all the animals in his garden"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 161,
+        "end": 200
+      },
+      "pool": "retest"
+    }
+  ]
+}
