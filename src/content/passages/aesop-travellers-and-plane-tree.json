@@ -1,0 +1,324 @@
+{
+  "id": "aesop-travellers-and-plane-tree",
+  "title": "The Travellers and the Plane-Tree",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Two Travellers were walking along a bare and dusty road in the heat of a summer's day. Coming presently to a Plane-tree, they joyfully turned aside to shelter from the burning rays of the sun in the deep shade of its spreading branches.",
+    "As they rested, looking up into the tree, one of them remarked to his companion, \"What a useless tree the Plane is! It bears no fruit and is of no service to man at all.\" The Plane-tree interrupted him with indignation. \"You ungrateful creature!\" it cried: \"you come and take shelter under me from the scorching sun, and then, in the very act of enjoying the cool shade of my foliage, you abuse me and call me good for nothing!\"",
+    "Many a service is met with ingratitude."
+  ],
+  "questions": [
+    {
+      "id": "aesop-travellers-and-plane-tree-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what kind of road are the two Travellers walking along?",
+      "options": [
+        "A wide, paved highway",
+        "A narrow forest path",
+        "A bare and dusty road",
+        "A muddy road after rain"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 20,
+        "end": 85
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-travellers-and-plane-tree-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why do the Travellers turn aside to the Plane-tree?",
+      "options": [
+        "To shelter from the burning rays of the sun",
+        "To pick its fruit for their journey",
+        "To rest their feet after a long climb",
+        "To wait out a sudden storm"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 121,
+        "end": 191
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-travellers-and-plane-tree-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does one Traveller say about the Plane-tree?",
+      "options": [
+        "That it is the tallest tree they have ever seen",
+        "That it should be cut down to widen the road",
+        "That its shade is too thin to be worth stopping for",
+        "That it is useless, bears no fruit, and is of no service to man"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 82,
+        "end": 168
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-travellers-and-plane-tree-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Plane-tree react to the remark?",
+      "options": [
+        "It remains silent, unaffected by the words",
+        "It interrupts him with indignation",
+        "It sheds its leaves in protest",
+        "It agrees that it is not very useful"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 171,
+        "end": 218
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-travellers-and-plane-tree-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Plane-tree call the Traveller?",
+      "options": [
+        "\"You foolish wanderer!\"",
+        "\"You lazy traveller!\"",
+        "\"You ungrateful creature!\"",
+        "\"You thoughtless stranger!\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 221,
+        "end": 245
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-travellers-and-plane-tree-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Traveller doing at the very moment he insults the tree?",
+      "options": [
+        "Enjoying the cool shade of its foliage",
+        "Climbing up into its branches",
+        "Carving his name into its trunk",
+        "Walking away from it entirely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 327,
+        "end": 383
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-travellers-and-plane-tree-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Plane-tree find the Traveller's remark especially unfair?",
+      "options": [
+        "He has never actually rested beneath the tree before",
+        "He is speaking to a different tree by mistake",
+        "He does not realize the tree can understand him",
+        "He is benefiting from its shade at the exact moment he insults it"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 258,
+        "end": 397
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-travellers-and-plane-tree-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Traveller overlook when judging the Plane-tree's usefulness?",
+      "options": [
+        "The tree might bear fruit later in the season",
+        "Shade and shelter can be a valuable service, even without producing fruit",
+        "The tree was planted specifically to give shade to travellers",
+        "The road would be impassable without the tree nearby"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 121,
+        "end": 191
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-travellers-and-plane-tree-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"indignation\" mean in \"interrupted him with indignation\"?",
+      "options": [
+        "Confusion about what was said",
+        "Sadness at being misunderstood",
+        "Anger at being treated unfairly",
+        "Amusement at a joke"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 171,
+        "end": 218
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-travellers-and-plane-tree-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "A helpful act can still be met with thanklessness from the very person who benefits from it",
+        "Trees that bear no fruit provide no real value to travellers",
+        "Travellers should never rest under trees they do not recognize",
+        "Shade is less valuable than fruit in every circumstance"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 39
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-travellers-and-plane-tree-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what were the Travellers seeking relief from?",
+      "options": [
+        "A sudden downpour of rain",
+        "A swarm of biting insects",
+        "The noise of a nearby crowd",
+        "The burning rays of the sun"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 148,
+        "end": 191
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-travellers-and-plane-tree-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what were the Travellers doing as one of them made his remark?",
+      "options": [
+        "Arguing about which road to take",
+        "Resting and looking up into the tree",
+        "Searching the ground for fallen fruit",
+        "Preparing to continue walking at once"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 40
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-travellers-and-plane-tree-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what two things does the Traveller say the Plane-tree lacks?",
+      "options": [
+        "Height and strong branches",
+        "Shade and cool leaves",
+        "Fruit and service to man",
+        "Roots and a straight trunk"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 116,
+        "end": 168
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-travellers-and-plane-tree-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Plane-tree's outburst be considered a fair response rather than an overreaction?",
+      "options": [
+        "The insult comes directly from someone actively benefiting from the tree at that moment",
+        "The tree has been insulted by many travellers before this one",
+        "The Traveller threatens to cut the tree down as he speaks",
+        "The tree has no other way of communicating its feelings"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 258,
+        "end": 426
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-travellers-and-plane-tree-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what standard is the Traveller mistakenly using to judge the tree's worth?",
+      "options": [
+        "How tall and old the tree appears to be",
+        "Whether other travellers have praised the tree before",
+        "How far the tree is from the nearest town",
+        "Whether it produces something to eat, ignoring the shelter it provides"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 116,
+        "end": 168
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-travellers-and-plane-tree-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"foliage\" mean in \"the cool shade of my foliage\"?",
+      "options": [
+        "Roots beneath the soil",
+        "Leaves and leafy branches",
+        "Fruit growing on a tree",
+        "Bark covering a trunk"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 355,
+        "end": 383
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-travellers-and-plane-tree-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "Two Travellers argue over which tree gives the best shade",
+        "A Plane-tree refuses to shelter the Travellers from the sun",
+        "A Plane-tree scolds a Traveller for calling it useless while he enjoys its shade",
+        "A Traveller apologizes to the tree before continuing his journey"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 221,
+        "end": 245
+      },
+      "pool": "retest"
+    }
+  ]
+}
