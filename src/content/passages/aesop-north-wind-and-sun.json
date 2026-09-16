@@ -1,0 +1,323 @@
+{
+  "id": "aesop-north-wind-and-sun",
+  "title": "The North Wind and the Sun",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A dispute arose between the North Wind and the Sun, each claiming that he was stronger than the other. At last they agreed to try their powers upon a traveller, to see which could soonest strip him of his cloak. The North Wind had the first try; and, gathering up all his force for the attack, he came whirling furiously down upon the man, and caught up his cloak as though he would wrest it from him by one single effort: but the harder he blew, the more closely the man wrapped it round himself. Then came the turn of the Sun. At first he beamed gently upon the traveller, who soon unclasped his cloak and walked on with it hanging loosely about his shoulders: then he shone forth in his full strength, and the man, before he had gone many steps, was glad to throw his cloak right off and complete his journey more lightly clad.",
+    "Persuasion is better than force"
+  ],
+  "questions": [
+    {
+      "id": "aesop-north-wind-and-sun-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the North Wind and the Sun disagree about?",
+      "options": [
+        "Which of them rises first",
+        "Which of them the traveller likes best",
+        "Which of them is stronger",
+        "Which of them can travel faster"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 52,
+        "end": 101
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-north-wind-and-sun-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the North Wind and the Sun agree to test on the traveller?",
+      "options": [
+        "Which could soonest strip him of his cloak",
+        "Which could make him walk fastest",
+        "Which could make him fall asleep",
+        "Which could guess where he was going"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 161,
+        "end": 210
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-north-wind-and-sun-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who takes the first try at the contest?",
+      "options": [
+        "The Sun",
+        "The traveller himself",
+        "Neither one; they go together",
+        "The North Wind"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 212,
+        "end": 244
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-north-wind-and-sun-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the traveller do as the North Wind blows harder?",
+      "options": [
+        "He takes his cloak off at once",
+        "He wraps his cloak more closely around himself",
+        "He runs back the way he came",
+        "He asks the Sun for help"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 447,
+        "end": 496
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-north-wind-and-sun-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Sun do at first, before shining in full strength?",
+      "options": [
+        "He hides behind a cloud",
+        "He asks the North Wind to stop",
+        "He beams gently upon the traveller",
+        "He waits for the man to sit down"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 529,
+        "end": 573
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-north-wind-and-sun-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the traveller finally do once the Sun shines in full strength?",
+      "options": [
+        "He throws his cloak right off",
+        "He wraps his cloak tighter than before",
+        "He asks the Sun to stop shining",
+        "He sits down and refuses to move"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 749,
+        "end": 786
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-north-wind-and-sun-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the North Wind's attack fail to remove the cloak?",
+      "options": [
+        "The traveller is too strong for the wind to affect",
+        "The cloak is tied down and cannot be lifted",
+        "The North Wind loses interest before finishing",
+        "Its force makes the traveller hold the cloak tighter for protection"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 423,
+        "end": 496
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-north-wind-and-sun-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the traveller eventually remove his cloak for the Sun?",
+      "options": [
+        "He wants to dry the cloak in the light",
+        "The growing warmth makes the cloak uncomfortable to wear",
+        "He is following the North Wind's advice",
+        "He is copying what other travellers have done"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 668,
+        "end": 716
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-north-wind-and-sun-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the North Wind tried to \"wrest\" the cloak from the man?",
+      "options": [
+        "To fold it neatly for him",
+        "To warm it before returning it",
+        "To pull it away from him by force",
+        "To ask politely if he could borrow it"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 383,
+        "end": 421
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-north-wind-and-sun-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "Gentle persuasion can succeed where force fails",
+        "The strongest force always wins a contest",
+        "Travellers should never wear cloaks in windy weather",
+        "The Sun and the North Wind should never compete"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 31
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-north-wind-and-sun-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the North Wind approach the traveller?",
+      "options": [
+        "Circling slowly around him",
+        "Blowing gently at first",
+        "Waiting until he sits down",
+        "Whirling furiously down upon him"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 294,
+        "end": 338
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-north-wind-and-sun-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the traveller do once the Sun first beams gently on him?",
+      "options": [
+        "He wraps his cloak tighter around himself",
+        "He unclasps his cloak and lets it hang loosely",
+        "He falls asleep in the warmth",
+        "He begins to run down the road"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 575,
+        "end": 661
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-north-wind-and-sun-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what had the North Wind and the Sun been disputing about before the contest?",
+      "options": [
+        "Which of them the traveller feared more",
+        "Which of them could be seen from farther away",
+        "Which of them was stronger than the other",
+        "Which of them had existed for longer"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 101
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-north-wind-and-sun-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the traveller's changing behavior across the contest show?",
+      "options": [
+        "People often resist force but respond to gentleness",
+        "People always keep their cloaks on no matter what",
+        "The traveller could not decide what to wear",
+        "The traveller disliked both the wind and the sun"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 447,
+        "end": 496
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-north-wind-and-sun-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Sun's approach be described as gradual rather than sudden?",
+      "options": [
+        "He shines at full strength from the very first moment",
+        "He waits for the North Wind to finish before starting",
+        "He asks the traveller for permission before beginning",
+        "He starts by beaming gently before shining in full strength"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 529,
+        "end": 573
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-north-wind-and-sun-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"clad\" mean in the phrase \"more lightly clad\"?",
+      "options": [
+        "Walking at a steady pace",
+        "Dressed or covered in clothing",
+        "Feeling the warmth of the sun",
+        "Standing still in one place"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 791,
+        "end": 829
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-north-wind-and-sun-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "The North Wind and the Sun both fail to move the traveller",
+        "The traveller removes his cloak to help the North Wind win",
+        "The Sun succeeds where the North Wind's force had failed",
+        "The Sun and the North Wind decide to call off their contest"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 749,
+        "end": 829
+      },
+      "pool": "retest"
+    }
+  ]
+}
