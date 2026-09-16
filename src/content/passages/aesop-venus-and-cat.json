@@ -1,0 +1,323 @@
+{
+  "id": "aesop-venus-and-cat",
+  "title": "Venus and the Cat",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Cat fell in love with a handsome young man, and begged the goddess Venus to change her into a woman. Venus was very gracious about it, and changed her at once into a beautiful maiden, whom the young man fell in love with at first sight and shortly afterwards married.",
+    "One day Venus thought she would like to see whether the Cat had changed her habits as well as her form; so she let a mouse run loose in the room where they were. Forgetting everything, the young woman had no sooner seen the mouse than up she jumped and was after it like a shot: at which the goddess was so disgusted that she changed her back again into a Cat."
+  ],
+  "questions": [
+    {
+      "id": "aesop-venus-and-cat-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Cat beg Venus to do?",
+      "options": [
+        "Give her the young man's love directly",
+        "Make the young man immortal",
+        "Change her into a woman",
+        "Teach her how to speak"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 50,
+        "end": 101
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-venus-and-cat-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does Venus respond to the Cat's request?",
+      "options": [
+        "She is gracious and changes her at once into a beautiful maiden",
+        "She refuses, saying cats cannot become human",
+        "She agrees only on the condition that the Cat never chases mice again",
+        "She asks the young man for his permission first"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 103,
+        "end": 184
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-venus-and-cat-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens between the young man and the transformed Cat?",
+      "options": [
+        "He is suspicious of her from the very start",
+        "He refuses to meet her despite Venus's efforts",
+        "He marries someone else instead",
+        "He falls in love with her at first sight and marries her"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 186,
+        "end": 268
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-venus-and-cat-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Venus want to test one day?",
+      "options": [
+        "Whether the young man still loved his wife",
+        "Whether the Cat had changed her habits as well as her form",
+        "Whether the Cat could still speak her original language",
+        "Whether the marriage would last a full year"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 22,
+        "end": 102
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-venus-and-cat-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Venus let loose in the room to test the transformed Cat?",
+      "options": [
+        "A small bird",
+        "A ball of yarn",
+        "A mouse",
+        "A basket of fish"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 107,
+        "end": 160
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-venus-and-cat-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the young woman do the moment she sees the mouse?",
+      "options": [
+        "She jumps up and is after it like a shot",
+        "She screams and runs from the room",
+        "She calmly picks it up and sets it free",
+        "She calls for her husband to catch it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 235,
+        "end": 277
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-venus-and-cat-f7",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Venus do after seeing the woman chase the mouse?",
+      "options": [
+        "She scolds her but allows her to remain human",
+        "She asks the young man to forgive his wife",
+        "She removes the mouse and says nothing more",
+        "She changes her back again into a Cat"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 288,
+        "end": 359
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-venus-and-cat-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Venus decide to test the Cat rather than simply trust the transformation?",
+      "options": [
+        "She wants to see if the young man still loves his wife",
+        "She suspects that changing appearance does not necessarily change deeper instincts",
+        "She wants an excuse to reverse a decision she regrets",
+        "She is bored and looking for entertainment"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 22,
+        "end": 102
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-venus-and-cat-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"gracious\" mean in \"Venus was very gracious about it\"?",
+      "options": [
+        "Suspicious and reluctant",
+        "Confused and uncertain",
+        "Kind and willing to help",
+        "Angry and offended"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 103,
+        "end": 135
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-venus-and-cat-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "A change in outward form does not necessarily change one's underlying instincts",
+        "Goddesses should never grant wishes to animals",
+        "Marriages between different kinds of creatures cannot succeed",
+        "Mice are more tempting to cats than any other creature"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 162,
+        "end": 277
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-venus-and-cat-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Cat first want to become a woman?",
+      "options": [
+        "She wants to escape a life of being hunted",
+        "She wants to live inside a warm house",
+        "She is curious about human customs",
+        "She has fallen in love with a handsome young man"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 44
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-venus-and-cat-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how quickly does the young man fall in love with the transformed Cat?",
+      "options": [
+        "Only after many months",
+        "At first sight",
+        "After a long courtship",
+        "Only once she proved herself trustworthy"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 186,
+        "end": 237
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-venus-and-cat-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the young woman forget the moment she sees the mouse?",
+      "options": [
+        "Her husband's name",
+        "Her manners at the table",
+        "Everything",
+        "Her promise to Venus"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 162,
+        "end": 229
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-venus-and-cat-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the phrase \"like a shot\" suggest about the woman's reaction to the mouse?",
+      "options": [
+        "It was instant and instinctive, without any thought at all",
+        "It was slow and carefully considered",
+        "It was performed only to please her husband",
+        "It was staged to test Venus's reaction"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 253,
+        "end": 277
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-venus-and-cat-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is Venus \"disgusted\" rather than simply amused by what she sees?",
+      "options": [
+        "It shows that the young man no longer loves his wife",
+        "It reveals that the mouse was actually another disguised creature",
+        "It proves that the marriage was a mistake from the beginning",
+        "It confirms that her gift of transformation did not truly change the Cat's nature"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 288,
+        "end": 359
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-venus-and-cat-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"maiden\" mean in \"a beautiful maiden\"?",
+      "options": [
+        "A goddess in disguise",
+        "A young woman",
+        "A servant in a household",
+        "A skilled dancer"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 141,
+        "end": 184
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-venus-and-cat-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Cat marries a young man and lives happily ever after as a woman",
+        "Venus refuses to ever grant the Cat's wish",
+        "A Cat turned into a woman reveals her true nature by chasing a mouse, so Venus undoes the change",
+        "The young man discovers his wife was once a cat and leaves her"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 288,
+        "end": 359
+      },
+      "pool": "retest"
+    }
+  ]
+}
