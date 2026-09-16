@@ -20,6 +20,7 @@ import aesopMilkmaidAndHerPail from "./aesop-milkmaid-and-her-pail.json";
 import aesopMischievousDog from "./aesop-mischievous-dog.json";
 import aesopNorthWindAndSun from "./aesop-north-wind-and-sun.json";
 import aesopOakAndReeds from "./aesop-oak-and-reeds.json";
+import aesopOldWomanAndDoctor from "./aesop-old-woman-and-doctor.json";
 import aesopShepherdsBoyAndWolf from "./aesop-shepherds-boy-and-wolf.json";
 import aliceDownTheRabbitHole from "./alice-down-the-rabbit-hole.json";
 import aristotleNicomacheanVirtueHabit from "./aristotle-nicomachean-virtue-habit.json";
@@ -213,6 +214,7 @@ export const rawPassages: unknown[] = [
   aesopMischievousDog,
   aesopNorthWindAndSun,
   aesopOakAndReeds,
+  aesopOldWomanAndDoctor,
   aesopShepherdsBoyAndWolf,
   bruceAndTheSpider,
   aliceDownTheRabbitHole,

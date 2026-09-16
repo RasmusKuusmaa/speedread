@@ -1,0 +1,325 @@
+{
+  "id": "aesop-old-woman-and-doctor",
+  "title": "The Old Woman and the Doctor",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "An Old Woman became almost totally blind from a disease of the eyes, and, after consulting a Doctor, made an agreement with him in the presence of witnesses that she should pay him a high fee if he cured her, while if he failed he was to receive nothing.",
+    "The Doctor accordingly prescribed a course of treatment, and every time he paid her a visit he took away with him some article out of the house, until at last, when he visited her for the last time, and the cure was complete, there was nothing left.",
+    "When the Old Woman saw that the house was empty she refused to pay him his fee; and, after repeated refusals on her part, he sued her before the magistrates for payment of her debt.",
+    "On being brought into court she was ready with her defence. \"The claimant,\" said she, \"has stated the facts about our agreement correctly. I undertook to pay him a fee if he cured me, and he, on his part, promised to charge nothing if he failed. Now, he says I am cured; but I say that I am blinder than ever, and I can prove what I say. When my eyes were bad I could at any rate see well enough to be aware that my house contained a certain amount of furniture and other things; but now, when according to him I am cured, I am entirely unable to see anything there at all.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-old-woman-and-doctor-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what condition does the Old Woman suffer from?",
+      "options": [
+        "A broken leg from a fall",
+        "A fever that will not break",
+        "Almost total blindness from a disease of the eyes",
+        "A loss of hearing in both ears"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 13,
+        "end": 67
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-woman-and-doctor-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Old Woman agree to pay the Doctor if he cures her?",
+      "options": [
+        "A high fee",
+        "Half of her furniture",
+        "A small daily wage",
+        "Nothing at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 157,
+        "end": 207
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-woman-and-doctor-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Doctor take with him during each visit?",
+      "options": [
+        "A payment in gold coins",
+        "A sample of her medicine",
+        "A written record of her progress",
+        "Some article out of the house"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 92,
+        "end": 143
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-woman-and-doctor-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Old Woman do once she sees the house is empty?",
+      "options": [
+        "She pays him immediately as agreed",
+        "She refuses to pay the Doctor his fee",
+        "She asks him to return one last time",
+        "She reports the missing items to the magistrates herself"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 48,
+        "end": 78
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-woman-and-doctor-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Doctor do after repeated refusals to pay him?",
+      "options": [
+        "He returns all the items he took",
+        "He lowers the fee he originally asked for",
+        "He sues her before the magistrates",
+        "He asks a neighbor to persuade her"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 122,
+        "end": 180
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-woman-and-doctor-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Old Woman claim about her eyesight in court?",
+      "options": [
+        "That she is blinder than ever",
+        "That her eyes were never actually bad",
+        "That she can see better than before",
+        "That she never agreed to any fee"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 275,
+        "end": 308
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-woman-and-doctor-f7",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what could the Old Woman see even when her eyes were bad?",
+      "options": [
+        "The exact number of visits the Doctor made",
+        "The color of the Doctor's coat",
+        "The words written in their agreement",
+        "That her house contained a certain amount of furniture and other things"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 360,
+        "end": 478
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-woman-and-doctor-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is the Old Woman's clever argument in court really pointing out?",
+      "options": [
+        "That the magistrates have no right to hear the case",
+        "That the empty house is proof the Doctor has not actually cured her",
+        "That the Doctor never visited her at all",
+        "That she never had any furniture to begin with"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 489,
+        "end": 572
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-woman-and-doctor-f9",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Doctor keep taking items from the house instead of asking for payment directly?",
+      "options": [
+        "He believes the items will help cure her more effectively",
+        "He is storing the items safely until she recovers",
+        "He is quietly helping himself to payment while the treatment continues",
+        "He is following instructions left by her family"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 61,
+        "end": 143
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-woman-and-doctor-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "A clever argument can expose someone who is quietly cheating you",
+        "Doctors should never be paid until years after treatment",
+        "Blind people cannot be trusted to manage their own homes",
+        "Going to court always favors the wealthier party"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 271,
+        "end": 336
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-old-woman-and-doctor-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in whose presence is the agreement between the Old Woman and the Doctor made?",
+      "options": [
+        "The local magistrates",
+        "Her own family members",
+        "A group of other doctors",
+        "Witnesses"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 101,
+        "end": 156
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-old-woman-and-doctor-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Doctor to receive if he failed to cure her?",
+      "options": [
+        "Half of the agreed fee",
+        "Nothing",
+        "A smaller fixed payment",
+        "Whatever items remained in the house"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 215,
+        "end": 253
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-old-woman-and-doctor-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when was the house completely empty?",
+      "options": [
+        "On the very first visit he ever made",
+        "Only after the court case had ended",
+        "When he visited her for the last time, and the cure was complete",
+        "Before the Doctor had even begun treatment"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 160,
+        "end": 248
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-old-woman-and-doctor-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Old Woman say the claimant \"has stated the facts about our agreement correctly\"?",
+      "options": [
+        "She wants to base her defence on the terms of the agreement itself, not deny them",
+        "She is trying to avoid answering his claim directly",
+        "She genuinely does not remember the agreement clearly",
+        "She hopes to delay the case by agreeing with him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 61,
+        "end": 137
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-old-woman-and-doctor-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Old Woman's argument suggest about who has truly been dishonest?",
+      "options": [
+        "The Old Woman, who never intended to pay any fee",
+        "The witnesses, who failed to record the agreement properly",
+        "The magistrates, who favored the Doctor from the start",
+        "The Doctor, who profited by emptying her house rather than curing her"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 61,
+        "end": 143
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-old-woman-and-doctor-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"claimant\" mean in the Old Woman's defence?",
+      "options": [
+        "The judge deciding the case",
+        "The person bringing the case, seeking payment",
+        "A witness called to testify",
+        "The lawyer representing her side"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 61,
+        "end": 73
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-old-woman-and-doctor-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A doctor is praised in court for a job well done",
+        "A woman happily pays her doctor his full fee",
+        "A woman uses her empty house as proof that her supposed cure left her worse off",
+        "A doctor returns all the items he had taken"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 523,
+        "end": 572
+      },
+      "pool": "retest"
+    }
+  ]
+}
