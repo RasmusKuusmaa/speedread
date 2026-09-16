@@ -1,0 +1,324 @@
+{
+  "id": "aesop-miser",
+  "title": "The Miser",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Miser sold everything he had, and melted down his hoard of gold into a single lump, which he buried secretly in a field. Every day he went to look at it, and would sometimes spend long hours gloating over his treasure.",
+    "One of his men noticed his frequent visits to the spot, and one day watched him and discovered his secret. Waiting his opportunity, he went one night and dug up the gold and stole it.",
+    "Next day the Miser visited the place as usual, and, finding his treasure gone, fell to tearing his hair and groaning over his loss. In this condition he was seen by one of his neighbours, who asked him what his trouble was. The Miser told him of his misfortune; but the other replied, \"Don't take it so much to heart, my friend; put a brick into the hole, and take a look at it every day: you won't be any worse off than before, for even when you had your gold it was of no earthly use to you.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-miser-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Miser do with his gold?",
+      "options": [
+        "He divides it into many small coins",
+        "He gives it to a bank for safekeeping",
+        "He melts it into a single lump and buries it in a field",
+        "He hides it inside his house"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 36,
+        "end": 121
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-miser-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Miser do every day?",
+      "options": [
+        "He goes to look at the gold and gloats over it",
+        "He adds a little more gold to the pile",
+        "He tells a friend about his treasure",
+        "He digs a new hiding place for it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 123,
+        "end": 219
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-miser-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who discovers the Miser's secret?",
+      "options": [
+        "A neighbour passing by",
+        "His own son",
+        "A stranger from a nearby town",
+        "One of his men"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 54
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-miser-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the man do once he discovers the secret?",
+      "options": [
+        "He reports the Miser to the authorities",
+        "He digs up the gold at night and steals it",
+        "He asks the Miser to share the gold with him",
+        "He warns the Miser that his secret is known"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 132,
+        "end": 182
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-miser-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Miser react to finding his treasure gone?",
+      "options": [
+        "He calmly accepts the loss and moves on",
+        "He immediately suspects his neighbour",
+        "He tears his hair and groans over his loss",
+        "He laughs it off as a minor inconvenience"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 79,
+        "end": 130
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-miser-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the neighbour suggest the Miser do?",
+      "options": [
+        "Put a brick into the hole and look at it every day",
+        "Report the theft to the local authorities",
+        "Search the village for the stolen gold",
+        "Bury a new pile of gold in a safer spot"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 329,
+        "end": 387
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-miser-f7",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the neighbour say the Miser won't be any worse off?",
+      "options": [
+        "Because he can easily earn more gold in the future",
+        "Because the thief will eventually be caught and punished",
+        "Because bricks are worth just as much as gold",
+        "Because the gold was of no earthly use to him even when he had it"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 433,
+        "end": 492
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-miser-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the neighbour's suggestion of a brick meant to comfort, not mock, the Miser?",
+      "options": [
+        "It suggests bricks are actually worth more than gold in the long run",
+        "It points out that the Miser gained no practical benefit from the gold beyond simply looking at it",
+        "It offers the Miser a way to trick the thief into returning the gold",
+        "It proposes that the brick will magically transform back into gold"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 389,
+        "end": 492
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-miser-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"gloating\" mean in \"gloating over his treasure\"?",
+      "options": [
+        "Worrying anxiously about losing something",
+        "Sharing something generously with others",
+        "Looking at something with great, self-satisfied pleasure",
+        "Forgetting about something entirely"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 160,
+        "end": 219
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-miser-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Wealth that is never used provides no real value, whether it exists or not",
+        "Burying gold is always safer than keeping it in a house",
+        "Servants cannot be trusted to keep any secret",
+        "Losing money is always a source of real hardship"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 433,
+        "end": 492
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-miser-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Miser do before burying his gold?",
+      "options": [
+        "He asks his neighbours for advice",
+        "He hires guards to protect it",
+        "He divides it among his family",
+        "He sells everything he had"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 30
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-miser-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when does the man steal the gold?",
+      "options": [
+        "Early in the morning",
+        "At night",
+        "During a festival",
+        "While the Miser was away traveling"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 132,
+        "end": 182
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-miser-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who notices the Miser's distress after the theft?",
+      "options": [
+        "A passing traveller",
+        "His own family members",
+        "One of his neighbours",
+        "The man who stole the gold"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 150,
+        "end": 186
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-miser-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the man wait for an \"opportunity\" before stealing the gold?",
+      "options": [
+        "He needs to find a moment when he won't be caught in the act",
+        "He is unsure whether the gold is truly valuable",
+        "He is waiting for permission from someone else",
+        "He wants to give the Miser one last chance to share it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 107,
+        "end": 182
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-miser-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the neighbour's advice suggest about the true value of the Miser's hoarding?",
+      "options": [
+        "Hoarding wealth is always a wise financial strategy",
+        "The Miser should have hidden the gold somewhere even more secret",
+        "The neighbour secretly wanted the gold for himself",
+        "Hoarding wealth without ever using it provides no more benefit than owning nothing at all"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 389,
+        "end": 492
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-miser-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"hoard\" mean in \"his hoard of gold\"?",
+      "options": [
+        "A small, insignificant amount",
+        "A stored, accumulated supply",
+        "A borrowed sum of money",
+        "A publicly displayed collection"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 36,
+        "end": 65
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-miser-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Miser successfully protects his gold from a thief",
+        "A neighbour helps the Miser recover his stolen gold",
+        "A Miser loses his buried gold to a thief and is told the loss makes no real difference, since he never used the gold anyway",
+        "A Miser decides to spend his gold after nearly losing it"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 433,
+        "end": 492
+      },
+      "pool": "retest"
+    }
+  ]
+}
