@@ -1,0 +1,325 @@
+{
+  "id": "aesop-apes-and-two-travellers",
+  "title": "The Apes and the Two Travellers",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Two men were travelling together, one of whom never spoke the truth, whereas the other never told a lie: and they came in the course of their travels to the land of Apes.",
+    "The King of the Apes, hearing of their arrival, ordered them to be brought before him; and by way of impressing them with his magnificence, he received them sitting on a throne, while the Apes, his subjects, were ranged in long rows on either side of him.",
+    "When the Travellers came into his presence he asked them what they thought of him as a King. The lying Traveller said, \"Sire, every one must see that you are a most noble and mighty monarch.\" \"And what do you think of my subjects?\" continued the King. \"They,\" said the Traveller, \"are in every way worthy of their royal master.\" The Ape was so delighted with his answer that he gave him a very handsome present.",
+    "The other Traveller thought that if his companion was rewarded so splendidly for telling a lie, he himself would certainly receive a still greater reward for telling the truth; so, when the Ape turned to him and said, \"And what, sir, is your opinion?\" he replied, \"I think you are a very fine Ape, and all your subjects are fine Apes too.\" The King of the Apes was so enraged at his reply that he ordered him to be taken away and clawed to death."
+  ],
+  "questions": [
+    {
+      "id": "aesop-apes-and-two-travellers-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how are the two Travellers different from each other?",
+      "options": [
+        "One was rich, while the other was poor",
+        "One knew the land of Apes well, while the other had never visited",
+        "One never spoke the truth, while the other never told a lie",
+        "One traveled by foot, while the other rode a horse"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 34,
+        "end": 103
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-apes-and-two-travellers-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the King of the Apes receive the Travellers?",
+      "options": [
+        "Sitting on a throne, with his subjects ranged in long rows",
+        "Standing at the entrance to greet them personally",
+        "Lying beneath a tree, uninterested in ceremony",
+        "Hidden behind a curtain to observe them first"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 140,
+        "end": 254
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-apes-and-two-travellers-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the lying Traveller say about the King?",
+      "options": [
+        "That he is the wisest king in all the land",
+        "That he should rule over other kingdoms too",
+        "That his throne is the finest ever built",
+        "That he is a most noble and mighty monarch"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 126,
+        "end": 189
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-apes-and-two-travellers-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the lying Traveller say about the King's subjects?",
+      "options": [
+        "That they should be given more respect by outsiders",
+        "That they are in every way worthy of their royal master",
+        "That they resemble their king in wisdom and courage",
+        "That they are the finest subjects in the entire world"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 281,
+        "end": 326
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-apes-and-two-travellers-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the King reward the lying Traveller?",
+      "options": [
+        "He appoints him as an adviser",
+        "He invites him to stay in the palace",
+        "He gives him a very handsome present",
+        "He grants him safe passage through the land"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 329,
+        "end": 410
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-apes-and-two-travellers-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the honest Traveller say when asked his opinion?",
+      "options": [
+        "That the King is a very fine Ape, and his subjects are fine Apes too",
+        "That the King should treat his subjects more kindly",
+        "That he has never seen a stranger kingdom in his travels",
+        "That he prefers not to answer such a question"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 265,
+        "end": 337
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-apes-and-two-travellers-f7",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the King order done to the honest Traveller?",
+      "options": [
+        "To be exiled from the land forever",
+        "To be given a smaller reward than the first Traveller",
+        "To be locked away until he apologized",
+        "To be taken away and clawed to death"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 394,
+        "end": 445
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-apes-and-two-travellers-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the honest Traveller expect an even better reward than his companion?",
+      "options": [
+        "He believes the King specifically prefers criticism to praise",
+        "He assumes that telling the truth will be valued even more than the earlier flattering lie",
+        "He has been told in advance what answer the King wants",
+        "He plans to share his reward with his companion afterward"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 96,
+        "end": 175
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-apes-and-two-travellers-f9",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the King react so differently to the two similar-sounding answers?",
+      "options": [
+        "The first Traveller spoke more clearly than the second",
+        "The King had already decided to punish someone before either answer",
+        "The first answer flatters his vanity, while the second bluntly states what he actually is",
+        "The second Traveller repeated exactly what the first had said"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 340,
+        "end": 445
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-apes-and-two-travellers-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Truth is not always welcomed, especially by those who prefer flattering illusions about themselves",
+        "Kings are always fair judges of what they are told",
+        "Lying is always punished more severely than honesty",
+        "Travellers should avoid speaking to rulers about their own nature"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 340,
+        "end": 445
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-apes-and-two-travellers-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the King want to impress the Travellers with?",
+      "options": [
+        "His wealth of gold",
+        "His army's strength",
+        "His knowledge of foreign lands",
+        "His magnificence"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 91,
+        "end": 138
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-apes-and-two-travellers-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what question does the King ask both Travellers?",
+      "options": [
+        "How long they intended to stay",
+        "What they thought of him as a King",
+        "Where they had traveled from",
+        "Whether they wished to become his subjects"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 43,
+        "end": 91
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-apes-and-two-travellers-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what word does the lying Traveller use to address the King?",
+      "options": [
+        "\"Traveller\"",
+        "\"Stranger\"",
+        "\"Sire\"",
+        "\"Friend\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 120,
+        "end": 144
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-apes-and-two-travellers-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what miscalculation does the honest Traveller make about the King's character?",
+      "options": [
+        "He assumes the King values truth over flattering praise, which turns out to be false",
+        "He assumes the King cannot understand plain language",
+        "He assumes the King will reward both Travellers equally regardless",
+        "He assumes the King already knows he is an Ape"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 96,
+        "end": 175
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-apes-and-two-travellers-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the King's throne and rows of subjects suggest about how he wants to be seen?",
+      "options": [
+        "As an approachable and humble leader",
+        "As someone uninterested in ceremony",
+        "As a king who prefers privacy over display",
+        "As a grand and impressive ruler deserving of praise"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 91,
+        "end": 138
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-apes-and-two-travellers-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"enraged\" mean in \"The King of the Apes was so enraged at his reply\"?",
+      "options": [
+        "Made very curious",
+        "Made extremely angry",
+        "Made deeply sad",
+        "Made pleasantly surprised"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 340,
+        "end": 388
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-apes-and-two-travellers-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "Both Travellers are rewarded equally for their honesty",
+        "The King forgives the honest Traveller after hearing his explanation",
+        "A flattering lie is rewarded richly while an honest truth leads to punishment",
+        "Both Travellers are punished for insulting the King"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 3,
+        "start": 394,
+        "end": 445
+      },
+      "pool": "retest"
+    }
+  ]
+}
