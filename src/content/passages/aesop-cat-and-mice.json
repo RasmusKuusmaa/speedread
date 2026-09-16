@@ -1,0 +1,323 @@
+{
+  "id": "aesop-cat-and-mice",
+  "title": "The Cat and the Mice",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "There was once a house that was overrun with Mice. A Cat heard of this, and said to herself, \"That's the place for me,\" and off she went and took up her quarters in the house, and caught the Mice one by one and ate them. At last the Mice could stand it no longer, and they determined to take to their holes and stay there. \"That's awkward,\" said the Cat to herself: \"the only thing to do is to coax them out by a trick.\" So she considered a while, and then climbed up the wall and let herself hang down by her hind legs from a peg, and pretended to be dead. By and by a Mouse peeped out and saw the Cat hanging there. \"Aha!\" it cried, \"you're very clever, madam, no doubt: but you may turn yourself into a bag of meal hanging there, if you like, yet you won't catch us coming anywhere near you.\"",
+    "If you are wise you won't be deceived by the innocent airs of those whom you have once found to be dangerous."
+  ],
+  "questions": [
+    {
+      "id": "aesop-cat-and-mice-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what problem does the house have at the start?",
+      "options": [
+        "It has no food left in it",
+        "It is falling into disrepair",
+        "It is overrun with Mice",
+        "It has been abandoned by its owner"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 15,
+        "end": 49
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-mice-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Cat do once she moves into the house?",
+      "options": [
+        "She catches the Mice one by one and eats them",
+        "She chases the Mice out into the street",
+        "She befriends the Mice and shares her food",
+        "She waits for the Mice to leave on their own"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 180,
+        "end": 219
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-mice-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Mice decide to do once they can stand it no longer?",
+      "options": [
+        "Leave the house altogether",
+        "Band together and confront the Cat",
+        "Search for a new house to live in",
+        "Take to their holes and stay there"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 268,
+        "end": 321
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-mice-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what trick does the Cat use to try to coax the Mice out?",
+      "options": [
+        "She leaves a trail of food near their holes",
+        "She hangs from a peg and pretends to be dead",
+        "She hides quietly behind the door",
+        "She asks a dog to lure them out for her"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 481,
+        "end": 556
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-mice-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who first notices the Cat hanging from the peg?",
+      "options": [
+        "The house's owner",
+        "Another cat passing by",
+        "A Mouse",
+        "A bird resting on the wall"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 568,
+        "end": 616
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-mice-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Mouse say the Cat could turn herself into?",
+      "options": [
+        "A bag of meal",
+        "A ball of string",
+        "A pile of leaves",
+        "A wooden broom"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 677,
+        "end": 731
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-mice-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Cat decide she needs a trick at all?",
+      "options": [
+        "She has grown too old to chase the Mice herself",
+        "Her master has forbidden her from eating any more Mice",
+        "She wants to prove her cleverness to the house's owner",
+        "The Mice have learned to avoid her and no longer come out"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 367,
+        "end": 418
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-mice-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Mouse refuse to come out despite seeing the Cat looking harmless?",
+      "options": [
+        "It cannot see the Cat clearly enough to be sure it is real",
+        "It remembers that the Cat has been dangerous before and does not trust the new appearance",
+        "It has already found a new home elsewhere",
+        "It believes the Cat is asleep rather than dead"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 750,
+        "end": 793
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-mice-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Cat wanted to \"coax\" the Mice out?",
+      "options": [
+        "To force them out by breaking their holes",
+        "To frighten them into coming out at once",
+        "To gently persuade them to come out",
+        "To starve them until they had no choice"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 367,
+        "end": 418
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-mice-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "Past danger should make you cautious of a familiar threat acting harmless",
+        "Cats are always more clever than mice in the end",
+        "Trust should be given freely to anyone who seems calm",
+        "Once mice hide in their holes, they are always safe"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 109
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-cat-and-mice-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Cat say to herself when she hears about the house?",
+      "options": [
+        "\"I must find a better home\"",
+        "\"The mice will never notice me\"",
+        "\"I should ask permission first\"",
+        "\"That's the place for me\""
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 94,
+        "end": 117
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cat-and-mice-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Cat call the Mice's new hiding strategy?",
+      "options": [
+        "\"Clever\"",
+        "\"Awkward\"",
+        "\"Unfair\"",
+        "\"Amusing\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 324,
+        "end": 338
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cat-and-mice-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Cat position herself for the trick?",
+      "options": [
+        "She curls up in a basket by the door",
+        "She lies flat under a table",
+        "She hangs down by her hind legs from a peg",
+        "She perches on top of a cupboard"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 493,
+        "end": 530
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cat-and-mice-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Mouse's remark about the \"bag of meal\" suggest about its attitude toward the trick?",
+      "options": [
+        "It mocks the Cat's disguise rather than being fooled by it",
+        "It genuinely believes the Cat has turned into a bag of meal",
+        "It is frightened and does not understand what it sees",
+        "It wants to trade the bag of meal for safety"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 636,
+        "end": 671
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cat-and-mice-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Cat's earlier behavior make her later trick fail?",
+      "options": [
+        "The Mice cannot see well enough to notice her at all",
+        "The Cat's disguise is simply too unconvincing to work on anyone",
+        "The house's owner warns the Mice before the trick begins",
+        "The Mice already know from experience that she is dangerous"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 180,
+        "end": 219
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cat-and-mice-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"overrun\" mean in \"a house that was overrun with Mice\"?",
+      "options": [
+        "Cleaned thoroughly of any pests",
+        "Filled or swarming with something in large numbers",
+        "Built without proper walls or doors",
+        "Abandoned by its former owners"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 15,
+        "end": 49
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-cat-and-mice-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Cat and the Mice agree to share the house peacefully",
+        "The Mice trick the Cat into leaving the house for good",
+        "A Cat's trick to lure hidden Mice out fails because they remember her danger",
+        "The Cat gives up hunting Mice after growing tired"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 750,
+        "end": 793
+      },
+      "pool": "retest"
+    }
+  ]
+}
