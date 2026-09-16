@@ -1,0 +1,323 @@
+{
+  "id": "aesop-jackdaw-and-pigeons",
+  "title": "The Jackdaw and the Pigeons",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Jackdaw, watching some Pigeons in a farmyard, was filled with envy when he saw how well they were fed, and determined to disguise himself as one of them, in order to secure a share of the good things they enjoyed. So he painted himself white from head to foot and joined the flock; and, so long as he was silent, they never suspected that he was not a pigeon like themselves.",
+    "But one day he was unwise enough to start chattering, when they at once saw through his disguise and pecked him so unmercifully that he was glad to escape and join his own kind again. But the other jackdaws did not recognise him in his white dress, and would not let him feed with them, but drove him away: and so he became a homeless wanderer for his pains."
+  ],
+  "questions": [
+    {
+      "id": "aesop-jackdaw-and-pigeons-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Jackdaw envy the Pigeons?",
+      "options": [
+        "Because they can fly faster than he can",
+        "Because they have prettier feathers than his own",
+        "Because he sees how well they are fed",
+        "Because they live in a safer part of the farmyard"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 48,
+        "end": 103
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-jackdaw-and-pigeons-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Jackdaw disguise himself?",
+      "options": [
+        "He paints himself white from head to foot",
+        "He plucks out his own dark feathers",
+        "He borrows feathers from a real pigeon",
+        "He covers himself in flour from the farmyard"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 219,
+        "end": 261
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-jackdaw-and-pigeons-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, as long as what does he do, the Pigeons never suspect him?",
+      "options": [
+        "As long as he stays near the edge of the flock",
+        "As long as he eats slowly like they do",
+        "As long as he only comes out at night",
+        "As long as he remains silent"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 289,
+        "end": 376
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-jackdaw-and-pigeons-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what mistake does the Jackdaw make one day?",
+      "options": [
+        "He tries to eat too much food at once",
+        "He starts chattering",
+        "He flies in a way no pigeon would",
+        "He falls asleep in full view of the flock"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 4,
+        "end": 52
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-jackdaw-and-pigeons-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Pigeons do once they see through his disguise?",
+      "options": [
+        "They quietly ask him to leave the farmyard",
+        "They report him to the farmer at once",
+        "They peck him so unmercifully that he is glad to escape",
+        "They simply ignore him from then on"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 59,
+        "end": 154
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-jackdaw-and-pigeons-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens when the Jackdaw tries to rejoin his own kind?",
+      "options": [
+        "The other jackdaws do not recognise him and drive him away",
+        "The other jackdaws welcome him back happily",
+        "The other jackdaws laugh at his failed disguise",
+        "The other jackdaws ask him to teach them the trick"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 188,
+        "end": 305
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-jackdaw-and-pigeons-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does staying silent allow the Jackdaw's disguise to succeed at first?",
+      "options": [
+        "The Pigeons could not see him clearly enough to notice any difference",
+        "Silence was a rule all pigeons followed strictly",
+        "The Pigeons were too distracted by food to notice him at all",
+        "His appearance alone was convincing, but his voice would have given him away"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 289,
+        "end": 376
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-jackdaw-and-pigeons-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Jackdaw end up worse off than before his disguise?",
+      "options": [
+        "He is physically unable to fly after being painted white",
+        "He loses acceptance from both the Pigeons and his own kind",
+        "He is punished by the farmer for stealing food",
+        "He forgets how to behave like a jackdaw at all"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 188,
+        "end": 305
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-jackdaw-and-pigeons-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"unmercifully\" mean in \"pecked him so unmercifully\"?",
+      "options": [
+        "Gently, with some hesitation",
+        "Quietly, without being noticed",
+        "Harshly, without any restraint",
+        "Occasionally, now and then"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 101,
+        "end": 127
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-jackdaw-and-pigeons-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Trying to pass yourself off as something you are not can leave you belonging nowhere at all",
+        "Pigeons are more observant than most other birds",
+        "Disguises always work as long as they are convincing enough",
+        "Jackdaws and pigeons cannot ever get along together"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 314,
+        "end": 357
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-jackdaw-and-pigeons-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the Jackdaw first observe the Pigeons?",
+      "options": [
+        "In a city square",
+        "In an open field",
+        "Near a riverbank",
+        "In a farmyard"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 46
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-jackdaw-and-pigeons-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Jackdaw hope to secure by disguising himself?",
+      "options": [
+        "A safe place to build his nest",
+        "A share of the good things the Pigeons enjoyed",
+        "Protection from other jackdaws",
+        "A chance to learn how pigeons fly"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 156,
+        "end": 214
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-jackdaw-and-pigeons-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what color does the Jackdaw paint himself?",
+      "options": [
+        "Gray",
+        "Brown",
+        "White",
+        "Black and white spotted"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 219,
+        "end": 261
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-jackdaw-and-pigeons-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why do his fellow jackdaws refuse to accept him back?",
+      "options": [
+        "His white disguise makes him unrecognizable as one of their own",
+        "They had already found a replacement for him",
+        "They believe he betrayed them by joining the pigeons",
+        "They are afraid the Pigeons will attack them too"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 188,
+        "end": 247
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-jackdaw-and-pigeons-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the phrase \"for his pains\" suggest about the outcome of his scheme?",
+      "options": [
+        "His efforts were ultimately rewarded despite some difficulty",
+        "His pains were physical injuries from the Pigeons' pecking alone",
+        "His pains were quickly forgotten once he found a new flock",
+        "His efforts to gain something led only to suffering and loss"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 314,
+        "end": 357
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-jackdaw-and-pigeons-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"envy\" mean in \"was filled with envy\"?",
+      "options": [
+        "A feeling of deep affection for another",
+        "A feeling of wanting what someone else has",
+        "A feeling of confusion or uncertainty",
+        "A feeling of pride in one's own abilities"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 48,
+        "end": 103
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-jackdaw-and-pigeons-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Jackdaw successfully lives among the Pigeons for the rest of his life",
+        "A Jackdaw teaches the Pigeons how to disguise themselves too",
+        "A Jackdaw disguises himself as a Pigeon, is exposed and rejected, and is then rejected by his own kind as well",
+        "A Jackdaw is welcomed back warmly by both groups of birds"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 314,
+        "end": 357
+      },
+      "pool": "retest"
+    }
+  ]
+}
