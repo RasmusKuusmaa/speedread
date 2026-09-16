@@ -1,0 +1,323 @@
+{
+  "id": "aesop-blind-man-and-cub",
+  "title": "The Blind Man and the Cub",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "There was once a Blind Man who had so fine a sense of touch that, when any animal was put into his hands, he could tell what it was merely by the feel of it. One day the Cub of a Wolf was put into his hands, and he was asked what it was. He felt it for some time, and then said, \"Indeed, I am not sure whether it is a Wolf's Cub or a Fox's: but this I know--it would never do to trust it in a sheepfold.\"",
+    "Evil tendencies are early shown."
+  ],
+  "questions": [
+    {
+      "id": "aesop-blind-man-and-cub-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what special ability does the Blind Man have?",
+      "options": [
+        "The ability to hear an animal's heartbeat",
+        "A keen sense of smell for tracking animals",
+        "A fine sense of touch that lets him identify animals",
+        "The ability to guess an animal's age exactly"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 27,
+        "end": 156
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blind-man-and-cub-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what animal's Cub is placed in the Blind Man's hands?",
+      "options": [
+        "A Wolf's",
+        "A Fox's",
+        "A Bear's",
+        "A Lion's"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 166,
+        "end": 206
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blind-man-and-cub-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Blind Man asked to do once the Cub is in his hands?",
+      "options": [
+        "Guess how old it is",
+        "Decide whether to keep it",
+        "Describe what color its fur is",
+        "Say what animal it is"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 212,
+        "end": 236
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blind-man-and-cub-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what two animals does the Blind Man consider the Cub might belong to?",
+      "options": [
+        "A Wolf or a Dog",
+        "A Wolf or a Fox",
+        "A Fox or a Cat",
+        "A Dog or a Bear"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 302,
+        "end": 339
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blind-man-and-cub-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Blind Man say it would never do to trust the Cub near?",
+      "options": [
+        "A henhouse",
+        "A stable full of horses",
+        "A sheepfold",
+        "A basket of fish"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 358,
+        "end": 402
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blind-man-and-cub-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Blind Man unsure whether the Cub is a Wolf's or a Fox's?",
+      "options": [
+        "The two kinds of cub apparently feel similar enough to be mistaken for one another",
+        "He has never touched either kind of animal before",
+        "The Cub refuses to hold still while he feels it",
+        "He believes someone has switched the Cub without telling him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 288,
+        "end": 339
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blind-man-and-cub-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Blind Man sense about the Cub despite his uncertainty over its exact kind?",
+      "options": [
+        "That it is too young to survive without its mother",
+        "That it belongs to someone in the village nearby",
+        "That it will grow to be unusually large",
+        "That it already shows signs of being dangerous to sheep"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 341,
+        "end": 402
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blind-man-and-cub-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"sheepfold\" mean in the Blind Man's warning?",
+      "options": [
+        "A tool used for shearing wool",
+        "An enclosure where sheep are kept",
+        "A market where sheep are sold",
+        "A path used to herd animals"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 358,
+        "end": 402
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blind-man-and-cub-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"merely\" mean in \"merely by the feel of it\"?",
+      "options": [
+        "Rarely, almost never",
+        "Slowly, taking great care",
+        "Simply, using nothing more than",
+        "Loudly, without any doubt"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 132,
+        "end": 156
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blind-man-and-cub-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "A dangerous nature can be recognized even before it is fully grown",
+        "Blind people are always better judges of character than sighted ones",
+        "Wolves and foxes should never be kept as pets",
+        "Touch is a more reliable sense than sight in every situation"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 32
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blind-man-and-cub-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Blind Man usually identify an animal?",
+      "options": [
+        "By listening to the sounds it makes",
+        "By smelling it closely",
+        "By asking others to describe it",
+        "By the feel of it in his hands"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 106,
+        "end": 156
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-blind-man-and-cub-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how long does the Blind Man feel the Cub before answering?",
+      "options": [
+        "Only for an instant",
+        "For some time",
+        "For the whole afternoon",
+        "Until it fell asleep"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 238,
+        "end": 262
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-blind-man-and-cub-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the one thing the Blind Man says he does know for certain?",
+      "options": [
+        "That the Cub belongs to a Wolf, not a Fox",
+        "That the Cub is still very young",
+        "That it would never do to trust the Cub in a sheepfold",
+        "That the Cub has recently been fed"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 341,
+        "end": 402
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-blind-man-and-cub-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Blind Man's warning matter even though he cannot name the Cub's exact species?",
+      "options": [
+        "Both possible species he names would pose the same danger to sheep",
+        "He is certain the Cub belongs to neither a Wolf nor a Fox",
+        "He believes the Cub cannot survive without its mother nearby",
+        "He assumes someone will simply ask the Cub's owner directly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 302,
+        "end": 356
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-blind-man-and-cub-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Blind Man's fine sense of touch allow him to notice that sight alone might miss?",
+      "options": [
+        "The exact color of the Cub's fur",
+        "How far the Cub has traveled that day",
+        "Whether the Cub has been fed recently",
+        "Subtle qualities in the Cub that hint at its future danger"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 106,
+        "end": 156
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-blind-man-and-cub-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"tendencies\" mean in the closing line \"Evil tendencies are early shown\"?",
+      "options": [
+        "Physical marks or scars on the body",
+        "Natural inclinations or leanings toward certain behavior",
+        "Formal agreements between two parties",
+        "Loud sounds made to warn others"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 32
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-blind-man-and-cub-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Blind Man mistakes a Cub for a full-grown Wolf",
+        "A Blind Man refuses to touch the Cub at all",
+        "A Blind Man senses danger in a young Cub even without knowing its exact kind",
+        "A Blind Man is bitten by the Cub while examining it"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 358,
+        "end": 402
+      },
+      "pool": "retest"
+    }
+  ]
+}
