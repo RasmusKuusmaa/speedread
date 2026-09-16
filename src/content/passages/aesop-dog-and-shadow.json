@@ -1,0 +1,322 @@
+{
+  "id": "aesop-dog-and-shadow",
+  "title": "The Dog and the Shadow",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Dog was crossing a plank bridge over a stream with a piece of meat in his mouth, when he happened to see his own reflection in the water. He thought it was another dog with a piece of meat twice as big; so he let go his own, and flew at the other dog to get the larger piece. But, of course, all that happened was that he got neither; for one was only a shadow, and the other was carried away by the current."
+  ],
+  "questions": [
+    {
+      "id": "aesop-dog-and-shadow-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Dog carrying as he crosses the bridge?",
+      "options": [
+        "A bone he found on the road",
+        "A stick for playing fetch",
+        "A piece of meat in his mouth",
+        "A fish caught from the stream"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 53,
+        "end": 81
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-shadow-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Dog see in the water?",
+      "options": [
+        "His own reflection",
+        "A fish swimming below",
+        "Another dog swimming across",
+        "A stick floating downstream"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 88,
+        "end": 138
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-shadow-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Dog believe about the reflection's piece of meat?",
+      "options": [
+        "That it is the same size as his own",
+        "That it belongs to a friendly dog",
+        "That it is not real meat at all",
+        "That it is twice as big as his own"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 158,
+        "end": 203
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-shadow-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Dog do with his own piece of meat?",
+      "options": [
+        "He drops it into his mouth pouch",
+        "He lets it go",
+        "He hides it under the bridge",
+        "He offers to share it"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 208,
+        "end": 225
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-shadow-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the meat the Dog dropped?",
+      "options": [
+        "It sank straight to the bottom",
+        "It was eaten by a fish",
+        "It was carried away by the current",
+        "It floated safely to the far bank"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 368,
+        "end": 409
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-shadow-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how much meat does the Dog end up with?",
+      "options": [
+        "None at all",
+        "Exactly what he started with",
+        "Twice what he started with",
+        "Half of what he started with"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 321,
+        "end": 335
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-shadow-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Dog lunge at the other dog in the water?",
+      "options": [
+        "He wants to frighten the other dog away",
+        "He wants to cross to the other side more quickly",
+        "He mistakes the reflection for an old rival",
+        "He wants to seize what looks like a larger piece of meat"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 231,
+        "end": 276
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-shadow-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what mistake costs the Dog his own piece of meat?",
+      "options": [
+        "He trusts the other dog to share its meat with him",
+        "He fails to realize the other dog is only his own reflection",
+        "He drops his meat by accident while crossing the plank",
+        "He is pushed into the water by the current"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 337,
+        "end": 362
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-shadow-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"shadow\" refer to in \"one was only a shadow\"?",
+      "options": [
+        "A dark patch cast by the bridge",
+        "A second, real dog nearby",
+        "The Dog's reflection in the water",
+        "The current pulling at the meat"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 341,
+        "end": 362
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-shadow-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Grasping at more than you have can cost you what you already possess",
+        "Dogs should never cross bridges over moving water",
+        "Reflections are always larger than the real object",
+        "Sharing food is safer than eating it alone"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 294,
+        "end": 335
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-shadow-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where is the Dog when he sees his reflection?",
+      "options": [
+        "Standing on the bank of a river",
+        "Swimming across a wide lake",
+        "Resting beside a well",
+        "On a plank bridge over a stream"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 10,
+        "end": 47
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-and-shadow-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Dog do the moment he sees the other dog's meat?",
+      "options": [
+        "He barks a warning at the other dog",
+        "He flies at the other dog to seize it",
+        "He turns around and walks away",
+        "He waits patiently to see what happens"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 208,
+        "end": 252
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-and-shadow-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what carries away the Dog's real piece of meat?",
+      "options": [
+        "A passing bird",
+        "Another hungry dog",
+        "The current",
+        "The wind off the water"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 382,
+        "end": 409
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-and-shadow-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the phrase \"of course\" suggest about the story's outcome?",
+      "options": [
+        "The result was predictable once the Dog was fooled by the reflection",
+        "The result surprised even the Dog himself",
+        "The result depended entirely on luck",
+        "The result was different from what most readers would expect"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 278,
+        "end": 335
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-and-shadow-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Dog's own meat have looked smaller in the reflection?",
+      "options": [
+        "The Dog had already eaten part of it beforehand",
+        "The water was too murky to see it properly",
+        "The other dog had stolen part of it first",
+        "A reflection can distort size and make another portion look bigger"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 140,
+        "end": 203
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-and-shadow-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Dog \"flew at\" the other dog?",
+      "options": [
+        "He barked loudly at it",
+        "He lunged toward it quickly",
+        "He swam gently toward it",
+        "He backed slowly away from it"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 231,
+        "end": 276
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-and-shadow-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Dog shares his meat with his own reflection",
+        "A Dog crosses a bridge safely with his meat intact",
+        "A Dog loses his real meat while chasing an imagined bigger piece",
+        "A Dog is chased off a bridge by a rival dog"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 321,
+        "end": 335
+      },
+      "pool": "retest"
+    }
+  ]
+}
