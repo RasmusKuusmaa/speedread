@@ -1,0 +1,323 @@
+{
+  "id": "aesop-man-and-two-sweethearts",
+  "title": "The Man and His Two Sweethearts",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Man of middle age, whose hair was turning grey, had two Sweethearts, an old woman and a young one. The elder of the two didn't like having a lover who looked so much younger than herself; so, whenever he came to see her, she used to pull the dark hairs out of his head to make him look old.",
+    "The younger, on the other hand, didn't like him to look so much older than herself, and took every opportunity of pulling out the grey hairs, to make him look young. Between them, they left not a hair in his head, and he became perfectly bald."
+  ],
+  "questions": [
+    {
+      "id": "aesop-man-and-two-sweethearts-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many Sweethearts does the middle-aged Man have?",
+      "options": [
+        "One",
+        "Three",
+        "Two",
+        "None; he was searching for one"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 50,
+        "end": 99
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-man-and-two-sweethearts-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the elder Sweetheart dislike?",
+      "options": [
+        "Having a lover who looked so much younger than herself",
+        "The Man's habit of visiting too rarely",
+        "The younger Sweetheart's jealousy",
+        "The color of the Man's clothing"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 101,
+        "end": 188
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-man-and-two-sweethearts-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the elder Sweetheart do to the Man's hair?",
+      "options": [
+        "She pulls out the grey hairs to make him look young",
+        "She dyes his hair a darker color",
+        "She trims his hair evenly all over",
+        "She pulls out the dark hairs to make him look old"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 223,
+        "end": 291
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-man-and-two-sweethearts-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the younger Sweetheart dislike?",
+      "options": [
+        "Having him look too young for her taste",
+        "Having him look so much older than herself",
+        "His habit of visiting the elder Sweetheart",
+        "His refusal to grow a beard"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 32,
+        "end": 82
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-man-and-two-sweethearts-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the younger Sweetheart do to the Man's hair?",
+      "options": [
+        "She pulls out the dark hairs to make him look old",
+        "She adds false hair to make him look younger",
+        "She pulls out the grey hairs to make him look young",
+        "She washes it carefully to keep it healthy"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 88,
+        "end": 164
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-man-and-two-sweethearts-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens to the Man's hair in the end?",
+      "options": [
+        "He becomes perfectly bald",
+        "He goes completely grey",
+        "He goes completely dark-haired again",
+        "He loses only a small amount of hair"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 218,
+        "end": 242
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-man-and-two-sweethearts-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Man end up losing all his hair?",
+      "options": [
+        "He decides to shave his head to please both women equally",
+        "He loses his hair naturally due to age, unrelated to either Sweetheart",
+        "One Sweetheart accidentally pulls out too much hair by mistake",
+        "Each Sweetheart pulls out the hairs she dislikes, and together they remove every hair he has"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 166,
+        "end": 212
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-man-and-two-sweethearts-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Man's fate suggest about trying to please two people with opposite wishes?",
+      "options": [
+        "It is always possible to satisfy two people if you are patient enough",
+        "Attempting to satisfy conflicting demands from both sides can leave you worse off than pleasing neither",
+        "Only one side's wishes ever truly matter in such a situation",
+        "The conflict between the two Sweethearts was ultimately harmless"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 166,
+        "end": 242
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-man-and-two-sweethearts-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"elder\" mean in \"The elder of the two\"?",
+      "options": [
+        "The wealthier one",
+        "The taller one",
+        "The older one",
+        "The more talkative one"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 101,
+        "end": 188
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-man-and-two-sweethearts-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Trying to satisfy two people with conflicting wants can end up leaving you with nothing at all",
+        "Grey hair is more attractive than dark hair to most people",
+        "Sweethearts should never disagree about appearance",
+        "Middle age is the best time to seek out new relationships"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 166,
+        "end": 242
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-man-and-two-sweethearts-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what stage of life is the Man in?",
+      "options": [
+        "Very old age, with hair already white",
+        "Young adulthood, with dark hair still full",
+        "Childhood, with no facial hair yet",
+        "Middle age, with hair turning grey"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 48
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-man-and-two-sweethearts-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when does the elder Sweetheart pull out the dark hairs?",
+      "options": [
+        "Only once, the first time they met",
+        "Whenever he came to see her",
+        "Only on special occasions",
+        "Every morning before he woke up"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 194,
+        "end": 270
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-man-and-two-sweethearts-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how often does the younger Sweetheart pull out the grey hairs?",
+      "options": [
+        "Only once a year",
+        "Only when he asked her to",
+        "At every opportunity she got",
+        "Only when the elder Sweetheart was not present"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 88,
+        "end": 140
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-man-and-two-sweethearts-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why do the two Sweethearts want opposite things from the Man's appearance?",
+      "options": [
+        "Each wants him to appear closer to her own age",
+        "Each wants him to look as different as possible from the other woman",
+        "Each is trying to make him leave the other Sweetheart",
+        "Each is testing whether he truly loves her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 122,
+        "end": 188
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-man-and-two-sweethearts-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the outcome suggest about the Man's own role in the situation?",
+      "options": [
+        "He actively pulled out his own hair to please them both",
+        "He was unaware that either woman was pulling out his hair",
+        "He asked both women to stop before losing all his hair",
+        "He appears to have gone along with both women rather than resisting either one"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 166,
+        "end": 242
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-man-and-two-sweethearts-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"perfectly bald\" mean in the passage?",
+      "options": [
+        "Mostly grey with a few dark hairs left",
+        "Completely without any hair at all",
+        "Balding only in a small patch",
+        "Losing hair gradually over many years"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 218,
+        "end": 242
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-man-and-two-sweethearts-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "The Man chooses one Sweetheart and ends the conflict peacefully",
+        "The two Sweethearts become friends and stop pulling his hair",
+        "Two Sweethearts each pull out hairs they dislike until the Man is left completely bald",
+        "The Man dyes his hair to satisfy both Sweethearts at once"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 166,
+        "end": 242
+      },
+      "pool": "retest"
+    }
+  ]
+}
