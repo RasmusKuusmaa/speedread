@@ -1,0 +1,323 @@
+{
+  "id": "aesop-birds-beasts-and-bat",
+  "title": "The Birds, the Beasts, and the Bat",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "The Birds were at war with the Beasts, and many battles were fought with varying success on either side. The Bat did not throw in his lot definitely with either party, but when things went well for the Birds he was found fighting in their ranks; when, on the other hand, the Beasts got the upper hand, he was to be found among the Beasts.",
+    "No one paid any attention to him while the war lasted: but when it was over, and peace was restored, neither the Birds nor the Beasts would have anything to do with so double-faced a traitor, and so he remains to this day a solitary outcast from both."
+  ],
+  "questions": [
+    {
+      "id": "aesop-birds-beasts-and-bat-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who is at war at the start of the story?",
+      "options": [
+        "The Bats and the Birds",
+        "The Beasts and the Insects",
+        "The Birds and the Beasts",
+        "The Birds and the Fish"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 37
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-birds-beasts-and-bat-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, whose side does the Bat fight on when the Birds are winning?",
+      "options": [
+        "The Birds",
+        "The Beasts",
+        "Neither side at all",
+        "Whichever side is losing"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 172,
+        "end": 244
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-birds-beasts-and-bat-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, whose side does the Bat fight on when the Beasts are winning?",
+      "options": [
+        "The Birds",
+        "He refuses to fight at all",
+        "He fights for both sides equally",
+        "The Beasts"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 246,
+        "end": 337
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-birds-beasts-and-bat-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how much attention does anyone pay the Bat while the war lasts?",
+      "options": [
+        "Everyone watches him closely",
+        "No one pays any attention to him",
+        "Only the Birds notice his behavior",
+        "Only the Beasts notice his behavior"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 53
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-birds-beasts-and-bat-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happens once peace is restored?",
+      "options": [
+        "Both sides welcome the Bat as a hero",
+        "The Birds punish the Bat, but the Beasts forgive him",
+        "Neither side will have anything to do with the Bat",
+        "The Beasts punish the Bat, but the Birds forgive him"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 101,
+        "end": 190
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-birds-beasts-and-bat-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Bat become after the war ends?",
+      "options": [
+        "A solitary outcast from both",
+        "A respected leader among the Birds",
+        "A trusted advisor to the Beasts",
+        "A wanderer who starts a new group"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 199,
+        "end": 250
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-birds-beasts-and-bat-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Bat keep switching sides during the war?",
+      "options": [
+        "He is confused about which side he truly belongs to",
+        "He is trying to end the war by joining both equally",
+        "He is ordered to switch by a higher authority",
+        "He wants to always be seen as part of the winning side"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 172,
+        "end": 337
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-birds-beasts-and-bat-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Bat's strategy fail once the war is over?",
+      "options": [
+        "The war never actually ends, so he never gets the chance to rest",
+        "Both sides now see through his shifting loyalty and reject him for it",
+        "He forgets which side he supported most often",
+        "He is punished specifically by the side that lost"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 101,
+        "end": 190
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-birds-beasts-and-bat-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"double-faced\" mean in \"so double-faced a traitor\"?",
+      "options": [
+        "Having two literal faces",
+        "Extremely brave in battle",
+        "Deceitful, showing two different loyalties",
+        "Unable to make any decision at all"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 165,
+        "end": 190
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-birds-beasts-and-bat-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Constantly switching loyalty to whoever is winning leaves you trusted by no one in the end",
+        "Wars always end with one clear winner and one clear loser",
+        "Bats are naturally suited to being both birds and beasts",
+        "Neutral parties are always safest during any conflict"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 199,
+        "end": 250
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-birds-beasts-and-bat-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the passage describe the fighting between the Birds and Beasts?",
+      "options": [
+        "One side won every single battle",
+        "The war ended after only one battle",
+        "Neither side ever gained an advantage",
+        "Many battles were fought with varying success on either side"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 43,
+        "end": 103
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-birds-beasts-and-bat-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, did the Bat commit definitely to either side at the start?",
+      "options": [
+        "Yes, he joined the Birds from the very beginning",
+        "No, he did not throw in his lot definitely with either party",
+        "Yes, he joined the Beasts from the very beginning",
+        "No, he refused to take part in the war at all"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 105,
+        "end": 166
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-birds-beasts-and-bat-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when is peace finally restored?",
+      "options": [
+        "Immediately after the first battle",
+        "Only after the Bat intervened",
+        "After the war has been going on for some time",
+        "Only after the Birds fully surrendered"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 59,
+        "end": 99
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-birds-beasts-and-bat-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does no one notice the Bat's behavior while the war is happening?",
+      "options": [
+        "Everyone is too focused on the battles themselves to track individual loyalty",
+        "The Bat hides himself well during every battle",
+        "The Bat only switches sides once the war has ended",
+        "Both sides secretly approve of his behavior during the war"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 53
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-birds-beasts-and-bat-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Bat's fate suggest about trying to please everyone by taking no firm stand?",
+      "options": [
+        "It is generally the safest strategy during any conflict",
+        "It works well as long as the conflict never ends",
+        "It earns respect from both sides in the long run",
+        "It can ultimately leave you belonging to no group at all"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 199,
+        "end": 250
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-birds-beasts-and-bat-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"outcast\" mean in \"a solitary outcast from both\"?",
+      "options": [
+        "Someone chosen as a leader",
+        "Someone rejected and excluded by a group",
+        "Someone respected by all sides",
+        "Someone who wins every argument"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 199,
+        "end": 250
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-birds-beasts-and-bat-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Bat ends the war between the Birds and Beasts",
+        "A Bat joins the Birds permanently after the war",
+        "A Bat switches sides throughout a war to stay with the winners, and afterward is rejected by both sides",
+        "A Bat is punished only by the Beasts after the war"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 101,
+        "end": 190
+      },
+      "pool": "retest"
+    }
+  ]
+}
