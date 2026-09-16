@@ -1,0 +1,324 @@
+{
+  "id": "aesop-stag-with-one-eye",
+  "title": "The Stag with One Eye",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Stag, blind of one eye, was grazing close to the sea-shore and kept his sound eye turned towards the land, so as to be able to perceive the approach of the hounds, while the blind eye he turned towards the sea, never suspecting that any danger would threaten him from that quarter.",
+    "As it fell out, however, some sailors, coasting along the shore, spied him and shot an arrow at him, by which he was mortally wounded. As he lay dying, he said to himself, \"Wretch that I am! I bethought me of the dangers of the land, whence none assailed me: but I feared no peril from the sea, yet thence has come my ruin.\"",
+    "Misfortune often assails us from an unexpected quarter."
+  ],
+  "questions": [
+    {
+      "id": "aesop-stag-with-one-eye-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where is the Stag grazing?",
+      "options": [
+        "Deep within a forest",
+        "On a distant hillside",
+        "Close to the sea-shore",
+        "Near a quiet farm"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 26,
+        "end": 60
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-with-one-eye-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, which direction does the Stag keep his sound eye turned?",
+      "options": [
+        "Towards the land",
+        "Towards the sea",
+        "Towards the sky",
+        "Towards the setting sun"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 65,
+        "end": 107
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-with-one-eye-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Stag watch the land so carefully?",
+      "options": [
+        "To find fresh grass to eat",
+        "To watch for other stags nearby",
+        "To see if the tide is coming in",
+        "To perceive the approach of the hounds"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 109,
+        "end": 164
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-with-one-eye-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who spies the Stag and shoots him?",
+      "options": [
+        "A group of hunters on horseback",
+        "Some sailors coasting along the shore",
+        "Fishermen mending their nets",
+        "Villagers gathering shells"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 25,
+        "end": 99
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-with-one-eye-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Stag say as he lies dying?",
+      "options": [
+        "That he never expected to be shot by an arrow at all",
+        "That he wished he had trusted the hounds more than the sailors",
+        "That he feared danger from the land but not the sea, yet the sea brought his ruin",
+        "That he regretted grazing so close to the shore"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 191,
+        "end": 322
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-with-one-eye-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Stag turn his blind eye toward the sea rather than the land?",
+      "options": [
+        "He assumes danger could only come from the land, so he never expected a threat from the water",
+        "He cannot control which eye faces which direction",
+        "He wants to rest his sound eye by alternating its use",
+        "He is trying to watch for fish in the water"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 213,
+        "end": 282
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-with-one-eye-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what mistake does the Stag realize too late?",
+      "options": [
+        "That hounds were actually more dangerous than sailors",
+        "That he should never have grazed near any shore",
+        "That his blindness in one eye was permanent",
+        "That danger can come from a direction one never expects"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 173,
+        "end": 322
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-with-one-eye-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"mortally wounded\" mean?",
+      "options": [
+        "Injured only slightly, with a quick recovery",
+        "Injured in a way that will cause death",
+        "Frightened but physically unharmed",
+        "Trapped but able to escape later"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 101,
+        "end": 133
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-with-one-eye-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"quarter\" mean in \"from that quarter\"?",
+      "options": [
+        "A sum of money",
+        "A period of time",
+        "A direction or side",
+        "A type of weapon"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 235,
+        "end": 282
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-with-one-eye-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "Misfortune can strike from a direction we never thought to guard against",
+        "Animals with a disability are always more vulnerable to hunters",
+        "The sea is more dangerous than the land for every creature",
+        "Sailors are more skilled hunters than those on land"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 55
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-with-one-eye-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, which of the Stag's eyes is blind?",
+      "options": [
+        "The one turned toward the land",
+        "Both of his eyes",
+        "Neither; he can see fully from both",
+        "The one turned toward the sea"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 172,
+        "end": 211
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-stag-with-one-eye-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what were the sailors doing when they spotted the Stag?",
+      "options": [
+        "Fishing far out at sea",
+        "Coasting along the shore",
+        "Repairing their ship on the beach",
+        "Searching for fresh water"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 25,
+        "end": 74
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-stag-with-one-eye-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what weapon do the sailors use against the Stag?",
+      "options": [
+        "A spear",
+        "A net",
+        "An arrow",
+        "A sling and stone"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 79,
+        "end": 99
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-stag-with-one-eye-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Stag call himself a \"wretch\" as he lies dying?",
+      "options": [
+        "He recognizes that his own caution was misdirected the whole time",
+        "He believes the sailors cheated by using a weapon",
+        "He blames the hounds for driving him toward the sea",
+        "He regrets not fleeing sooner once he saw the ship"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 173,
+        "end": 190
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-stag-with-one-eye-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the phrase \"thence has come my ruin\" tell us about where the fatal threat originated?",
+      "options": [
+        "It came from the land, exactly where he expected danger",
+        "It came from another animal, not from a person at all",
+        "It came from a source he had never considered possible",
+        "It came from the sea, the very direction he considered safe"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 295,
+        "end": 322
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-stag-with-one-eye-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"assails\" mean in the closing line \"assails us from an unexpected quarter\"?",
+      "options": [
+        "Comforts",
+        "Attacks",
+        "Warns",
+        "Follows"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 2,
+        "start": 0,
+        "end": 55
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-stag-with-one-eye-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Stag is caught by hounds despite watching the land carefully",
+        "A Stag escapes both the land and sea dangers unharmed",
+        "A Stag guards against danger from the land but is fatally struck from the sea he trusted",
+        "A Stag loses sight in one eye after being attacked by sailors"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 263,
+        "end": 322
+      },
+      "pool": "retest"
+    }
+  ]
+}
