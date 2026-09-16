@@ -1,0 +1,323 @@
+{
+  "id": "aesop-gnat-and-bull",
+  "title": "The Gnat and the Bull",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Gnat alighted on one of the horns of a Bull, and remained sitting there for a considerable time. When it had rested sufficiently and was about to fly away, it said to the Bull, \"Do you mind if I go now?\" The Bull merely raised his eyes and remarked, without interest, \"It's all one to me; I didn't notice when you came, and I shan't know when you go away.\"",
+    "We may often be of more consequence in our own eyes than in the eyes of our neighbours."
+  ],
+  "questions": [
+    {
+      "id": "aesop-gnat-and-bull-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the Gnat land at the start?",
+      "options": [
+        "On the Bull's back",
+        "On a nearby fence post",
+        "On one of the horns of a Bull",
+        "On the Bull's tail"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 45
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-gnat-and-bull-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Gnat ask the Bull before flying away?",
+      "options": [
+        "\"Do you mind if I go now?\"",
+        "\"Did you feel me land on you?\"",
+        "\"May I rest here a while longer?\"",
+        "\"Have you noticed me at all?\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 180,
+        "end": 204
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-gnat-and-bull-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Bull respond to the Gnat's question?",
+      "options": [
+        "He asks the Gnat to stay a little longer",
+        "He complains that the Gnat has bothered him",
+        "He thanks the Gnat for resting quietly",
+        "He remarks that it is all one to him, without interest"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 206,
+        "end": 268
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-gnat-and-bull-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Bull say about noticing the Gnat arrive?",
+      "options": [
+        "That he saw the Gnat land immediately",
+        "That he didn't notice when the Gnat came",
+        "That he felt the Gnat's weight at once",
+        "That another animal told him about it"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 291,
+        "end": 320
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-gnat-and-bull-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how long does the Gnat rest on the Bull's horn?",
+      "options": [
+        "For only a moment",
+        "For the entire day",
+        "For a considerable time",
+        "Until nightfall"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 51,
+        "end": 97
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-gnat-and-bull-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Gnat bother to ask the Bull's permission before leaving?",
+      "options": [
+        "It assumes its presence has been significant enough to matter to the Bull",
+        "It is worried the Bull might try to stop it",
+        "It wants to warn the Bull that it is leaving for good",
+        "It has been asked to check in with the Bull regularly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 180,
+        "end": 204
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-gnat-and-bull-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Bull's reply reveal about how he views the Gnat?",
+      "options": [
+        "He was secretly annoyed by the Gnat the whole time",
+        "He had been waiting for the Gnat to leave",
+        "He respected the Gnat for resting so quietly",
+        "The Gnat's presence made no real difference to him at all"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 271,
+        "end": 289
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-gnat-and-bull-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Gnat \"alighted\" on the Bull's horn?",
+      "options": [
+        "It crashed into it by accident",
+        "It landed and settled there",
+        "It circled around without landing",
+        "It was blown there by the wind"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 45
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-gnat-and-bull-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Bull spoke \"without interest\"?",
+      "options": [
+        "He spoke eagerly, wanting to know more",
+        "He spoke angrily, annoyed by the question",
+        "He spoke with no real concern about the matter",
+        "He spoke nervously, unsure how to answer"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 242,
+        "end": 268
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-gnat-and-bull-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "We can overestimate how much others notice or care about us",
+        "Bulls are less observant than most other animals",
+        "It is rude to ask permission before leaving somewhere",
+        "Small creatures should always avoid larger ones"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 87
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-gnat-and-bull-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Gnat do once it has rested sufficiently?",
+      "options": [
+        "It moves to the Bull's other horn",
+        "It begins buzzing loudly",
+        "It calls out to other gnats nearby",
+        "It prepares to fly away"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 135,
+        "end": 156
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-gnat-and-bull-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Bull say he won't know?",
+      "options": [
+        "Where the Gnat will go next",
+        "When the Gnat goes away",
+        "How long the Gnat has been resting",
+        "Why the Gnat chose his horn"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 326,
+        "end": 356
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-gnat-and-bull-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what part of his body does the Bull move when he answers?",
+      "options": [
+        "His horns",
+        "His tail",
+        "His eyes",
+        "His ears"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 206,
+        "end": 237
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-gnat-and-bull-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is ironic about the Gnat asking permission to leave?",
+      "options": [
+        "The Bull was never even aware the Gnat had arrived",
+        "The Bull had specifically invited the Gnat to stay",
+        "The Gnat had never actually landed on the Bull at all",
+        "The Bull had asked the Gnat to leave much earlier"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 291,
+        "end": 320
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-gnat-and-bull-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Bull's answer feel deflating to the Gnat's question?",
+      "options": [
+        "It shows the Bull was frightened by the Gnat the whole time",
+        "It shows the Bull wanted the Gnat to stay longer",
+        "It shows the Bull had mistaken the Gnat for another animal",
+        "It shows the Gnat's presence mattered far less than the Gnat assumed"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 271,
+        "end": 289
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-gnat-and-bull-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"consequence\" mean in the closing line?",
+      "options": [
+        "Danger",
+        "Importance",
+        "Curiosity",
+        "Distance"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 16,
+        "end": 51
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-gnat-and-bull-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Bull asks a Gnat to leave its horn at once",
+        "A Gnat and a Bull become close companions",
+        "A Gnat learns its presence meant nothing to the Bull it rested on",
+        "A Bull thanks the Gnat for its company"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 291,
+        "end": 356
+      },
+      "pool": "retest"
+    }
+  ]
+}
