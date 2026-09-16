@@ -1,0 +1,323 @@
+{
+  "id": "aesop-fox-and-grasshopper",
+  "title": "The Fox and the Grasshopper",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Grasshopper sat chirping in the branches of a tree. A Fox heard her, and, thinking what a dainty morsel she would make, he tried to get her down by a trick. Standing below in full view of her, he praised her song in the most flattering terms, and begged her to descend, saying he would like to make the acquaintance of the owner of so beautiful a voice.",
+    "But she was not to be taken in, and replied, \"You are very much mistaken, my dear sir, if you imagine I am going to come down: I keep well out of the way of you and your kind ever since the day when I saw numbers of grasshoppers' wings strewn about the entrance to a fox's earth.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-fox-and-grasshopper-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Grasshopper doing in the tree?",
+      "options": [
+        "Building a small nest",
+        "Hiding from a passing bird",
+        "Chirping in the branches",
+        "Resting after a long flight"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 52
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-grasshopper-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox think when he hears the Grasshopper?",
+      "options": [
+        "That she would make a dainty morsel",
+        "That her song was too loud to bear",
+        "That she must belong to another fox",
+        "That she was warning him of danger"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 76,
+        "end": 120
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-grasshopper-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox do to try to get the Grasshopper down?",
+      "options": [
+        "He climbs the tree to reach her directly",
+        "He offers her a share of his food",
+        "He asks another animal to shake the tree",
+        "He praises her song in flattering terms and begs her to descend"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 195,
+        "end": 270
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-grasshopper-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what reason does the Fox give for wanting her to come down?",
+      "options": [
+        "He wants to protect her from a nearby storm",
+        "He wants to make the acquaintance of the owner of such a beautiful voice",
+        "He wants her to teach him how to sing",
+        "He wants to introduce her to his family"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 272,
+        "end": 354
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-grasshopper-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, does the Grasshopper fall for the Fox's trick?",
+      "options": [
+        "Yes, she comes down immediately",
+        "Yes, but only after some hesitation",
+        "No, she was not to be taken in",
+        "No, because she never heard him speak"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 30
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-grasshopper-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what had the Grasshopper once seen near a fox's den?",
+      "options": [
+        "Numbers of grasshoppers' wings strewn about the entrance",
+        "A pile of bones left from other meals",
+        "Other foxes waiting nearby",
+        "Tracks leading away from the den"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 205,
+        "end": 278
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-grasshopper-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Grasshopper refuse to come down despite the flattery?",
+      "options": [
+        "She does not understand what the Fox is asking of her",
+        "She is too shy to meet new admirers",
+        "She is waiting for a better offer from someone else",
+        "She has learned from past evidence what foxes actually do to grasshoppers"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 127,
+        "end": 278
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-grasshopper-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the scattered wings at the fox's den prove to the Grasshopper?",
+      "options": [
+        "That the Fox she is speaking to has recently lost a fight",
+        "That foxes have eaten other grasshoppers before",
+        "That grasshoppers sometimes attack foxes",
+        "That the den belongs to a different kind of animal"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 205,
+        "end": 278
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-grasshopper-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"morsel\" mean in \"a dainty morsel\"?",
+      "options": [
+        "A rare and beautiful object",
+        "A dangerous kind of trap",
+        "A small, tasty bite of food",
+        "A short and clever song"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 76,
+        "end": 120
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-grasshopper-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Past evidence of danger should not be ignored, no matter how pleasant the invitation sounds",
+        "Grasshoppers should never sing where a fox might hear them",
+        "Flattery always works eventually if repeated enough",
+        "Foxes are incapable of catching grasshoppers in trees"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 127,
+        "end": 278
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-grasshopper-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the Fox stand while speaking to the Grasshopper?",
+      "options": [
+        "Hidden behind the tree",
+        "On a branch just above her",
+        "Some distance away, out of sight",
+        "Below her, in full view"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 159,
+        "end": 193
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-grasshopper-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Grasshopper address the Fox in her reply?",
+      "options": [
+        "\"Kind stranger\"",
+        "\"My dear sir\"",
+        "\"Clever fox\"",
+        "\"Old friend\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 74,
+        "end": 85
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-grasshopper-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Grasshopper say she keeps well out of the way of?",
+      "options": [
+        "Loud noises in the forest",
+        "Other grasshoppers nearby",
+        "The Fox and his kind",
+        "Storms and heavy winds"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 127,
+        "end": 174
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-grasshopper-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Fox choose flattery rather than trying to climb the tree himself?",
+      "options": [
+        "He needs the Grasshopper to come down voluntarily, since he cannot easily reach her in the branches",
+        "He believes climbing trees is beneath his dignity",
+        "He wants to be introduced properly before eating her",
+        "He fears the tree branches are too weak to hold him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 122,
+        "end": 157
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-grasshopper-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what makes the Grasshopper's refusal especially wise?",
+      "options": [
+        "It is based on a warning she received from another grasshopper",
+        "It is based on a general dislike of flattery in any form",
+        "It is based on advice given by the tree itself",
+        "It is based on direct evidence of what happens to grasshoppers who trust foxes"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 175,
+        "end": 278
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-grasshopper-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Grasshopper was \"not to be taken in\"?",
+      "options": [
+        "She was not willing to leave the tree",
+        "She was not fooled or deceived",
+        "She was not able to hear him clearly",
+        "She was not interested in singing further"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 4,
+        "end": 30
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-grasshopper-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Grasshopper is tricked into coming down and is eaten by the Fox",
+        "A Fox and a Grasshopper become friends after a long conversation",
+        "A Fox tries to lure a Grasshopper down with flattery, but she refuses based on past evidence of danger",
+        "A Grasshopper warns other grasshoppers before the Fox can speak"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 30
+      },
+      "pool": "retest"
+    }
+  ]
+}
