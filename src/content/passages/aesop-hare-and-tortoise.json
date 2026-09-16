@@ -1,0 +1,323 @@
+{
+  "id": "aesop-hare-and-tortoise",
+  "title": "The Hare and the Tortoise",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Hare was one day making fun of a Tortoise for being so slow upon his feet. \"Wait a bit,\" said the Tortoise; \"I'll run a race with you, and I'll wager that I win.\" \"Oh, well,\" replied the Hare, who was much amused at the idea, \"let's try and see\"; and it was soon agreed that the fox should set a course for them, and be the judge. When the time came both started off together, but the Hare was soon so far ahead that he thought he might as well have a rest: so down he lay and fell fast asleep. Meanwhile the Tortoise kept plodding on, and in time reached the goal. At last the Hare woke up with a start, and dashed on at his fastest, but only to find that the Tortoise had already won the race.",
+    "Slow and steady wins the race."
+  ],
+  "questions": [
+    {
+      "id": "aesop-hare-and-tortoise-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who was the Hare making fun of at the start?",
+      "options": [
+        "A Fox",
+        "Another Hare",
+        "A Tortoise",
+        "A Snail"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 19,
+        "end": 75
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hare-and-tortoise-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Tortoise challenge the Hare to do?",
+      "options": [
+        "Run a race with him",
+        "Climb a hill together",
+        "Carry a heavy stone",
+        "Cross a river first"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 111,
+        "end": 135
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hare-and-tortoise-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who is asked to set the course and judge the race?",
+      "options": [
+        "A passing bird",
+        "The Tortoise's family",
+        "A village elder",
+        "The fox"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 277,
+        "end": 331
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hare-and-tortoise-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Hare do once he is far ahead in the race?",
+      "options": [
+        "He turns back to check on the Tortoise",
+        "He lies down and falls asleep",
+        "He stops to eat some grass",
+        "He runs even faster to the goal"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 463,
+        "end": 495
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hare-and-tortoise-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Tortoise do while the Hare is resting?",
+      "options": [
+        "He waits for the Hare to wake up",
+        "He asks the fox for help",
+        "He keeps plodding on toward the goal",
+        "He turns around and goes home"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 507,
+        "end": 566
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hare-and-tortoise-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Hare wake up?",
+      "options": [
+        "With a start",
+        "Slowly and calmly",
+        "Because the Tortoise calls to him",
+        "Because the fox wakes him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 576,
+        "end": 605
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hare-and-tortoise-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Hare decide to stop and rest during the race?",
+      "options": [
+        "He is too tired to continue at all",
+        "He wants to let the Tortoise catch up out of kindness",
+        "The fox tells him to wait for the Tortoise",
+        "He believes he is so far ahead that a rest cannot cost him the race"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 401,
+        "end": 458
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hare-and-tortoise-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Tortoise's steady pace, set against the Hare's nap, suggest about winning the race?",
+      "options": [
+        "Only the fastest runner can ever win a race",
+        "Steady, unbroken effort can beat a faster but interrupted one",
+        "Judges usually favor the slower competitor",
+        "Racing is decided by luck rather than effort"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 497,
+        "end": 566
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hare-and-tortoise-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"plodding\" describe about the way the Tortoise moves?",
+      "options": [
+        "Hopping quickly in short bursts",
+        "Stopping every few steps to rest",
+        "Moving slowly but steadily onward",
+        "Running as fast as possible"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 507,
+        "end": 536
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hare-and-tortoise-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "A faster competitor can still lose by growing careless",
+        "Judges should never be chosen from among the animals racing",
+        "Races are best settled by starting at different times",
+        "A Hare and a Tortoise can never truly be friends"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 1,
+        "start": 0,
+        "end": 30
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hare-and-tortoise-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Tortoise wager when he challenges the Hare?",
+      "options": [
+        "That the fox will change his mind",
+        "That the Hare will fall asleep",
+        "That the race will end in a tie",
+        "That he will win the race"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 141,
+        "end": 162
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hare-and-tortoise-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Hare react to the Tortoise's challenge?",
+      "options": [
+        "He refuses to race at all",
+        "He is much amused and agrees to race",
+        "He demands a longer course",
+        "He asks the Tortoise to go first"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 195,
+        "end": 226
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hare-and-tortoise-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Hare do right after he wakes up?",
+      "options": [
+        "He gives up and walks off the course",
+        "He asks the Tortoise what happened",
+        "He dashes on at his fastest",
+        "He goes back to sleep again"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 611,
+        "end": 635
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hare-and-tortoise-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the race's outcome surprising given how it began?",
+      "options": [
+        "The Hare had built up a wide lead before falling asleep",
+        "The Tortoise was declared the winner before the race began",
+        "The fox refused to let the Hare finish the race",
+        "Neither animal wanted to finish the race at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 383,
+        "end": 413
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hare-and-tortoise-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Hare's mockery of the Tortoise at the start reveal about him?",
+      "options": [
+        "He is secretly afraid of losing to the Tortoise",
+        "He has raced the Tortoise many times before",
+        "He believes the Tortoise is not fit to race at all",
+        "He underestimates a competitor because of his slow pace"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 75
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hare-and-tortoise-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the Tortoise mean when he says he will \"wager\" that he wins?",
+      "options": [
+        "He is asking for a fair start",
+        "He is willing to bet on the outcome",
+        "He is warning the Hare to be careful",
+        "He is measuring the length of the course"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 146,
+        "end": 162
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hare-and-tortoise-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Tortoise asks a fox to postpone the race",
+        "A Hare and a Tortoise agree that the race was unfair",
+        "A confident Hare loses a race to a slow but steady Tortoise",
+        "A Tortoise gives up early and lets the Hare win"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 659,
+        "end": 696
+      },
+      "pool": "retest"
+    }
+  ]
+}
