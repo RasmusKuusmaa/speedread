@@ -1,0 +1,322 @@
+{
+  "id": "aesop-fisherman-and-sprat",
+  "title": "The Fisherman and the Sprat",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Fisherman cast his net into the sea, and when he drew it up again it contained nothing but a single Sprat that begged to be put back into the water. \"I'm only a little fish now,\" it said, \"but I shall grow big one day, and then if you come and catch me again I shall be of some use to you.\" But the Fisherman replied, \"Oh, no, I shall keep you now I've got you: if I put you back, should I ever see you again? Not likely!\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-fisherman-and-sprat-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fisherman's net contain when he draws it up?",
+      "options": [
+        "A large catch of many fish",
+        "An old boot and some seaweed",
+        "Nothing but a single Sprat",
+        "Two small fish tangled together"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 68,
+        "end": 107
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fisherman-and-sprat-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Sprat beg the Fisherman to do?",
+      "options": [
+        "Put it back into the water",
+        "Sell it at the market instead",
+        "Give it to a hungry seabird",
+        "Throw it back with the rest of the net"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 113,
+        "end": 149
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fisherman-and-sprat-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Sprat promise about its future size?",
+      "options": [
+        "That it will never grow any larger",
+        "That it will bring other fish to the net",
+        "That it will guide the Fisherman to a better spot",
+        "That it shall grow big one day"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 195,
+        "end": 219
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fisherman-and-sprat-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Sprat say will happen if the Fisherman catches it again later?",
+      "options": [
+        "It will already belong to someone else",
+        "It shall be of some use to him",
+        "It will be too big for his net",
+        "It will have moved to a different sea"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 261,
+        "end": 290
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fisherman-and-sprat-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fisherman decide to do with the Sprat?",
+      "options": [
+        "Release it as it requested",
+        "Trade it for a larger fish",
+        "Keep it now that he has it",
+        "Give it to another fisherman"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 329,
+        "end": 362
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fisherman-and-sprat-f6",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Fisherman doubt he would catch the Sprat again if he released it?",
+      "options": [
+        "The sea is too vast to guarantee finding the same fish twice",
+        "The Sprat has already tricked him once before",
+        "He believes the Sprat is lying about growing bigger",
+        "He plans to stop fishing in that spot altogether"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 364,
+        "end": 410
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fisherman-and-sprat-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Fisherman's choice suggest about weighing a certain gain against an uncertain future one?",
+      "options": [
+        "He always prefers to wait for a larger prize",
+        "He values the Sprat's word more than his own judgment",
+        "He is indifferent to the size of his catch",
+        "He prefers the small certain gain over the bigger, uncertain promise"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 412,
+        "end": 423
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fisherman-and-sprat-f8",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"cast\" mean in \"cast his net into the sea\"?",
+      "options": [
+        "To carefully fold something up",
+        "To throw or fling something out",
+        "To repair something that is broken",
+        "To count something one by one"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 12,
+        "end": 37
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fisherman-and-sprat-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"Sprat\" refer to in the passage?",
+      "options": [
+        "A type of fishing net",
+        "A wooden fishing boat",
+        "A small kind of fish",
+        "A tool used to mend nets"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 93,
+        "end": 149
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fisherman-and-sprat-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "A sure thing in hand is often preferred over an uncertain promise later",
+        "Fishermen should always release the fish they catch",
+        "Small fish are more valuable than large ones",
+        "Promises made by animals cannot be trusted"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 321,
+        "end": 362
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fisherman-and-sprat-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fisherman do with his net at the start?",
+      "options": [
+        "He mends a tear in it",
+        "He lays it out to dry",
+        "He sells it to another fisherman",
+        "He casts it into the sea"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 37
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fisherman-and-sprat-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Sprat describe its current size?",
+      "options": [
+        "\"I'm already the biggest fish here\"",
+        "\"I'm only a little fish now\"",
+        "\"I'm too weak to be worth keeping\"",
+        "\"I'm the last of my kind in these waters\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 152,
+        "end": 178
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fisherman-and-sprat-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what final word does the Fisherman use to close his reply?",
+      "options": [
+        "\"Perhaps another day\"",
+        "\"We shall see\"",
+        "\"Not likely!\"",
+        "\"I promise to think it over\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 412,
+        "end": 423
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fisherman-and-sprat-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is the Sprat trying to convince the Fisherman of?",
+      "options": [
+        "That it will be more valuable to him if released now and caught later",
+        "That it is not actually edible in its current state",
+        "That another fisherman already claimed it first",
+        "That it can help him catch more fish immediately"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 195,
+        "end": 290
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fisherman-and-sprat-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Fisherman's answer be considered practical rather than unkind?",
+      "options": [
+        "He genuinely dislikes all small fish on principle",
+        "He has already promised the Sprat to someone else",
+        "He believes the Sprat is trying to escape permanently",
+        "He has no guarantee the same fish could be found again later"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 383,
+        "end": 423
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fisherman-and-sprat-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does it mean that the Sprat \"begged\" to be released?",
+      "options": [
+        "It demanded angrily",
+        "It pleaded earnestly",
+        "It joked playfully",
+        "It hinted quietly"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 113,
+        "end": 149
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fisherman-and-sprat-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Fisherman throws back every fish he catches that day",
+        "A Sprat convinces the Fisherman to release it unharmed",
+        "A Fisherman keeps a small fish rather than trust its promise of future value",
+        "A Fisherman catches many fish besides the Sprat"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 329,
+        "end": 362
+      },
+      "pool": "retest"
+    }
+  ]
+}
