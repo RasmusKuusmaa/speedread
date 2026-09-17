@@ -1,0 +1,268 @@
+{
+  "id": "aesop-ploughman-ass-and-ox",
+  "title": "The Ploughman, the Ass, and the Ox",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Ploughman yoked his Ox and his Ass together, and set to work to plough his field. It was a poor makeshift of a team, but it was the best he could do, as he had but a single Ox. At the end of the day, when the beasts were loosed from the yoke, the Ass said to the Ox, \"Well, we've had a hard day: which of us is to carry the master home?\" The Ox looked surprised at the question. \"Why,\" said he, \"you, to be sure, as usual.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-ploughman-ass-and-ox-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what two animals did the Ploughman yoke together?",
+      "options": [
+        "His Ox and his Ass",
+        "Two Oxen he had borrowed",
+        "An Ass and a Horse",
+        "Two Asses from his neighbour"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 12,
+        "end": 45
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ploughman-ass-and-ox-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Ploughman set the team to do?",
+      "options": [
+        "Plough his field",
+        "Carry water from the well",
+        "Pull a cart of grain to market",
+        "Turn a mill wheel"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 51,
+        "end": 82
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ploughman-ass-and-ox-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the Ploughman use this particular team, despite calling it a poor makeshift?",
+      "options": [
+        "He had but a single Ox",
+        "He wanted to train the Ass for future work",
+        "The Ox was too old to work alone",
+        "He could not afford to buy any oxen at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 155,
+        "end": 177
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ploughman-ass-and-ox-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when did the Ass ask the Ox about carrying the master home?",
+      "options": [
+        "When the beasts were loosed from the yoke at the end of the day",
+        "As soon as the ploughing began that morning",
+        "While they were still yoked together in the field",
+        "The following morning before work resumed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 202,
+        "end": 243
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ploughman-ass-and-ox-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what question does the Ass ask the Ox?",
+      "options": [
+        "Which of us is to carry the master home",
+        "Which of us worked harder today",
+        "Who deserves to rest first tonight",
+        "Whether the master will feed them well"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 298,
+        "end": 337
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ploughman-ass-and-ox-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Ox react to the Ass's question?",
+      "options": [
+        "He looks surprised at the question",
+        "He laughs at the Ass for asking",
+        "He refuses to answer at all",
+        "He argues that the Ass should carry the master"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 340,
+        "end": 379
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ploughman-ass-and-ox-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Ox surprised by the Ass's question?",
+      "options": [
+        "Carrying the master home is plainly always the Ass's task, so the answer seems obvious to him",
+        "He did not expect the Ass to speak to him at all",
+        "He thought the Ass wanted to carry him instead",
+        "He believed the master no longer needed to be carried"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 340,
+        "end": 423
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ploughman-ass-and-ox-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given the Ass's question and the Ox's reply?",
+      "options": [
+        "Some burdens fall on one party regardless of how the work was actually shared",
+        "Oxen are always stronger than asses in every task",
+        "Ploughmen should never yoke two different kinds of animals together",
+        "Asses should refuse to carry their masters home"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 298,
+        "end": 423
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ploughman-ass-and-ox-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the passage describe the team of Ox and Ass?",
+      "options": [
+        "A poor makeshift of a team",
+        "The finest team in the district",
+        "A team that worked in perfect harmony",
+        "A team the Ploughman had used for years"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 84,
+        "end": 117
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ploughman-ass-and-ox-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Ass say about the day they've had?",
+      "options": [
+        "That it was a hard day",
+        "That it went by too quickly",
+        "That it was easier than usual",
+        "That the master was unfair to them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 254,
+        "end": 296
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ploughman-ass-and-ox-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exact answer does the Ox give to the Ass's question?",
+      "options": [
+        "\"You, to be sure, as usual\"",
+        "\"Neither of us should have to\"",
+        "\"I will carry him tonight instead\"",
+        "\"Let us ask the master himself\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 398,
+        "end": 423
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ploughman-ass-and-ox-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the word \"usual\" in the Ox's reply suggest about carrying the master?",
+      "options": [
+        "It is a task that regularly falls to the Ass, not something new",
+        "It is a task the Ox performs most days",
+        "It happens only on days when they plough together",
+        "It is a task the master normally does himself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 398,
+        "end": 423
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ploughman-ass-and-ox-r5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"makeshift\" mean in \"a poor makeshift of a team\"?",
+      "options": [
+        "A temporary substitute used because nothing better is available",
+        "A prize-winning arrangement",
+        "A team trained specially for racing",
+        "A pair of animals of the same species"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 84,
+        "end": 117
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ploughman-ass-and-ox-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "After a day of ploughing together, the Ass asks who will carry the master home, and the Ox says it is the Ass's job as usual",
+        "The Ox refuses to plough alongside the Ass any longer",
+        "The Ploughman decides to buy a second Ox after the day's work",
+        "The Ass and Ox argue over who worked harder during the ploughing"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 202,
+        "end": 423
+      },
+      "pool": "retest"
+    }
+  ]
+}
