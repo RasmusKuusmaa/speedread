@@ -1,0 +1,268 @@
+{
+  "id": "aesop-mercury-and-man-bitten-by-an-ant",
+  "title": "Mercury and the Man Bitten by an Ant",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Man once saw a ship go down with all its crew, and commented severely on the injustice of the gods. \"They care nothing for a man's character,\" said he, \"but let the good and the bad go to their deaths together.\" There was an ant-heap close by where he was standing, and, just as he spoke, he was bitten in the foot by an Ant. Turning in a temper to the ant-heap he stamped upon it and crushed hundreds of unoffending ants. Suddenly Mercury appeared, and belaboured him with his staff, saying as he did so, \"You villain, where's your nice sense of justice now?\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-mercury-and-man-bitten-by-an-ant-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Man see happen to a ship?",
+      "options": [
+        "It sailed safely into harbor",
+        "It went down with all its crew",
+        "It was struck by lightning",
+        "It was captured by pirates"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 47
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mercury-and-man-bitten-by-an-ant-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Man say the gods let happen together?",
+      "options": [
+        "The good and the bad go to their deaths together",
+        "The rich and the poor prosper together",
+        "The wise and the foolish suffer together",
+        "The young and the old grow old together"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 159,
+        "end": 211
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mercury-and-man-bitten-by-an-ant-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to the Man just as he finished speaking?",
+      "options": [
+        "He was bitten in the foot by an Ant",
+        "He was struck by a falling branch",
+        "He slipped and fell into the sea",
+        "He was approached by a stranger"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 291,
+        "end": 326
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mercury-and-man-bitten-by-an-ant-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Man do to the ant-heap?",
+      "options": [
+        "He walked carefully around it",
+        "He stamped upon it and crushed hundreds of unoffending ants",
+        "He covered it with a stone",
+        "He poured water over it"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 364,
+        "end": 423
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mercury-and-man-bitten-by-an-ant-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Mercury do to the Man?",
+      "options": [
+        "He praised his sense of justice",
+        "He belaboured him with his staff",
+        "He turned him into an ant",
+        "He warned him and let him go"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 434,
+        "end": 485
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mercury-and-man-bitten-by-an-ant-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"unoffending\" mean in \"crushed hundreds of unoffending ants\"?",
+      "options": [
+        "Having done nothing wrong or harmful",
+        "Extremely aggressive",
+        "Already dead",
+        "Hiding from danger"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 387,
+        "end": 423
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mercury-and-man-bitten-by-an-ant-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Mercury ask the Man, \"where's your nice sense of justice now?\"",
+      "options": [
+        "The Man just condemned the gods for indiscriminate harm, yet did the same to innocent ants out of anger",
+        "The Man had earlier promised to protect the ant-heap",
+        "Mercury believes the Man never had any sense of justice at all",
+        "The Man had asked Mercury to judge the shipwreck's fairness"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 509,
+        "end": 561
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mercury-and-man-bitten-by-an-ant-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Those who condemn unfairness in others often act unfairly themselves when provoked",
+        "Gods always punish wrongdoing swiftly and visibly",
+        "Ants are more dangerous than they appear",
+        "Shipwrecks are always caused by divine injustice"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 509,
+        "end": 561
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mercury-and-man-bitten-by-an-ant-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Man comment on after seeing the shipwreck?",
+      "options": [
+        "The injustice of the gods",
+        "The cruelty of the sea",
+        "The bravery of the sailors",
+        "The cost of building ships"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 53,
+        "end": 100
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mercury-and-man-bitten-by-an-ant-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Man say the gods care nothing for?",
+      "options": [
+        "A man's wealth",
+        "A man's character",
+        "A man's family",
+        "A man's age"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 103,
+        "end": 142
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mercury-and-man-bitten-by-an-ant-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where was the ant-heap located?",
+      "options": [
+        "Far from where the Man was standing",
+        "Close by where the Man was standing",
+        "Inside the Man's house",
+        "On the deck of the sunken ship"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 214,
+        "end": 266
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mercury-and-man-bitten-by-an-ant-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"belaboured\" mean in \"belaboured him with his staff\"?",
+      "options": [
+        "Praised repeatedly",
+        "Struck or beat repeatedly",
+        "Questioned gently",
+        "Ignored completely"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 456,
+        "end": 485
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mercury-and-man-bitten-by-an-ant-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is ironic about the Man's reaction to being bitten?",
+      "options": [
+        "He forgave the Ant that bit him",
+        "He harmed many innocent ants for the act of just one, the very unfairness he had condemned in the gods",
+        "He blamed Mercury for the ant bite",
+        "He refused to react at all, proving his own fairness"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 364,
+        "end": 423
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mercury-and-man-bitten-by-an-ant-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Man condemns the gods for treating the innocent and guilty alike, then does the same to innocent ants and is punished by Mercury for his hypocrisy",
+        "A Man is rescued by Mercury after being bitten by an Ant",
+        "A Man learns to respect ants after seeing a shipwreck",
+        "Mercury punishes an Ant for biting an innocent Man"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 425,
+        "end": 562
+      },
+      "pool": "retest"
+    }
+  ]
+}
