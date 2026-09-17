@@ -1,0 +1,268 @@
+{
+  "id": "aesop-rivers-and-sea",
+  "title": "The Rivers and the Sea",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. \"When we come to you,\" said they to the Sea, \"we are sweet and drinkable: but when once we have mingled with you, our waters become as briny and unpalatable as your own.\" The Sea replied shortly, \"Keep away from me and you'll remain sweet.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-rivers-and-sea-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did all the Rivers combine to do?",
+      "options": [
+        "Protest against the Sea's action of making their waters salt",
+        "Flood the surrounding land together",
+        "Race each other to the ocean",
+        "Ask the Sea for more water"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 17,
+        "end": 109
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rivers-and-sea-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the Rivers, what are they like when they come to the Sea?",
+      "options": [
+        "Sweet and drinkable",
+        "Cold and murky",
+        "Fast and turbulent",
+        "Warm and shallow"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 157,
+        "end": 183
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rivers-and-sea-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the Rivers, what happens to their waters once they have mingled with the Sea?",
+      "options": [
+        "They become as briny and unpalatable as the Sea's own water",
+        "They evaporate completely",
+        "They grow colder than before",
+        "They turn a darker colour"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 189,
+        "end": 279
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rivers-and-sea-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Sea reply to the Rivers' complaint?",
+      "options": [
+        "\"Keep away from me and you'll remain sweet\"",
+        "\"I will try to change my ways\"",
+        "\"You are mistaken about my waters\"",
+        "\"I need your water to survive\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 282,
+        "end": 351
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rivers-and-sea-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in what manner did the Sea reply?",
+      "options": [
+        "Shortly",
+        "Anxiously",
+        "Apologetically",
+        "At great length"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 282,
+        "end": 351
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rivers-and-sea-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"unpalatable\" mean in \"as briny and unpalatable as your own\"?",
+      "options": [
+        "Unpleasant to taste",
+        "Impossible to see through",
+        "Extremely cold",
+        "Too heavy to lift"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 246,
+        "end": 267
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rivers-and-sea-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is the logical flaw in the Rivers' complaint against the Sea?",
+      "options": [
+        "They blame the Sea for a change that only happens because they choose to join it",
+        "They have never actually tasted the Sea's water themselves",
+        "They are complaining about a problem that does not really exist",
+        "They want the Sea to become sweeter than they are"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 282,
+        "end": 351
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rivers-and-sea-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "You cannot fairly blame another for an effect that only comes from choosing to join them",
+        "The Sea is more powerful than any river could ever be",
+        "Rivers should never flow into the sea at all",
+        "Salt water is always more valuable than fresh water"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 282,
+        "end": 351
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-rivers-and-sea-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who protests against the Sea?",
+      "options": [
+        "All the Rivers",
+        "A single small stream",
+        "The fish living in the Sea",
+        "The clouds above the Sea"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 17,
+        "end": 109
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-rivers-and-sea-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exactly are the Rivers protesting the Sea for doing?",
+      "options": [
+        "Making their waters salt",
+        "Flooding their banks",
+        "Draining them dry",
+        "Freezing their waters in winter"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 17,
+        "end": 109
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-rivers-and-sea-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what word describes what happens between the Rivers' water and the Sea's water?",
+      "options": [
+        "Mingled",
+        "Separated",
+        "Frozen",
+        "Reflected"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 189,
+        "end": 279
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-rivers-and-sea-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"mingled\" mean in \"once we have mingled with you\"?",
+      "options": [
+        "Mixed together",
+        "Fought against",
+        "Flowed away from",
+        "Frozen solid"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 189,
+        "end": 279
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-rivers-and-sea-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is the Sea suggesting the Rivers could do to stay sweet?",
+      "options": [
+        "Never flow into the Sea in the first place",
+        "Ask the Sea to filter out its own salt",
+        "Flow faster so the salt cannot mix in",
+        "Combine into a single, larger river"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 282,
+        "end": 351
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-rivers-and-sea-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "The Rivers blame the Sea for their waters turning salty, and the Sea replies that avoiding it is the only solution",
+        "The Sea apologizes to the Rivers and promises to stop mixing with them",
+        "The Rivers agree that salt water tastes better than sweet water",
+        "The Sea threatens to dry up the Rivers unless they stop protesting"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 17,
+        "end": 351
+      },
+      "pool": "retest"
+    }
+  ]
+}
