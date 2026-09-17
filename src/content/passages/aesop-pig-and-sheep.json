@@ -1,0 +1,268 @@
+{
+  "id": "aesop-pig-and-sheep",
+  "title": "The Pig and the Sheep",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Pig found his way into a meadow where a flock of Sheep were grazing. The shepherd caught him, and was proceeding to carry him off to the butcher's when he set up a loud squealing and struggled to get free. The Sheep rebuked him for making such a to-do, and said to him, \"The shepherd catches us regularly and drags us off just like that, and we don't make any fuss.\" \"No, I dare say not,\" replied the Pig, \"but my case and yours are altogether different: he only wants you for wool, but he wants me for bacon.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-pig-and-sheep-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the Pig find his way?",
+      "options": [
+        "Into a barn full of hay",
+        "Into a meadow where a flock of Sheep were grazing",
+        "Into a farmhouse kitchen",
+        "Into a fenced orchard"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 70
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-pig-and-sheep-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who caught the Pig?",
+      "options": [
+        "A passing hunter",
+        "The butcher himself",
+        "The shepherd",
+        "One of the Sheep"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 71,
+        "end": 94
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-pig-and-sheep-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Pig do when he was caught?",
+      "options": [
+        "He set up a loud squealing and struggled to get free",
+        "He fainted from fright",
+        "He calmly followed the shepherd",
+        "He tried to bargain with the shepherd"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 154,
+        "end": 206
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-pig-and-sheep-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Sheep say they never do when the shepherd catches them?",
+      "options": [
+        "Run away",
+        "Bite him",
+        "Make any fuss",
+        "Ask for mercy"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 344,
+        "end": 366
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-pig-and-sheep-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the Pig, what does the shepherd want the Sheep for?",
+      "options": [
+        "Their milk",
+        "Their wool",
+        "Their meat",
+        "Their company"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 457,
+        "end": 483
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-pig-and-sheep-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"to-do\" mean in \"rebuked him for making such a to-do\"?",
+      "options": [
+        "A list of chores",
+        "A fuss or commotion",
+        "A polite greeting",
+        "A type of dance"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 218,
+        "end": 253
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-pig-and-sheep-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Pig say his case and the Sheep's case are \"altogether different\"?",
+      "options": [
+        "Because he is bigger and heavier than the Sheep",
+        "Because being caught means his death, while it costs the Sheep only their wool",
+        "Because he has never been caught before",
+        "Because the shepherd dislikes pigs more than sheep"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 457,
+        "end": 510
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-pig-and-sheep-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "It is foolish to ever protest when caught by someone stronger",
+        "Sheep are wiser than pigs in every situation",
+        "How calmly one faces danger should depend on what is actually at stake",
+        "Squealing loudly always frightens away danger"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 409,
+        "end": 455
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-pig-and-sheep-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where was the shepherd proceeding to carry the Pig?",
+      "options": [
+        "To the butcher's",
+        "To the market",
+        "To another meadow",
+        "To the farmhouse"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 100,
+        "end": 148
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-pig-and-sheep-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how often does the shepherd catch the Sheep, in their own words?",
+      "options": [
+        "Only once a year",
+        "Never, unless they misbehave",
+        "Regularly",
+        "Only during winter"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 273,
+        "end": 306
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-pig-and-sheep-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Pig say he is wanted for?",
+      "options": [
+        "Bacon",
+        "Wool",
+        "Breeding",
+        "Show"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 489,
+        "end": 510
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-pig-and-sheep-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"rebuked\" mean in \"The Sheep rebuked him\"?",
+      "options": [
+        "Comforted gently",
+        "Scolded or criticized",
+        "Ignored completely",
+        "Praised warmly"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 208,
+        "end": 253
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-pig-and-sheep-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what do the Sheep seem to misunderstand about the Pig's alarm?",
+      "options": [
+        "They think he is exaggerating for attention",
+        "They assume his situation carries the same low risk as their own",
+        "They believe he is afraid of the meadow itself",
+        "They think he wants to escape being sheared"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 409,
+        "end": 510
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-pig-and-sheep-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Pig is caught and calmly accepts his fate like the Sheep around him",
+        "A Pig struggles and squeals when caught, explaining to the scolding Sheep that death, not shearing, awaits him",
+        "A Pig persuades the shepherd to release him unharmed",
+        "The Sheep help the Pig escape from the shepherd"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 409,
+        "end": 510
+      },
+      "pool": "retest"
+    }
+  ]
+}
