@@ -1,0 +1,268 @@
+{
+  "id": "aesop-dogs-and-fox",
+  "title": "The Dogs and the Fox",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Some Dogs once found a lion's skin, and were worrying it with their teeth. Just then a Fox came by, and said, \"You think yourselves very brave, no doubt; but if that were a live lion you'd find his claws a good deal sharper than your teeth.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-dogs-and-fox-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Dogs find?",
+      "options": [
+        "A bear's skin",
+        "A lion's skin",
+        "A wolf's skin",
+        "A tiger's skin"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 34
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dogs-and-fox-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what were the Dogs doing to the skin?",
+      "options": [
+        "Burying it in the ground",
+        "Worrying it with their teeth",
+        "Sniffing it cautiously",
+        "Dragging it back to their den"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 40,
+        "end": 73
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dogs-and-fox-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who came by while the Dogs were worrying the skin?",
+      "options": [
+        "A Wolf",
+        "A Fox",
+        "A Bear",
+        "A Hunter"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 75,
+        "end": 98
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dogs-and-fox-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox say the Dogs think of themselves?",
+      "options": [
+        "Very brave",
+        "Very clever",
+        "Very foolish",
+        "Very hungry"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 111,
+        "end": 152
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dogs-and-fox-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the Fox, what would the Dogs find sharper than their teeth if the lion were alive?",
+      "options": [
+        "His claws",
+        "His roar",
+        "His fangs",
+        "His mane"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 194,
+        "end": 239
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dogs-and-fox-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"worrying\" mean in \"were worrying it with their teeth\"?",
+      "options": [
+        "Feeling anxious about",
+        "Biting and tearing at",
+        "Guarding carefully",
+        "Ignoring completely"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 45,
+        "end": 53
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dogs-and-fox-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what point is the Fox making about the Dogs' bravery?",
+      "options": [
+        "It is only easy because the lion is dead and cannot fight back",
+        "It proves the Dogs could defeat a real lion",
+        "It shows the Dogs are stronger than any fox",
+        "It is proof the Dogs deserve to keep the skin"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 111,
+        "end": 239
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dogs-and-fox-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "It is easy to seem brave against a danger that can no longer harm you",
+        "Dogs are naturally braver than foxes",
+        "Lions are always more dangerous than they appear",
+        "Sharp teeth matter more than sharp claws"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 111,
+        "end": 239
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dogs-and-fox-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, with what body part were the Dogs worrying the skin?",
+      "options": [
+        "Their teeth",
+        "Their paws",
+        "Their claws",
+        "Their noses"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 40,
+        "end": 73
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dogs-and-fox-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what kind of skin did the Dogs find?",
+      "options": [
+        "A live lion",
+        "A lion's skin",
+        "A sleeping lion",
+        "A caged lion"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 21,
+        "end": 34
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dogs-and-fox-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the Fox, what would happen if the lion were alive rather than just a skin?",
+      "options": [
+        "The Dogs would find its claws a good deal sharper than their teeth",
+        "The Dogs would easily defeat it together",
+        "The Fox would fight it instead of the Dogs",
+        "The lion would flee from the Dogs"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 158,
+        "end": 239
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dogs-and-fox-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what best describes the tone of the Fox's remark, \"You think yourselves very brave, no doubt\"?",
+      "options": [
+        "Sincere praise",
+        "Mockery of their false confidence",
+        "A genuine warning of danger to come",
+        "An offer to join in the game"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 111,
+        "end": 152
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dogs-and-fox-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Fox bring up the lion's claws at all?",
+      "options": [
+        "To remind the Dogs that a real, living lion would be a very different challenge",
+        "To warn the Dogs that a claw is hidden inside the skin",
+        "To suggest the Dogs should sharpen their own teeth",
+        "To offer to trade his claws for their teeth"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 158,
+        "end": 239
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dogs-and-fox-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "Dogs fight off a live lion while a Fox watches in admiration",
+        "Dogs tear at a dead lion's skin, and a passing Fox points out their courage would fail against a real lion",
+        "A Fox and some Dogs argue over who found the lion's skin first",
+        "A Fox challenges some Dogs to a fight and loses"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 239
+      },
+      "pool": "retest"
+    }
+  ]
+}
