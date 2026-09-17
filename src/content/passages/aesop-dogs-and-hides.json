@@ -1,0 +1,268 @@
+{
+  "id": "aesop-dogs-and-hides",
+  "title": "The Dogs and the Hides",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Once upon a time a number of Dogs, who were famished with hunger, saw some Hides steeping in a river, but couldn't get at them because the water was too deep. So they put their heads together, and decided to drink away at the river till it was shallow enough for them to reach the Hides. But long before that happened they burst themselves with drinking."
+  ],
+  "questions": [
+    {
+      "id": "aesop-dogs-and-hides-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what condition were the Dogs in?",
+      "options": [
+        "Famished with hunger",
+        "Exhausted from a long chase",
+        "Recovering from an injury",
+        "Fast asleep"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 17,
+        "end": 64
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dogs-and-hides-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Dogs see in the river?",
+      "options": [
+        "Some Hides steeping in the water",
+        "A school of fish",
+        "A fallen tree",
+        "Another pack of dogs swimming"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 66,
+        "end": 100
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dogs-and-hides-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why couldn't the Dogs get at the Hides right away?",
+      "options": [
+        "The water was too deep",
+        "The Hides were locked in a cage",
+        "Another animal was guarding them",
+        "The current was too strong"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 106,
+        "end": 157
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dogs-and-hides-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what plan did the Dogs decide on?",
+      "options": [
+        "To drink the river until it was shallow enough to reach the Hides",
+        "To dig a channel to drain the river",
+        "To wait until winter froze the river",
+        "To ask a bird to fetch the Hides for them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 162,
+        "end": 286
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dogs-and-hides-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to the Dogs before the river became shallow enough?",
+      "options": [
+        "They burst themselves with drinking",
+        "They gave up and went home",
+        "They found a shorter way around",
+        "They fell asleep by the riverbank"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 292,
+        "end": 353
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dogs-and-hides-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"famished\" mean in \"famished with hunger\"?",
+      "options": [
+        "Extremely hungry",
+        "Very tired",
+        "Badly injured",
+        "Deeply confused"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 17,
+        "end": 64
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dogs-and-hides-f7",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"steeping\" mean in \"some Hides steeping in a river\"?",
+      "options": [
+        "Soaking in liquid",
+        "Floating on the surface",
+        "Burning slowly",
+        "Freezing solid"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 66,
+        "end": 100
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dogs-and-hides-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "A reckless plan pursued without limits can destroy those who attempt it",
+        "Hides are always safer left in deep water",
+        "Dogs should never work together on a difficult task",
+        "Hunger is easily solved by patience alone"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 162,
+        "end": 353
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dogs-and-hides-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where were the Hides located?",
+      "options": [
+        "Steeping in a river",
+        "Hanging on a fence",
+        "Buried under leaves",
+        "Stacked in a barn"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 66,
+        "end": 100
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dogs-and-hides-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Dogs do together before deciding on their plan?",
+      "options": [
+        "They put their heads together",
+        "They howled at the moon",
+        "They fought over the Hides",
+        "They ran along the riverbank"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 162,
+        "end": 286
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dogs-and-hides-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what ultimately happened to the Dogs' hunger problem?",
+      "options": [
+        "It was never solved, as they burst themselves with drinking first",
+        "It was solved once they reached the Hides",
+        "It was solved when another animal shared its food",
+        "It disappeared once the river ran dry naturally"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 292,
+        "end": 353
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dogs-and-hides-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the idiom \"put their heads together\" mean in the passage?",
+      "options": [
+        "They thought and planned as a group",
+        "They physically touched heads to keep warm",
+        "They argued loudly with one another",
+        "They fell asleep side by side"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 162,
+        "end": 286
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dogs-and-hides-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what flaw led to the Dogs' downfall?",
+      "options": [
+        "They pursued their goal without limit, never considering that the effort itself would harm them",
+        "They misjudged how deep the river actually was",
+        "They trusted a plan suggested by an outsider",
+        "They failed to notice the Hides were rotten"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 162,
+        "end": 353
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dogs-and-hides-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "Hungry Dogs try to drink a river dry to reach some Hides, but ruin themselves with drinking before ever reaching the goal",
+        "Hungry Dogs successfully drink the river shallow and eat the Hides",
+        "Dogs abandon their plan to reach the Hides once they realize the river is too deep",
+        "Dogs find an easier way to cross the river and reach the Hides safely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 17,
+        "end": 353
+      },
+      "pool": "retest"
+    }
+  ]
+}
