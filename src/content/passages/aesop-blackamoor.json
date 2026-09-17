@@ -1,0 +1,268 @@
+{
+  "id": "aesop-blackamoor",
+  "title": "The Blackamoor",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Man once bought an Ethiopian slave, who had a black skin like all Ethiopians; but his new master thought his colour was due to his late owner's having neglected him, and that all he wanted was a good scrubbing. So he set to work with plenty of soap and hot water, and rubbed away at him with a will, but all to no purpose: his skin remained as black as ever, while the poor wretch all but died from the cold he caught."
+  ],
+  "questions": [
+    {
+      "id": "aesop-blackamoor-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what had the Man just bought at the start of the passage?",
+      "options": [
+        "A team of oxen",
+        "An Ethiopian slave",
+        "A plot of farmland",
+        "A herd of sheep"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 78
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blackamoor-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the new master believe was the cause of the slave's colour?",
+      "options": [
+        "A skin condition passed down in his family",
+        "The late owner's having neglected him",
+        "Long exposure to the sun",
+        "A disease he had caught at sea"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 84,
+        "end": 166
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blackamoor-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the master think the slave needed?",
+      "options": [
+        "A good scrubbing",
+        "A change of clothes",
+        "A period of rest",
+        "A new set of tools"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 177,
+        "end": 211
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blackamoor-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the master use to scrub the slave?",
+      "options": [
+        "Sand and vinegar",
+        "Plenty of soap and hot water",
+        "A rough brush and ash",
+        "Cold water and salt"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 213,
+        "end": 300
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blackamoor-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the result of all the scrubbing?",
+      "options": [
+        "The slave's skin remained as black as ever",
+        "The slave's skin grew paler after a week",
+        "The slave's skin became irritated but changed colour",
+        "The scrubbing worked, but only in patches"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 306,
+        "end": 359
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blackamoor-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to the slave besides his skin staying the same?",
+      "options": [
+        "He nearly died from the cold he caught",
+        "He ran away from his new master",
+        "He fell ill from the soap",
+        "He lost his sense of hearing"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 367,
+        "end": 419
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blackamoor-f7",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"neglected\" mean in \"his late owner's having neglected him\"?",
+      "options": [
+        "Praised excessively",
+        "Failed to care for properly",
+        "Trained rigorously",
+        "Introduced formally"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 84,
+        "end": 166
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blackamoor-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Effort spent trying to change what cannot be changed is wasted, and can even cause harm",
+        "Cleanliness always improves a person's health",
+        "New owners should never trust the word of a previous owner",
+        "Cold water is more effective than hot water for scrubbing"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 306,
+        "end": 419
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blackamoor-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what colour was the slave's skin?",
+      "options": [
+        "Black",
+        "Deeply tanned",
+        "Pale",
+        "Grey"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 78
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-blackamoor-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the master go about trying to change the slave's colour?",
+      "options": [
+        "He set to work with plenty of soap and hot water",
+        "He hired a physician to examine him",
+        "He kept him indoors away from sunlight",
+        "He fed him a special diet"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 213,
+        "end": 300
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-blackamoor-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does it describe the effort spent scrubbing the slave?",
+      "options": [
+        "As all to no purpose",
+        "As a complete success",
+        "As only partly effective",
+        "As too dangerous to continue"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 306,
+        "end": 359
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-blackamoor-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"wretch\" mean in \"the poor wretch all but died\"?",
+      "options": [
+        "A pitiable, suffering person",
+        "A dishonest trickster",
+        "A skilled craftsman",
+        "A wealthy nobleman"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 367,
+        "end": 419
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-blackamoor-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what mistaken assumption led the master to scrub the slave?",
+      "options": [
+        "He believed the slave's colour was dirt caused by neglect rather than a natural trait",
+        "He believed the slave had recently painted his skin",
+        "He believed soap could cure any illness",
+        "He believed the slave wanted to be scrubbed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 84,
+        "end": 166
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-blackamoor-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A master scrubs his new slave to remove dirt he wrongly assumes is there, harming him without changing his natural colour",
+        "A slave scrubs himself clean to please his new master",
+        "A master discovers his slave was neglected and nurses him back to health",
+        "A slave's skin changes colour after a long illness"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 84,
+        "end": 419
+      },
+      "pool": "retest"
+    }
+  ]
+}
