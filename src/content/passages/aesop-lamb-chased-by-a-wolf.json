@@ -1,0 +1,268 @@
+{
+  "id": "aesop-lamb-chased-by-a-wolf",
+  "title": "The Lamb Chased by a Wolf",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Wolf was chasing a Lamb, which took refuge in a temple. The Wolf urged it to come out of the precincts, and said, \"If you don't, the priest is sure to catch you and offer you up in sacrifice on the altar.\" To which the Lamb replied, \"Thanks, I think I'll stay where I am: I'd rather be sacrificed any day than be eaten up by a Wolf.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-lamb-chased-by-a-wolf-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Wolf doing to the Lamb at the start of the fable?",
+      "options": [
+        "Teaching her to hunt",
+        "Leading her to a temple to worship",
+        "Chasing her",
+        "Guarding her from other wolves"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 25
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lamb-chased-by-a-wolf-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the Lamb take refuge from the Wolf?",
+      "options": [
+        "In a temple",
+        "Up a tree",
+        "Behind a rock",
+        "Inside a cave"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 27,
+        "end": 56
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lamb-chased-by-a-wolf-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Wolf urge the Lamb to do?",
+      "options": [
+        "Pray to the priest for mercy",
+        "Hide deeper inside the temple",
+        "Wait until nightfall",
+        "Come out of the precincts"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 58,
+        "end": 104
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lamb-chased-by-a-wolf-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the Wolf, what will the priest do to the Lamb if she does not come out?",
+      "options": [
+        "Feed her and set her free",
+        "Catch her and offer her up in sacrifice on the altar",
+        "Chase her back toward the Wolf",
+        "Keep her in the temple forever"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 131,
+        "end": 205
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lamb-chased-by-a-wolf-f5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"precincts\" mean in \"come out of the precincts\"?",
+      "options": [
+        "The priests who serve the temple",
+        "The songs sung inside the temple",
+        "The grounds or enclosed area of the temple",
+        "The road leading away from the temple"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 79,
+        "end": 104
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lamb-chased-by-a-wolf-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"refuge\" mean in \"took refuge in a temple\"?",
+      "options": [
+        "A shelter or safety from danger",
+        "A place of worship for wolves",
+        "A punishment for wrongdoing",
+        "A gathering of priests"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 33,
+        "end": 56
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lamb-chased-by-a-wolf-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Lamb doubt that the Wolf's warning about the priest is meant to help her?",
+      "options": [
+        "The Wolf has never met the priest and cannot know his plans",
+        "The temple has no priest at all, so the warning must be false",
+        "The Lamb cannot hear the Wolf clearly from inside the temple",
+        "The Wolf itself stands to eat her if she comes out, so its warning serves its own interest"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 58,
+        "end": 104
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lamb-chased-by-a-wolf-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Temples always offer complete safety from predators",
+        "Faced with death either way, the Lamb prefers the fate that does not satisfy her enemy",
+        "Priests are more dangerous than wolves",
+        "The Lamb trusts the Wolf's advice because it comes from concern for her safety"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 274,
+        "end": 333
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lamb-chased-by-a-wolf-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what are the exact opening words of the Lamb's reply?",
+      "options": [
+        "\"No, thank you, I am quite safe here\"",
+        "\"Never, I would sooner starve\"",
+        "\"Thanks, I think I'll stay where I am\"",
+        "\"Go away and leave me be\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 236,
+        "end": 272
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lamb-chased-by-a-wolf-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Lamb say she would rather be?",
+      "options": [
+        "Forgiven",
+        "Hidden",
+        "Adopted",
+        "Sacrificed"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 274,
+        "end": 298
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lamb-chased-by-a-wolf-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the Lamb, what fate does she prefer to being eaten by a Wolf?",
+      "options": [
+        "Being sold to a farmer",
+        "Being sacrificed",
+        "Being chased forever",
+        "Being kept as a pet"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 274,
+        "end": 333
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lamb-chased-by-a-wolf-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"sacrificed\" mean in \"rather be sacrificed any day\"?",
+      "options": [
+        "Ritually killed as an offering",
+        "Set free by the priest",
+        "Cured of an illness",
+        "Praised in a ceremony"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 274,
+        "end": 333
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lamb-chased-by-a-wolf-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Lamb's answer reveal about how she weighs her two possible fates?",
+      "options": [
+        "She believes the priest will surely spare her once she explains herself",
+        "She thinks the Wolf will lose interest if she waits long enough",
+        "She does not realize either fate involves death",
+        "She sees both fates as certain death, but prefers not to give the Wolf its meal"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 274,
+        "end": 333
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lamb-chased-by-a-wolf-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Wolf and a Lamb make peace inside a temple",
+        "A priest rescues a Lamb from a Wolf and keeps her at the temple",
+        "A Wolf chases a Lamb into a temple and warns her the priest will sacrifice her, but she chooses to stay rather than risk being eaten by the Wolf",
+        "A Lamb tricks a Wolf into entering the temple in her place"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 208,
+        "end": 233
+      },
+      "pool": "retest"
+    }
+  ]
+}
