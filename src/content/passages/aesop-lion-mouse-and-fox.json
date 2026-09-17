@@ -1,0 +1,268 @@
+{
+  "id": "aesop-lion-mouse-and-fox",
+  "title": "The Lion, the Mouse, and the Fox",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Lion was lying asleep at the mouth of his den when a Mouse ran over his back and tickled him so that he woke up with a start and began looking about everywhere to see what it was that had disturbed him. A Fox, who was looking on, thought he would have a joke at the expense of the Lion; so he said, \"Well, this is the first time I've seen a Lion afraid of a Mouse.\" \"Afraid of a Mouse?\" said the Lion testily: \"not I! It's his bad manners I can't stand.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-lion-mouse-and-fox-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where was the Lion lying when the Mouse ran over him?",
+      "options": [
+        "At the mouth of his den",
+        "In an open meadow",
+        "Beside a riverbank",
+        "Underneath a large tree"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 47
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-mouse-and-fox-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Mouse do to the Lion?",
+      "options": [
+        "Ran over his back and tickled him",
+        "Bit his paw sharply",
+        "Squeaked loudly beside his ear",
+        "Hid inside his mane"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 53,
+        "end": 94
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-mouse-and-fox-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion do after waking with a start?",
+      "options": [
+        "Began looking about everywhere to see what had disturbed him",
+        "Roared loudly at the Fox",
+        "Chased the Mouse into the den",
+        "Fell back asleep almost immediately"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 103,
+        "end": 203
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-mouse-and-fox-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Fox think he would do at the Lion's expense?",
+      "options": [
+        "Have a joke",
+        "Steal his prey",
+        "Warn the other animals",
+        "Wake him up further"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 205,
+        "end": 287
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-mouse-and-fox-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox say he has never seen before?",
+      "options": [
+        "A Lion afraid of a Mouse",
+        "A Lion sleeping so soundly",
+        "A Mouse so bold",
+        "A Lion living so close to a den"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 308,
+        "end": 365
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-mouse-and-fox-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Lion say he cannot stand about the Mouse?",
+      "options": [
+        "His bad manners",
+        "His constant squeaking",
+        "His habit of stealing food",
+        "His refusal to apologize"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 413,
+        "end": 454
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-mouse-and-fox-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Lion insist it was not fear that made him wake with a start?",
+      "options": [
+        "He wants to protect his pride and reject the Fox's suggestion that a mouse could frighten him",
+        "He genuinely believes the Mouse is a serious threat to him",
+        "He is too tired to argue with the Fox properly",
+        "He agrees with the Fox but wants to blame someone else"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 366,
+        "end": 454
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-mouse-and-fox-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Someone caught off guard may deny fear by claiming to be offended instead",
+        "Foxes are always more clever than lions in every situation",
+        "Mice are more dangerous to lions than most animals realize",
+        "Lions should never sleep near the entrance of their dens"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 366,
+        "end": 454
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-mouse-and-fox-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who was watching and looking on while the Lion woke up?",
+      "options": [
+        "A Fox",
+        "A Wolf",
+        "A Bear",
+        "Another Lion"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 205,
+        "end": 240
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lion-mouse-and-fox-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the passage describe the way the Lion answered the Fox?",
+      "options": [
+        "Testily",
+        "Warmly",
+        "Cheerfully",
+        "Silently"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 389,
+        "end": 410
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lion-mouse-and-fox-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what question does the Lion repeat back to the Fox?",
+      "options": [
+        "\"Afraid of a Mouse?\"",
+        "\"Who disturbed my sleep?\"",
+        "\"Where did the Mouse go?\"",
+        "\"Why are you laughing?\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 366,
+        "end": 389
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lion-mouse-and-fox-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Fox choose this particular moment to tease the Lion?",
+      "options": [
+        "He had just witnessed the Lion visibly startled by something as small as a mouse",
+        "He had overheard the Lion complaining about mice earlier that day",
+        "He wanted to distract the Lion so the Mouse could escape",
+        "He was jealous that the Mouse had gotten so close to the Lion"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 103,
+        "end": 287
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lion-mouse-and-fox-r5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"testily\" mean in \"said the Lion testily\"?",
+      "options": [
+        "In an irritable, short-tempered manner",
+        "In a calm and patient manner",
+        "In a whisper meant only for the Fox",
+        "With great warmth and affection"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 366,
+        "end": 410
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lion-mouse-and-fox-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Fox teases a startled Lion for seeming afraid of a Mouse, and the Lion insists he was only annoyed, not frightened",
+        "A Lion chases a Fox away after being teased by a Mouse",
+        "A Mouse and a Fox work together to frighten a sleeping Lion",
+        "A Lion thanks the Mouse for waking him before danger arrived"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 53,
+        "end": 454
+      },
+      "pool": "retest"
+    }
+  ]
+}
