@@ -1,0 +1,268 @@
+{
+  "id": "aesop-hound-and-hare",
+  "title": "The Hound and the Hare",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A young Hound started a Hare, and, when he caught her up, would at one moment snap at her with his teeth as though he were about to kill her, while at another he would let go his hold and frisk about her, as if he were playing with another dog. At last the Hare said, \"I wish you would show yourself in your true colours! If you are my friend, why do you bite me? If you are my enemy, why do you play with me?\" He is no friend who plays double."
+  ],
+  "questions": [
+    {
+      "id": "aesop-hound-and-hare-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the young Hound start?",
+      "options": [
+        "A Hare",
+        "A rabbit hole",
+        "A fight with another hound",
+        "A chase after a fox"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 28
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hound-and-hare-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what would the Hound do to the Hare at one moment?",
+      "options": [
+        "Snap at her with his teeth as though about to kill her",
+        "Ignore her completely",
+        "Warn other hounds away from her",
+        "Carry her gently in his mouth"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 58,
+        "end": 140
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hound-and-hare-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what would the Hound do at another moment?",
+      "options": [
+        "Let go his hold and frisk about her as if playing with another dog",
+        "Chase her back to her burrow",
+        "Call for other hounds to join him",
+        "Lie down and refuse to move"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 159,
+        "end": 243
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hound-and-hare-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Hare wish the Hound would do?",
+      "options": [
+        "Show himself in his true colours",
+        "Let her go free at once",
+        "Apologize for chasing her",
+        "Explain why he started the chase"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 269,
+        "end": 320
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hound-and-hare-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Hare ask if the Hound is her friend?",
+      "options": [
+        "Why do you bite me?",
+        "Why do you chase me at all?",
+        "Why won't you play with me longer?",
+        "Why do you never let me rest?"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 322,
+        "end": 362
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hound-and-hare-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the closing line, what kind of friend is one who plays double?",
+      "options": [
+        "No friend at all",
+        "A friend to be trusted completely",
+        "A friend only in times of danger",
+        "The truest kind of friend"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 411,
+        "end": 443
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hound-and-hare-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is the Hare's real complaint about the Hound's behavior?",
+      "options": [
+        "His mixed signals leave her unable to tell whether she is truly in danger or safe",
+        "He is playing too roughly for her liking",
+        "He refuses to let her rest between chases",
+        "He is much stronger than she expected"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 269,
+        "end": 408
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hound-and-hare-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Someone who acts as both friend and enemy by turns cannot truly be trusted as either",
+        "Hounds should never be trusted around smaller animals",
+        "Hares are wiser than hounds in matters of friendship",
+        "Playing rough is always a sign of true affection"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 411,
+        "end": 443
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hound-and-hare-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, at what point did the Hound begin to snap and frisk by turns?",
+      "options": [
+        "After he caught the Hare up",
+        "Before he had even started the chase",
+        "Only after the Hare spoke to him",
+        "Once other hounds arrived to watch"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 56
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hound-and-hare-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Hare ask if the Hound is her enemy?",
+      "options": [
+        "Why do you play with me?",
+        "Why do you not simply kill me?",
+        "Why do you follow me so closely?",
+        "Why do you growl instead of biting?"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 364,
+        "end": 408
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hound-and-hare-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Hound seem to be doing when he frisked about the Hare?",
+      "options": [
+        "Playing with another dog",
+        "Guarding her from other hounds",
+        "Teaching her to run faster",
+        "Searching for a scent"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 159,
+        "end": 243
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hound-and-hare-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Hare say she wishes the Hound would show his \"true colours\"?",
+      "options": [
+        "His alternating behavior makes it impossible to know his real intentions toward her",
+        "She wants to know what breed of hound he is",
+        "She suspects he is disguised as another animal",
+        "She wants him to reveal which pack he belongs to"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 58,
+        "end": 320
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hound-and-hare-r5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"frisk\" mean in \"frisk about her\"?",
+      "options": [
+        "Move about playfully",
+        "Search someone thoroughly",
+        "Growl in a threatening manner",
+        "Sit perfectly still"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 159,
+        "end": 243
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hound-and-hare-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Hound alternates between attacking and playing with a Hare, and she calls him out for refusing to be either a true friend or a true enemy",
+        "A Hound and Hare become lasting friends after a rough start",
+        "A Hare tricks a Hound into letting her escape unharmed",
+        "A Hound kills a Hare after a long chase through the fields"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 408
+      },
+      "pool": "retest"
+    }
+  ]
+}
