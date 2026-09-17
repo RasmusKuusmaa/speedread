@@ -1,0 +1,268 @@
+{
+  "id": "aesop-traveller-and-fortune",
+  "title": "The Traveller and Fortune",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Traveller, exhausted with fatigue after a long journey, sank down at the very brink of a deep well and presently fell asleep. He was within an ace of falling in, when Dame Fortune appeared to him and touched him on the shoulder, cautioning him to move further away. \"Wake up, good sir, I pray you,\" she said; \"had you fallen into the well, the blame would have been thrown not on your own folly but on me, Fortune.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-traveller-and-fortune-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the Traveller sink down to rest?",
+      "options": [
+        "He wanted to drink from the well",
+        "He was fleeing from a wild animal",
+        "He had injured his leg",
+        "He was exhausted with fatigue after a long journey"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 13,
+        "end": 56
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-traveller-and-fortune-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the Traveller fall asleep?",
+      "options": [
+        "At the very brink of a deep well",
+        "Under a large tree",
+        "Inside an abandoned house",
+        "On the road itself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 58,
+        "end": 100
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-traveller-and-fortune-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how close was the Traveller to falling into the well?",
+      "options": [
+        "He was in no danger at all",
+        "He was within an ace of falling in",
+        "He had already fallen partway in",
+        "He was several yards away from the edge"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 128,
+        "end": 162
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-traveller-and-fortune-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who appeared to warn the sleeping Traveller?",
+      "options": [
+        "A passing shepherd",
+        "Another traveller",
+        "Dame Fortune",
+        "The well's owner"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 169,
+        "end": 197
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-traveller-and-fortune-f5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"brink\" mean in \"the very brink of a deep well\"?",
+      "options": [
+        "The edge",
+        "The middle",
+        "The bottom",
+        "The roof"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 71,
+        "end": 100
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-traveller-and-fortune-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"folly\" mean in \"not on your own folly\"?",
+      "options": [
+        "Wisdom",
+        "Good fortune",
+        "Foolishness or carelessness",
+        "Bravery"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 375,
+        "end": 396
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-traveller-and-fortune-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Fortune say that she, not the Traveller, would be blamed if he fell in?",
+      "options": [
+        "Fortune had promised to protect all sleeping travellers",
+        "People often unfairly attribute misfortunes caused by their own carelessness to bad luck",
+        "Fortune was the one who dug the well",
+        "The Traveller had asked Fortune to watch over him"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 342,
+        "end": 415
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-traveller-and-fortune-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Travellers should never rest near a well",
+        "Dame Fortune always protects those who are careless",
+        "Falling asleep outdoors is always dangerous",
+        "People tend to blame luck for troubles that are really caused by their own carelessness"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 342,
+        "end": 415
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-traveller-and-fortune-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what are Fortune's exact opening words to the Traveller?",
+      "options": [
+        "\"Get away from that well at once!\"",
+        "\"You foolish man, look what you have done!\"",
+        "\"Wake up, good sir, I pray you\"",
+        "\"Do not sleep so close to danger\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 269,
+        "end": 298
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-traveller-and-fortune-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Fortune caution the Traveller to do?",
+      "options": [
+        "Continue his journey immediately",
+        "Drink from the well before leaving",
+        "Wait until morning to travel",
+        "Move further away"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 231,
+        "end": 266
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-traveller-and-fortune-r3",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the phrase \"within an ace of\" mean in \"within an ace of falling in\"?",
+      "options": [
+        "Very close to",
+        "Far from",
+        "Certain to avoid",
+        "Unaware of"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 135,
+        "end": 162
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-traveller-and-fortune-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"cautioning\" mean in \"cautioning him to move further away\"?",
+      "options": [
+        "Punishing",
+        "Congratulating",
+        "Ignoring",
+        "Warning or advising"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 231,
+        "end": 266
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-traveller-and-fortune-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Fortune's concern about being blamed suggest about her motive for waking the Traveller?",
+      "options": [
+        "She acts purely out of love for the Traveller with no thought for herself",
+        "She is partly motivated by protecting her own reputation from unfair blame",
+        "She wants the Traveller to reward her later",
+        "She is required by law to wake sleeping travellers"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 342,
+        "end": 415
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-traveller-and-fortune-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Traveller falls into a well and blames Dame Fortune",
+        "Dame Fortune pushes a sleeping Traveller into a well",
+        "A Traveller falls asleep near a well and Dame Fortune wakes him, pointing out that his own carelessness, not her, would be blamed if he fell in",
+        "A Traveller and Dame Fortune argue over directions"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 342,
+        "end": 415
+      },
+      "pool": "retest"
+    }
+  ]
+}
