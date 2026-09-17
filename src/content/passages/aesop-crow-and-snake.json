@@ -1,0 +1,268 @@
+{
+  "id": "aesop-crow-and-snake",
+  "title": "The Crow and the Snake",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A hungry Crow spied a Snake lying asleep in a sunny spot, and, picking it up in his claws, he was carrying it off to a place where he could make a meal of it without being disturbed, when the Snake reared its head and bit him. It was a poisonous Snake, and the bite was fatal, and the dying Crow said, \"What a cruel fate is mine! I thought I had made a lucky find, and it has cost me my life!\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-crow-and-snake-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in what condition did the Crow find the Snake?",
+      "options": [
+        "Lying asleep in a sunny spot",
+        "Hiding under a rock",
+        "Swimming in a stream",
+        "Coiled around a tree branch"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 56
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-snake-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why was the Crow carrying the Snake off to another place?",
+      "options": [
+        "To show it to other crows",
+        "To make a meal of it without being disturbed",
+        "To drop it into a river",
+        "To warn it of danger nearby"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 91,
+        "end": 181
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-snake-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Snake do while being carried off?",
+      "options": [
+        "It fell asleep again",
+        "It slipped out of the Crow's claws",
+        "It reared its head and bit the Crow",
+        "It hissed loudly for help"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 188,
+        "end": 225
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-snake-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what kind of snake had the Crow picked up?",
+      "options": [
+        "A harmless garden snake",
+        "A poisonous snake",
+        "A very young snake",
+        "A snake belonging to a farmer"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 227,
+        "end": 275
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-snake-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exact words does the dying Crow say?",
+      "options": [
+        "\"I should have known better than to trust a snake\"",
+        "\"What a cruel fate is mine! I thought I had made a lucky find, and it has cost me my life!\"",
+        "\"Help me, someone, before it is too late!\"",
+        "\"This snake will pay for what it has done!\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 303,
+        "end": 392
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-snake-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"fatal\" mean in \"the bite was fatal\"?",
+      "options": [
+        "Painful but temporary",
+        "Barely noticeable",
+        "Causing death",
+        "Easily cured"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 227,
+        "end": 275
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-snake-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Crow call the Snake a \"lucky find\" before it kills him?",
+      "options": [
+        "He assumed a sleeping snake would make an easy, safe meal",
+        "He had been searching for a snake all day",
+        "He mistook the snake for a piece of treasure",
+        "He wanted to keep the snake as a pet"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 181
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-snake-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Snakes are always more dangerous than they appear at first",
+        "Crows should never eat animals they find sleeping",
+        "An apparent stroke of good fortune can turn out to carry a fatal, hidden risk",
+        "Hunger makes creatures careless about their own safety"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 303,
+        "end": 392
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-crow-and-snake-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Crow's condition at the start of the passage?",
+      "options": [
+        "He was hungry",
+        "He was injured",
+        "He was tired",
+        "He was frightened"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 56
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crow-and-snake-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Crow pick up the Snake?",
+      "options": [
+        "In his claws",
+        "In his beak",
+        "By pushing it with a stick",
+        "By trapping it in a net"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 63,
+        "end": 89
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crow-and-snake-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Crow say has cost him his life?",
+      "options": [
+        "Chasing a rival crow",
+        "What he thought was a lucky find",
+        "A fall from a high branch",
+        "A fight with another bird"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 303,
+        "end": 392
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crow-and-snake-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"reared\" mean in \"the Snake reared its head\"?",
+      "options": [
+        "Lowered gently",
+        "Raised up suddenly",
+        "Turned away",
+        "Shook rapidly"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 188,
+        "end": 225
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crow-and-snake-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what mistake did the Crow make in judging the Snake?",
+      "options": [
+        "He assumed a sleeping creature posed no danger to him",
+        "He thought the Snake was already dead",
+        "He believed the Snake belonged to another crow",
+        "He thought the Snake was too small to bite him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 225
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-crow-and-snake-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Crow escapes a Snake's bite by flying away in time",
+        "A Crow tries to eat a sleeping Snake but is fatally bitten instead",
+        "A Snake tricks a Crow into freeing it from a trap",
+        "A Crow and a Snake share a meal together peacefully"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 275
+      },
+      "pool": "retest"
+    }
+  ]
+}
