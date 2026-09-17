@@ -1,0 +1,268 @@
+{
+  "id": "aesop-prometheus-and-making-of-man",
+  "title": "Prometheus and the Making of Man",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "At the bidding of Jupiter, Prometheus set about the creation of Man and the other animals. Jupiter, seeing that Mankind, the only rational creatures, were far outnumbered by the irrational beasts, bade him redress the balance by turning some of the latter into men. Prometheus did as he was bidden, and this is the reason why some people have the forms of men but the souls of beasts."
+  ],
+  "questions": [
+    {
+      "id": "aesop-prometheus-and-making-of-man-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who set about the creation of Man and the other animals?",
+      "options": [
+        "Jupiter",
+        "Prometheus",
+        "Mankind itself",
+        "The irrational beasts"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 89
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-prometheus-and-making-of-man-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, at whose bidding did Prometheus act?",
+      "options": [
+        "Jupiter's",
+        "Mankind's",
+        "The beasts'",
+        "His own"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 89
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-prometheus-and-making-of-man-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Jupiter notice about Mankind compared to the beasts?",
+      "options": [
+        "Mankind was far outnumbered by the irrational beasts",
+        "Mankind had already gone extinct",
+        "Mankind outnumbered the beasts many times over",
+        "Mankind and the beasts were exactly equal in number"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 91,
+        "end": 195
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-prometheus-and-making-of-man-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Jupiter tell Prometheus to do about this imbalance?",
+      "options": [
+        "Turn some of the beasts into men",
+        "Turn some of the men into beasts",
+        "Destroy some of the beasts entirely",
+        "Create an entirely new species"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 197,
+        "end": 264
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-prometheus-and-making-of-man-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the passage give as the reason some people have the souls of beasts?",
+      "options": [
+        "Prometheus turned some beasts into men to fix the imbalance Jupiter noticed",
+        "Jupiter cursed certain men as punishment",
+        "Prometheus ran out of material while creating men",
+        "Mankind chose to imitate the beasts on purpose"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 266,
+        "end": 383
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-prometheus-and-making-of-man-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"bidding\" mean in \"At the bidding of Jupiter\"?",
+      "options": [
+        "Command or order",
+        "An auction",
+        "A friendly invitation",
+        "A polite request that could be ignored"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 89
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-prometheus-and-making-of-man-f7",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"irrational\" mean in \"the irrational beasts\"?",
+      "options": [
+        "Lacking the ability to reason",
+        "Extremely large in size",
+        "Dangerous to humans",
+        "Unable to move quickly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 178,
+        "end": 195
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-prometheus-and-making-of-man-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Some people who seem human still carry an animal nature within them, because of how humanity was first balanced out",
+        "Jupiter regrets ever asking Prometheus to make Mankind",
+        "Prometheus should never have listened to Jupiter's request",
+        "Animals are always more rational than human beings"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 266,
+        "end": 383
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-prometheus-and-making-of-man-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what two kinds of beings did Prometheus create at Jupiter's bidding?",
+      "options": [
+        "Man and the other animals",
+        "Only gods and goddesses",
+        "Only birds and fish",
+        "Only Mankind"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 89
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-prometheus-and-making-of-man-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Prometheus do once he received Jupiter's order?",
+      "options": [
+        "He did as he was bidden",
+        "He refused to obey",
+        "He asked the beasts for permission first",
+        "He waited many years before acting"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 266,
+        "end": 297
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-prometheus-and-making-of-man-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, which group is described as \"the only rational creatures\"?",
+      "options": [
+        "Mankind",
+        "The beasts",
+        "Prometheus and Jupiter alone",
+        "Neither Mankind nor the beasts"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 91,
+        "end": 195
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-prometheus-and-making-of-man-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"redress the balance\" mean in \"bade him redress the balance\"?",
+      "options": [
+        "Correct an unevenness between two groups",
+        "Design new clothing for Mankind",
+        "Settle a personal dispute",
+        "Weigh objects on a scale"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 197,
+        "end": 264
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-prometheus-and-making-of-man-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might some people act more like beasts than like reasoning humans?",
+      "options": [
+        "According to the passage, they descend from beasts that Prometheus transformed into men, and so keep something of their original nature",
+        "According to the passage, Jupiter personally punishes them for disobedience",
+        "According to the passage, Prometheus made a mistake and gave them the wrong bodies",
+        "According to the passage, they were never actually part of Jupiter's plan at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 197,
+        "end": 383
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-prometheus-and-making-of-man-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "Prometheus turns some beasts into men on Jupiter's orders to balance their numbers, which the passage says explains why some men still have beast-like souls",
+        "Jupiter creates Mankind alone, without any help from Prometheus",
+        "Prometheus rebels against Jupiter and refuses to create any beasts",
+        "Mankind and the beasts merge into a single new species by their own choice"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 383
+      },
+      "pool": "retest"
+    }
+  ]
+}
