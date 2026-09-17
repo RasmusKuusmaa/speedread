@@ -1,0 +1,268 @@
+{
+  "id": "aesop-jupiter-and-monkey",
+  "title": "Jupiter and the Monkey",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Jupiter issued a proclamation to all the beasts, and offered a prize to the one who, in his judgment, produced the most beautiful offspring. Among the rest came the Monkey, carrying a baby monkey in her arms, a hairless, flat-nosed little fright. When they saw it, the gods all burst into peal on peal of laughter; but the Monkey hugged her little one to her, and said, \"Jupiter may give the prize to whomsoever he likes: but I shall always think my baby the most beautiful of them all.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-jupiter-and-monkey-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Jupiter offer to the beast who produced the most beautiful offspring?",
+      "options": [
+        "A place at his own table",
+        "A prize",
+        "A new home in the forest",
+        "A crown of laurels"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 61,
+        "end": 139
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-jupiter-and-monkey-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Monkey carry in her arms?",
+      "options": [
+        "A bundle of straw",
+        "A piece of fruit",
+        "A baby monkey",
+        "A small mirror"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 173,
+        "end": 207
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-jupiter-and-monkey-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how is the baby monkey described?",
+      "options": [
+        "As a hairless, flat-nosed little fright",
+        "As a plump and cheerful little creature",
+        "As the largest baby among the beasts",
+        "As quiet and unusually well-behaved"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 209,
+        "end": 245
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-jupiter-and-monkey-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the gods react when they saw the baby monkey?",
+      "options": [
+        "They turned away in disgust",
+        "They demanded Jupiter disqualify the Monkey",
+        "They burst into peal on peal of laughter",
+        "They fell completely silent"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 278,
+        "end": 313
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-jupiter-and-monkey-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Monkey do while the gods laughed?",
+      "options": [
+        "She hid her baby behind her back",
+        "She laughed along with the gods",
+        "She left the gathering in anger",
+        "She hugged her little one to her"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 319,
+        "end": 358
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-jupiter-and-monkey-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Monkey say she will always think about her baby?",
+      "options": [
+        "That he will grow up to be strong",
+        "That he is the most beautiful of them all",
+        "That he deserves Jupiter's prize regardless",
+        "That he will one day rule the beasts"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 426,
+        "end": 485
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-jupiter-and-monkey-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Monkey say Jupiter may give the prize to whomsoever he likes?",
+      "options": [
+        "She has already decided her baby has no chance of winning fairly",
+        "Her own opinion of her baby's beauty does not depend on Jupiter's judgment or anyone else's laughter",
+        "She wants to flatter Jupiter into changing his mind",
+        "She believes the contest itself is meaningless"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 371,
+        "end": 485
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-jupiter-and-monkey-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "A parent's love makes her own child seem beautiful, however others see it",
+        "Jupiter's contests always favor the largest beasts",
+        "Beasts should never enter contests judged by the gods",
+        "Laughter from others always changes a mother's opinion of her child"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 319,
+        "end": 485
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-jupiter-and-monkey-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Jupiter issue to all the beasts?",
+      "options": [
+        "A challenge to a race",
+        "A proclamation",
+        "A warning",
+        "An invitation to a feast"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 8,
+        "end": 29
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-jupiter-and-monkey-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, whose judgment was to decide which offspring was most beautiful?",
+      "options": [
+        "The Monkey's",
+        "The other beasts' combined vote",
+        "Jupiter's own judgment",
+        "A panel of gods chosen at random"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 85,
+        "end": 100
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-jupiter-and-monkey-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Monkey say Jupiter may do with the prize?",
+      "options": [
+        "Keep it for himself",
+        "Give it to whomsoever he likes",
+        "Divide it among all the beasts",
+        "Save it for next year's contest"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 371,
+        "end": 420
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-jupiter-and-monkey-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what makes the gods' laughter and the Monkey's response form a contrast?",
+      "options": [
+        "The gods laugh at the baby's looks while the Monkey still calls him the most beautiful",
+        "The gods laugh with joy while the Monkey weeps with shame",
+        "The gods praise the baby while the Monkey criticizes him",
+        "The gods ignore the baby while the Monkey demands attention for him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 278,
+        "end": 358
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-jupiter-and-monkey-r5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"fright\" mean in \"a hairless, flat-nosed little fright\"?",
+      "options": [
+        "A sudden feeling of fear",
+        "An odd-looking, unattractive creature",
+        "A loud, startling noise",
+        "A fast-moving animal"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 209,
+        "end": 245
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-jupiter-and-monkey-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "The Monkey wins Jupiter's beauty contest outright",
+        "Jupiter disqualifies the Monkey's baby from the contest",
+        "The gods laugh at the Monkey's odd-looking baby, but she declares him the most beautiful regardless",
+        "The Monkey refuses to enter her baby in the contest at all"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 209,
+        "end": 485
+      },
+      "pool": "retest"
+    }
+  ]
+}
