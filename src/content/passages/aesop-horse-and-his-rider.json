@@ -1,0 +1,268 @@
+{
+  "id": "aesop-horse-and-his-rider",
+  "title": "The Horse and His Rider",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Young Man, who fancied himself something of a horseman, mounted a Horse which had not been properly broken in, and was exceedingly difficult to control. No sooner did the Horse feel his weight in the saddle than he bolted, and nothing would stop him. A friend of the Rider's met him in the road in his headlong career, and called out, \"Where are you off to in such a hurry?\" To which he, pointing to the Horse, replied, \"I've no idea: ask him.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-horse-and-his-rider-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Young Man see himself?",
+      "options": [
+        "As something of a horseman",
+        "As a skilled blacksmith",
+        "As a cautious traveller",
+        "As a poor rider who needed practice"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 56
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-horse-and-his-rider-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was true of the Horse the Young Man mounted?",
+      "options": [
+        "It was old and slow",
+        "It had not been properly broken in and was hard to control",
+        "It belonged to his friend",
+        "It had thrown other riders many times before"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 58,
+        "end": 153
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-horse-and-his-rider-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Horse do as soon as it felt the Young Man's weight?",
+      "options": [
+        "It reared up and threw him off",
+        "It bolted and nothing would stop him",
+        "It refused to move at all",
+        "It walked calmly down the road"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 155,
+        "end": 251
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-horse-and-his-rider-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who met the Rider in the road during his headlong ride?",
+      "options": [
+        "A stranger on foot",
+        "A friend of the Rider's",
+        "A rival horseman",
+        "The Horse's original owner"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 253,
+        "end": 319
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-horse-and-his-rider-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the friend call out to the Rider?",
+      "options": [
+        "\"Stop that horse before it hurts someone!\"",
+        "\"Where are you off to in such a hurry?\"",
+        "\"You should never have mounted that horse!\"",
+        "\"Do you need help getting down?\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 337,
+        "end": 376
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-horse-and-his-rider-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Rider reply when asked where he was going?",
+      "options": [
+        "\"To the market, as always\"",
+        "\"Nowhere in particular\"",
+        "\"I've no idea: ask him\"",
+        "\"I am trying to reach the stable\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 390,
+        "end": 446
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-horse-and-his-rider-f7",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"bolted\" mean in \"he bolted, and nothing would stop him\"?",
+      "options": [
+        "Fastened himself in place",
+        "Ate very quickly",
+        "Ran off suddenly and uncontrollably",
+        "Fell asleep instantly"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 155,
+        "end": 251
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-horse-and-his-rider-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Rider's answer, \"ask him,\" reveal about who is really in control?",
+      "options": [
+        "The Rider is joking and is actually fully in control",
+        "The Horse, not the Rider, is now deciding where they go",
+        "The friend is expected to stop the Horse himself",
+        "The Rider has decided to turn back home"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 390,
+        "end": 446
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-horse-and-his-rider-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what problem did the Horse have before the Young Man mounted it?",
+      "options": [
+        "It had not been properly broken in",
+        "It had gone lame in one leg",
+        "It had never been ridden before at all",
+        "It was too old to be ridden safely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 58,
+        "end": 153
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-horse-and-his-rider-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the friend meet the Rider?",
+      "options": [
+        "In the road",
+        "At the stable",
+        "In a nearby field",
+        "At the Rider's house"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 253,
+        "end": 319
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-horse-and-his-rider-r3",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"headlong career\" mean in \"met him in the road in his headlong career\"?",
+      "options": [
+        "A slow, cautious walk",
+        "A reckless, uncontrolled dash",
+        "A planned route home",
+        "A brief pause to rest"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 304,
+        "end": 319
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-horse-and-his-rider-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"fancied\" mean in \"who fancied himself something of a horseman\"?",
+      "options": [
+        "Decorated elaborately",
+        "Genuinely doubted",
+        "Considered or imagined himself to be",
+        "Was told by others that he was"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 56
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-horse-and-his-rider-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is it ironic that the Young Man thought himself a skilled horseman?",
+      "options": [
+        "He chose a horse that turned out to be completely beyond his control",
+        "He had never actually ridden a horse before this",
+        "He was actually a very experienced rider who got unlucky",
+        "He was riding on a dare from his friend"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 153
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-horse-and-his-rider-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A self-assured rider mounts an unbroken horse that bolts, leaving him with no control over where he is going",
+        "A skilled horseman calmly rides through town greeting friends",
+        "A rider trains a wild horse until it becomes obedient",
+        "A friend warns a rider not to mount a horse, and he listens"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 446
+      },
+      "pool": "retest"
+    }
+  ]
+}
