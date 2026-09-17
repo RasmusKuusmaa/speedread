@@ -1,0 +1,268 @@
+{
+  "id": "aesop-pomegranate-apple-tree-and-bramble",
+  "title": "The Pomegranate, the Apple-Tree, and the Bramble",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Pomegranate and an Apple-tree were disputing about the quality of their fruits, and each claimed that its own was the better of the two. High words passed between them, and a violent quarrel was imminent, when a Bramble impudently poked its head out of a neighbouring hedge and said, \"There, that's enough, my friends; don't let us quarrel.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-pomegranate-apple-tree-and-bramble-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what were the Pomegranate and the Apple-tree disputing about?",
+      "options": [
+        "Which of them grew taller",
+        "The quality of their fruits",
+        "Which one flowered first each year",
+        "Which one had deeper roots"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 80
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-pomegranate-apple-tree-and-bramble-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did each of them claim about its own fruit?",
+      "options": [
+        "That it ripened earliest",
+        "That it was the better of the two",
+        "That it grew in greater numbers",
+        "That it was more fragrant"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 86,
+        "end": 137
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-pomegranate-apple-tree-and-bramble-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what seemed about to happen between the Pomegranate and the Apple-tree?",
+      "options": [
+        "A peaceful agreement",
+        "A violent quarrel",
+        "A trade of fruit",
+        "A long silence"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 139,
+        "end": 205
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-pomegranate-apple-tree-and-bramble-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the Bramble poke its head out from?",
+      "options": [
+        "A neighbouring hedge",
+        "A nearby orchard",
+        "The ground between them",
+        "A wooden fence"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 212,
+        "end": 275
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-pomegranate-apple-tree-and-bramble-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Bramble say to the Pomegranate and the Apple-tree?",
+      "options": [
+        "\"You are both equally fine\"",
+        "\"That's enough, my friends; don't let us quarrel\"",
+        "\"I will judge which of you is right\"",
+        "\"Neither of you deserves the argument\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 286,
+        "end": 343
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-pomegranate-apple-tree-and-bramble-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"disputing\" mean in \"were disputing about the quality of their fruits\"?",
+      "options": [
+        "Trading",
+        "Arguing",
+        "Comparing prices",
+        "Growing together"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 37,
+        "end": 46
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-pomegranate-apple-tree-and-bramble-f7",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"impudently\" mean in \"a Bramble impudently poked its head out\"?",
+      "options": [
+        "Shyly",
+        "Boldly and disrespectfully",
+        "Slowly and carefully",
+        "Sadly"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 212,
+        "end": 275
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-pomegranate-apple-tree-and-bramble-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is it notable that the Bramble is the one who speaks up and calls the two \"my friends\"?",
+      "options": [
+        "The Bramble is actually a close relative of both plants",
+        "A lowly, fruitless plant is presuming to referee a dispute between two plants prized for their fruit",
+        "The Bramble had won a similar argument before",
+        "The Bramble was asked by both sides to settle the matter"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 212,
+        "end": 343
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-pomegranate-apple-tree-and-bramble-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who interrupts the quarrel between the Pomegranate and the Apple-tree?",
+      "options": [
+        "A Bramble",
+        "A Gardener",
+        "A Bird",
+        "Another Apple-tree"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 212,
+        "end": 275
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-pomegranate-apple-tree-and-bramble-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what passed between the Pomegranate and the Apple-tree before the Bramble spoke?",
+      "options": [
+        "Gifts of fruit",
+        "High words",
+        "A long silence",
+        "Compliments"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 139,
+        "end": 205
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-pomegranate-apple-tree-and-bramble-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what two plants are arguing over the quality of their fruits?",
+      "options": [
+        "A Pomegranate and an Apple-tree",
+        "A Fig-tree and an Olive-tree",
+        "A Bramble and an Apple-tree",
+        "A Pomegranate and a Bramble"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 80
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-pomegranate-apple-tree-and-bramble-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"imminent\" mean in \"a violent quarrel was imminent\"?",
+      "options": [
+        "Forgotten",
+        "About to happen very soon",
+        "Already over",
+        "Unlikely to happen"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 177,
+        "end": 205
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-pomegranate-apple-tree-and-bramble-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what makes the Bramble's plea for peace come across as absurd?",
+      "options": [
+        "The Bramble has no fruit of its own worth comparing, yet acts as if it stands as an equal to the two quarrelling trees",
+        "The Bramble is actually causing the quarrel itself",
+        "The Bramble has already been asked to leave the hedge",
+        "The Bramble agrees that the Apple-tree's fruit is best"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 212,
+        "end": 343
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-pomegranate-apple-tree-and-bramble-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Pomegranate and an Apple-tree nearly come to a quarrel over whose fruit is better, until an unworthy Bramble presumes to call for peace between them as an equal",
+        "A Bramble challenges a Pomegranate and an Apple-tree to grow better fruit",
+        "A Pomegranate and an Apple-tree agree the Bramble's berries are the finest of all",
+        "A Bramble settles a quarrel by proving its own fruit is best"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 343
+      },
+      "pool": "retest"
+    }
+  ]
+}
