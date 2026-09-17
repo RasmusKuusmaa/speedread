@@ -1,0 +1,268 @@
+{
+  "id": "aesop-hawk-kite-and-pigeons",
+  "title": "The Hawk, the Kite, and the Pigeons",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "The Pigeons in a certain dovecote were persecuted by a Kite, who every now and then swooped down and carried off one of their number. So they invited a Hawk into the dovecote to defend them against their enemy. But they soon repented of their folly: for the Hawk killed more of them in a day than the Kite had done in a year."
+  ],
+  "questions": [
+    {
+      "id": "aesop-hawk-kite-and-pigeons-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who was persecuting the Pigeons in the dovecote?",
+      "options": [
+        "A Kite",
+        "A Fox",
+        "An Owl",
+        "A Cat"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 59
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hawk-kite-and-pigeons-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Kite do every now and then?",
+      "options": [
+        "Swooped down and carried off one of their number",
+        "Circled overhead without attacking",
+        "Built a nest inside the dovecote",
+        "Stole grain from a nearby farm"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 61,
+        "end": 132
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hawk-kite-and-pigeons-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who did the Pigeons invite into the dovecote?",
+      "options": [
+        "A Hawk",
+        "An Eagle",
+        "A larger flock of pigeons",
+        "A farmer"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 137,
+        "end": 209
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hawk-kite-and-pigeons-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the Pigeons invite the Hawk in?",
+      "options": [
+        "To defend them against their enemy",
+        "To teach them how to fly faster",
+        "To help them build a bigger dovecote",
+        "To scare away the farmer"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 137,
+        "end": 209
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hawk-kite-and-pigeons-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Hawk's harm to the Pigeons compare with the Kite's?",
+      "options": [
+        "The Hawk killed more of them in a day than the Kite had done in a year",
+        "The Hawk killed exactly as many as the Kite each year",
+        "The Hawk never killed any pigeons at all",
+        "The Hawk only killed pigeons that strayed outside the dovecote"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 254,
+        "end": 324
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hawk-kite-and-pigeons-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"persecuted\" mean in \"were persecuted by a Kite\"?",
+      "options": [
+        "Repeatedly harassed or attacked",
+        "Politely visited",
+        "Closely studied",
+        "Warmly welcomed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 39,
+        "end": 49
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hawk-kite-and-pigeons-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Pigeons come to regret inviting the Hawk?",
+      "options": [
+        "The protector they chose turned out to be far more dangerous than the enemy it was meant to stop",
+        "The Hawk refused to stay in the dovecote for very long",
+        "The Kite returned and drove the Hawk away",
+        "The Hawk demanded payment the Pigeons could not afford"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 137,
+        "end": 324
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hawk-kite-and-pigeons-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Kites are always weaker than hawks",
+        "Turning to a more dangerous power for protection can bring greater harm than the original threat",
+        "Dovecotes should never be built near open fields",
+        "Pigeons are incapable of defending themselves"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 215,
+        "end": 324
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hawk-kite-and-pigeons-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the Pigeons live?",
+      "options": [
+        "In a certain dovecote",
+        "In a tall barn",
+        "In a hollow tree",
+        "In an open field"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 59
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hawk-kite-and-pigeons-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what feeling did the Pigeons have once the Hawk moved in?",
+      "options": [
+        "They soon repented of their folly",
+        "They felt completely safe at last",
+        "They were indifferent to the change",
+        "They celebrated their clever plan"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 215,
+        "end": 248
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hawk-kite-and-pigeons-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, over what span of time had the Kite been carrying off pigeons?",
+      "options": [
+        "A single day",
+        "A year",
+        "A week",
+        "An hour"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 254,
+        "end": 324
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hawk-kite-and-pigeons-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"folly\" mean in \"they soon repented of their folly\"?",
+      "options": [
+        "A foolish or unwise action",
+        "A joyful celebration",
+        "A long journey",
+        "A formal agreement"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 215,
+        "end": 248
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hawk-kite-and-pigeons-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what mistake did the Pigeons make in choosing the Hawk as their defender?",
+      "options": [
+        "They trusted a predator, assuming it would treat them better than their existing enemy did",
+        "They chose an animal too small to fight off the Kite",
+        "They forgot to ask the Hawk to leave once the Kite was gone",
+        "They failed to warn the Hawk about the Kite at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 137,
+        "end": 324
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hawk-kite-and-pigeons-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "The Pigeons defeat the Kite on their own without any outside help",
+        "The Pigeons invite a Hawk to protect them from a Kite, only to have the Hawk harm them far more",
+        "The Kite and the Hawk join forces against the Pigeons",
+        "The Hawk drives the Kite away and then leaves the Pigeons in peace"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 324
+      },
+      "pool": "retest"
+    }
+  ]
+}
