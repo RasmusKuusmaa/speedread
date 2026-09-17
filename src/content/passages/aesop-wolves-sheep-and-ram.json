@@ -1,0 +1,268 @@
+{
+  "id": "aesop-wolves-sheep-and-ram",
+  "title": "The Wolves, the Sheep, and the Ram",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "The Wolves sent a deputation to the Sheep with proposals for a lasting peace between them, on condition of their giving up the sheep-dogs to instant death. The foolish Sheep agreed to the terms; but an old Ram, whose years had brought him wisdom, interfered and said, \"How can we expect to live at peace with you? Why, even with the dogs at hand to protect us, we are never secure from your murderous attacks!\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-wolves-sheep-and-ram-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Wolves send to the Sheep?",
+      "options": [
+        "A deputation with proposals for a lasting peace",
+        "A declaration of war",
+        "A gift of fresh meat",
+        "A request to share pastureland"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 11,
+        "end": 76
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolves-sheep-and-ram-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what condition did the Wolves attach to their peace proposal?",
+      "options": [
+        "That the Sheep move to new pastures",
+        "That the Sheep pay a yearly tribute",
+        "That the Sheep never graze near the forest",
+        "That the Sheep give up the sheep-dogs to instant death"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 91,
+        "end": 154
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolves-sheep-and-ram-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Sheep respond to the Wolves' terms?",
+      "options": [
+        "They demanded better terms",
+        "They foolishly agreed to the terms",
+        "They refused outright",
+        "They asked the Ram to decide for them"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 156,
+        "end": 193
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolves-sheep-and-ram-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who spoke up against the agreement?",
+      "options": [
+        "A young lamb",
+        "A shepherd",
+        "An old Ram",
+        "Another Wolf"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 199,
+        "end": 257
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolves-sheep-and-ram-f5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"deputation\" mean in \"sent a deputation to the Sheep\"?",
+      "options": [
+        "A punishment",
+        "A written contract",
+        "A military attack",
+        "A group sent to represent others"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 11,
+        "end": 41
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolves-sheep-and-ram-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"secure\" mean in \"we are never secure from your murderous attacks\"?",
+      "options": [
+        "Safe",
+        "Wealthy",
+        "Fast",
+        "Popular"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 361,
+        "end": 408
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolves-sheep-and-ram-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Ram doubt the Wolves' peace proposal?",
+      "options": [
+        "He believes the Wolves are too weak to attack anyone",
+        "He reasons that if the Wolves still attack even with the dogs present, losing the dogs would only make things worse",
+        "He thinks the Sheep already have more protection than they need",
+        "He notices the Wolves have never lied before"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 319,
+        "end": 408
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolves-sheep-and-ram-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Peace agreements are always beneficial to both sides",
+        "Old age always brings better judgment than youth",
+        "One should be wary of an enemy's peace offer that requires giving up one's own protection",
+        "Dogs are more dangerous than wolves"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 319,
+        "end": 408
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolves-sheep-and-ram-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Ram say about the Sheep's safety even with the dogs present?",
+      "options": [
+        "They are completely safe",
+        "They are safe only at night",
+        "They are safe only in winter",
+        "They are never secure from the Wolves' murderous attacks"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 361,
+        "end": 408
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolves-sheep-and-ram-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is said to have given the Ram his wisdom?",
+      "options": [
+        "A dream",
+        "Advice from a shepherd",
+        "His years",
+        "A battle with a Wolf"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 211,
+        "end": 245
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolves-sheep-and-ram-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what fate awaited the sheep-dogs under the Wolves' proposed terms?",
+      "options": [
+        "Instant death",
+        "Exile from the flock",
+        "Being traded to another flock",
+        "Lifelong imprisonment"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 113,
+        "end": 154
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolves-sheep-and-ram-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"murderous\" mean in \"your murderous attacks\"?",
+      "options": [
+        "Occurring by accident",
+        "Extremely rare",
+        "Playful and harmless",
+        "Intended to kill"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 386,
+        "end": 408
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolves-sheep-and-ram-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does calling the Sheep \"foolish\" for agreeing suggest about them compared to the Ram?",
+      "options": [
+        "The Sheep are more experienced negotiators than the Ram",
+        "The Sheep are quicker to trust the Wolves than the more cautious, experienced Ram",
+        "The Sheep and the Ram share exactly the same judgment",
+        "The Sheep secretly agree with the Wolves' goals"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 156,
+        "end": 193
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolves-sheep-and-ram-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "The Wolves and the Sheep and Ram become lasting allies",
+        "The Ram convinces the Wolves to give up hunting",
+        "The Wolves offer peace if the Sheep give up their guard dogs, the Sheep foolishly agree, but the Ram warns that they are not even safe now with the dogs present",
+        "The Sheep-dogs volunteer to be sacrificed for peace"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 319,
+        "end": 408
+      },
+      "pool": "retest"
+    }
+  ]
+}
