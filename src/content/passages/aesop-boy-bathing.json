@@ -1,0 +1,268 @@
+{
+  "id": "aesop-boy-bathing",
+  "title": "The Boy Bathing",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Boy was bathing in a river and got out of his depth, and was in great danger of being drowned. A man who was passing along a road heard his cries for help, and went to the riverside and began to scold him for being so careless as to get into deep water, but made no attempt to help him. \"Oh, sir,\" cried the Boy, \"please help me first and scold me afterwards.\" Give assistance, not advice, in a crisis."
+  ],
+  "questions": [
+    {
+      "id": "aesop-boy-bathing-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where was the Boy bathing?",
+      "options": [
+        "In a lake",
+        "In the sea",
+        "In a pond",
+        "In a river"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 28
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-bathing-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to the Boy while bathing?",
+      "options": [
+        "He was bitten by a fish",
+        "He got out of his depth and was in great danger of drowning",
+        "He got tangled in weeds near the shore",
+        "He was swept downstream by a strong current"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 33,
+        "end": 95
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-bathing-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who heard the Boy's cries for help?",
+      "options": [
+        "A man passing along a road",
+        "A fisherman in a boat",
+        "Another boy swimming nearby",
+        "A shepherd tending his flock"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 97,
+        "end": 156
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-bathing-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the man do instead of helping the Boy?",
+      "options": [
+        "Ran to fetch a rope",
+        "Called for more people to help",
+        "Scolded him for being careless and made no attempt to help",
+        "Jumped in immediately to save him"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 188,
+        "end": 287
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-bathing-f5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"depth\" mean in \"got out of his depth\"?",
+      "options": [
+        "A type of swimming stroke",
+        "The temperature of the water",
+        "A measurement of distance along the shore",
+        "Water too deep for him to stand or manage safely"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 33,
+        "end": 53
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-bathing-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"scold\" mean in \"began to scold him\"?",
+      "options": [
+        "To criticize sharply for a fault",
+        "To praise warmly",
+        "To ignore completely",
+        "To laugh at playfully"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 188,
+        "end": 206
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-bathing-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Boy's plea a pointed criticism of the man's behavior?",
+      "options": [
+        "It proves the man does not know how to swim",
+        "It reveals the Boy no longer wants to be rescued",
+        "It shows the man is more focused on judging the Boy's mistake than on saving his life",
+        "It shows the Boy thinks the man caused the danger"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 316,
+        "end": 360
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-bathing-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement, made explicit at the end of the passage, best captures the point of the fable?",
+      "options": [
+        "Boys should learn to swim before bathing alone",
+        "Give assistance, not advice, in a crisis",
+        "Passersby are never responsible for helping strangers",
+        "Scolding is the best way to teach caution"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 363,
+        "end": 403
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-bathing-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exact words does the Boy use to plead with the man?",
+      "options": [
+        "\"Please save me before I drown!\"",
+        "\"Why won't you jump in and rescue me?\"",
+        "\"I promise I will never swim here again\"",
+        "\"Please help me first and scold me afterwards\""
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 316,
+        "end": 360
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boy-bathing-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the man do upon hearing the Boy's cries?",
+      "options": [
+        "Went to the riverside and began to scold him",
+        "Ran to find a rope",
+        "Called out for other help",
+        "Ignored the cries and kept walking"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 162,
+        "end": 206
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boy-bathing-r3",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"careless\" mean in \"so careless as to get into deep water\"?",
+      "options": [
+        "Extremely skilled",
+        "Unusually brave",
+        "Not paying enough attention to danger",
+        "Deliberately reckless for attention"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 217,
+        "end": 254
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boy-bathing-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"cries\" mean in \"heard his cries for help\"?",
+      "options": [
+        "Tears of sadness",
+        "Loud calls of distress",
+        "Songs sung quietly",
+        "Written messages"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 132,
+        "end": 156
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boy-bathing-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what general principle about responding to emergencies does the fable illustrate?",
+      "options": [
+        "Advice should always come before action",
+        "Bystanders should never get involved in others' problems",
+        "Scolding is an effective way to prevent danger",
+        "Practical help matters more in the moment than criticism or lessons"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 363,
+        "end": 403
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boy-bathing-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Boy in danger of drowning asks a scolding bystander to help him first and lecture him later",
+        "A drowning Boy is rescued immediately by a passing man",
+        "A Boy scolds a man for swimming carelessly",
+        "A man teaches a Boy how to swim safely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 316,
+        "end": 360
+      },
+      "pool": "retest"
+    }
+  ]
+}
