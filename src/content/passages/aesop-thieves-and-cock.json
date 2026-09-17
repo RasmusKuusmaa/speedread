@@ -1,0 +1,268 @@
+{
+  "id": "aesop-thieves-and-cock",
+  "title": "The Thieves and the Cock",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Some Thieves broke into a house, and found nothing worth taking except a Cock, which they seized and carried off with them. When they were preparing their supper, one of them caught up the Cock, and was about to wring his neck, when he cried out for mercy and said, \"Pray do not kill me: you will find me a most useful bird, for I rouse honest men to their work in the morning by my crowing.\" But the Thief replied with some heat, \"Yes, I know you do, making it still harder for us to get a livelihood. Into the pot you go!\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-thieves-and-cock-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the only thing worth taking that the Thieves found in the house?",
+      "options": [
+        "A Cock",
+        "A bag of coins",
+        "A set of silver plates",
+        "A fine cloak"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 37,
+        "end": 77
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-thieves-and-cock-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when did one of the Thieves catch up the Cock to kill it?",
+      "options": [
+        "While breaking into the house",
+        "While they were preparing their supper",
+        "As soon as they left the house",
+        "The next morning"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 124,
+        "end": 193
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-thieves-and-cock-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Cock claim makes him a useful bird?",
+      "options": [
+        "He guards the house at night",
+        "He lays valuable eggs",
+        "He rouses honest men to their work in the morning by his crowing",
+        "He can be sold for a high price"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 329,
+        "end": 390
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-thieves-and-cock-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Thief say the Cock's crowing does to the Thieves?",
+      "options": [
+        "It attracts more thieves to join them",
+        "It makes it still harder for them to get a livelihood",
+        "It helps them find more houses to rob",
+        "It has no effect on them at all"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 452,
+        "end": 501
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-thieves-and-cock-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what final words does the Thief say to the Cock?",
+      "options": [
+        "\"You may go free.\"",
+        "\"Into the pot you go!\"",
+        "\"We will sell you instead.\"",
+        "\"Crow once more for us.\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 503,
+        "end": 523
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-thieves-and-cock-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"livelihood\" mean in \"harder for us to get a livelihood\"?",
+      "options": [
+        "A means of earning a living",
+        "A place to live",
+        "A type of weapon",
+        "A legal punishment"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 452,
+        "end": 501
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-thieves-and-cock-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Cock's argument fail to save him?",
+      "options": [
+        "The Thieves do not believe he can really crow",
+        "The very trait he offers as useful to honest men is exactly what threatens the Thieves' own activities",
+        "The Thieves are not hungry enough to want him",
+        "The Cock insults the Thieves while pleading for his life"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 432,
+        "end": 501
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-thieves-and-cock-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "A quality that benefits some people can be a threat to others, so a plea of usefulness will not move those it works against",
+        "Thieves are always merciful to animals that plead for their lives",
+        "Roosters are the most valuable animals to keep on a farm",
+        "Honest men should rise even earlier to avoid thieves"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 432,
+        "end": 501
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-thieves-and-cock-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Thieves get the Cock?",
+      "options": [
+        "They bought him at market",
+        "They broke into a house and seized him",
+        "He wandered into their camp",
+        "They won him in a bet"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 122
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-thieves-and-cock-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was about to happen to the Cock before he cried out?",
+      "options": [
+        "He was about to be sold",
+        "He was about to have his neck wrung",
+        "He was about to be set free",
+        "He was about to be given more food"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 199,
+        "end": 226
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-thieves-and-cock-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Cock ask the Thief for?",
+      "options": [
+        "More food",
+        "Mercy",
+        "A larger cage",
+        "A chance to escape"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 233,
+        "end": 255
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-thieves-and-cock-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the Thief's reply \"with some heat\" suggest about his tone?",
+      "options": [
+        "He spoke warmly and gently",
+        "He spoke with irritation or anger",
+        "He spoke in a whisper",
+        "He spoke with great sadness"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 397,
+        "end": 429
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-thieves-and-cock-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Thief's response reveal about how he views the Cock's crowing?",
+      "options": [
+        "As a nuisance to him personally but harmless overall",
+        "As a genuine danger to his trade because it wakes people who might catch thieves",
+        "As something he secretly admires",
+        "As a sound he has never noticed before"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 432,
+        "end": 501
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-thieves-and-cock-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "The Cock's plea that he wakes honest men only convinces the Thief to kill him, since that habit works against thieves",
+        "The Cock persuades the Thieves to release him unharmed",
+        "The Thieves decide to keep the Cock alive as a pet",
+        "The Cock escapes before the Thieves can catch him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 432,
+        "end": 523
+      },
+      "pool": "retest"
+    }
+  ]
+}
