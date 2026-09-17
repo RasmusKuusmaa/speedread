@@ -1,0 +1,268 @@
+{
+  "id": "aesop-wasp-and-snake",
+  "title": "The Wasp and the Snake",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Wasp settled on the head of a Snake, and not only stung him several times, but clung obstinately to the head of his victim. Maddened with pain the Snake tried every means he could think of to get rid of the creature, but without success. At last he became desperate, and crying, \"Kill you I will, even at the cost of my own life,\" he laid his head with the Wasp on it under the wheel of a passing waggon, and they both perished together."
+  ],
+  "questions": [
+    {
+      "id": "aesop-wasp-and-snake-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the Wasp settle?",
+      "options": [
+        "On the tail of the Snake",
+        "On the head of the Snake",
+        "On a nearby rock",
+        "On the wheel of a waggon"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 37
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wasp-and-snake-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Wasp do besides sting the Snake several times?",
+      "options": [
+        "It flew away immediately after",
+        "It clung obstinately to the Snake's head",
+        "It called other wasps to join it",
+        "It burrowed into the Snake's skin"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 43,
+        "end": 124
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wasp-and-snake-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Snake react to the pain?",
+      "options": [
+        "He tried every means he could think of to get rid of the creature",
+        "He gave up and let the Wasp remain",
+        "He asked another animal for help",
+        "He fell asleep despite the pain"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 126,
+        "end": 238
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wasp-and-snake-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exact words does the Snake cry out in his desperation?",
+      "options": [
+        "\"I will never be free of you\"",
+        "\"Kill you I will, even at the cost of my own life\"",
+        "\"Someone, please help me!\"",
+        "\"You will regret this, little Wasp\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 248,
+        "end": 332
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wasp-and-snake-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Snake finally do to be rid of the Wasp?",
+      "options": [
+        "He laid his head, Wasp and all, under the wheel of a passing waggon",
+        "He plunged into a nearby river",
+        "He rubbed his head against a tree trunk",
+        "He asked a bird to peck the Wasp off"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 333,
+        "end": 438
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wasp-and-snake-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the ultimate result of the Snake's action?",
+      "options": [
+        "Only the Wasp was killed",
+        "Only the Snake was killed",
+        "Both the Wasp and the Snake perished together",
+        "Both escaped unharmed at the last moment"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 333,
+        "end": 438
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wasp-and-snake-f7",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"obstinately\" mean in \"clung obstinately to the head\"?",
+      "options": [
+        "Loosely and briefly",
+        "Stubbornly and persistently",
+        "Gently and carefully",
+        "Nervously and hesitantly"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 43,
+        "end": 124
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wasp-and-snake-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Snake choose an action that will also kill himself?",
+      "options": [
+        "He believes the waggon driver will save him at the last second",
+        "His desperation to end the Wasp's torment outweighs his concern for his own life",
+        "He mistakenly thinks the wheel will only harm the Wasp",
+        "He wants to prove his courage to other snakes"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 248,
+        "end": 332
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wasp-and-snake-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many times did the Wasp sting the Snake?",
+      "options": [
+        "Once",
+        "Twice",
+        "Several times",
+        "It never actually stung him"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 43,
+        "end": 124
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wasp-and-snake-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened under the wheel of the passing waggon?",
+      "options": [
+        "The Wasp escaped just in time",
+        "The Snake laid his head there and both creatures perished",
+        "The waggon swerved to avoid the Snake",
+        "The Snake was only slightly injured"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 333,
+        "end": 438
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wasp-and-snake-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what word describes the Snake's state of mind before he acted?",
+      "options": [
+        "Calm",
+        "Desperate",
+        "Curious",
+        "Indifferent"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 248,
+        "end": 332
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wasp-and-snake-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"perished\" mean in \"they both perished together\"?",
+      "options": [
+        "Died",
+        "Escaped",
+        "Recovered",
+        "Separated"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 333,
+        "end": 438
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wasp-and-snake-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Snake's earlier failed attempts suggest about the difficulty of his situation?",
+      "options": [
+        "The Wasp was an ordinary problem the Snake solved easily",
+        "The Wasp's grip was so persistent that only an extreme, self-destructive act could remove it",
+        "The Snake never truly tried to get rid of the Wasp",
+        "The Snake was more annoyed than actually harmed"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 126,
+        "end": 238
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wasp-and-snake-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Snake, unable to shake off a tormenting Wasp, kills them both by crushing his own head under a waggon wheel",
+        "A Wasp stings a Snake once and then flies away unharmed",
+        "A Snake and a Wasp form an unlikely alliance against a common enemy",
+        "A passing waggon driver rescues the Snake from the Wasp"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 248,
+        "end": 438
+      },
+      "pool": "retest"
+    }
+  ]
+}
