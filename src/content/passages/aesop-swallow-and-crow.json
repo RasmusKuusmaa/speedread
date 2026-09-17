@@ -1,0 +1,268 @@
+{
+  "id": "aesop-swallow-and-crow",
+  "title": "The Swallow and the Crow",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Swallow was once boasting to a Crow about her birth. \"I was once a princess,\" said she, \"the daughter of a King of Athens, but my husband used me cruelly, and cut out my tongue for a slight fault. Then, to protect me from further injury, I was turned by Juno into a bird.\" \"You chatter quite enough as it is,\" said the Crow. \"What you would have been like if you hadn't lost your tongue, I can't think.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-swallow-and-crow-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Swallow boasting to the Crow about?",
+      "options": [
+        "Her singing voice",
+        "Her ability to fly swiftly",
+        "Her large nest",
+        "Her birth"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 19,
+        "end": 53
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-swallow-and-crow-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Swallow claim she once was?",
+      "options": [
+        "A princess, daughter of a King of Athens",
+        "A famous singer",
+        "A queen of the birds",
+        "A goddess"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 56,
+        "end": 123
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-swallow-and-crow-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Swallow say happened to her tongue?",
+      "options": [
+        "It grew larger over time",
+        "She lost it in a hunting accident",
+        "Her husband cut it out for a slight fault",
+        "It was stolen by a rival princess"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 129,
+        "end": 197
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-swallow-and-crow-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who turned the Swallow into a bird?",
+      "options": [
+        "Her husband",
+        "Juno",
+        "The King of Athens",
+        "The Crow"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 240,
+        "end": 272
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-swallow-and-crow-f5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"boasting\" mean in \"boasting to a Crow about her birth\"?",
+      "options": [
+        "Complaining bitterly",
+        "Whispering secretly",
+        "Apologizing sincerely",
+        "Speaking proudly to impress others"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 19,
+        "end": 53
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-swallow-and-crow-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"chatter\" mean in \"You chatter quite enough as it is\"?",
+      "options": [
+        "Talk rapidly and at length",
+        "Fly gracefully",
+        "Sing beautifully",
+        "Remain completely silent"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 276,
+        "end": 309
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-swallow-and-crow-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Crow's remark about the Swallow's tongue a witty put-down?",
+      "options": [
+        "It proves the Swallow's story about Juno is false",
+        "It shows the Crow also lost a body part once",
+        "It suggests the Swallow talks constantly even now, so having her tongue would have made her unbearable",
+        "It reveals the Crow cannot understand the Swallow's speech"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 328,
+        "end": 403
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-swallow-and-crow-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Birds should never discuss their family history",
+        "Claims of past grandeur do not impress others, especially when undercut by one's own present behavior",
+        "Juno is unkind to mistreated princesses",
+        "Crows are always more honest than swallows"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 328,
+        "end": 403
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-swallow-and-crow-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Swallow say her husband cut out her tongue?",
+      "options": [
+        "Because she refused to marry him",
+        "Because she revealed a secret",
+        "For a slight fault",
+        "Because she insulted the King"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 161,
+        "end": 197
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-swallow-and-crow-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why was the Swallow turned into a bird?",
+      "options": [
+        "To reward her singing talent",
+        "As punishment for boasting",
+        "To help her escape from Athens",
+        "To protect her from further injury"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 205,
+        "end": 272
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-swallow-and-crow-r3",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"cruelly\" mean in \"my husband used me cruelly\"?",
+      "options": [
+        "In a harsh, unkind way",
+        "Kindly and gently",
+        "Playfully",
+        "Respectfully"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 129,
+        "end": 155
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-swallow-and-crow-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"injury\" mean in \"protect me from further injury\"?",
+      "options": [
+        "Praise or honor",
+        "Financial loss",
+        "Harm or damage",
+        "Loneliness"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 208,
+        "end": 238
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-swallow-and-crow-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does calling her fault \"slight\" suggest about the Swallow's view of her husband's punishment?",
+      "options": [
+        "She believes the punishment was fair and well-deserved",
+        "She sees the punishment as extreme compared to how minor the offense was",
+        "She thinks she deserved an even harsher punishment",
+        "She has forgotten what the fault actually was"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 161,
+        "end": 197
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-swallow-and-crow-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Crow tells a Swallow a sad story about her own life",
+        "A Swallow and a Crow compete over who sings better",
+        "A Crow apologizes to a Swallow for a past wrong",
+        "A Swallow boasts to a Crow about once being a mistreated princess, and the Crow mocks her by noting how talkative she still is"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 328,
+        "end": 403
+      },
+      "pool": "retest"
+    }
+  ]
+}
