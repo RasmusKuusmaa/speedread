@@ -1,0 +1,268 @@
+{
+  "id": "aesop-wolf-fox-and-ape",
+  "title": "The Wolf, the Fox, and the Ape",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Wolf charged a Fox with theft, which he denied, and the case was brought before an Ape to be tried. When he had heard the evidence on both sides, the Ape gave judgment as follows: \"I do not think,\" he said, \"that you, O Wolf, ever lost what you claim; but all the same I believe that you, Fox, are guilty of the theft, in spite of all your denials.\" The dishonest get no credit, even if they act honestly."
+  ],
+  "questions": [
+    {
+      "id": "aesop-wolf-fox-and-ape-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Wolf charge the Fox with?",
+      "options": [
+        "Trespassing",
+        "Cowardice",
+        "Theft",
+        "Lying to the Ape"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 31
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-fox-and-ape-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Fox do when charged with theft?",
+      "options": [
+        "He denied it",
+        "He confessed at once",
+        "He fled the trial",
+        "He blamed the Wolf instead"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 33,
+        "end": 48
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-fox-and-ape-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, before whom was the case brought to be tried?",
+      "options": [
+        "A Lion",
+        "A rustic judge",
+        "A council of hounds",
+        "An Ape"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 54,
+        "end": 100
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-fox-and-ape-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Ape do before giving judgment?",
+      "options": [
+        "He heard the evidence on both sides",
+        "He consulted a second judge",
+        "He questioned the Wolf alone",
+        "He delayed the trial a day"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 102,
+        "end": 146
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-fox-and-ape-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the Ape's judgment, what does he say about the Wolf's claim?",
+      "options": [
+        "That the Wolf exaggerated the value of what was lost",
+        "That the Wolf never actually lost what he claimed",
+        "That the Wolf stole it back himself",
+        "That the Wolf's claim could not be judged fairly"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 210,
+        "end": 252
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-fox-and-ape-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"denials\" mean in \"in spite of all your denials\"?",
+      "options": [
+        "Apologies",
+        "Statements refusing to admit something is true",
+        "Pieces of evidence",
+        "Excuses offered after being caught"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 271,
+        "end": 349
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-fox-and-ape-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is unusual about the Ape's verdict?",
+      "options": [
+        "He punishes the Wolf instead of the Fox",
+        "He refuses to rule on the case at all",
+        "He declares the Wolf never lost anything, yet still finds the Fox guilty of stealing it",
+        "He asks both animals to apologize to each other"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 210,
+        "end": 349
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-fox-and-ape-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, given its closing line?",
+      "options": [
+        "A known liar is not believed even when telling the truth",
+        "Apes make the fairest judges of any animal",
+        "Wolves are more trustworthy than foxes in court",
+        "Every accusation of theft should be dismissed without evidence"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 352,
+        "end": 406
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-fox-and-ape-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who denied the charge of theft?",
+      "options": [
+        "The Wolf",
+        "The Ape",
+        "The Fox",
+        "A witness"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 48
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-fox-and-ape-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exact words does the Ape use to open his judgment?",
+      "options": [
+        "\"Let the evidence decide\"",
+        "\"I do not think\"",
+        "\"This case is closed\"",
+        "\"Justice must be served\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 183,
+        "end": 197
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-fox-and-ape-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the Ape's judgment, what does he conclude about the Fox despite his denials?",
+      "options": [
+        "That the Fox is guilty of the theft",
+        "That the Fox should be released without charge",
+        "That the Fox deserves a lighter punishment",
+        "That the Fox's case should be retried"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 271,
+        "end": 349
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-fox-and-ape-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"charged\" mean in \"A Wolf charged a Fox with theft\"?",
+      "options": [
+        "Rushed at",
+        "Paid a fee to",
+        "Formally accused",
+        "Attacked physically"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 31
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-fox-and-ape-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage's closing line, why might the Ape have ruled against the Fox despite the Wolf having lost nothing?",
+      "options": [
+        "The Fox's known dishonesty made his denials worthless in the Ape's eyes",
+        "The Ape wanted to please the Wolf regardless of the facts",
+        "The Fox admitted guilt partway through the trial",
+        "The evidence clearly proved the Fox had taken something"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 352,
+        "end": 406
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-fox-and-ape-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "An Ape judges a theft case and rules that the Wolf lost nothing, yet the Fox is still guilty",
+        "A Wolf and a Fox settle their dispute without a trial",
+        "An Ape is put on trial for stealing from both the Wolf and the Fox",
+        "The Fox proves his innocence and the Wolf is punished instead"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 148,
+        "end": 349
+      },
+      "pool": "retest"
+    }
+  ]
+}
