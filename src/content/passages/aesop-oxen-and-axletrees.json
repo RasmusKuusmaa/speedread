@@ -1,0 +1,268 @@
+{
+  "id": "aesop-oxen-and-axletrees",
+  "title": "The Oxen and the Axletrees",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A pair of Oxen were drawing a heavily loaded waggon along the highway, and, as they tugged and strained at the yoke, the Axletrees creaked and groaned terribly. This was too much for the Oxen, who turned round indignantly and said, \"Hullo, you there! Why do you make such a noise when we do all the work?\" They complain most who suffer least."
+  ],
+  "questions": [
+    {
+      "id": "aesop-oxen-and-axletrees-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what were the Oxen drawing along the highway?",
+      "options": [
+        "A heavily loaded waggon",
+        "An empty cart",
+        "A plough",
+        "A sledge of stones"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 69
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-oxen-and-axletrees-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Axletrees do as the Oxen tugged and strained at the yoke?",
+      "options": [
+        "They creaked and groaned terribly",
+        "They snapped in two",
+        "They stayed perfectly silent",
+        "They began to smoke"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 76,
+        "end": 159
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-oxen-and-axletrees-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Oxen turn when they had had enough?",
+      "options": [
+        "Indignantly",
+        "Fearfully",
+        "Playfully",
+        "Sleepily"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 161,
+        "end": 221
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-oxen-and-axletrees-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Oxen ask the Axletrees?",
+      "options": [
+        "Why they make such a noise when the Oxen do all the work",
+        "Why they never help pull the waggon",
+        "Why they were built so poorly",
+        "Why they need to be oiled so often"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 232,
+        "end": 305
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-oxen-and-axletrees-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is stated as the moral at the end?",
+      "options": [
+        "They complain most who suffer least",
+        "Heavy loads make the loudest noise",
+        "Silence is always a sign of strength",
+        "Every journey has its difficulties"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 306,
+        "end": 342
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-oxen-and-axletrees-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"indignantly\" mean in \"turned round indignantly\"?",
+      "options": [
+        "Sleepily",
+        "With anger at unfair treatment",
+        "With great joy",
+        "Without any feeling at all"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 161,
+        "end": 221
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-oxen-and-axletrees-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why do the Oxen find the Axletrees' complaint unfair?",
+      "options": [
+        "The Axletrees never actually make any noise",
+        "The Oxen are doing the hard labor of pulling, while the Axletrees merely carry the load and yet complain loudly",
+        "The Axletrees are pulling more weight than the Oxen",
+        "The Oxen believe the Axletrees are lying about the waggon's weight"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 76,
+        "end": 305
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-oxen-and-axletrees-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Those who do the least work often complain the loudest",
+        "Waggons should be built without axletrees",
+        "Oxen are always stronger than the tools they pull",
+        "Complaining is the best way to get help with a heavy task"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 306,
+        "end": 342
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-oxen-and-axletrees-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where were the Oxen drawing the waggon?",
+      "options": [
+        "Along the highway",
+        "Through a forest",
+        "Across a bridge",
+        "Up a mountain path"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 69
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-oxen-and-axletrees-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what were the Oxen doing at the yoke as the Axletrees creaked?",
+      "options": [
+        "Tugging and straining",
+        "Resting quietly",
+        "Chewing their food",
+        "Kicking at the ground"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 76,
+        "end": 159
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-oxen-and-axletrees-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exact words do the Oxen use to get the Axletrees' attention?",
+      "options": [
+        "\"Hullo, you there!\"",
+        "\"Silence, please!\"",
+        "\"Stop that noise!\"",
+        "\"Who goes there!\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 232,
+        "end": 305
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-oxen-and-axletrees-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what best describes the sound the Axletrees made?",
+      "options": [
+        "A creaking and groaning noise",
+        "A soft humming sound",
+        "A sharp whistling sound",
+        "A rhythmic clicking sound"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 131,
+        "end": 159
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-oxen-and-axletrees-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Oxen's question suggest about who is really working hardest?",
+      "options": [
+        "The Oxen believe they, not the Axletrees, bear the real burden of the task",
+        "The Oxen believe the Axletrees are working just as hard as they are",
+        "The Oxen believe the waggon itself is doing all the work",
+        "The Oxen believe the highway is to blame for the noise"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 232,
+        "end": 305
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-oxen-and-axletrees-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "The Axletrees pull the waggon while the Oxen creak and groan loudly",
+        "The Oxen ask the Axletrees to help pull the heavy waggon",
+        "The Oxen scold the creaking Axletrees for complaining loudly while doing none of the actual work",
+        "The Oxen and Axletrees agree to share the burden of the waggon equally"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 342
+      },
+      "pool": "retest"
+    }
+  ]
+}
