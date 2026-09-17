@@ -1,0 +1,268 @@
+{
+  "id": "aesop-moon-and-her-mother",
+  "title": "The Moon and Her Mother",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "The Moon once begged her Mother to make her a gown. \"How can I?\" replied she; \"there's no fitting your figure. At one time you're a New Moon, and at another you're a Full Moon; and between whiles you're neither one nor the other.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-moon-and-her-mother-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Moon beg her Mother to make?",
+      "options": [
+        "A crown",
+        "A gown",
+        "A cloak",
+        "A veil"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 51
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-moon-and-her-mother-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Mother's first reply to the request?",
+      "options": [
+        "\"Ask your father instead\"",
+        "\"Not until next year\"",
+        "\"How can I?\"",
+        "\"I have no cloth to spare\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 52,
+        "end": 64
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-moon-and-her-mother-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Mother say there is no doing to the Moon's figure?",
+      "options": [
+        "Measuring it",
+        "Fitting it",
+        "Improving it",
+        "Copying it"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 79,
+        "end": 109
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-moon-and-her-mother-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Moon at one time?",
+      "options": [
+        "A Full Moon",
+        "A Half Moon",
+        "A New Moon",
+        "A Crescent Moon"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 130,
+        "end": 140
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-moon-and-her-mother-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Moon at another time?",
+      "options": [
+        "A New Moon",
+        "A Full Moon",
+        "A Waning Moon",
+        "A Blood Moon"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 164,
+        "end": 175
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-moon-and-her-mother-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"fitting\" mean in \"there's no fitting your figure\"?",
+      "options": [
+        "Suiting or being appropriate for",
+        "Struggling or fighting against",
+        "Making clothes that match a shape",
+        "Placing something into a box"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 90,
+        "end": 109
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-moon-and-her-mother-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Mother believe she cannot make the Moon a gown?",
+      "options": [
+        "She does not know how to sew",
+        "The Moon's shape keeps changing, so no single gown could fit it",
+        "The Moon has refused every gown she has made before",
+        "She believes gowns are only for the Sun"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 79,
+        "end": 229
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-moon-and-her-mother-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Mothers should always agree to their children's requests",
+        "The Moon is more beautiful than any gown could make her",
+        "Something whose shape is never fixed cannot be fitted with a single fixed garment",
+        "Gowns are unnecessary for anyone who lives in the sky"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 79,
+        "end": 229
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-moon-and-her-mother-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who does the Moon beg to make her a gown?",
+      "options": [
+        "Her sister",
+        "Her Mother",
+        "A tailor",
+        "A star"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 21,
+        "end": 31
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-moon-and-her-mother-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Moon between whiles, that is, between being new and being full?",
+      "options": [
+        "Both a New Moon and a Full Moon at once",
+        "Neither one nor the other",
+        "Always a Full Moon",
+        "Invisible entirely"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 181,
+        "end": 228
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-moon-and-her-mother-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what two phases does the Mother mention the Moon passes through?",
+      "options": [
+        "A New Moon and a Full Moon",
+        "A Half Moon and a Crescent Moon",
+        "A Waxing Moon and a Waning Moon",
+        "A Blue Moon and a Harvest Moon"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 111,
+        "end": 175
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-moon-and-her-mother-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"figure\" mean in \"there's no fitting your figure\"?",
+      "options": [
+        "A number or statistic",
+        "A drawing or diagram",
+        "A person of importance",
+        "The shape or outline of a body"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 90,
+        "end": 109
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-moon-and-her-mother-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what can be inferred about the Moon's appearance over time?",
+      "options": [
+        "It stays exactly the same every night",
+        "It constantly changes in size and shape",
+        "It only changes once a year",
+        "It disappears completely and never returns"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 111,
+        "end": 229
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-moon-and-her-mother-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "The Moon's Mother happily agrees to sew her a gown at once",
+        "The Moon refuses a gown her Mother offers to make",
+        "The Moon asks for a gown, but her Mother explains her ever-changing shape makes it impossible to fit",
+        "The Moon and her Mother argue about which of them is more beautiful"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 229
+      },
+      "pool": "retest"
+    }
+  ]
+}
