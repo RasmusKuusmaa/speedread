@@ -1,0 +1,268 @@
+{
+  "id": "aesop-wolf-and-lion",
+  "title": "The Wolf and the Lion",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A wolf stole a lamb from the flock, and was carrying it off to devour it at his leisure when he met a Lion, who took his prey away from him and walked off with it. He dared not resist, but when the Lion had gone some distance he said, \"It is most unjust of you to take what's mine away from me like that.\" The Lion laughed and called out in reply, \"It was justly yours, no doubt! The gift of a friend, perhaps, eh?\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-wolf-and-lion-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Wolf steal from the flock?",
+      "options": [
+        "A lamb",
+        "A goat",
+        "A calf",
+        "A ram"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 34
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-lion-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, whom did the Wolf meet while carrying off the lamb?",
+      "options": [
+        "A Lion",
+        "A shepherd",
+        "Another wolf",
+        "A hunting dog"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 40,
+        "end": 106
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-lion-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion do upon meeting the Wolf?",
+      "options": [
+        "He warned the Wolf to release the lamb",
+        "He took the prey away and walked off with it",
+        "He ignored the Wolf and continued on his way",
+        "He asked the Wolf to share the lamb"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 108,
+        "end": 162
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-lion-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the Wolf not fight back when the Lion took the lamb?",
+      "options": [
+        "He dared not resist",
+        "He was too injured to fight",
+        "He decided the lamb was not worth it",
+        "He was distracted by another animal"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 164,
+        "end": 183
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-lion-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Wolf call the Lion's action once the Lion has gone some distance?",
+      "options": [
+        "A wise decision",
+        "Most unjust",
+        "Perfectly fair",
+        "A generous gift"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 235,
+        "end": 305
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-lion-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Lion respond to the Wolf's complaint?",
+      "options": [
+        "He apologizes and returns the lamb",
+        "He laughs and suggests the lamb was itself a stolen gift",
+        "He threatens to attack the Wolf",
+        "He offers the Wolf a share of the meat"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 306,
+        "end": 415
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-lion-f7",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"leisure\" mean in \"devour it at his leisure\"?",
+      "options": [
+        "In great haste",
+        "At an unhurried, comfortable pace",
+        "In secret, without being seen",
+        "With great difficulty"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 40,
+        "end": 106
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-lion-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Lion's reply to the Wolf ironic?",
+      "options": [
+        "It points out that the Wolf's own claim to the lamb was no more just than the Lion's taking of it",
+        "It reveals the Lion actually agrees the Wolf was treated unfairly",
+        "It shows the Lion did not realize the lamb had been stolen",
+        "It proves the Lion intends to return the lamb after all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 348,
+        "end": 415
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-lion-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exact words does the Wolf use to complain to the Lion?",
+      "options": [
+        "\"You will pay for this someday\"",
+        "\"It is most unjust of you to take what's mine away from me like that\"",
+        "\"Give me back my lamb at once\"",
+        "\"I will tell the shepherd what you did\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 235,
+        "end": 305
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-lion-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exact words does the Lion use in his reply?",
+      "options": [
+        "\"Consider it a lesson well learned\"",
+        "\"It was justly yours, no doubt! The gift of a friend, perhaps, eh?\"",
+        "\"I take what I please, and you know it\"",
+        "\"Next time, run faster\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 348,
+        "end": 415
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-lion-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, from where did the Wolf originally steal the lamb?",
+      "options": [
+        "From the flock",
+        "From a farmer's yard",
+        "From another wolf's den",
+        "From a market stall"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 34
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-lion-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"unjust\" mean in \"It is most unjust of you\"?",
+      "options": [
+        "Unfair",
+        "Unwise",
+        "Unexpected",
+        "Unfriendly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 235,
+        "end": 305
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-lion-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Lion's mention of \"the gift of a friend\" suggest about how he views the Wolf's claim to the lamb?",
+      "options": [
+        "He believes the Wolf's ownership of the lamb was just as illegitimate as his own taking of it",
+        "He genuinely believes a friend gave the Wolf the lamb",
+        "He thinks the Wolf earned the lamb fairly through hard work",
+        "He plans to ask the Wolf who the friend was"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 348,
+        "end": 415
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-lion-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Lion seizes a lamb the Wolf had stolen, and mocks the Wolf's complaint by pointing out the lamb was never rightfully his either",
+        "A Wolf and a Lion share a stolen lamb peacefully",
+        "A Lion returns a stolen lamb to its rightful shepherd",
+        "A Wolf outsmarts a Lion and keeps the lamb for himself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 108,
+        "end": 415
+      },
+      "pool": "retest"
+    }
+  ]
+}
