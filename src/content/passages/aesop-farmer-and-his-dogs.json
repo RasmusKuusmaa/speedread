@@ -1,0 +1,268 @@
+{
+  "id": "aesop-farmer-and-his-dogs",
+  "title": "The Farmer and His Dogs",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Farmer was snowed up in his farmstead by a severe storm, and was unable to go out and procure provisions for himself and his family. So he first killed his sheep and used them for food; then, as the storm still continued, he killed his goats; and, last of all, as the weather showed no signs of improving, he was compelled to kill his oxen and eat them. When his Dogs saw the various animals being killed and eaten in turn, they said to one another, \"We had better get out of this or we shall be the next to go!\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-farmer-and-his-dogs-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why was the Farmer snowed up in his farmstead?",
+      "options": [
+        "A severe storm",
+        "A landslide blocked the road",
+        "His animals had escaped",
+        "He was recovering from an illness"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 57
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-his-dogs-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Farmer unable to do because of the storm?",
+      "options": [
+        "Feed his dogs",
+        "Procure provisions for himself and his family",
+        "Repair his barn",
+        "Sell his animals at market"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 63,
+        "end": 133
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-his-dogs-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, which animals did the Farmer kill first?",
+      "options": [
+        "His oxen",
+        "His dogs",
+        "His sheep",
+        "His goats"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 138,
+        "end": 186
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-his-dogs-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, which animals did the Farmer kill last, before the Dogs spoke?",
+      "options": [
+        "His goats",
+        "His sheep",
+        "His horses",
+        "His oxen"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 308,
+        "end": 354
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-his-dogs-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the Dogs say to one another?",
+      "options": [
+        "\"We had better get out of this or we shall be the next to go!\"",
+        "\"We should ask the Farmer for more food.\"",
+        "\"Let us guard the remaining animals.\"",
+        "\"The storm will surely end soon.\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 453,
+        "end": 513
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-his-dogs-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"compelled\" mean in \"he was compelled to kill his oxen\"?",
+      "options": [
+        "Forced by circumstance",
+        "Given permission",
+        "Advised by a friend",
+        "Eager and willing"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 308,
+        "end": 354
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-his-dogs-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why do the Dogs decide they should leave?",
+      "options": [
+        "They dislike the taste of the Farmer's food",
+        "They have noticed the Farmer killing his animals in turn for food and fear they will be next",
+        "They want to find a warmer place to sleep",
+        "They have been mistreated by the Farmer's family"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 356,
+        "end": 450
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-his-dogs-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "It is wise to recognize danger from a pattern before it reaches you",
+        "Farmers should never keep more animals than they can feed",
+        "Storms are more dangerous to animals than to people",
+        "Loyalty to one's owner should outweigh fear for one's own safety"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 486,
+        "end": 512
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-his-dogs-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who did the Farmer need to provide for besides himself?",
+      "options": [
+        "His neighbors",
+        "His family",
+        "His workers",
+        "His guests"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 88,
+        "end": 133
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-his-dogs-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, which animals were killed after the sheep?",
+      "options": [
+        "His goats",
+        "His dogs",
+        "His oxen",
+        "His chickens"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 194,
+        "end": 243
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-his-dogs-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Farmer do with each animal he killed?",
+      "options": [
+        "Sold it to a neighbor",
+        "Used it for food",
+        "Buried it in the snow",
+        "Traded it for grain"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 138,
+        "end": 186
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-his-dogs-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"provisions\" mean in \"procure provisions for himself and his family\"?",
+      "options": [
+        "Legal rules",
+        "Supplies of food",
+        "Warm clothing",
+        "Farming tools"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 88,
+        "end": 133
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-his-dogs-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what pattern do the Dogs recognize in the order the animals were killed?",
+      "options": [
+        "The Farmer killed animals starting with the ones he valued least, working toward those he needed most",
+        "The Farmer killed animals at random with no order at all",
+        "The Farmer killed only animals that were already sick",
+        "The Farmer killed animals in the order they were born"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 138,
+        "end": 341
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-his-dogs-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A snowed-in Farmer kills his animals for food one by one, prompting his Dogs to fear they are next and consider fleeing",
+        "A Farmer's Dogs help him hunt for food during a storm",
+        "A Farmer refuses to harm any of his animals despite the storm",
+        "A storm destroys all of a Farmer's animals before he can eat any of them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 356,
+        "end": 514
+      },
+      "pool": "retest"
+    }
+  ]
+}
