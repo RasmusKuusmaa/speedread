@@ -1,0 +1,268 @@
+{
+  "id": "aesop-lion-and-three-bulls",
+  "title": "The Lion and the Three Bulls",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Three Bulls were grazing in a meadow, and were watched by a Lion, who longed to capture and devour them, but who felt that he was no match for the three so long as they kept together. So he began by false whispers and malicious hints to foment jealousies and distrust among them. This stratagem succeeded so well that ere long the Bulls grew cold and unfriendly, and finally avoided each other and fed each one by himself apart. No sooner did the Lion see this than he fell upon them one by one and killed them in turn. The quarrels of friends are the opportunities of foes."
+  ],
+  "questions": [
+    {
+      "id": "aesop-lion-and-three-bulls-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what were the three Bulls doing when the Lion watched them?",
+      "options": [
+        "Grazing in a meadow",
+        "Fighting each other",
+        "Sleeping under a tree",
+        "Crossing a river"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 36
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-three-bulls-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the Lion feel he was no match for the Bulls?",
+      "options": [
+        "They were faster than him",
+        "So long as they kept together",
+        "They were guarded by a farmer",
+        "They outnumbered the local lions"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 109,
+        "end": 182
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-three-bulls-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Lion try to turn the Bulls against each other?",
+      "options": [
+        "By fighting each of them individually first",
+        "By false whispers and malicious hints to foment jealousies and distrust among them",
+        "By offering each of them a share of his kills",
+        "By stealing their food to make them suspect one another"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 187,
+        "end": 278
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-three-bulls-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Bulls eventually do because of the Lion's stratagem?",
+      "options": [
+        "They banded together even more closely",
+        "They avoided each other and fed each one by himself apart",
+        "They left the meadow entirely",
+        "They challenged the Lion together"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 367,
+        "end": 427
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-three-bulls-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion do once the Bulls were separated?",
+      "options": [
+        "He left the meadow in search of easier prey",
+        "He fell upon them one by one and killed them in turn",
+        "He befriended them instead of attacking",
+        "He waited for them to reunite before attacking"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 466,
+        "end": 518
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-three-bulls-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"stratagem\" mean in \"This stratagem succeeded so well\"?",
+      "options": [
+        "A trick or scheme meant to achieve a goal",
+        "A loud roar meant to frighten prey",
+        "A type of weapon",
+        "A formal agreement between animals"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 280,
+        "end": 312
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-three-bulls-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the timing of the Lion's attack, coming only after the Bulls drifted apart, reveal about the source of their earlier safety?",
+      "options": [
+        "Their safety came from staying united, not from any one Bull's individual strength",
+        "The Lion was simply waiting for the Bulls to grow old and weak",
+        "The Bulls had asked a farmer to protect them until then",
+        "The Lion needed the seasons to change before he could hunt"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 429,
+        "end": 519
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-three-bulls-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable's closing line?",
+      "options": [
+        "Lions are always outmatched by groups of prey",
+        "Discord among allies gives their enemies the chance to defeat them",
+        "Bulls are naturally more trusting than other animals",
+        "Whispered rumors are harmless if ignored"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 520,
+        "end": 574
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-three-bulls-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion long to do to the Bulls?",
+      "options": [
+        "Capture and devour them",
+        "Drive them out of the meadow",
+        "Tame them for company",
+        "Trade places with them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 58,
+        "end": 103
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lion-and-three-bulls-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what feelings grew among the Bulls because of the Lion's whispers?",
+      "options": [
+        "Jealousy and distrust",
+        "Pride and confidence",
+        "Curiosity and excitement",
+        "Gratitude and loyalty"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 234,
+        "end": 278
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lion-and-three-bulls-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does it describe the Bulls' relationship after the Lion's plan worked?",
+      "options": [
+        "Cold and unfriendly",
+        "Warmer than before",
+        "Unchanged from the start",
+        "Openly hostile with fighting"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 327,
+        "end": 361
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lion-and-three-bulls-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"foment\" mean in \"to foment jealousies and distrust among them\"?",
+      "options": [
+        "To stir up or incite",
+        "To calm or soothe",
+        "To forget or ignore",
+        "To confess or admit"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 234,
+        "end": 278
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lion-and-three-bulls-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what allowed the Lion to finally succeed in killing the Bulls?",
+      "options": [
+        "He grew stronger over time",
+        "Their separation removed the safety their unity had provided",
+        "He tricked a farmer into helping him",
+        "The Bulls challenged him to individual fights"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 429,
+        "end": 518
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lion-and-three-bulls-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Lion, unable to defeat three united Bulls, sows distrust among them until they separate, then kills them one by one",
+        "Three Bulls unite to drive a Lion away from their meadow",
+        "A Lion befriends three Bulls instead of attacking them",
+        "Three Bulls defeat a Lion by staying together throughout"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 187,
+        "end": 278
+      },
+      "pool": "retest"
+    }
+  ]
+}
