@@ -1,0 +1,268 @@
+{
+  "id": "aesop-lion-and-hare",
+  "title": "The Lion and the Hare",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Lion found a Hare sleeping in her form, and was just going to devour her when he caught sight of a passing stag. Dropping the Hare, he at once made for the bigger game; but finding, after a long chase, that he could not overtake the stag, he abandoned the attempt and came back for the Hare. When he reached the spot, however, he found she was nowhere to be seen, and he had to go without his dinner. \"It serves me right,\" he said; \"I should have been content with what I had got, instead of hankering after a better prize.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-lion-and-hare-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the Lion find the Hare?",
+      "options": [
+        "Sleeping in her form",
+        "Drinking at a stream",
+        "Hiding in a burrow",
+        "Grazing in a meadow"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 40
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-hare-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion catch sight of just before devouring the Hare?",
+      "options": [
+        "A passing stag",
+        "A pack of wolves",
+        "A hunter with a bow",
+        "Another lion"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 80,
+        "end": 113
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-hare-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion do upon seeing the stag?",
+      "options": [
+        "He ignored it and ate the Hare",
+        "He hid from it",
+        "Dropping the Hare, he made for the bigger game",
+        "He called out to warn it away"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 115,
+        "end": 169
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-hare-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the Lion abandon the chase of the stag?",
+      "options": [
+        "He grew bored",
+        "He could not overtake the stag after a long chase",
+        "He was injured",
+        "He decided the Hare was tastier"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 175,
+        "end": 265
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-hare-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion find when he returned for the Hare?",
+      "options": [
+        "The Hare was still asleep",
+        "The Hare was nowhere to be seen",
+        "Another animal had taken the Hare",
+        "The Hare was waiting for him"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 329,
+        "end": 364
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-hare-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"hankering after\" mean in \"instead of hankering after a better prize\"?",
+      "options": [
+        "Running away from",
+        "Longing for or craving",
+        "Forgetting about",
+        "Laughing at"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 483,
+        "end": 524
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-hare-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Lion mean when he says, \"It serves me right\"?",
+      "options": [
+        "He believes the stag deserved to escape him",
+        "He acknowledges that his own greed caused him to lose the meal he already had",
+        "He thinks the Hare tricked him on purpose",
+        "He believes he was unlucky through no fault of his own"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 404,
+        "end": 524
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-hare-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Chasing bigger prey always pays off in the end",
+        "A bird in the hand is worth more than one that might be lost by grasping for something greater",
+        "Lions are naturally poor hunters of stags",
+        "Hares are cleverer than lions at escaping danger"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 435,
+        "end": 524
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lion-and-hare-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Lion just about to do to the Hare when he saw the stag?",
+      "options": [
+        "Devour her",
+        "Wake her gently",
+        "Carry her to his den",
+        "Play with her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 46,
+        "end": 113
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lion-and-hare-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how long did the Lion chase the stag before giving up?",
+      "options": [
+        "A long chase",
+        "Only a few steps",
+        "Until nightfall",
+        "The passage does not say he gave up"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 184,
+        "end": 265
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lion-and-hare-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Lion end up going without?",
+      "options": [
+        "His dinner",
+        "His rest",
+        "His den",
+        "His pride"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 370,
+        "end": 401
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lion-and-hare-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"overtake\" mean in \"he could not overtake the stag\"?",
+      "options": [
+        "To catch up with",
+        "To frighten away",
+        "To injure",
+        "To ignore"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 209,
+        "end": 239
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lion-and-hare-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why was the Lion left with nothing to eat at all?",
+      "options": [
+        "He gave up a certain meal for an uncertain one and lost both",
+        "The stag doubled back and ate the Hare himself",
+        "He was too full from an earlier meal to eat either animal",
+        "The Hare warned the stag to run before the Lion arrived"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 241,
+        "end": 364
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lion-and-hare-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Lion abandons a sleeping Hare to chase a stag, fails to catch it, and returns to find the Hare gone too",
+        "A Lion successfully catches both the Hare and the stag",
+        "A Hare wakes the Lion before he can catch the stag",
+        "A stag saves the Hare from being eaten by the Lion"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 115,
+        "end": 292
+      },
+      "pool": "retest"
+    }
+  ]
+}
