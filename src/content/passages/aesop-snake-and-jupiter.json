@@ -1,0 +1,268 @@
+{
+  "id": "aesop-snake-and-jupiter",
+  "title": "The Snake and Jupiter",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Snake suffered a good deal from being constantly trodden upon by man and beast, owing partly to the length of his body and partly to his being unable to raise himself above the surface of the ground: so he went and complained to Jupiter about the risks to which he was exposed. But Jupiter had little sympathy for him. \"I dare say,\" said he, \"that if you had bitten the first that trod on you, the others would have taken more trouble to look where they put their feet.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-snake-and-jupiter-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Snake suffer from?",
+      "options": [
+        "Being constantly trodden upon by man and beast",
+        "Being hunted by birds of prey",
+        "Losing his skin too often",
+        "Being unable to find enough food"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 80
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-snake-and-jupiter-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is one reason given for why the Snake kept getting trodden upon?",
+      "options": [
+        "The length of his body",
+        "His bright coloring",
+        "His habit of sleeping in open paths",
+        "His slow speed compared to other animals"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 98,
+        "end": 120
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-snake-and-jupiter-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Snake unable to do?",
+      "options": [
+        "Raise himself above the surface of the ground",
+        "Move quickly across open ground",
+        "Find shelter from the sun",
+        "Warn others of his presence"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 145,
+        "end": 200
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-snake-and-jupiter-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who did the Snake complain to about being trodden upon?",
+      "options": [
+        "Jupiter",
+        "The other snakes",
+        "The nearest farmer",
+        "A passing bird"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 208,
+        "end": 278
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-snake-and-jupiter-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how much sympathy did Jupiter have for the Snake's complaint?",
+      "options": [
+        "A great deal",
+        "Little sympathy",
+        "Enough to punish those who trod on him",
+        "None at all, and he refused to answer"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 284,
+        "end": 319
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-snake-and-jupiter-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Jupiter say the Snake should have done to the first creature that trod on him?",
+      "options": [
+        "Warned it loudly",
+        "Bitten it",
+        "Moved out of its way",
+        "Followed it home"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 350,
+        "end": 395
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-snake-and-jupiter-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does Jupiter imply the Snake should rely on to solve his own problem?",
+      "options": [
+        "Divine intervention rather than his own action",
+        "The pity of the creatures who trod on him",
+        "His own means of defending himself, rather than complaining",
+        "A change in the shape of his body"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 350,
+        "end": 470
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-snake-and-jupiter-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "The gods will always defend the weak against the strong",
+        "Those who suffer harm without resisting can expect the harm to continue",
+        "It is wrong to complain to Jupiter about anything",
+        "Length of body always causes misfortune"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 350,
+        "end": 470
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-snake-and-jupiter-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, besides man, what else is said to have trodden upon the Snake?",
+      "options": [
+        "Beast",
+        "Birds",
+        "Fish",
+        "Insects"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 40,
+        "end": 80
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-snake-and-jupiter-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Snake complain to Jupiter about?",
+      "options": [
+        "The risks to which he was exposed",
+        "The cold weather in his burrow",
+        "The lack of food near his den",
+        "Other snakes stealing his territory"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 208,
+        "end": 278
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-snake-and-jupiter-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Jupiter say would have happened if the Snake had bitten the first creature that trod on him?",
+      "options": [
+        "The others would have taken more trouble to look where they put their feet",
+        "The other creatures would have stopped walking through the area entirely",
+        "Jupiter would have punished the Snake for it",
+        "The Snake would have lost his fangs afterward"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 396,
+        "end": 470
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-snake-and-jupiter-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Jupiter respond to the Snake with little sympathy rather than offering help?",
+      "options": [
+        "He believes the Snake's own inaction, not bad luck, is the real cause of his troubles",
+        "He is too busy with more important matters to listen",
+        "He dislikes snakes more than other creatures",
+        "He thinks the Snake is lying about being trodden upon"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 284,
+        "end": 470
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-snake-and-jupiter-r5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"trodden upon\" mean in \"constantly trodden upon by man and beast\"?",
+      "options": [
+        "Stepped on",
+        "Chased away",
+        "Spoken about unkindly",
+        "Admired from a distance"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 40,
+        "end": 80
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-snake-and-jupiter-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "The Snake bites Jupiter out of frustration",
+        "Jupiter punishes the creatures who trod on the Snake",
+        "The Snake complains of being trodden upon, and Jupiter tells him he should have defended himself from the start",
+        "Jupiter changes the shape of the Snake's body to protect him"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 208,
+        "end": 470
+      },
+      "pool": "retest"
+    }
+  ]
+}
