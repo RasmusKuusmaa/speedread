@@ -1,0 +1,268 @@
+{
+  "id": "aesop-she-goats-and-their-beards",
+  "title": "The She-Goats and Their Beards",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Jupiter granted beards to the She-Goats at their own request, much to the disgust of the he-Goats, who considered this to be an unwarrantable invasion of their rights and dignities. So they sent a deputation to him to protest against his action. He, however, advised them not to raise any objections. \"What's in a tuft of hair?\" said he. \"Let them have it if they want it. They can never be a match for you in strength.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-she-goats-and-their-beards-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who granted the She-Goats their beards?",
+      "options": [
+        "Mercury",
+        "The he-Goats",
+        "Jupiter",
+        "A wizard"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 39
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-she-goats-and-their-beards-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the She-Goats receive beards?",
+      "options": [
+        "As a punishment from Jupiter",
+        "To disguise them from hunters",
+        "Because Jupiter lost a wager",
+        "At their own request"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 8,
+        "end": 60
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-she-goats-and-their-beards-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the he-Goats regard the She-Goats' new beards?",
+      "options": [
+        "As an unwarrantable invasion of their rights and dignities",
+        "As a welcome improvement",
+        "As a harmless joke",
+        "As a sign of coming disaster"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 125,
+        "end": 180
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-she-goats-and-their-beards-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the he-Goats do about their objection?",
+      "options": [
+        "Grew beards of their own to compete",
+        "Sent a deputation to protest to Jupiter",
+        "Ignored the matter entirely",
+        "Challenged the She-Goats to a fight"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 185,
+        "end": 244
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-she-goats-and-their-beards-f5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"unwarrantable\" mean in \"an unwarrantable invasion of their rights\"?",
+      "options": [
+        "Very generous",
+        "Unjustified",
+        "Extremely rare",
+        "Officially approved"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 125,
+        "end": 166
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-she-goats-and-their-beards-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"tuft\" mean in \"What's in a tuft of hair?\"?",
+      "options": [
+        "A small clump or bunch",
+        "A single strand",
+        "A cutting tool",
+        "A type of dye"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 302,
+        "end": 327
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-she-goats-and-their-beards-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does Jupiter tell the he-Goats they will never be matched in strength?",
+      "options": [
+        "To warn them that the She-Goats are plotting against them",
+        "To promise them even longer beards in the future",
+        "To remind them that a cosmetic feature like a beard does not change their real advantage",
+        "To suggest that strength no longer matters"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 373,
+        "end": 418
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-she-goats-and-their-beards-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Beards are more valuable than strength",
+        "Jupiter always sides with the party that complains loudest",
+        "It is best to never grant requests from those who ask",
+        "A superficial resemblance does not erase a real difference that still matters"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 373,
+        "end": 418
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-she-goats-and-their-beards-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what question does Jupiter ask the he-Goats?",
+      "options": [
+        "\"Why do you complain so much?\"",
+        "\"Who told you to protest?\"",
+        "\"What's in a tuft of hair?\"",
+        "\"Do you not trust me?\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 302,
+        "end": 327
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-she-goats-and-their-beards-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does Jupiter tell the he-Goats to let the She-Goats have?",
+      "options": [
+        "More pastureland",
+        "A share of his throne",
+        "New horns",
+        "It, if they want it"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 339,
+        "end": 371
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-she-goats-and-their-beards-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what word describes the he-Goats' reaction to the She-Goats getting beards?",
+      "options": [
+        "Disgust",
+        "Delight",
+        "Indifference",
+        "Curiosity"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 62,
+        "end": 97
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-she-goats-and-their-beards-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"dignities\" mean in \"their rights and dignities\"?",
+      "options": [
+        "Their financial assets",
+        "Their family members",
+        "Their sense of honor and status",
+        "Their physical strength"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 154,
+        "end": 180
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-she-goats-and-their-beards-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might Jupiter see the he-Goats' complaint as unimportant?",
+      "options": [
+        "He secretly prefers the She-Goats to the he-Goats",
+        "He believes a beard is a trivial thing next to their real advantage in strength",
+        "He has forgotten that he granted the beards",
+        "He thinks the he-Goats should also request beards"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 302,
+        "end": 327
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-she-goats-and-their-beards-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "The he-Goats and She-Goats fight over who gets beards",
+        "Jupiter punishes the he-Goats for complaining",
+        "The She-Goats give up their beards after the he-Goats protest",
+        "Jupiter grants the She-Goats beards, and although the he-Goats protest, he dismisses the matter since their real strength is unaffected"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 373,
+        "end": 418
+      },
+      "pool": "retest"
+    }
+  ]
+}
