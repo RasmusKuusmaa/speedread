@@ -1,0 +1,268 @@
+{
+  "id": "aesop-trumpeter-taken-prisoner",
+  "title": "The Trumpeter Taken Prisoner",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Trumpeter marched into battle in the van of the army and put courage into his comrades by his warlike tunes. Being captured by the enemy, he begged for his life, and said, \"Do not put me to death; I have killed no one: indeed, I have no weapons, but carry with me only my trumpet here.\" But his captors replied, \"That is only the more reason why we should take your life; for, though you do not fight yourself, you stir up others to do so.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-trumpeter-taken-prisoner-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the Trumpeter march into battle?",
+      "options": [
+        "At the rear of the army",
+        "In the van of the army",
+        "Alongside the cavalry only",
+        "Behind the supply wagons"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 54
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-trumpeter-taken-prisoner-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Trumpeter put courage into his comrades?",
+      "options": [
+        "By fighting alongside them with a sword",
+        "By his warlike tunes",
+        "By shouting orders at them",
+        "By carrying their banner into battle"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 59,
+        "end": 109
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-trumpeter-taken-prisoner-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Trumpeter do after being captured by the enemy?",
+      "options": [
+        "He offered to join their side",
+        "He begged for his life",
+        "He tried to escape immediately",
+        "He refused to speak to his captors"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 111,
+        "end": 162
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-trumpeter-taken-prisoner-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what reason does the Trumpeter give for sparing his life?",
+      "options": [
+        "He has a family waiting for him at home",
+        "He has killed no one and carries no weapons but his trumpet",
+        "He was forced into the army against his will",
+        "He knows valuable information about the enemy"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 174,
+        "end": 288
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-trumpeter-taken-prisoner-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what do the captors say is the reason they should take the Trumpeter's life?",
+      "options": [
+        "He deceived them about his identity",
+        "He stirs up others to fight, even though he does not fight himself",
+        "He refused to surrender his trumpet",
+        "He had previously fought against them directly"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 314,
+        "end": 442
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-trumpeter-taken-prisoner-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"van\" mean in \"marched into battle in the van of the army\"?",
+      "options": [
+        "A type of covered wagon",
+        "The rear guard of an army",
+        "The front, leading position of a force",
+        "A reserve unit kept out of battle"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 54
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-trumpeter-taken-prisoner-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why do the captors reject the Trumpeter's defense that he carries no weapons?",
+      "options": [
+        "They believe he is lying about being unarmed",
+        "They value his trumpet as a war prize",
+        "They see his music as a weapon that rouses others to fight, even without a sword in his hand",
+        "They think all musicians should be spared regardless"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 314,
+        "end": 442
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-trumpeter-taken-prisoner-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Trumpets should never be used on the battlefield",
+        "One who incites others to violence bears responsibility even without striking a blow himself",
+        "Soldiers who carry no weapons are always spared by their captors",
+        "Music has no real influence on the outcome of a battle"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 314,
+        "end": 442
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-trumpeter-taken-prisoner-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Trumpeter say he carries with him?",
+      "options": [
+        "A shield and a spear",
+        "Only his trumpet",
+        "A sword he never used",
+        "Supplies for the army"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 174,
+        "end": 288
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-trumpeter-taken-prisoner-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who captured the Trumpeter?",
+      "options": [
+        "Deserters from his own army",
+        "The enemy",
+        "A band of robbers",
+        "His own commanding officer"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 111,
+        "end": 162
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-trumpeter-taken-prisoner-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exact words do the captors use to justify killing the Trumpeter?",
+      "options": [
+        "\"You are far too dangerous to release\"",
+        "\"That is only the more reason why we should take your life; for, though you do not fight yourself, you stir up others to do so\"",
+        "\"Your trumpet has caused us great losses\"",
+        "\"We cannot trust the word of a musician\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 314,
+        "end": 442
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-trumpeter-taken-prisoner-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"stir up\" mean in \"you stir up others to do so\"?",
+      "options": [
+        "Confuse or mislead",
+        "Rouse or provoke into action",
+        "Quietly organize in secret",
+        "Physically move from place to place"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 314,
+        "end": 442
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-trumpeter-taken-prisoner-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what assumption does the Trumpeter make about how guilt in war should be judged?",
+      "options": [
+        "He assumes that only those who physically fight and kill are guilty",
+        "He assumes that anyone captured is automatically guilty",
+        "He assumes that musicians are exempt from all rules of war",
+        "He assumes that his captors will not believe anything he says"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 174,
+        "end": 288
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-trumpeter-taken-prisoner-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A captured Trumpeter argues he is innocent because he carries no weapons, but his captors say his music makes him just as responsible as a fighter",
+        "A Trumpeter is captured and immediately released as harmless",
+        "A Trumpeter switches sides and joins his captors' army",
+        "A Trumpeter defeats his captors using only his trumpet"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 174,
+        "end": 442
+      },
+      "pool": "retest"
+    }
+  ]
+}
