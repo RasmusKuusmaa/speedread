@@ -1,0 +1,268 @@
+{
+  "id": "aesop-fox-and-bramble",
+  "title": "The Fox and the Bramble",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "In making his way through a hedge a Fox missed his footing and caught at a Bramble to save himself from falling. Naturally, he got badly scratched, and in disgust he cried to the Bramble, \"It was your help I wanted, and see how you have treated me! I'd sooner have fallen outright.\" The Bramble, interrupting him, replied, \"You must have lost your wits, my friend, to catch at me, who am myself always catching at others.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-fox-and-bramble-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Fox doing when he missed his footing?",
+      "options": [
+        "Chasing a rabbit through a field",
+        "Climbing over a fence",
+        "Running from a hunter",
+        "Making his way through a hedge"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 58
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-bramble-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Fox catch at to keep from falling?",
+      "options": [
+        "A Bramble",
+        "A tree branch",
+        "A rock",
+        "A fence post"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 63,
+        "end": 111
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-bramble-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to the Fox as a result of grabbing the Bramble?",
+      "options": [
+        "He escaped completely unharmed",
+        "He broke his leg",
+        "He got badly scratched",
+        "He fell asleep"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 124,
+        "end": 146
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-bramble-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox say he would have preferred?",
+      "options": [
+        "To have asked another animal for help",
+        "To have fallen outright",
+        "To have climbed a tree instead",
+        "To have never entered the hedge"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 249,
+        "end": 280
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-bramble-f5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"outright\" mean in \"fallen outright\"?",
+      "options": [
+        "Slowly and carefully",
+        "Completely, without qualification",
+        "In a friendly manner",
+        "Toward the ground only halfway"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 249,
+        "end": 280
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-bramble-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"wits\" mean in \"lost your wits\"?",
+      "options": [
+        "Mental faculties or good judgment",
+        "Physical strength",
+        "A sense of humor",
+        "Personal belongings"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 324,
+        "end": 352
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-bramble-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Bramble say the Fox \"must have lost his wits\"?",
+      "options": [
+        "Because the Fox forgot the way through the hedge",
+        "Because the Fox is too proud to admit he fell",
+        "Because the Bramble wanted the Fox to apologize first",
+        "Because it is foolish to expect gentle help from something whose nature is to catch and scratch"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 365,
+        "end": 420
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-bramble-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Foxes should never walk through hedges",
+        "Complaining after an accident always helps",
+        "It is unwise to expect help from something whose very nature is to cause harm",
+        "Brambles are more dangerous than they appear"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 381,
+        "end": 420
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-bramble-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exact words does the Fox use to begin his complaint to the Bramble?",
+      "options": [
+        "\"Why did you grab me like that?\"",
+        "\"I demand an apology from you!\"",
+        "\"It was your help I wanted, and see how you have treated me!\"",
+        "\"You have ruined my beautiful coat!\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 189,
+        "end": 248
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-bramble-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Bramble do while the Fox is still speaking?",
+      "options": [
+        "Apologizes to him",
+        "Runs away",
+        "Falls silent",
+        "Interrupts him"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 283,
+        "end": 321
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-bramble-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Bramble address the Fox?",
+      "options": [
+        "\"Foolish creature\"",
+        "\"My friend\"",
+        "\"Stranger\"",
+        "\"Young fox\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 354,
+        "end": 379
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-bramble-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"naturally\" mean in \"Naturally, he got badly scratched\"?",
+      "options": [
+        "As would be expected, given the circumstances",
+        "Unexpectedly",
+        "Gently",
+        "Rarely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 113,
+        "end": 146
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-bramble-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is ironic about the Fox blaming the Bramble for his scratches?",
+      "options": [
+        "The Bramble actually helped a different animal earlier that day",
+        "The Fox knew in advance that Brambles cannot scratch",
+        "The Fox was never actually scratched at all",
+        "A Bramble's nature is to catch and scratch, so the Fox blamed it for behaving exactly as brambles do"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 381,
+        "end": 420
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-bramble-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Fox falls through a hedge and blames a hunter for his injuries",
+        "A Bramble apologizes to a Fox for scratching him",
+        "A Fox grabs a Bramble to avoid falling, gets scratched, and the Bramble points out it was foolish to expect gentle treatment from something that always catches at others",
+        "A Fox and a Bramble become good friends after the accident"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 365,
+        "end": 420
+      },
+      "pool": "retest"
+    }
+  ]
+}
