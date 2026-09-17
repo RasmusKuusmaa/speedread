@@ -1,0 +1,268 @@
+{
+  "id": "aesop-prophet",
+  "title": "The Prophet",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Prophet sat in the market-place and told the fortunes of all who cared to engage his services. Suddenly there came running up one who told him that his house had been broken into by thieves, and that they had made off with everything they could lay hands on. He was up in a moment, and rushed off, tearing his hair and calling down curses on the miscreants. The bystanders were much amused, and one of them said, \"Our friend professes to know what is going to happen to others, but it seems he's not clever enough to perceive what's in store for himself.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-prophet-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the Prophet sit to tell fortunes?",
+      "options": [
+        "In the market-place",
+        "Outside the temple",
+        "By the town well",
+        "At the city gate"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 33
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-prophet-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what news did the man bring the Prophet?",
+      "options": [
+        "That his crops had failed",
+        "That his house had been broken into by thieves",
+        "That his wife was ill",
+        "That a fire had started nearby"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 150,
+        "end": 191
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-prophet-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what had the thieves done?",
+      "options": [
+        "Left a threatening note",
+        "Made off with everything they could lay hands on",
+        "Set the house on fire",
+        "Kidnapped a servant"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 202,
+        "end": 259
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-prophet-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Prophet do upon hearing the news?",
+      "options": [
+        "He calmly consulted his charts",
+        "He rushed off, tearing his hair and calling down curses on the miscreants",
+        "He laughed off the loss",
+        "He asked the bystanders for advice"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 261,
+        "end": 358
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-prophet-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the bystanders react to the scene?",
+      "options": [
+        "They were much amused",
+        "They were terrified",
+        "They ran to help him",
+        "They ignored him entirely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 360,
+        "end": 391
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-prophet-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"miscreants\" mean in \"calling down curses on the miscreants\"?",
+      "options": [
+        "Wrongdoers or villains",
+        "Close friends",
+        "Household servants",
+        "Fellow prophets"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 321,
+        "end": 358
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-prophet-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why do the bystanders find the situation amusing?",
+      "options": [
+        "They dislike the Prophet and enjoy his misfortune",
+        "The Prophet claims to foresee others' futures yet failed to foresee the theft of his own house",
+        "They think the Prophet is lying about the theft",
+        "They believe the thieves were actually his friends"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 416,
+        "end": 555
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-prophet-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Fortune-tellers should never work in public places",
+        "Someone who claims to know others' futures may be unable to foresee troubles in their own life",
+        "Thieves always target those who claim special knowledge",
+        "The market-place is a dangerous place to leave a house unattended"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 416,
+        "end": 555
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-prophet-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, whose fortunes did the Prophet tell?",
+      "options": [
+        "Only kings and nobles",
+        "All who cared to engage his services",
+        "Only his close friends",
+        "Only travelers passing through"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 38,
+        "end": 95
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-prophet-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the man bring the news to the Prophet?",
+      "options": [
+        "He wrote a letter",
+        "He came running up",
+        "He sent a servant",
+        "He shouted from a distance"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 106,
+        "end": 144
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-prophet-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exact words does the bystander use to describe the Prophet's failing?",
+      "options": [
+        "\"He is not clever enough to perceive what's in store for himself\"",
+        "\"He never learned the true art of prophecy\"",
+        "\"He is too old to practice his trade\"",
+        "\"He has angered the thieves on purpose\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 484,
+        "end": 555
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-prophet-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"professes\" mean in \"Our friend professes to know what is going to happen to others\"?",
+      "options": [
+        "Claims or declares",
+        "Denies completely",
+        "Forgets easily",
+        "Whispers quietly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 416,
+        "end": 478
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-prophet-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what contradiction does the bystander point out about the Prophet's trade?",
+      "options": [
+        "He predicts events for strangers but failed to foresee misfortune in his own home",
+        "He charges too much money for his services",
+        "He tells fortunes only for people he dislikes",
+        "He refuses to tell his own fortune out of fear"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 416,
+        "end": 555
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-prophet-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Prophet who tells others' fortunes learns his own house was robbed, prompting bystanders to mock his lack of self-knowledge",
+        "A Prophet correctly predicts a robbery before it happens",
+        "A Prophet is arrested for practicing fortune-telling in the market-place",
+        "Thieves rob the Prophet because he warned them of their own future"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 150,
+        "end": 259
+      },
+      "pool": "retest"
+    }
+  ]
+}

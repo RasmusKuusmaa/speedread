@@ -118,6 +118,7 @@ import aesopPigAndSheep from "./aesop-pig-and-sheep.json";
 import aesopPloughmanAssAndOx from "./aesop-ploughman-ass-and-ox.json";
 import aesopPomegranateAppleTreeAndBramble from "./aesop-pomegranate-apple-tree-and-bramble.json";
 import aesopPrometheusAndMakingOfMan from "./aesop-prometheus-and-making-of-man.json";
+import aesopProphet from "./aesop-prophet.json";
 import aesopQuackFrog from "./aesop-quack-frog.json";
 import aesopRichManAndTanner from "./aesop-rich-man-and-tanner.json";
 import aesopRiversAndSea from "./aesop-rivers-and-sea.json";
@@ -451,6 +452,7 @@ export const rawPassages: unknown[] = [
   aesopPloughmanAssAndOx,
   aesopPomegranateAppleTreeAndBramble,
   aesopPrometheusAndMakingOfMan,
+  aesopProphet,
   aesopQuackFrog,
   aesopRichManAndTanner,
   aesopRiversAndSea,
