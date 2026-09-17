@@ -1,0 +1,268 @@
+{
+  "id": "aesop-mercury-and-tradesmen",
+  "title": "Mercury and the Tradesmen",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "When Jupiter was creating man, he told Mercury to make an infusion of lies, and to add a little of it to the other ingredients which went to the making of the Tradesmen. Mercury did so, and introduced an equal amount into each in turn--the tallow-chandler, and the greengrocer, and the haberdasher, and all, till he came to the horse-dealer, who was last on the list, when, finding that he had a quantity of the infusion still left, he put it all into him. This is why all Tradesmen lie more or less, but they none of them lie like a horse-dealer."
+  ],
+  "questions": [
+    {
+      "id": "aesop-mercury-and-tradesmen-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who told Mercury to make an infusion of lies?",
+      "options": [
+        "Jupiter",
+        "The horse-dealer",
+        "The tallow-chandler",
+        "A council of tradesmen"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 74
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mercury-and-tradesmen-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was Mercury told to add the infusion to?",
+      "options": [
+        "The water supply of the city",
+        "The other ingredients used in making the Tradesmen",
+        "The food of every animal",
+        "The soil of the fields"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 83,
+        "end": 168
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mercury-and-tradesmen-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how much of the infusion did Mercury give each tradesman at first?",
+      "options": [
+        "An equal amount into each in turn",
+        "None at all until the very end",
+        "Twice as much as the last one received",
+        "Only a trace amount to a chosen few"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 190,
+        "end": 234
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mercury-and-tradesmen-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who was last on Mercury's list of tradesmen?",
+      "options": [
+        "The greengrocer",
+        "The haberdasher",
+        "The tallow-chandler",
+        "The horse-dealer"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 308,
+        "end": 366
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mercury-and-tradesmen-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did Mercury do with the infusion still left when he reached the horse-dealer?",
+      "options": [
+        "He threw it away",
+        "He put it all into him",
+        "He saved it for the next batch of men",
+        "He divided it among the earlier tradesmen"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 387,
+        "end": 455
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mercury-and-tradesmen-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"infusion\" mean in \"an infusion of lies\"?",
+      "options": [
+        "A written contract",
+        "A mixture steeped or blended into something else",
+        "A loud argument",
+        "A form of punishment"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 55,
+        "end": 74
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mercury-and-tradesmen-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the horse-dealer end up with more of the infusion than the other tradesmen?",
+      "options": [
+        "Jupiter specifically ordered Mercury to favor him",
+        "Being last on the list, he received whatever quantity of the mixture happened to remain",
+        "He asked Mercury for extra because he wanted an advantage",
+        "He was created separately from the other tradesmen"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 374,
+        "end": 455
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mercury-and-tradesmen-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable's closing line?",
+      "options": [
+        "Only horse-dealers among tradesmen ever tell lies",
+        "All tradesmen lie somewhat, but horse-dealers are said to lie the most",
+        "Jupiter regrets creating tradesmen at all",
+        "Mercury refused to give any tradesman the infusion of lies"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 457,
+        "end": 547
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mercury-and-tradesmen-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who carried out the task of adding the infusion to the tradesmen?",
+      "options": [
+        "Jupiter himself",
+        "Mercury",
+        "The horse-dealer",
+        "An unnamed servant"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 170,
+        "end": 234
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mercury-and-tradesmen-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, which tradesmen are named before the horse-dealer?",
+      "options": [
+        "The tallow-chandler, the greengrocer, and the haberdasher",
+        "The blacksmith, the baker, and the tanner",
+        "The weaver, the potter, and the mason",
+        "The fisherman, the farmer, and the miller"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 236,
+        "end": 306
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mercury-and-tradesmen-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage's final line, how do most tradesmen compare to a horse-dealer in lying?",
+      "options": [
+        "They lie about the same amount as a horse-dealer",
+        "They lie more or less, but none like a horse-dealer",
+        "They never lie at all, unlike the horse-dealer",
+        "They lie more than a horse-dealer does"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 469,
+        "end": 546
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mercury-and-tradesmen-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"quantity\" mean in \"he had a quantity of the infusion still left\"?",
+      "options": [
+        "A type or variety",
+        "An amount",
+        "A price",
+        "A container"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 387,
+        "end": 431
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mercury-and-tradesmen-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is the fable using the story of Mercury's task to explain?",
+      "options": [
+        "Why Jupiter created different professions",
+        "Why horse-dealers, in particular, have a reputation for dishonesty",
+        "Why lying is considered a serious crime",
+        "Why Mercury became the god of trade"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 457,
+        "end": 547
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mercury-and-tradesmen-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "Mercury distributes an infusion of lies evenly to all tradesmen, and none receives extra",
+        "Mercury shares out an infusion of lies among tradesmen, but the leftover all goes to the last one, the horse-dealer",
+        "Jupiter forbids Mercury from giving any tradesman the infusion of lies",
+        "The horse-dealer refuses his share of the infusion out of pride"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 374,
+        "end": 455
+      },
+      "pool": "retest"
+    }
+  ]
+}
