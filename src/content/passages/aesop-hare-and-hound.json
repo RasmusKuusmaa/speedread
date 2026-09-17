@@ -1,0 +1,268 @@
+{
+  "id": "aesop-hare-and-hound",
+  "title": "The Hare and the Hound",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Hound started a Hare from her form, and pursued her for some distance; but as she gradually gained upon him, he gave up the chase. A rustic who had seen the race met the Hound as he was returning, and taunted him with his defeat. \"The little one was too much for you,\" said he. \"Ah, well,\" said the Hound, \"don't forget it's one thing to be running for your dinner, but quite another to be running for your life.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-hare-and-hound-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Hound do after starting the Hare from her form?",
+      "options": [
+        "Called for other hounds to help",
+        "Pursued her for some distance",
+        "Lay down to rest",
+        "Returned home immediately"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 42,
+        "end": 71
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hare-and-hound-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the Hound give up the chase?",
+      "options": [
+        "Because the Hare gradually gained upon him",
+        "Because he tripped over a root",
+        "Because the rustic called him off",
+        "Because night was falling"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 77,
+        "end": 131
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hare-and-hound-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who met the Hound as he was returning from the chase?",
+      "options": [
+        "Another Hound",
+        "A farmer's dog",
+        "A rustic who had seen the race",
+        "The Hare's mother"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 133,
+        "end": 197
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hare-and-hound-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the rustic do to the Hound?",
+      "options": [
+        "Praised him for a good effort",
+        "Gave him water to drink",
+        "Asked him to race again",
+        "Taunted him with his defeat"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 203,
+        "end": 230
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hare-and-hound-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exact words does the rustic say to the Hound?",
+      "options": [
+        "\"The little one was too much for you\"",
+        "\"You should be ashamed of yourself\"",
+        "\"That hare will never be caught\"",
+        "\"You ran a fine race today\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 233,
+        "end": 268
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hare-and-hound-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"gained upon him\" mean in \"she gradually gained upon him\"?",
+      "options": [
+        "Was steadily falling behind him",
+        "Was matching his pace exactly",
+        "Was steadily catching up to and passing him",
+        "Was losing sight of him"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 84,
+        "end": 109
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hare-and-hound-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Hound's explanation excuse his failure to catch the Hare?",
+      "options": [
+        "Because he was actually faster than the Hare all along",
+        "Because the Hare had far more at stake, her life, while he stood to lose only a meal",
+        "Because the rustic distracted him during the chase",
+        "Because the Hare had help from other animals"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 309,
+        "end": 413
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hare-and-hound-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "A hound should never chase a hare in open country",
+        "Rustics are wiser than hounds about racing",
+        "Fast animals always win when they try hard enough",
+        "Someone with everything to lose will outrun someone who has little at stake"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 309,
+        "end": 413
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hare-and-hound-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what animal did the Hound start from her form?",
+      "options": [
+        "A Hare",
+        "A Fox",
+        "A Deer",
+        "A Rabbit"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 16,
+        "end": 36
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hare-and-hound-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what had the rustic seen before he met the Hound?",
+      "options": [
+        "The Hound's owner",
+        "A different chase entirely",
+        "The race",
+        "Nothing at all"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 150,
+        "end": 163
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hare-and-hound-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Hound say is one thing, as opposed to another?",
+      "options": [
+        "Being a hound versus being a hare",
+        "Running for your dinner, as opposed to running for your life",
+        "Winning a race versus losing one",
+        "Chasing by day versus chasing by night"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 309,
+        "end": 413
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hare-and-hound-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"taunted\" mean in \"taunted him with his defeat\"?",
+      "options": [
+        "Comforted him gently",
+        "Rewarded him generously",
+        "Ignored him completely",
+        "Mocked him scornfully"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 203,
+        "end": 230
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hare-and-hound-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the contrast between running for dinner and running for life suggest about the Hare's effort compared to the Hound's?",
+      "options": [
+        "The Hare very likely tried harder because failure meant death for her",
+        "The Hare was simply a faster runner by nature",
+        "The Hound did not try at all during the chase",
+        "The Hare had trained specifically to outrun hounds"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 309,
+        "end": 413
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hare-and-hound-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Hound catches a Hare and is praised by a rustic",
+        "A rustic defeats a Hound in a footrace",
+        "A Hound fails to catch a Hare and explains that she had far more at stake than he did",
+        "A Hare and a Hound become friends after a race"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 133,
+        "end": 197
+      },
+      "pool": "retest"
+    }
+  ]
+}
