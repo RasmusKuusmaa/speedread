@@ -1,0 +1,268 @@
+{
+  "id": "aesop-hunter-and-woodman",
+  "title": "The Hunter and the Woodman",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Hunter was searching in the forest for the tracks of a lion, and, catching sight presently of a Woodman engaged in felling a tree, he went up to him and asked him if he had noticed a lion's footprints anywhere about, or if he knew where his den was. The Woodman answered, \"If you will come with me, I will show you the lion himself.\" The Hunter turned pale with fear, and his teeth chattered as he replied, \"Oh, I'm not looking for the lion, thanks, but only for his tracks.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-hunter-and-woodman-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Hunter searching for in the forest?",
+      "options": [
+        "The tracks of a lion",
+        "A lost hunting dog",
+        "A stream to drink from",
+        "A place to build a shelter"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 13,
+        "end": 61
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hunter-and-woodman-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Woodman doing when the Hunter caught sight of him?",
+      "options": [
+        "Felling a tree",
+        "Resting beside a stream",
+        "Gathering berries",
+        "Building a fire"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 96,
+        "end": 131
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hunter-and-woodman-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what two things did the Hunter ask the Woodman about?",
+      "options": [
+        "Whether he had seen a lion's footprints, and if he knew where its den was",
+        "Whether the forest was safe, and how far it stretched",
+        "Whether he had seen other hunters, and where they had gone",
+        "Whether he needed help felling the tree, and how long it would take"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 165,
+        "end": 250
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hunter-and-woodman-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Woodman offer to do?",
+      "options": [
+        "Show the Hunter the lion himself",
+        "Lend the Hunter his axe",
+        "Point the Hunter toward the nearest village",
+        "Help the Hunter track the lion's footprints"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 275,
+        "end": 333
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hunter-and-woodman-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Hunter's body react to the Woodman's offer?",
+      "options": [
+        "He turned pale with fear, and his teeth chattered",
+        "He laughed and thanked the Woodman warmly",
+        "He raised his weapon eagerly",
+        "He fainted on the spot"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 336,
+        "end": 393
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hunter-and-woodman-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Hunter say he is actually looking for?",
+      "options": [
+        "Only the lion's tracks, not the lion himself",
+        "A guide who knows the whole forest",
+        "A safer path out of the woods",
+        "Another hunter to join him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 414,
+        "end": 475
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hunter-and-woodman-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Hunter's reaction reveal about his true courage?",
+      "options": [
+        "He is far less brave than his search for the lion's tracks made him appear",
+        "He is braver than the Woodman gives him credit for",
+        "He is only afraid of lions specifically, not other dangers",
+        "He was simply startled by the Woodman's sudden offer, not truly afraid"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 336,
+        "end": 475
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hunter-and-woodman-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "It is easy to claim boldness when the real danger is not actually at hand",
+        "Woodmen know the forest better than any hunter ever could",
+        "Lions are more dangerous when encountered unexpectedly",
+        "Hunters should always travel with a companion for safety"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 336,
+        "end": 475
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hunter-and-woodman-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in what setting does the Hunter meet the Woodman?",
+      "options": [
+        "In the forest",
+        "On a mountain road",
+        "By a riverbank",
+        "In a village square"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 13,
+        "end": 61
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hunter-and-woodman-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Hunter ask about the lion's den?",
+      "options": [
+        "Whether the Woodman knew where it was",
+        "Whether the Woodman had ever been inside it",
+        "How far it was from the village",
+        "How many lions lived there"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 165,
+        "end": 250
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hunter-and-woodman-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what condition does the Woodman set for showing the Hunter the lion?",
+      "options": [
+        "That the Hunter come with him",
+        "That the Hunter first pay him a fee",
+        "That the Hunter wait until morning",
+        "That the Hunter bring more men"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 275,
+        "end": 333
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hunter-and-woodman-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Hunter suddenly change what he says he wants?",
+      "options": [
+        "The prospect of actually facing the lion terrifies him, unlike merely tracking it",
+        "He realizes the Woodman is lying about knowing the lion's location",
+        "He decides tracking is more sporting than a direct encounter",
+        "He no longer trusts the Woodman to guide him safely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 336,
+        "end": 475
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hunter-and-woodman-r5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"chattered\" mean in \"his teeth chattered\"?",
+      "options": [
+        "Rattled together rapidly, as from fear or cold",
+        "Spoke rapidly and cheerfully",
+        "Ground together in anger",
+        "Fell out one by one"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 336,
+        "end": 393
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hunter-and-woodman-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "The Hunter asks about a lion's tracks, but grows terrified when the Woodman offers to show him the actual lion",
+        "The Woodman refuses to help the Hunter find any trace of the lion",
+        "The Hunter and Woodman together track down and confront the lion",
+        "The Woodman mistakes the Hunter for another lion hunter he had met before"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 165,
+        "end": 475
+      },
+      "pool": "retest"
+    }
+  ]
+}
