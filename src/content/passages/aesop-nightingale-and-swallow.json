@@ -1,0 +1,268 @@
+{
+  "id": "aesop-nightingale-and-swallow",
+  "title": "The Nightingale and the Swallow",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Swallow, conversing with a Nightingale, advised her to quit the leafy coverts where she made her home, and to come and live with men, like herself, and nest under the shelter of their roofs. But the Nightingale replied, \"Time was when I too, like yourself, lived among men: but the memory of the cruel wrongs I then suffered makes them hateful to me, and never again will I approach their dwellings.\" The scene of past sufferings revives painful memories."
+  ],
+  "questions": [
+    {
+      "id": "aesop-nightingale-and-swallow-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Swallow advise the Nightingale to do?",
+      "options": [
+        "Migrate south for the winter",
+        "Build a nest higher in the trees",
+        "Sing louder to attract a mate",
+        "Quit the leafy coverts and live under the shelter of men's roofs"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 42,
+        "end": 134
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-nightingale-and-swallow-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the Nightingale currently make her home?",
+      "options": [
+        "In the leafy coverts",
+        "Under the roofs of houses",
+        "Beside a riverbank",
+        "In an abandoned barn"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 62,
+        "end": 103
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-nightingale-and-swallow-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, did the Nightingale once live among men?",
+      "options": [
+        "No, she has always avoided people",
+        "She lived among men only as a chick",
+        "Yes, she once lived among men, like the Swallow",
+        "She is uncertain whether she ever did"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 223,
+        "end": 274
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-nightingale-and-swallow-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why does the Nightingale refuse to live among men again?",
+      "options": [
+        "She prefers the taste of forest insects",
+        "The memory of cruel wrongs she suffered there makes them hateful to her",
+        "She fears the Swallow is lying to her",
+        "Men no longer build roofs sturdy enough for nests"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 280,
+        "end": 351
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-nightingale-and-swallow-f5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"coverts\" mean in \"the leafy coverts where she made her home\"?",
+      "options": [
+        "Open meadows",
+        "Sheltered, hidden thickets",
+        "Tall mountain peaks",
+        "Wide rivers"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 62,
+        "end": 103
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-nightingale-and-swallow-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"dwellings\" mean in \"never again will I approach their dwellings\"?",
+      "options": [
+        "Their places of residence",
+        "Their farm animals",
+        "Their musical instruments",
+        "Their family members"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 357,
+        "end": 400
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-nightingale-and-swallow-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Nightingale reject the Swallow's advice even though nesting under roofs offers shelter?",
+      "options": [
+        "She dislikes the Swallow personally",
+        "She cannot fly far enough to reach houses",
+        "Her past suffering there outweighs any practical benefit the shelter might offer",
+        "She has never actually heard of houses before"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 280,
+        "end": 351
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-nightingale-and-swallow-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement, made explicit at the end of the passage, best captures the point of the fable?",
+      "options": [
+        "Swallows give better advice than nightingales",
+        "Living among men is always safer than living in the wild",
+        "Birds should never trust each other's advice",
+        "The scene of past sufferings revives painful memories"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 403,
+        "end": 456
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-nightingale-and-swallow-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where does the Swallow suggest the Nightingale nest if she lives among men?",
+      "options": [
+        "In hollow logs",
+        "In garden hedges",
+        "Under the shelter of their roofs",
+        "Inside barns only"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 154,
+        "end": 191
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-nightingale-and-swallow-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what are the Nightingale's exact opening words in her reply?",
+      "options": [
+        "\"I have never trusted men\"",
+        "\"You clearly do not understand my fears\"",
+        "\"Men have never harmed me\"",
+        "\"Time was when I too, like yourself, lived among men\""
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 223,
+        "end": 274
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-nightingale-and-swallow-r3",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"hateful\" mean in \"makes them hateful to me\"?",
+      "options": [
+        "Deeply disliked",
+        "Extremely beautiful",
+        "Completely forgotten",
+        "Mildly interesting"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 327,
+        "end": 351
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-nightingale-and-swallow-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"wrongs\" mean in \"the cruel wrongs I then suffered\"?",
+      "options": [
+        "Correct answers",
+        "Musical notes",
+        "Unjust or harmful acts done to someone",
+        "Directions or paths"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 294,
+        "end": 326
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-nightingale-and-swallow-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage's closing statement, what does it suggest about returning to a place linked with past suffering in general?",
+      "options": [
+        "Such places always become safe again with enough time",
+        "Being in or near such a place tends to bring the old pain back to mind",
+        "It has no emotional effect on most people",
+        "It always makes the suffering feel smaller"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 403,
+        "end": 456
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-nightingale-and-swallow-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Nightingale convinces a Swallow to move into the forest",
+        "A Swallow and a Nightingale both decide to live among men together",
+        "A Nightingale forgets her past and agrees to live under a roof",
+        "A Swallow urges a Nightingale to live among men again, but the Nightingale refuses because of the cruel wrongs she once suffered there"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 280,
+        "end": 351
+      },
+      "pool": "retest"
+    }
+  ]
+}
