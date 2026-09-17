@@ -1,0 +1,268 @@
+{
+  "id": "aesop-boy-and-nettles",
+  "title": "The Boy and the Nettles",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Boy was gathering berries from a hedge when his hand was stung by a Nettle. Smarting with the pain, he ran to tell his mother, and said to her between his sobs, \"I only touched it ever so lightly, mother.\" \"That's just why you got stung, my son,\" she said; \"if you had grasped it firmly, it wouldn't have hurt you in the least.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-boy-and-nettles-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Boy doing when his hand was stung?",
+      "options": [
+        "Gathering berries from a hedge",
+        "Climbing a tree",
+        "Chasing a butterfly",
+        "Picking flowers in a field"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 40
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-and-nettles-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what stung the Boy's hand?",
+      "options": [
+        "A bee",
+        "A Nettle",
+        "A thorn",
+        "A wasp"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 46,
+        "end": 76
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-and-nettles-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Boy do after he was stung?",
+      "options": [
+        "He ran to tell his mother",
+        "He pulled up the whole hedge",
+        "He hid the injury from his mother",
+        "He ran to find a doctor"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 78,
+        "end": 127
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-and-nettles-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Boy tell his mother about how he touched the Nettle?",
+      "options": [
+        "That he grasped it as hard as he could",
+        "That he only touched it ever so lightly",
+        "That he stepped on it by accident",
+        "That another boy pushed his hand into it"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 163,
+        "end": 207
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-and-nettles-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the mother, what would have kept the Boy from being hurt at all?",
+      "options": [
+        "Wearing gloves before touching the hedge",
+        "Grasping the Nettle firmly",
+        "Avoiding the hedge entirely",
+        "Asking her for help first"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 260,
+        "end": 328
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-and-nettles-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"smarting\" mean in \"smarting with the pain\"?",
+      "options": [
+        "Feeling sharp, stinging pain",
+        "Feeling proud and clever",
+        "Feeling sleepy",
+        "Feeling hungry"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 78,
+        "end": 86
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-and-nettles-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the mother say a light touch caused more pain than a firm grasp would have?",
+      "options": [
+        "A light touch was actually the correct way to handle the Nettle",
+        "Facing a difficulty half-heartedly can cause more harm than confronting it boldly",
+        "The Nettle only stings when it is touched more than once",
+        "The Boy's hand was more sensitive than most people's"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 208,
+        "end": 328
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-and-nettles-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Berries are not worth the risk of gathering them from a hedge",
+        "Facing a difficulty boldly can hurt less than approaching it timidly",
+        "Mothers always know better than their children",
+        "Nettles should be removed from every hedge"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 208,
+        "end": 328
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-boy-and-nettles-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Boy speak to his mother about what happened?",
+      "options": [
+        "Between his sobs",
+        "In a calm, steady voice",
+        "While laughing",
+        "In a whisper"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 78,
+        "end": 162
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boy-and-nettles-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the mother call the Boy when she answers him?",
+      "options": [
+        "\"My son\"",
+        "\"My dear\"",
+        "\"Silly boy\"",
+        "\"My little berry-picker\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 208,
+        "end": 257
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boy-and-nettles-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the mother, what is the exact reason the Boy got stung?",
+      "options": [
+        "He touched the Nettle too lightly",
+        "He touched the Nettle too many times",
+        "He touched the Nettle in the wrong season",
+        "He touched a different plant by mistake"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 208,
+        "end": 257
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boy-and-nettles-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"grasped\" mean in \"if you had grasped it firmly\"?",
+      "options": [
+        "Avoided",
+        "Held tightly",
+        "Watched closely",
+        "Cut off"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 260,
+        "end": 328
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boy-and-nettles-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what lesson might the Boy take from his mother's explanation?",
+      "options": [
+        "He should give hedges a wide berth from now on",
+        "He should confront difficult or risky things with confidence rather than hesitation",
+        "He should always ask an adult before touching any plant",
+        "He should stop gathering berries altogether"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 208,
+        "end": 328
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-boy-and-nettles-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Boy is stung by a Nettle, and his mother explains that a light touch, not a firm one, was the real cause of his pain",
+        "A Boy's mother forbids him from ever gathering berries again",
+        "A Boy is stung by a Nettle and his mother scolds him for going near the hedge",
+        "A Boy learns to grasp nettles lightly to avoid being stung"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 328
+      },
+      "pool": "retest"
+    }
+  ]
+}
