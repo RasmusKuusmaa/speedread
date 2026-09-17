@@ -1,0 +1,268 @@
+{
+  "id": "aesop-farmer-and-viper",
+  "title": "The Farmer and the Viper",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "One winter a Farmer found a Viper frozen and numb with cold, and out of pity picked it up and placed it in his bosom. The Viper was no sooner revived by the warmth than it turned upon its benefactor and inflicted a fatal bite upon him; and as the poor man lay dying, he cried, \"I have only got what I deserved, for taking compassion on so villainous a creature.\" Kindness is thrown away upon the evil."
+  ],
+  "questions": [
+    {
+      "id": "aesop-farmer-and-viper-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in what season did the Farmer find the Viper?",
+      "options": [
+        "Spring",
+        "Summer",
+        "Winter",
+        "Autumn"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 33
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-viper-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in what condition was the Viper when the Farmer found it?",
+      "options": [
+        "Angry and hissing",
+        "Injured by a hawk",
+        "Hiding under a rock",
+        "Frozen and numb with cold"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 20,
+        "end": 59
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-viper-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Farmer do out of pity?",
+      "options": [
+        "Picked it up and placed it in his bosom",
+        "Left it to warm itself in the sun",
+        "Carried it to a nearby fire",
+        "Wrapped it in a blanket by the door"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 65,
+        "end": 116
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-viper-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Viper do once it was revived by the warmth?",
+      "options": [
+        "Slithered quietly away",
+        "Turned upon its benefactor and inflicted a fatal bite",
+        "Thanked the Farmer with a hiss",
+        "Fell back asleep in his bosom"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 172,
+        "end": 234
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-viper-f5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"benefactor\" mean in \"turned upon its benefactor\"?",
+      "options": [
+        "A person who does good or provides help to another",
+        "A person who harms another",
+        "A person who studies snakes",
+        "A stranger passing by"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 172,
+        "end": 198
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-viper-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"villainous\" mean in \"so villainous a creature\"?",
+      "options": [
+        "Extremely small",
+        "Beautiful in appearance",
+        "Wicked or evil",
+        "Harmless and gentle"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 336,
+        "end": 360
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-viper-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Farmer say he \"only got what he deserved\"?",
+      "options": [
+        "He thinks he should have killed the Viper as soon as he found it",
+        "He believes he should have known better than to show compassion to a creature of an evil, dangerous nature",
+        "He blames the cold weather for the whole incident",
+        "He believes vipers are always harmless unless provoked"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 278,
+        "end": 360
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-viper-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement, made explicit at the end of the passage, best captures the point of the fable?",
+      "options": [
+        "Winter is the most dangerous season for farmers",
+        "Vipers cannot survive extreme cold",
+        "One should always help creatures in distress",
+        "Kindness is thrown away upon the evil"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 363,
+        "end": 400
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-viper-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what are the Farmer's exact dying words?",
+      "options": [
+        "\"Someone please save me from this creature!\"",
+        "\"I never should have gone out in the snow\"",
+        "\"Tell my family I love them\"",
+        "\"I have only got what I deserved, for taking compassion on so villainous a creature\""
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 278,
+        "end": 360
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-viper-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what ultimately revived the Viper?",
+      "options": [
+        "A drink of water",
+        "The heat of a nearby fire",
+        "The warmth of the Farmer's body",
+        "Sunlight"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 118,
+        "end": 163
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-viper-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what kind of bite did the Viper inflict on the Farmer?",
+      "options": [
+        "A fatal bite",
+        "A minor, harmless bite",
+        "A bite that only frightened him",
+        "No bite at all, only a hiss"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 203,
+        "end": 234
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-viper-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"compassion\" mean in \"taking compassion on so villainous a creature\"?",
+      "options": [
+        "Suspicion or distrust",
+        "Fear or dread",
+        "Curiosity about something unfamiliar",
+        "Sympathy that moves one to help"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 315,
+        "end": 360
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-viper-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Viper's attack suggest about trying to change a dangerous creature's nature through kindness?",
+      "options": [
+        "Kindness always transforms even the most dangerous creatures",
+        "A creature's harmful nature may not change no matter how it is treated",
+        "The Viper only attacked because it was still cold",
+        "The Farmer's kindness went completely unnoticed by the Viper"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 172,
+        "end": 234
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-viper-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Farmer kills a Viper he finds frozen in the snow",
+        "A Viper warms a freezing Farmer and saves his life",
+        "A Farmer warms a frozen Viper out of pity, and the Viper repays him with a fatal bite once revived",
+        "A Farmer and a Viper become lasting companions"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 172,
+        "end": 234
+      },
+      "pool": "retest"
+    }
+  ]
+}
