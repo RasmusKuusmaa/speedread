@@ -1,0 +1,268 @@
+{
+  "id": "aesop-mule",
+  "title": "The Mule",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "One morning a Mule, who had too much to eat and too little to do, began to think himself a very fine fellow indeed, and frisked about saying, \"My father was undoubtedly a high-spirited horse and I take after him entirely.\" But very soon afterwards he was put into the harness and compelled to go a very long way with a heavy load behind him. At the end of the day, exhausted by his unusual exertions, he said dejectedly to himself, \"I must have been mistaken about my father; he can only have been an ass after all.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-mule-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what condition led the Mule to think himself a very fine fellow?",
+      "options": [
+        "He had too much to eat and too little to do",
+        "He had just won a race against a horse",
+        "He had been praised by his master that morning",
+        "He had grown much larger than the other mules"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 12,
+        "end": 64
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mule-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Mule do while thinking so highly of himself?",
+      "options": [
+        "Frisked about",
+        "Refused to eat",
+        "Challenged a horse to a race",
+        "Hid from his master"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 66,
+        "end": 137
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mule-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Mule claim about his father?",
+      "options": [
+        "That he was undoubtedly a high-spirited horse",
+        "That he was the fastest mule ever known",
+        "That he had once pulled a king's carriage",
+        "That he had taught him everything he knew"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 143,
+        "end": 220
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mule-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to the Mule soon after he made his boast?",
+      "options": [
+        "He was put into the harness and made to pull a heavy load a long way",
+        "He was sold to a passing merchant",
+        "He was given an even lighter workload",
+        "He was praised by his master for his fine appearance"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 248,
+        "end": 340
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mule-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Mule feel at the end of the day?",
+      "options": [
+        "Exhausted by his unusual exertions",
+        "Refreshed after a good rest",
+        "Proud of how far he had traveled",
+        "Angry at his master for overworking him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 365,
+        "end": 399
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mule-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Mule finally decide his father must have been?",
+      "options": [
+        "An ass",
+        "A horse after all",
+        "Neither a horse nor an ass",
+        "A mule just like himself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 433,
+        "end": 514
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mule-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Mule change his mind about his father after the day's hard labor?",
+      "options": [
+        "His exhausting workload reminds him of a burden-bearing ass rather than a spirited horse",
+        "He overhears his master discussing his true parentage",
+        "He meets a horse who tells him the truth about his father",
+        "He realizes horses are never put into harnesses at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 248,
+        "end": 514
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mule-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Good fortune can inflate one's sense of self, but hardship quickly reveals a truer picture",
+        "Mules are always stronger workers than horses",
+        "It is wrong to ever boast about one's family",
+        "Hard labor always improves an animal's character"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 143,
+        "end": 514
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-mule-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when did the Mule begin to think so highly of himself?",
+      "options": [
+        "One morning",
+        "After a long journey",
+        "Following a heavy meal at night",
+        "Just before harvest season"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 11
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mule-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what kind of load was the Mule compelled to pull?",
+      "options": [
+        "A heavy load",
+        "An empty cart",
+        "A load of feathers",
+        "No load at all, only the harness itself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 248,
+        "end": 340
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mule-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Mule speak to himself at the end of the day?",
+      "options": [
+        "Dejectedly",
+        "Cheerfully",
+        "Angrily at his master",
+        "Proudly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 401,
+        "end": 430
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mule-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Mule's shifting claims about his father suggest about how he judges himself?",
+      "options": [
+        "He bases his sense of identity on his current circumstances rather than any real knowledge of his parentage",
+        "He has always known for certain which parent he takes after",
+        "He values his mother's lineage more than his father's",
+        "He believes mules are inherently superior to both horses and asses"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 143,
+        "end": 514
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mule-r5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"exertions\" mean in \"exhausted by his unusual exertions\"?",
+      "options": [
+        "Strenuous efforts or physical labor",
+        "Long periods of rest",
+        "Sudden bursts of anger",
+        "Careful, quiet thoughts"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 365,
+        "end": 399
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-mule-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A well-fed, idle Mule boasts of horse-like ancestry, but after a day of hard labor concludes his father must have been an ass instead",
+        "A Mule proves his horse ancestry by outrunning every other animal on the farm",
+        "A Mule refuses to work and is punished by his master for laziness",
+        "A Mule and a horse compete to see who can pull the heavier load"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 12,
+        "end": 514
+      },
+      "pool": "retest"
+    }
+  ]
+}
