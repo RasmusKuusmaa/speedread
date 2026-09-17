@@ -1,0 +1,268 @@
+{
+  "id": "aesop-goatherd-and-goat",
+  "title": "The Goatherd and the Goat",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Goatherd was one day gathering his flock to return to the fold, when one of his goats strayed and refused to join the rest. He tried for a long time to get her to return by calling and whistling to her, but the Goat took no notice of him at all; so at last he threw a stone at her and broke one of her horns. In dismay, he begged her not to tell his master: but she replied, \"You silly fellow, my horn would cry aloud even if I held my tongue.\" It's no use trying to hide what can't be hidden."
+  ],
+  "questions": [
+    {
+      "id": "aesop-goatherd-and-goat-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Goatherd doing when one of his goats strayed?",
+      "options": [
+        "Milking his flock",
+        "Gathering his flock to return to the fold",
+        "Shearing his goats",
+        "Leading his flock to a new pasture"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 23,
+        "end": 64
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goatherd-and-goat-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Goatherd first try to get the Goat to return?",
+      "options": [
+        "By offering her food",
+        "By calling and whistling to her",
+        "By chasing her with a stick",
+        "By sending another goat after her"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 126,
+        "end": 203
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goatherd-and-goat-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Goatherd do after the Goat ignored him?",
+      "options": [
+        "He gave up and went home without her",
+        "He threw a stone at her and broke one of her horns",
+        "He asked a neighbor for help",
+        "He waited quietly for her to return on her own"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 259,
+        "end": 309
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goatherd-and-goat-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Goatherd beg the Goat to do?",
+      "options": [
+        "Forgive him for his temper",
+        "Not tell his master",
+        "Return to the flock at once",
+        "Keep away from the other goats"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 322,
+        "end": 358
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goatherd-and-goat-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Goat call the Goatherd when she replies?",
+      "options": [
+        "\"My poor friend\"",
+        "\"You silly fellow\"",
+        "\"You cruel master\"",
+        "\"My careless keeper\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 378,
+        "end": 444
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goatherd-and-goat-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"strayed\" mean in \"one of his goats strayed and refused to join the rest\"?",
+      "options": [
+        "Fell asleep",
+        "Wandered away from the group",
+        "Grew ill suddenly",
+        "Gave birth"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 71,
+        "end": 124
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goatherd-and-goat-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Goat mean by \"my horn would cry aloud even if I held my tongue\"?",
+      "options": [
+        "Her broken horn will visibly reveal what happened even if she says nothing",
+        "She plans to tell the master herself out of spite",
+        "Her horn will heal before the master notices",
+        "She intends to warn the other goats about the Goatherd"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 396,
+        "end": 444
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goatherd-and-goat-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable's closing line?",
+      "options": [
+        "Silence is always the safest choice after a mistake",
+        "Evidence of a wrongdoing can expose it even without anyone speaking a word",
+        "Goats are naturally more honest than their keepers",
+        "It is unwise to ever ask forgiveness for an accident"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 447,
+        "end": 495
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goatherd-and-goat-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Goat refuse to do at first?",
+      "options": [
+        "Eat with the other goats",
+        "Join the rest of the flock",
+        "Drink from the stream",
+        "Follow the Goatherd's whistle command immediately"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 71,
+        "end": 124
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-goatherd-and-goat-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Goat respond to the Goatherd's calling and whistling?",
+      "options": [
+        "She took no notice of him at all",
+        "She came back immediately",
+        "She bleated loudly in reply",
+        "She led the rest of the flock away"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 209,
+        "end": 246
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-goatherd-and-goat-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what part of the Goat did the stone break?",
+      "options": [
+        "One of her legs",
+        "One of her horns",
+        "Her tail",
+        "Her ear"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 287,
+        "end": 309
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-goatherd-and-goat-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"dismay\" mean in \"In dismay, he begged her not to tell his master\"?",
+      "options": [
+        "Great joy",
+        "Distress or alarm",
+        "Boredom",
+        "Confidence"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 311,
+        "end": 358
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-goatherd-and-goat-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Goatherd's plea to keep quiet fail to matter?",
+      "options": [
+        "The Goat plans to tell the master out of revenge",
+        "The visible injury to the Goat's horn will reveal the truth regardless of whether she says anything",
+        "The master already saw the Goatherd throw the stone",
+        "The other goats will surely report what happened"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 396,
+        "end": 444
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-goatherd-and-goat-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Goatherd injures a stray Goat with a thrown stone, and she points out that the visible wound will betray him no matter what he asks of her",
+        "A Goatherd's goat runs away and is never found",
+        "A Goat forgives the Goatherd and promises never to stray again",
+        "A Goatherd is punished by his master before the Goat can say anything"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 259,
+        "end": 358
+      },
+      "pool": "retest"
+    }
+  ]
+}
