@@ -1,0 +1,268 @@
+{
+  "id": "aesop-eagle-and-cocks",
+  "title": "The Eagle and the Cocks",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "There were two Cocks in the same farmyard, and they fought to decide who should be master. When the fight was over, the beaten one went and hid himself in a dark corner; while the victor flew up on to the roof of the stables and crowed lustily. But an Eagle espied him from high up in the sky, and swooped down and carried him off. Forthwith the other Cock came out of his corner and ruled the roost without a rival. Pride comes before a fall."
+  ],
+  "questions": [
+    {
+      "id": "aesop-eagle-and-cocks-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the two Cocks fight?",
+      "options": [
+        "To decide who should be master",
+        "To win the favor of the farmer",
+        "To protect the farmyard from a fox",
+        "To settle a dispute over food"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 89
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-eagle-and-cocks-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the beaten Cock do after the fight?",
+      "options": [
+        "He challenged the victor to a rematch",
+        "He hid himself in a dark corner",
+        "He left the farmyard entirely",
+        "He crowed loudly in defiance"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 116,
+        "end": 168
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-eagle-and-cocks-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the victorious Cock do after winning the fight?",
+      "options": [
+        "He flew up to the roof of the stables and crowed lustily",
+        "He went looking for the beaten Cock",
+        "He rested quietly in the farmyard",
+        "He immediately left to find food"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 176,
+        "end": 243
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-eagle-and-cocks-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to the victorious Cock while he was on the roof?",
+      "options": [
+        "He fell off and injured himself",
+        "An Eagle spotted him and carried him off",
+        "He was chased away by a farmer",
+        "He challenged another rival to fight"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 249,
+        "end": 330
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-eagle-and-cocks-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the beaten Cock do once the victor was carried off?",
+      "options": [
+        "He fled the farmyard in fear of the Eagle",
+        "He came out of his corner and ruled the roost without a rival",
+        "He challenged the Eagle to a fight",
+        "He hid even more deeply out of fear"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 342,
+        "end": 415
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-eagle-and-cocks-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"espied\" mean in \"an Eagle espied him from high up in the sky\"?",
+      "options": [
+        "Ignored",
+        "Spotted",
+        "Followed",
+        "Warned"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 249,
+        "end": 330
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-eagle-and-cocks-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did crowing lustily on the roof put the victorious Cock in danger?",
+      "options": [
+        "It drew the Eagle's attention by making him visible and conspicuous",
+        "It startled the beaten Cock into attacking him from behind",
+        "It used up his strength so he could not fly away",
+        "It alerted the farmer, who then removed him from the roof"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 176,
+        "end": 330
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-eagle-and-cocks-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the closing line, \"Pride comes before a fall\"?",
+      "options": [
+        "Eagles are the natural enemies of all farmyard birds",
+        "Boastful display after a victory can expose one to a danger that ends the triumph",
+        "It is always better to lose a fight than to win one",
+        "Farmyards are dangerous places for any bird to live"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 417,
+        "end": 442
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-eagle-and-cocks-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the beaten Cock hide after losing?",
+      "options": [
+        "In a dark corner",
+        "On the stable roof",
+        "Behind a haystack",
+        "Under the farmhouse porch"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 116,
+        "end": 168
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-eagle-and-cocks-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, from where did the Eagle spot the victorious Cock?",
+      "options": [
+        "From a nearby tree",
+        "From high up in the sky",
+        "From the farmyard fence",
+        "From inside the stables"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 249,
+        "end": 330
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-eagle-and-cocks-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the beaten Cock end up doing after the Eagle takes the victor?",
+      "options": [
+        "He rules the roost without a rival",
+        "He is also carried off by the Eagle",
+        "He challenges the farmer for control",
+        "He leaves the farmyard for good"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 342,
+        "end": 415
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-eagle-and-cocks-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"lustily\" mean in \"crowed lustily\"?",
+      "options": [
+        "Vigorously and loudly",
+        "Softly and briefly",
+        "Nervously and quietly",
+        "Slowly and sadly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 176,
+        "end": 243
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-eagle-and-cocks-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what allowed the beaten Cock to end up ruling the farmyard in the end?",
+      "options": [
+        "The Eagle's unexpected removal of his rival, not any effort of his own",
+        "His decision to challenge the Eagle directly",
+        "A truce he negotiated with the victorious Cock",
+        "His own crowing, which impressed the farmer"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 249,
+        "end": 415
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-eagle-and-cocks-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "After winning a fight, one Cock boastfully crows on a rooftop and is carried off by an Eagle, leaving the beaten Cock to rule alone",
+        "Two Cocks join forces to defeat an Eagle together",
+        "An Eagle mediates a fight between two Cocks",
+        "The beaten Cock is carried off by the Eagle instead of the victor"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 176,
+        "end": 415
+      },
+      "pool": "retest"
+    }
+  ]
+}
