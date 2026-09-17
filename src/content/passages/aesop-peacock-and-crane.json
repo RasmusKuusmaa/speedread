@@ -1,0 +1,268 @@
+{
+  "id": "aesop-peacock-and-crane",
+  "title": "The Peacock and the Crane",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Peacock taunted a Crane with the dullness of her plumage. \"Look at my brilliant colours,\" said she, \"and see how much finer they are than your poor feathers.\" \"I am not denying,\" replied the Crane, \"that yours are far gayer than mine; but when it comes to flying I can soar into the clouds, whereas you are confined to the earth like any dunghill cock.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-peacock-and-crane-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Peacock taunt the Crane about?",
+      "options": [
+        "The dullness of her plumage",
+        "Her inability to fly at all",
+        "Her small size",
+        "Her slow walk"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 58
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-peacock-and-crane-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Peacock tell the Crane to look at?",
+      "options": [
+        "Her long neck",
+        "Her brilliant colours",
+        "Her sharp beak",
+        "Her graceful walk"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 60,
+        "end": 100
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-peacock-and-crane-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Peacock call the Crane's feathers?",
+      "options": [
+        "Poor",
+        "Colourful",
+        "Enormous",
+        "Fragile"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 107,
+        "end": 158
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-peacock-and-crane-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Crane admit about the Peacock's colours?",
+      "options": [
+        "That they are far gayer than her own",
+        "That they fade quickly in sunlight",
+        "That they are not really that impressive",
+        "That they are the same as her own"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 161,
+        "end": 235
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-peacock-and-crane-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the Crane, what can she do that the Peacock cannot?",
+      "options": [
+        "Sing beautifully",
+        "Soar into the clouds",
+        "Swim across rivers",
+        "Change her feather colour"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 241,
+        "end": 291
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-peacock-and-crane-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the Crane, to what is the Peacock confined?",
+      "options": [
+        "The earth, like any dunghill cock",
+        "A single tree",
+        "A narrow cage",
+        "The riverbank"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 301,
+        "end": 353
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-peacock-and-crane-f7",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"taunted\" mean in \"A Peacock taunted a Crane\"?",
+      "options": [
+        "Mocked or teased",
+        "Warned kindly",
+        "Praised warmly",
+        "Followed quietly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 58
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-peacock-and-crane-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Peacocks are more admired than any other bird",
+        "A striking appearance is worth less than a genuinely useful ability",
+        "Cranes cannot compete with peacocks in any way",
+        "Flying is less important than having colourful feathers"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 201,
+        "end": 353
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-peacock-and-crane-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who speaks first in the exchange?",
+      "options": [
+        "The Peacock",
+        "The Crane",
+        "Neither, a narrator speaks first",
+        "Both speak at the same time"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 100
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-peacock-and-crane-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what phrase does the Crane use to begin her reply?",
+      "options": [
+        "\"I am not denying\"",
+        "\"You are quite wrong\"",
+        "\"How dare you\"",
+        "\"I never noticed\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 161,
+        "end": 198
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-peacock-and-crane-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Crane compare the earthbound Peacock to?",
+      "options": [
+        "A dunghill cock",
+        "A caged bird",
+        "A wingless insect",
+        "A fallen leaf"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 301,
+        "end": 353
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-peacock-and-crane-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"gayer\" mean in \"yours are far gayer than mine\"?",
+      "options": [
+        "More brightly coloured",
+        "Louder",
+        "Heavier",
+        "Older"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 201,
+        "end": 235
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-peacock-and-crane-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Crane bring up her ability to fly?",
+      "options": [
+        "To show that a plain appearance can come with an ability the showier Peacock lacks",
+        "To prove that flying matters more to Peacocks than to Cranes",
+        "To suggest the Peacock should learn to fly instead of walking",
+        "To admit that she wishes she had the Peacock's feathers instead"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 201,
+        "end": 353
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-peacock-and-crane-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Peacock mocks a Crane's plain feathers, but the Crane points out she can fly while the Peacock is grounded",
+        "A Crane mocks a Peacock's dull feathers until the Peacock proves her wrong",
+        "A Peacock and a Crane agree that appearance matters more than any other quality",
+        "A Crane refuses to speak to a Peacock who insults her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 353
+      },
+      "pool": "retest"
+    }
+  ]
+}
