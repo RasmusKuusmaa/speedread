@@ -1,0 +1,268 @@
+{
+  "id": "aesop-traveller-and-his-dog",
+  "title": "The Traveller and His Dog",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Traveller was about to start on a journey, and said to his Dog, who was stretching himself by the door, \"Come, what are you yawning for? Hurry up and get ready: I mean you to go with me.\" But the Dog merely wagged his tail and said quietly, \"I'm ready, master: it's you I'm waiting for.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-traveller-and-his-dog-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Traveller about to do?",
+      "options": [
+        "Start on a journey",
+        "Go to sleep",
+        "Cook a meal",
+        "Repair the door"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 43
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-traveller-and-his-dog-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Dog doing when the Traveller spoke to him?",
+      "options": [
+        "Barking at the door",
+        "Stretching himself by the door",
+        "Chewing on a bone",
+        "Sleeping in the sun"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 49,
+        "end": 104
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-traveller-and-his-dog-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Traveller ask the Dog about?",
+      "options": [
+        "Why he is yawning",
+        "Why he is barking",
+        "Why he is limping",
+        "Why he is hiding"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 107,
+        "end": 138
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-traveller-and-his-dog-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Traveller tell the Dog to do?",
+      "options": [
+        "Stay behind and guard the house",
+        "Hurry up and get ready to go with him",
+        "Fetch his walking stick",
+        "Wait by the door until he returns"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 139,
+        "end": 188
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-traveller-and-his-dog-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Dog respond physically before he speaks?",
+      "options": [
+        "He runs in circles",
+        "He merely wags his tail",
+        "He barks twice",
+        "He lies down flat"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 194,
+        "end": 241
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-traveller-and-his-dog-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Dog say he is waiting for?",
+      "options": [
+        "His food",
+        "The Traveller",
+        "The door to open",
+        "Another dog"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 244,
+        "end": 288
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-traveller-and-his-dog-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is the Dog's reply really pointing out about the Traveller?",
+      "options": [
+        "That the Traveller has forgotten his Dog's name",
+        "That the Traveller is the one causing the delay, not the Dog",
+        "That the Traveller is afraid to travel alone",
+        "That the Traveller does not actually want the Dog to come"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 244,
+        "end": 288
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-traveller-and-his-dog-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Dogs are always more patient than their masters",
+        "It is unfair to blame someone else for a delay that is really your own fault",
+        "Yawning is a sign of laziness that should be scolded",
+        "Travellers should never bring their dogs along"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 107,
+        "end": 288
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-traveller-and-his-dog-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where was the Dog stretching himself?",
+      "options": [
+        "By the door",
+        "By the fireplace",
+        "In the garden",
+        "On the road"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 74,
+        "end": 104
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-traveller-and-his-dog-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what tone does the Dog use when he answers?",
+      "options": [
+        "Angrily",
+        "Quietly",
+        "Fearfully",
+        "Loudly"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 194,
+        "end": 241
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-traveller-and-his-dog-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exact words does the Dog use to describe his own readiness?",
+      "options": [
+        "\"I'm ready, master\"",
+        "\"I'm not going anywhere\"",
+        "\"I need more time\"",
+        "\"I was sleeping, master\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 244,
+        "end": 288
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-traveller-and-his-dog-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"merely\" mean in \"the Dog merely wagged his tail\"?",
+      "options": [
+        "Angrily",
+        "Simply, and nothing more",
+        "Repeatedly",
+        "Slowly"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 202,
+        "end": 224
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-traveller-and-his-dog-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Traveller have assumed the Dog was the one holding things up?",
+      "options": [
+        "He mistook the Dog's stretching and yawning as a sign of reluctance, rather than noticing his own delay",
+        "The Dog had refused to go with him the day before",
+        "The Dog had actually said he did not want to travel",
+        "The Traveller had already packed everything he needed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 49,
+        "end": 138
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-traveller-and-his-dog-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Traveller scolds his Dog for being slow, but the Dog calmly points out that he himself is the one causing the delay",
+        "A Dog refuses to accompany his master on a journey",
+        "A Traveller and his Dog race each other to the door",
+        "A Dog falls asleep and misses the start of the journey"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 288
+      },
+      "pool": "retest"
+    }
+  ]
+}
