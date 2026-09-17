@@ -1,0 +1,268 @@
+{
+  "id": "aesop-runaway-slave",
+  "title": "The Runaway Slave",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Slave, being discontented with his lot, ran away from his master. He was soon missed by the latter, who lost no time in mounting his horse and setting out in pursuit of the fugitive. He presently came up with him, and the Slave, in the hope of avoiding capture, slipped into a treadmill and hid himself there. \"Aha,\" said his master, \"that's the very place for you, my man!\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-runaway-slave-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the Slave run away from his master?",
+      "options": [
+        "He wanted to find a new master",
+        "He was discontented with his lot",
+        "He was ordered to leave by his master",
+        "He wanted to explore new places"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 9,
+        "end": 40
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-runaway-slave-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the master do as soon as he missed the Slave?",
+      "options": [
+        "Sent letters to nearby villages",
+        "Waited for him to return on his own",
+        "Asked neighbors for help searching",
+        "Mounted his horse and set out in pursuit"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 122,
+        "end": 167
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-runaway-slave-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what word does it use for the escaped Slave during the chase?",
+      "options": [
+        "The fugitive",
+        "The wanderer",
+        "The traveller",
+        "The stranger"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 157,
+        "end": 183
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-runaway-slave-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the Slave hide to avoid capture?",
+      "options": [
+        "Behind a haystack",
+        "Inside a barn",
+        "In a treadmill",
+        "Under a bridge"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 264,
+        "end": 310
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-runaway-slave-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the master say once he found the Slave?",
+      "options": [
+        "\"Run all you like, I will always find you\"",
+        "\"You will be punished for this\"",
+        "\"Get back to work immediately\"",
+        "\"That's the very place for you, my man!\""
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 337,
+        "end": 375
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-runaway-slave-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"fugitive\" mean in \"in pursuit of the fugitive\"?",
+      "options": [
+        "A skilled horseman",
+        "A wealthy landowner",
+        "A person fleeing from capture",
+        "A loyal servant"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 157,
+        "end": 183
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-runaway-slave-f7",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"discontented\" mean in \"being discontented with his lot\"?",
+      "options": [
+        "Feeling curious about",
+        "Feeling dissatisfied with",
+        "Feeling proud of",
+        "Feeling indifferent to"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 9,
+        "end": 40
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-runaway-slave-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the master's remark likely meant as an ironic jab at the Slave?",
+      "options": [
+        "Because a treadmill was a device of hard forced labor, so the Slave has hidden himself in a symbol of the toil he tried to escape",
+        "Because the master genuinely believes treadmills are comfortable hiding spots",
+        "Because the Slave requested to be placed in the treadmill",
+        "Because treadmills were reserved for free citizens, not slaves"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 337,
+        "end": 375
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-runaway-slave-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how quickly was the Slave missed by his master?",
+      "options": [
+        "He was soon missed",
+        "After several days",
+        "Only after a week",
+        "He was never missed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 68,
+        "end": 100
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-runaway-slave-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Slave hope to avoid by hiding in the treadmill?",
+      "options": [
+        "Punishment from other slaves",
+        "Being seen by travellers",
+        "Capture",
+        "Losing his job"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 231,
+        "end": 262
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-runaway-slave-r3",
+      "taxonomy": "literal",
+      "prompt": "In the phrase \"He was soon missed by the latter,\" who does \"the latter\" refer to?",
+      "options": [
+        "The Slave",
+        "A neighbor",
+        "The horse",
+        "The master"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 68,
+        "end": 100
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-runaway-slave-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"lot\" mean in \"discontented with his lot\"?",
+      "options": [
+        "A parcel of land he owned",
+        "A group of fellow slaves",
+        "A game of chance",
+        "His condition or situation in life"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 15,
+        "end": 40
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-runaway-slave-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the master's ironic remark suggest about how a treadmill was normally used?",
+      "options": [
+        "As a comfortable resting place for animals",
+        "As a device of hard, forced labor",
+        "As a place where slaves were rewarded",
+        "As a device used only for grinding spices"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 337,
+        "end": 375
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-runaway-slave-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Slave successfully escapes and is never found",
+        "A master frees his Slave after finding him in a treadmill",
+        "A Slave runs away out of discontent, but when his master catches him hiding in a treadmill, the master mocks that he has ended up in a fitting place of toil",
+        "A Slave is punished by being placed in a treadmill for a full year"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 337,
+        "end": 375
+      },
+      "pool": "retest"
+    }
+  ]
+}
