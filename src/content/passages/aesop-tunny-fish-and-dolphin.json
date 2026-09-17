@@ -1,0 +1,268 @@
+{
+  "id": "aesop-tunny-fish-and-dolphin",
+  "title": "The Tunny-Fish and the Dolphin",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Tunny-fish was chased by a Dolphin and splashed through the water at a great rate, but the Dolphin gradually gained upon him, and was just about to seize him when the force of his flight carried the Tunny on to a sandbank. In the heat of the chase the Dolphin followed him, and there they both lay out of the water, gasping for dear life. When the Tunny saw that his enemy was doomed like himself, he said, \"I don't mind having to die now: for I see that he who is the cause of my death is about to share the same fate.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-tunny-fish-and-dolphin-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was chasing the Tunny-fish?",
+      "options": [
+        "A shark",
+        "A Dolphin",
+        "A fisherman's net",
+        "A larger tunny"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 36
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-tunny-fish-and-dolphin-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened as the Dolphin gained on the Tunny?",
+      "options": [
+        "The Tunny turned to fight back",
+        "The force of the Tunny's flight carried him onto a sandbank",
+        "The Tunny dove to the bottom of the sea",
+        "The Dolphin lost interest and swam away"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 165,
+        "end": 223
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-tunny-fish-and-dolphin-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Dolphin do in the heat of the chase?",
+      "options": [
+        "He stopped just short of the sandbank",
+        "He followed the Tunny onto the sandbank",
+        "He called out a warning to the Tunny",
+        "He swam around the sandbank instead"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 225,
+        "end": 274
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-tunny-fish-and-dolphin-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what state were both fish in once out of the water?",
+      "options": [
+        "Fighting each other fiercely",
+        "Gasping for dear life",
+        "Sleeping peacefully",
+        "Swimming in circles"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 280,
+        "end": 339
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-tunny-fish-and-dolphin-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Tunny say he does not mind now?",
+      "options": [
+        "Being caught by a fisherman",
+        "Having to die now",
+        "Losing the race",
+        "Being left on the sandbank alone"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 410,
+        "end": 440
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-tunny-fish-and-dolphin-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"doomed\" mean in \"his enemy was doomed like himself\"?",
+      "options": [
+        "Certain to suffer the same fate, especially death",
+        "Guaranteed to escape safely",
+        "Completely unaware of danger",
+        "Free of any harm"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 365,
+        "end": 398
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-tunny-fish-and-dolphin-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Tunny able to find some comfort in his own death?",
+      "options": [
+        "He believes he can still escape at the last moment",
+        "The very pursuit that caused his doom has also trapped and doomed his pursuer",
+        "He knows the Dolphin will be punished later by other dolphins",
+        "He expects a fisherman to rescue him before he dies"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 446,
+        "end": 520
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-tunny-fish-and-dolphin-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "It can be a grim consolation to see one's downfall shared by the one who caused it",
+        "Fish should never swim near sandbanks",
+        "Dolphins are always faster than tunny-fish",
+        "Chasing prey too eagerly always ends in success"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 410,
+        "end": 520
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-tunny-fish-and-dolphin-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Tunny-fish move through the water at first?",
+      "options": [
+        "Slowly and cautiously",
+        "At a great rate",
+        "In wide, lazy circles",
+        "Along the sandy bottom"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 41,
+        "end": 83
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-tunny-fish-and-dolphin-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Dolphin just about to do when the Tunny reached the sandbank?",
+      "options": [
+        "Turn back and give up",
+        "Seize him",
+        "Call for help from other dolphins",
+        "Dive beneath him"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 89,
+        "end": 159
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-tunny-fish-and-dolphin-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did both the Tunny and the Dolphin end up lying?",
+      "options": [
+        "In a deep underwater cave",
+        "Out of the water, on the sandbank",
+        "Beneath a fisherman's boat",
+        "Tangled in seaweed"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 280,
+        "end": 339
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-tunny-fish-and-dolphin-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"gained upon\" mean in \"the Dolphin gradually gained upon him\"?",
+      "options": [
+        "Lost ground to",
+        "Got closer to catching up with",
+        "Became afraid of",
+        "Swam away from"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 89,
+        "end": 126
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-tunny-fish-and-dolphin-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what caused the Dolphin to end up stranded alongside the Tunny?",
+      "options": [
+        "He was struck by a fisherman's spear",
+        "His own eagerness in the chase carried him onto the sandbank after his prey",
+        "He was too exhausted to swim back to deep water",
+        "He deliberately beached himself to catch the Tunny more easily"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 225,
+        "end": 274
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-tunny-fish-and-dolphin-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Dolphin chases a Tunny onto a sandbank where both become stranded, and the Tunny takes grim comfort in the Dolphin sharing his fate",
+        "A Tunny escapes a Dolphin by swimming into deep water",
+        "A Dolphin rescues a stranded Tunny from a sandbank",
+        "A fisherman catches both the Tunny and the Dolphin together"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 165,
+        "end": 274
+      },
+      "pool": "retest"
+    }
+  ]
+}
