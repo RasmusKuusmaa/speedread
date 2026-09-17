@@ -1,0 +1,268 @@
+{
+  "id": "aesop-monkey-and-camel",
+  "title": "The Monkey and the Camel",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "At a gathering of all the beasts the Monkey gave an exhibition of dancing and entertained the company vastly. There was great applause at the finish, which excited the envy of the Camel and made him desire to win the favour of the assembly by the same means. So he got up from his place and began dancing, but he cut such a ridiculous figure as he plunged about, and made such a grotesque exhibition of his ungainly person, that the beasts all fell upon him with ridicule and drove him away."
+  ],
+  "questions": [
+    {
+      "id": "aesop-monkey-and-camel-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Monkey do at the gathering of the beasts?",
+      "options": [
+        "Gave an exhibition of dancing",
+        "Told a series of jokes",
+        "Sang a long song",
+        "Performed acrobatic tricks on a rope"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 33,
+        "end": 108
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-monkey-and-camel-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the company respond to the Monkey's dancing?",
+      "options": [
+        "There was great applause at the finish",
+        "They demanded he dance again immediately",
+        "They ignored him and talked among themselves",
+        "They asked him to teach them his steps"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 110,
+        "end": 148
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-monkey-and-camel-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what feeling did the applause excite in the Camel?",
+      "options": [
+        "Envy",
+        "Amusement",
+        "Sympathy",
+        "Boredom"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 156,
+        "end": 185
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-monkey-and-camel-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Camel desire to do after seeing the applause?",
+      "options": [
+        "Win the favour of the assembly by the same means",
+        "Challenge the Monkey to a contest of strength",
+        "Ask the Monkey to teach him to dance in private",
+        "Leave the gathering before his turn came"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 190,
+        "end": 257
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-monkey-and-camel-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Camel do after he got up from his place?",
+      "options": [
+        "Began dancing",
+        "Sang a song of his own",
+        "Applauded the Monkey once more",
+        "Challenged the Monkey to a race"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 262,
+        "end": 308
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-monkey-and-camel-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the beasts respond to the Camel's dancing?",
+      "options": [
+        "They fell upon him with ridicule and drove him away",
+        "They applauded even louder than before",
+        "They asked him to dance a second time",
+        "They quietly left the gathering"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 429,
+        "end": 490
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-monkey-and-camel-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the beasts react so differently to the Camel's dancing than to the Monkey's?",
+      "options": [
+        "The Camel's large, ungainly body was ill-suited to dancing, unlike the nimble Monkey's",
+        "The beasts had grown tired of dancing by the time the Camel performed",
+        "The Camel danced for a much longer time than the Monkey had",
+        "The beasts disliked the Camel personally, regardless of his performance"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 310,
+        "end": 422
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-monkey-and-camel-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Envying another's success and trying to copy it without regard for one's own nature invites ridicule",
+        "Camels are more talented performers than monkeys realize",
+        "Applause from a crowd is never a reliable sign of true skill",
+        "Every animal at a gathering deserves a turn to perform"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 156,
+        "end": 490
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-monkey-and-camel-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did this dancing take place?",
+      "options": [
+        "At a gathering of all the beasts",
+        "At the Camel's home",
+        "In a marketplace",
+        "Beside a river"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 32
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-monkey-and-camel-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how is the Camel's dancing figure described?",
+      "options": [
+        "A ridiculous figure",
+        "A graceful figure",
+        "A powerful figure",
+        "An unnoticed figure"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 310,
+        "end": 361
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-monkey-and-camel-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what kind of exhibition did the Camel's person make as he danced?",
+      "options": [
+        "A grotesque exhibition of his ungainly person",
+        "A modest and dignified exhibition",
+        "An exhibition that impressed even the Monkey",
+        "An exhibition that no one noticed at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 367,
+        "end": 422
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-monkey-and-camel-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what mistake did the Camel make in trying to win the same praise as the Monkey?",
+      "options": [
+        "He assumed the same act that suited the Monkey would suit him too",
+        "He waited too long before beginning his performance",
+        "He asked the Monkey for permission before dancing",
+        "He performed the exact same dance as the Monkey"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 156,
+        "end": 361
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-monkey-and-camel-r5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"ungainly\" mean in \"his ungainly person\"?",
+      "options": [
+        "Awkward and lacking grace",
+        "Extremely swift and light",
+        "Small and delicate",
+        "Beautifully proportioned"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 367,
+        "end": 422
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-monkey-and-camel-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "The Monkey's dancing is applauded, so the envious Camel tries the same and is driven away for his ridiculous attempt",
+        "The Camel outdances the Monkey and wins the crowd's favour",
+        "The Monkey and Camel dance together and both are applauded equally",
+        "The beasts refuse to let either the Monkey or the Camel perform"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 33,
+        "end": 490
+      },
+      "pool": "retest"
+    }
+  ]
+}
