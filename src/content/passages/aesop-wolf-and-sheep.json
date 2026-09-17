@@ -1,0 +1,268 @@
+{
+  "id": "aesop-wolf-and-sheep",
+  "title": "The Wolf and the Sheep",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Wolf was worried and badly bitten by dogs, and lay a long time for dead. By and by he began to revive, and, feeling very hungry, called out to a passing Sheep and said, \"Would you kindly bring me some water from the stream close by? I can manage about meat, if only I could get something to drink.\" But this Sheep was no fool. \"I can quite understand\", said he, \"that if I brought you the water, you would have no difficulty about the meat. Good-morning.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-wolf-and-sheep-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to the Wolf at the start of the passage?",
+      "options": [
+        "He was worried and badly bitten by dogs",
+        "He fell into a deep pit",
+        "He lost a fight with another wolf",
+        "He was caught in a hunter's trap"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 73
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-sheep-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Wolf do once he began to revive?",
+      "options": [
+        "He called out to a passing Sheep",
+        "He limped away to find shelter",
+        "He searched for the dogs that bit him",
+        "He fell back asleep from exhaustion"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 75,
+        "end": 160
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-sheep-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Wolf ask the Sheep to bring him?",
+      "options": [
+        "Some water from the stream close by",
+        "A piece of meat from the flock",
+        "Bandages for his wounds",
+        "Help from the shepherd"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 171,
+        "end": 300
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-sheep-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Wolf say he can manage on his own?",
+      "options": [
+        "The meat, if only he had something to drink",
+        "The walk back to his den",
+        "Finding water himself, eventually",
+        "Fighting off the dogs again"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 171,
+        "end": 300
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-sheep-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how is the Sheep described when the Wolf makes his request?",
+      "options": [
+        "As no fool",
+        "As easily frightened",
+        "As too far away to hear him",
+        "As sympathetic to the Wolf's pain"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 305,
+        "end": 327
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-sheep-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Sheep say would happen if he brought the Wolf water?",
+      "options": [
+        "The Wolf would have no difficulty about the meat",
+        "The Wolf would immediately recover and run off",
+        "The Wolf would thank him and leave in peace",
+        "The dogs would return and attack them both"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 329,
+        "end": 457
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-sheep-f7",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"worried\" mean in \"A Wolf was worried and badly bitten by dogs\"?",
+      "options": [
+        "Concerned or anxious",
+        "Attacked and harassed",
+        "Confused and lost",
+        "Warned in advance"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 73
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-sheep-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Sheep refuse to fetch the water?",
+      "options": [
+        "He understands that helping the Wolf recover would only let it eat him afterward",
+        "He does not know where the stream is located",
+        "He believes the Wolf is not actually injured",
+        "He is too weak himself to make the trip"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 329,
+        "end": 457
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-sheep-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what condition was the Wolf left in after being bitten by dogs?",
+      "options": [
+        "He lay a long time for dead",
+        "He was left with only minor scratches",
+        "He was chased far from his usual territory",
+        "He lost his sense of smell"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 73
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-sheep-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exact word does the Sheep use to end the conversation?",
+      "options": [
+        "\"Good-morning\"",
+        "\"Farewell forever\"",
+        "\"Never again\"",
+        "\"Not today\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 329,
+        "end": 457
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-sheep-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the Wolf call out to the Sheep in the first place?",
+      "options": [
+        "He was feeling very hungry after beginning to revive",
+        "He wanted directions back to his den",
+        "He wanted the Sheep to warn other wolves",
+        "He wanted company while he recovered"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 75,
+        "end": 160
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-sheep-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"revive\" mean in \"he began to revive\"?",
+      "options": [
+        "To regain strength or consciousness",
+        "To fall into a deeper sleep",
+        "To become more badly injured",
+        "To run away in fear"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 75,
+        "end": 160
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-sheep-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is the flaw in the Wolf's request that the Sheep sees through?",
+      "options": [
+        "The Wolf's plea for water conceals his real plan to eat the Sheep once he has recovered",
+        "The Wolf actually has plenty of water nearby already",
+        "The Wolf is lying about having been bitten by dogs",
+        "The Wolf wants the Sheep to fetch the dogs instead"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 171,
+        "end": 457
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-sheep-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "An injured Wolf asks a Sheep to fetch water, but the Sheep refuses, seeing that it would only help the Wolf recover enough to eat him",
+        "A Wolf and a Sheep share a stream of water together",
+        "A Sheep brings water to an injured Wolf out of pity",
+        "A Wolf recovers fully before ever meeting the Sheep"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 171,
+        "end": 457
+      },
+      "pool": "retest"
+    }
+  ]
+}
