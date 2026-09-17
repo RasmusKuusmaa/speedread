@@ -1,0 +1,268 @@
+{
+  "id": "aesop-wolf-in-sheeps-clothing",
+  "title": "The Wolf in Sheep's Clothing",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Wolf resolved to disguise himself in order that he might prey upon a flock of sheep without fear of detection. So he clothed himself in a sheepskin, and slipped among the sheep when they were out at pasture. He completely deceived the shepherd, and when the flock was penned for the night he was shut in with the rest. But that very night as it happened, the shepherd, requiring a supply of mutton for the table, laid hands on the Wolf in mistake for a Sheep, and killed him with his knife on the spot."
+  ],
+  "questions": [
+    {
+      "id": "aesop-wolf-in-sheeps-clothing-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the Wolf resolve to disguise himself?",
+      "options": [
+        "So he might prey upon a flock of sheep without fear of detection",
+        "So he could escape from a group of hunters",
+        "So the shepherd would give him shelter for the winter",
+        "So other wolves would not recognize him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 111
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-in-sheeps-clothing-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Wolf clothe himself in?",
+      "options": [
+        "A sheepskin",
+        "A shepherd's cloak",
+        "A bundle of wool",
+        "A dog's collar"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 116,
+        "end": 149
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-in-sheeps-clothing-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when did the Wolf slip among the sheep?",
+      "options": [
+        "When they were out at pasture",
+        "While they slept in the fold",
+        "As they were being sheared",
+        "During a storm at night"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 155,
+        "end": 208
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-in-sheeps-clothing-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who did the Wolf's disguise completely deceive?",
+      "options": [
+        "The shepherd",
+        "The sheep dog",
+        "Another wolf",
+        "A passing hunter"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 210,
+        "end": 245
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-in-sheeps-clothing-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to the Wolf when the flock was penned for the night?",
+      "options": [
+        "He was shut in with the rest of the sheep",
+        "He escaped before the gate closed",
+        "He was left outside the pen",
+        "He was recognized and driven away"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 251,
+        "end": 319
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-in-sheeps-clothing-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the shepherd go into the pen that night?",
+      "options": [
+        "He required a supply of mutton for the table",
+        "He wanted to count the sheep before bed",
+        "He suspected a wolf had gotten in",
+        "He needed to check on a sick lamb"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 371,
+        "end": 413
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-in-sheeps-clothing-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the shepherd end up killing the Wolf instead of a real sheep?",
+      "options": [
+        "The Wolf's disguise was so complete that the shepherd could not tell him apart from the sheep even up close",
+        "The shepherd had discovered the Wolf's true identity beforehand",
+        "The Wolf attacked the shepherd first and was killed in self-defense",
+        "The shepherd intended to kill the Wolf all along as a trap"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 371,
+        "end": 460
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-in-sheeps-clothing-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "A disguise meant to deceive others for one's own gain can just as easily bring about one's own ruin",
+        "Shepherds are always more clever than wolves",
+        "Sheep are safer at pasture than penned for the night",
+        "Wolves should never attempt to disguise themselves as sheep"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 503
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-in-sheeps-clothing-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Wolf plan to prey upon?",
+      "options": [
+        "A flock of sheep",
+        "A herd of goats",
+        "A pack of hunting dogs",
+        "A group of shepherds"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 111
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-in-sheeps-clothing-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the shepherd do with the Wolf, thinking he was a sheep?",
+      "options": [
+        "Laid hands on him in mistake for a Sheep",
+        "Sheared him along with the flock",
+        "Marked him with the flock's brand",
+        "Led him out to a separate pen"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 415,
+        "end": 460
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-in-sheeps-clothing-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the shepherd kill the Wolf?",
+      "options": [
+        "With his knife, on the spot",
+        "By setting dogs on him",
+        "By trapping him in a pit",
+        "By calling for other shepherds to help"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 466,
+        "end": 503
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-in-sheeps-clothing-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what irony lies at the heart of the Wolf's fate?",
+      "options": [
+        "The very disguise the Wolf used to prey on sheep is what led to him being killed as one",
+        "The Wolf was killed by another wolf disguised in the same way",
+        "The shepherd had planned to kill a wolf all along, not a sheep",
+        "The sheep themselves exposed the Wolf's disguise to the shepherd"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 503
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-in-sheeps-clothing-r5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"detection\" mean in \"without fear of detection\"?",
+      "options": [
+        "Being discovered or found out",
+        "Being punished for a crime",
+        "Being followed by hunters",
+        "Being rejected by the flock"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 111
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-in-sheeps-clothing-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Wolf disguises himself as a sheep to prey on the flock, but is mistaken for a sheep himself and killed by the shepherd",
+        "A Wolf disguises himself as a shepherd to steal sheep undetected",
+        "A shepherd discovers the Wolf's disguise and drives him away before any harm is done",
+        "A Wolf befriends the sheep after revealing his true identity to them"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 503
+      },
+      "pool": "retest"
+    }
+  ]
+}
