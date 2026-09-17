@@ -1,0 +1,268 @@
+{
+  "id": "aesop-frogs-and-well",
+  "title": "The Frogs and the Well",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "Two Frogs lived together in a marsh. But one hot summer the marsh dried up, and they left it to look for another place to live in: for frogs like damp places if they can get them. By and by they came to a deep well, and one of them looked down into it, and said to the other, \"This looks a nice cool place: let us jump in and settle here.\" But the other, who had a wiser head on his shoulders, replied, \"Not so fast, my friend: supposing this well dried up like the marsh, how should we get out again?\" Think twice before you act."
+  ],
+  "questions": [
+    {
+      "id": "aesop-frogs-and-well-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the two Frogs live together at first?",
+      "options": [
+        "In a marsh",
+        "In a deep well",
+        "By a river",
+        "Under a large stone"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 35
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-frogs-and-well-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the Frogs leave the marsh?",
+      "options": [
+        "A predator had moved in",
+        "It dried up in the hot summer",
+        "It had become too crowded",
+        "It froze over"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 41,
+        "end": 92
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-frogs-and-well-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Frogs come to as they searched for a new home?",
+      "options": [
+        "A shallow puddle",
+        "A deep well",
+        "A wide river",
+        "A stone fountain"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 190,
+        "end": 214
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-frogs-and-well-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the first Frog suggest they do at the well?",
+      "options": [
+        "Jump in and settle there",
+        "Wait for rain before deciding",
+        "Look for another well nearby",
+        "Ask other frogs for advice"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 307,
+        "end": 337
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-frogs-and-well-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what question does the wiser Frog raise?",
+      "options": [
+        "How deep is the well, really?",
+        "Supposing this well dried up like the marsh, how should we get out again?",
+        "Are there enough insects to eat down there?",
+        "Will the other frogs join them?"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 428,
+        "end": 501
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-frogs-and-well-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does the phrase \"a wiser head on his shoulders\" suggest about the second Frog?",
+      "options": [
+        "He was more cautious and thoughtful than the other Frog",
+        "He was physically larger than the other Frog",
+        "He was older in years than the other Frog",
+        "He was less experienced than the other Frog"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 355,
+        "end": 392
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-frogs-and-well-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the second Frog hesitate to jump into the well?",
+      "options": [
+        "He dislikes the cool temperature of the water",
+        "He recognizes that the well could dry up just as the marsh did, trapping them inside",
+        "He wants to search for a marsh instead of a well",
+        "He is afraid of the depth alone, regardless of water"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 428,
+        "end": 501
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-frogs-and-well-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable's closing line?",
+      "options": [
+        "Wells are always more dangerous than marshes",
+        "One should consider the consequences of a decision before committing to it",
+        "Frogs should never leave their home marsh",
+        "Cool places are not always as good as they seem"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 503,
+        "end": 530
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-frogs-and-well-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what kind of places do frogs like, if they can get them?",
+      "options": [
+        "Damp places",
+        "Sunny, dry places",
+        "Sandy places",
+        "Rocky places"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 131,
+        "end": 178
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-frogs-and-well-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the first Frog say the well looked like?",
+      "options": [
+        "A nice cool place",
+        "A dangerous trap",
+        "A crowded place",
+        "An old, abandoned place"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 277,
+        "end": 305
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-frogs-and-well-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what word does the second Frog use to address the first Frog?",
+      "options": [
+        "\"My friend\"",
+        "\"My brother\"",
+        "\"Neighbor\"",
+        "\"Stranger\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 404,
+        "end": 426
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-frogs-and-well-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"settle\" mean in \"let us jump in and settle here\"?",
+      "options": [
+        "To make a permanent home",
+        "To argue and come to terms",
+        "To pay off a debt",
+        "To calm down after excitement"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 307,
+        "end": 337
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-frogs-and-well-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why would getting out of the well be a problem if it dried up, unlike the open marsh?",
+      "options": [
+        "A well's steep, enclosed sides would trap them where a marsh's open ground would not",
+        "The well would fill with mud instead of drying completely",
+        "Other frogs would already have taken the marsh by then",
+        "The well was farther from other water sources than the marsh had been"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 428,
+        "end": 501
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-frogs-and-well-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "One Frog wants to settle in a well at once, but the other cautions that they should first think about what would happen if it dried up too",
+        "Two Frogs search for a new marsh after their well dries up",
+        "Two Frogs argue over which of them found the well first",
+        "Two Frogs decide to return to their old marsh instead of the well"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 307,
+        "end": 426
+      },
+      "pool": "retest"
+    }
+  ]
+}
