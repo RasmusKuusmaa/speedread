@@ -1,0 +1,268 @@
+{
+  "id": "aesop-farmer-and-fox",
+  "title": "The Farmer and the Fox",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Farmer was greatly annoyed by a Fox, which came prowling about his yard at night and carried off his fowls. So he set a trap for him and caught him; and in order to be revenged upon him, he tied a bunch of tow to his tail and set fire to it and let him go. As ill-luck would have it, however, the Fox made straight for the fields where the corn was standing ripe and ready for cutting. It quickly caught fire and was all burnt up, and the Farmer lost all his harvest. Revenge is a two-edged sword."
+  ],
+  "questions": [
+    {
+      "id": "aesop-farmer-and-fox-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Fox carrying off from the Farmer's yard?",
+      "options": [
+        "His tools",
+        "His fowls",
+        "His firewood",
+        "His seed corn"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 87,
+        "end": 108
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-fox-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Farmer catch the Fox?",
+      "options": [
+        "He chased him down on foot",
+        "He set a trap for him",
+        "He hired hunters with dogs",
+        "He waited by the henhouse with a gun"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 113,
+        "end": 149
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-fox-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Farmer tie to the Fox's tail?",
+      "options": [
+        "A bunch of tow, which he set on fire",
+        "A heavy stone",
+        "A bell to warn the fowls",
+        "A rope tied to a stake"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 189,
+        "end": 242
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-fox-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the burning Fox run?",
+      "options": [
+        "Into the farmhouse",
+        "Back to his den",
+        "Into the river",
+        "Into the fields where the corn was standing ripe"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 295,
+        "end": 386
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-fox-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Farmer lose in the end?",
+      "options": [
+        "His fowls",
+        "His trap",
+        "All his harvest",
+        "His yard"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 437,
+        "end": 468
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-fox-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"prowling\" mean in \"came prowling about his yard at night\"?",
+      "options": [
+        "Sleeping quietly",
+        "Moving about stealthily in search of prey",
+        "Singing loudly",
+        "Digging a burrow"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 45,
+        "end": 82
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-fox-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the fire spread to the Farmer's own crop?",
+      "options": [
+        "The Farmer accidentally dropped his torch in the field",
+        "The burning Fox happened to run through the ripe corn while trying to escape",
+        "The Fox deliberately set the field alight in revenge",
+        "Lightning struck the field at the same time"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 295,
+        "end": 410
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-fox-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, as its closing line suggests?",
+      "options": [
+        "Foxes should never be trusted near a farm",
+        "An act of revenge can end up harming the one who takes it",
+        "Traps are the most reliable way to punish a thief",
+        "Fire is too dangerous a punishment for any crime"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 470,
+        "end": 499
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-farmer-and-fox-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Farmer's feeling toward the Fox at the start?",
+      "options": [
+        "He was greatly annoyed by him",
+        "He admired his cleverness",
+        "He felt sorry for him",
+        "He was afraid of him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 37
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-fox-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Farmer do after tying tow to the Fox's tail and setting it alight?",
+      "options": [
+        "He locked the Fox in a cage",
+        "He let him go",
+        "He drowned the fire immediately",
+        "He sold the Fox to a neighbor"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 228,
+        "end": 257
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-fox-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what condition was the corn in when the Fox ran into the fields?",
+      "options": [
+        "Freshly planted",
+        "Standing ripe and ready for cutting",
+        "Already harvested and stored",
+        "Flooded from recent rain"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 321,
+        "end": 386
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-fox-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"ill-luck\" mean in \"As ill-luck would have it\"?",
+      "options": [
+        "Bad fortune",
+        "A clever plan",
+        "Great skill",
+        "A fair trade"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 259,
+        "end": 284
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-fox-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is ironic about how the Farmer's plan for revenge turned out?",
+      "options": [
+        "The Fox forgave the Farmer afterward",
+        "The punishment meant for the Fox ended up destroying the Farmer's own harvest",
+        "The trap failed to catch the Fox at all",
+        "The Fox was completely unharmed by the fire"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 388,
+        "end": 468
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-farmer-and-fox-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Farmer traps a thieving Fox and sets him ablaze, but the fleeing Fox burns down the Farmer's own crop",
+        "A Farmer forgives a Fox for stealing his fowls",
+        "A Fox burns down a neighboring farm out of spite",
+        "A Farmer and a Fox become allies after a trap fails"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 189,
+        "end": 331
+      },
+      "pool": "retest"
+    }
+  ]
+}
