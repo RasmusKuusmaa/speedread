@@ -1,0 +1,268 @@
+{
+  "id": "aesop-wolf-and-goat",
+  "title": "The Wolf and the Goat",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Wolf caught sight of a Goat browsing above him on the scanty herbage that grew on the top of a steep rock; and being unable to get at her, tried to induce her to come lower down. \"You are risking your life up there, madam, indeed you are,\" he called out: \"pray take my advice and come down here, where you will find plenty of better food.\" The Goat turned a knowing eye upon him. \"It's little you care whether I get good grass or bad,\" said she: \"what you want is to eat me.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-wolf-and-goat-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where was the Goat browsing when the Wolf saw her?",
+      "options": [
+        "On the scanty herbage at the top of a steep rock",
+        "In a meadow beside a stream",
+        "Near the entrance of the Wolf's den",
+        "Inside a shepherd's pen"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 23,
+        "end": 107
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-goat-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the Wolf try to induce the Goat to come lower down?",
+      "options": [
+        "Because he was unable to get at her where she stood",
+        "Because he wanted her to meet the other goats",
+        "Because he feared the rock would collapse",
+        "Because the herbage above was actually poisonous"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 113,
+        "end": 179
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-goat-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what warning does the Wolf give the Goat about her position?",
+      "options": [
+        "That she is risking her life up there",
+        "That the weather will soon turn stormy",
+        "That other wolves are approaching",
+        "That the rock is not safe to stand on for long"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 182,
+        "end": 239
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-goat-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Wolf claim she will find if she comes down?",
+      "options": [
+        "Plenty of better food",
+        "A safer place to sleep",
+        "Company from other goats",
+        "Protection from other predators"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 258,
+        "end": 339
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-goat-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Goat look at the Wolf as she responds?",
+      "options": [
+        "With a knowing eye",
+        "With a frightened glance",
+        "With complete indifference",
+        "With tears in her eyes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 342,
+        "end": 380
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-goat-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Goat say the Wolf actually wants?",
+      "options": [
+        "To eat her",
+        "To steal her food",
+        "To trap her on the rock forever",
+        "To lead her to the other goats"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 449,
+        "end": 475
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-goat-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Goat say it's little the Wolf cares whether she gets good grass or bad?",
+      "options": [
+        "She recognizes that his concern for her food is only a cover for his real, harmful intention",
+        "She believes the Wolf genuinely dislikes grass of any kind",
+        "She thinks the Wolf is testing her to see if she trusts him",
+        "She has heard rumors that the Wolf never eats grass himself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 383,
+        "end": 475
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-goat-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Advice offered by someone who stands to benefit from it should be viewed with suspicion",
+        "Goats are naturally braver than wolves in dangerous situations",
+        "Steep rocks are always the safest place for goats to graze",
+        "Wolves are incapable of climbing steep terrain"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 383,
+        "end": 475
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-goat-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Wolf call the Goat when he speaks to her?",
+      "options": [
+        "Madam",
+        "My dear friend",
+        "Little one",
+        "Neighbour"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 182,
+        "end": 239
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-goat-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Wolf say he is offering the Goat?",
+      "options": [
+        "His advice",
+        "His protection",
+        "His company",
+        "His share of food"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 258,
+        "end": 339
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-goat-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what kind of herbage is said to grow on top of the rock where the Goat stands?",
+      "options": [
+        "Scanty herbage",
+        "Rich, abundant herbage",
+        "Herbage unlike any found below",
+        "No herbage at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 23,
+        "end": 107
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-goat-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the phrase \"a knowing eye\" suggest about the Goat's reaction to the Wolf?",
+      "options": [
+        "She immediately sees through his flattering words to his real motive",
+        "She is confused about what the Wolf actually wants from her",
+        "She admires the Wolf's cleverness in offering such advice",
+        "She is too distracted by the food below to notice the danger"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 342,
+        "end": 475
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-goat-r5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"induce\" mean in \"tried to induce her to come lower down\"?",
+      "options": [
+        "Persuade or lead someone to do something",
+        "Physically force someone to move",
+        "Frighten someone into fleeing",
+        "Trick someone using a disguise"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 113,
+        "end": 179
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-goat-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Wolf tries to lure a Goat down from safety with false concern, but she sees through his true motive",
+        "A Wolf and Goat share the same patch of grass peacefully",
+        "A Goat climbs down willingly and is caught by the Wolf",
+        "A Wolf warns a Goat about a real danger on the rock above her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 113,
+        "end": 475
+      },
+      "pool": "retest"
+    }
+  ]
+}
