@@ -1,0 +1,268 @@
+{
+  "id": "aesop-bald-huntsman",
+  "title": "The Bald Huntsman",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Man who had lost all his hair took to wearing a wig, and one day he went out hunting. It was blowing rather hard at the time, and he hadn't gone far before a gust of wind caught his hat and carried it off, and his wig too, much to the amusement of the hunt. But he quite entered into the joke, and said, \"Ah, well! the hair that wig is made of didn't stick to the head on which it grew; so it's no wonder it won't stick to mine.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-bald-huntsman-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the Man start wearing a wig?",
+      "options": [
+        "He had lost all his hair",
+        "He wanted to disguise himself while hunting",
+        "It was the fashion among huntsmen",
+        "His hat no longer fit without one"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 53
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bald-huntsman-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what activity was the Man doing when the incident happened?",
+      "options": [
+        "Hunting",
+        "Riding to a market",
+        "Attending a wedding",
+        "Walking home from church"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 67,
+        "end": 86
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bald-huntsman-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the weather like at the time?",
+      "options": [
+        "It was blowing rather hard",
+        "It was raining heavily",
+        "It was perfectly calm",
+        "Snow was beginning to fall"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 88,
+        "end": 126
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bald-huntsman-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the gust of wind carry off?",
+      "options": [
+        "His hat and his wig",
+        "His hat only",
+        "His cloak and his hat",
+        "His wig and his gloves"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 158,
+        "end": 223
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bald-huntsman-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the hunt react to the Man losing his hat and wig?",
+      "options": [
+        "With amusement",
+        "With alarm for his safety",
+        "With complete indifference",
+        "By stopping the hunt entirely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 225,
+        "end": 258
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bald-huntsman-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Man say about why the wig wouldn't stick to his head?",
+      "options": [
+        "Because the hair never stuck to the head it originally grew on, either",
+        "Because his head was too small for the wig",
+        "Because he had never worn it properly fastened",
+        "Because the wind that day was unusually strong"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 317,
+        "end": 387
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bald-huntsman-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Man's reaction to losing his wig reveal about his character?",
+      "options": [
+        "He can laugh at his own misfortune instead of feeling humiliated by it",
+        "He is secretly furious but hides his anger from the hunt",
+        "He blames the wind for ruining an expensive purchase",
+        "He no longer wishes to go hunting after the incident"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 264,
+        "end": 387
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bald-huntsman-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Meeting one's own misfortune with good humour can turn a joke against oneself into no disgrace at all",
+        "Wigs should never be worn while hunting outdoors",
+        "Baldness is a source of shame that cannot be joked about",
+        "It is unwise to hunt on a windy day"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 264,
+        "end": 429
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bald-huntsman-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how far had the Man gone before the incident occurred?",
+      "options": [
+        "Not far",
+        "Several miles",
+        "All the way home",
+        "To the edge of the forest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 126,
+        "end": 158
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bald-huntsman-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Man respond to the joke made at his expense?",
+      "options": [
+        "He quite enters into the joke himself",
+        "He storms off in embarrassment",
+        "He accuses the hunt of mocking him",
+        "He refuses to speak for the rest of the day"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 264,
+        "end": 294
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bald-huntsman-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Man say it's no wonder about?",
+      "options": [
+        "That the wig won't stick to his own head",
+        "That the wind is so strong today",
+        "That the hunt found the accident funny",
+        "That his hat blew off before the wig did"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 392,
+        "end": 429
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bald-huntsman-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what comparison does the Man draw to explain the wig's failure to stay on his head?",
+      "options": [
+        "He compares his own head to the head the hair originally grew on, which the hair also failed to stay attached to",
+        "He compares the wig to his hat, which was also poorly made",
+        "He compares his misfortune to that of other hunters",
+        "He compares the wind that day to a wind from years earlier"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 317,
+        "end": 429
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bald-huntsman-r5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"amusement\" mean in \"much to the amusement of the hunt\"?",
+      "options": [
+        "Enjoyment or entertainment at something funny",
+        "Sudden fear or alarm",
+        "Deep sympathy for someone's loss",
+        "Confusion about what had happened"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 225,
+        "end": 258
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bald-huntsman-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A gust of wind blows off a bald Man's hat and wig, and he jokes that the hair never stuck to its own original head either",
+        "A Man loses his hat during a hunt and blames the wind for ruining his trip",
+        "A Man's wig is stolen by another hunter as a prank",
+        "A Man refuses to wear a wig again after it embarrasses him publicly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 158,
+        "end": 429
+      },
+      "pool": "retest"
+    }
+  ]
+}
