@@ -1,0 +1,268 @@
+{
+  "id": "aesop-fox-and-snake",
+  "title": "The Fox and the Snake",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Snake, in crossing a river, was carried away by the current, but managed to wriggle on to a bundle of thorns which was floating by, and was thus carried at a great rate down-stream. A Fox caught sight of it from the bank as it went whirling along, and called out, \"Gad! the passenger fits the ship!\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-fox-and-snake-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Snake doing when it was carried away?",
+      "options": [
+        "Climbing a tree",
+        "Crossing a river",
+        "Hunting for food",
+        "Sunning itself on a rock"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 61
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-snake-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Snake manage to wriggle onto?",
+      "options": [
+        "A floating log",
+        "The riverbank",
+        "A bundle of thorns",
+        "A fisherman's net"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 67,
+        "end": 132
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-snake-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how was the Snake carried once it was on the thorns?",
+      "options": [
+        "Slowly and steadily",
+        "At a great rate down-stream",
+        "In circles near the bank",
+        "Backwards against the current"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 138,
+        "end": 182
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-snake-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, from where did the Fox see the Snake?",
+      "options": [
+        "From a nearby tree",
+        "From the bank",
+        "From a boat",
+        "From a bridge"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 184,
+        "end": 222
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-snake-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exact words does the Fox call out?",
+      "options": [
+        "\"Gad! the passenger fits the ship!\"",
+        "\"Look out below!\"",
+        "\"What a clever escape!\"",
+        "\"Beware the current!\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 266,
+        "end": 301
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-snake-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"wriggle\" mean in \"managed to wriggle on to a bundle of thorns\"?",
+      "options": [
+        "To fly",
+        "To twist and squirm its way",
+        "To swim in a straight line",
+        "To sink slowly"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 67,
+        "end": 132
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-snake-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Fox mean by \"the passenger fits the ship\"?",
+      "options": [
+        "That the Snake is too heavy for the thorns to carry",
+        "That the prickly, unpleasant raft suits the unpleasant creature riding on it",
+        "That the Snake built the raft of thorns itself",
+        "That the thorns will sink under the Snake's weight"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 266,
+        "end": 301
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-snake-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Two disagreeable things can turn out to be perfectly matched to each other",
+        "Snakes are more clever than foxes in a crisis",
+        "Rivers are always dangerous to cross",
+        "Thorns should never be trusted to float"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 266,
+        "end": 301
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-snake-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what carried the Snake away in the first place?",
+      "options": [
+        "The current",
+        "A strong wind",
+        "A passing boat",
+        "Another animal"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 61
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-snake-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the bundle of thorns doing in the river?",
+      "options": [
+        "Sinking to the bottom",
+        "Floating by",
+        "Stuck against a rock",
+        "Tangled in reeds"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 67,
+        "end": 132
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-snake-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Fox describe the way the Snake and thorns went along the water?",
+      "options": [
+        "Whirling along",
+        "Sinking slowly",
+        "Drifting gently",
+        "Standing still"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 223,
+        "end": 248
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-snake-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"current\" mean in \"was carried away by the current\"?",
+      "options": [
+        "The flowing movement of the river's water",
+        "The most recent news",
+        "An electric charge",
+        "A type of small dried fruit"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 61
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-snake-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Fox's remark meant as a joke rather than a compliment?",
+      "options": [
+        "It points out that a prickly, unwelcome raft is a fitting match for a creature many find unpleasant",
+        "It suggests the Snake actually enjoys being carried by the current",
+        "It praises the Snake's cleverness in finding the thorns",
+        "It warns the Snake that the thorns will soon sink"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 266,
+        "end": 301
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-snake-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Snake escapes a river current by climbing onto floating thorns, and a watching Fox jokes that the odd pair suit each other",
+        "A Fox rescues a drowning Snake from a river",
+        "A Snake and a Fox race each other down a river",
+        "A Fox warns a Snake to avoid a bundle of thorns"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 301
+      },
+      "pool": "retest"
+    }
+  ]
+}
