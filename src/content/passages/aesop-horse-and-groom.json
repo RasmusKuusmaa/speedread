@@ -1,0 +1,268 @@
+{
+  "id": "aesop-horse-and-groom",
+  "title": "The Horse and the Groom",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "There was once a Groom who used to spend long hours clipping and combing the Horse of which he had charge, but who daily stole a portion of his allowance of oats, and sold it for his own profit. The Horse gradually got into worse and worse condition, and at last cried to the Groom, \"If you really want me to look sleek and well, you must comb me less and feed me more.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-horse-and-groom-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Groom spend long hours?",
+      "options": [
+        "Feeding the Horse extra oats",
+        "Training the Horse to race",
+        "Clipping and combing the Horse",
+        "Cleaning the stable floor"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 27,
+        "end": 82
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-horse-and-groom-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Groom steal every day?",
+      "options": [
+        "The Horse's saddle",
+        "Money from his master",
+        "Brushes and combs",
+        "A portion of the Horse's allowance of oats"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 115,
+        "end": 161
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-horse-and-groom-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Groom do with the oats he stole?",
+      "options": [
+        "Sold them for his own profit",
+        "Fed them to other horses",
+        "Gave them to the poor",
+        "Buried them in the yard"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 167,
+        "end": 193
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-horse-and-groom-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to the Horse's condition over time?",
+      "options": [
+        "It steadily improved",
+        "It gradually got worse and worse",
+        "It stayed exactly the same",
+        "It improved only in winter"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 205,
+        "end": 249
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-horse-and-groom-f5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"sleek\" mean in \"look sleek and well\"?",
+      "options": [
+        "Thin and weak",
+        "Fast and energetic",
+        "Old and worn",
+        "Smooth and healthy-looking"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 309,
+        "end": 328
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-horse-and-groom-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"allowance\" mean in \"his allowance of oats\"?",
+      "options": [
+        "A stable building",
+        "A type of harness",
+        "A permitted or allotted amount",
+        "A veterinary treatment"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 140,
+        "end": 161
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-horse-and-groom-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Horse's complaint reveal about the Groom's priorities?",
+      "options": [
+        "The Groom cares more about the Horse's appearance than about actually feeding him",
+        "The Groom wants the Horse to look thinner",
+        "The Groom has no interest in the Horse at all",
+        "The Groom secretly wants to sell the Horse"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 330,
+        "end": 368
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-horse-and-groom-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Grooming an animal well matters more than feeding it",
+        "Attention devoted to appearances is no substitute for real care and sustenance",
+        "Horses need less food as they get older",
+        "Selling stolen goods always goes unnoticed"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 330,
+        "end": 368
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-horse-and-groom-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what relationship does it establish between the Groom and the Horse?",
+      "options": [
+        "The Groom rented the Horse from a neighbor",
+        "The Groom had charge of the Horse",
+        "The Groom owned the Horse jointly with another",
+        "The Groom was training to become a horse"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 73,
+        "end": 105
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-horse-and-groom-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exact words does the Horse use to describe what he wants from the Groom?",
+      "options": [
+        "\"Set me free from this stable\"",
+        "\"Give me a new groom\"",
+        "\"Comb me less and feed me more\"",
+        "\"Take me to a doctor\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 330,
+        "end": 368
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-horse-and-groom-r3",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what most likely caused the Horse's declining condition?",
+      "options": [
+        "The Groom stealing part of his oats",
+        "Too much exercise",
+        "Cold weather",
+        "An illness common to horses"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 115,
+        "end": 161
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-horse-and-groom-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"portion\" mean in \"stole a portion of his allowance of oats\"?",
+      "options": [
+        "A punishment",
+        "A schedule",
+        "A type of grain silo",
+        "A part or share of something"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 121,
+        "end": 161
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-horse-and-groom-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Horse's suggestion reveal he values more than being groomed?",
+      "options": [
+        "Being ridden less often",
+        "Having adequate food",
+        "Living in a larger stable",
+        "Being sold to a new owner"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 330,
+        "end": 368
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-horse-and-groom-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Horse steals oats from a Groom and is punished",
+        "A Groom feeds a Horse generously but never grooms it",
+        "A Horse escapes from a neglectful Groom",
+        "A Groom spends great effort grooming a Horse while stealing its food, and the Horse points out that real feeding matters more than fine grooming"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 330,
+        "end": 368
+      },
+      "pool": "retest"
+    }
+  ]
+}
