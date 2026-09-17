@@ -1,0 +1,268 @@
+{
+  "id": "aesop-dog-chasing-a-wolf",
+  "title": "The Dog Chasing a Wolf",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Dog was chasing a Wolf, and as he ran he thought what a fine fellow he was, and what strong legs he had, and how quickly they covered the ground. \"Now, there's this Wolf,\" he said to himself, \"what a poor creature he is: he's no match for me, and he knows it and so he runs away.\" But the Wolf looked round just then and said, \"Don't you imagine I'm running away from you, my friend: it's your master I'm afraid of.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-dog-chasing-a-wolf-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Dog doing at the start of the passage?",
+      "options": [
+        "Resting beside his master",
+        "Chasing a Wolf",
+        "Guarding a flock of sheep",
+        "Barking at a stranger"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 24
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-chasing-a-wolf-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Dog think about himself as he ran?",
+      "options": [
+        "That he was too slow to catch the Wolf",
+        "That he was a fine fellow with strong, quick legs",
+        "That he should give up the chase",
+        "That his master would be angry with him"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 30,
+        "end": 146
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-chasing-a-wolf-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Dog say to himself about the Wolf?",
+      "options": [
+        "That the Wolf was too dangerous to chase",
+        "That the Wolf was a poor creature who was no match for him",
+        "That the Wolf was faster than he expected",
+        "That the Wolf belonged to a rival pack"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 195,
+        "end": 280
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-chasing-a-wolf-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Dog believe was the reason the Wolf was running away?",
+      "options": [
+        "The Wolf was heading home for the night",
+        "The Wolf knew he was no match for the Dog",
+        "The Wolf was chasing something else",
+        "The Wolf was leading the Dog into a trap"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 195,
+        "end": 280
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-chasing-a-wolf-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Wolf say when he looked round?",
+      "options": [
+        "That he was tired and needed to rest",
+        "That it was the Dog's master he feared, not the Dog",
+        "That he was actually faster than the Dog",
+        "That he would turn and fight the Dog"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 330,
+        "end": 416
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-chasing-a-wolf-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"no match for me\" mean in \"he's no match for me\"?",
+      "options": [
+        "Not able to compete successfully against me",
+        "Not interested in fighting me",
+        "Not aware that I exist",
+        "Not able to see me clearly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 228,
+        "end": 243
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-chasing-a-wolf-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Wolf's remark undercut the Dog's boastful thoughts?",
+      "options": [
+        "It reveals the Wolf is fleeing out of fear of the master, not out of fear of the Dog's own strength",
+        "It proves the Wolf was never actually running away at all",
+        "It shows the Wolf plans to attack the Dog's master instead",
+        "It confirms the Dog really is faster than the Wolf"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 330,
+        "end": 416
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-chasing-a-wolf-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Wolves are always more cunning than dogs give them credit for",
+        "One should not credit oneself for an advantage that actually belongs to someone else",
+        "Dogs should never chase wolves without their masters present",
+        "Strong legs matter more than intelligence in a chase"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 330,
+        "end": 416
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-chasing-a-wolf-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what three things did the Dog admire about himself while running?",
+      "options": [
+        "His fine looks, his loud bark, and his loyalty",
+        "Being a fine fellow, having strong legs, and covering ground quickly",
+        "His sense of smell, his sharp teeth, and his patience",
+        "His speed, his cunning, and his master's praise"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 30,
+        "end": 146
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-chasing-a-wolf-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, whom does the Wolf say he is afraid of?",
+      "options": [
+        "Other wolves",
+        "The Dog's master",
+        "Hunters in the forest",
+        "The Dog himself"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 330,
+        "end": 416
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-chasing-a-wolf-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exact words does the Wolf use to address the Dog?",
+      "options": [
+        "\"You will regret this, my friend\"",
+        "\"Don't you imagine I'm running away from you, my friend: it's your master I'm afraid of\"",
+        "\"Catch me if you can, my friend\"",
+        "\"I yield to you completely, my friend\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 330,
+        "end": 416
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-chasing-a-wolf-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"fine fellow\" mean in \"what a fine fellow he was\"?",
+      "options": [
+        "An impressive, admirable creature",
+        "A small, weak creature",
+        "A clumsy, awkward creature",
+        "A cowardly creature"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 58,
+        "end": 69
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-chasing-a-wolf-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is the Dog wrong about regarding why the Wolf is running?",
+      "options": [
+        "He assumes it is fear of him, when it is really fear of his master",
+        "He assumes it is a trick, when the Wolf is genuinely fleeing",
+        "He assumes the Wolf is heading toward him, when it is running away",
+        "He assumes the Wolf cannot hear him, when it can"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 195,
+        "end": 416
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-chasing-a-wolf-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Dog proudly credits himself for scaring off a Wolf, but the Wolf reveals he fears the Dog's master instead",
+        "A Dog and a Wolf become friends after a long chase",
+        "A Wolf outruns a Dog and escapes into the forest",
+        "A Dog's master orders him to stop chasing a Wolf"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 195,
+        "end": 416
+      },
+      "pool": "retest"
+    }
+  ]
+}
