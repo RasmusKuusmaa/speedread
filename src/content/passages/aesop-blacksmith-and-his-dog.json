@@ -1,0 +1,268 @@
+{
+  "id": "aesop-blacksmith-and-his-dog",
+  "title": "The Blacksmith and His Dog",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Blacksmith had a little Dog, which used to sleep when his master was at work, but was very wide awake indeed when it was time for meals. One day his master pretended to be disgusted at this, and when he had thrown him a bone as usual, he said, \"What on earth is the good of a lazy cur like you? When I am hammering away at my anvil, you just curl up and go to sleep: but no sooner do I stop for a mouthful of food than you wake up and wag your tail to be fed.\" Those who will not work deserve to starve."
+  ],
+  "questions": [
+    {
+      "id": "aesop-blacksmith-and-his-dog-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when did the Dog usually sleep?",
+      "options": [
+        "When his master was at work",
+        "All through the night only",
+        "Only after meals",
+        "Whenever the anvil was silent"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 31,
+        "end": 78
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blacksmith-and-his-dog-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, when was the Dog very wide awake?",
+      "options": [
+        "When strangers approached",
+        "When it was time for meals",
+        "When the forge grew hot",
+        "When the master left the shop"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 80,
+        "end": 137
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blacksmith-and-his-dog-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the master do before speaking to the Dog?",
+      "options": [
+        "He locked up his tools",
+        "He threw him a bone as usual",
+        "He scolded him with a stick",
+        "He called for his neighbors"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 197,
+        "end": 235
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blacksmith-and-his-dog-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the master call the Dog?",
+      "options": [
+        "A faithful friend",
+        "A lazy cur",
+        "A clever companion",
+        "A noble guard"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 247,
+        "end": 296
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blacksmith-and-his-dog-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Dog do as soon as the master stops for food?",
+      "options": [
+        "He barks at the anvil",
+        "He wakes up and wags his tail to be fed",
+        "He runs outside to play",
+        "He falls into a deeper sleep"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 373,
+        "end": 460
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blacksmith-and-his-dog-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"cur\" mean in \"a lazy cur like you\"?",
+      "options": [
+        "A worthless or contemptible dog",
+        "A skilled hunting dog",
+        "A young puppy",
+        "A loyal guard dog"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 247,
+        "end": 296
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blacksmith-and-his-dog-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the master say the master pretended to be disgusted \"as usual\" while still feeding the Dog a bone?",
+      "options": [
+        "He genuinely wants to starve the Dog",
+        "His complaint is a pointed rebuke rather than a real refusal to feed him, since he feeds him anyway",
+        "He is testing whether the Dog can talk back",
+        "He wants the Dog to leave and never return"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 197,
+        "end": 244
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blacksmith-and-his-dog-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable's closing line?",
+      "options": [
+        "Dogs should never be kept as pets by working men",
+        "Someone who contributes nothing has no right to expect a reward",
+        "Sleeping through work is a sign of intelligence",
+        "Blacksmiths should feed their dogs before starting work"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 463,
+        "end": 505
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-blacksmith-and-his-dog-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what is the Blacksmith doing while the Dog sleeps?",
+      "options": [
+        "Hammering away at his anvil",
+        "Reading by the fire",
+        "Traveling to market",
+        "Feeding his other animals"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 297,
+        "end": 367
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-blacksmith-and-his-dog-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Dog do while the Blacksmith hammers at his anvil?",
+      "options": [
+        "He curls up and goes to sleep",
+        "He fetches tools for his master",
+        "He barks along with the noise",
+        "He watches closely from a distance"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 335,
+        "end": 367
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-blacksmith-and-his-dog-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the master's attitude when he spoke, described at the start of that moment?",
+      "options": [
+        "He pretended to be disgusted",
+        "He was genuinely furious",
+        "He was laughing with joy",
+        "He was completely indifferent"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 147,
+        "end": 191
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-blacksmith-and-his-dog-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"mouthful\" mean in \"no sooner do I stop for a mouthful of food\"?",
+      "options": [
+        "A small amount eaten or a brief bite",
+        "A full, large meal",
+        "A drink of water",
+        "A type of tool"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 373,
+        "end": 415
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-blacksmith-and-his-dog-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what contrast is the Blacksmith drawing between his own effort and the Dog's behavior?",
+      "options": [
+        "He labors hard while the Dog rests, yet the Dog is eager only when there is food to be had",
+        "He rests all day while the Dog works constantly",
+        "Both of them work equally hard throughout the day",
+        "The Dog helps him at the anvil but not at mealtimes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 297,
+        "end": 460
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-blacksmith-and-his-dog-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Blacksmith rebukes his Dog for sleeping through work but perking up only at mealtimes, even as he still feeds him",
+        "A Blacksmith drives his Dog away for being lazy",
+        "A Dog helps the Blacksmith with his work at the forge",
+        "A Blacksmith refuses to feed his Dog until he proves useful"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 247,
+        "end": 367
+      },
+      "pool": "retest"
+    }
+  ]
+}
