@@ -1,0 +1,268 @@
+{
+  "id": "aesop-goat-and-vine",
+  "title": "The Goat and the Vine",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Goat was straying in a vineyard, and began to browse on the tender shoots of a Vine which bore several fine bunches of grapes. \"What have I done to you,\" said the Vine, \"that you should harm me thus? Isn't there grass enough for you to feed on? All the same, even if you eat up every leaf I have, and leave me quite bare, I shall produce wine enough to pour over you when you are led to the altar to be sacrificed.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-goat-and-vine-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where was the Goat straying?",
+      "options": [
+        "In a vineyard",
+        "In a wheat field",
+        "In an orchard",
+        "In a meadow"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 33
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goat-and-vine-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Goat begin to browse on?",
+      "options": [
+        "Fallen leaves on the ground",
+        "The tender shoots of a Vine bearing fine bunches of grapes",
+        "Grass growing between the rows",
+        "Bark from a young tree"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 39,
+        "end": 127
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goat-and-vine-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what question does the Vine ask the Goat about an alternative food source?",
+      "options": [
+        "Whether there is grass enough for him to feed on",
+        "Whether he has asked the farmer for permission",
+        "Whether he prefers grapes to leaves",
+        "Whether another goat sent him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 202,
+        "end": 246
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goat-and-vine-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Vine say it will do even if it is left quite bare?",
+      "options": [
+        "Grow back its leaves within a week",
+        "Refuse to bear fruit ever again",
+        "Produce wine enough to pour over the Goat at his sacrifice",
+        "Warn the farmer about the Goat"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 324,
+        "end": 415
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goat-and-vine-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Vine say the Goat will be led to for sacrifice?",
+      "options": [
+        "The altar",
+        "The market",
+        "The farmer's barn",
+        "A distant field"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 324,
+        "end": 415
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goat-and-vine-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"browse\" mean in \"began to browse on the tender shoots\"?",
+      "options": [
+        "To search through quickly",
+        "To feed by nibbling on leaves and shoots",
+        "To sniff cautiously without eating",
+        "To trample and destroy"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 39,
+        "end": 127
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goat-and-vine-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Vine mention wine being used at the Goat's future sacrifice?",
+      "options": [
+        "To warn the Goat that eating grapes causes bad luck",
+        "To point out that it will outlast and even take part in the Goat's own downfall",
+        "To offer the Goat wine as a peace offering",
+        "To ask the Goat to stop the sacrifice from happening"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 324,
+        "end": 415
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goat-and-vine-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Injury done today may still be repaid later, even by the one who was harmed",
+        "Goats should only be permitted to graze in open fields",
+        "Vines are more resilient than most other plants",
+        "Wine tastes better when it is poured over an animal"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 261,
+        "end": 415
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-goat-and-vine-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Vine bear before the Goat started browsing on it?",
+      "options": [
+        "Several fine bunches of grapes",
+        "A thick covering of moss",
+        "Small white flowers",
+        "Sharp thorns along its stem"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 39,
+        "end": 127
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-goat-and-vine-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Vine ask the Goat at the very start of its complaint?",
+      "options": [
+        "\"What have I done to you, that you should harm me thus?\"",
+        "\"Why do you always come to this vineyard?\"",
+        "\"Do you know who planted me here?\"",
+        "\"Have you no shame at all?\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 129,
+        "end": 201
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-goat-and-vine-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what condition does the Vine say it might be left in?",
+      "options": [
+        "Quite bare, with every leaf eaten",
+        "Trampled into the soil",
+        "Covered in frost",
+        "Cut down entirely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 261,
+        "end": 322
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-goat-and-vine-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"altar\" mean in \"when you are led to the altar to be sacrificed\"?",
+      "options": [
+        "A raised structure where a ritual offering is made",
+        "A pen where animals are fattened",
+        "A market stall for selling livestock",
+        "A shaded resting place for animals"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 393,
+        "end": 398
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-goat-and-vine-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is the Vine implying will eventually happen to the Goat?",
+      "options": [
+        "The Goat will one day be sacrificed and have wine poured over it",
+        "The Goat will be forgiven and never bothered again",
+        "The Goat will be chased out of the vineyard by the farmer",
+        "The Goat will grow to love grapes more than grass"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 324,
+        "end": 415
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-goat-and-vine-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Vine warns a grazing Goat that it will play a part in the Goat's own eventual sacrifice",
+        "A Goat and a Vine agree to share the vineyard peacefully",
+        "A farmer scolds a Goat for eating from his vineyard",
+        "A Vine begs a Goat to eat its grapes before they spoil"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 129,
+        "end": 415
+      },
+      "pool": "retest"
+    }
+  ]
+}
