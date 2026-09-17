@@ -1,0 +1,268 @@
+{
+  "id": "aesop-sick-stag",
+  "title": "The Sick Stag",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Stag fell sick and lay in a clearing in the forest, too weak to move from the spot. When the news of his illness spread, a number of the other beasts came to inquire after his health, and they one and all nibbled a little of the grass that grew round the invalid till at last there was not a blade within his reach. In a few days he began to mend, but was still too feeble to get up and go in search of fodder; and thus he perished miserably of hunger owing to the thoughtlessness of his friends."
+  ],
+  "questions": [
+    {
+      "id": "aesop-sick-stag-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the sick Stag lie?",
+      "options": [
+        "In a clearing in the forest",
+        "Beside a riverbank",
+        "In a farmer's barn",
+        "Under a rocky overhang"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 21,
+        "end": 52
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-sick-stag-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why couldn't the Stag move from the spot at first?",
+      "options": [
+        "He was tangled in vines",
+        "He was too weak",
+        "He was guarding his young",
+        "He was asleep"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 54,
+        "end": 84
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-sick-stag-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the other beasts come to the Stag?",
+      "options": [
+        "To inquire after his health",
+        "To warn him of a hunter nearby",
+        "To ask him to lead them",
+        "To trade food with him"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 152,
+        "end": 184
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-sick-stag-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the visiting beasts do to the grass around the Stag?",
+      "options": [
+        "They trampled it flat",
+        "They nibbled it until none was left within his reach",
+        "They avoided it out of respect",
+        "They planted new grass for him"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 190,
+        "end": 316
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-sick-stag-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to the Stag after a few days?",
+      "options": [
+        "He recovered completely and ran off",
+        "He began to mend but was still too feeble to search for food",
+        "He was cured instantly by another animal",
+        "He wandered off and was never seen again"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 332,
+        "end": 411
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-sick-stag-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"invalid\" mean in \"the grass that grew round the invalid\"?",
+      "options": [
+        "A worthless document",
+        "A sick or infirm person or animal",
+        "A young animal",
+        "A skilled hunter"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 227,
+        "end": 264
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-sick-stag-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Stag ultimately die?",
+      "options": [
+        "A predator found him while he was helpless",
+        "His visitors ate up the grass he needed, leaving him with nothing once he was well enough to feed himself",
+        "He caught a second, more severe illness",
+        "He wandered too far from the clearing"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 422,
+        "end": 497
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-sick-stag-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Wild animals should never visit the sick",
+        "Well-meaning visitors can cause real harm through carelessness",
+        "Illness always leads to death in the forest",
+        "Stags are more vulnerable than other forest animals"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 454,
+        "end": 497
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-sick-stag-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to the Stag before he lay in the clearing?",
+      "options": [
+        "He fell sick",
+        "He was injured by a hunter",
+        "He lost a fight with another stag",
+        "He was abandoned by his herd"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 16
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-sick-stag-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how many of the visiting beasts nibbled the grass?",
+      "options": [
+        "Only a few of them",
+        "None of them",
+        "One and all of them",
+        "Only the largest ones"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 190,
+        "end": 236
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-sick-stag-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was left within the Stag's reach after the visits?",
+      "options": [
+        "Plenty of grass",
+        "Not a blade of grass",
+        "A small patch of grass",
+        "Only dry leaves"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 278,
+        "end": 316
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-sick-stag-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"fodder\" mean in \"go in search of fodder\"?",
+      "options": [
+        "Shelter from rain",
+        "Food for animals",
+        "A mate",
+        "A hiding place"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 389,
+        "end": 411
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-sick-stag-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the fable suggest about the visiting beasts' intentions?",
+      "options": [
+        "They meant to help but did not consider the harm they were causing",
+        "They deliberately plotted to starve the Stag",
+        "They wanted to steal the Stag's territory",
+        "They were testing the Stag's strength"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 454,
+        "end": 497
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-sick-stag-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Stag recovers from illness thanks to his friends' care",
+        "A Stag falls sick, and visiting beasts unintentionally strip his grass bare, so he starves once he is well enough to need it",
+        "A Stag is nursed back to health by a single loyal friend",
+        "A Stag drives away visitors who try to eat his grass"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 265,
+        "end": 348
+      },
+      "pool": "retest"
+    }
+  ]
+}
