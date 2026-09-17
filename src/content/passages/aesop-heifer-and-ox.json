@@ -1,0 +1,268 @@
+{
+  "id": "aesop-heifer-and-ox",
+  "title": "The Heifer and the Ox",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Heifer went up to an Ox, who was straining hard at the plough, and sympathised with him in a rather patronising sort of way on the necessity of his having to work so hard. Not long afterwards there was a festival in the village and every one kept holiday: but, whereas the Ox was turned loose into the pasture, the Heifer was seized and led off to sacrifice. \"Ah,\" said the Ox, with a grim smile, \"I see now why you were allowed to have such an idle time: it was because you were always intended for the altar.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-heifer-and-ox-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Ox doing when the Heifer approached him?",
+      "options": [
+        "Straining hard at the plough",
+        "Resting after a long day",
+        "Grazing quietly in the pasture",
+        "Being led toward the village"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 63
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-heifer-and-ox-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Heifer speak to the Ox about his hard work?",
+      "options": [
+        "In a rather patronising sort of way",
+        "With genuine admiration",
+        "With complete indifference",
+        "In an angry, scolding tone"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 69,
+        "end": 172
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-heifer-and-ox-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what event took place in the village not long afterwards?",
+      "options": [
+        "A festival, where everyone kept holiday",
+        "A drought that dried up the pasture",
+        "A market day for selling cattle",
+        "A wedding between two farmers' children"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 194,
+        "end": 256
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-heifer-and-ox-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to the Ox during the festival?",
+      "options": [
+        "He was turned loose into the pasture",
+        "He was made to work even harder than usual",
+        "He was led off to sacrifice",
+        "He was sold to another village"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 271,
+        "end": 311
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-heifer-and-ox-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened to the Heifer during the festival?",
+      "options": [
+        "She was seized and led off to sacrifice",
+        "She was turned loose into the pasture",
+        "She was given extra food as a reward",
+        "She was put to work at the plough instead"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 313,
+        "end": 359
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-heifer-and-ox-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Ox react when he learns what happens to the Heifer?",
+      "options": [
+        "He speaks to her with a grim smile",
+        "He weeps openly for her",
+        "He refuses to speak to her at all",
+        "He begs the farmer to spare her"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 367,
+        "end": 397
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-heifer-and-ox-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Ox say he now understands why the Heifer was allowed such an idle time?",
+      "options": [
+        "Her freedom from labor was never a kindness, but a sign she was being kept for sacrifice",
+        "He believes farmers always favor heifers over oxen",
+        "He realizes the Heifer had secretly been avoiding her share of work",
+        "He learns that idle animals are always chosen for festivals"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 367,
+        "end": 511
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-heifer-and-ox-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "An easy life is not always a blessing, and hard labor is not always the worse fate",
+        "Heifers are treated more kindly than oxen in every village",
+        "Sympathy from others is always sincere and should be trusted",
+        "Festivals bring good fortune to all animals involved"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 271,
+        "end": 511
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-heifer-and-ox-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who approached whom at the start of the fable?",
+      "options": [
+        "The Heifer approached the Ox",
+        "The Ox approached the Heifer",
+        "A farmer approached both of them",
+        "Neither approached the other; they met by chance"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 63
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-heifer-and-ox-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Heifer sympathise with the Ox about?",
+      "options": [
+        "The necessity of his having to work so hard",
+        "The poor quality of his food",
+        "His old age and failing strength",
+        "His having to plough alone without help"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 69,
+        "end": 172
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-heifer-and-ox-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Ox say the Heifer was always intended for?",
+      "options": [
+        "The altar",
+        "The plough",
+        "A life of leisure",
+        "Breeding future oxen"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 400,
+        "end": 511
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-heifer-and-ox-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Ox's grim smile suggest about his feelings toward the earlier sympathy the Heifer showed him?",
+      "options": [
+        "He now sees an ironic reversal in their fortunes that undercuts her earlier pity for him",
+        "He feels genuine gratitude for her kindness even now",
+        "He is relieved that he no longer has to work as hard as before",
+        "He is confused about what has just happened to the Heifer"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 271,
+        "end": 511
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-heifer-and-ox-r5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"patronising\" mean in \"a rather patronising sort of way\"?",
+      "options": [
+        "Treating someone as though they were less capable or important",
+        "Speaking with genuine respect and admiration",
+        "Offering to help with physical labor",
+        "Speaking in a fearful, hesitant manner"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 69,
+        "end": 172
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-heifer-and-ox-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Heifer pities a hardworking Ox, but is herself later led off to sacrifice while the Ox is turned loose to pasture",
+        "An Ox and Heifer are both led off to sacrifice together at the festival",
+        "A Heifer takes over the Ox's ploughing duties during the festival",
+        "The Ox is sacrificed while the Heifer is spared and turned loose"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 194,
+        "end": 359
+      },
+      "pool": "retest"
+    }
+  ]
+}
