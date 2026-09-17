@@ -1,0 +1,322 @@
+{
+  "id": "aesop-fox-and-leopard",
+  "title": "The Fox and the Leopard",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Fox and a Leopard were disputing about their looks, and each claimed to be the more handsome of the two. The Leopard said, \"Look at my smart coat; you have nothing to match that.\" But the Fox replied, \"Your coat may be smart, but my wits are smarter still.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-fox-and-leopard-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what are the Fox and Leopard disputing about?",
+      "options": [
+        "Who could run faster",
+        "Which of them was older",
+        "Their looks",
+        "Who owned the forest"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 20,
+        "end": 52
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-leopard-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does each of them claim to be?",
+      "options": [
+        "The more handsome of the two",
+        "The faster of the two",
+        "The braver of the two",
+        "The wiser of the two"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 58,
+        "end": 105
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-leopard-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Leopard tell the Fox to look at?",
+      "options": [
+        "His sharp claws",
+        "His long tail",
+        "His bright eyes",
+        "His smart coat"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 126,
+        "end": 147
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-leopard-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Leopard say the Fox has nothing to match?",
+      "options": [
+        "His speed",
+        "His smart coat",
+        "His size",
+        "His hunting skill"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 149,
+        "end": 179
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-leopard-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox admit may be smart?",
+      "options": [
+        "The Leopard's claws",
+        "The Leopard's den",
+        "The Leopard's coat",
+        "The Leopard's tail"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 204,
+        "end": 226
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-leopard-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox say is smarter still?",
+      "options": [
+        "His wits",
+        "His coat",
+        "His claws",
+        "His speed"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 232,
+        "end": 257
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-leopard-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Fox admit the Leopard's coat 'may be smart' before answering?",
+      "options": [
+        "Because he secretly wants a coat like the Leopard's",
+        "Because he no longer cares who is more handsome",
+        "Because he is trying to end the argument without a reply",
+        "To concede the point on looks before shifting the contest to wit, where he wins"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 204,
+        "end": 258
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-leopard-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Fox's reply suggest he values more than good looks?",
+      "options": [
+        "Physical strength",
+        "Cleverness",
+        "Loyalty",
+        "Speed"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 232,
+        "end": 257
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-leopard-f9",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"disputing\" mean in \"were disputing about their looks\"?",
+      "options": [
+        "Painting portraits",
+        "Racing each other",
+        "Arguing",
+        "Sharing"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 20,
+        "end": 52
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-leopard-f10",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Wit can outmatch mere good looks",
+        "Handsome animals always win arguments",
+        "Foxes and leopards should not argue",
+        "A fine coat guarantees respect from others"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 204,
+        "end": 258
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fox-and-leopard-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who does the Fox argue with?",
+      "options": [
+        "A Wolf",
+        "A Lion",
+        "A Bear",
+        "A Leopard"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 19
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-leopard-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Leopard say about his own coat?",
+      "options": [
+        "That it was old and worn",
+        "To look at it, since the Fox had nothing to match it",
+        "That it was a gift from another animal",
+        "That he had never liked it"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 126,
+        "end": 180
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-leopard-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exact words does the Fox use about his wits?",
+      "options": [
+        "\"My wits are the sharpest of all\"",
+        "\"My wits win every time\"",
+        "\"My wits are smarter still\"",
+        "\"My wits need no coat\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 232,
+        "end": 257
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-leopard-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is notable about how the Fox turns the Leopard's own word against him?",
+      "options": [
+        "He reuses \"smart\" to mean clever instead of fine-looking",
+        "He admits defeat immediately",
+        "He insults the Leopard's appearance directly",
+        "He changes the subject entirely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 204,
+        "end": 258
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-leopard-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why might the Fox be satisfied with his answer even though he has no fine coat?",
+      "options": [
+        "He plans to steal the Leopard's coat",
+        "He thinks the Leopard is lying about the coat",
+        "He has decided looks do not matter to leopards",
+        "He believes intelligence is worth more than appearance"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 204,
+        "end": 258
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-leopard-r6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"wits\" mean in \"my wits are smarter still\"?",
+      "options": [
+        "Physical strength",
+        "Mental sharpness or cleverness",
+        "Sense of humor",
+        "Good looks"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 232,
+        "end": 257
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fox-and-leopard-r7",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Leopard defeats a Fox in a race and wins the argument",
+        "A Fox and Leopard agree they are equally handsome",
+        "A Fox and Leopard argue over who is more handsome, and the Fox claims his cleverness beats the Leopard's fine coat",
+        "A Leopard admits the Fox is smarter and more handsome"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 20,
+        "end": 105
+      },
+      "pool": "retest"
+    }
+  ]
+}
