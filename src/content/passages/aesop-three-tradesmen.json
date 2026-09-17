@@ -1,0 +1,268 @@
+{
+  "id": "aesop-three-tradesmen",
+  "title": "The Three Tradesmen",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "The citizens of a certain city were debating about the best material to use in the fortifications which were about to be erected for the greater security of the town. A Carpenter got up and advised the use of wood, which he said was readily procurable and easily worked. A Stone-mason objected to wood on the ground that it was so inflammable, and recommended stones instead. Then a Tanner got on his legs and said, \"In my opinion there's nothing like leather.\" Every man for himself."
+  ],
+  "questions": [
+    {
+      "id": "aesop-three-tradesmen-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what were the citizens debating about?",
+      "options": [
+        "The best material to use in the fortifications",
+        "Which tradesman should lead the city",
+        "How to fund a new marketplace",
+        "Whether to go to war with a neighboring city"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 97
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-three-tradesmen-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why were the fortifications being erected?",
+      "options": [
+        "For the greater security of the town",
+        "To celebrate a recent victory",
+        "To impress a visiting ruler",
+        "To replace an older, ruined wall"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 98,
+        "end": 165
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-three-tradesmen-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what material did the Carpenter advise using?",
+      "options": [
+        "Stone",
+        "Leather",
+        "Wood",
+        "Brick"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 167,
+        "end": 269
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-three-tradesmen-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the Carpenter favor wood?",
+      "options": [
+        "It was readily procurable and easily worked",
+        "It was the cheapest material available",
+        "It had been used in the old fortifications",
+        "It was the strongest material he knew of"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 167,
+        "end": 269
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-three-tradesmen-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the Stone-mason object to using wood?",
+      "options": [
+        "It was too expensive to buy in quantity",
+        "It was too heavy to transport",
+        "It was so inflammable",
+        "It attracted insects"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 271,
+        "end": 374
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-three-tradesmen-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exact words does the Tanner say?",
+      "options": [
+        "\"Stone is the only sensible choice\"",
+        "\"In my opinion there's nothing like leather\"",
+        "\"Wood will serve us well enough\"",
+        "\"We should use all three materials together\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 416,
+        "end": 461
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-three-tradesmen-f7",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"inflammable\" mean in \"it was so inflammable\"?",
+      "options": [
+        "Easily set on fire",
+        "Difficult to shape",
+        "Prone to rotting quickly",
+        "Too expensive to obtain"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 271,
+        "end": 374
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-three-tradesmen-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the closing line, \"Every man for himself\"?",
+      "options": [
+        "Each tradesman recommended the material tied to his own trade rather than the town's true needs",
+        "The citizens ultimately agreed on a single best material",
+        "Only the Tanner's advice was taken seriously",
+        "The fortifications were never built because of the disagreement"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 462,
+        "end": 483
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-three-tradesmen-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who spoke first in the debate?",
+      "options": [
+        "The Tanner",
+        "The Carpenter",
+        "The Stone-mason",
+        "A citizen without a trade"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 167,
+        "end": 269
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-three-tradesmen-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what material did the Stone-mason recommend instead of wood?",
+      "options": [
+        "Stones",
+        "Leather",
+        "Iron",
+        "Clay"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 271,
+        "end": 374
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-three-tradesmen-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Tanner's opinion about the best material?",
+      "options": [
+        "That there's nothing like leather",
+        "That leather should only be used for minor repairs",
+        "That the Carpenter was right about wood",
+        "That the debate should be settled by a vote"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 416,
+        "end": 461
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-three-tradesmen-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"procurable\" mean in \"readily procurable and easily worked\"?",
+      "options": [
+        "Able to be obtained",
+        "Able to withstand fire",
+        "Pleasant to look at",
+        "Difficult to transport"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 167,
+        "end": 269
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-three-tradesmen-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what pattern connects each tradesman's recommendation?",
+      "options": [
+        "Each man recommended the material connected to his own trade",
+        "Each man recommended a material he personally disliked",
+        "Each man agreed with the tradesman who spoke before him",
+        "Each man recommended the cheapest available option"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 167,
+        "end": 461
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-three-tradesmen-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Carpenter, a Stone-mason, and a Tanner each urge the city to build its fortifications from the material their own trade supplies",
+        "A city council votes unanimously to build its fortifications from stone",
+        "A Carpenter and a Stone-mason come to blows over which material to use",
+        "The city abandons its fortification plans after hearing the debate"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 167,
+        "end": 461
+      },
+      "pool": "retest"
+    }
+  ]
+}
