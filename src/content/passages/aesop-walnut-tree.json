@@ -1,0 +1,268 @@
+{
+  "id": "aesop-walnut-tree",
+  "title": "The Walnut-Tree",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Walnut-tree, which grew by the roadside, bore every year a plentiful crop of nuts. Every one who passed by pelted its branches with sticks and stones, in order to bring down the fruit, and the tree suffered severely. \"It is hard,\" it cried, \"that the very persons who enjoy my fruit should thus reward me with insults and blows.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-walnut-tree-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the Walnut-tree grow?",
+      "options": [
+        "In an orchard",
+        "By the roadside",
+        "On a hillside",
+        "Beside a river"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 41
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-walnut-tree-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the tree bear every year?",
+      "options": [
+        "A plentiful crop of nuts",
+        "A single large nut",
+        "Sweet-smelling blossoms",
+        "Broad green leaves"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 43,
+        "end": 83
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-walnut-tree-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did passers-by do to the tree's branches?",
+      "options": [
+        "Watered them carefully",
+        "Pelted them with sticks and stones",
+        "Tied ribbons to them",
+        "Pruned them each spring"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 85,
+        "end": 151
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-walnut-tree-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did people throw sticks and stones at the tree?",
+      "options": [
+        "To scare away birds",
+        "To bring down the fruit",
+        "To test the branches' strength",
+        "To mark the road"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 153,
+        "end": 185
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-walnut-tree-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the tree call it \"hard\" that people do?",
+      "options": [
+        "Reward it with insults and blows for the very fruit they enjoy",
+        "Ignore its fruit entirely",
+        "Plant new trees nearby",
+        "Cut it down completely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 244,
+        "end": 329
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-walnut-tree-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"pelted\" mean in \"pelted its branches with sticks and stones\"?",
+      "options": [
+        "Decorated",
+        "Struck repeatedly by throwing things",
+        "Wrapped around",
+        "Measured carefully"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 109,
+        "end": 115
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-walnut-tree-f7",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"plentiful\" mean in \"a plentiful crop of nuts\"?",
+      "options": [
+        "Scarce and hard to find",
+        "Existing in large amounts",
+        "Rotten and inedible",
+        "Hidden from view"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 43,
+        "end": 83
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-walnut-tree-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Trees should be planted far from any road",
+        "Those who provide a benefit are sometimes repaid with harm rather than gratitude",
+        "Fruit is only worth having if it is easy to gather",
+        "People always treat generosity with kindness in return"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 219,
+        "end": 329
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-walnut-tree-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the tree suffer as a result of being pelted?",
+      "options": [
+        "It suffered severely",
+        "It suffered only a little",
+        "It suffered no lasting harm",
+        "It suffered only in winter"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 191,
+        "end": 217
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-walnut-tree-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exact word introduces the tree's complaint?",
+      "options": [
+        "\"Alas,\"",
+        "\"It is hard,\"",
+        "\"Enough,\"",
+        "\"Beware,\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 219,
+        "end": 241
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-walnut-tree-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who does the tree say rewards it with insults and blows?",
+      "options": [
+        "Strangers who never come near it",
+        "The very persons who enjoy its fruit",
+        "Other trees growing nearby",
+        "Animals that live in its branches"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 244,
+        "end": 329
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-walnut-tree-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"severely\" mean in \"the tree suffered severely\"?",
+      "options": [
+        "Mildly",
+        "Rarely",
+        "To a serious, intense degree",
+        "Only briefly"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 191,
+        "end": 217
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-walnut-tree-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the tree's complaint ironic?",
+      "options": [
+        "The people who harm it are the same ones who benefit from its fruit",
+        "The tree actually enjoys being pelted",
+        "The tree never produces any fruit at all",
+        "The people who pelt it never eat the nuts"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 244,
+        "end": 329
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-walnut-tree-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Walnut-tree stops bearing fruit after being struck too often",
+        "A Walnut-tree that bears plentiful fruit is struck and harmed each year by the very people who gather that fruit",
+        "A Walnut-tree is cut down by travelers along the road",
+        "A Walnut-tree is protected from harm by a passing traveler"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 329
+      },
+      "pool": "retest"
+    }
+  ]
+}
