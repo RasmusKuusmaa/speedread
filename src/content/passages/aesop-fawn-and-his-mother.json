@@ -1,0 +1,268 @@
+{
+  "id": "aesop-fawn-and-his-mother",
+  "title": "The Fawn and His Mother",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Hind said to her Fawn, who was now well grown and strong, \"My son, Nature has given you a powerful body and a stout pair of horns, and I can't think why you are such a coward as to run away from the hounds.\" Just then they both heard the sound of a pack in full cry, but at a considerable distance. \"You stay where you are,\" said the Hind; \"never mind me\": and with that she ran off as fast as her legs could carry her."
+  ],
+  "questions": [
+    {
+      "id": "aesop-fawn-and-his-mother-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who is speaking to the Fawn at the start of the passage?",
+      "options": [
+        "His mother, the Hind",
+        "A passing hunter",
+        "Another, older fawn",
+        "A hound from a nearby pack"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 58
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fawn-and-his-mother-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what has Nature given the Fawn?",
+      "options": [
+        "A powerful body and a stout pair of horns",
+        "A keen sense of smell and sharp eyesight",
+        "Great speed but a weak body",
+        "Thick fur and a loud voice"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 61,
+        "end": 131
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fawn-and-his-mother-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Hind accuse the Fawn of being?",
+      "options": [
+        "A coward for running from the hounds",
+        "Too lazy to graze properly",
+        "Disobedient toward his mother",
+        "Careless around strangers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 137,
+        "end": 207
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fawn-and-his-mother-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Hind and Fawn hear just after her accusation?",
+      "options": [
+        "A pack in full cry, at a considerable distance",
+        "A loud crash nearby",
+        "Another deer calling for help",
+        "A hunter's horn very close by"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 220,
+        "end": 299
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fawn-and-his-mother-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Hind tell the Fawn to do once they hear the pack?",
+      "options": [
+        "To stay where he is",
+        "To hide behind a tree at once",
+        "To follow her closely",
+        "To call out for help"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 301,
+        "end": 357
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fawn-and-his-mother-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Hind do immediately after telling the Fawn not to mind her?",
+      "options": [
+        "She ran off as fast as her legs could carry her",
+        "She turned to face the approaching hounds",
+        "She stayed beside the Fawn protectively",
+        "She called out to other deer for help"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 373,
+        "end": 420
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fawn-and-his-mother-f7",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"pack in full cry\" mean in \"they both heard the sound of a pack in full cry\"?",
+      "options": [
+        "A group of hounds baying loudly while in pursuit",
+        "A herd of deer calling to each other",
+        "A crowd of hunters shouting commands",
+        "A flock of birds startled into flight"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 220,
+        "end": 299
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fawn-and-his-mother-f8",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is it ironic that the Hind flees immediately after calling her Fawn a coward?",
+      "options": [
+        "She proves by her own action that fear of the hounds is reasonable, not cowardly",
+        "She realizes the Fawn was right to be afraid the whole time",
+        "She was only testing the Fawn's courage",
+        "She was actually fleeing from a different danger entirely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 220,
+        "end": 420
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-fawn-and-his-mother-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the passage describe the Fawn's condition at the start?",
+      "options": [
+        "Well grown and strong",
+        "Small and sickly",
+        "Newly born",
+        "Injured from a recent chase"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 58
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fawn-and-his-mother-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exact words does the Hind say just before she runs off?",
+      "options": [
+        "\"You stay where you are,\" \"never mind me\"",
+        "\"Follow me closely, my son\"",
+        "\"We must fight together\"",
+        "\"It is too late to escape now\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 301,
+        "end": 357
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fawn-and-his-mother-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how far away was the pack when the Hind and Fawn first heard it?",
+      "options": [
+        "At a considerable distance",
+        "Right beside them",
+        "Just over a nearby hill, very close",
+        "The passage does not say"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 220,
+        "end": 299
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fawn-and-his-mother-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"stout\" mean in \"a stout pair of horns\"?",
+      "options": [
+        "Sturdy and strong",
+        "Thin and fragile",
+        "Newly grown",
+        "Oddly shaped"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 61,
+        "end": 131
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fawn-and-his-mother-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Hind's own behavior suggest about the advice she gave the Fawn?",
+      "options": [
+        "Her advice does not match how she herself responds to real danger",
+        "Her advice was proven correct by her own calm response",
+        "She wanted the Fawn to imitate her exact actions",
+        "She had never actually faced hounds before this moment"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 137,
+        "end": 420
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-fawn-and-his-mother-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Hind mocks her Fawn for fearing hounds, then flees herself the moment hounds are heard",
+        "A Hind teaches her Fawn to fight off a pack of hounds",
+        "A Fawn abandons his mother when hounds approach",
+        "A Hind and her Fawn work together to scare off a pack of hounds"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 137,
+        "end": 420
+      },
+      "pool": "retest"
+    }
+  ]
+}
