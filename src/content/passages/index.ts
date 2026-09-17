@@ -1,6 +1,7 @@
 import aLaconicAnswer from "./a-laconic-answer.json";
 import aesopApesAndTwoTravellers from "./aesop-apes-and-two-travellers.json";
 import aesopAssAndHisBurdens from "./aesop-ass-and-his-burdens.json";
+import aesopAssAndHisDriver from "./aesop-ass-and-his-driver.json";
 import aesopAssAndHisShadow from "./aesop-ass-and-his-shadow.json";
 import aesopAssAndLapDog from "./aesop-ass-and-lap-dog.json";
 import aesopAssFoxAndLion from "./aesop-ass-fox-and-lion.json";
@@ -326,6 +327,7 @@ export const rawPassages: unknown[] = [
   aLaconicAnswer,
   aesopApesAndTwoTravellers,
   aesopAssAndHisBurdens,
+  aesopAssAndHisDriver,
   aesopAssAndHisShadow,
   aesopAssAndLapDog,
   aesopAssFoxAndLion,

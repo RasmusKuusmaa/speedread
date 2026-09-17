@@ -1,0 +1,268 @@
+{
+  "id": "aesop-ass-and-his-driver",
+  "title": "The Ass and His Driver",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "An Ass was being driven down a mountain road, and after jogging along for a while sensibly enough he suddenly quitted the track and rushed to the edge of a precipice. He was just about to leap over the edge when his Driver caught hold of his tail and did his best to pull him back: but pull as he might he couldn't get the Ass to budge from the brink. At last he gave up, crying, \"All right, then, get to the bottom your own way; but it's the way to sudden death, as you'll find out quick enough.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-ass-and-his-driver-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where was the Ass being driven?",
+      "options": [
+        "Down a mountain road",
+        "Through a busy market",
+        "Along a riverbank",
+        "Across an open field"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 44
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-driver-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how was the Ass behaving before he suddenly changed course?",
+      "options": [
+        "Jogging along sensibly enough",
+        "Refusing to move at all",
+        "Braying loudly at every step",
+        "Straining against his harness"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 50,
+        "end": 97
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-driver-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Ass suddenly do?",
+      "options": [
+        "Quitted the track and rushed to the edge of a precipice",
+        "Lay down and refused to continue",
+        "Turned around and headed back uphill",
+        "Threw off his load and ran into the forest"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 98,
+        "end": 165
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-driver-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Driver do when the Ass rushed to the edge?",
+      "options": [
+        "Caught hold of his tail and tried to pull him back",
+        "Shouted at him from a distance",
+        "Ran ahead to block his path",
+        "Let go of the reins and stepped away"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 212,
+        "end": 280
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-driver-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, was the Driver able to move the Ass from the brink?",
+      "options": [
+        "No, he couldn't get the Ass to budge",
+        "Yes, after a long struggle",
+        "Yes, almost immediately",
+        "The passage does not say whether he succeeded"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 289,
+        "end": 350
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-driver-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Driver finally tell the Ass to do?",
+      "options": [
+        "Get to the bottom his own way",
+        "Wait until another driver arrives",
+        "Turn back the way they came",
+        "Rest until he calms down"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 398,
+        "end": 495
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-driver-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Driver's final warning suggest about the outcome he expects for the Ass?",
+      "options": [
+        "He believes the Ass is heading toward his own destruction by refusing to be pulled back",
+        "He believes the Ass will find a safer path on his own",
+        "He expects the Ass to change his mind at the very last moment",
+        "He thinks the Ass is only pretending to be stubborn"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 360,
+        "end": 495
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-driver-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Stubbornly refusing good guidance can leave someone to face a danger they brought upon themselves",
+        "Drivers should never try to guide an animal that resists them",
+        "Mountain roads are too dangerous for asses to travel",
+        "Sudden changes in behavior are always a sign of fear"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 360,
+        "end": 495
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-ass-and-his-driver-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Ass about to do at the edge of the precipice?",
+      "options": [
+        "Leap over the edge",
+        "Turn back on his own",
+        "Call out for help",
+        "Stand still and refuse to move further"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 165,
+        "end": 211
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-and-his-driver-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what part of the Ass did the Driver grab hold of?",
+      "options": [
+        "His tail",
+        "His mane",
+        "His harness",
+        "His ear"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 212,
+        "end": 250
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-and-his-driver-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Driver call the path to sudden death?",
+      "options": [
+        "\"The way\" the Ass is now taking",
+        "A shortcut the Ass invented himself",
+        "A path only foolish animals use",
+        "A route the Driver had warned him about before"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 398,
+        "end": 495
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-and-his-driver-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Driver eventually let go of the Ass despite trying his best to save him?",
+      "options": [
+        "He realizes the Ass's own stubbornness leaves him no way left to help",
+        "He decides the Ass does not deserve to be saved",
+        "He is called away by an emergency elsewhere",
+        "He believes the precipice is not truly dangerous after all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 289,
+        "end": 397
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-and-his-driver-r5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"brink\" mean in \"budge from the brink\"?",
+      "options": [
+        "The very edge of a steep or dangerous drop",
+        "A narrow path through a forest",
+        "A rope used to lead an animal",
+        "The bottom of a valley"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 303,
+        "end": 350
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-ass-and-his-driver-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "An Ass suddenly rushes toward a precipice, and when his Driver cannot pull him back, he warns the Ass of the deadly fate awaiting him",
+        "An Ass and his Driver work together to avoid a dangerous precipice",
+        "A Driver pushes an Ass over a precipice on purpose",
+        "An Ass refuses to walk down a mountain road at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 98,
+        "end": 495
+      },
+      "pool": "retest"
+    }
+  ]
+}
