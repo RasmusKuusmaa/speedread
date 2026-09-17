@@ -1,0 +1,268 @@
+{
+  "id": "aesop-sheep-wolf-and-stag",
+  "title": "The Sheep, the Wolf, and the Stag",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Stag once asked a Sheep to lend him a measure of wheat, saying that his friend the Wolf would be his surety. The Sheep, however, was afraid that they meant to cheat her; so she excused herself, saying, \"The Wolf is in the habit of seizing what he wants and running off with it without paying, and you, too, can run much faster than I. So how shall I be able to come up with either of you when the debt falls due?\" Two blacks do not make a white."
+  ],
+  "questions": [
+    {
+      "id": "aesop-sheep-wolf-and-stag-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Stag ask the Sheep to lend him?",
+      "options": [
+        "A measure of wheat",
+        "A sack of hay",
+        "A bag of gold coins",
+        "A length of rope"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 12,
+        "end": 56
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-sheep-wolf-and-stag-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who did the Stag say would be his surety?",
+      "options": [
+        "His friend the Wolf",
+        "His mother",
+        "The farmer who owned the field",
+        "No one; he offered none"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 70,
+        "end": 109
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-sheep-wolf-and-stag-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Sheep afraid of?",
+      "options": [
+        "That they meant to cheat her",
+        "That the wheat would spoil",
+        "That the Stag would eat her instead",
+        "That the Wolf would tell others of the loan"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 131,
+        "end": 170
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-sheep-wolf-and-stag-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what habit does the Sheep say the Wolf has?",
+      "options": [
+        "Seizing what he wants and running off without paying",
+        "Warning others before he takes anything",
+        "Sharing everything he finds with his friends",
+        "Repaying debts before they are even due"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 205,
+        "end": 293
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-sheep-wolf-and-stag-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Sheep say about the Stag's speed?",
+      "options": [
+        "That he can run much faster than she can",
+        "That he is slower than she is",
+        "That his speed does not matter to her",
+        "That he only runs quickly when frightened"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 299,
+        "end": 335
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-sheep-wolf-and-stag-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Sheep ask about the debt falling due?",
+      "options": [
+        "How she would be able to catch up with either of them",
+        "Whether the Wolf would remind the Stag of it",
+        "Who would decide the exact date it was due",
+        "Whether wheat could be repaid with meat instead"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 340,
+        "end": 413
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-sheep-wolf-and-stag-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Sheep decide not to lend the wheat?",
+      "options": [
+        "She realizes that neither the borrower nor the guarantor could actually be held to account if they failed to pay",
+        "She simply does not have any wheat to spare",
+        "She believes wheat is too valuable to lend to anyone",
+        "She is waiting for a better offer from another animal"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 205,
+        "end": 413
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-sheep-wolf-and-stag-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, as suggested by its closing line?",
+      "options": [
+        "A promise backed by someone just as untrustworthy as the borrower is no promise at all",
+        "Sheep are wiser than every other animal in the forest",
+        "Stags and wolves should never be allowed to make agreements",
+        "Wheat should only be lent to animals who can run quickly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 416,
+        "end": 446
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-sheep-wolf-and-stag-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who first approached whom to ask for the loan?",
+      "options": [
+        "The Stag approached the Sheep",
+        "The Sheep approached the Stag",
+        "The Wolf approached the Sheep",
+        "The Sheep approached the Wolf"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 56
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-sheep-wolf-and-stag-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Sheep describe the way the Wolf takes things?",
+      "options": [
+        "Without paying for them",
+        "Only after asking politely first",
+        "By trading fairly with others",
+        "Only when he is truly desperate"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 205,
+        "end": 293
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-sheep-wolf-and-stag-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the closing line of the fable, what do two blacks not make?",
+      "options": [
+        "A white",
+        "A whole",
+        "A right",
+        "A debt"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 416,
+        "end": 446
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-sheep-wolf-and-stag-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Sheep mention the Stag's speed alongside the Wolf's habit of seizing things?",
+      "options": [
+        "Both traits would let either animal escape her if she needed to demand repayment",
+        "She wants to compliment both animals before refusing them",
+        "She is trying to challenge the Stag to a race",
+        "She thinks speed and thievery are unrelated to the loan"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 205,
+        "end": 413
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-sheep-wolf-and-stag-r5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"surety\" mean in \"his friend the Wolf would be his surety\"?",
+      "options": [
+        "Someone who guarantees a debt will be paid",
+        "Someone who witnesses a crime",
+        "A type of measuring container for wheat",
+        "A close relative by blood"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 70,
+        "end": 109
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-sheep-wolf-and-stag-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "The Sheep lends the wheat once the Wolf promises to repay it himself",
+        "The Stag asks the Sheep for a loan backed by the Wolf, but the Sheep refuses since neither animal could be trusted to repay",
+        "The Wolf demands wheat from the Sheep and the Stag defends her",
+        "The Sheep and the Stag agree to split the wheat between them"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 413
+      },
+      "pool": "retest"
+    }
+  ]
+}
