@@ -1,0 +1,268 @@
+{
+  "id": "aesop-wolf-and-horse",
+  "title": "The Wolf and the Horse",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Wolf on his rambles came to a field of oats, but, not being able to eat them, he was passing on his way when a Horse came along. \"Look,\" said the Wolf, \"here's a fine field of oats. For your sake I have left it untouched, and I shall greatly enjoy the sound of your teeth munching the ripe grain.\" But the Horse replied, \"If wolves could eat oats, my fine friend, you would hardly have indulged your ears at the cost of your belly.\" There is no virtue in giving to others what is useless to oneself."
+  ],
+  "questions": [
+    {
+      "id": "aesop-wolf-and-horse-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Wolf come to on his rambles?",
+      "options": [
+        "A field of oats",
+        "A river full of fish",
+        "A pasture of sheep",
+        "An orchard of apple trees"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 45
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-horse-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the Wolf pass on his way from the field?",
+      "options": [
+        "He was not able to eat the oats",
+        "He heard a Horse approaching",
+        "He had already eaten his fill elsewhere",
+        "He was frightened by the farmer nearby"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 52,
+        "end": 105
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-horse-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Wolf claim he has done for the Horse's sake?",
+      "options": [
+        "Left the field of oats untouched",
+        "Guarded the field from other animals",
+        "Told the farmer the field needed watering",
+        "Warned other wolves away from it"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 184,
+        "end": 222
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-horse-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Wolf say he will enjoy?",
+      "options": [
+        "The sound of the Horse's teeth munching the ripe grain",
+        "Watching the Horse graze from a distance",
+        "Sharing the field equally with the Horse",
+        "The smell of the ripening oats"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 228,
+        "end": 297
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-horse-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Horse say the Wolf would have done if wolves could eat oats?",
+      "options": [
+        "He would not have indulged his ears at the cost of his belly",
+        "He would have shared the field with the Horse",
+        "He would have eaten the oats long before the Horse arrived",
+        "He would have warned the farmer about the field"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 324,
+        "end": 432
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-horse-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the closing line, what is there no virtue in?",
+      "options": [
+        "Giving to others what is useless to oneself",
+        "Trusting a wolf's kind words",
+        "Eating food that belongs to another",
+        "Passing by a field without stopping"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 435,
+        "end": 500
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-horse-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Horse doubt the Wolf's claim of generosity?",
+      "options": [
+        "He recognizes that the Wolf left the oats untouched only because he could not eat them anyway",
+        "He believes the Wolf secretly wants to eat the oats himself later",
+        "He thinks the Wolf is lying about ever finding the field at all",
+        "He suspects the farmer told the Wolf to guard the field"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 324,
+        "end": 432
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-horse-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "A gift that costs the giver nothing is no real proof of kindness",
+        "Wolves and horses can never truly be friends",
+        "Fields of oats are more valuable to horses than to wolves",
+        "Flattery always succeeds in winning over its target"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 435,
+        "end": 500
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-horse-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who approached the Wolf as he was leaving the field?",
+      "options": [
+        "A Horse",
+        "A Sheep",
+        "A Farmer",
+        "Another Wolf"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 111,
+        "end": 129
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-horse-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Wolf describe the field to the Horse?",
+      "options": [
+        "As a fine field of oats",
+        "As a small and poor field",
+        "As a field belonging to a farmer he knows",
+        "As a field he had guarded for weeks"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 141,
+        "end": 184
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-horse-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Horse call the Wolf when he answers him?",
+      "options": [
+        "My fine friend",
+        "My old enemy",
+        "Sir Wolf",
+        "Neighbour"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 324,
+        "end": 366
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-horse-r4",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the phrase \"indulged your ears at the cost of your belly\" imply about what the Wolf would have done if he could eat oats?",
+      "options": [
+        "He would have eaten the oats himself rather than merely praising them to the Horse",
+        "He would have listened to the Horse eat rather than joining in",
+        "He would have shared the sound of eating with the Horse equally",
+        "He would have refused to speak of the oats at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 324,
+        "end": 432
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-horse-r5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"rambles\" mean in \"on his rambles\"?",
+      "options": [
+        "Wanderings without a fixed destination",
+        "Fierce battles with rivals",
+        "Long periods of sleep",
+        "Formal visits to other animals"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 45
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-horse-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Wolf who cannot eat a field of oats pretends generosity toward a Horse, but the Horse sees the offer for what it is",
+        "A Wolf and Horse share a field of oats without any disagreement",
+        "A Horse steals oats from a field the Wolf was guarding",
+        "A Wolf tricks a Horse into leaving a field so he can eat the oats himself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 432
+      },
+      "pool": "retest"
+    }
+  ]
+}
