@@ -1,0 +1,268 @@
+{
+  "id": "aesop-dog-and-sow",
+  "title": "The Dog and the Sow",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Dog and a Sow were arguing and each claimed that its own young ones were finer than those of any other animal. \"Well,\" said the Sow at last, \"mine can see, at any rate, when they come into the world: but yours are born blind.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-dog-and-sow-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who are the two animals arguing?",
+      "options": [
+        "A Dog and a Sow",
+        "A Cat and a Sow",
+        "A Dog and a Fox",
+        "A Wolf and a Sow"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 28
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-sow-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does each of them claim about its own young ones?",
+      "options": [
+        "That they were finer than those of any other animal",
+        "That they were the noisiest of any animal",
+        "That they grew faster than any other animal's",
+        "That they ate more than any other animal's"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 33,
+        "end": 111
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-sow-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who speaks last in the argument?",
+      "options": [
+        "The Dog",
+        "The Sow",
+        "Neither, they stop arguing at the same time",
+        "A third animal who interrupts them"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 113,
+        "end": 141
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-sow-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the Sow, what can her young ones do as soon as they come into the world?",
+      "options": [
+        "Walk immediately",
+        "Find food on their own",
+        "See",
+        "Make loud sounds"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 144,
+        "end": 200
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-sow-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the Sow, in what condition are the Dog's young ones born?",
+      "options": [
+        "Blind",
+        "Deaf",
+        "Toothless",
+        "Featherless"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 206,
+        "end": 226
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-sow-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"finer\" mean in \"finer than those of any other animal\"?",
+      "options": [
+        "Thinner",
+        "Superior in quality",
+        "Quieter",
+        "More numerous"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 75,
+        "end": 111
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-sow-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Sow's reply settle the argument in her favor?",
+      "options": [
+        "She points to a concrete fact, rather than a mere opinion, that the Dog cannot deny",
+        "She shouts louder than the Dog",
+        "She threatens the Dog with her tusks",
+        "She agrees to share the credit with the Dog"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 144,
+        "end": 227
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-sow-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "A demonstrable fact carries more weight than a mere boast",
+        "Sows are always wiser than dogs",
+        "Young animals should never be compared to one another",
+        "Arguments are never worth having"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 33,
+        "end": 227
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-dog-and-sow-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what were the Dog and the Sow doing?",
+      "options": [
+        "Racing each other",
+        "Sharing a meal",
+        "Arguing",
+        "Hiding from a hunter"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 21,
+        "end": 28
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-and-sow-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what word introduces the Sow's final remark?",
+      "options": [
+        "\"Well,\"",
+        "\"Actually,\"",
+        "\"Listen,\"",
+        "\"Nonsense,\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 113,
+        "end": 141
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-and-sow-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exact contrast does the Sow draw between her young and the Dog's?",
+      "options": [
+        "Hers grow faster, his grow slower",
+        "Hers can see when born, his are born blind",
+        "Hers are bigger, his are smaller",
+        "Hers are louder, his are quieter"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 144,
+        "end": 227
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-and-sow-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"arguing\" mean in \"were arguing and each claimed\"?",
+      "options": [
+        "Racing",
+        "Disputing over who was right",
+        "Sleeping side by side",
+        "Trading food"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 21,
+        "end": 28
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-and-sow-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what is implied about simply claiming your own young are \"finer\" without offering proof?",
+      "options": [
+        "It is enough to win any argument",
+        "It carries little weight next to an actual, checkable fact",
+        "It always convinces the other animal at once",
+        "It is considered more persuasive than evidence"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 33,
+        "end": 227
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-dog-and-sow-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Dog and a Sow both boast about their young until the Sow names a real difference in the Dog's favor",
+        "A Dog and a Sow both boast about their young until the Sow names a real difference that favors her own",
+        "A Dog and a Sow agree that their young are equally fine",
+        "A Sow admits her young are inferior to the Dog's"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 227
+      },
+      "pool": "retest"
+    }
+  ]
+}
