@@ -1,0 +1,268 @@
+{
+  "id": "aesop-bear-and-fox",
+  "title": "The Bear and the Fox",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Bear was once bragging about his generous feelings, and saying how refined he was compared with other animals. (There is, in fact, a tradition that a Bear will never touch a dead body.) A Fox, who heard him talking in this strain, smiled and said, \"My friend, when you are hungry, I only wish you _would_ confine your attention to the dead and leave the living alone.\" A hypocrite deceives no one but himself."
+  ],
+  "questions": [
+    {
+      "id": "aesop-bear-and-fox-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Bear bragging about?",
+      "options": [
+        "His hunting skills",
+        "His strength compared to the Fox",
+        "His long fur coat",
+        "His generous feelings and refinement"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 16,
+        "end": 83
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bear-and-fox-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the tradition mentioned in the passage, what will a Bear never do?",
+      "options": [
+        "Touch a dead body",
+        "Climb trees",
+        "Sleep during winter",
+        "Swim across rivers"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 150,
+        "end": 185
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bear-and-fox-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who overheard the Bear's boasting?",
+      "options": [
+        "A Wolf",
+        "A Lion",
+        "A Fox",
+        "Another Bear"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 188,
+        "end": 231
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bear-and-fox-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox say he wishes the Bear would do?",
+      "options": [
+        "Share his food with the Fox",
+        "Confine his attention to the dead and leave the living alone",
+        "Stop bragging in public",
+        "Teach the Fox how to hunt"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 307,
+        "end": 368
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bear-and-fox-f5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"refined\" mean in \"how refined he was\"?",
+      "options": [
+        "Cultured and well-mannered",
+        "Physically strong",
+        "Extremely hungry",
+        "Skilled at climbing"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 65,
+        "end": 83
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bear-and-fox-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"strain\" mean in \"talking in this strain\"?",
+      "options": [
+        "A physical injury",
+        "A type of melody",
+        "A heavy burden",
+        "A manner or style of speaking"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 209,
+        "end": 231
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bear-and-fox-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Fox's remark a pointed criticism of the Bear's boast?",
+      "options": [
+        "It proves the Bear has never actually met a dead body",
+        "It shows the Fox is jealous of the Bear's reputation",
+        "It suggests the Bear's claim to refinement means little since he still preys on living creatures",
+        "It reveals the Fox wants to become a bear"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 307,
+        "end": 368
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bear-and-fox-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Bears are more dangerous than foxes",
+        "Claiming a virtue does not make it true if one's actions say otherwise",
+        "Foxes should avoid talking to bears",
+        "Refinement matters more than honesty"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 371,
+        "end": 410
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-bear-and-fox-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Bear compare himself to other animals?",
+      "options": [
+        "He said he was larger than other animals",
+        "He said he was faster than other animals",
+        "He said he was more refined than other animals",
+        "He said he was older than other animals"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 65,
+        "end": 111
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bear-and-fox-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox do just before speaking to the Bear?",
+      "options": [
+        "Growled",
+        "Ran away",
+        "Bowed",
+        "Smiled"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 233,
+        "end": 248
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bear-and-fox-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does the Fox address the Bear when he speaks?",
+      "options": [
+        "\"Your Majesty\"",
+        "\"My friend\"",
+        "\"Old bear\"",
+        "\"Neighbor\""
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 251,
+        "end": 281
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bear-and-fox-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"confine\" mean in \"confine your attention to the dead\"?",
+      "options": [
+        "To limit or restrict",
+        "To imprison",
+        "To celebrate",
+        "To ignore completely"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 307,
+        "end": 341
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bear-and-fox-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the closing line \"A hypocrite deceives no one but himself\" suggest about the Bear?",
+      "options": [
+        "The Bear has successfully convinced every other animal of his refinement",
+        "The Bear is unaware that a Fox is listening to him",
+        "The Bear plans to stop hunting living animals",
+        "The Bear's claims of refinement do not change his true nature, whatever he tells himself"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 371,
+        "end": 410
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-bear-and-fox-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Fox and a Bear compete to see who is more refined",
+        "A Bear proves his refinement by refusing to eat a dead body in front of the Fox",
+        "A Bear boasts of his refinement, but a Fox points out that he still preys on the living, exposing the boast as hollow",
+        "A Fox teaches a Bear how to hunt more humanely"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 307,
+        "end": 368
+      },
+      "pool": "retest"
+    }
+  ]
+}
