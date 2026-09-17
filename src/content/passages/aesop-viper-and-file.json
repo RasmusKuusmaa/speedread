@@ -1,0 +1,268 @@
+{
+  "id": "aesop-viper-and-file",
+  "title": "The Viper and the File",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Viper entered a carpenter's shop, and went from one to another of the tools, begging for something to eat. Among the rest, he addressed himself to the File, and asked for the favour of a meal. The File replied in a tone of pitying contempt, \"What a simpleton you must be if you imagine you will get anything from me, who invariably take from every one and never give anything in return.\" The covetous are poor givers."
+  ],
+  "questions": [
+    {
+      "id": "aesop-viper-and-file-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the Viper enter?",
+      "options": [
+        "A blacksmith's forge",
+        "A farmer's barn",
+        "A miller's shed",
+        "A carpenter's shop"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 34
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-viper-and-file-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was the Viper doing as he moved among the tools?",
+      "options": [
+        "Begging for something to eat",
+        "Sharpening his fangs",
+        "Looking for a place to hide",
+        "Searching for a way out"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 40,
+        "end": 107
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-viper-and-file-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, which tool did the Viper ask for the favour of a meal?",
+      "options": [
+        "The Hammer",
+        "The File",
+        "The Saw",
+        "The Chisel"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 125,
+        "end": 193
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-viper-and-file-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, in what tone did the File reply to the Viper?",
+      "options": [
+        "Warm and welcoming",
+        "Fearful and trembling",
+        "Polite indifference",
+        "Pitying contempt"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 195,
+        "end": 241
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-viper-and-file-f5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"simpleton\" mean in \"What a simpleton you must be\"?",
+      "options": [
+        "A generous person",
+        "A dangerous enemy",
+        "A foolish or gullible person",
+        "A skilled craftsman"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 244,
+        "end": 272
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-viper-and-file-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"covetous\" mean in \"The covetous are poor givers\"?",
+      "options": [
+        "Extremely generous",
+        "Greedy and grasping",
+        "Easily frightened",
+        "Skilled at bargaining"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 390,
+        "end": 418
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-viper-and-file-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is it especially foolish for the Viper to expect food from the File?",
+      "options": [
+        "A file's very nature is to take material away, never to provide anything",
+        "The File is too small to notice him",
+        "The File secretly dislikes vipers",
+        "The File already gave away all its food"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 319,
+        "end": 387
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-viper-and-file-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement, made explicit at the end of the passage, best captures the point of the fable?",
+      "options": [
+        "Carpenters should keep a closer watch on their tools",
+        "Tools are more useful than food",
+        "The covetous are poor givers",
+        "Vipers should never enter buildings"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 390,
+        "end": 418
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-viper-and-file-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Viper do before addressing the File?",
+      "options": [
+        "He slept beside the tools overnight",
+        "He attacked the Hammer first",
+        "He went from one tool to another, begging",
+        "He hid inside a toolbox"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 40,
+        "end": 107
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-viper-and-file-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exactly did the Viper ask the File for?",
+      "options": [
+        "Directions out of the shop",
+        "A place to sleep",
+        "Protection from the carpenter",
+        "The favour of a meal"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 163,
+        "end": 193
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-viper-and-file-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the File say it invariably does?",
+      "options": [
+        "Shares equally with every tool",
+        "Takes from everyone and never gives in return",
+        "Gives to whoever asks first",
+        "Refuses to work at all"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 319,
+        "end": 387
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-viper-and-file-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"invariably\" mean in \"who invariably take from every one\"?",
+      "options": [
+        "Always, without exception",
+        "Occasionally",
+        "Secretly",
+        "Reluctantly"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 319,
+        "end": 353
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-viper-and-file-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the File's blunt reply reveal about it, compared to a hypocrite?",
+      "options": [
+        "It secretly wants to help the Viper but cannot",
+        "It is ashamed of how it treats others",
+        "It plans to change its ways after this encounter",
+        "It openly admits its own selfish nature rather than pretending to be generous"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 319,
+        "end": 387
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-viper-and-file-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Viper enters a shop and easily gets fed by a friendly Hammer",
+        "A carpenter chases a Viper out of his shop",
+        "A hungry Viper begs a File for food, but the File bluntly says it only takes and never gives",
+        "A File begs a Viper for food and is refused"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 319,
+        "end": 387
+      },
+      "pool": "retest"
+    }
+  ]
+}
