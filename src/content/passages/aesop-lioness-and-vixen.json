@@ -1,0 +1,268 @@
+{
+  "id": "aesop-lioness-and-vixen",
+  "title": "The Lioness and the Vixen",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Lioness and a Vixen were talking together about their young, as mothers will, and saying how healthy and well-grown they were, and what beautiful coats they had, and how they were the image of their parents. \"My litter of cubs is a joy to see,\" said the Fox; and then she added, rather maliciously, \"But I notice you never have more than one.\" \"No,\" said the Lioness grimly, \"but that one's a lion.\" Quality, not quantity."
+  ],
+  "questions": [
+    {
+      "id": "aesop-lioness-and-vixen-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who are the two animals talking together?",
+      "options": [
+        "A Tigress and a Wolf",
+        "A Lioness and a Bear",
+        "A Lioness and a Vixen",
+        "A Vixen and a Panther"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 61
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lioness-and-vixen-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the two mothers say about their young?",
+      "options": [
+        "That they were sickly and small",
+        "That they looked nothing like their parents",
+        "That they refused to eat",
+        "That they were healthy, well-grown, and the image of their parents"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 91,
+        "end": 208
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lioness-and-vixen-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox say about her litter of cubs?",
+      "options": [
+        "That it is too large to manage",
+        "That it is a joy to see",
+        "That it is smaller than the Lioness's",
+        "That it looks weak"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 211,
+        "end": 244
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lioness-and-vixen-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox point out about the Lioness, rather maliciously?",
+      "options": [
+        "That she never has more than one cub",
+        "That her cub is smaller than a fox cub",
+        "That she has no cubs at all",
+        "That her cub has an ugly coat"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 306,
+        "end": 343
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lioness-and-vixen-f5",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"litter\" mean in \"my litter of cubs\"?",
+      "options": [
+        "Rubbish left on the ground",
+        "A type of stretcher",
+        "A group of animal young born at one time",
+        "A nesting material"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 211,
+        "end": 244
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lioness-and-vixen-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"maliciously\" mean in \"she added, rather maliciously\"?",
+      "options": [
+        "Cheerfully",
+        "Quietly",
+        "Honestly",
+        "With an intent to hurt or provoke"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 270,
+        "end": 299
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lioness-and-vixen-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why does the Lioness's reply, \"but that one's a lion,\" work as an effective comeback?",
+      "options": [
+        "It proves the Lioness has more cubs than the Fox",
+        "It suggests that one exceptional offspring outweighs having many ordinary ones",
+        "It shows the Lioness cannot count her own cubs",
+        "It admits that the Fox's cubs are superior"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 378,
+        "end": 399
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lioness-and-vixen-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable, as its closing line makes explicit?",
+      "options": [
+        "Quality, not quantity, is what truly counts",
+        "Quantity always matters more than quality",
+        "Foxes are wiser than lions",
+        "Mothers should never compare their children"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 402,
+        "end": 424
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-lioness-and-vixen-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does it say the two mothers do \"as mothers will\"?",
+      "options": [
+        "Argue over territory",
+        "Compare their young",
+        "Hunt together",
+        "Groom each other's fur"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 27,
+        "end": 78
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lioness-and-vixen-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does it say about the coats of their young?",
+      "options": [
+        "Ragged",
+        "Colorless",
+        "Unusually short",
+        "Beautiful"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 133,
+        "end": 162
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lioness-and-vixen-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how does it describe the way the Lioness responds to the Fox's remark?",
+      "options": [
+        "Cheerfully",
+        "Nervously",
+        "Grimly",
+        "Apologetically"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 352,
+        "end": 375
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lioness-and-vixen-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"grimly\" mean in \"said the Lioness grimly\"?",
+      "options": [
+        "In a stern or humorless manner",
+        "In a joyful tone",
+        "In a confused way",
+        "In a whisper"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 352,
+        "end": 375
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lioness-and-vixen-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what does the Lioness's grim tone suggest about how she takes the Fox's jab?",
+      "options": [
+        "She finds it amusing and laughs along",
+        "She is too distracted to respond properly",
+        "She agrees completely with the Fox",
+        "She takes it seriously enough to give a pointed, serious reply"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 352,
+        "end": 375
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-lioness-and-vixen-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Lioness and a Fox argue over whose cubs have prettier coats",
+        "A Fox mocks a Lioness for having only one cub, but the Lioness replies that her one cub is a lion, making the point that quality outweighs quantity",
+        "A Fox and a Lioness raise their cubs together",
+        "A Lioness admits the Fox's cubs are better than her own"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 378,
+        "end": 399
+      },
+      "pool": "retest"
+    }
+  ]
+}
