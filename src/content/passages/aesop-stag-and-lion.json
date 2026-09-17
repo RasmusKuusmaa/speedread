@@ -1,0 +1,268 @@
+{
+  "id": "aesop-stag-and-lion",
+  "title": "The Stag and the Lion",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Stag was chased by the hounds, and took refuge in a cave, where he hoped to be safe from his pursuers. Unfortunately the cave contained a Lion, to whom he fell an easy prey. \"Unhappy that I am,\" he cried, \"I am saved from the power of the dogs only to fall into the clutches of a Lion.\" Out of the frying-pan into the fire."
+  ],
+  "questions": [
+    {
+      "id": "aesop-stag-and-lion-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what was chasing the Stag?",
+      "options": [
+        "The hounds",
+        "A pack of wolves",
+        "A hunter on horseback",
+        "A herd of other stags"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 31
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-and-lion-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where did the Stag take refuge?",
+      "options": [
+        "In a cave",
+        "Up a tree",
+        "Across a river",
+        "In a thicket of bushes"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 37,
+        "end": 103
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-and-lion-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Stag hope the cave would provide?",
+      "options": [
+        "Safety from his pursuers",
+        "Food for the winter",
+        "A place to rest for the night",
+        "Shelter from a storm"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 37,
+        "end": 103
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-and-lion-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the cave actually contain?",
+      "options": [
+        "A Lion",
+        "A pack of hounds",
+        "Another Stag",
+        "Nothing at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 105,
+        "end": 174
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-and-lion-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Stag cry out as he is caught?",
+      "options": [
+        "\"Unhappy that I am\"",
+        "\"I should have kept running\"",
+        "\"Someone save me\"",
+        "\"This cave is cursed\""
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 176,
+        "end": 205
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-and-lion-f6",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what phrase is given as the fable's moral?",
+      "options": [
+        "Out of the frying-pan into the fire",
+        "A stag in the hand is worth two in the bush",
+        "Look before you leap",
+        "Better safe than sorry"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 289,
+        "end": 325
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-and-lion-f7",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"pursuers\" mean in \"safe from his pursuers\"?",
+      "options": [
+        "Those chasing after him",
+        "Those hiding from him",
+        "Those feeding him",
+        "Those guarding the cave"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 37,
+        "end": 103
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-and-lion-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Escaping one danger can lead straight into a worse one",
+        "Caves are never a safe place to hide from hounds",
+        "Lions are always more dangerous than hounds",
+        "It is better to face hounds than to hide at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 208,
+        "end": 325
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-stag-and-lion-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what word describes what the Stag did upon reaching the cave?",
+      "options": [
+        "Took refuge",
+        "Fell asleep",
+        "Turned back",
+        "Called for help"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 37,
+        "end": 103
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-stag-and-lion-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Stag say he is saved from, only to fall into something worse?",
+      "options": [
+        "The power of the dogs",
+        "The heat of the sun",
+        "A raging river",
+        "A hunter's arrow"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 208,
+        "end": 286
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-stag-and-lion-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Stag say he falls into?",
+      "options": [
+        "The clutches of a Lion",
+        "A deep pit",
+        "A hunter's trap",
+        "A river current"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 208,
+        "end": 286
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-stag-and-lion-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"refuge\" mean in \"took refuge in a cave\"?",
+      "options": [
+        "A place of shelter or safety",
+        "A place for storing food",
+        "A place of punishment",
+        "A place for hunting"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 42,
+        "end": 48
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-stag-and-lion-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why is the Stag's fate especially bitter?",
+      "options": [
+        "The very place he chose for safety turns out to hold a greater danger than the one he was fleeing",
+        "He was caught by the hounds before he even reached the cave",
+        "The Lion had been chasing him the whole time as well",
+        "He could have easily defeated the Lion if he had tried"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 105,
+        "end": 286
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-stag-and-lion-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Stag fleeing hounds hides in a cave, only to be caught by a Lion waiting inside",
+        "A Stag outruns both the hounds and a Lion to reach safety",
+        "A Lion protects a Stag from a pack of hounds",
+        "A Stag and a Lion share a cave peacefully to avoid the hounds"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 286
+      },
+      "pool": "retest"
+    }
+  ]
+}
