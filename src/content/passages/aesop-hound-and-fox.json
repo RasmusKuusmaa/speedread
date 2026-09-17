@@ -1,0 +1,268 @@
+{
+  "id": "aesop-hound-and-fox",
+  "title": "The Hound and the Fox",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Hound, roaming in the forest, spied a lion, and being well used to lesser game, gave chase, thinking he would make a fine quarry. Presently the lion perceived that he was being pursued; so, stopping short, he rounded on his pursuer and gave a loud roar. The Hound immediately turned tail and fled. A Fox, seeing him running away, jeered at him and said, \"Ho! ho! There goes the coward who chased a lion and ran away the moment he roared!\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-hound-and-fox-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Hound spy while roaming in the forest?",
+      "options": [
+        "A fox",
+        "A deer",
+        "A lion",
+        "A rabbit"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 44
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hound-and-fox-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, why did the Hound give chase to the lion?",
+      "options": [
+        "He wanted to protect his territory",
+        "He was ordered to by his master",
+        "He mistook the lion for another hound",
+        "He was used to lesser game and thought the lion would make a fine quarry"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 50,
+        "end": 130
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hound-and-fox-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the lion do once he realized he was being pursued?",
+      "options": [
+        "He climbed a tree to escape",
+        "He stopped, turned on his pursuer, and gave a loud roar",
+        "He ran even faster to escape",
+        "He hid behind a rock"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 192,
+        "end": 254
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hound-and-fox-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the Hound do after the lion roared?",
+      "options": [
+        "He immediately turned tail and fled",
+        "He roared back at the lion",
+        "He fainted on the spot",
+        "He kept chasing the lion"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 256,
+        "end": 298
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hound-and-fox-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who saw the Hound running away and jeered at him?",
+      "options": [
+        "A Fox",
+        "Another Hound",
+        "A rustic",
+        "The lion himself"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 300,
+        "end": 345
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hound-and-fox-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"quarry\" mean in \"he would make a fine quarry\"?",
+      "options": [
+        "A hunting companion",
+        "A stone pit",
+        "An animal being hunted",
+        "A hiding place"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 94,
+        "end": 130
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hound-and-fox-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Hound misjudge the lion as easy prey?",
+      "options": [
+        "He was accustomed to hunting only lesser game and did not recognize the danger",
+        "He had defeated a lion once before",
+        "He was told by the Fox that lions were harmless",
+        "He mistook the lion for a large dog"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 50,
+        "end": 130
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hound-and-fox-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Foxes are always cleverer than hounds",
+        "Lions should never be provoked in the forest",
+        "Boldness against an opponent one has misjudged quickly collapses once that opponent turns to fight",
+        "Hounds are naturally cowardly animals"
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 192,
+        "end": 298
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-hound-and-fox-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what kind of game was the Hound well used to hunting?",
+      "options": [
+        "Lesser game",
+        "Only lions",
+        "Birds only",
+        "No game at all"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 50,
+        "end": 92
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hound-and-fox-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what exact words does the Fox use to mock the Hound?",
+      "options": [
+        "\"You should have known better\"",
+        "\"There goes the fool who forgot his courage\"",
+        "\"Ho! ho! There goes the coward who chased a lion and ran away the moment he roared!\"",
+        "\"A hound should never chase a lion\""
+      ],
+      "answerIndex": 2,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 356,
+        "end": 440
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hound-and-fox-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Fox call the Hound?",
+      "options": [
+        "A fool",
+        "A traitor",
+        "A weakling",
+        "A coward"
+      ],
+      "answerIndex": 3,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 356,
+        "end": 440
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hound-and-fox-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"jeered\" mean in \"jeered at him and said\"?",
+      "options": [
+        "Called out to for help",
+        "Mocked with scornful words",
+        "Warned quietly",
+        "Congratulated warmly"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 300,
+        "end": 345
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hound-and-fox-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what caused the Hound's sudden change from pursuer to fugitive?",
+      "options": [
+        "The lion's roar revealed a real danger the Hound had not expected",
+        "The Fox startled the Hound from behind",
+        "The Hound grew tired from the long chase",
+        "Another hound called him back"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 142,
+        "end": 298
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-hound-and-fox-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Hound chases a lion, flees the moment it roars, and is mocked by a Fox for his cowardice",
+        "A Fox and a Hound team up to chase a lion together",
+        "A lion chases a Hound out of the forest",
+        "A Hound defeats a lion and is praised by a Fox"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 0,
+        "end": 345
+      },
+      "pool": "retest"
+    }
+  ]
+}
