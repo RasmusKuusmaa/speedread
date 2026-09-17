@@ -1,0 +1,268 @@
+{
+  "id": "aesop-wolf-and-his-shadow",
+  "title": "The Wolf and His Shadow",
+  "language": "en",
+  "source": "https://www.gutenberg.org/ebooks/11339",
+  "attribution": "Excerpted verbatim from Aesop's Fables, translated by V. S. Vernon Jones (1912), via Project Gutenberg.",
+  "licence": "Public domain",
+  "textType": "narrative",
+  "domain": "literature",
+  "calibrationOnly": false,
+  "body": [
+    "A Wolf, who was roaming about on the plain when the sun was getting low in the sky, was much impressed by the size of his shadow, and said to himself, \"I had no idea I was so big. Fancy my being afraid of a lion! Why, I, not he, ought to be King of the beasts\"; and, heedless of danger, he strutted about as if there could be no doubt at all about it. Just then a lion sprang upon him and began to devour him. \"Alas,\" he cried, \"had I not lost sight of the facts, I shouldn't have been ruined by my fancies.\""
+  ],
+  "questions": [
+    {
+      "id": "aesop-wolf-and-his-shadow-f1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, where was the Wolf roaming when the sun was getting low?",
+      "options": [
+        "Along a riverbank",
+        "On the plain",
+        "Inside a dense forest",
+        "Near a mountain pass"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 16,
+        "end": 82
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-his-shadow-f2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what impressed the Wolf?",
+      "options": [
+        "The roar of a nearby lion",
+        "The size of his shadow",
+        "The number of other wolves nearby",
+        "The speed of the setting sun"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 84,
+        "end": 128
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-his-shadow-f3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, who does the Wolf say ought to be King of the beasts?",
+      "options": [
+        "The lion",
+        "Himself",
+        "No one in particular",
+        "Whichever animal is bravest"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 218,
+        "end": 259
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-his-shadow-f4",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, how did the Wolf behave after admiring his shadow?",
+      "options": [
+        "He hid himself carefully",
+        "He strutted about, heedless of danger",
+        "He ran back to his den at once",
+        "He called out to warn other animals"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 267,
+        "end": 350
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-his-shadow-f5",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what happened just after the Wolf strutted about?",
+      "options": [
+        "A lion sprang upon him and began to devour him",
+        "Night fell and he lost his way",
+        "Another wolf challenged him",
+        "His shadow suddenly vanished"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 352,
+        "end": 408
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-his-shadow-f6",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"heedless\" mean in \"heedless of danger, he strutted about\"?",
+      "options": [
+        "Fully aware of and cautious about",
+        "Not paying attention to or careless of",
+        "Terrified of and fleeing from",
+        "Curious about and investigating"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 267,
+        "end": 304
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-his-shadow-f7",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, what mistake does the Wolf admit to making in his final words?",
+      "options": [
+        "He trusted the lion when he should not have",
+        "He judged his own importance by an exaggerated illusion instead of the real facts",
+        "He wandered too far from his pack",
+        "He waited too long to attack the lion first"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 429,
+        "end": 506
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-his-shadow-f8",
+      "taxonomy": "main_idea",
+      "prompt": "Which statement best captures the point of the fable?",
+      "options": [
+        "Shadows are always more dangerous than they appear",
+        "Letting a flattering illusion replace reality can lead to ruin",
+        "Lions are naturally weaker than wolves at sunset",
+        "It is safest to never leave one's den after dark"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 429,
+        "end": 506
+      },
+      "pool": "first"
+    },
+    {
+      "id": "aesop-wolf-and-his-shadow-r1",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what had the Wolf previously been afraid of?",
+      "options": [
+        "A lion",
+        "A hunter",
+        "A pack of dogs",
+        "Fire"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 180,
+        "end": 212
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-his-shadow-r2",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what does the Wolf say he had no idea about?",
+      "options": [
+        "That lions were nearby",
+        "That he was so big",
+        "That the sun was setting",
+        "That his pack had left him"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 152,
+        "end": 178
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-his-shadow-r3",
+      "taxonomy": "literal",
+      "prompt": "According to the passage, what did the lion do to the Wolf?",
+      "options": [
+        "Chased him away",
+        "Sprang upon him and began to devour him",
+        "Warned him to leave the plain",
+        "Ignored him completely"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 362,
+        "end": 408
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-his-shadow-r4",
+      "taxonomy": "vocabulary",
+      "prompt": "As the passage uses it, what does \"fancies\" mean in \"I shouldn't have been ruined by my fancies\"?",
+      "options": [
+        "Expensive possessions",
+        "Mistaken imaginings or false impressions",
+        "Loyal friends",
+        "Careful plans"
+      ],
+      "answerIndex": 1,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 464,
+        "end": 506
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-his-shadow-r5",
+      "taxonomy": "inference",
+      "prompt": "Based on the passage, why did the Wolf's shadow give him a false sense of his own importance?",
+      "options": [
+        "The low sun stretched his shadow far larger than his actual size",
+        "Another wolf told him he looked bigger than usual",
+        "He compared his shadow to a smaller lion's shadow",
+        "He had grown genuinely larger that day"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 16,
+        "end": 128
+      },
+      "pool": "retest"
+    },
+    {
+      "id": "aesop-wolf-and-his-shadow-r6",
+      "taxonomy": "main_idea",
+      "prompt": "Which of these best summarizes what happens in the passage?",
+      "options": [
+        "A Wolf, misled by his own long shadow into thinking himself mighty, grows careless and is killed by a lion",
+        "A Wolf successfully defeats a lion after admiring his shadow",
+        "A Wolf's shadow frightens away a lion before it can attack",
+        "A Wolf learns to hunt more effectively by studying his shadow"
+      ],
+      "answerIndex": 0,
+      "evidence": {
+        "paragraphIndex": 0,
+        "start": 267,
+        "end": 408
+      },
+      "pool": "retest"
+    }
+  ]
+}
